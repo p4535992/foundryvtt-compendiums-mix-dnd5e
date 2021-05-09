@@ -3,11 +3,38 @@
   "title": "FoundryVTT Compendiums Mix",
   "description": "Compendiums collection from KoboldOGL, Summoner, Supplement Bestiary",
   "version": "1.0.0",
-  "author": "Deuce, Parker (sparkcities#2000), p4535992",
-  "manifest": "",
-  "download": "",
+  "author": "4535992",
+  "type": "module",
+  "socket": true,
+  "includes": [
+    "./assets/**",
+    "./lang/**",
+    "./scripts/**",
+    "./styles/**",
+    "./templates/**",
+    "./module.json",
+    "./README.md",
+    "./icons/**",
+    "./packs/**"
+  ],
+  "media": [
+    {
+      "type": "icon",
+      "location": ""
+    },
+    {
+      "type": "cover",
+      "location": ""
+    },
+    {
+      "type": "screenshot",
+      "location": ""
+    }
+  ],
+  "languages": [],
   "systems": ["dnd5e"],
   "scripts": ["fvtt-compendiums-mix-dnd5e.js"],
+  "esmodules": [],
   "styles": [],
   "packs": [
     {
@@ -44,7 +71,7 @@
     },
     {
 			"name": "bestiary",
-			"label": "CM -Supplemental Bestiary",
+			"label": "CM - Supplemental Bestiary",
 			"system": "dnd5e",
 			"path": "packs/bestiary.db",
       "module" : "fvtt-compendiums-mix-dnd5e",
@@ -52,14 +79,14 @@
 		},
     {
       "name" : "summoner-actors",
-      "label" : "CM -Summoner Monsters",
+      "label" : "CM - Summoner Monsters",
       "path" : "packs/summoner.db",
       "module" : "fvtt-compendiums-mix-dnd5e",
       "entity" : "Actor"
     },
     {
       "name" : "summoner-macros",
-      "label" : "CM -Summoner Macros",
+      "label" : "CM - Summoner Macros",
       "path" : "packs/summoner-macros.db",
       "module" : "fvtt-compendiums-mix-dnd5e",
       "entity" : "Macro"
@@ -73,6 +100,12 @@
 			"entity": "Actor"
 		}
   ],
+  "url": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e",
+  "manifest": "https://raw.githubusercontent.com/p4535992/foundryvtt-compendiums-mix-dnd5e/main/src/module.json",
+  "download": "https://raw.githubusercontent.com/p4535992/foundryvtt-compendiums-mix-dnd5e/main/package/foundryvtt-arms-reach-v1.0.0.zip",
   "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "0.7.9"
+  "compatibleCoreVersion": "0.7.9",
+  "changelog": "https://raw.githubusercontent.com/p4535992/foundryvtt-compendiums-mix-dnd5e/main/changelog.md",
+  "bugs": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/issues",
+  "allowBugReporter": true
 }
