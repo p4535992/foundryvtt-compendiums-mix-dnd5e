@@ -1,0 +1,78 @@
+{
+  "name": "foundryvtt-compendiums-mix-dnd5e",
+  "title": "FoundryVTT Compendiums Mix",
+  "description": "Compendiums collection from KoboldOGL, Summoner, Supplement Bestiary",
+  "version": "1.0.0",
+  "author": "Deuce, Parker (sparkcities#2000), p4535992",
+  "manifest": "",
+  "download": "",
+  "systems": ["dnd5e"],
+  "scripts": ["fvtt-compendiums-mix-dnd5e.js"],
+  "styles": [],
+  "packs": [
+    {
+      "name": "koboldpressmonsters",
+      "label": "CM - OGL Kobold Press Monsters",
+      "system": "dnd5e",
+      "path": "packs/KPmonsters.db",
+      "module" : "fvtt-compendiums-mix-dnd5e",
+      "entity": "Actor"
+    },
+    {
+      "name": "koboldpressspells",
+      "label": "CM - OGL Kobold Press Spells",
+      "system": "dnd5e",
+      "path": "packs/KPspells.db",
+      "module" : "fvtt-compendiums-mix-dnd5e",
+      "entity": "Item"
+    },
+    {
+      "name": "koboldpressmonsterswithimages",
+      "label": "CM - OGL Kobold Press Monsters with images",
+      "system": "dnd5e",
+      "path": "packs/KPmonstersWithImages.db",
+      "module" : "fvtt-compendiums-mix-dnd5e",
+      "entity": "Actor"
+    },
+    {
+      "name": "koboldpressspellswithimages",
+      "label": "CM - OGL Kobold Press Spells with images",
+      "system": "dnd5e",
+      "path": "packs/KPspellsWithImages.db",
+      "module" : "fvtt-compendiums-mix-dnd5e",
+      "entity": "Item"
+    },
+    {
+			"name": "bestiary",
+			"label": "CM -Supplemental Bestiary",
+			"system": "dnd5e",
+			"path": "packs/bestiary.db",
+      "module" : "fvtt-compendiums-mix-dnd5e",
+			"entity": "Actor"
+		},
+    {
+      "name" : "summoner-actors",
+      "label" : "CM -Summoner Monsters",
+      "path" : "packs/summoner.db",
+      "module" : "fvtt-compendiums-mix-dnd5e",
+      "entity" : "Actor"
+    },
+    {
+      "name" : "summoner-macros",
+      "label" : "CM -Summoner Macros",
+      "path" : "packs/summoner-macros.db",
+      "module" : "fvtt-compendiums-mix-dnd5e",
+      "entity" : "Macro"
+    },
+    {
+			"name": "bestiary",
+			"label": "CM - Bestiary",
+			"system": "dnd5e",
+			"path": "packs/bestiary.db",
+      "module" : "fvtt-compendiums-mix-dnd5e",
+			"entity": "Actor"
+		}
+  ],
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.7.9"
+}
