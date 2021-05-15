@@ -182,6 +182,7 @@ function buildSASS() {
  */
 async function copyFiles() {
 	const statics = [
+		'packs',
 		'lang',
 		'fonts',
 		'assets',
@@ -213,7 +214,7 @@ function buildWatch() {
 	gulp.watch('src/**/*.mjs', { ignoreInitial: false }, buildMJS);
 	gulp.watch('src/**/*.css', { ignoreInitial: false }, buildCSS);
 	gulp.watch(
-		['src/fonts', 'src/lang', 'src/templates', 'src/*.json'],
+		['src/fonts', 'src/packs', 'src/lang', 'src/templates', 'src/*.json'],
 		{ ignoreInitial: false },
 		copyFiles
 	);
@@ -234,6 +235,7 @@ async function clean() {
 	// If the project uses TypeScript
 	if (fs.existsSync(path.join('src', `${name}.ts`))) {
 		files.push(
+			'packs',
 			'lang',
 			'templates',
 			'assets',
