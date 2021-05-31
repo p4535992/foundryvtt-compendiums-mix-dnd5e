@@ -10,6 +10,7 @@ This is a collection of some deprecated or abbandonded project compendiums:
 - [Summoner](https://github.com/Jonwh25/summoner/network/members)
 - [Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary)
 - [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
+- [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
 
 ## Installation
 
@@ -289,6 +290,7 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [Summoner](https://github.com/Jonwh25/summoner/network/members)
 - [Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary)
 - [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
+- [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
 
 ## License
 
