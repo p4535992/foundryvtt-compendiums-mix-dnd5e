@@ -1,9 +1,9 @@
 
-![](https://img.shields.io/badge/Foundry-v0.7.9-informational)
+![](https://img.shields.io/badge/Foundry-v0.8.6-informational)
 
 # FoundryVTT Compendiums Mix
   
-This is a collection of some deprecated or abbandonded project compendiums:
+This is a collection of some public projects compendiums:
 
 - [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json)
 - [Kobold Press OGL Compendium with images]
@@ -11,6 +11,7 @@ This is a collection of some deprecated or abbandonded project compendiums:
 - [Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary)
 - [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
 - [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
+- [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
 
 ## Installation
 
@@ -274,6 +275,13 @@ The damages types are:
 |14-16|Minor headaches. You have disadvantage on Wisdom checks. Magical healing of 6th level or higher, such as heal and regenerate, cures the headaches. Alternately, they will resolve on their own in two weeks.|
 |17-20|Severe bruising. You suffer severe bruising over an extensive portion of your anatomy. Anytime you suffer bludgeoning or force damage, you suffer an additional point of bludgeoning or force damage. The bruising heals if you receive magical healing. Alternately, it heals on its own in 2 week.|
 
+## 1001 Fish
+
+A rollable table of 1001 fish, created by burkenhare #4761 (Discord) 
+
+"Typical use:
+PC wants to roll for a survival check, after the party makes camp alongside a river. The GM makes them roll on the d1000 fish table to determine what kind of fish they catch (thank god there is such a thing, or else it would be trout every time!) .  They roll a 210, why, it's a cownose ray! But every adventurer knows that the cownose ray is a saltwater animal, that could only mean one thing.... FLOOD!
+So you see, it can be used in many ways to contribute to the plot." - Burkenhare
 
 ## [Changelog](./changelog.md)
 
@@ -291,6 +299,7 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary)
 - [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
 - [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
+- [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
 
 ## License
 
