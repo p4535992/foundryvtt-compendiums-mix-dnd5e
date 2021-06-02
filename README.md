@@ -12,6 +12,7 @@ This is a collection of some public projects compendiums:
 - [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
 - [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
 - [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
+- [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons)
 
 ## Installation
 
@@ -300,6 +301,7 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
 - [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
 - [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
+- [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons)
 
 ## License
 
