@@ -13,6 +13,8 @@ This is a collection of some public projects compendiums:
 - [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
 - [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
 - [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons)
+- [um5-ultramodern-ogl](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)
+- [Ultramodern OGL/SRD (UM5)by Dias Ex Machina Games](https://github.com/sparkcity/fvtt-me5e)
 
 ## Installation
 
@@ -284,6 +286,32 @@ A rollable table of 1001 fish, created by burkenhare #4761 (Discord)
 PC wants to roll for a survival check, after the party makes camp alongside a river. The GM makes them roll on the d1000 fish table to determine what kind of fish they catch (thank god there is such a thing, or else it would be trout every time!) .  They roll a 210, why, it's a cownose ray! But every adventurer knows that the cownose ray is a saltwater animal, that could only mean one thing.... FLOOD!
 So you see, it can be used in many ways to contribute to the plot." - Burkenhare
 
+## um5-ultramodern-ogl
+
+Provides support for the UM5 SRD by extending the dnd5e system. UM5 is a SRD extension for 5e created by Dias Ex Machina Games, https://www.drivethrurpg.com/product/196905/Ultramodern5SRD-OGL-5th-Edition
+
+Ultramodern OGL adds modern and future tech, including a new variant human, classes, skills, and equipment to the D&D5e system.
+
+This module is wholly unaffiliated with Dias Ex Machina Games.
+
+### Compendiums:
+- UM5 Ch.1: Skills, Proficiencies, & Feats
+- UM5 Ch.2: Backgrounds
+- UM5 Ch.2: Lifepath & Life Events
+- UM5 Ch.3: Ladders
+- UM5 Ch.4: Classes
+- UM5 Ch.5: Archetypes
+- UM5 Ch.6: New Rules Summary
+- UM5 Ch.6: New Weapon Properties
+- UM5 Ch.6: Equipment
+- UM5 Ch.6: Vehicles
+- UM5 Ch.6: Exo-Armor (Mechs)
+- UM5 Ch.7: Antagonists & Enemies
+- UM5 Ch.7: Antagonist Traits
+- UM5 Modern Locations
+
+## Ultramodern OGL/SRD (UM5)by Dias Ex Machina Games
+
 ## [Changelog](./changelog.md)
 
 ## Issues
@@ -302,6 +330,8 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
 - [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
 - [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons)
+- [um5-ultramodern-ogl](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)
+- [Ultramodern OGL/SRD (UM5)by Dias Ex Machina Games](https://github.com/sparkcity/fvtt-me5e)
 
 ## License
 
