@@ -18,14 +18,21 @@ function compendiumColor() {
 
     var comps = document.getElementsByClassName("pack-title");
     for (let comp of comps) {
-        //let indexHD = comp.innerText.indexOf("H&D");
-		let indexHD = comp.innerText.indexOf("CM -");
+        let indexHD = comp.innerText.indexOf("H&D");
+		let indexCM = comp.innerText.indexOf("CM -");
         let indexDND = comp.innerText.indexOf("SRD");
+        let indexUM5 = comp.innerText.indexOf("UM5");
         if (indexHD !== -1) {
-            comp.style.color = "LightBlue";
+            comp.style.color = "LightGreen";
         }
-        if (indexDND !== -1) {
+        else if (indexDND !== -1) {
             comp.style.color = "IndianRed";
+        }
+        else if (indexUM5 !== -1) {
+            comp.style.color = "DarkOrange";
+        }
+        else if (indexCM !== -1) {
+            comp.style.color = "LightBlue";
         }
     }
 };
