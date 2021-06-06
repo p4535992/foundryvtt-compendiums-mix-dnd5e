@@ -34,9 +34,9 @@ To install this module manually:
 4.  Click 'Install' and wait for installation to complete
 5.  Don't forget to enable the module in game using the "Manage Module" button
 
-## Kobold Press OGL Compendium
+## [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json)
 
-## Summoner
+## [Summoner](https://github.com/Jonwh25/summoner/network/members)
 
 DnD5e compendium for spells like Find Familiar
 
@@ -61,7 +61,7 @@ Right now this only supports the following spells:
 * Select the creature that the player wants to summon and right click it and select import
 * Finally, assign permissions to the player so they can interact with the token.
 
-## Supplemental Bestiary Pack
+## [Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary)
 
 A module that adds homebrew creatures to your D&D 5e game.
 
@@ -70,7 +70,7 @@ A module that adds homebrew creatures to your D&D 5e game.
 This module contains additional homebrewed monsters for D&D 5E to be used in Foundry VTT.
 * Current Count: 45
 
-## FoundryVTT Lingering Injuries
+## [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
 
 Lingering Injuries by Damage Type
 
@@ -284,7 +284,9 @@ The damages types are:
 |14-16|Minor headaches. You have disadvantage on Wisdom checks. Magical healing of 6th level or higher, such as heal and regenerate, cures the headaches. Alternately, they will resolve on their own in two weeks.|
 |17-20|Severe bruising. You suffer severe bruising over an extensive portion of your anatomy. Anytime you suffer bludgeoning or force damage, you suffer an additional point of bludgeoning or force damage. The bruising heals if you receive magical healing. Alternately, it heals on its own in 2 week.|
 
-## 1001 Fish
+## [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
+
+## [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
 
 A rollable table of 1001 fish, created by burkenhare #4761 (Discord) 
 
@@ -292,7 +294,9 @@ A rollable table of 1001 fish, created by burkenhare #4761 (Discord)
 PC wants to roll for a survival check, after the party makes camp alongside a river. The GM makes them roll on the d1000 fish table to determine what kind of fish they catch (thank god there is such a thing, or else it would be trout every time!) .  They roll a 210, why, it's a cownose ray! But every adventurer knows that the cownose ray is a saltwater animal, that could only mean one thing.... FLOOD!
 So you see, it can be used in many ways to contribute to the plot." - Burkenhare
 
-## um5-ultramodern-ogl
+## [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons)
+
+## [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)
 
 Provides support for the UM5 SRD by extending the dnd5e system. UM5 is a SRD extension for 5e created by Dias Ex Machina Games, https://www.drivethrurpg.com/product/196905/Ultramodern5SRD-OGL-5th-Edition
 
@@ -316,7 +320,7 @@ This module is wholly unaffiliated with Dias Ex Machina Games.
 - UM5 Ch.7: Antagonist Traits
 - UM5 Modern Locations
 
-## Ultramodern OGL/SRD (UM5)by Dias Ex Machina Games
+## [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
 
 ## [Changelog](./changelog.md)
 
