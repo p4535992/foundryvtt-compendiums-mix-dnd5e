@@ -60,7 +60,7 @@ function compendiumColor() {
             comp.style.color = "DarkOrange";
         }
         else if (indexME5e !== -1) {
-            comp.style.color = "DarkYellow";
+            comp.style.color = "DarkTurquoise";
         }        
         else if (indexCM !== -1) {
             comp.style.color = "LightBlue";

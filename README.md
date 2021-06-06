@@ -1,20 +1,26 @@
 
 ![](https://img.shields.io/badge/Foundry-v0.8.6-informational)
 
-# FoundryVTT Compendiums Mix
+# FoundryVTT Compendiums Mix DnD5e
   
 This is a collection of some public projects compendiums:
 
 - [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json)
-- [Kobold Press OGL Compendium with images]
+- [Kobold Press OGL Compendium with images](Personal compendium with some images form the OGL Kobold Press Site)
 - [Summoner](https://github.com/Jonwh25/summoner/network/members)
 - [Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary)
 - [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
 - [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
 - [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
 - [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons)
-- [um5-ultramodern-ogl](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)
-- [Ultramodern OGL/SRD (UM5)by Dias Ex Machina Games](https://github.com/sparkcity/fvtt-me5e)
+- [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)
+- [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
+
+**this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
+
+**If any author of the original projects does not agree to use their projects on this, feel free to contact me or open an issue and I will remove the references and the code as soon as possible**
+
+The only work of this module is to import the compendium and colored the title of the compendium.
 
 ## Installation
 
@@ -323,15 +329,15 @@ Any issues, bugs, or feature requests are always welcome to be reported directly
 Thanks to anyone who helps me with this code! I appreciate the user community's feedback on this project!
 
 - [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json)
-- [Kobold Press OGL Compendium with images]
+- [Kobold Press OGL Compendium with images](Personal compendium with some images form the OGL Kobold Press Site)
 - [Summoner](https://github.com/Jonwh25/summoner/network/members)
 - [Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary)
 - [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
 - [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
 - [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
 - [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons)
-- [um5-ultramodern-ogl](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)
-- [Ultramodern OGL/SRD (UM5)by Dias Ex Machina Games](https://github.com/sparkcity/fvtt-me5e)
+- [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)
+- [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
 
 ## License
 
