@@ -49,7 +49,9 @@ function compendiumColor() {
         let indexDND = comp.innerText.indexOf("SRD");
         let indexUM5 = comp.innerText.indexOf("UM5");
         let indexME5e = comp.innerText.indexOf("ME5e");
-        
+        let indexFantasyPlant = comp.innerText.indexOf("Fantasy Plant");
+        let indexMap = comp.innerText.indexOf("Map");
+
         if (indexHD !== -1) {
             comp.style.color = "LightGreen";
         }
@@ -61,7 +63,13 @@ function compendiumColor() {
         }
         else if (indexME5e !== -1) {
             comp.style.color = "DarkTurquoise";
-        }        
+        }    
+        else if(indexFantasyPlant !== -1){
+            comp.style.color = "DarkGreen";
+        }
+        else if(indexMap !== -1){
+            comp.style.color = "DarkPurple";
+        }    
         else if (indexCM !== -1) {
             comp.style.color = "LightBlue";
         }

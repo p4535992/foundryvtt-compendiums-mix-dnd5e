@@ -15,7 +15,8 @@ This is a collection of some public projects compendiums:
 - [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons)
 - [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)
 - [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
-
+- [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
+  
 **this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
 
 **If any author of the original projects does not agree to use their projects on this, feel free to contact me or open an issue and I will remove the references and the code as soon as possible**
@@ -322,6 +323,30 @@ This module is wholly unaffiliated with Dias Ex Machina Games.
 
 ## [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
 
+## [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
+
+https://www.reddit.com/r/DnD/comments/83oupp/brodericks_compendium_plants_and_fungi_across_the/ ). I did not create any of the plants. This addon includes rolltables for the following regions as per the source material: 
+* Arctic 
+* City 
+* Coastal 
+* Desert 
+* Forest
+* Jungle 
+* Mountain 
+* Ocean 
+* Plains 
+* River 
+* Swamp 
+* Underdark/Cave
+
+Roll tables and plants are included as compendiums. Open up the roll table and select the region type your party is searching in. Results will be added to a "Found Plants" loot actor for distribution to the players.
+
+### Suggested Use
+I currently use this in my campaign to allow players to forage. If you use the included roll tables for the region(s) they are in, you can select the Generate Loot button on the table, it will create a new instance of the item on the Actor "Found Plants" in the Actors tab (it will create that loot actor if you don't have it already). 
+
+I also have Forien's Unidentified Items add-on and right click the new plant and mystify before letting the players see it/access it. You can save a copy to your items for reference if you want.
+  
+
 ## [Changelog](./changelog.md)
 
 ## Issues
@@ -342,7 +367,8 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons)
 - [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)
 - [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
-
+- [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
+  
 ## License
 
 This Foundry VTT module is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
