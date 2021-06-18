@@ -25,7 +25,15 @@ Hooks.on("init", () => {
   /* When ready							*/
   /* ------------------------------------ */
   Hooks.once('ready', () => {
+
+    // http://kpogl.wdfiles.com/local--files/home:home/module.json
+
 	CONFIG.DND5E.spellSchools['voi'] = 'Void Magic';
+
+    // https://github.com/TheDraggo/DraggosMods
+
+    CONFIG.DND5E.spellSchools['chr'] = 'Chronomancy';
+	CONFIG.DND5E.damageTypes['vile'] = 'Vile';
 
     // https://github.com/TheDraggo/GrimHollowWeaponProperties
 
