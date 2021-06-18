@@ -17,6 +17,7 @@ This is a collection of some public projects compendiums:
 - [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
 - [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
 - [Grim Hollow Weapon Properties](https://github.com/TheDraggo/GrimHollowWeaponProperties)
+- [Draggos Mod](https://github.com/TheDraggo/DraggosMods)
   
 **this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
 
@@ -370,7 +371,8 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
 - [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
 - [Grim Hollow Weapon Properties](https://github.com/TheDraggo/GrimHollowWeaponProperties)
-  
+- [Draggos Mod](https://github.com/TheDraggo/DraggosMods)
+ 
 ## License
 
 This Foundry VTT module is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
