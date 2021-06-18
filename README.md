@@ -16,6 +16,7 @@ This is a collection of some public projects compendiums:
 - [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)
 - [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
 - [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
+- [Grim Hollow Weapon Properties](https://github.com/TheDraggo/GrimHollowWeaponProperties)
   
 **this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
 
@@ -368,6 +369,7 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)
 - [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
 - [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
+- [Grim Hollow Weapon Properties](https://github.com/TheDraggo/GrimHollowWeaponProperties)
   
 ## License
 
