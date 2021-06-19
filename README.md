@@ -18,6 +18,8 @@ This is a collection of some public projects compendiums:
 - [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
 - [Grim Hollow Weapon Properties](https://github.com/TheDraggo/GrimHollowWeaponProperties)
 - [Draggos Mod](https://github.com/TheDraggo/DraggosMods)
+- [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration)
+- [Weather Effects 5e](https://github.com/orangetruth/weather-effects-5e )
   
 **this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
 
@@ -347,7 +349,30 @@ Roll tables and plants are included as compendiums. Open up the roll table and s
 I currently use this in my campaign to allow players to forage. If you use the included roll tables for the region(s) they are in, you can select the Generate Loot button on the table, it will create a new instance of the item on the Actor "Found Plants" in the Actors tab (it will create that loot actor if you don't have it already). 
 
 I also have Forien's Unidentified Items add-on and right click the new plant and mystify before letting the players see it/access it. You can save a copy to your items for reference if you want.
-  
+
+## [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration)
+
+This is an implementation of the [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://slyflourish_content.s3.us-east-1.amazonaws.com/1d20_lists.pdf).
+
+Shared on Twitter and adapted with permission.
+
+## [Weather Effects 5e](https://github.com/orangetruth/weather-effects-5e )
+
+This FoundryVTT module contains rollable tables with seasonal weather effects for 5e based on homebrew by KibblesTasty (https://www.gmbinder.com/share/-M6xAC_2zw4BzpByxO-c). You can find more homebrew by KibblesTasty at https://www.patreon.com/KibblesTasty.
+
+This module contains 3 compendiums:
+
+1. Weather Actors
+* A single Weather Effects actor with each weather condition added as a Feature. This allows weather effects to be easily clicked on and the description sent to chat. Each description has links to related weather effects, as well as buttons to roll damage and saving throws where applicable. 
+![image](https://user-images.githubusercontent.com/76987378/109440451-95a9a600-79ef-11eb-9588-55f790478a63.png)
+
+2. Weather Effects
+* An item for each weather effect, complete with links to related effects and buttons to roll damage and saving throws:
+![image](https://user-images.githubusercontent.com/76987378/109440608-19fc2900-79f0-11eb-9a91-5ba7742f233e.png)
+
+3. Weather Roll Tables
+* Rollable tables for all four seasons:
+![image](https://user-images.githubusercontent.com/76987378/109449280-440c1600-7a05-11eb-923d-8869b7a089b1.png)
 
 ## [Changelog](./changelog.md)
 
@@ -372,7 +397,9 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
 - [Grim Hollow Weapon Properties](https://github.com/TheDraggo/GrimHollowWeaponProperties)
 - [Draggos Mod](https://github.com/TheDraggo/DraggosMods)
- 
+- [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration)
+- [Weather Effects 5e](https://github.com/orangetruth/weather-effects-5e )
+
 ## License
 
 This Foundry VTT module is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).

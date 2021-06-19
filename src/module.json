@@ -2,7 +2,7 @@
   "name": "foundryvtt-compendiums-mix-dnd5e",
   "title": "FoundryVTT Compendiums Mix",
   "description": "Compendiums collection from KoboldOGL, Summoner, Supplement Bestiary, ecc.",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "author": "4535992",
   "type": "module",
   "socket": true,
@@ -434,15 +434,52 @@
       "path": "packs/fantasyplants-plantrolltables.db",
       "entity": "RollTable",
       "module" : "foundryvtt-compendiums-mix-dnd5e"
+    },
+    {
+      "name": "sfai-journal",
+      "label": "CM - Sly Flourish' 1d20 Lists for D&D Adventure Inspiration",
+      "path": "packs/sfai-journal.db",
+      "entity": "JournalEntry",
+      "system": "dnd5e",
+      "module" : "foundryvtt-compendiums-mix-dnd5e"
+    },
+    {
+      "name": "sfai-rolltable",
+      "label": "CM - Sly Flourish' 1d20 Lists for D&D Adventure Inspiration",
+      "path": "packs/sfai-rolltables.db",
+      "entity": "RollTable",
+      "system": "dnd5e",
+      "module" : "foundryvtt-compendiums-mix-dnd5e"
+    },
+    {
+      "name": "weather-actors",
+      "label": "CM - Weather Actors",
+      "path": "packs/weather-actors.db",
+      "entity": "Actor",
+      "module" : "foundryvtt-compendiums-mix-dnd5e"
+    },
+    {
+      "name": "weather-effects",
+      "label": "CM - Weather Effects",
+      "path": "packs/weather-effects.db",
+      "entity": "Item",
+      "module" : "foundryvtt-compendiums-mix-dnd5e"
+    },
+    {
+      "name": "weather-rolltables",
+      "label": "CM - Weather Roll Tables",
+      "path": "packs/weather-rolltables.db",
+      "entity": "RollTable",
+      "module" : "foundryvtt-compendiums-mix-dnd5e"
     }
   ],
   "dependencies": [
   ],
   "url": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e",
   "manifest": "https://raw.githubusercontent.com/p4535992/foundryvtt-compendiums-mix-dnd5e/master/src/module.json",
-  "download": "https://raw.githubusercontent.com/p4535992/foundryvtt-compendiums-mix-dnd5e/master/package/foundryvtt-compendiums-mix-dnd5e-v1.0.8.zip",
+  "download": "https://raw.githubusercontent.com/p4535992/foundryvtt-compendiums-mix-dnd5e/master/package/foundryvtt-compendiums-mix-dnd5e-v1.0.10.zip",
   "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "0.8.7",
   "changelog": "https://raw.githubusercontent.com/p4535992/foundryvtt-compendiums-mix-dnd5e/master/changelog.md",
   "bugs": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/issues",
   "allowBugReporter": true
