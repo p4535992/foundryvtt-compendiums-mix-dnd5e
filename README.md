@@ -20,6 +20,7 @@ This is a collection of some public projects compendiums:
 - [Draggos Mod](https://github.com/TheDraggo/DraggosMods)
 - [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration)
 - [Weather Effects 5e](https://github.com/orangetruth/weather-effects-5e )
+- [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
   
 **this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
 
@@ -374,6 +375,8 @@ This module contains 3 compendiums:
 * Rollable tables for all four seasons:
 ![image](https://user-images.githubusercontent.com/76987378/109449280-440c1600-7a05-11eb-923d-8869b7a089b1.png)
 
+## [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
+
 ## [Changelog](./changelog.md)
 
 ## Issues
@@ -399,6 +402,7 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [Draggos Mod](https://github.com/TheDraggo/DraggosMods)
 - [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration)
 - [Weather Effects 5e](https://github.com/orangetruth/weather-effects-5e )
+- [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
 
 ## License
 
