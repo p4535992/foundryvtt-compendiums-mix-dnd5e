@@ -21,7 +21,9 @@ This is a collection of some public projects compendiums:
 - [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration)
 - [Weather Effects 5e](https://github.com/orangetruth/weather-effects-5e )
 - [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
-  
+- [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard)
+
+
 **this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
 
 **If any author of the original projects does not agree to use their projects on this, feel free to contact me or open an issue and I will remove the references and the code as soon as possible**
@@ -377,6 +379,10 @@ This module contains 3 compendiums:
 
 ## [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
 
+## [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard)
+
+This is a collection of homebrew options for D&D 5e, ready to be added to your D&D 5e games on Foundry Virtual Tabletop. The content available in this addon can also be found on DriveThruRPG, and my patrons on Patreon get access to a much more detailed version of this addon.
+
 ## [Changelog](./changelog.md)
 
 ## Issues
@@ -403,6 +409,7 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration)
 - [Weather Effects 5e](https://github.com/orangetruth/weather-effects-5e )
 - [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
+- [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard)
 
 ## License
 
