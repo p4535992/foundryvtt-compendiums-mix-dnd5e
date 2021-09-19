@@ -1,28 +1,28 @@
 
-![](https://img.shields.io/badge/Foundry-v0.8.6-informational)
+![](https://img.shields.io/badge/Foundry-v0.8.9-informational)
 
 # FoundryVTT Compendiums Mix DnD5e
   
 This is a collection of some public projects compendiums:
 
-- [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json)
+- [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json) version 0.26
 - [Kobold Press OGL Compendium with images](Personal compendium with some images form the OGL Kobold Press Site)
-- [Summoner](https://github.com/Jonwh25/summoner/network/members)
-- [Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary)
-- [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
-- [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
-- [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
-- [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons)
-- [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)
-- [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
-- [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
-- [Grim Hollow Weapon Properties](https://github.com/TheDraggo/GrimHollowWeaponProperties)
-- [Draggos Mod](https://github.com/TheDraggo/DraggosMods)
-- [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration)
-- [Weather Effects 5e](https://github.com/orangetruth/weather-effects-5e )
+- [Summoner](https://github.com/Jonwh25/summoner) version 1.0.18
+- [Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary) version 2.2.0
+- [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries) version 1.0.2
+- [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting) version 0.3.1
+- [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish) version 1.1.0
+- [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons) version 3.1.5
+- [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL) version 0.2.2
+- [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e) version 1.9.0
+- [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants) version 1.0.0
+- [Grim Hollow Weapon Properties](https://github.com/TheDraggo/GrimHollowWeaponProperties) version 0.2
+- [Draggos Mod](https://github.com/TheDraggo/DraggosMods) version 0.1
+- [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration) version 0.1.0
+- [Weather Effects 5e](https://github.com/orangetruth/weather-effects-5e ) version 1.0.0
 - [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
-- [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard)
-
+- [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard) version 0.1.4
+- [Flirtatious Foundry Maps 1.1.1](https://github.com/FlirtatiousMule/flirtatiousfoundry) version 1.1.1
 
 **this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
 
@@ -44,7 +44,7 @@ To install this module manually:
 
 ## [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json)
 
-## [Summoner](https://github.com/Jonwh25/summoner/network/members)
+## [Summoner](https://github.com/Jonwh25/summoner)
 
 DnD5e compendium for spells like Find Familiar
 
@@ -330,6 +330,8 @@ This module is wholly unaffiliated with Dias Ex Machina Games.
 
 ## [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
 
+A module to add support for ME5e, a futuristic sci-fi setting, to your 5e world. Includes most compendium content from ME5e excluding that which would infringe on copyright.
+
 ## [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
 
 https://www.reddit.com/r/DnD/comments/83oupp/brodericks_compendium_plants_and_fungi_across_the/ ). I did not create any of the plants. This addon includes rolltables for the following regions as per the source material: 
@@ -383,6 +385,13 @@ This module contains 3 compendiums:
 
 This is a collection of homebrew options for D&D 5e, ready to be added to your D&D 5e games on Foundry Virtual Tabletop. The content available in this addon can also be found on DriveThruRPG, and my patrons on Patreon get access to a much more detailed version of this addon.
 
+## [Flirtatious Foundry Maps 1.1.1](https://github.com/FlirtatiousMule/flirtatiousfoundry)
+
+A map pack using DungeonDraft, and Foundry VTT.  Featuring animated assets.  Made using FX Master, Dynamic Illumination, and Community Lighting modules.
+
+Flirtatious Notes:
+New maps are being made with FX Master, Community Lighting, and Dynamic Illumination modules if you're interested in a more immersive scene I'd recommend using them in conjunction with our maps.
+
 ## [Changelog](./changelog.md)
 
 ## Issues
@@ -395,7 +404,7 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 
 - [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json)
 - [Kobold Press OGL Compendium with images](Personal compendium with some images form the OGL Kobold Press Site)
-- [Summoner](https://github.com/Jonwh25/summoner/network/members)
+- [Summoner](https://github.com/Jonwh25/summoner)
 - [Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary)
 - [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
 - [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
@@ -410,6 +419,7 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [Weather Effects 5e](https://github.com/orangetruth/weather-effects-5e )
 - [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
 - [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard)
+- [Flirtatious Foundry Maps 1.1.1](https://github.com/FlirtatiousMule/flirtatiousfoundry)
 
 ## License
 
