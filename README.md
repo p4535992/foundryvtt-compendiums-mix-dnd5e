@@ -24,6 +24,8 @@ This is a collection of some public projects compendiums:
 - [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard) version 0.1.4
 - [Flirtatious Foundry Maps 1.1.1](https://github.com/FlirtatiousMule/flirtatiousfoundry) version 1.1.1
 - [Dragon Flagon Architect](https://github.com/flamewave000/dragonflagon-arch) version 2.1.2
+- [DnD5 Cheatsheet](https://github.com/pchouzenoux/foundryvtt-dnd5-cheatsheet) version 0.0.6
+- [IW] version Commits on Jul 31, 2021
 
 **this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
 

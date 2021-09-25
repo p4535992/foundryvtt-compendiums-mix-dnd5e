@@ -2,7 +2,7 @@
   "name": "foundryvtt-compendiums-mix-dnd5e",
   "title": "FoundryVTT Compendiums Mix",
   "description": "Compendiums collection from KoboldOGL, Summoner, Supplement Bestiary, ecc.",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "author": "4535992",
   "type": "module",
   "socket": true,
@@ -577,11 +577,194 @@
       "module": "foundryvtt-compendiums-mix-dnd5e"
     },
     {
+      "name": "dnd5-cheatsheet-journals",
+      "label": "CM - DnD5 Cheatsheet",
+      "path": "packs/dnd5-cheatsheet-journals.db",
+      "entity": "JournalEntry",
+      "module": "foundryvtt-compendiums-mix-dnd5e"
+    },
+    {
       "name": "dragonflagon-arch-lights-dnd5e",
       "label": "CM - Light Templates: D&D5e",
       "path": "packs/dragonflagon-arch-lights-dnd5e.db",
       "entity": "Macro",
       "module": "foundryvtt-compendiums-mix-dnd5e"
+    },
+    {
+      "name": "innocenti-worlds-factions",
+      "label": "CM - IW  World Factions",
+      "path": "packs/innocenti-worlds-factions.db",
+      "module": "innocenti-worlds",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-cities",
+      "label": "CM - IW  World Cities",
+      "path": "packs/innocenti-worlds-cities.db",
+      "module": "innocenti-worlds",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-places",
+      "label": "CM - IW  World Places",
+      "path": "packs/innocenti-worlds-places.db",
+      "module": "innocenti-worlds",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-dungeons",
+      "label": "CM - IW  World Dungeons",
+      "path": "packs/innocenti-worlds-dungeons.db",
+      "module": "innocenti-worlds",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-handouts",
+      "label": "CM - IW  Players Handouts",
+      "path": "packs/innocenti-worlds-handouts.db",
+      "module": "innocenti-worlds",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-npcs",
+      "label": "CM - IW  NPCs",
+      "path": "packs/innocenti-worlds-npcs.db",
+      "module": "innocenti-worlds",
+      "entity": "Actor",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-players",
+      "label": "CM - IW  Players",
+      "path": "packs/innocenti-worlds-my-players.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Actor",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-monsters-custom",
+      "label": "CM - IW  Monsters Custom",
+      "path": "packs/innocenti-worlds-monsters-custom.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Actor",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-scenes",
+      "label": "CM - IW  World Scenes",
+      "path": "packs/innocenti-worlds-my-scenes.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Scene",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-item-custom",
+      "label": "CM - IW  Custom Items",
+      "path": "packs/innocenti-worlds-item-custom.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-item-services",
+      "label": "CM - IW  Custom Services",
+      "path": "packs/innocenti-worlds-item-services.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-item-shop",
+      "label": "CM - IW  Custom Items Shop",
+      "path": "packs/innocenti-worlds-item-shop.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-item-gemstones",
+      "label": "CM - IW  Custom Gemstones",
+      "path": "packs/innocenti-worlds-item-gamestones.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-item-recipes",
+      "label": "CM - IW  Custom Recipies",
+      "path": "packs/innocenti-worlds-item-recipes.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-item-foods",
+      "label": "CM - IW  Custom Foods",
+      "path": "packs/innocenti-worlds-item-food.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-item-dae",
+      "label": "CM - IW  Custom Item DAE",
+      "path": "packs/innocenti-worlds-item-dae.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-tables-item",
+      "label": "CM - IW  Table Items",
+      "path": "packs/innocenti-worlds-table-item.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "RollTable",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-macros-houserules",
+      "label": "CM - IW  House Rules",
+      "path": "packs/innocenti-worlds-macros-hauserules.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Macro",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-cos-scenes",
+      "label": "CM - IW  Maps Curse of Sthrad",
+      "path": "packs/innocenti-worlds-cos-scenes.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Scene",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-pota-scenes",
+      "label": "CM - IW  Maps Princess of the Apocalypse",
+      "path": "packs/innocenti-worlds-pota-scenes.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Scene",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-rotfm-scenes",
+      "label": "CM - IW  Maps Rime of the Frostmaiden",
+      "path": "packs/innocenti-worlds-rotfm-scenes.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Scene",
+      "private": false
+    },
+    {
+      "name": "innocenti-worlds-custom-playlist",
+      "label": "CM - IW  Playlist",
+      "path": "packs/innocenti-worlds-playlist.db",
+      "module": "foundryvtt-compendiums-mix-dnd5e",
+      "entity": "Playlist",
+      "private": false
     }
   ],
   "dependencies": [],
@@ -589,9 +772,9 @@
   "compatibleCoreVersion": "0.8.9",
   "url": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e",
   "manifest": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/releases/latest/download/module.json",
-  "download": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/releases/download/v1.0.22/module.zip",
-  "readme": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/blob/v1.0.22/README.md",
-  "changelog": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/blob/v1.0.22/changelog.md",
+  "download": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/releases/download/v1.0.23/module.zip",
+  "readme": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/blob/v1.0.23/README.md",
+  "changelog": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/blob/v1.0.23/changelog.md",
   "bugs": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/issues",
   "allowBugReporter": true
 }
