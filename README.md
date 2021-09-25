@@ -38,7 +38,7 @@ To install this module manually:
 1.  Inside the Foundry "Configuration and Setup" screen, click "Add-on Modules"
 2.  Click "Install Module"
 3.  In the "Manifest URL" field, paste the following url:
-`https://github.com/League-of-Foundry-Developers/foundryvtt-forien-unidentified-items/releases/latest/download/module.json`
+`https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/releases/latest/download/module.json`
 4.  Click 'Install' and wait for installation to complete
 5.  Don't forget to enable the module in game using the "Manage Module" button
 
@@ -391,6 +391,84 @@ A map pack using DungeonDraft, and Foundry VTT.  Featuring animated assets.  Mad
 
 Flirtatious Notes:
 New maps are being made with FX Master, Community Lighting, and Dynamic Illumination modules if you're interested in a more immersive scene I'd recommend using them in conjunction with our maps.
+
+# Weapon Properties
+
+## [Draggos Mod](https://github.com/TheDraggo/DraggosMods)
+
+**Armor Piercing**
+
+**Blackpowder**
+
+**Brutal**
+
+**Cumbersome**
+
+**Defending**
+
+**Disarming**
+
+**Double**
+
+**Entangling**
+
+**Guard**
+
+**Hafted**
+
+**Magazine**
+
+**Momentum**
+
+**Precise**
+
+**Repeater**
+
+**Restraining**
+
+**Returning**
+
+**Scatter**
+
+**Set**
+
+**Strong-Draw**
+
+**Swift**
+
+**Tripping**
+
+## Beginner Baubles
+
+**Aquatic**
+Some weapons are as aquadynamic as they are aerodynamic. The wielder doesn't have disadvantage on melee weapon attacks or ranged weapon attacks within normal range when using a weapon that has this property.
+
+**Concealed**
+Some weapons are designed to be easily concealed. The wielder has advantage on Dexterity or Charisma checks made to hide or coneal a weapon that has this property.
+
+**Dexterous**
+Some weapons require precision to wield effectively. When attacking with a weapon that has this property, the wielder uses their Dexterity modifier for their attack and damage rolls, in place of Strength.
+
+**Disguised (basic)**
+Some weapons are best hidden in plain sight. Such implements are designed to resemble common, everyday objects and can be easily mistaken as such. Identifying the true intent of a weapon that has this property requires a close inspection and a DC 10 Intelligence (investigation) or Wisdom (perception) check; or at least an hour spent in close proximity to it and a passive Perception score of 15 or higher.
+
+**Disguised (elaborate)**
+Some weapons are best hidden in plain sight. Such implements are designed to resemble common, everyday objects and can be easily mistaken as such. Identifying the true intent of a weapon that has this property requires a close inspection and a DC 15 Intelligence (investigation) or Wisdom (perception) check; or at least an hour spent in close proximity to it and a passive Perception score of 20 or higher.
+
+**Disguised (intricate)**
+Some weapons are best hidden in plain sight. Such implements are designed to resemble common, everyday objects and can be easily mistaken as such. Identifying the true intent of a weapon that has this property requires a close inspection and a DC 20 Intelligence (investigation) or Wisdom (perception) check; or at least an hour spent in close proximity to it and a passive Perception score of 25 or higher.
+
+**Lethal**
+Some weapons are unusually dangerous and difficult to handle with care. The wielder can choose to deal non-lethal damage with a weapon that has this property, however they have disadvantage on attack rolls made to do so.
+
+**Monastic**
+Some weapons favored by martial combatants are still choice implements of monks and their kind. A martial weapon that has this property counts as a monk weapon.
+
+**Non-lethal**
+Some weapons are ill-suited to inflicting mortal wounds. The wielder can choose to deal lethal damage with a weapon that has this property, however they have disadvantage on attack rolls made to do so.
+
+**Parrying**
+Some weapons are ideally suited to bolster their wielder's defence. If a creature is wielding one or more weapons with this property and does not use them to make an attack on their turn in combat, their armor class increases by 1 against melee attacks until the start of their next turn.
 
 ## [Changelog](./changelog.md)
 
