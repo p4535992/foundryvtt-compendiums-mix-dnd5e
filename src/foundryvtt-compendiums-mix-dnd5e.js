@@ -20,6 +20,15 @@ Hooks.on('init', () => {
     type: Boolean,
   });
 
+  game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableAdditionalArmorTypes', {
+    name: 'Enable Armor Types',
+    hint: 'Enable additional Armor Types',
+    scope: 'world',
+    config: true,
+    default: false,
+    type: Boolean,
+  });
+
   game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableAdditionalSpellSchool', {
     name: 'Enable Spellschool',
     hint: 'Enable additional Spellschool',
@@ -59,43 +68,51 @@ Hooks.once('setup', function () {
 /* When ready							*/
 /* ------------------------------------ */
 Hooks.once('ready', () => {
+  if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableAdditionalArmorTypes')) {
+    // danwiki
+    CONFIG.DND5E.armorTypes['partial'] = i18n('DND5E.EquipmentPartial');
+  }
+
   if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableAdditionalSpellSchool')) {
     // http://kpogl.wdfiles.com/local--files/home:home/module.json
-    CONFIG.DND5E.spellSchools['voi'] = 'Void Magic';
+    CONFIG.DND5E.spellSchools['voi'] = i18n('DND5E.SchoolVoid');
 
     // https://github.com/TheDraggo/DraggosMods
-    CONFIG.DND5E.spellSchools['chr'] = 'Chronomancy';
+    CONFIG.DND5E.spellSchools['chr'] = i18n('DND5E.SchoolCron');
   }
 
   if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableAdditionalDamageTypes')) {
     // https://github.com/TheDraggo/DraggosMods
-    CONFIG.DND5E.damageTypes['vile'] = 'Vile';
+    CONFIG.DND5E.damageTypes['vile'] = i18n('DND5E.DamageVile');
   }
 
   if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableAdditionalWeaponProperties')) {
     // https://github.com/TheDraggo/GrimHollowWeaponProperties
 
-    CONFIG.DND5E.weaponProperties['armorpiercing'] = i18n('DND5E.WeaponPropertiesArmorpiercing');
-    CONFIG.DND5E.weaponProperties['blackpowder'] = i18n('DND5E.WeaponPropertiesBlackpowder');
-    CONFIG.DND5E.weaponProperties['brutal'] = i18n('DND5E.WeaponPropertiesBrutal');
-    CONFIG.DND5E.weaponProperties['cumbersome'] = i18n('DND5E.WeaponPropertiesCumbersome');
-    CONFIG.DND5E.weaponProperties['defending'] = i18n('DND5E.WeaponPropertiesDefending');
-    CONFIG.DND5E.weaponProperties['disarming'] = i18n('DND5E.WeaponPropertiesDisarming');
-    CONFIG.DND5E.weaponProperties['double'] = i18n('DND5E.WeaponPropertiesDouble');
-    CONFIG.DND5E.weaponProperties['entangling'] = i18n('DND5E.WeaponPropertiesEntangling');
-    CONFIG.DND5E.weaponProperties['guard'] = i18n('DND5E.WeaponPropertiesGuard');
-    CONFIG.DND5E.weaponProperties['hafted'] = i18n('DND5E.WeaponPropertiesHafted');
-    CONFIG.DND5E.weaponProperties['magazine'] = i18n('DND5E.WeaponPropertiesMagazine');
-    CONFIG.DND5E.weaponProperties['momentum'] = i18n('DND5E.WeaponPropertiesMomentum');
-    CONFIG.DND5E.weaponProperties['precise'] = i18n('DND5E.WeaponPropertiesPrecise');
-    CONFIG.DND5E.weaponProperties['repeater'] = i18n('DND5E.WeaponPropertiesRepeater');
-    CONFIG.DND5E.weaponProperties['restraining'] = i18n('DND5E.WeaponPropertiesRestraining');
-    CONFIG.DND5E.weaponProperties['returning'] = i18n('DND5E.WeaponPropertiesReturning');
-    CONFIG.DND5E.weaponProperties['scatter'] = i18n('DND5E.WeaponPropertiesScatter');
-    CONFIG.DND5E.weaponProperties['set'] = 'DND5E.WeaponPropertiesSet';
-    CONFIG.DND5E.weaponProperties['strongdraw'] = i18n('DND5E.WeaponPropertiesStrongdraw');
-    CONFIG.DND5E.weaponProperties['swift'] = i18n('DND5E.WeaponPropertiesSwift');
-    CONFIG.DND5E.weaponProperties['tripping'] = i18n('DND5E.WeaponPropertiesTripping');
+    // CONFIG.DND5E.weaponProperties['armorpiercing'] = i18n('DND5E.WeaponPropertiesArmorpiercing');
+    // CONFIG.DND5E.weaponProperties['blackpowder'] = i18n('DND5E.WeaponPropertiesBlackpowder');
+    // CONFIG.DND5E.weaponProperties['brutal'] = i18n('DND5E.WeaponPropertiesBrutal');
+    // CONFIG.DND5E.weaponProperties['cumbersome'] = i18n('DND5E.WeaponPropertiesCumbersome');
+    // CONFIG.DND5E.weaponProperties['defending'] = i18n('DND5E.WeaponPropertiesDefending');
+    // CONFIG.DND5E.weaponProperties['disarming'] = i18n('DND5E.WeaponPropertiesDisarming');
+    // CONFIG.DND5E.weaponProperties['double'] = i18n('DND5E.WeaponPropertiesDouble');
+    // CONFIG.DND5E.weaponProperties['entangling'] = i18n('DND5E.WeaponPropertiesEntangling');
+    // CONFIG.DND5E.weaponProperties['guard'] = i18n('DND5E.WeaponPropertiesGuard');
+    // CONFIG.DND5E.weaponProperties['hafted'] = i18n('DND5E.WeaponPropertiesHafted');
+    // CONFIG.DND5E.weaponProperties['magazine'] = i18n('DND5E.WeaponPropertiesMagazine');
+    // CONFIG.DND5E.weaponProperties['momentum'] = i18n('DND5E.WeaponPropertiesMomentum');
+    // CONFIG.DND5E.weaponProperties['precise'] = i18n('DND5E.WeaponPropertiesPrecise');
+    // CONFIG.DND5E.weaponProperties['repeater'] = i18n('DND5E.WeaponPropertiesRepeater');
+    // CONFIG.DND5E.weaponProperties['restraining'] = i18n('DND5E.WeaponPropertiesRestraining');
+    // CONFIG.DND5E.weaponProperties['returning'] = i18n('DND5E.WeaponPropertiesReturning');
+    // CONFIG.DND5E.weaponProperties['scatter'] = i18n('DND5E.WeaponPropertiesScatter');
+    // CONFIG.DND5E.weaponProperties['set'] = i18n('DND5E.WeaponPropertiesSet');
+    // CONFIG.DND5E.weaponProperties['strongdraw'] = i18n('DND5E.WeaponPropertiesStrongdraw');
+    // CONFIG.DND5E.weaponProperties['swift'] = i18n('DND5E.WeaponPropertiesSwift');
+    // CONFIG.DND5E.weaponProperties['tripping'] = i18n('DND5E.WeaponPropertiesTripping');
+
+    // danwiki
+    CONFIG.DND5E.weaponProperties['spiked'] = i18n('DND5E.WeaponPropertiesSpiked');
 
     CONFIG.DND5E.weaponProperties['aquatic'] = i18n('DND5E.WeaponPropertiesAquatic');
     CONFIG.DND5E.weaponProperties['concealed'] = i18n('DND5E.WeaponPropertiesConcealed');

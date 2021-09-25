@@ -23,6 +23,7 @@ This is a collection of some public projects compendiums:
 - [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
 - [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard) version 0.1.4
 - [Flirtatious Foundry Maps 1.1.1](https://github.com/FlirtatiousMule/flirtatiousfoundry) version 1.1.1
+- [Dragon Flagon Architect](https://github.com/flamewave000/dragonflagon-arch) version 2.1.2
 
 **this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
 
@@ -438,6 +439,12 @@ New maps are being made with FX Master, Community Lighting, and Dynamic Illumina
 
 **Tripping**
 
+## Home brew
+
+**Spiked**
+
+When hit by a weapon with the spiked property the target gains {@dice +1} damage.
+
 ## Beginner Baubles
 
 **Aquatic**
@@ -470,6 +477,12 @@ Some weapons are ill-suited to inflicting mortal wounds. The wielder can choose 
 **Parrying**
 Some weapons are ideally suited to bolster their wielder's defence. If a creature is wielding one or more weapons with this property and does not use them to make an attack on their turn in combat, their armor class increases by 1 against melee attacks until the start of their next turn.
 
+## Item and Equipment Properties
+
+**Partial Armor**
+
+Partial armor only grants its AC bonus if you are wearing light or no armor. If you are wearing only one piece of partial armor, you are still considered to be wearing your base armor type (e.g. no armor or light armor). If you are wearing two pieces of partial armor, you are considered to be wearing the heaviest type among the armor pieces you are wearing (e.g. medium or heavy armor). You cannot benefit from wearing three or more pieces of partial armor.
+
 ## [Changelog](./changelog.md)
 
 ## Issues
@@ -498,6 +511,7 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
 - [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard)
 - [Flirtatious Foundry Maps 1.1.1](https://github.com/FlirtatiousMule/flirtatiousfoundry)
+- [Dragon Flagon Architect](https://github.com/flamewave000/dragonflagon-arch)
 
 ## License
 
