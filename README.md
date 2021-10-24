@@ -15,7 +15,7 @@ This is a collection of some public projects compendiums:
 - [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons) version 3.1.5
 - [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL) version 0.2.2
 - [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e) version 1.9.0
-- [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants) version 1.0.0
+- [REMOVED][FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants) version 1.0.0
 - [Grim Hollow Weapon Properties](https://github.com/TheDraggo/GrimHollowWeaponProperties) version 0.2
 - [Draggos Mod](https://github.com/TheDraggo/DraggosMods) version 0.1
 - [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration) version 0.1.0
@@ -364,6 +364,8 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard)
 - [Flirtatious Foundry Maps 1.1.1](https://github.com/FlirtatiousMule/flirtatiousfoundry)
 - [Dragon Flagon Architect](https://github.com/flamewave000/dragonflagon-arch)
+- [Innocenti World] version Commits on Jul 31, 2021
+- [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium) version 1.0.0
 
 ## License
 
