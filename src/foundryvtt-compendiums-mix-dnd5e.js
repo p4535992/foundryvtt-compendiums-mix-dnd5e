@@ -37,7 +37,7 @@ Hooks.on('init', () => {
     hint: i18n('foundryvtt-compendiums-mix-dnd5e.setting.enableAdditionalSpellSchool.hint'),
     scope: 'world',
     config: true,
-    default: false,
+    default: true,
     type: Boolean,
   });
 
@@ -56,6 +56,15 @@ Hooks.on('init', () => {
     scope: 'world',
     config: true,
     default: false,
+    type: Boolean,
+  });
+
+  game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableAdditionalRarityProperties', {
+    name: i18n('foundryvtt-compendiums-mix-dnd5e.setting.enableAdditionalRarityProperties.name'),
+    hint: i18n('foundryvtt-compendiums-mix-dnd5e.setting.enableAdditionalRarityProperties.hint'),
+    scope: 'world',
+    config: true,
+    default: true,
     type: Boolean,
   });
 
@@ -230,6 +239,11 @@ Hooks.once('ready', () => {
     CONFIG.DND5E.weaponProperties['monastic'] = i18n('DND5E.WeaponPropertiesMonastic');
     CONFIG.DND5E.weaponProperties['non-lethal'] = i18n('DND5E.WeaponPropertiesNon-lethal');
     CONFIG.DND5E.weaponProperties['parrying'] = i18n('DND5E.WeaponPropertiesParrying');
+  }
+
+  if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableAdditionalRarityProperties')) {
+    // Rarity
+    CONFIG.DND5E.itemRarity.veryCommon = 'very common';
   }
 
   // FEATURE EZ-PRINT

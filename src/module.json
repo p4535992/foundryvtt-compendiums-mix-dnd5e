@@ -2,7 +2,7 @@
   "name": "foundryvtt-compendiums-mix-dnd5e",
   "title": "FoundryVTT Compendiums Mix",
   "description": "Compendiums collection from KoboldOGL, Summoner, Supplement Bestiary, ecc.",
-  "version": "1.0.23",
+  "version": "1.0.3",
   "author": "4535992",
   "type": "module",
   "socket": true,
@@ -421,20 +421,6 @@
       "module": "foundryvtt-compendiums-mix-dnd5e"
     },
     {
-      "name": "fantasyplants-plants",
-      "label": "CM - Fantasy Plants",
-      "path": "packs/fantasyplants-plants.db",
-      "entity": "Item",
-      "module": "foundryvtt-compendiums-mix-dnd5e"
-    },
-    {
-      "name": "fantasyplants-planttables",
-      "label": "CM - Fantasy Plants RollTables",
-      "path": "packs/fantasyplants-plantrolltables.db",
-      "entity": "RollTable",
-      "module": "foundryvtt-compendiums-mix-dnd5e"
-    },
-    {
       "name": "sfai-journal",
       "label": "CM - Sly Flourish' 1d20 Lists for D&D Adventure Inspiration",
       "path": "packs/sfai-journal.db",
@@ -581,13 +567,6 @@
       "label": "CM - DnD5 Cheatsheet",
       "path": "packs/dnd5-cheatsheet-journals.db",
       "entity": "JournalEntry",
-      "module": "foundryvtt-compendiums-mix-dnd5e"
-    },
-    {
-      "name": "dragonflagon-arch-lights-dnd5e",
-      "label": "CM - Light Templates: D&D5e",
-      "path": "packs/dragonflagon-arch-lights-dnd5e.db",
-      "entity": "Macro",
       "module": "foundryvtt-compendiums-mix-dnd5e"
     },
     {
@@ -765,16 +744,39 @@
       "module": "foundryvtt-compendiums-mix-dnd5e",
       "entity": "Playlist",
       "private": false
+    },
+    {
+      "name": "brodericks-compendium-plants",
+      "label": "Broderick's Compendium: Plants",
+      "path": "packs/brodericks-compendium-plants.db",
+      "entity": "Item",
+      "module": "foundryvtt-compendiums-mix-dnd5e"
+    },
+    {
+      "name": "brodericks-compendium-plantrolltables",
+      "label": "Broderick's Compendium: Plant RollTables",
+      "path": "packs/brodericks-compendium-plantrolltables.db",
+      "entity": "RollTable",
+      "module": "foundryvtt-compendiums-mix-dnd5e"
     }
   ],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "better-rolltables",
+      "manifest": "https://raw.githubusercontent.com/ultrakorne/better-rolltables/master/module.json"
+    },
+    {
+      "name": "lootsheetnpc5e",
+      "manifest": "https://raw.githubusercontent.com/jopeek/fvtt-loot-sheet-npc-5e/master/module.json"
+    }
+  ],
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "0.8.9",
   "url": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e",
   "manifest": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/releases/latest/download/module.json",
-  "download": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/releases/download/v1.0.23/module.zip",
-  "readme": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/blob/v1.0.23/README.md",
-  "changelog": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/blob/v1.0.23/changelog.md",
+  "download": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/releases/download/v1.0.3/module.zip",
+  "readme": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/blob/v1.0.3/README.md",
+  "changelog": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/blob/v1.0.3/changelog.md",
   "bugs": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/issues",
   "allowBugReporter": true
 }

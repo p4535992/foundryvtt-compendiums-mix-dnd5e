@@ -7,9 +7,9 @@ This is a collection of some public projects compendiums:
 
 - [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json) version 0.26
 - [Kobold Press OGL Compendium with images](Personal compendium with some images form the OGL Kobold Press Site)
-- [Summoner](https://github.com/Jonwh25/summoner) version 1.0.18
-- [Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary) version 2.2.0
-- [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries) version 1.0.2
+- [REMOVED][Summoner](https://github.com/Jonwh25/summoner) version 1.0.18
+- [REMOVED][Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary) version 2.2.0
+- [REMOVED][FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries) version 1.0.2
 - [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting) version 0.3.1
 - [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish) version 1.1.0
 - [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons) version 3.1.5
@@ -23,9 +23,10 @@ This is a collection of some public projects compendiums:
 - [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
 - [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard) version 0.1.4
 - [Flirtatious Foundry Maps 1.1.1](https://github.com/FlirtatiousMule/flirtatiousfoundry) version 1.1.1
-- [Dragon Flagon Architect](https://github.com/flamewave000/dragonflagon-arch) version 2.1.2
+- [REMOVED][Dragon Flagon Architect](https://github.com/flamewave000/dragonflagon-arch) version 2.1.2
 - [DnD5 Cheatsheet](https://github.com/pchouzenoux/foundryvtt-dnd5-cheatsheet) version 0.0.6
-- [IW] version Commits on Jul 31, 2021
+- [Innocenti World] version Commits on Jul 31, 2021
+- [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium) version 1.0.0
 
 **this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
 
@@ -125,7 +126,7 @@ This module is wholly unaffiliated with Dias Ex Machina Games.
 
 A module to add support for ME5e, a futuristic sci-fi setting, to your 5e world. Includes most compendium content from ME5e excluding that which would infringe on copyright.
 
-## [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
+## [REMOVED][FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
 
 https://www.reddit.com/r/DnD/comments/83oupp/brodericks_compendium_plants_and_fungi_across_the/ ). I did not create any of the plants. This addon includes rolltables for the following regions as per the source material: 
 * Arctic 
@@ -275,7 +276,49 @@ Some weapons are ideally suited to bolster their wielder's defence. If a creatur
 
 Partial armor only grants its AC bonus if you are wearing light or no armor. If you are wearing only one piece of partial armor, you are still considered to be wearing your base armor type (e.g. no armor or light armor). If you are wearing two pieces of partial armor, you are considered to be wearing the heaviest type among the armor pieces you are wearing (e.g. medium or heavy armor). You cannot benefit from wearing three or more pieces of partial armor.
 
-## Additonal Features
+## [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium)
+
+A module for FoundryVTT that includes over 600 fantasy plants from Broderick's Compendium: Plants and Fungi Across the
+Realm (version 2.0) (
+Source: https://www.reddit.com/r/DnD/comments/83oupp/brodericks_compendium_plants_and_fungi_across_the/ ). I did not
+create any of the plants. This addon includes rolltables for the following regions as per the source material:
+
+* Arctic
+* City
+* Coastal
+* Desert
+* Forest
+* Jungle
+* Mountain
+* Ocean
+* Plains
+* River
+* Swamp
+* Underdark & Cave
+
+Roll tables and plants are included as compendiums. Open up the roll table and select the region type your party is
+searching in. Results will be added to a "Found Plants" loot actor for distribution to the players.
+
+#### Wait a minute... I've already seen this!
+
+This module is a fork of the
+wonderful [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants) module by Kyle Bishop,
+which cleans up the CSS classes and inline styles inside the plant descriptions, so that the native font styles of your
+FoundryVTT theme are applied. Furthermore, it adds the biomes to every plant description and some already legendary
+plants get an additional info, if they are "Exceedingly Rare".
+
+This version also adds compatibility for the new rarity setting, which got introduced by the DND5E 1.4.0 system.
+
+#### Suggested Use
+
+I currently use this in my campaign to allow players to forage. If you use the included roll tables for the region(s)
+they are in, you can select the Generate Loot button on the table, it will create a new instance of the item on the
+Actor "Found Plants" in the Actors tab (it will create that loot actor if you don't have it already).
+
+I also have Forien's Unidentified Items add-on and right click the new plant and mystify before letting the players see
+it/access it. You can save a copy to your items for reference if you want.
+
+## Additional Features
 
 ### [EZ-Print](https://gitlab.com/fvtt-modules-lab/ez-print/-/tree/master) version 0.1.6
 
@@ -291,6 +334,7 @@ Now you can move player tokens safely without disclosure of scene data in the mi
 ### [GM Token Drag Visibility v2](https://github.com/MAClavell/gm-token-drag-visibility-v2)
 
 A FoundryVTT module that disables the vision limitation when dragging a token as a GM. Useful for moving players between floors on the same map. This is an updated version of an old module: https://github.com/SteffanPoulsen/token-drag-visibility
+
 ## [Changelog](./changelog.md)
 
 ## Issues
