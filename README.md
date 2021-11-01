@@ -26,7 +26,7 @@ This is a collection of some public projects compendiums:
 - [REMOVED][Dragon Flagon Architect](https://github.com/flamewave000/dragonflagon-arch) version 2.1.2
 - [DnD5 Cheatsheet](https://github.com/pchouzenoux/foundryvtt-dnd5-cheatsheet) version 0.0.6
 - [Innocenti World] version Commits on Jul 31, 2021
-- [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium) version 1.0.0
+- [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium) version 1.1.0
 
 **this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
 
@@ -299,17 +299,37 @@ create any of the plants. This addon includes rolltables for the following regio
 Roll tables and plants are included as compendiums. Open up the roll table and select the region type your party is
 searching in. Results will be added to a "Found Plants" loot actor for distribution to the players.
 
-#### Wait a minute... I've already seen this!
+## Wait a minute... I've already seen this!
 
 This module is a fork of the
 wonderful [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants) module by Kyle Bishop,
-which cleans up the CSS classes and inline styles inside the plant descriptions, so that the native font styles of your
-FoundryVTT theme are applied. Furthermore, it adds the biomes to every plant description and some already legendary
-plants get an additional info, if they are "Exceedingly Rare".
+but with the following changes:
+- The CSS classes and inline styles inside the plant descriptions are removed, so that the native font styles of your
+  FoundryVTT theme are applied. 
+- It provides pictures to many of the plants. 
+- Every plant description contains the biomes where to find it.
+- Some already legendary plants get an additional info, if they are "Exceedingly Rare".
 
 This version also adds compatibility for the new rarity setting, which got introduced by the DND5E 1.4.0 system.
 
-#### Suggested Use
+## Installation
+
+**Method 1:**
+
+* Start Foundry and head to the Add-on Modules tab.
+* Click Install Module.
+* Search for "Broderick's Compendium"
+* Click the install button when it comes up.
+
+**Method 2:**
+
+* Start Foundry and head to the Add-on Modules tab.
+* Click Install Module.
+* Paste the following link into the "Manifest URL" field at the
+  bottom: https://github.com/marcstraube/foundryvtt-brodericks-compendium/releases/download/1.1.0/module.json
+* Click Install
+
+## Suggested Use
 
 I currently use this in my campaign to allow players to forage. If you use the included roll tables for the region(s)
 they are in, you can select the Generate Loot button on the table, it will create a new instance of the item on the
