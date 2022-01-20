@@ -15,7 +15,7 @@ This is a collection of some public projects compendiums:
 
 - [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json) version 0.26
 - [Kobold Press OGL Compendium with images](Personal compendium with some images form the OGL Kobold Press Site)
-- [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting) version 0.3.1
+- [Innocenti Looting](https://github.com/rinnocenti/innocenti-loot) version 0.3.1 (2022-01-20)
 - [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish) version 1.1.0
 - [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons) version 3.1.5
 - [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL) version 0.2.2
@@ -28,7 +28,7 @@ This is a collection of some public projects compendiums:
 - [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard) version 0.1.4
 - [Flirtatious Foundry Maps 1.1.1](https://github.com/FlirtatiousMule/flirtatiousfoundry) version 1.1.1
 - [DnD5 Cheatsheet](https://github.com/pchouzenoux/foundryvtt-dnd5-cheatsheet) version 0.0.7 (2022-01-20)
-- [Innocenti World] version Commits on Jul 31, 2021
+- [Innocenti World] version Commits on Dec 10, 2021 (2022-01-20)
 - [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium) version 1.2.0 (2022-01-20)
 
 ##### REMOVED
@@ -59,7 +59,7 @@ To install this module manually:
 
 ## [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json) version 0.26
 
-## [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
+## [Innocenti Looting](https://github.com/rinnocenti/innocenti-loot)
 
 ## [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
 
@@ -320,7 +320,7 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [Summoner](https://github.com/Jonwh25/summoner)
 - [Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary)
 - [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
-- [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
+- [Innocenti Looting](https://github.com/rinnocenti/innocenti-loot)
 - [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
 - [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons)
 - [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)

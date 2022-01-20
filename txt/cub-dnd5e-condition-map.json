@@ -1,0 +1,2503 @@
+{
+  "system": "dnd5e",
+  "map": [
+    {
+      "id": "advantage",
+      "name": "Advantage",
+      "icon": "icons/svg/upgrade.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "ch2tyXJCe9VtUAgs",
+        "changes": [
+          {
+            "key": "flags.midi-qol.advantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.c306Ftm3G3szZnYS",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "blinded",
+      "name": "Blinded",
+      "icon": "modules/combat-utility-belt/icons/blinded.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "jeCZSkmHX30PeOof",
+        "changes": [
+          {
+            "key": "flags.midi-qol.grants.advantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "ATL.dimSight",
+            "mode": 5,
+            "value": "0",
+            "priority": "20"
+          },
+          {
+            "key": "ATL.brightSight",
+            "mode": 5,
+            "value": "0",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.4JdY54ua20JvWwFh",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "charmed",
+      "name": "Charmed",
+      "icon": "modules/combat-utility-belt/icons/charmed.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "29GzX4H6VcgvZObm",
+        "changes": [
+          {
+            "key": "flags.midi-qol.disadvantage.skill.ins",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.skill.itm",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.skill.per",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.skill.prf",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.KsPOaNFJ38t77U9t",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "concentrating",
+      "name": "Concentrating",
+      "icon": "modules/combat-utility-belt/icons/concentrating.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "combat-utility-belt.conditionsdnd5e",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "confuse",
+      "name": "Confuse",
+      "icon": "icons/svg/daze.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "cover-1/2",
+      "name": "Cover 1/2",
+      "icon": "icons/svg/barrel.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "8VAWXsD8jh31kvhq",
+        "changes": [
+          {
+            "key": "data.abilities.dex.save",
+            "mode": 2,
+            "value": "2",
+            "priority": "20"
+          },
+          {
+            "key": "data.attributes.ac.value",
+            "mode": 2,
+            "value": "2",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.x0GmvQikbQUDqNzQ",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "cover-3/4",
+      "name": "Cover 3/4",
+      "icon": "icons/svg/statue.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "Dba5hJGcOuuSJKFR",
+        "changes": [
+          {
+            "key": "data.abilities.dex.save",
+            "mode": 2,
+            "value": "5",
+            "priority": "20"
+          },
+          {
+            "key": "data.attributes.ac.value",
+            "mode": 2,
+            "value": "5",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.CmOMNFCTwtO0q71y",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "cursed-lycanthropy",
+      "name": "Cursed - lycanthropy",
+      "icon": "icons/svg/poison.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "dead",
+      "name": "Dead",
+      "icon": "icons/svg/skull.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "51f427q8i84m5ymm",
+      "removeTrigger": "uo3cpmei69f47q08",
+      "options": {
+        "overlay": true,
+        "removeOthers": true,
+        "outputChat": true,
+        "markDefeated": true
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "deafened",
+      "name": "Deafened",
+      "icon": "modules/combat-utility-belt/icons/deafened.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "Fpf9XZTZE235edDA",
+        "changes": [
+          {
+            "key": "flags.midi-qol.fail.skill.ins",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.skill.prc",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.tiqj0000Lr1YWHUe",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "disadvantage",
+      "name": "Disadvantage",
+      "icon": "icons/svg/downgrade.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "izVUun84hRNDoOAD",
+        "changes": [
+          {
+            "key": "flags.midi-qol.disadvantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.Zy7HXDAcDfbk2Ggl",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "dodge",
+      "name": "Dodge",
+      "icon": "icons/svg/shield.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "sBzF53O8Xz4Qm8gq",
+        "changes": [
+          {
+            "key": "flags.midi-qol.grants.disadvantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.advantage.ability.save.dex",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.yubSsTqJIjrhXXLj",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "exhaustion-1",
+      "name": "Exhaustion 1",
+      "icon": "modules/combat-utility-belt/icons/exhaustion1.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "fueiqqpmn6nbcyut",
+      "removeTrigger": "j561n4yba3p5kx05",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "N1vqt3b95aANQhdG",
+        "changes": [
+          {
+            "key": "flags.midi-qol.disadvantage.ability.check.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.skill.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "data.attributes.exhaustion",
+            "mode": 4,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.6b5iKkTspH52DOUs",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "exhaustion-2",
+      "name": "Exhaustion 2",
+      "icon": "modules/combat-utility-belt/icons/exhaustion2.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "sfigvpvwqwqweul4",
+      "removeTrigger": "l3apiasaxhaadoxa",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "N1vqt3b95aANQhdG",
+        "changes": [
+          {
+            "key": "data.attributes.movement.all",
+            "mode": 0,
+            "value": "*0.5",
+            "priority": "20"
+          },
+          {
+            "key": "data.attributes.exhaustion",
+            "mode": 4,
+            "value": "2",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.6b5iKkTspH52DOUs",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "exhaustion-3",
+      "name": "Exhaustion 3",
+      "icon": "modules/combat-utility-belt/icons/exhaustion3.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "4ha3l6uol7ru1789",
+      "removeTrigger": "yu2hwdptgjh5bq98",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "tDIuzKOpulwvV9oE",
+        "changes": [
+          {
+            "key": "flags.midi-qol.disadvantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.ability.save.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "data.attributes.exhaustion",
+            "mode": 4,
+            "value": "3",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.X4GHtay2fmGpLzKt",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "exhaustion-4",
+      "name": "Exhaustion 4",
+      "icon": "modules/combat-utility-belt/icons/exhaustion4.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "r1l4bs0odgin4962",
+      "removeTrigger": "yl27vrkchwymtoww",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "tMgrPXptXSN5Hpel",
+        "changes": [
+          {
+            "key": "data.attributes.hp.max",
+            "mode": 1,
+            "value": "0.5",
+            "priority": "20"
+          },
+          {
+            "key": "data.attributes.exhaustion",
+            "mode": 4,
+            "value": "4",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.TOaaDE17Q0ocT6cx",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "exhaustion-5",
+      "name": "Exhaustion 5",
+      "icon": "modules/combat-utility-belt/icons/exhaustion5.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "smmnu5k57jaybp6k",
+      "removeTrigger": "qimgawms31kz8tpm",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "ivUzzgwojMmcnH4p",
+        "changes": [
+          {
+            "key": "data.attributes.movement.all",
+            "mode": 0,
+            "value": "0",
+            "priority": "20"
+          },
+          {
+            "key": "data.attributes.exhaustion",
+            "mode": 4,
+            "value": "5",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.SB7XlcWqKHKg6owz",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "flames",
+      "name": "Flames",
+      "icon": "systems/dnd5e/icons/skills/red_30.jpg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "XbA3VZ1hGG0ENLid",
+        "changes": [
+          {
+            "key": "macro.tokenMagic",
+            "mode": 0,
+            "value": "Fire v2 (sparks)",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.lqvnBPGlQyBWXAo3",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "freeze",
+      "name": "Freeze",
+      "icon": "systems/dnd5e/icons/skills/blue_04.jpg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "VLtZcEUzvqs9uK2b",
+        "changes": [
+          {
+            "key": "macro.tokenMagic",
+            "mode": 0,
+            "value": "glacial-aura",
+            "priority": "20"
+          },
+          {
+            "key": "data.attributes.movement.all",
+            "mode": 0,
+            "value": "-10",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.UR9l2Ta9tnAhGVpi",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "frightened",
+      "name": "Frightened",
+      "icon": "modules/combat-utility-belt/icons/frightened.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "3eYH8eXit6pUC7X9",
+        "changes": [
+          {
+            "key": "flags.midi-qol.disadvantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.ability.check.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.5ZjqYaRHphqgfWn5",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "give-advantage",
+      "name": "Give Advantage",
+      "icon": "icons/svg/up.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "PMC4VpyOBjQDReXs",
+        "changes": [
+          {
+            "key": "flags.midi-qol.grants.advantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.hxEySXucovlQU8qn",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "give-disadvantage",
+      "name": "Give Disadvantage",
+      "icon": "icons/svg/down.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "Xtb0oT4Jg5R5msyP",
+        "changes": [
+          {
+            "key": "flags.midi-qol.grants.disadvantage.attack.all",
+            "mode": 0,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.czZ8SHwddfseKXYm",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "grappled",
+      "name": "Grappled",
+      "icon": "modules/combat-utility-belt/icons/grappled.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "XhgFlm7xXmJPOeuI",
+        "changes": [
+          {
+            "key": "data.attributes.movement.all",
+            "mode": 0,
+            "value": "0",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.6LtopVRddFkK4bQx",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "hidden",
+      "name": "Hidden",
+      "icon": "modules/conditional-visibility/icons/newspaper.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "incapacitated",
+      "name": "Incapacitated",
+      "icon": "modules/combat-utility-belt/icons/incapacitated.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "VOg38C7HGL2pWD3u",
+        "changes": [
+          {
+            "key": "flags.midi-qol.fail.spell.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.ability.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.r6MaHgybT8PSEQoq",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "invisible",
+      "name": "Invisible",
+      "icon": "modules/conditional-visibility/icons/unknown.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "ZYST7fe79QtRGxfx",
+        "changes": [
+          {
+            "key": "flags.midi-qol.grants.disadvantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.advantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.yqAewCYvP0UnQNf7",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "pack-tactics",
+      "name": "Pack Tactics",
+      "icon": "systems/dnd5e/icons/skills/yellow_04.jpg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "gTmjNVlPmYvruuMp",
+        "changes": [
+          {
+            "key": "",
+            "mode": 2,
+            "value": "0",
+            "priority": 0
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.j25o7q2WmSIXroIe",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "paralyzed",
+      "name": "Paralyzed",
+      "icon": "modules/combat-utility-belt/icons/paralyzed.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "n1ZygooTLUSGJHam",
+        "changes": [
+          {
+            "key": "flags.midi-qol.grants.advantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.ability.save.str",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.ability.save.dex",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.spell.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.grants.critical.mwak",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "data.attributes.movement.all",
+            "mode": 0,
+            "value": "0",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.B8FayUiM8qnCInMh",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "petrified",
+      "name": "Petrified",
+      "icon": "modules/combat-utility-belt/icons/petrified.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "fJtien3UOjg6epdE",
+        "changes": [
+          {
+            "key": "flags.midi-qol.fail.spell.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.grants.advantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.ability.save.str",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.ability.save.dex",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "data.attributes.movement.all",
+            "mode": 0,
+            "value": "0",
+            "priority": "20"
+          },
+          {
+            "key": "data.traits.dr.all",
+            "mode": 0,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "data.traits.ci.value",
+            "mode": 2,
+            "value": "poisoned",
+            "priority": "20"
+          },
+          {
+            "key": "data.traits.ci.value",
+            "mode": 2,
+            "value": "diseased",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.qNiSlRTf158dVwEx",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "poisoned",
+      "name": "Poisoned",
+      "icon": "modules/combat-utility-belt/icons/poisoned.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "UgqZBmXShBu0u1dQ",
+        "changes": [
+          {
+            "key": "flags.midi-qol.disadvantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.ability.check.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.skill.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.IBwV6zv3vqphVXgK",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "prone",
+      "name": "Prone",
+      "icon": "modules/combat-utility-belt/icons/prone.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "K2WZeQCr8dEqnJ82",
+        "changes": [
+          {
+            "key": "flags.midi-qol.disadvantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.grants.advantage.attack.mwak",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.grants.disadvantage.attack.rwak",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.grants.disadvantage.attack.rsak",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.grants.advantage.attack.msak",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.jmAFwyOMqA8BoKKV",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "reaction",
+      "name": "Reaction",
+      "icon": "icons/svg/clockwork.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "restrained",
+      "name": "Restrained",
+      "icon": "modules/combat-utility-belt/icons/restrained.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "mgnuLh1DStENZDne",
+        "changes": [
+          {
+            "key": "data.attributes.movement.all",
+            "mode": 0,
+            "value": "0",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.grants.advantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.ability.save.dex",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.iZGp7pvS66vFZCyn",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "sleep",
+      "name": "Sleep",
+      "icon": "icons/svg/sleep.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "XnPsouv9uMB8G0fw",
+        "changes": [
+          {
+            "key": "flags.midi-qol.grants.advantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.ability.save.str",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.ability.save.dex",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.grants.critical.mwak",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.spell.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "data.attributes.movement.all",
+            "mode": 0,
+            "value": "0",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.xdaNXpBfucAVbQ5e",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "slow",
+      "name": "Slow",
+      "icon": "modules/plutonium/media/icon/spell/phb-slow.jpg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "LFugXYMTPwSGmxK3",
+        "changes": [
+          {
+            "key": "data.attributes.movement.all",
+            "mode": 0,
+            "value": "0",
+            "priority": "20"
+          },
+          {
+            "key": "macro.tokenMagic",
+            "mode": 0,
+            "value": "distortion",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.jJ7WqaNZwN88fr7h",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "stunned",
+      "name": "Stunned",
+      "icon": "modules/combat-utility-belt/icons/stunned.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "lKtG9rpAydaVxLpl",
+        "changes": [
+          {
+            "key": "flags.midi-qol.fail.spell.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.ability.save.str",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.ability.save.dex",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.grants.advantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "data.attributes.movement.all",
+            "mode": 0,
+            "value": "0",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.1gS0a4XSWUd5SGaG",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "unconscious",
+      "name": "Unconscious",
+      "icon": "icons/svg/unconscious.svg",
+      "referenceType": "compendium.journalEntry",
+      "compendium": "dnd5e.rules",
+      "referenceId": "",
+      "applyTrigger": "vvtx8vn1y4gmp165",
+      "removeTrigger": "uo3cpmei69f47q08",
+      "options": {
+        "overlay": true,
+        "removeOthers": true,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "activeEffect": {
+        "_id": "4AcbAMt10ozy8nr2",
+        "changes": [
+          {
+            "key": "flags.midi-qol.grants.advantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.ability.save.str",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.ability.save.dex",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.grants.critical.mwak",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.fail.spell.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "data.attributes.movement.all",
+            "mode": 0,
+            "value": "0",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.66ayVGOMWaAsqz7A",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "obscured",
+      "name": "Obscured",
+      "icon": "modules/conditional-visibility/icons/foggy.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "in-darkness",
+      "name": "In Darkness",
+      "icon": "modules/conditional-visibility/icons/moon.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "encumbrance-medium",
+      "name": "Encumbrance medium",
+      "icon": "icons/svg/item-bag.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": {
+        "_id": "ch2tyXJCe9VtUAgs",
+        "changes": [
+          {
+            "key": "data.attributes.movement.all",
+            "mode": 0,
+            "value": "-10",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.c306Ftm3G3szZnYS",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    },
+    {
+      "id": "encumbrance-heavy",
+      "name": "Encumbrance heavy",
+      "icon": "icons/svg/anchor.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": {
+        "_id": "ch2tyXJCe9VtUAgs",
+        "changes": [
+          {
+            "key": "data.attributes.movement.all",
+            "mode": 0,
+            "value": "-20",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.attack.all",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.ability.save.str",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.ability.save.dex",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.ability.save.con",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.ability.check.con",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.ability.check.str",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.ability.check.dex",
+            "mode": 5,
+            "value": "1",
+            "priority": "20"
+          }
+        ],
+        "disabled": false,
+        "duration": {
+          "startTime": null
+        },
+        "icon": "icons/svg/aura.svg",
+        "label": "New Effect",
+        "origin": "Item.c306Ftm3G3szZnYS",
+        "tint": null,
+        "transfer": true,
+        "flags": {
+          "dae": {
+            "stackable": false,
+            "macroRepeat": "none",
+            "specialDuration": [],
+            "transfer": true
+          },
+          "ActiveAuras": {
+            "isAura": false,
+            "radius": null,
+            "aura": "None",
+            "alignment": "",
+            "type": "",
+            "ignoreSelf": false,
+            "height": false,
+            "hidden": false,
+            "hostile": false,
+            "onlyOnce": false
+          }
+        }
+      },
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": true,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "enrichedReference": "",
+      "isChanged": false
+    }
+  ]
+}
