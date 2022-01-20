@@ -65,22 +65,6 @@ It is nothing fancy. My players were casting find familiar and I tried to use th
 are in the DnD5e system and it wasn't working.  So all I did was create actor/player types for each 
 creature they could summon.
 
-Hope this saves you some time.  
-
-Right now this only supports the following spells:
-* Find Familiar
-* Unseen Servant
-
-### Updated
-
-* Added new find familiar macro. You can find it in the macro compendium.
-
-### How to Use It
-
-* Go to the compendium tab and you will find the Summoner compendium.
-* Select the creature that the player wants to summon and right click it and select import
-* Finally, assign permissions to the player so they can interact with the token.
-
 ## [REMOVED][Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary) version 2.2.0
 
 A module that adds homebrew creatures to your D&D 5e game.
