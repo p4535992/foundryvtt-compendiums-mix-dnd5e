@@ -15,15 +15,11 @@ This is a collection of some public projects compendiums:
 
 - [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json) version 0.26
 - [Kobold Press OGL Compendium with images](Personal compendium with some images form the OGL Kobold Press Site)
-- [REMOVED][Summoner](https://github.com/Jonwh25/summoner) version 1.0.18
-- [REMOVED][Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary) version 2.2.0
-- [REMOVED][FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries) version 1.0.2
 - [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting) version 0.3.1
 - [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish) version 1.1.0
 - [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons) version 3.1.5
 - [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL) version 0.2.2
 - [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e) version 1.9.0
-- [REMOVED][FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants) version 1.0.0
 - [Grim Hollow Weapon Properties](https://github.com/TheDraggo/GrimHollowWeaponProperties) version 0.2
 - [Draggos Mod](https://github.com/TheDraggo/DraggosMods) version 0.1
 - [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration) version 0.1.0
@@ -31,10 +27,17 @@ This is a collection of some public projects compendiums:
 - [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
 - [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard) version 0.1.4
 - [Flirtatious Foundry Maps 1.1.1](https://github.com/FlirtatiousMule/flirtatiousfoundry) version 1.1.1
-- [REMOVED][Dragon Flagon Architect](https://github.com/flamewave000/dragonflagon-arch) version 2.1.2
 - [DnD5 Cheatsheet](https://github.com/pchouzenoux/foundryvtt-dnd5-cheatsheet) version 0.0.7 (2022-01-20)
 - [Innocenti World] version Commits on Jul 31, 2021
-- [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium) version 1.1.0
+- [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium) version 1.2.0 (2022-01-20)
+
+##### REMOVED
+
+- [REMOVED][Dragon Flagon Architect](https://github.com/flamewave000/dragonflagon-arch) version 2.1.2
+- [REMOVED][Summoner](https://github.com/Jonwh25/summoner) version 1.0.18
+- [REMOVED][Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary) version 2.2.0
+- [REMOVED][FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries) version 1.0.2
+- [REMOVED][FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants) version 1.0.0 note use instead [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium)
 
 **this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
 
@@ -55,28 +58,6 @@ To install this module manually:
 5.  Don't forget to enable the module in game using the "Manage Module" button
 
 ## [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json) version 0.26
-
-## [REMOVED][Summoner](https://github.com/Jonwh25/summoner) version 1.0.18
-
-DnD5e compendium for spells like Find Familiar
-
-This FoundryVTT Module adds a simple compendium pack to help with DnD5e spells that summon creatures.
-It is nothing fancy. My players were casting find familiar and I tried to use the npc creatures that
-are in the DnD5e system and it wasn't working.  So all I did was create actor/player types for each 
-creature they could summon.
-
-## [REMOVED][Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary) version 2.2.0
-
-A module that adds homebrew creatures to your D&D 5e game.
-
-### Description
-
-This module contains additional homebrewed monsters for D&D 5E to be used in Foundry VTT.
-* Current Count: 45
-
-## [REMOVED][FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
-
-Lingering Injuries by Damage Type
 
 ## [Innocenti Looting](https://github.com/rinnocenti/innocenti-looting)
 
@@ -117,29 +98,6 @@ This module is wholly unaffiliated with Dias Ex Machina Games.
 ## [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
 
 A module to add support for ME5e, a futuristic sci-fi setting, to your 5e world. Includes most compendium content from ME5e excluding that which would infringe on copyright.
-
-## [REMOVED][FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
-
-https://www.reddit.com/r/DnD/comments/83oupp/brodericks_compendium_plants_and_fungi_across_the/ ). I did not create any of the plants. This addon includes rolltables for the following regions as per the source material: 
-* Arctic 
-* City 
-* Coastal 
-* Desert 
-* Forest
-* Jungle 
-* Mountain 
-* Ocean 
-* Plains 
-* River 
-* Swamp 
-* Underdark/Cave
-
-Roll tables and plants are included as compendiums. Open up the roll table and select the region type your party is searching in. Results will be added to a "Found Plants" loot actor for distribution to the players.
-
-### Suggested Use
-I currently use this in my campaign to allow players to forage. If you use the included roll tables for the region(s) they are in, you can select the Generate Loot button on the table, it will create a new instance of the item on the Actor "Found Plants" in the Actors tab (it will create that loot actor if you don't have it already). 
-
-I also have Forien's Unidentified Items add-on and right click the new plant and mystify before letting the players see it/access it. You can save a copy to your items for reference if you want.
 
 ## [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration)
 
