@@ -7,8 +7,8 @@ export const i18nFormat = (key, data = {}) => {
   return game.i18n.format(key, data);
 };
 
-let inputDown = false;
-let hasValidToken = false;
+// let inputDown = false;
+// let hasValidToken = false;
 
 /* ------------------------------------ */
 /* Initialize module					*/
@@ -77,99 +77,99 @@ Hooks.on('init', () => {
     type: Boolean,
   });
 
-  game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableTokenVisionAnimationWorldScope', {
-    name: i18n('foundryvtt-compendiums-mix-dnd5e.setting.enableTokenVisionAnimationWorldScope.name'),
-    hint: i18n('foundryvtt-compendiums-mix-dnd5e.setting.enableTokenVisionAnimationWorldScope.hint'),
-    scope: 'world',
-    config: true,
-    default: false,
-    type: Boolean,
-  });
+  // game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableTokenVisionAnimationWorldScope', {
+  //   name: i18n('foundryvtt-compendiums-mix-dnd5e.setting.enableTokenVisionAnimationWorldScope.name'),
+  //   hint: i18n('foundryvtt-compendiums-mix-dnd5e.setting.enableTokenVisionAnimationWorldScope.hint'),
+  //   scope: 'world',
+  //   config: true,
+  //   default: false,
+  //   type: Boolean,
+  // });
 
-  game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableGmTokenDragVisibility', {
-    name: i18n('foundryvtt-compendiums-mix-dnd5e.setting.enableGmTokenDragVisibility.name'),
-    hint: i18n('foundryvtt-compendiums-mix-dnd5e.setting.enableGmTokenDragVisibility.hint'),
-    scope: 'world',
-    config: true,
-    default: false,
-    type: Boolean,
-  });
+  // game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableGmTokenDragVisibility', {
+  //   name: i18n('foundryvtt-compendiums-mix-dnd5e.setting.enableGmTokenDragVisibility.name'),
+  //   hint: i18n('foundryvtt-compendiums-mix-dnd5e.setting.enableGmTokenDragVisibility.hint'),
+  //   scope: 'world',
+  //   config: true,
+  //   default: false,
+  //   type: Boolean,
+  // });
 
   // FEATURE GM Token Drag Visibility v2
 
-  if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableGmTokenDragVisibility')) {
-    // eslint-disable-next-line no-undef
-    libWrapper.register(
-      COMPENDIUM_MIX_DND5E_MODULE_NAME,
-      'Token.prototype._onDragLeftStart',
-      (function () {
-        return async function (wrapped, ...args) {
-          if (!game.user.isGM || !canvas.scene.data.tokenVision) {
-            return wrapped.apply(this, args);
-          }
+  // if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableGmTokenDragVisibility')) {
+  //   // eslint-disable-next-line no-undef
+  //   libWrapper.register(
+  //     COMPENDIUM_MIX_DND5E_MODULE_NAME,
+  //     'Token.prototype._onDragLeftStart',
+  //     (function () {
+  //       return async function (wrapped, ...args) {
+  //         if (!game.user.isGM || !canvas.scene.data.tokenVision) {
+  //           return wrapped.apply(this, args);
+  //         }
 
-          inputDown = true;
+  //         inputDown = true;
 
-          //Check to see if any of the controlled tokens use sight
-          //Check to see if any token is interactive
-          for (let t of canvas.tokens.controlled) {
-            if (t.interactive && t.data.vision) {
-              hasValidToken = true;
-              break;
-            }
-          }
+  //         //Check to see if any of the controlled tokens use sight
+  //         //Check to see if any token is interactive
+  //         for (let t of canvas.tokens.controlled) {
+  //           if (t.interactive && t.data.vision) {
+  //             hasValidToken = true;
+  //             break;
+  //           }
+  //         }
 
-          return wrapped.apply(this, args);
-        };
-      })(),
-      'WRAPPER',
-    );
+  //         return wrapped.apply(this, args);
+  //       };
+  //     })(),
+  //     'WRAPPER',
+  //   );
 
-    // eslint-disable-next-line no-undef
-    libWrapper.register(
-      COMPENDIUM_MIX_DND5E_MODULE_NAME,
-      'Token.prototype._onDragLeftMove',
-      (function () {
-        return async function (wrapped, ...args) {
-          if (!game.user.isGM || !canvas.scene.data.tokenVision || !inputDown || !hasValidToken) {
-            return wrapped.apply(this, args);
-          }
+  //   // eslint-disable-next-line no-undef
+  //   libWrapper.register(
+  //     COMPENDIUM_MIX_DND5E_MODULE_NAME,
+  //     'Token.prototype._onDragLeftMove',
+  //     (function () {
+  //       return async function (wrapped, ...args) {
+  //         if (!game.user.isGM || !canvas.scene.data.tokenVision || !inputDown || !hasValidToken) {
+  //           return wrapped.apply(this, args);
+  //         }
 
-          canvas.scene.data.tokenVision = false;
-          canvas.sight.refresh();
+  //         canvas.scene.data.tokenVision = false;
+  //         canvas.sight.refresh();
 
-          return wrapped.apply(this, args);
-        };
-      })(),
-      'WRAPPER',
-    );
+  //         return wrapped.apply(this, args);
+  //       };
+  //     })(),
+  //     'WRAPPER',
+  //   );
 
-    // eslint-disable-next-line no-undef
-    libWrapper.register(
-      COMPENDIUM_MIX_DND5E_MODULE_NAME,
-      'Token.prototype._onDragLeftDrop',
-      (function () {
-        return async function (wrapped, ...args) {
-          EndDrag();
-          return wrapped.apply(this, args);
-        };
-      })(),
-      'WRAPPER',
-    );
+  //   // eslint-disable-next-line no-undef
+  //   libWrapper.register(
+  //     COMPENDIUM_MIX_DND5E_MODULE_NAME,
+  //     'Token.prototype._onDragLeftDrop',
+  //     (function () {
+  //       return async function (wrapped, ...args) {
+  //         EndDrag();
+  //         return wrapped.apply(this, args);
+  //       };
+  //     })(),
+  //     'WRAPPER',
+  //   );
 
-    // eslint-disable-next-line no-undef
-    libWrapper.register(
-      COMPENDIUM_MIX_DND5E_MODULE_NAME,
-      'Token.prototype._onDragLeftCancel',
-      (function () {
-        return async function (wrapped, ...args) {
-          EndDrag();
-          return wrapped.apply(this, args);
-        };
-      })(),
-      'WRAPPER',
-    );
-  }
+  //   // eslint-disable-next-line no-undef
+  //   libWrapper.register(
+  //     COMPENDIUM_MIX_DND5E_MODULE_NAME,
+  //     'Token.prototype._onDragLeftCancel',
+  //     (function () {
+  //       return async function (wrapped, ...args) {
+  //         EndDrag();
+  //         return wrapped.apply(this, args);
+  //       };
+  //     })(),
+  //     'WRAPPER',
+  //   );
+  // }
 });
 
 /* ------------------------------------ */
@@ -256,11 +256,11 @@ Hooks.once('ready', () => {
 
   // FEATURE Token Vision Animation: World Scope
 
-  if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableTokenVisionAnimationWorldScope')) {
-    let visionAnimationSettings = game.settings.settings.get('core.visionAnimation');
-    visionAnimationSettings.scope = 'world';
-    visionAnimationSettings.default = false;
-  }
+  // if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableTokenVisionAnimationWorldScope')) {
+  //   let visionAnimationSettings = game.settings.settings.get('core.visionAnimation');
+  //   visionAnimationSettings.scope = 'world';
+  //   visionAnimationSettings.default = false;
+  // }
 });
 //--------------------------------------
 //----setting compendiums
@@ -328,15 +328,15 @@ function addButton(app, html) {
   html.find('.window-title').after(link);
 }
 
-function EndDrag() {
-  if (!game.user.isGM || !inputDown) {
-    return;
-  }
-  inputDown = false;
+// function EndDrag() {
+//   if (!game.user.isGM || !inputDown) {
+//     return;
+//   }
+//   inputDown = false;
 
-  if (hasValidToken) {
-    canvas.scene.data.tokenVision = true;
-    canvas.sight.refresh();
-    hasValidToken = false;
-  }
-}
+//   if (hasValidToken) {
+//     canvas.scene.data.tokenVision = true;
+//     canvas.sight.refresh();
+//     hasValidToken = false;
+//   }
+// }

@@ -38,6 +38,8 @@ This is a collection of some public projects compendiums:
 - [REMOVED][Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary) version 2.2.0
 - [REMOVED][FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries) version 1.0.2
 - [REMOVED][FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants) version 1.0.0 note use instead [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium)
+- [REMOVED][Token Vision Animation: World Scope](https://gitlab.com/DmitryRomanenko/token-vision-animation-world) version 1.0.1
+- [REMOVED][GM Token Drag Visibility v2](https://github.com/MAClavell/gm-token-drag-visibility-v2)
 
 **this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
 
@@ -295,15 +297,6 @@ it/access it. You can save a copy to your items for reference if you want.
 Tries to let you print many application windows
 
 ![img](https://user-content.gitlab-static.net/383f16b2fbb4334594218f7522a4de8ea4fa1a0f/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3733343039353532343832323737373937362f3834343635333438363131323131323637302f657a2d7072696e742d66697273742e676966)
-
-### [Token Vision Animation: World Scope](https://gitlab.com/DmitryRomanenko/token-vision-animation-world) version 1.0.1
-
-This module sets 'Token Vision Animation' setting from client to world.
-Now you can move player tokens safely without disclosure of scene data in the middle of movement.
-
-### [GM Token Drag Visibility v2](https://github.com/MAClavell/gm-token-drag-visibility-v2)
-
-A FoundryVTT module that disables the vision limitation when dragging a token as a GM. Useful for moving players between floors on the same map. This is an updated version of an old module: https://github.com/SteffanPoulsen/token-drag-visibility
 
 ## [Changelog](./changelog.md)
 
