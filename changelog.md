@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.28
+
+- Removed dependencies from module.json
+
 ## 1.0.27
 
 - [REMOVED][Token Vision Animation: World Scope](https://gitlab.com/DmitryRomanenko/token-vision-animation-world) version 1.0.2
