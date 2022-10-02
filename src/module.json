@@ -637,7 +637,6 @@
 			"system": "dnd5e"
 		}
 	],
-	"systems": [],
 	"scripts": [],
 	"esmodules": ["compendiums-mix-dnd5e.js"],
 	"styles": [],
@@ -655,7 +654,16 @@
 	"bugs": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/issues",
 	"allowBugReporter": true,
 	"relationships": {
-		"systems": [],
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+				"compatibility": {
+					"verified": "2.0.2"
+				}
+			}
+		],
 		"requires": [],
 		"conflicts": []
 	}
