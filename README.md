@@ -30,6 +30,7 @@ This is a collection of some public projects compendiums:
 - [DnD5 Cheatsheet](https://github.com/pchouzenoux/foundryvtt-dnd5-cheatsheet) version 0.0.7 (2022-01-20)
 - [Innocenti World] version Commits on Dec 10, 2021 (2022-01-20)
 - [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium) version 1.2.0 (2022-01-20)
+- [Super's Homebrew Compendium](https://github.com/SuperNar3k/foundry) (2022-12-11)
 
 ##### REMOVED
 
@@ -264,6 +265,10 @@ but with the following changes:
 
 This version also adds compatibility for the new rarity setting, which got introduced by the DND5E 1.4.0 system.
 
+# [Super's Homebrew Compendium](https://github.com/SuperNar3k/foundry)
+
+This module provides additional homebrewed D&D 5th Edition content to be used in FoundryVTT. More to come! Spotlights: 230+ items, 230+ feats, 45+ new spells, 10+ new classes, 70+ new subclasses, 25+ new races, balanced Deck of Many Things, Inspiration and Mockery tables, D&D 5e Conditions! Note: this module is even better when paired up with the DynamicAfterEffects, BetterRolls and MagicItems modules (but is not needed to function). Join the Discord server here and vote on future content to be added!
+
 ## Installation
 
 **Method 1:**
@@ -329,6 +334,7 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [Dragon Flagon Architect](https://github.com/flamewave000/dragonflagon-arch)
 - [Innocenti World] version Commits on Jul 31, 2021
 - [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium) version 1.0.0
+- [Super's Homebrew Compendium](https://github.com/SuperNar3k/foundry)
 
 ## License
 
