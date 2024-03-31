@@ -1,0 +1,94 @@
+{
+  "name": "Flamethrower",
+  "permission": {
+    "default": 0,
+    "N8RgN1jdDFyXuWNq": 3
+  },
+  "type": "spell",
+  "data": {
+    "description": {
+      "value": "<p>Overload your omni-tool's acetylene torch, spewing flames in front of you. Each creature within an 8m cone is primed (fire) until the start of your next turn and must make a Dexterity saving throw. A creature takes 6d10 fire damage on a failed save or half as much damage on a successful one.</p>\n<p>&nbsp;</p>\n<p>At the start of your turn, you may spend your action and 1 additional tech point to continue casting this power. Your movement speed is 2m while casting it in this manner. The spell ends if you become incapacitated.</p>\n<p>&nbsp;</p>\n<p>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 2d10 for each slot level above 3rd.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ME5e",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 8,
+      "units": "ft",
+      "type": "cone"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "6d10",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "flags": {},
+  "img": "systems/dnd5e/icons/spells/protect-orange-3.jpg",
+  "_id": "QOUHCttb8B1dBoLl",
+  "effects": [],
+  "_key": "!items!QOUHCttb8B1dBoLl"
+}

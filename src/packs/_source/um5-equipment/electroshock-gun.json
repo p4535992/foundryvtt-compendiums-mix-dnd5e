@@ -1,0 +1,168 @@
+{
+  "_id": "2v5IdUPY2gmnK0Sv",
+  "name": "Electroshock Gun",
+  "permission": {
+    "default": 0,
+    "qtb8j5Fh7Hu0wRrz": 3
+  },
+  "type": "weapon",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HU4lNUAme2XmxfAN]{Weapon Group: Small Arms, One-Handed}</p>\n<p><span class=\"fontstyle0\">This wand-shaped device fires air-compressed barbed darts attached to coils towards a target. Upon impact, the coils conduct a massive electrical current, disrupting superficial muscle functions. The darts can penetrate enough to attach to anything, and are magnetic. The electrical pulse does not need to penetrate skin to be effective. Upon impact, the target must make a DC15 Constitution save or be paralyzed for 2d4 rounds. If you score a critical hit, the target automatically fails this save. Larger creatures gain a bonus to the save as follows (+2 Large, +4 Huge; larger creatures are immune).<br></span></p>\n<p><span class=\"fontstyle0\"><strong>Firing Rate</strong>: Tension springs recoil the darts back to the gun as a free action. However, it cannot fire again for one minutes (10 rounds) as its capacitor needs to charge.<br><strong>Range</strong></span><span class=\"fontstyle0\" style=\"font-size: 11pt;\">:&nbsp;</span><span class=\"fontstyle0\">Because of the length of coil, you cannot strike creatures further than 10 feet.</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 98px;\"><span class=\"fontstyle0\">Electroshock gun </span></td>\n<td style=\"width: 30px;\"><span class=\"fontstyle0\">450 </span></td>\n<td style=\"width: 55px;\"><span class=\"fontstyle0\">Special </span></td>\n<td style=\"width: 42px;\"><span class=\"fontstyle0\">10 </span></td>\n<td style=\"width: 32px;\"><span class=\"fontstyle0\">3 lb. </span></td>\n<td style=\"width: 127px;\"><span class=\"fontstyle0\">Light, reload (2-M), TL1</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.bY9owuVfWrNWp8NV]{Light}</p>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 2-M} @Compendium[compendiums-mix-dnd5e.um5-equipment.lmAMoPPYbIwgHfGl]{Battry Cell, Medium}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.76",
+    "quantity": 1,
+    "weight": 3,
+    "price": 450,
+    "attuned": false,
+    "equipped": false,
+    "rarity": "TL1",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 0,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 10,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 2,
+      "max": 2,
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "DC15 Constitution save or be paralyzed for [[2d4]] rounds.",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialR",
+    "properties": {
+      "amm": false,
+      "lgt": true,
+      "hvy": false,
+      "fin": false,
+      "fir": true,
+      "foc": false,
+      "rch": false,
+      "rel": true,
+      "ret": false,
+      "spc": true,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "lod": false
+    },
+    "proficient": false
+  },
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": {
+          "0": true
+        },
+        "altValue": {
+          "0": true
+        },
+        "context": {
+          "0": ""
+        }
+      },
+      "quickVersatile": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/skills/weapon_38.jpg",
+  "effects": [],
+  "_key": "!items!2v5IdUPY2gmnK0Sv"
+}

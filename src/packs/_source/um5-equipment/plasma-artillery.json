@@ -1,0 +1,180 @@
+{
+  "_id": "hQ5cLkU9jGKFVUvz",
+  "name": "Plasma Artillery",
+  "permission": {
+    "default": 0,
+    "qtb8j5Fh7Hu0wRrz": 3
+  },
+  "type": "weapon",
+  "data": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><span class=\"fontstyle0\">Built on the same baseline as the ground heavy gun, plasma artillery operates at significantly reduced range due to its incapacity for parabolic indirect firing (instead, its indirect fire mode relies on the plasma splash effect). It more than makes up for the decreased range with its damage potential.</span> &nbsp;<br style=\"font-variant-numeric: normal; font-variant-east-asian: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;\"></span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 54px;\"><span class=\"fontstyle0\">Plasma artillery </span></td>\n<td style=\"width: 44px;\"><span class=\"fontstyle0\">38,000 </span></td>\n<td style=\"width: 48px;\"><span class=\"fontstyle0\">2d8 force </span></td>\n<td style=\"width: 66px;\"><span class=\"fontstyle0\">250/1,000 </span></td>\n<td style=\"width: 44px;\"><span class=\"fontstyle0\">110 lb. </span></td>\n<td style=\"width: 128px;\"><span class=\"fontstyle0\">AP, </span><span class=\"fontstyle0\">direct (2d8+8), exp (10 ft.), loading (1-H), plasma, TL5</span></td>\n</tr>\n</tbody>\n</table>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\">@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{AP (Armor Piercing)} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.6ZQ1XeYXYDKqSy7k]{Direct} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.wKfh7VavE34DhT25]{Plasma} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.aHgsBOaLpXxmywsG]{Heavy} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.z2wFzTqhwoovc1Su]{Loading}</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\">&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.80",
+    "quantity": 1,
+    "weight": 110,
+    "price": 38000,
+    "attuned": false,
+    "equipped": false,
+    "rarity": "TL5",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 10,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 250,
+      "long": 1000,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "str",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.wKfh7VavE34DhT25]{Plasma: Directed Energy} Critical hits deal an additional 10 Force damage; 2nd round doing 9 Force; 3rd doing 8; and so on. ",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "4d8kh2 + 8 + @mod",
+          "force"
+        ],
+        [
+          "2d8",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "dex"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialR",
+    "properties": {
+      "amm": true,
+      "fin": false,
+      "fir": true,
+      "foc": false,
+      "hvy": true,
+      "lgt": false,
+      "lod": true,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false
+    },
+    "proficient": true
+  },
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": {
+          "0": true,
+          "1": true
+        },
+        "altValue": {
+          "0": true,
+          "1": true
+        },
+        "context": {
+          "0": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{AP} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.wKfh7VavE34DhT25]{Plasma} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.6ZQ1XeYXYDKqSy7k]{Direct Hit} ",
+          "1": "10-ft radius explosion [Dex Save 1/2]"
+        }
+      },
+      "quickVersatile": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/spells/explosion-sky-3.jpg",
+  "effects": [],
+  "_key": "!items!hQ5cLkU9jGKFVUvz"
+}

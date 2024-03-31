@@ -1,0 +1,168 @@
+{
+  "_id": "Tykxl52PnPhMdBhn",
+  "name": "Rotary Cannon",
+  "permission": {
+    "default": 0,
+    "qtb8j5Fh7Hu0wRrz": 3
+  },
+  "type": "weapon",
+  "data": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.4YUjuHyUj4GkQGFn]{Weapon Group: Heavy Weapons}</span></p>\n<p><span class=\"fontstyle0\">This gun is a modern rendition of the weapon once called the &ldquo;gatling gun&rdquo;, a relatively simple design with a manual or spring loaded crank for rotating the numerous barrels. The mechanism is simple, but does not have the massive firing rate or more advanced models.<br /></span></p>\n<p><span class=\"fontstyle0\">The rotary cannon has no single shot option: it always fires 10 shots per attack roll.</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 64px;\"><span class=\"fontstyle0\">Rotary cannon </span></td>\n<td style=\"width: 28px;\"><span class=\"fontstyle0\">500 </span></td>\n<td style=\"width: 53px;\"><span class=\"fontstyle0\">1d10 piercing </span></td>\n<td style=\"width: 56px;\"><span class=\"fontstyle0\">100/400 </span></td>\n<td style=\"width: 39px;\"><span class=\"fontstyle0\">65 lb. </span></td>\n<td style=\"width: 138px;\"><span class=\"fontstyle0\">Auto-heavy (Special), heavy, immune, reload<br />(400 shots)</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.450g1kbvRQoe1x5P]{Auto-Heavy}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HE1gIc0o7bZeLjFT]{Burst Fire}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.aHgsBOaLpXxmywsG]{Heavy}</p>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 400 shots}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.80",
+    "quantity": 1,
+    "weight": 65,
+    "price": 500,
+    "attuned": false,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 10,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": 100,
+      "long": 400,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 400,
+      "max": 400,
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d10 + @mod",
+          "piercing"
+        ],
+        [
+          "1d10",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialR",
+    "properties": {
+      "amm": true,
+      "fin": false,
+      "fir": true,
+      "foc": false,
+      "hvy": true,
+      "lgt": false,
+      "lod": false,
+      "rch": false,
+      "rel": true,
+      "ret": false,
+      "spc": true,
+      "thr": false,
+      "two": true,
+      "ver": false
+    },
+    "proficient": false
+  },
+  "flags": {
+    "betterRolls5e": {
+      "quickDamage": {
+        "context": {
+          "0": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.450g1kbvRQoe1x5P]{Auto-Heavy}: 10 rounds",
+          "1": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HE1gIc0o7bZeLjFT]{Burst Fire}: Spray 10-ft cube. [Dex save 1/2]"
+        },
+        "value": {
+          "0": true,
+          "1": true
+        },
+        "altValue": {
+          "0": true,
+          "1": true
+        }
+      },
+      "quickSave": {
+        "value": true,
+        "altValue": true
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickVersatile": {
+        "value": false,
+        "altValue": false
+      },
+      "quickCharges": {
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      },
+      "critRange": {
+        "value": ""
+      },
+      "critDamage": {
+        "value": ""
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/spells/explosion-sky-2.jpg",
+  "effects": [],
+  "_key": "!items!Tykxl52PnPhMdBhn"
+}

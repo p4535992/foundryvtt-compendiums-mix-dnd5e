@@ -1,0 +1,111 @@
+{
+  "name": "77 Missile Launcher",
+  "permission": {
+    "default": 0,
+    "N8RgN1jdDFyXuWNq": 3
+  },
+  "type": "weapon",
+  "data": {
+    "description": {
+      "value": "<ul>\n<li>Range: 60m</li>\n<li>Charges: 6</li>\n</ul>\n<p>As an Attack, choose a creature within 60m that you can see and begin targeting. If you remain targeting until the start of your next turn, fire a missile at the target. Each creature within a 4m cube centered on the target must make a DC 14 Dexterity saving throw. On a failed save a creature takes 6d12 thunder damage or half as much on a successful one.</p>\n<p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Me5e",
+    "quantity": 1,
+    "weight": 10,
+    "price": 29500,
+    "attuned": false,
+    "equipped": false,
+    "rarity": "Uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 4,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 6,
+      "max": 6,
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "3d12",
+          "thunder"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 14,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "hvy",
+    "properties": {
+      "amm": false,
+      "arc": false,
+      "bst": false,
+      "dtp": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "het": false,
+      "hvy": true,
+      "hip": false,
+      "lgt": false,
+      "lod": false,
+      "rch": false,
+      "coi": false,
+      "rel": false,
+      "ret": false,
+      "snt": false,
+      "spc": true,
+      "thr": false,
+      "two": true,
+      "ver": false
+    },
+    "proficient": true
+  },
+  "flags": {},
+  "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/uncheavy.svg",
+  "_id": "EY0xVRp5Z8FmS8y0",
+  "effects": [],
+  "_key": "!items!EY0xVRp5Z8FmS8y0"
+}

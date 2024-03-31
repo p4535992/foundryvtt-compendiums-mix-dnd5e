@@ -1,0 +1,89 @@
+{
+  "name": "Trophy System",
+  "permission": {
+    "default": 0,
+    "N8RgN1jdDFyXuWNq": 3
+  },
+  "type": "spell",
+  "data": {
+    "description": {
+      "value": "<p>Your omni-tool's trophy system detects incoming explosives that fires a small ordinance charge to preemptively detonate hostile explosives. As a reaction to an explosive projectile (grenade or rocket from a heavy weapon) that you can see within 6 meters of you, you may preemptively detonate it. If the blast would cause you to make a Dexterity saving throw, you have advantage on the save.</p>\n<p>&nbsp;</p>\n<p>You may use this ability only once per long rest.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ME5e",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "an explosive projectile is within 6m of you."
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 6,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 0,
+    "school": "div",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "flags": {},
+  "img": "systems/dnd5e/icons/spells/enchant-red-1.jpg",
+  "_id": "I6BMCisvCiL9RN3Y",
+  "effects": [],
+  "_key": "!items!I6BMCisvCiL9RN3Y"
+}

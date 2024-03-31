@@ -1,0 +1,79 @@
+{
+  "name": "Homing Grenade",
+  "permission": {
+    "default": 0,
+    "N8RgN1jdDFyXuWNq": 3
+  },
+  "type": "consumable",
+  "data": {
+    "description": {
+      "value": "<p style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 11.9811px; line-height: 1.3em; font-family: BookSanity; vertical-align: baseline; margin-top: 0px; margin-bottom: 0px; padding: 0px 0px 0.8em; z-index: 15; break-inside: avoid;\">Target a creature you can see within 10m. The target creature takes 1d6 thunder damage. Each other creature within 2m of the target must make a DC 10 Dexterity saving throw. On a failed save, a creature takes 1d6 thunder damage or half as much on a successful one.</p>\n<p style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 11.9811px; line-height: 1.3em; font-family: BookSanity; vertical-align: baseline; margin-top: -0.8em; margin-bottom: 0px; padding: 0px 0px 0.8em; z-index: 15; break-inside: avoid; text-indent: 1em;\"><strong style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: 0.03em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">At Higher Marks.</em></strong>&nbsp;When you use this grenade at Mark II or higher, the damage increases by 1d6 for each mark above the first.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ME5e",
+    "quantity": 1,
+    "weight": 0,
+    "price": 0,
+    "attuned": false,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": "",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "thunder"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 10,
+      "scaling": "flat"
+    },
+    "consumableType": "rod"
+  },
+  "flags": {},
+  "img": "systems/dnd5e/icons/items/inventory/bomb.jpg",
+  "_id": "LBjiEYPRpgEmGi3c",
+  "effects": [],
+  "_key": "!items!LBjiEYPRpgEmGi3c"
+}

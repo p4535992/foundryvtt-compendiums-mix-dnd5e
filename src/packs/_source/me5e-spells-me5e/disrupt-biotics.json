@@ -1,0 +1,89 @@
+{
+  "name": "Disrupt Biotics",
+  "permission": {
+    "default": 0,
+    "N8RgN1jdDFyXuWNq": 3
+  },
+  "type": "spell",
+  "data": {
+    "description": {
+      "value": "<p>Attempt to interrupt a creature in the process of casting a biotic spell. If the creature is casting a spell of 2nd level or lower, its spell fails and has no effect. If it is casting a spell of 3rd level or higher, make an ability check using your spellcasting ability. The DC equals 10 + twice spell's level. On a success, the creature's spell fails and has no effect.</p>\n<p>&nbsp;</p>\n<p>At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ME5e",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "when you see a creature casting a biotic spell"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "flags": {},
+  "img": "systems/dnd5e/icons/spells/protect-orange-2.jpg",
+  "_id": "43eJls3qTi8dte3D",
+  "effects": [],
+  "_key": "!items!43eJls3qTi8dte3D"
+}

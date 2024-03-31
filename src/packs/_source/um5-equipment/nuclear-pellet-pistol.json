@@ -1,0 +1,173 @@
+{
+  "_id": "G798zNqkybSsT5XH",
+  "name": "Nuclear Pellet Pistol",
+  "permission": {
+    "default": 0,
+    "qtb8j5Fh7Hu0wRrz": 3
+  },
+  "type": "weapon",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HU4lNUAme2XmxfAN]{Weapon Group: Small Arms, One-Handed}&nbsp;</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 80px;\"><span class=\"fontstyle0\">Nuclear pellet pistol </span></td>\n<td style=\"width: 45px;\"><span class=\"fontstyle0\">5,000 </span></td>\n<td style=\"width: 47px;\"><span class=\"fontstyle0\">1d6 force </span></td>\n<td style=\"width: 50px;\"><span class=\"fontstyle0\">80/320 </span></td>\n<td style=\"width: 34px;\"><span class=\"fontstyle0\">3 lb. </span></td>\n<td style=\"width: 128px;\"><span class=\"fontstyle0\">AP, light, nuclear, reload (15-M), TL3</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{AP (Armor Piercing)}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.bY9owuVfWrNWp8NV]{Light}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.hXFjJbBgtqEegZvD]{Nuclear}</p>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 15-M} @Compendium[compendiums-mix-dnd5e.um5-equipment.lmAMoPPYbIwgHfGl]{Battry Cell, Medium}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.76",
+    "quantity": 1,
+    "weight": 3,
+    "price": 5000,
+    "attuned": false,
+    "equipped": false,
+    "rarity": "TL3",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 0,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 80,
+      "long": 320,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 15,
+      "max": 15,
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.hXFjJbBgtqEegZvD]{Nuclear} Every subsequent hit on the same target gets+1 to damage (max +3). A Critical hit target is @Compendium[combat-utility-belt.conditionsdnd5e.eJQ3ve6RTdjbNGEz]{Poisoned} until the beginning of your next turn.",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialR",
+    "properties": {
+      "amm": false,
+      "lgt": true,
+      "hvy": false,
+      "fin": false,
+      "fir": true,
+      "foc": false,
+      "rch": false,
+      "rel": true,
+      "ret": false,
+      "spc": true,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "lod": false
+    },
+    "proficient": false
+  },
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": {
+          "0": true
+        },
+        "altValue": {
+          "0": true
+        },
+        "context": {
+          "0": ""
+        }
+      },
+      "quickVersatile": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/skills/weapon_36.jpg",
+  "effects": [],
+  "_key": "!items!G798zNqkybSsT5XH"
+}

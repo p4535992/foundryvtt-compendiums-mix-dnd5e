@@ -1,0 +1,187 @@
+{
+  "name": "Heavy Machine Gun",
+  "permission": {
+    "default": 0,
+    "qtb8j5Fh7Hu0wRrz": 3
+  },
+  "type": "weapon",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.Fim0r8kwu9pO2qPe]{Weapon Group: Small Arms, Two-Handed}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 84px;\"><span class=\"fontstyle0\">Heavy Machine Gun </span></td>\n<td style=\"width: 32px;\">&nbsp;</td>\n<td style=\"width: 57px;\"><span class=\"fontstyle0\">2d6 piercing </span></td>\n<td style=\"width: 56px;\"><span class=\"fontstyle0\">200/800</span></td>\n<td style=\"width: 38px;\">&nbsp;</td>\n<td style=\"width: 117px;\"><span class=\"fontstyle0\">Auto (1d8), reload (80 shots)</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.450g1kbvRQoe1x5P]{Auto 1d8}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HE1gIc0o7bZeLjFT]{Burst Fire}</p>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 80 shots}</p>\n<p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.109",
+    "quantity": 1,
+    "weight": 6,
+    "price": 300,
+    "attuned": false,
+    "equipped": true,
+    "rarity": "TL1",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 0,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 80,
+      "long": 320,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 40,
+      "max": 40,
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "2d6 + @mod",
+          "piercing"
+        ],
+        [
+          "2d8 + @mod",
+          "piercing"
+        ],
+        [
+          "2d6",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleR",
+    "properties": {
+      "amm": false,
+      "lgt": false,
+      "hvy": false,
+      "fin": false,
+      "fir": true,
+      "foc": false,
+      "rch": false,
+      "rel": true,
+      "ret": false,
+      "spc": true,
+      "thr": false,
+      "two": true,
+      "ver": false,
+      "lod": false
+    },
+    "proficient": true
+  },
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [
+          true,
+          true,
+          true
+        ],
+        "altValue": [
+          true,
+          true,
+          true
+        ],
+        "context": {
+          "0": "Single Shot",
+          "1": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.450g1kbvRQoe1x5P]{Autofire} 5 rounds",
+          "2": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HE1gIc0o7bZeLjFT]{Burst Fire} 10 rounds in 10-ft-cube (Dex save 1/2)"
+        }
+      },
+      "quickVersatile": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/skills/weapon_36.jpg",
+  "_id": "7dlszdQ114jBgNAn",
+  "effects": [],
+  "_key": "!items!7dlszdQ114jBgNAn"
+}

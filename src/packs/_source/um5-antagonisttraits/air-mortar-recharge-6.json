@@ -1,0 +1,89 @@
+{
+  "name": "Air Mortar (Recharge 6)",
+  "permission": {
+    "default": 0,
+    "qtb8j5Fh7Hu0wRrz": 3
+  },
+  "type": "feat",
+  "data": {
+    "description": {
+      "value": "<p><strong>Air Mortar (Recharge 6).</strong> HARM targets an area 20-feet in radius within 100 feet. Each creature in that area must make a DC 19 Dexterity saving throw, taking 66 (12d10) @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosive)} damage on a failed save, or half as much damage&nbsp;on a successful one.</p>\n<p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.115",
+    "activation": {
+      "type": "action",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 100,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "12d10",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 19,
+      "scaling": "flat"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": 6,
+      "charged": true
+    }
+  },
+  "flags": {
+    "betterRolls5e": {
+      "quickDamage": {
+        "context": {
+          "0": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosive)} dmg"
+        },
+        "value": {
+          "0": true
+        },
+        "altValue": {
+          "0": true
+        }
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/spells/air-burst-air-3.jpg",
+  "_id": "5A1T7YnkzN6ymGjn",
+  "effects": [],
+  "_key": "!items!5A1T7YnkzN6ymGjn"
+}

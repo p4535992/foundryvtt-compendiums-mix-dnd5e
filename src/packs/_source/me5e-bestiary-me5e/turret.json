@@ -1,0 +1,638 @@
+{
+  "_id": "6B1qpBqAw3etmFSP",
+  "name": "Turret",
+  "permission": {
+    "default": 0,
+    "N8RgN1jdDFyXuWNq": 3
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 1,
+        "proficient": 0,
+        "mod": -5,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": -5
+      },
+      "dex": {
+        "value": 1,
+        "proficient": 0,
+        "mod": -5,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": -5
+      },
+      "con": {
+        "value": 8,
+        "proficient": 0,
+        "mod": -1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": -1
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "mod": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 0
+      },
+      "wis": {
+        "value": 6,
+        "proficient": 0,
+        "mod": -2,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": -2
+      },
+      "cha": {
+        "value": 1,
+        "proficient": 0,
+        "mod": -5,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": -5
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 12
+      },
+      "hp": {
+        "value": 25,
+        "min": 0,
+        "max": 25,
+        "temp": 0,
+        "tempmax": 0,
+        "shields": "10",
+        "shieldsMax": "10",
+        "shieldsRegen": "0",
+        "formula": "10d6 - 10"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": -5,
+        "prof": 0,
+        "total": -5
+      },
+      "spellcasting": "int",
+      "speed": {
+        "value": "0m",
+        "special": ""
+      },
+      "prof": 2,
+      "spelldc": 10
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "",
+      "race": "",
+      "type": "Synthetic",
+      "environment": "",
+      "cr": 1,
+      "spellLevel": 0,
+      "xp": {
+        "value": 200
+      },
+      "source": ""
+    },
+    "traits": {
+      "size": "sm",
+      "di": {
+        "value": [
+          "poison",
+          "psychic"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [
+          "lightning"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned"
+        ],
+        "custom": ""
+      },
+      "senses": "Passive Perception 8",
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": -5,
+        "prof": 0,
+        "total": -5,
+        "passive": 5
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": -2,
+        "prof": 0,
+        "total": -2,
+        "passive": 8
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonus": 0,
+        "mod": -5,
+        "prof": 0,
+        "total": -5,
+        "passive": 5
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": -5,
+        "prof": 0,
+        "total": -5,
+        "passive": 5
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": -2,
+        "prof": 0,
+        "total": -2,
+        "passive": 8
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": -5,
+        "prof": 0,
+        "total": -5,
+        "passive": 5
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": -2,
+        "prof": 0,
+        "total": -2,
+        "passive": 8
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": -2,
+        "prof": 0,
+        "total": -2,
+        "passive": 8
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": -5,
+        "prof": 0,
+        "total": -5,
+        "passive": 5
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": -5,
+        "prof": 0,
+        "total": -5,
+        "passive": 5
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": -5,
+        "prof": 0,
+        "total": -5,
+        "passive": 5
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": -5,
+        "prof": 0,
+        "total": -5,
+        "passive": 5
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": -2,
+        "prof": 0,
+        "total": -2,
+        "passive": 8
+      },
+      "veh": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": -5,
+        "prof": 0,
+        "total": -5,
+        "passive": 5
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "max": 0,
+        "override": null,
+        "level": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "sort": 100001,
+  "flags": {},
+  "img": "",
+  "token": {
+    "flags": {},
+    "name": "Turret",
+    "displayName": 0,
+    "img": "icons/svg/mystery-man.svg",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "6B1qpBqAw3etmFSP",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {},
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "F3R4KaVVnAKyeOXi",
+      "flags": {},
+      "name": "Stationary",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/yellow_31.jpg",
+      "data": {
+        "description": {
+          "value": "<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Stationary.</em></span>&nbsp;The turret automatically fails Strength and Dexterity saving throws and skill checks.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 100000,
+      "effects": [],
+      "_key": "!actors.items!6B1qpBqAw3etmFSP.F3R4KaVVnAKyeOXi"
+    },
+    {
+      "_id": "x2QQk3SeTc0MY1eT",
+      "flags": {},
+      "name": "Mass Accelerator Machinegun",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/skills/fire_06.jpg",
+      "data": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><strong>Mass Accelerator Machinegun</strong>. Ranged Weapon Attack: +2 to hit, range 60/180m, one target. Hit: 7 (2d6) piercing damage and 7 (2d6) radiant damage. The turret can make a burst fire attack instead.</p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 60,
+          "long": 180,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "int",
+        "actionType": "rwak",
+        "attackBonus": 2,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d6",
+              "piercing"
+            ],
+            [
+              "2d6",
+              "radiant"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleR",
+        "properties": {
+          "amm": false,
+          "arc": false,
+          "bst": false,
+          "dtp": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "het": false,
+          "hvy": false,
+          "hip": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "coi": false,
+          "rel": false,
+          "ret": false,
+          "snt": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": false
+      },
+      "sort": 200000,
+      "effects": [],
+      "_key": "!actors.items!6B1qpBqAw3etmFSP.x2QQk3SeTc0MY1eT"
+    }
+  ],
+  "effects": [],
+  "_key": "!actors!6B1qpBqAw3etmFSP",
+  "prototypeToken": {
+    "texture": {
+      "src": ""
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "_id": "HpGvz7gb2M3BOpF5",
+  "name": "Grenade: EMP",
+  "permission": {
+    "default": 0,
+    "qtb8j5Fh7Hu0wRrz": 3
+  },
+  "type": "consumable",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-rules.WklldBUUO3oesibI]{UM5 Ch.6: Granades &amp; Explosives} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.a6bTH9RIOA1gwoza]{Grenade}&nbsp; @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.5p3UjT3tUP0z1oCf]{(EXP) EMP} @Compendium[compendiums-mix-dnd5e.um5-rules.wbgddINY6cseqVgE]{Tech Level 3}</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">EMPs don't inflict any damage, but instead discharge an electromagnetic burst that disrupts electronics.</span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">When detonated, all technology that employs a cell suffers stop functioning for [[1d4]] minutes. Vehicles suffer disadvantage on Dexterity checks for [[1d4]] minutes.</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td width=\"200\"><span class=\"fontstyle0\">EMP </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">None </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">None </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">15 ft. </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">&frac12; lb. </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">100 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">3 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">No </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">Detonator</span></td>\n</tr>\n</tbody>\n</table>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\">&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.83",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": 100,
+    "attuned": false,
+    "equipped": false,
+    "rarity": "TL3",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 15,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": "",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": 0,
+    "chatFlavor": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.5p3UjT3tUP0z1oCf]{EMP} All technology with 15-ft radius stops functioning for [[1d4]] minutes. Vehicles suffer disadvantage on Dexterity checks for [[1d4]] minutes.",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1 + 1 + @mod",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "dex"
+    },
+    "consumableType": "ammo"
+  },
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": {
+          "0": true
+        },
+        "altValue": {
+          "0": true
+        },
+        "context": {
+          "0": "Impact Point",
+          "1": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)}"
+        }
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/spells/explosion-sky-1.jpg",
+  "effects": [],
+  "_key": "!items!HpGvz7gb2M3BOpF5"
+}

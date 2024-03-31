@@ -1,0 +1,150 @@
+{
+  "_id": "Kk48kHdCKzHwEjW4",
+  "name": "Grenade:  Frag (Fragmentation)",
+  "permission": {
+    "default": 0,
+    "qtb8j5Fh7Hu0wRrz": 3
+  },
+  "type": "consumable",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-rules.WklldBUUO3oesibI]{UM5 Ch.6: Granades &amp; Explosives} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.a6bTH9RIOA1gwoza]{Grenade}&nbsp; @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.xTJEQZpGy8acbzHz]{(EXP) Frag (Fragmentation)} @Compendium[compendiums-mix-dnd5e.um5-rules.oaLjWnlYGoulu7oy]{Tech Level 1}</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">Frags are designed purely as an antipersonnel explosive by discharging dozens of plastic or steel flechettes blowing out along with fragments of the explosive's own shell. This deadly shrapnel shreds anything it touches (dealing bludgeoning, piercing, AND slashing damage).</span>&nbsp; &nbsp;</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td width=\"200\"><span class=\"fontstyle0\">Fragmentation </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">1d8 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">Physical </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">10 ft. </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">½ lb. </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">25 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">1 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">No </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">Detonator</span></td>\n</tr>\n</tbody>\n</table>\n<h2 style=\"box-sizing: border-box; user-select: text; color: #191813;\"><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">Physical<br style=\"box-sizing: border-box; user-select: text;\"></span></h2>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">Grenades and explosives with the physical damage type deal bludgeoning damage unless otherwise stated. Medium or smaller targets that don't save against the Dexterity saving throw are knocked prone by the explosion.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.83",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": 25,
+    "attuned": false,
+    "equipped": false,
+    "rarity": "TL1",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 10,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": "",
+      "autoDestroy": false
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": 0,
+    "chatFlavor": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.xTJEQZpGy8acbzHz]{Frag} deadly shrapnel shreds anything it touches (dealing bludgeoning, piercing, AND slashing damage).",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1 + 1 + @mod",
+          "bludgeoning"
+        ],
+        [
+          "1d8",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "dex"
+    },
+    "consumableType": "ammo"
+  },
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": {
+          "0": true,
+          "1": true
+        },
+        "altValue": {
+          "0": true,
+          "1": true
+        },
+        "context": {
+          "0": "Impact Point",
+          "1": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{Explosives} 10-ft. radius, Dex for 1/2"
+        }
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/spells/explosion-royal-2.jpg",
+  "effects": [],
+  "_key": "!items!Kk48kHdCKzHwEjW4"
+}

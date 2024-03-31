@@ -1,0 +1,94 @@
+{
+  "name": "Heavy Charge",
+  "permission": {
+    "default": 0,
+    "N8RgN1jdDFyXuWNq": 3
+  },
+  "type": "spell",
+  "data": {
+    "description": {
+      "value": "<p>Choose a creature or object within range and use the target's mass to pull yourself to its location (this movement does not provoke opportunity attacks). Each creature within 4m of the target must make Dexterity saving throw, taking 4d10 force damage on a failed save, or half as much on a successful one.</p>\n<p>&nbsp;</p>\n<p>You may transport any number of creatures or objects with you to the target location. To do so, each creature or object must be within 2m of you when you cast this spell and the total weight of all creatures and objects cannot exceed twice your carrying capacity. A creature transported this way must be willing and of your size or smaller and the target location must have an unoccupied space for the creature to be transported to. A creature or object brought with you automatically passes the Dexterity saving throw and takes no damage.</p>\n<p>&nbsp;</p>\n<p>At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d10 for each slot level above 2nd.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ME5e",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 4,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "4d10",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "flags": {},
+  "img": "systems/dnd5e/icons/spells/runes-blue-2.jpg",
+  "_id": "KGYAxKz63pWHQk74",
+  "effects": [],
+  "_key": "!items!KGYAxKz63pWHQk74"
+}

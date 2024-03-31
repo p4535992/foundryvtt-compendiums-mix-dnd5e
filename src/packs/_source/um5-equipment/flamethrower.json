@@ -1,0 +1,161 @@
+{
+  "_id": "YoOFfSvd1s2l2HTF",
+  "name": "Flamethrower",
+  "permission": {
+    "default": 0,
+    "qtb8j5Fh7Hu0wRrz": 3
+  },
+  "type": "weapon",
+  "data": {
+    "description": {
+      "value": "<p><span class=\"fontstyle0\">This weapon has shrunk in size over the years. Though still two-handed, it no longer requires an unsafe pipe to an even more hazardous backpack. Modern flamethrowers keep their tank mounted under the weapon stock. The tank is comprised of a relatively safe solid fuel. When combined with air, it reacts into expanding foam. A small battery compresses air in a separate chamber. The foam enters the final chamber and, when allowed to decompress, sprays out in liquid form. A magnesium igniter at its barrel sends the superheated stream of flame to its target. Despite rumors and urban legends, neither older nor modern flamethrower tanks explode easily if ruptured or if a spark flicks nearby. If the weapon tank is ruptured, the foam would break and spray but not automatically ignite. Even older models would only burst like aerosol cans and not violently explode.<br></span></p>\n<p><span class=\"fontstyle0\">When you attack with the flamethrower, you target a 20-foot cone emanating from you. The DC for the Dexterity saving throw equals 8 + your Dexterity modifier + your proficiency bonus (if proficient in the weapon). Making the save still inflicts half damage. Any target that failed the save against a flamethrower suffers half the inflicted damage again at the beginning of your next turn.</span></p>\n<table class=\"NormalTable\" style=\"height: 68px;\">\n<tbody>\n<tr style=\"height: 68px;\">\n<td style=\"height: 68px; width: 88px;\"><span class=\"fontstyle0\">Flamethrower </span></td>\n<td style=\"height: 68px; width: 39px;\"><span class=\"fontstyle0\">2,000 </span></td>\n<td style=\"height: 68px; width: 51px;\"><span class=\"fontstyle0\">1d6 fire </span></td>\n<td style=\"height: 68px; width: 46px;\"><span class=\"fontstyle0\">Special </span></td>\n<td style=\"height: 68px; width: 37px;\"><span class=\"fontstyle0\">20 lb. </span></td>\n<td style=\"height: 68px; width: 123px;\"><span class=\"fontstyle0\">Heavy, reload (10 shots), TL1, </span><span class=\"fontstyle0\" style=\"color: #000000;\">undermount</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.aHgsBOaLpXxmywsG]{Heavy} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.ndsgjoLFhH09eWJa]{Undermount}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 10 shots}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.80",
+    "quantity": 1,
+    "weight": 20,
+    "price": 2000,
+    "attuned": false,
+    "equipped": true,
+    "rarity": "TL1",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "cone"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 10,
+      "max": 10,
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "Dex save 1/2 damage. Targets that failed the save a suffers 1/2 damage the beginning of your next turn.",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d6 + @mod",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "dex"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleR",
+    "properties": {
+      "lgt": false,
+      "two": true,
+      "amm": true,
+      "hvy": true,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "rch": false,
+      "rel": true,
+      "ret": false,
+      "spc": true,
+      "thr": false,
+      "ver": false,
+      "lod": false
+    },
+    "proficient": true
+  },
+  "flags": {
+    "betterRolls5e": {
+      "quickDamage": {
+        "context": {
+          "0": ""
+        },
+        "value": {
+          "0": true
+        },
+        "altValue": {
+          "0": true
+        }
+      },
+      "quickDesc": {
+        "altValue": false,
+        "value": true
+      },
+      "quickSave": {
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickVersatile": {
+        "value": false,
+        "altValue": false
+      },
+      "quickCharges": {
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      },
+      "critRange": {
+        "value": ""
+      },
+      "critDamage": {
+        "value": ""
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/spells/beam-orange-3.jpg",
+  "effects": [],
+  "_key": "!items!YoOFfSvd1s2l2HTF"
+}

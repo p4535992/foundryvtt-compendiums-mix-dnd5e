@@ -1,0 +1,187 @@
+{
+  "_id": "9keUwscnjy3H2C4s",
+  "name": "Machine Shotgun",
+  "permission": {
+    "default": 0,
+    "qtb8j5Fh7Hu0wRrz": 3
+  },
+  "type": "weapon",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.Fim0r8kwu9pO2qPe]{Weapon Group: Small Arms, Two-Handed}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 61px;\"><span class=\"fontstyle0\">Machine shotgun </span></td>\n<td style=\"width: 31px;\"><span class=\"fontstyle0\">500 </span></td>\n<td style=\"width: 56px;\"><span class=\"fontstyle0\">1d10 piercing </span></td>\n<td style=\"width: 51px;\"><span class=\"fontstyle0\">30/120 </span></td>\n<td style=\"width: 36px;\"><span class=\"fontstyle0\">15 lb. </span></td>\n<td style=\"width: 149px;\"><span class=\"fontstyle0\">Auto (1d12), reload (20 shots), shotgun, TL1</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.450g1kbvRQoe1x5P]{Auto 1d12}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HE1gIc0o7bZeLjFT]{Burst Fire}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.pOWXJ59jO4i89CLN]{Shotgun}</p>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 20 shots}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.76",
+    "quantity": 1,
+    "weight": 15,
+    "price": 500,
+    "attuned": false,
+    "equipped": true,
+    "rarity": "TL1",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 0,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 30,
+      "long": 120,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 20,
+      "max": 20,
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d10 + @mod",
+          "piercing"
+        ],
+        [
+          "1d12 + @mod",
+          "piercing"
+        ],
+        [
+          "1d10",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialR",
+    "properties": {
+      "amm": false,
+      "lgt": false,
+      "hvy": false,
+      "fin": false,
+      "fir": true,
+      "foc": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": true,
+      "thr": false,
+      "two": true,
+      "ver": false,
+      "lod": false
+    },
+    "proficient": true
+  },
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": {
+          "0": true,
+          "1": true,
+          "2": true
+        },
+        "altValue": {
+          "0": true,
+          "1": true,
+          "2": true
+        },
+        "context": {
+          "0": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.pOWXJ59jO4i89CLN]{Shotgun} +3 damage to targets within 10 feet. Half damage over 30 ft. Critical: target is knocked @Compendium[combat-utility-belt.conditionsdnd5e.ekm4TUHKT3QUPdPv]{Prone}.",
+          "1": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.450g1kbvRQoe1x5P]{Autofire} 5 rounds",
+          "2": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HE1gIc0o7bZeLjFT]{Burst Fire} 10 rounds in 10-ft-cube (Dex save 1/2)"
+        }
+      },
+      "quickVersatile": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/skills/weapon_36.jpg",
+  "effects": [],
+  "_key": "!items!9keUwscnjy3H2C4s"
+}

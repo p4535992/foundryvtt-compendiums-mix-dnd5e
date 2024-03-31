@@ -1,0 +1,178 @@
+{
+  "_id": "yzhKkOydtRgY1ny5",
+  "name": "Plasma Rifle",
+  "permission": {
+    "default": 0,
+    "qtb8j5Fh7Hu0wRrz": 3
+  },
+  "type": "weapon",
+  "data": {
+    "description": {
+      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.Fim0r8kwu9pO2qPe]{Weapon Group: Small Arms, Two-Handed} @Compendium[compendiums-mix-dnd5e.um5-rules.aMZgpx4YpHpEBjf8]{UM5 Ch.6: Tech Level 5}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 55px;\"><span class=\"fontstyle0\">Plasma rifle </span></td>\n<td style=\"width: 54px;\"><span class=\"fontstyle0\">50,000 </span></td>\n<td style=\"width: 58px;\"><span class=\"fontstyle0\">1d8 force </span></td>\n<td style=\"width: 56px;\"><span class=\"fontstyle0\">150/600 </span></td>\n<td style=\"width: 39px;\"><span class=\"fontstyle0\">17 lb. </span></td>\n<td style=\"width: 127px;\"><span class=\"fontstyle0\">AP, </span><span class=\"fontstyle0\">plasma, shots (20-M), TL5</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{AP (Armor Piercing)}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.wKfh7VavE34DhT25]{Plasma}</p>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 20-M} @Compendium[compendiums-mix-dnd5e.um5-equipment.lmAMoPPYbIwgHfGl]{Battry Cell, Medium}</p>\n<p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.76",
+    "quantity": 1,
+    "weight": 20,
+    "price": 4000,
+    "attuned": false,
+    "equipped": true,
+    "rarity": "TL5",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 0,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 100,
+      "long": 400,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 80,
+      "max": 80,
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.wKfh7VavE34DhT25]{Plasma: Directed Energy} Critical hits deal an additional 10 Force damage; 2nd round doing 9 Force; 3rd doing 8; and so on. ",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialR",
+    "properties": {
+      "amm": false,
+      "lgt": false,
+      "hvy": false,
+      "fin": false,
+      "fir": true,
+      "foc": false,
+      "rch": false,
+      "rel": true,
+      "ret": false,
+      "spc": true,
+      "thr": false,
+      "two": true,
+      "ver": false,
+      "lod": false
+    },
+    "proficient": true
+  },
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": {
+          "0": true,
+          "1": true,
+          "2": true
+        },
+        "altValue": {
+          "0": true,
+          "1": true,
+          "2": true
+        },
+        "context": {
+          "0": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{AP} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.wKfh7VavE34DhT25]{Plasma}",
+          "1": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HE1gIc0o7bZeLjFT]{Burst Fire}, 10 rounds spray 10-ft-cube (Dex save 1/2)"
+        }
+      },
+      "quickVersatile": {
+        "type": "Boolean",
+        "value": false,
+        "altValue": false
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/skills/weapon_35.jpg",
+  "effects": [],
+  "_key": "!items!yzhKkOydtRgY1ny5"
+}

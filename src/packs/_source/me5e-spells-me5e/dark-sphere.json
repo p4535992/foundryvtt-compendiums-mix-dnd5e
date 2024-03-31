@@ -1,0 +1,94 @@
+{
+  "name": "Dark Sphere",
+  "permission": {
+    "default": 0,
+    "N8RgN1jdDFyXuWNq": 3
+  },
+  "type": "spell",
+  "data": {
+    "description": {
+      "value": "<p>Launch a slow-moving, 4m wide sphere of dark energy in a straight line. It moves 4m at the end of each of your turns. A creature caught in the sphere's path becomes primed (necrotic) until the end of its next turn and must make a Constitution saving throw. On a failed save, a creature takes necrotic damage equal to 6d8 + your spellcasting ability modifier, or half as much on a successful one.</p>\n<p>&nbsp;</p>\n<p>At the start of your turn, if the sphere has traveled 20m, it detonates and the spell ends. Each creature within a 6m radius must make a Constitution saving throw. On a failed save a creature takes necrotic damage equal to 6d8 + your spellcasting ability modifier or half as much damage on a successful one. This damage detonates any primed targets.</p>\n<p>&nbsp;</p>\n<p>You can use an action to detonate the sphere before it travels 20m. If you lose concentration while casting the spell, it does not detonate.</p>\n<p>&nbsp;</p>\n<p>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 2d8 for each slot level above 3rd.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ME5e",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 4,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "6d8+@mod",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 3,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "flags": {},
+  "img": "systems/dnd5e/icons/spells/runes-blue-2.jpg",
+  "_id": "cRHUN49bzRqfDEvN",
+  "effects": [],
+  "_key": "!items!cRHUN49bzRqfDEvN"
+}

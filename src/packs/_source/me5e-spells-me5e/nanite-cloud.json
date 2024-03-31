@@ -1,0 +1,89 @@
+{
+  "name": "Nanite Cloud",
+  "permission": {
+    "default": 0,
+    "N8RgN1jdDFyXuWNq": 3
+  },
+  "type": "spell",
+  "data": {
+    "description": {
+      "value": "<p>Deploy a cloud of fabricated nanites from your omni-tool that swarm and capture incoming energy from an attack, lessening its effect on you and storing it for your next attack. Until the end of your next turn, you gain resistance to the triggering damage type, including against the triggering attack.</p>\n<p>&nbsp;</p>\n<p>The next time you hit with a melee attack or single-target, tech spell, the target takes an extra 4d6 damage of the triggering damage type, and the spell ends.</p>\n<p>&nbsp;</p>\n<p>At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d6 for each spell slot about the 1st.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "ME5e",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "when you would take acid, cold, fire, lightning, or thunder damage."
+    },
+    "duration": {
+      "value": 1,
+      "units": "round"
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": false,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "flags": {},
+  "img": "systems/dnd5e/icons/spells/protect-orange-1.jpg",
+  "_id": "K09SIz1CykgWHeUc",
+  "effects": [],
+  "_key": "!items!K09SIz1CykgWHeUc"
+}

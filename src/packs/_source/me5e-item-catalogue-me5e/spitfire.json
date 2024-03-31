@@ -1,0 +1,111 @@
+{
+  "name": "Spitfire",
+  "permission": {
+    "default": 0,
+    "N8RgN1jdDFyXuWNq": 3
+  },
+  "type": "weapon",
+  "data": {
+    "description": {
+      "value": "<ul>\n<li>Range: 20m</li>\n<li>Charges: 3</li>\n</ul>\n<p>As an Attack, begin targeting, releasing a torrent of bullets in a 10-meter cone extending from your location and consuming 1 charge. The torrent of bullets continues as long as your are targeting. Creatures that enter the area for the first time on a turn or being their turn there must make a DC 14 Dexterity saving throw. On a failed save, a creature takes 12d4 radiant damage. On a success, a creature takes half as much damage. At the start of your turn, you may choose to continue targeting, consuming another charge.</p>\n<p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Me5e",
+    "quantity": 1,
+    "weight": 7,
+    "price": 40000,
+    "attuned": false,
+    "equipped": false,
+    "rarity": "Uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 10,
+      "units": "ft",
+      "type": "cone"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 3,
+      "max": 3,
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "12d4",
+          "radiant"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 14,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "hvy",
+    "properties": {
+      "amm": false,
+      "arc": false,
+      "bst": false,
+      "dtp": false,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "het": false,
+      "hvy": true,
+      "hip": false,
+      "lgt": false,
+      "lod": false,
+      "rch": false,
+      "coi": false,
+      "rel": false,
+      "ret": false,
+      "snt": false,
+      "spc": true,
+      "thr": false,
+      "two": true,
+      "ver": false
+    },
+    "proficient": true
+  },
+  "flags": {},
+  "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/uncheavy.svg",
+  "_id": "hsVJO1Bonpnqxenx",
+  "effects": [],
+  "_key": "!items!hsVJO1Bonpnqxenx"
+}

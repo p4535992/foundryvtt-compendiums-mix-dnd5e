@@ -1,0 +1,161 @@
+{
+  "_id": "OEsAGGbti4ZgEoSi",
+  "name": "Piton-Gauntlet",
+  "permission": {
+    "default": 0,
+    "qtb8j5Fh7Hu0wRrz": 3
+  },
+  "type": "weapon",
+  "data": {
+    "description": {
+      "value": "<p><span class=\"fontstyle2\">This weapon mounts to the forearm, and is effectively a captive bolt pistol. When activated, it propels a titanium rod three inches from your fist (or as much as a foot for larger models). Spring action recoil returns the rod to its housing an instant later. The ejection system utilizes compressed air containing enough pressure for five minutes, and refilling the air tank requires one minute.<br></span></p>\n<p><span class=\"fontstyle2\">If you hit a creature with a melee attack, you can activate the piton-gauntlet to inflict additional damage on the target (listed on the table). Once you use the piton, you cannot use it again until the beginning of your next turn.</span> &nbsp;</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 63px;\"><span class=\"fontstyle0\">Piton-gauntlet </span></td>\n<td style=\"width: 32px;\"><span class=\"fontstyle0\">250 </span></td>\n<td style=\"width: 91px;\"><span class=\"fontstyle0\">Special (1d6) / Piercing </span></td>\n<td style=\"width: 37px;\"><span class=\"fontstyle0\">3 lb. </span></td>\n<td style=\"width: 164px;\"><span class=\"fontstyle0\">Augment, finesse, light, reload (20-M), TL1</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.ydcXGCVTDa4gQn8f]{Augment}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.qB35DS5654aWtgir]{Finesse}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.bY9owuVfWrNWp8NV]{Light}&nbsp;</p>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 20-M} @Compendium[compendiums-mix-dnd5e.um5-equipment.lmAMoPPYbIwgHfGl]{Battry Cell, Medium}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.78",
+    "quantity": 1,
+    "weight": 4,
+    "price": 5,
+    "attuned": false,
+    "equipped": false,
+    "rarity": "TL1",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": 0,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 5,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 20,
+      "max": 20,
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1 + @mod",
+          "bludgeoning"
+        ],
+        [
+          "1d6",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialM",
+    "properties": {
+      "value": "",
+      "amm": false,
+      "hvy": false,
+      "fin": true,
+      "fir": false,
+      "foc": false,
+      "lgt": true,
+      "rch": false,
+      "rel": true,
+      "ret": false,
+      "spc": true,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "lod": false
+    },
+    "proficient": true
+  },
+  "flags": {
+    "betterRolls5e": {
+      "quickDamage": {
+        "context": {
+          "0": "Punch",
+          "1": "Piton"
+        },
+        "value": {
+          "0": true,
+          "1": true
+        },
+        "altValue": {
+          "0": true,
+          "1": true
+        }
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickVersatile": {
+        "value": false,
+        "altValue": false
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      },
+      "critRange": {
+        "value": ""
+      },
+      "critDamage": {
+        "value": ""
+      },
+      "quickCharges": {
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/items/weapons/bolt.png",
+  "effects": [],
+  "_key": "!items!OEsAGGbti4ZgEoSi"
+}
