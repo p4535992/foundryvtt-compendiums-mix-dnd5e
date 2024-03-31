@@ -1,0 +1,726 @@
+{
+	"id": "compendiums-mix-dnd5e",
+	"title": "FoundryVTT Compendiums Mix for DnD5e",
+	"description": "Compendiums collection from KoboldOGL, Summoner, Supplement Bestiary, ecc. for DnD5e",
+	"version": "1.2.1",
+	"authors": [
+		{
+			"name": "p4535992",
+			"url": "https://github.com/p4535992",
+			"discord": "",
+			"twitter": "",
+			"patreon": "",
+			"github": "p4535992",
+			"ko-fi": "",
+			"reddit": "",
+			"email": ""
+		}
+	],
+	"type": "module",
+	"socket": true,
+	"includes": [
+		"./assets/**",
+		"./lang/**",
+		"./languages/**",
+		"./scripts/**",
+		"./styles/**",
+		"./templates/**",
+		"./module.json",
+		"./README.md",
+		"./icons/**",
+		"./packs/**"
+	],
+	"media": [
+		{
+			"type": "icon",
+			"location": ""
+		},
+		{
+			"type": "cover",
+			"location": ""
+		},
+		{
+			"type": "screenshot",
+			"location": ""
+		},
+		{
+			"type": "background",
+			"location": "assets/parchment.jpg"
+		},
+		{
+			"type": "background",
+			"location": "assets/parchment-white.jpg"
+		}
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "languages/en.json"
+		}
+	],
+	"packs": [
+		{
+			"name": "koboldpressmonsters",
+			"label": "CM - OGL Kobold Press Monsters",
+			"path": "packs/KPmonsters",
+			"module": "compendiums-mix-dnd5e",
+			"type": "Actor",
+			"system": "dnd5e"
+		},
+		{
+			"name": "koboldpressspells",
+			"label": "CM - OGL Kobold Press Spells",
+			"path": "packs/KPspells",
+			"module": "compendiums-mix-dnd5e",
+			"type": "Item",
+			"system": "dnd5e"
+		},
+		{
+			"name": "looting-items",
+			"label": "CM - Looting Items Currency",
+			"path": "packs/item-currency",
+			"module": "compendiums-mix-dnd5e",
+			"type": "Item",
+			"system": "dnd5e"
+		},
+		{
+			"name": "1000-fish",
+			"label": "CM - 1000 Fish",
+			"path": "packs/1000-fish",
+			"module": "compendiums-mix-dnd5e",
+			"type": "RollTable",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-tables-de-tresors",
+			"label": "CM - H&D - Tables de trésors",
+			"path": "packs/h-d-tables-de-tresors",
+			"type": "RollTable",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-conditions",
+			"label": "CM - H&D - Conditions",
+			"path": "packs/h-d-conditions",
+			"type": "JournalEntry",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-dons",
+			"label": "CM - H&D - Dons",
+			"path": "packs/h-d-dons",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-capacites-de-classes",
+			"label": "CM - H&D - Capacités de Classes",
+			"path": "packs/h-d-capacites-de-classes",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-grimoire",
+			"label": "CM - H&D - Grimoire",
+			"path": "packs/h-d-grimoire",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-bestaire",
+			"label": "CM - H&D - Bestaire",
+			"path": "packs/h-d-bestiaire",
+			"type": "Actor",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-races",
+			"label": "CM - H&D - Races",
+			"path": "packs/h-d-races",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-traits-raciaux",
+			"label": "CM - H&D - Traits raciaux",
+			"path": "packs/h-d-traits-raciaux",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-capacités-du-bestiaire",
+			"label": "CM - H&D - Capacités du bestiaire",
+			"path": "packs/h-d-capacites-du-bestiaire",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-historiques",
+			"label": "CM - H&D - Historiques",
+			"path": "packs/h-d-historiques",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-équipement-aventurier",
+			"label": "CM - H&D - Equipement d'aventurier",
+			"path": "packs/h-d-equipement-aventurier",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-objets-magiques-et-trésors",
+			"label": "CM - H&D - Objets magiques et trésors",
+			"path": "packs/h-d-objets-magiques-et-tresors",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-classes-et-specialisations",
+			"label": "CM - H&D - Classes et spécialisations",
+			"path": "packs/h-d-classes-et-specialisations",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-tables-de-rencontres-aleatoires",
+			"label": "CM - H&D - Tables-de-rencontres-aleatoires",
+			"path": "packs/h-d-tables-de-rencontres-aleatoires",
+			"type": "RollTable",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-tables-d'evenements-aleatoires",
+			"label": "CM - H&D - Tables-d'évènements-aleatoires",
+			"path": "packs/h-d-tables-d'evenements-aleatoires",
+			"type": "RollTable",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-poisons-et-maladies",
+			"label": "CM - H&D - Poisons et maladies",
+			"path": "packs/h-d-poisons-et-maladies",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-folies",
+			"label": "CM - H&D - Folies",
+			"path": "packs/h-d-folies",
+			"type": "RollTable",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-pieges",
+			"label": "CM - H&D - Pièges",
+			"path": "packs/h-d-pieges",
+			"type": "Actor",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "h-d-aptitudes-historiques",
+			"label": "CM - H&D - Aptitudes d'historiques",
+			"path": "packs/h-d-aptitudes-historiques",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-feats",
+			"label": "CM - UM5 Ch.1: Skills, Proficiencies, & Feats",
+			"path": "packs/um5-feats",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-backgrounds",
+			"label": "CM - UM5 Ch.2: Backgrounds",
+			"path": "packs/um5-backgrounds",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-tables",
+			"label": "CM - UM5 Ch.2: Lifepath & Life Events",
+			"path": "packs/um5-lifetables",
+			"type": "RollTable",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-ladders",
+			"label": "CM - UM5 Ch.3: Ladders",
+			"path": "packs/um5-ladders",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-classes",
+			"label": "CM - UM5 Ch.4: Classes",
+			"path": "packs/um5-classes",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-classfeatures",
+			"label": "CM - UM5 Ch.4 Class Features",
+			"path": "packs/um5-classfeatures",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-archetypes",
+			"label": "CM - UM5 Ch.5: Archetypes",
+			"path": "packs/um5-archetypes",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-rules",
+			"label": "CM - UM5 Ch.6: New Rules Summary",
+			"path": "packs/um5-rules",
+			"type": "JournalEntry",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-weaponproperties",
+			"label": "CM - UM5 Ch.6: New Weapon Properties",
+			"path": "packs/um5-weaponproperties",
+			"type": "JournalEntry",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-equipment",
+			"label": "CM - UM5 Ch.6: Equipment",
+			"path": "packs/um5-equipment",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-vehicles",
+			"label": "CM - UM5 Ch.6: Vehicles",
+			"path": "packs/um5-vehicles",
+			"type": "Actor",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-mechs",
+			"label": "CM - UM5 Ch.6: Exo-Armor (Mechs)",
+			"path": "packs/um5-mechs",
+			"type": "Actor",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-characters",
+			"label": "CM - UM5 Characters",
+			"path": "packs/um5-characters",
+			"type": "Actor",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-antagonists",
+			"label": "CM - UM5 Ch.7: Antagonists & Enemies",
+			"path": "packs/um5-antagonists",
+			"type": "Actor",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-antagonisttraits",
+			"label": "CM - UM5 Ch.7: Antagonist Traits",
+			"path": "packs/um5-antagonisttraits",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "um5-modernscenes",
+			"label": "CM - UM5 Modern Locations",
+			"path": "packs/um5-modernscenes",
+			"type": "Scene",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "me5e-backgrounds-me5e",
+			"label": "CM - ME5e Backgrounds",
+			"path": "packs/me5e-backgrounds-me5e",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "me5e-bestiary-me5e",
+			"label": "CM - ME5e Bestiary",
+			"path": "packs/me5e-bestiary-me5e",
+			"type": "Actor",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "me5e-classes-me5e",
+			"label": "CM - ME5e Classes",
+			"path": "packs/me5e-classes-me5e",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "me5e-class-features-me5e",
+			"label": "CM - ME5e Class Features",
+			"path": "packs/me5e-class-features-me5e",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "me5e-feats-me5e",
+			"label": "CM - ME5e Feats",
+			"path": "packs/me5e-feats-me5e",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "me5e-item-catalogue-me5e",
+			"label": "CM - ME5e Item Catalogue",
+			"path": "packs/me5e-item-catalogue-me5e",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "me5e-racial-features-me5e",
+			"label": "CM - ME5e Racial Features",
+			"path": "packs/me5e-racial-features-me5e",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "me5e-spells-me5e",
+			"label": "CM - ME5e Spells",
+			"path": "packs/me5e-spells-me5e",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "me5e-vehiclesme5e",
+			"label": "CM - ME5e Vehicles",
+			"path": "packs/me5e-vehiclesme5e",
+			"type": "Actor",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "sfai-journal",
+			"label": "CM - Sly Flourish' 1d20 Lists for D&D Adventure Inspiration",
+			"path": "packs/sfai-journal",
+			"type": "JournalEntry",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "sfai-rolltable",
+			"label": "CM - Sly Flourish' 1d20 Lists for D&D Adventure Inspiration",
+			"path": "packs/sfai-rolltables",
+			"type": "RollTable",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "weather-actors",
+			"label": "CM - Weather Actors",
+			"path": "packs/weather-actors",
+			"type": "Actor",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "weather-effects",
+			"label": "CM - Weather Effects",
+			"path": "packs/weather-effects",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "weather-rolltables",
+			"label": "CM - Weather Roll Tables",
+			"path": "packs/weather-rolltables",
+			"type": "RollTable",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "modular-trains",
+			"label": "CM - Modular Trains",
+			"path": "packs/modular-trains",
+			"type": "Actor",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "copperdragonhoard-items",
+			"label": "CM - Copper Dragon's Items",
+			"path": "packs/copperdragonhoard-items",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "pizza-shared-items",
+			"label": "CM - Pizza Shared Items",
+			"path": "packs/pizza-shared-items",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "flirtatious-item",
+			"label": "CM - FF Items",
+			"path": "packs/flirtatious-genitems",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "flirtatious-wditems",
+			"label": "CM - FF Waterdeep Items",
+			"path": "packs/flirtatious-wditems",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "flirtatious-waterdeepscenes",
+			"label": "CM - FF Waterdeep Scenes",
+			"path": "packs/flirtatious-wdscenes",
+			"type": "Scene",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "generalscenes",
+			"label": "CM - FF Scenes",
+			"path": "packs/flirtatious-generalscenes",
+			"type": "Scene",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "flirtatious-whjournalentries",
+			"label": "CM - FF Waterdeep Holidays",
+			"path": "packs/flirtatious-whjournalentries",
+			"type": "JournalEntry",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "flirtatious-wejournalentries",
+			"label": "CM - FF Waterdeep Encounters",
+			"path": "packs/flirtatious-wejournalentries",
+			"type": "JournalEntry",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "flirtatious-genjournalentries",
+			"label": "CM - FF Journals",
+			"path": "packs/flirtatious-genjournalentries",
+			"type": "JournalEntry",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "flirtatious-combatrolltables",
+			"label": "CM - FF Combat RollTables",
+			"path": "packs/flirtatious-combatrolltables",
+			"type": "RollTable",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "flirtatious-npcdialogrolltables",
+			"label": "CM - FF NPC Dialog RollTables",
+			"path": "packs/flirtatious-npcdialogrolltables",
+			"type": "RollTable",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "flirtatious-item-shoprolltables",
+			"label": "CM - FF Item & Shop Rolltables",
+			"path": "packs/flirtatious-item-shoprolltables",
+			"type": "RollTable",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "mix-maps",
+			"label": "CM - Mix Map",
+			"path": "packs/mix-maps",
+			"type": "Scene",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "mix-playlist",
+			"label": "CM - Mix Playlist",
+			"path": "packs/mix-playlist",
+			"type": "Playlist",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "dnd5-cheatsheet-journals",
+			"label": "CM - DnD5 Cheatsheet",
+			"path": "packs/dnd5-cheatsheet-journals",
+			"type": "JournalEntry",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "brodericks-compendium-plants",
+			"label": "CM - Broderick's Compendium: Plants",
+			"path": "packs/brodericks-compendium-plants",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "brodericks-compendium-plantrolltables",
+			"label": "CM - Broderick's Compendium: Plant RollTables",
+			"path": "packs/brodericks-compendium-plantrolltables",
+			"type": "RollTable",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "superhomebrewpack-items",
+			"label": "SuperHomebrewPack - Items",
+			"path": "packs/superhomebrewpack-items",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "superhomebrewpack-spells",
+			"label": "SuperHomebrewPack - Spells",
+			"path": "packs/superhomebrewpack-spells",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "superhomebrewpack-tables",
+			"label": "SuperHomebrewPack - RollTables",
+			"path": "packs/superhomebrewpack-rolltables",
+			"type": "RollTable",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "superhomebrewpack-conditions",
+			"label": "SuperHomebrewPack - Conditions",
+			"path": "packs/superhomebrewpack-conditions",
+			"type": "JournalEntry",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "superhomebrewpack-feats",
+			"label": "SuperHomebrewPack - Feats",
+			"path": "packs/superhomebrewpack-feats",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "superhomebrewpack-classes",
+			"label": "SuperHomebrewPack - Classes",
+			"path": "packs/superhomebrewpack-classes",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "superhomebrewpack-class-features",
+			"label": "SuperHomebrewPack - Class Features",
+			"path": "packs/superhomebrewpack-class-features",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		},
+		{
+			"name": "superhomebrewpack-races",
+			"label": "SuperHomebrewPack - Races",
+			"path": "packs/superhomebrewpack-races",
+			"type": "Item",
+			"module": "compendiums-mix-dnd5e",
+			"system": "dnd5e"
+		}
+	],
+	"scripts": [],
+	"esmodules": ["module.js"],
+	"styles": [],
+	"compatibility": {
+		"minimum": 11,
+		"verified": 11,
+		"maximum": 11
+	},
+	"manifestPlusVersion": "1.2.1",
+	"url": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e",
+	"manifest": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/releases/latest/download/module.json",
+	"download": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/releases/download/v1.2.1/module.zip",
+	"readme": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/blob/v1.2.1/README.md",
+	"changelog": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/blob/v1.2.1/changelog.md",
+	"bugs": "https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/issues",
+	"allowBugReporter": true,
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+				"compatibility": {
+					"verified": "2.0.2"
+				}
+			}
+		],
+		"requires": [],
+		"conflicts": []
+	}
+}
