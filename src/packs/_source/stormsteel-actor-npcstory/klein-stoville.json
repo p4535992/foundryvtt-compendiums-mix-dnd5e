@@ -1,0 +1,2245 @@
+{
+  "_id": "OqcepItdetUkretZ",
+  "name": "Klein Stoville",
+  "type": "npc",
+  "img": "moulinette/images/img/npccampaign01/Klein_Stoville.Avatar.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 2
+      },
+      "dex": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 1
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 2
+      },
+      "int": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 2
+      },
+      "wis": {
+        "value": 17,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 3
+      },
+      "cha": {
+        "value": 12,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 18,
+        "calc": "natural",
+        "formula": "",
+        "min": 0
+      },
+      "hp": {
+        "value": 65,
+        "min": 0,
+        "max": 65,
+        "temp": null,
+        "tempmax": null,
+        "formula": "10d8 + 20"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "total": 1,
+        "prof": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": null,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 3,
+      "spelldc": 8
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--3\"><p>The King And the Queen</p><div class=\"rd__spc-inline-post\"></div><p>King Paul Shapechanger and Queen Adria Durron lead the kingdom. Though Paul is King, he is actually not a royal, having married then Princess Adria Durron many years ago. Since the death of Adria's father, King Patil took the throne besides his wife.</p><p>KING PAUL SHAPECHANGER</p><p>King Paul fell into royalty. He began like many do, a young adventurer eager to make his name in the world. During</p><p>one of these adventures, he met the Princess Adria Durron and fell instantly in love. Since becoming King, he has lead the kingdom in what he hopes is a fair and just way. Shapechanger. Though his peculiar last name, King Paul is not a shapechanger. His curious name comes from a rumor, that Paul spent time as a half-orc. The tale says that he died during a great battle, only to be resurrected by a friendly druid as a half-orc. Angered with the new body, he undertook a long journey to return to his natural elven form.</p></div>",
+        "public": ""
+      },
+      "alignment": "unaligned",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Human",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 7,
+      "spellLevel": 0,
+      "xp": {
+        "value": 2900
+      },
+      "source": "KINGARMY",
+      "class": {},
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": "",
+      "gender": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "elvish",
+          "orc"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "bonus": 0,
+        "passive": 13
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "bonus": 0,
+        "passive": 13
+      },
+      "itm": {
+        "value": 2,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "bonus": 0,
+        "passive": 13
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "bonus": 0,
+        "passive": 13
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "bonus": 0,
+        "passive": 13
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "flags": {
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        }
+      },
+      "token-hud-wildcard": {
+        "default": ""
+      },
+      "conditional-visibility": {
+        "blindsight": false,
+        "truesight": false,
+        "devilssight": false,
+        "tremorsense": false,
+        "seeinvisible": false
+      },
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "_version": 1,
+        "sightLimit": null
+      }
+    },
+    "name": "Klein Stoville",
+    "displayName": 20,
+    "img": "moulinette/images/img/npccampaign01/Klein_Stoville.Token.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 60,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightColor": null,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "FwH19cZLjzikyeEN",
+    "actorLink": true,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "randomImg": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "9H9uwwQpYeQvLMNM",
+      "name": "Multiattack",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>King Paul makes two attacks with his greataxe Songbringer</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "KINGARMY",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1102,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "FwH19cZLjzikyeEN"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Multiattack",
+                "type": "feat",
+                "data": {
+                  "source": "KINGARMY",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>King Paul makes two attacks with his greataxe Songbringer</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mailed-fist.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Action",
+            "activation": "1 Action",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!OqcepItdetUkretZ.9H9uwwQpYeQvLMNM"
+    },
+    {
+      "_id": "KwuQ4MNL75igGLiV",
+      "name": "Songbringer",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> <a class=\"inline-roll roll\" title=\"1d20+5\" data-mode=\"roll\" data-flavor=\"\" data-formula=\"1d20+5\"><i class=\"fas fa-dice-d20\"></i> 1d20+5</a> (+5) to hit, reach 5 ft., one target. <i>Hit:</i> 11 (<a class=\"inline-roll roll\" title=\"1d12 + 5\" data-mode=\"roll\" data-flavor=\"\" data-formula=\"1d12 + 5\"><i class=\"fas fa-dice-d20\"></i> 1d12 + 5</a>) thunder damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "KINGARMY",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 3,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d12 + 5",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {
+          "two": false,
+          "fin": false,
+          "fir": false,
+          "brc": false,
+          "rel": false,
+          "foc": false,
+          "cvt": false,
+          "thr": false,
+          "dly": false,
+          "exp": false,
+          "flw": false,
+          "rch": false,
+          "hok": false,
+          "lgt": false,
+          "mtd": false,
+          "amm": false,
+          "hvy": false,
+          "lod": false,
+          "ret": false,
+          "scr": false,
+          "spc": false,
+          "ver": false,
+          "mgc": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "FwH19cZLjzikyeEN"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Songbringer",
+                "type": "weapon",
+                "data": {
+                  "source": "KINGARMY",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 5 ft., one target. <i>Hit:</i> 11 ([[/r 1d12 + 5]]) thunder damage.</p><div class=\"rd__spc-inline-post\"></div></div>"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d12 + 5",
+                        "thunder"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "range": {
+                    "value": 5,
+                    "long": 0,
+                    "units": "ft"
+                  },
+                  "actionType": "mwak",
+                  "proficient": false,
+                  "quantity": 1,
+                  "weight": 0,
+                  "price": null,
+                  "rarity": "",
+                  "weaponType": "natural",
+                  "properties": {},
+                  "attuned": false,
+                  "ability": "str",
+                  "equipped": true,
+                  "identified": false,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  }
+                },
+                "img": "modules/plutonium/media/icon/sword-brandish.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "redTweaks": {
+          "deadlyFormula": ""
+        },
+        "magicitems": {
+          "enabled": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1"
+        },
+        "externalactor": {
+          "labels": {
+            "activation": "1 Action",
+            "target": "",
+            "range": "5 Feet",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "1d12 + 5",
+            "damageTypes": "Thunder",
+            "abilityCheck": "Strength Ability Check",
+            "toHit": "+ 8",
+            "derivedDamage": [
+              {
+                "formula": "1d12 + 5",
+                "damageType": "thunder"
+              }
+            ]
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/sword-brandish.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!OqcepItdetUkretZ.KwuQ4MNL75igGLiV"
+    },
+    {
+      "_id": "SCGjAaLdJsI4h5hG",
+      "name": "Call Lightning",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>King Paul calls down lightning to strike one creature within 30 feet. The target creature must succeed on a DC <span class=\"rd__dc\">14</span> Wisdom saving throw or take 28 ([[/r 8d6]]) thunder damage. On a successful save, the creature takes half damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "KINGARMY",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "8d6",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 14,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1101,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "FwH19cZLjzikyeEN"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Call Lightning",
+                "type": "feat",
+                "data": {
+                  "source": "KINGARMY",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>King Paul calls down lightning to strike one creature within 30 feet. The target creature must succeed on a DC <span class=\"rd__dc\">14</span> Wisdom saving throw or take 28 ([[/r 8d6]]) thunder damage. On a successful save, the creature takes half damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "8d6",
+                        "thunder"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "wis",
+                    "dc": 14,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "save",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mailed-fist.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Action",
+            "activation": "1 Action",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "8d6",
+            "damageTypes": "Thunder",
+            "abilityCheck": "undefined Ability Check",
+            "save": "DC 14 Wisdom",
+            "derivedDamage": [
+              {
+                "formula": "8d6",
+                "damageType": "thunder"
+              }
+            ]
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/lighting-sky-2.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!OqcepItdetUkretZ.SCGjAaLdJsI4h5hG"
+    },
+    {
+      "_id": "9T3ZcZBLDqimPqbh",
+      "name": "Fey Ancestry",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>King Paul has advantage on saving throws against being <a href=\"https://5e.tools/conditionsdiseases.html#charmed_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'charmed_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >charmed</a>, and magic can't put him to sleep.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "KINGARMY",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 103,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "FwH19cZLjzikyeEN"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Fey Ancestry",
+                "type": "feat",
+                "data": {
+                  "source": "KINGARMY",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>King Paul has advantage on saving throws against being <a href=\"https://5e.tools/conditionsdiseases.html#charmed_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'charmed_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >charmed</a>, and magic can't put him to sleep.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Passive",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!OqcepItdetUkretZ.9T3ZcZBLDqimPqbh"
+    },
+    {
+      "_id": "v7cdoKaotBGXqKFF",
+      "name": "Royal Immunity",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>King Paul is immune to the spell crown of madness</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "KINGARMY",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 105,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "FwH19cZLjzikyeEN"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Royal Immunity",
+                "type": "feat",
+                "data": {
+                  "source": "KINGARMY",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>King Paul is immune to the spell crown of madness</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Passive",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!OqcepItdetUkretZ.v7cdoKaotBGXqKFF"
+    },
+    {
+      "_id": "2ijyosn9tlu1h9cD",
+      "name": "Plate Armor",
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Heavy armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">1.500 gp, 65 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 18  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 52, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p><p>If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 65,
+        "price": null,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 18,
+          "type": "heavy",
+          "dex": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": "15",
+        "stealth": true,
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 2001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "FwH19cZLjzikyeEN"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Plate Armor",
+                "type": "equipment",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div>\n\t\t\t<div><i>Heavy armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">1.500 gp, 65 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 18  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 52, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p><p>If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "proficient": true,
+                  "quantity": 1,
+                  "weight": 65,
+                  "price": null,
+                  "attuned": false,
+                  "identified": false,
+                  "equipped": true,
+                  "rarity": "None",
+                  "attunement": "",
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "armor": {
+                    "type": "heavy",
+                    "value": 18,
+                    "dex": 0
+                  },
+                  "strength": "15",
+                  "stealth": true
+                },
+                "img": "modules/plutonium/media/icon/breastplate.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "armor": "18 AC",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/armor/plate.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!OqcepItdetUkretZ.2ijyosn9tlu1h9cD"
+    },
+    {
+      "_id": "m9Fh3fnvSWRqSNsE",
+      "name": "Age",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Humans reach adulthood in their late teens and live less than a century.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 101,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "FwH19cZLjzikyeEN"
+            },
+            "initialState": {
+              "id": "nI5q2cE3bKVYpXpN",
+              "count": 1,
+              "itemData": {
+                "_id": "nI5q2cE3bKVYpXpN",
+                "name": "Age",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Humans reach adulthood in their late teens and live less than a century.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "PHB",
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 100000,
+                "flags": {},
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "effects": [],
+                "labels": {
+                  "featType": "Passiva",
+                  "activation": "",
+                  "target": "",
+                  "range": "",
+                  "duration": "",
+                  "recharge": "Ricarica [null]",
+                  "damage": "",
+                  "damageTypes": ""
+                },
+                "isStack": false,
+                "hasUses": false,
+                "isOnCooldown": false,
+                "isDepleted": false,
+                "hasTarget": false
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Passive",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!OqcepItdetUkretZ.m9Fh3fnvSWRqSNsE"
+    },
+    {
+      "_id": "0w6UyRqmx1MNYM4O",
+      "name": "Alignment",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Humans tend toward no particular alignment. The best and the worst are found among them.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 102,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "FwH19cZLjzikyeEN"
+            },
+            "initialState": {
+              "id": "FZJFOf5UBxbJeewg",
+              "count": 1,
+              "itemData": {
+                "_id": "FZJFOf5UBxbJeewg",
+                "name": "Alignment",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Humans tend toward no particular alignment. The best and the worst are found among them.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "PHB",
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 200000,
+                "flags": {},
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "effects": [],
+                "labels": {
+                  "featType": "Passiva",
+                  "activation": "",
+                  "target": "",
+                  "range": "",
+                  "duration": "",
+                  "recharge": "Ricarica [null]",
+                  "damage": "",
+                  "damageTypes": ""
+                },
+                "isStack": false,
+                "hasUses": false,
+                "isOnCooldown": false,
+                "isDepleted": false,
+                "hasTarget": false
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Passive",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!OqcepItdetUkretZ.0w6UyRqmx1MNYM4O"
+    },
+    {
+      "_id": "13s89vwlC2TRySCW",
+      "name": "Languages",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 104,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "FwH19cZLjzikyeEN"
+            },
+            "initialState": {
+              "id": "oGl9gxbVNEjPLRc9",
+              "count": 1,
+              "itemData": {
+                "_id": "oGl9gxbVNEjPLRc9",
+                "name": "Languages",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "PHB",
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 300000,
+                "flags": {},
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "effects": [],
+                "labels": {
+                  "featType": "Passiva",
+                  "activation": "",
+                  "target": "",
+                  "range": "",
+                  "duration": "",
+                  "recharge": "Ricarica [null]",
+                  "damage": "",
+                  "damageTypes": ""
+                },
+                "isStack": false,
+                "hasUses": false,
+                "isOnCooldown": false,
+                "isDepleted": false,
+                "hasTarget": false
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Passive",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!OqcepItdetUkretZ.13s89vwlC2TRySCW"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "journal-links": {
+      "references": {}
+    },
+    "downtime-ethck": {
+      "trainingItems": [],
+      "changes": []
+    },
+    "externalactor": {
+      "classLabels": "",
+      "currencyWeight": true,
+      "disableExperience": false
+    },
+    "scene-packer": {
+      "sourceId": "Actor.FwH19cZLjzikyeEN"
+    }
+  },
+  "_key": "!actors!OqcepItdetUkretZ"
+}

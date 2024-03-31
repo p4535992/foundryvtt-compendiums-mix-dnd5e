@@ -1,0 +1,845 @@
+{
+  "name": "Xorn",
+  "type": "npc",
+  "img": "https://5e.tools/img/bestiary%2FMM%2FXorn.jpg",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 17,
+        "proficient": 0,
+        "mod": 3
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0
+      },
+      "con": {
+        "value": 22,
+        "proficient": 0,
+        "mod": 6
+      },
+      "int": {
+        "value": 11,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 11,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": "19",
+        "min": 0
+      },
+      "hp": {
+        "value": 73,
+        "min": 0,
+        "max": 73,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "7d8 + 42"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 20,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 0,
+        "tremorsense": 60,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 3,
+      "spelldc": 8
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p>Bizarre creatures native to the Elemental Plane of Earth, xorn sniff out gemstones and precious metals, then tunnel through earth and rock to consume those treasures. On the Material Plane, xorn must range far and wide through the Underdark to sustain themselves, becoming aggressive toward miners and treasure hunters when the valuable minerals of their diet are scarce.</p><div class=\"rd__spc-inline-post\"></div><p>A xorn's unnatural origins are suggested by its unusually heavy body and the large, powerful mouth sitting atop its head. Its three long arms are each tipped with sharp talons, and its three large, stone-lidded eyes see in all directions.</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"19\"> <span class=\"entry-title-inner\">Elemental Travelers.</span></span> <p>Possessed of the power of elemental earth, a xorn glides through stone and dirt as easily as a fish swims through water. It doesn't displace earth or stone when it moves, but merges with and flows through it, leaving no tunnel, hole, or hint of its passage.</p><div class=\"rd__spc-inline-post\"></div></div></div><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+        "public": ""
+      },
+      "alignment": "neutral",
+      "race": "",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "Underdark",
+      "cr": 5,
+      "spellLevel": 0,
+      "xp": {
+        "value": 1800
+      },
+      "source": "MM",
+      "class": {}
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "custom"
+        ],
+        "custom": "piercing and slashing from nonmagical attacks that aren't adamantine"
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "terran"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "mod": 3,
+        "passive": 13
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 2,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Xorn",
+    "displayName": 20,
+    "img": "https://5e.tools/img/MM/Xorn.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 60,
+    "brightSight": 60,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "JDDbgpZD63rPLVEs",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "NFU2Fxddq7dyAGp7",
+      "name": "Multiattack",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The xorn makes three claw attacks and one bite attack.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 100000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AyXCp5g3fIABjvUi.NFU2Fxddq7dyAGp7"
+    },
+    {
+      "_id": "6CccqzEIl3CiYJgz",
+      "name": "Bite",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+6]] (+6) to hit, reach 5 ft., one target. <i>Hit:</i> 13 ([[/r 3d6 + 3]]) piercing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "3d6  + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 200000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/sword-brandish.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AyXCp5g3fIABjvUi.6CccqzEIl3CiYJgz"
+    },
+    {
+      "_id": "n7VfZQHbHbJx2ynr",
+      "name": "Claw",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+6]] (+6) to hit, reach 5 ft., one target. <i>Hit:</i> 6 ([[/r 1d6 + 3]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6  + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 300000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/sword-brandish.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AyXCp5g3fIABjvUi.n7VfZQHbHbJx2ynr"
+    },
+    {
+      "_id": "DEk6c2gRxMcKY67w",
+      "name": "Earth Glide",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The xorn can burrow through nonmagical, unworked earth and stone. While doing so, the xorn doesn't disturb the material it moves through.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 400000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AyXCp5g3fIABjvUi.DEk6c2gRxMcKY67w"
+    },
+    {
+      "_id": "nQfHunTOlPXtTdue",
+      "name": "Stone Camouflage",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The xorn has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 500000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AyXCp5g3fIABjvUi.nQfHunTOlPXtTdue"
+    },
+    {
+      "_id": "HMnQTEGHHvWREOLh",
+      "name": "Treasure Sense",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The xorn can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within 60 feet of it.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 600000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AyXCp5g3fIABjvUi.HMnQTEGHHvWREOLh"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "journal-links": {
+      "references": {}
+    }
+  },
+  "_id": "AyXCp5g3fIABjvUi",
+  "_key": "!actors!AyXCp5g3fIABjvUi"
+}

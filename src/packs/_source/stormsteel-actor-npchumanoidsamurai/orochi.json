@@ -1,0 +1,1540 @@
+{
+  "name": "Orochi",
+  "type": "npc",
+  "img": "",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 14,
+        "proficient": 0,
+        "mod": 2
+      },
+      "dex": {
+        "value": 18,
+        "proficient": 1,
+        "mod": 4
+      },
+      "con": {
+        "value": 16,
+        "proficient": 1,
+        "mod": 3
+      },
+      "int": {
+        "value": 14,
+        "proficient": 0,
+        "mod": 2
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 1,
+        "mod": 2
+      },
+      "cha": {
+        "value": 12,
+        "proficient": 0,
+        "mod": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 16,
+        "min": 0
+      },
+      "hp": {
+        "value": 90,
+        "min": 0,
+        "max": 90,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "12d8 + 36"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "total": 4,
+        "prof": 0
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 40,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 3,
+      "spelldc": 8
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "any alignment",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Any Race",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 7,
+      "spellLevel": 0,
+      "xp": {
+        "value": 2900
+      },
+      "source": "ForHonor",
+      "class": {}
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 1,
+        "ability": "dex",
+        "mod": 4,
+        "bonus": 0,
+        "passive": 14
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "itm": {
+        "value": 2,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 4,
+        "bonus": 0,
+        "passive": 14
+      },
+      "ste": {
+        "value": 2,
+        "ability": "dex",
+        "mod": 4,
+        "bonus": 0,
+        "passive": 14
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Orochi",
+    "displayName": 20,
+    "img": "icons/svg/mystery-man.svg",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "3rjY1bjZmVRZZWiC",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "25s2X0mz4pT61aAK",
+      "name": "Multiattack",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Orochi makes two katana attacks. They may replace one or more of these attacks with a grapple or shove.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 100000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AKMEpNhi2gazAh4P.25s2X0mz4pT61aAK"
+    },
+    {
+      "_id": "qOI6Trfq9o0fL1st",
+      "name": "Katana",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+7]] (+7) to hit or [[/r 1d20+5]] (+5) to hit with both hands, reach 5 ft., one target. <i>Hit:</i> 8 ([[/r 1d8 + 4]]) slashing damage, or 7 ([[/r 1d10 + 2]]) slashing damage if used with both hands.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8  + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": "1d10 + 2"
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 200000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AKMEpNhi2gazAh4P.qOI6Trfq9o0fL1st"
+    },
+    {
+      "_id": "fvhbMTdb50YScUF0",
+      "name": "Kunai",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Ranged Weapon Attack:</i> [[/r 1d20+7]] (+7) to hit, range 30/90 ft., one target. <i>Hit:</i> 6 ([[/r 1d4 + 4]]) piercing damage. The Orochi can throw up to 2 kunai as part of an attack when it takes the attack action; for each thrown above the first it adds an additional damage die.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 30,
+          "long": 90,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4  + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 300000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AKMEpNhi2gazAh4P.fvhbMTdb50YScUF0"
+    },
+    {
+      "_id": "2PHhPxIZ0RrXZxdt",
+      "name": "Longbow",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Ranged Weapon Attack:</i> [[/r 1d20+7]] (+7) to hit, range 150/600 ft., one target. <i>Hit:</i> 8 ([[/r 1d8 + 4]]) piercing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "quantity": 1,
+        "weight": 2,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 150,
+          "long": 600,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8  + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialR",
+        "properties": {
+          "amm": true,
+          "hvy": true,
+          "two": true
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 400000,
+      "flags": {},
+      "img": "/systems/dnd5e/icons/items/weapons/bow-long.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AKMEpNhi2gazAh4P.2PHhPxIZ0RrXZxdt"
+    },
+    {
+      "_id": "bTQAiD9z5cOa6vpQ",
+      "name": "Nail Bomb",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Orochi sets down a nail bomb, a small portion of black powder surrounded by many metal spikes with a pressure plate on top. A creature that steps on the plate and any others in a 5 foot radius must succeed on a DC <span class=\"rd__dc\">15</span> Dexterity saving throw or take 10 ([[/r 4d4]]) piercing damage.</p><div class=\"rd__spc-inline-post\"></div><p>Creatures that fail the Dexterity save take an additional 10 ([[/r 3d6]]) necrotic damage at the start of their next turn. On a successful save the damage is halved.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "4d4",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 15,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 6,
+          "charged": true
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 500000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AKMEpNhi2gazAh4P.bTQAiD9z5cOa6vpQ"
+    },
+    {
+      "_id": "LMcmnfl3MIPQDrCa",
+      "name": "Smoke Bomb",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Orochi throws a smoke bomb at the floor, it emits a cloud of smoke that creates a heavily obscured area in a 10-foot radius. A moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in 1 round.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 6,
+          "charged": true
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 600000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AKMEpNhi2gazAh4P.LMcmnfl3MIPQDrCa"
+    },
+    {
+      "_id": "kwLpMbfLzsIbOMCz",
+      "name": "Storm Rush",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>If the Orochi moves 0 feet on its turn, it can take the ready action to perform a storm rush. This action is triggered when a hostile creature comes within 20 feet of the Orochi; the Orochi then moves up to half its movement speed towards the creature and makes a two handed Katana attack against it with advantage. On a hit, it deals an extra 7 ([[/r 2d6]]) damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 700000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AKMEpNhi2gazAh4P.kwLpMbfLzsIbOMCz"
+    },
+    {
+      "_id": "VcZFoEXYcncbgWFN",
+      "name": "Lightning Strikes Twice",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>If the Orochi hits with a katana attack on their turn, they may make one additional attack with advantage using their katana as a bonus action. On a hit, it deals an extra 3 ([[/r 1d6]]) damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 800000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AKMEpNhi2gazAh4P.VcZFoEXYcncbgWFN"
+    },
+    {
+      "_id": "OaIU2wQKHwWbyHnt",
+      "name": "Zephyr Slash",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Orochi may make a single melee attack with its katana as part of taking the Dodge action.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 900000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AKMEpNhi2gazAh4P.OaIU2wQKHwWbyHnt"
+    },
+    {
+      "_id": "8ggUAOCuCAKuUPjd",
+      "name": "Nimble Escape",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Orochi can take the <a href=\"https://5e.tools/actions.html#disengage_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'actions.html', 'PHB', 'disengage_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >Disengage</a> or <a href=\"https://5e.tools/actions.html#hide_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'actions.html', 'PHB', 'hide_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >Hide</a> action as a bonus action on each of its turns.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1000000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AKMEpNhi2gazAh4P.8ggUAOCuCAKuUPjd"
+    },
+    {
+      "_id": "X7udoOcybeCCy1wE",
+      "name": "Hurricane Blast",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>If an attack misses the Orochi after they take the Dodge action on their turn, the Orochi may make one katana attack with advantage against the creature that made the attack which missed. On a hit, the creature is <a href=\"https://5e.tools/conditionsdiseases.html#incapacitated_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'incapacitated_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >incapacitated</a> until the start of their next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1100000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AKMEpNhi2gazAh4P.X7udoOcybeCCy1wE"
+    },
+    {
+      "_id": "EpkAqvgsRvK2Ot8e",
+      "name": "Parry",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Orochi adds 3 to their AC against one melee attack that would hit them as a reaction. To do so, the Orochi must see the attacker and be wielding a melee weapon.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1200000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AKMEpNhi2gazAh4P.EpkAqvgsRvK2Ot8e"
+    },
+    {
+      "_id": "usMwMdJoG0YXO4Mj",
+      "name": "Wooden Curiass",
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Medium armor</i></div>\n\t\t\t<div class=\"flex w-100\">\n\t\t\t\t<div class=\"col-4\">100 gp, 30 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 14 + Dex (max 2)  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>This armor consists of a fitted wooden chest piece worn with supple leather along with a helmet, pauldrons, gauntlets and greaves; with some variations featuring slats of wood used for reinforcement. Although it leaves the joints relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered thanks to the lightweight material.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 6, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "quantity": 1,
+        "weight": 30,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 14,
+          "type": "medium",
+          "dex": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": true,
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1300000,
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "FFHonourableHeroes",
+          "hash": "wooden%20curiass_ffhonourableheroes"
+        },
+        "dae": {
+          "activeEquipped": true
+        }
+      },
+      "img": "modules/plutonium/media/icon/scale-mail.svg",
+      "effects": [
+        {
+          "_id": "YjKnecY9ecQZ6nSl",
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "armorEffect": true
+            }
+          },
+          "changes": [
+            {
+              "key": "data.attributes.ac.value",
+              "value": "@abilities.dex.mod > 2 ? 2 + 14: @abilities.dex.mod + 14",
+              "mode": 5,
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 1621182383400
+          },
+          "icon": "modules/plutonium/media/icon/scale-mail.svg",
+          "label": "AC=14+dex.mod",
+          "origin": "Actor.3rjY1bjZmVRZZWiC.OwnedItem.undefined",
+          "transfer": true,
+          "_key": "!actors.items.effects!AKMEpNhi2gazAh4P.usMwMdJoG0YXO4Mj.YjKnecY9ecQZ6nSl"
+        }
+      ],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!AKMEpNhi2gazAh4P.usMwMdJoG0YXO4Mj"
+    }
+  ],
+  "effects": [
+    {
+      "_id": "r1dwf9VnazTuVoUx",
+      "flags": {
+        "dae": {
+          "transfer": true,
+          "armorEffect": true
+        }
+      },
+      "changes": [
+        {
+          "key": "data.attributes.ac.value",
+          "value": "@abilities.dex.mod > 2 ? 2 + 14: @abilities.dex.mod + 14",
+          "mode": 5,
+          "priority": 4
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47210169678
+      },
+      "icon": "modules/plutonium/media/icon/scale-mail.svg",
+      "label": "AC=14+dex.mod",
+      "origin": "Actor.3rjY1bjZmVRZZWiC.Item.usMwMdJoG0YXO4Mj",
+      "transfer": true,
+      "_key": "!actors.effects!AKMEpNhi2gazAh4P.r1dwf9VnazTuVoUx"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {},
+  "_id": "AKMEpNhi2gazAh4P",
+  "_key": "!actors!AKMEpNhi2gazAh4P",
+  "prototypeToken": {
+    "texture": {
+      "src": ""
+    }
+  }
+}

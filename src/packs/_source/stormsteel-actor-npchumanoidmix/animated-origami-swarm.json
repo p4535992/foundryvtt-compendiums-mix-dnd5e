@@ -1,0 +1,616 @@
+{
+  "name": "Animated Origami Swarm",
+  "type": "npc",
+  "img": "modules/ddd-beginner-baubles/actors/tokens/animated-origami-swarm-token.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 12,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0
+      },
+      "con": {
+        "value": 8,
+        "proficient": 0
+      },
+      "int": {
+        "value": 1,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 6,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 27,
+        "min": 0,
+        "max": 27,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "6d8"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 20,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": "passive Perception 10"
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Once folded into the likeness of a creature and animated as a result of it, the red parchment can be willed to multiply itself into a heaving swarm. Athough this angry red tide of origami folds is terrifying, it is also temporary and the peculiar scrap of crimson paper can only maintain its swarm form for a few moments before returning to its usual, lonesome self. </span></p>\n<blockquote>\n<p><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px;font-style:italic\">Rule Clarification, Animated Origama Swarm.</strong><span style=\"color:#191813;font-size:13px;font-style:italic\"> Statistics for the animated origami swarm's parchment form can be found in @Compendium[ddd-beginner-baubles.monsters.wYuIuoMvEVtU76IV]{Animated Origami Parchment}</span><span style=\"color:#191813;font-size:13px;font-style:italic\">.</span></span></p>\n</blockquote>\n<blockquote>\n<p><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><strong style=\"color:#191813;font-style:italic\">Rule Clarification, Tamotuki.</strong><span style=\"color:#191813;font-style:italic\"> Full rules for the animated origami swarm can be found in @Compendium[ddd-beginner-baubles.items.UJMYT2ZnnyiGvjW5]{Tamotuki}.</span></span></p>\n</blockquote>\n<h2 style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Variant Origami Folds</span></h2>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\">You may choose to fold Tamotuki  into the form of many different creatures, some of which provide special characteristics. When folding it, you can recreate the likeness of any of the following creatures (or creatures with similar characteristics). If you do so, Tamotuki gains the corresponding benefit in both its @Compendium[ddd-beginner-baubles.monsters.wYuIuoMvEVtU76IV]{Parchment} and swarm forms:</p>\n<ul style=\"box-sizing:border-box;user-select:text;color:#191813\">\n<li style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\"><strong style=\"box-sizing:border-box;user-select:text\">Crane</strong>. </span><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Cranes gain a fly speed of 20 feet.</span></li>\n<li style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\"><strong style=\"box-sizing:border-box;user-select:text\">Frog</strong>. </span><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">With or without a running start, frogs can jump up to 10 feet and their high jump increases to 5 feet.</span></li>\n<li style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\"><strong style=\"box-sizing:border-box;user-select:text\">Ninja</strong>. </span><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Ninjas have a +4 bonus to Dexterity (stealth) checks and gain advantage on attack rolls in the first round of combat.</span></li>\n<li style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\"><strong style=\"box-sizing:border-box;user-select:text\">Samurai</strong>. </span><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Samurai have their Papercuts attack bonus increased to +4.</span></li>\n<li style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\"><strong style=\"box-sizing:border-box;user-select:text\">Monkey</strong>. </span><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Monkeys gain a climb speed of 20 feet.</span></li>\n<li style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\"><strong>Lion.</strong> </span><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Lions have an increased movement speed of 30 foot.</span></li>\n<li style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\"><strong style=\"box-sizing:border-box;user-select:text\">Rabbit</strong>. </span><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Rabbits gain a 10 foot burrow speed.</span></li>\n</ul>",
+        "public": ""
+      },
+      "alignment": "Unaligned",
+      "race": "",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "tiny",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0.5,
+      "spellLevel": 0,
+      "xp": {
+        "value": 10
+      },
+      "source": "Tamotuki"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "poison",
+          "psychic"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [
+          "fire"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "frightened",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "restrained",
+          "stunned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Animated Origami Swarm",
+    "displayName": 0,
+    "img": "modules/ddd-beginner-baubles/images/bb09/animated-origami-swarm-token.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "4NalQBxJYaNXbFl5",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "fNGxsfb31FOd4mdF",
+      "name": "Papercuts",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><em>Melee Weapon attack</em><span class=\"fontstyle2\"><em>:</em>&nbsp;+2 to hit, reach 0 ft., one creature in the swarm&rsquo;s space.&nbsp;</span><em>Hit</em><span class=\"fontstyle2\"><em>:</em> 5 (2D4) slashing damage, or 2 (1D4) slashing damage if the swarm has half of its hit points or fewer.</span></p>\n</section>\n<p>The animated origami swarm attempts to slice a creature with its paper-thin edges.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Tamotuki",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d4",
+              "slashing"
+            ]
+          ],
+          "versatile": "1d4"
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "sort": 100000,
+      "flags": {
+        "mess": {
+          "templateTexture": "",
+          "isBonusDamage": false
+        }
+      },
+      "img": "modules/ddd-beginner-baubles/actors/icons/piercing-weapon-damage.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!BVKIpNpLiJo6eyfb.fNGxsfb31FOd4mdF"
+    },
+    {
+      "_id": "s1YwsI5P5x0cJ1aY",
+      "name": "Folded Fighter",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>Tamotuki can be folded into many different forms. What form it has been folded into may affect the animated origami swarm's statistics and features (see Biography for more info).</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Tamotuki",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 200000,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/folded-fighter.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!BVKIpNpLiJo6eyfb.s1YwsI5P5x0cJ1aY"
+    },
+    {
+      "_id": "AB9fbRqfkksxS6EF",
+      "name": "Swarm",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>The animated origami swarm can occupy another creature's and vice versa, and the swarm can move through any opening large enough for a Tiny creature. The swarm can't regain hit points or gain temporary hit points.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Tamotuki",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 300000,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/swarm.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!BVKIpNpLiJo6eyfb.AB9fbRqfkksxS6EF"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "ddd-beginner-baubles": {
+      "initialization-folder": "Beginner Baubles"
+    }
+  },
+  "_id": "BVKIpNpLiJo6eyfb",
+  "_key": "!actors!BVKIpNpLiJo6eyfb"
+}

@@ -1,0 +1,483 @@
+{
+  "name": "Stirge",
+  "type": "npc",
+  "img": "https://5e.tools/img/bestiary%2FMM%2FStirge.jpg",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 4,
+        "proficient": 0,
+        "mod": -3
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0,
+        "mod": 3
+      },
+      "con": {
+        "value": 11,
+        "proficient": 0
+      },
+      "int": {
+        "value": 2,
+        "proficient": 0,
+        "mod": -4
+      },
+      "wis": {
+        "value": 8,
+        "proficient": 0,
+        "mod": -1
+      },
+      "cha": {
+        "value": 6,
+        "proficient": 0,
+        "mod": -2
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": "14",
+        "min": 0
+      },
+      "hp": {
+        "value": 2,
+        "min": 0,
+        "max": 2,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "1d4"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "total": 3
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 10,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "spelldc": 8
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p>This horrid flying creature looks like a cross between a large bat and an oversized mosquito. Its legs end in sharp pincers, and its long, needle-like proboscis slashes the air as it seeks its next meal.</p><div class=\"rd__spc-inline-post\"></div><p>Stirges feed on the blood of living creatures, attaching and draining them slowly. Although they pose little danger in small numbers, packs of stirges can be a formidable threat, reattaching as quickly as their weakening prey can pluck them off.</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"5\"> <span class=\"entry-title-inner\">Blood Drain.</span></span> <p>A stirge attacks by landing on a victim, finding a vulnerable spot, and plunging its proboscis into the flesh while using its pincer legs to latch on to the victim. Once the stirge has sated itself, it detaches and flies off to digest its meal.</p><div class=\"rd__spc-inline-post\"></div></div></div><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+        "public": ""
+      },
+      "alignment": "unaligned",
+      "race": "",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "Coastal, Desert, Forest, Grassland, Hill, Mountain, Swamp, Underdark, Urban",
+      "cr": 0.125,
+      "spellLevel": 0,
+      "xp": {
+        "value": 25
+      },
+      "source": "MM",
+      "class": {}
+    },
+    "traits": {
+      "size": "tiny",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 3,
+        "passive": 13
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "mod": -1,
+        "passive": 9
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "passive": 6
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "mod": -3,
+        "passive": 7
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -2,
+        "passive": 8
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "passive": 6
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "mod": -1,
+        "passive": 9
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -2,
+        "passive": 8
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "passive": 6
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "mod": -1,
+        "passive": 9
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "passive": 6
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "mod": -1,
+        "passive": 9
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -2,
+        "passive": 8
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -2,
+        "passive": 8
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "passive": 6
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 3,
+        "passive": 13
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 3,
+        "passive": 13
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "mod": -1,
+        "passive": 9
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Stirge",
+    "displayName": 20,
+    "img": "https://5e.tools/img/MM/Stirge.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 60,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "y45UJP8nFGMO4GdT",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "PoiYul3bLCnbOhiM",
+      "name": "Blood Drain",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 5 ft., one creature. <i>Hit:</i> 5 ([[/r 1d4 + 3]]) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 ([[/r 1d4 + 3]]) hit points due to blood loss.</p><div class=\"rd__spc-inline-post\"></div><p>The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4  + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 100000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/sword-brandish.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!lt2QCPK9FUG8bm3S.PoiYul3bLCnbOhiM"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "journal-links": {
+      "references": {}
+    }
+  },
+  "_id": "lt2QCPK9FUG8bm3S",
+  "_key": "!actors!lt2QCPK9FUG8bm3S"
+}

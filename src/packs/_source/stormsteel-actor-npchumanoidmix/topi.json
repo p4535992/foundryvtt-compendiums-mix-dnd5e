@@ -1,0 +1,639 @@
+{
+  "name": "Topi",
+  "type": "npc",
+  "img": "https://5e.tools/img/bestiary%2FTTP%2FTopi.jpg",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 7,
+        "proficient": 0,
+        "mod": -2
+      },
+      "dex": {
+        "value": 15,
+        "proficient": 0,
+        "mod": 2
+      },
+      "con": {
+        "value": 12,
+        "proficient": 0,
+        "mod": 1
+      },
+      "int": {
+        "value": 6,
+        "proficient": 0,
+        "mod": -2
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 5,
+        "proficient": 0,
+        "mod": -3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 13,
+        "min": 0
+      },
+      "hp": {
+        "value": 13,
+        "min": 0,
+        "max": 13,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "3d6 + 3"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "total": 2
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "spelldc": 8
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p>Topis are similar to zombies. Before a topi is animated, its corpse is shrunk until it stands only 2 feet tall, and its heart is cut out and replaced with a leather bag that contains a live poisonous snake. The snake requires neither air nor sustenance, and it magically renders the topi's claws venomous. When a topi dies, the snake inside it dies too. The process of creating a topi is known only to a handful of evil priests and necromancers.</p><div class=\"rd__spc-inline-post\"></div><p>Topis are more difficult to turn than ordinary zombies, and their spongy bodies make them resistant to bludgeoning.</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"64\"> <span class=\"entry-title-inner\">Undead Traits.</span></span> <p>A topi doesn't require air, food, drink, or sleep.</p><div class=\"rd__spc-inline-post\"></div></div></div><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+        "public": ""
+      },
+      "alignment": "chaotic evil",
+      "race": "",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0.5,
+      "spellLevel": 0,
+      "xp": {
+        "value": 100
+      },
+      "source": "TTP",
+      "class": {}
+    },
+    "traits": {
+      "size": "sm",
+      "di": {
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "custom"
+        ],
+        "custom": "understands the languages it knew in life but can't speak"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 2,
+        "passive": 12
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "mod": -2,
+        "passive": 8
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "mod": -2,
+        "passive": 8
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -3,
+        "passive": 7
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "mod": -2,
+        "passive": 8
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -3,
+        "passive": 7
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "mod": -2,
+        "passive": 8
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "mod": -2,
+        "passive": 8
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -3,
+        "passive": 7
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -3,
+        "passive": 7
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "mod": -2,
+        "passive": 8
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 2,
+        "passive": 12
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 2,
+        "passive": 12
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Topi",
+    "displayName": 20,
+    "img": "https://5e.tools/img/TTP/Topi.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 60,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "W6vWBDCRo3Kzqom3",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "Kiejgj3Cnn56ze2d",
+      "name": "Venomous Claws",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+4]] (+4) to hit, reach 5 ft., one target. <i>Hit:</i> 4 ([[/r 1d4 + 2]]) slashing damage plus 2 ([[/r 1d4]]) poison damage, and the target must succeed on a DC <span class=\"rd__dc\">11</span> Constitution saving throw or be <a href=\"https://5e.tools/conditionsdiseases.html#poisoned_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'poisoned_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >poisoned</a> until the end of the target's next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TTP",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4  + @mod",
+              "slashing"
+            ],
+            [
+              "1d4",
+              "poison"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 11,
+          "scaling": "flat"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 100000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/sword-brandish.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!PrnVNFmkmPuURbaF.Kiejgj3Cnn56ze2d"
+    },
+    {
+      "_id": "65CyMcYchEFqP2Et",
+      "name": "Turn Resistance",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The topi has advantage on saving throws against any effect that turns undead.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TTP",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 200000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!PrnVNFmkmPuURbaF.65CyMcYchEFqP2Et"
+    },
+    {
+      "_id": "gTLYk9nzMINYGLiX",
+      "name": "Undead Fortitude",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>If damage reduces the topi to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the topi drops to 1 hit point instead.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TTP",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 300000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!PrnVNFmkmPuURbaF.gTLYk9nzMINYGLiX"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "journal-links": {
+      "references": {}
+    },
+    "downtime-ethck": {
+      "trainingItems": [],
+      "changes": []
+    }
+  },
+  "_id": "PrnVNFmkmPuURbaF",
+  "_key": "!actors!PrnVNFmkmPuURbaF"
+}

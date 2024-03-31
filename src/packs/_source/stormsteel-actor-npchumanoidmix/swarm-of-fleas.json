@@ -1,0 +1,685 @@
+{
+  "name": "Swarm of Fleas",
+  "type": "npc",
+  "img": "modules/ddd-beginner-baubles/actors/tokens/swarm-of-fleas-token.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 3,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0
+      },
+      "int": {
+        "value": 1,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 7,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 22,
+        "min": 0,
+        "max": 22,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "5d8"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 20,
+        "fly": 0,
+        "swim": 0,
+        "walk": 20,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 10,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": "passive Perception 8"
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p>This swarm of performing fleas swells up to form a bloodthirsty swarm of biting bugs and spills out of its flea circus at the command of its ringmaster. When not directed against a creature in battle, the fleas are usually docile and can be found in Ticktop's bustling vivarium, practicing their circus tricks.</p>\n<blockquote>\n<p><strong style=\"color:#191813;font-style:italic\">Rule Clarification, Ticktop.</strong><span style=\"color:#191813;font-style:italic\"> Full rules for the swarm of fleas can be found in @Compendium[ddd-beginner-baubles.items.LQj6pfKWdLwc4l4b]{Ticktop}.</span></p>\n</blockquote>",
+        "public": ""
+      },
+      "alignment": "Unaligned",
+      "race": "",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "tiny",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0.5,
+      "spellLevel": 0,
+      "xp": {
+        "value": 10
+      },
+      "source": "Ticktop"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "frightened",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "prone",
+          "restrained",
+          "stunned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 2,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 2,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Swarm of Fleas",
+    "displayName": 0,
+    "img": "modules/ddd-beginner-baubles/actors/tokens/swarm-of-fleas-token.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "oZfgMbsPkaTbZEYp",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "3FQazK7MHGaOtuhV",
+      "name": "Bites",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><em><span class=\"fontstyle0\">Melee Weapon attack</span></em><span class=\"fontstyle2\"><em>:</em> +4 to hit, reach 0 ft., one target in the swarm&rsquo;s space. </span><em><span class=\"fontstyle0\">Hit</span></em><span class=\"fontstyle2\"><em>:</em> 5 (2D4) piercing damage, or 2 (1D4) piercing damage if the swarm has half of its hit points or fewer.</span></p>\n</section>\n<p><span class=\"fontstyle2\">The swarm of fleas attempts to bite a creature with its mouths.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Ticktop",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2D4",
+              "piercing"
+            ]
+          ],
+          "versatile": "1D4"
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "sort": 100000,
+      "flags": {
+        "mess": {
+          "isBonusDamage": false,
+          "templateTexture": ""
+        }
+      },
+      "img": "modules/ddd-beginner-baubles/actors/icons/piercing-bite-damage.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!80txdXtxO4r1e7xu.3FQazK7MHGaOtuhV"
+    },
+    {
+      "_id": "evRiW85FGN63Q31M",
+      "name": "Itchy",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">Any creature that shares the swarm of fleas' space at the start of their turn </span>must make a DC 13 Wisdom saving throw. On a failed save, the creature loses their reaction and suffers disadvantage on Constitution saving throws to maintain concentration until the end of their next turn.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Ticktop",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 300000,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/itchy.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!80txdXtxO4r1e7xu.evRiW85FGN63Q31M"
+    },
+    {
+      "_id": "6zo8rBvpcQ5qtWjE",
+      "name": "Swarm",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">The swarm of fleas can occupy another creature&rsquo;s space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can&rsquo;t regain hit points or gain temporary hit points.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Ticktop",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 400000,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/swarm.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!80txdXtxO4r1e7xu.6zo8rBvpcQ5qtWjE"
+    },
+    {
+      "_id": "sMOU3YqVKLxyKmdc",
+      "name": "Irritation",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">The swarm of fleas doesn't let up for a second. As an action, the swarm can cause any creatures that are subjected to Itchy&nbsp;</span>before the start of its next turn and fail their saving throw to lose their next action.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Ticktop",
+        "activation": {
+          "type": "action",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 500000,
+      "flags": {
+        "mess": {
+          "templateTexture": ""
+        }
+      },
+      "img": "modules/ddd-beginner-baubles/actors/icons/irritation.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!80txdXtxO4r1e7xu.sMOU3YqVKLxyKmdc"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "ddd-beginner-baubles": {
+      "initialization-folder": "Beginner Baubles"
+    }
+  },
+  "_id": "80txdXtxO4r1e7xu",
+  "_key": "!actors!80txdXtxO4r1e7xu"
+}

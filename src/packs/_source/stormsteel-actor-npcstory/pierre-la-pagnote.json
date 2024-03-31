@@ -1,0 +1,1841 @@
+{
+  "_id": "XYWbDkxRr9gvdRsT",
+  "name": "Pierre la Pagnote",
+  "type": "npc",
+  "img": "https://i.imgur.com/xDS4NoW.jpg",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 0
+      },
+      "dex": {
+        "value": 17,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 3
+      },
+      "con": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 1
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 0
+      },
+      "wis": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 1
+      },
+      "cha": {
+        "value": 14,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "mod": 2
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": null,
+        "calc": "custom",
+        "formula": "@attributes.ac.base + @abilities.dex.mod +2",
+        "min": 0,
+        "value": null
+      },
+      "hp": {
+        "value": 68,
+        "min": 0,
+        "max": 77,
+        "temp": null,
+        "tempmax": null,
+        "formula": "14d8 + 14"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "total": 3,
+        "prof": 0
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 2,
+      "spelldc": 8
+    },
+    "details": {
+      "biography": {
+        "value": "<p>The gunslinger can do one thing very well, and that's spinning their pistols on their fingers. Sure, they're a crack shot, but that's anyone can hit a target. It takes a real gunslinger to do it while twirling and flipping their pistols end-over-end in a beautiful, but extremely dangerous juggling act.</p><p>After watching too many old Western flicks, a gunslinger feels at home when they have two big pistols spitting fire from their hands, and laying low their enemies in a hail of gunfire.</p>",
+        "public": ""
+      },
+      "alignment": "any alignment",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "any race",
+        "swarm": null,
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 4,
+      "spellLevel": 0,
+      "xp": {
+        "value": 1100
+      },
+      "source": "TTT",
+      "class": {},
+      "gender": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "custom"
+        ],
+        "custom": "any two languages"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "bonus": 0,
+        "passive": 13
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "slt": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "bonus": 0,
+        "passive": 13
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "bonus": 0,
+        "passive": 13
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "name": "Pierre la Pagnote",
+    "img": "https://i.imgur.com/yjJbVw1.png",
+    "displayName": 20,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": true,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "disposition": 1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "splatter": {
+        "bloodColor": ""
+      },
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null
+      },
+      "token-auras": {
+        "aura1": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        },
+        "aura2": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        }
+      }
+    },
+    "randomImg": false,
+    "elevation": null,
+    "actorData": {},
+    "effects": [],
+    "tint": null,
+    "lightColor": null,
+    "x": null,
+    "y": null
+  },
+  "items": [
+    {
+      "_id": "2sGNRqGJKYLdkIvB",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The gunslinger makes two weapon attacks.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TTT",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Action",
+            "activation": "1 Action",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "_key": "!actors.items!XYWbDkxRr9gvdRsT.2sGNRqGJKYLdkIvB"
+    },
+    {
+      "_id": "GFM9C6ZjfO1Yrj2h",
+      "name": "Blade",
+      "type": "weapon",
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 5 ft., one target. <i>Hit:</i> 6 ([[/r 1d6 + 3]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TTT",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6  + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {},
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [
+              true
+            ],
+            "altValue": [
+              true
+            ],
+            "context": []
+          },
+          "quickVersatile": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "activation": "1 Action",
+            "target": "",
+            "range": "5 Feet",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "1d6  + @mod",
+            "damageTypes": "Slashing",
+            "abilityCheck": "Dexterity Ability Check",
+            "toHit": "+ 5",
+            "derivedDamage": [
+              {
+                "formula": "1d6 + 3",
+                "damageType": "slashing"
+              }
+            ]
+          }
+        }
+      },
+      "_key": "!actors.items!XYWbDkxRr9gvdRsT.GFM9C6ZjfO1Yrj2h"
+    },
+    {
+      "_id": "7DZk4EAwxSdTNIu4",
+      "name": "Dual Revolvers",
+      "type": "weapon",
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p><i>Ranged Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, range 70/280 ft., one target. <i>Hit:</i> 14 ([[/r 4d6]]) piercing damage. This attack deals half damage if only a single revolver is used.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TTT",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 70,
+          "long": 280,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "4d6",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {},
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [
+              true
+            ],
+            "altValue": [
+              true
+            ],
+            "context": []
+          },
+          "quickVersatile": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "activation": "1 Action",
+            "target": "",
+            "range": "70 / 280 Feet",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "4d6",
+            "damageTypes": "Piercing",
+            "abilityCheck": "Dexterity Ability Check",
+            "toHit": "+ 5",
+            "derivedDamage": [
+              {
+                "formula": "4d6",
+                "damageType": "piercing"
+              }
+            ]
+          }
+        }
+      },
+      "_key": "!actors.items!XYWbDkxRr9gvdRsT.7DZk4EAwxSdTNIu4"
+    },
+    {
+      "_id": "B2EXJVrcDGZONopy",
+      "name": "Quickdraw",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The gunslinger has advantage on initiative rolls. During its first turn, the gunslinger has advantage on attack rolls against any creature that hasn't taken a turn, and the first hit it makes with a ranged weapon deals an additional 7 ([[/r 2d6]]) damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TTT",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Passive",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "_key": "!actors.items!XYWbDkxRr9gvdRsT.B2EXJVrcDGZONopy"
+    },
+    {
+      "_id": "XmIiREMvVgs5KKfl",
+      "name": "Swift Step",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>The gunslinger can take the Disengage action as a bonus action.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TTT",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Action",
+            "activation": "1 Bonus Action",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "_key": "!actors.items!XYWbDkxRr9gvdRsT.XmIiREMvVgs5KKfl"
+    },
+    {
+      "_id": "KiFmkOmsCEjiI837",
+      "name": "Fancy Shooting",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>When the gunslinger misses a ranged attack, it can make another ranged attack against a different target it can see within 20 feet of the original target without expending ammunition.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TTT",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "adnd5e": {
+          "itemInfo": {
+            "type": "reaction"
+          }
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Action",
+            "activation": "1 Reaction",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "_key": "!actors.items!XYWbDkxRr9gvdRsT.KiFmkOmsCEjiI837"
+    },
+    {
+      "_id": "7hjT42ptjL46iH48",
+      "name": "Assault Rifle",
+      "type": "weapon",
+      "img": "icons/skills/ranged/cannon-barrel-firing-yellow.webp",
+      "data": {
+        "description": {
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.Fim0r8kwu9pO2qPe]{Weapon Group: Small Arms, Two-Handed}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width:55px\"><span class=\"fontstyle0\">Assault rifle </span></td>\n<td style=\"width:33px\"><span class=\"fontstyle0\">300 </span></td>\n<td style=\"width:83px\"><span class=\"fontstyle0\">1d8 piercing </span></td>\n<td style=\"width:59px\"><span class=\"fontstyle0\">100/400 </span></td>\n<td style=\"width:28px\"><span class=\"fontstyle0\">7 lb. </span></td>\n<td style=\"width:131px\"><span class=\"fontstyle0\">Auto (1d10), reload (50 shots)</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.450g1kbvRQoe1x5P]{Auto 1d10} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.HE1gIc0o7bZeLjFT]{Burst Fire}</p>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 50 shots}</p>\n<p> </p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.76",
+        "quantity": 1,
+        "weight": 7,
+        "price": 300,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 100,
+          "long": 400,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 50,
+          "max": 50,
+          "per": "charges"
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8 + @mod",
+              "piercing"
+            ],
+            [
+              "1d10 + @mod",
+              "piercing"
+            ],
+            [
+              "1d8",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 15,
+          "scaling": "flat"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleR",
+        "baseItem": "",
+        "properties": {
+          "amm": false,
+          "lgt": false,
+          "hvy": false,
+          "fin": false,
+          "fir": true,
+          "foc": false,
+          "rch": false,
+          "rel": true,
+          "ret": false,
+          "spc": true,
+          "thr": false,
+          "two": true,
+          "ver": false,
+          "lod": false
+        },
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "qtb8j5Fh7Hu0wRrz": 3,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [
+              true,
+              true,
+              true
+            ],
+            "altValue": [
+              true,
+              true,
+              true
+            ],
+            "context": {
+              "0": "Single Shot",
+              "1": "@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.450g1kbvRQoe1x5P]{Autofire} 5 rounds",
+              "2": "@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.HE1gIc0o7bZeLjFT]{Burst Fire} 10 rounds in 10-ft-cube (Dex save 1/2)"
+            }
+          },
+          "quickVersatile": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.foundryvtt-compendiums-mix-dnd5e.um5-equipment.R4ZSmLP4Jc41GKyi"
+        },
+        "externalactor": {
+          "labels": {
+            "activation": "1 Action",
+            "target": "",
+            "range": "100 / 400 Feet",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "1d8 + @mod + 1d10 + @mod + 1d8",
+            "damageTypes": "Piercing, Piercing, Piercing",
+            "save": "DC 15 Dexterity",
+            "toHit": "+ 5",
+            "derivedDamage": [
+              {
+                "formula": "1d8 + 3",
+                "damageType": "piercing"
+              },
+              {
+                "formula": "1d10 + 3",
+                "damageType": "piercing"
+              },
+              {
+                "formula": "1d8",
+                "damageType": "piercing"
+              }
+            ],
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "_key": "!actors.items!XYWbDkxRr9gvdRsT.7hjT42ptjL46iH48"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "midi-qol": {
+      "concentration-damage": -67
+    },
+    "srd5e": {
+      "page": "bestiary.html",
+      "source": "TTT",
+      "hash": "gunslinger_ttt"
+    },
+    "combatbooster": {
+      "recentItems": [
+        "7hjT42ptjL46iH48",
+        "KiFmkOmsCEjiI837",
+        "GFM9C6ZjfO1Yrj2h",
+        "lth3V9SZnqvyQDmS"
+      ]
+    },
+    "externalactor": {
+      "classLabels": "",
+      "currencyWeight": true,
+      "disableExperience": false
+    },
+    "scene-packer": {
+      "sourceId": "Actor.eD26ZRF3AMH44yFF"
+    }
+  },
+  "_key": "!actors!XYWbDkxRr9gvdRsT"
+}

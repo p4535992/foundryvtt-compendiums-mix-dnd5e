@@ -1,0 +1,473 @@
+{
+  "name": "Giant Lizard",
+  "type": "npc",
+  "img": "https://5e.tools/img/MM/Giant Lizard.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 15,
+        "proficient": 0,
+        "mod": 2
+      },
+      "dex": {
+        "value": 12,
+        "proficient": 0,
+        "mod": 1
+      },
+      "con": {
+        "value": 13,
+        "proficient": 0,
+        "mod": 1
+      },
+      "int": {
+        "value": 2,
+        "proficient": 0,
+        "mod": -4
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 5,
+        "proficient": 0,
+        "mod": -3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": "12",
+        "min": 0
+      },
+      "hp": {
+        "value": 19,
+        "min": 0,
+        "max": 19,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "3d10 + 3"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "total": 1
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 30,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "spelldc": 8
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p>A giant lizard can be ridden or used as a draft animal. Lizardfolk also keep them as pets, and subterranean giant lizards are used as mounts and pack animals by drow, duergar, and other Underdark dwellers.</p><div class=\"rd__spc-inline-post\"></div><p>Variant: Giant Lizard Traits</p><p>Some giant lizards have one or both of the following traits. Hold Breath. The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Spider Climb.</span></span> <p>The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p><div class=\"rd__spc-inline-post\"></div></div></div><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+        "public": ""
+      },
+      "alignment": "unaligned",
+      "race": "",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "Coastal, Desert, Forest, Swamp, Underdark",
+      "cr": 0.25,
+      "spellLevel": 0,
+      "xp": {
+        "value": 50
+      },
+      "source": "MM",
+      "class": {}
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 1,
+        "passive": 11
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "passive": 6
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "mod": 2,
+        "passive": 12
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -3,
+        "passive": 7
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "passive": 6
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -3,
+        "passive": 7
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "passive": 6
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "passive": 6
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -3,
+        "passive": 7
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -3,
+        "passive": 7
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "passive": 6
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 1,
+        "passive": 11
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 1,
+        "passive": 11
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Giant Lizard",
+    "displayName": 20,
+    "img": "https://5e.tools/img/MM/Giant Lizard.png",
+    "tint": null,
+    "width": 2,
+    "height": 2,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 30,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "oPDsCKRZc1y7MvoF",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "xgbVk0iH8wjTMwao",
+      "name": "Bite",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+4]] (+4) to hit, reach 5 ft., one target. <i>Hit:</i> 6 ([[/r 1d8 + 2]]) piercing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8  + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 100000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/sword-brandish.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!WF5h28EQ1SRicRIk.xgbVk0iH8wjTMwao"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "journal-links": {
+      "references": {}
+    }
+  },
+  "_id": "WF5h28EQ1SRicRIk",
+  "_key": "!actors!WF5h28EQ1SRicRIk"
+}

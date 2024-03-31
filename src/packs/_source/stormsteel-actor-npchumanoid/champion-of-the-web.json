@@ -1,0 +1,957 @@
+{
+  "_id": "Hg4yIDHBcyFkOSRx",
+  "name": "Champion of the Web",
+  "permission": {
+    "default": 0,
+    "F8rFBCyj19PfyFut": 3
+  },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 19,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 15,
+        "proficient": 0
+      },
+      "con": {
+        "value": 16,
+        "proficient": 0
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 16,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 16
+      },
+      "hp": {
+        "value": 112,
+        "min": 0,
+        "max": 112,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "15d8+45"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "",
+      "race": "",
+      "type": "Humanoid",
+      "environment": "",
+      "cr": 6,
+      "spellLevel": 0,
+      "xp": {
+        "value": 10
+      },
+      "source": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [
+          "psychic"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "frightened",
+          "poisoned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "sort": 100001,
+  "flags": {},
+  "img": "worlds/harroden/assets/token-champion.png",
+  "token": {
+    "flags": {},
+    "name": "Champion of the Web",
+    "displayName": 20,
+    "img": "worlds/harroden/assets/token-champion.png",
+    "tint": "",
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 60,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightColor": "",
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "Hg4yIDHBcyFkOSRx",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": ""
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "Go55HzNtPgcvtfsq",
+      "name": "Web Sense",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>While in contact with a web, the Champion knows the exact location of any other creature in contact with the same web.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 100001,
+      "flags": {},
+      "img": "systems/dnd5e/icons/spells/shielding-spirit-3.jpg",
+      "effects": [],
+      "_key": "!actors.items!Hg4yIDHBcyFkOSRx.Go55HzNtPgcvtfsq"
+    },
+    {
+      "_id": "1CpDG4kOsxjPP2tS",
+      "name": "Web Walker",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>The Champion ignores movement restrictions caused by webbing.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        }
+      },
+      "sort": 200001,
+      "flags": {
+        "_sheetTab": "description"
+      },
+      "img": "systems/dnd5e/icons/skills/yellow_42.jpg",
+      "effects": [],
+      "_key": "!actors.items!Hg4yIDHBcyFkOSRx.1CpDG4kOsxjPP2tS"
+    },
+    {
+      "_id": "pB4ruTiTG1cdrayZ",
+      "name": "Rampage",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>When the Champion of the Web reduces a creature to <strong>0 hit points</strong> with a melee attack on its turn, the Champion can take a bonus action to move up to half its speed and make a claw or reel attack.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "bonus",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        }
+      },
+      "sort": 400001,
+      "flags": {
+        "_sheetTab": "description"
+      },
+      "img": "systems/dnd5e/icons/skills/red_12.jpg",
+      "effects": [],
+      "_key": "!actors.items!Hg4yIDHBcyFkOSRx.pB4ruTiTG1cdrayZ"
+    },
+    {
+      "_id": "QTVNUCkOYvtAH2FH",
+      "name": "Spider Climb",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>The Champion can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        }
+      },
+      "sort": 300001,
+      "flags": {
+        "_sheetTab": "description"
+      },
+      "img": "systems/dnd5e/icons/skills/green_23.jpg",
+      "effects": [],
+      "_key": "!actors.items!Hg4yIDHBcyFkOSRx.QTVNUCkOYvtAH2FH"
+    },
+    {
+      "_id": "eoXYHtgwdar5V7x3",
+      "name": "Multiattack",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>The Champion makes three attacks in one action. These attacks can be of the same type or a mixed variety of its attack actions.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 800001,
+      "flags": {},
+      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+      "effects": [],
+      "_key": "!actors.items!Hg4yIDHBcyFkOSRx.eoXYHtgwdar5V7x3"
+    },
+    {
+      "_id": "eNuJzYOC66dorJc8",
+      "name": "Web",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p>Ranged Weapon Attack: +7 to hit, range 30/60 ft., one Large or smaller creature. Hit: The creature is restrained by webbing.</p>\n<p>As an action, the restrained creature can make a DC 14 Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, is vulnerable to <em>fire damage</em> and immune to <em>bludgeoning damage</em>.</p>\n</section>\n<p>The creature is restrained by webbing. As an action, the restrained creature can make a Strength check, escaping from the webbing on a success.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 30,
+          "long": 60,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "str",
+          "dc": 14,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": true
+        }
+      },
+      "sort": 1200001,
+      "flags": {},
+      "img": "systems/dnd5e/icons/skills/violet_14.jpg",
+      "effects": [],
+      "_key": "!actors.items!Hg4yIDHBcyFkOSRx.eNuJzYOC66dorJc8"
+    },
+    {
+      "_id": "eWIRZ66SkF9Z30DG",
+      "name": "Claw",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +7 to hit, Reach 5 ft., one target. Hit: 13 (2d8+4) piercing damage.&nbsp;</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 5,
+          "width": null,
+          "units": "ft",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 5,
+        "chatFlavor": "For the Queen!",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "13 (2d8+4)",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "sort": 400000,
+      "flags": {
+        "core": {
+          "sheetClass": ""
+        }
+      },
+      "img": "icons/svg/mystery-man.svg",
+      "effects": [],
+      "_key": "!actors.items!Hg4yIDHBcyFkOSRx.eWIRZ66SkF9Z30DG"
+    },
+    {
+      "_id": "lzvUBvGZ15R01uCs",
+      "name": "Reel",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>Reel. As a bonus action, the champion of the web pulls a creature restrained in a web up to 50 ft closer to the champion.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "Get over here!",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 1300001,
+      "flags": {},
+      "effects": [],
+      "_key": "!actors.items!Hg4yIDHBcyFkOSRx.lzvUBvGZ15R01uCs"
+    }
+  ],
+  "effects": [],
+  "_key": "!actors!Hg4yIDHBcyFkOSRx"
+}

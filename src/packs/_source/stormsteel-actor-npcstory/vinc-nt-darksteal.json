@@ -1,0 +1,1891 @@
+{
+  "_id": "d7yJ0eYU8VEyucjZ",
+  "name": "Vincènt Darksteal",
+  "type": "npc",
+  "img": "https://i.imgur.com/nmc134w.jpg",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "strength",
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 10
+      },
+      "dex": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "dexterity",
+        "mod": 1,
+        "save": 1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 11
+      },
+      "con": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "constitution",
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 10
+      },
+      "int": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "inteligence",
+        "mod": 1,
+        "save": 1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 11
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "wisdom",
+        "mod": 2,
+        "save": 2,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 12
+      },
+      "cha": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "label": "charisme",
+        "mod": 3,
+        "save": 3,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 13
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "natural",
+        "formula": "",
+        "min": 0
+      },
+      "hp": {
+        "value": 39,
+        "min": 0,
+        "max": 39,
+        "temp": null,
+        "tempmax": null,
+        "formula": "2d8"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 1,
+        "prof": 0,
+        "total": 1
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "m",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": "Perception passive 12"
+      },
+      "spellcasting": "int",
+      "prof": 2,
+      "spelldc": 11,
+      "encumbrance": {
+        "value": 1,
+        "max": 82.5,
+        "pct": 1.2121212121212122,
+        "encumbered": true
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<h2 id=\"actions\">Actions</h2>\n<p><strong><em>Rapière</em></strong>. <em>Attaque d'arme au corps à corps</em> : +3 pour toucher, allonge 1,50 m, une cible.<br /><em>Touché</em> : 5 (1d8+1) dégâts perforants.</p>\n<hr />\n<h2 id=\"reactions\">Réactions</h2>\n<p><strong><em>Parade</em></strong>. Le noble ajoute 2 à sa CA contre une attaque au corps à corps qui devrait le toucher. Il doit voir son agresseur et manier une arme de corps à corps pour pouvoir parer de cette façon.</p>",
+        "public": ""
+      },
+      "alignment": "CN",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0.125,
+      "spellLevel": 1,
+      "xp": {
+        "value": 25
+      },
+      "source": "Hostile",
+      "gender": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "draconic",
+          "dwarvish",
+          "elvish",
+          "gnomish"
+        ],
+        "custom": ""
+      },
+      "perception": {
+        "_deprecated": true
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 0,
+        "label": " ",
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "dec": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 15,
+        "prof": 2,
+        "total": 5
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 14,
+        "prof": 2,
+        "total": 4
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "per": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 3,
+        "label": " ",
+        "bonus": 0,
+        "passive": 15,
+        "prof": 2,
+        "total": 5
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 1,
+        "label": " ",
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        },
+        "mod": 2,
+        "label": " ",
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 2
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0,
+        "level": 0
+      },
+      "spell0": {
+        "_deprecated": true,
+        "max": 0,
+        "value": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "token": {
+    "flags": {
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "splatter": {
+        "bloodColor": ""
+      },
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null
+      },
+      "token-auras": {
+        "aura1": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        },
+        "aura2": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        }
+      }
+    },
+    "name": "Vincènt Darksteal",
+    "displayName": 0,
+    "img": "systems/dnd5e/tokens/humanoid/Noble.webp",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "1A8wj3tDpRTrbDwD",
+    "actorLink": false,
+    "disposition": 0,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1,
+    "lightColor": null,
+    "x": null,
+    "y": null,
+    "elevation": null
+  },
+  "items": [
+    {
+      "_id": "f8eZRpMq0QB4g9MD",
+      "name": "Parade",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><strong>Parade.</strong> The noble adds 2 to his AC against a melee attack that should hit him. He must see his attacker and wield a melee weapon to be able to parry this way.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Créatures et Oppositions",
+        "activation": {
+          "type": "reaction",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Noble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": null
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": null
+        },
+        "properties": {
+          "value": "",
+          "amm": null,
+          "fin": null,
+          "fir": null,
+          "foc": null,
+          "hvy": null,
+          "lgt": null,
+          "lod": null,
+          "rch": null,
+          "rel": null,
+          "ret": null,
+          "spc": null,
+          "thr": null,
+          "two": null,
+          "ver": null
+        },
+        "featType": {
+          "value": "",
+          "_deprecated": null
+        }
+      },
+      "sort": 100000,
+      "flags": {
+        "_sheetTab": "",
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "value": null
+          },
+          "critDamage": {
+            "value": ""
+          },
+          "quickDesc": {
+            "value": true,
+            "altValue": true
+          },
+          "quickProperties": {
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "value": true,
+            "altValue": true
+          },
+          "quickFlavor": {
+            "value": true,
+            "altValue": true
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Action",
+            "activation": "Reaction",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!d7yJ0eYU8VEyucjZ.f8eZRpMq0QB4g9MD"
+    },
+    {
+      "_id": "uzNfQQuPoIGLNqlE",
+      "name": "Rapière",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<p>A thin and strong metal blade, light but long range, designed for rapid attacks to target weak points of enemy defenses with lightning speed.</p>\n<p> </p>\n<p>Melee weapon attack: +3 to hit, reach 1.50 m, one target.</p>\n<p>Hit: 5 (1d8 + 1) piercing damage.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Manuel des Règles",
+        "quantity": 1,
+        "weight": 1,
+        "price": 25,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 1.5,
+          "long": null,
+          "units": "m"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "baseItem": "",
+        "properties": {
+          "fin": true,
+          "two": false,
+          "rch": false,
+          "lod": false,
+          "fir": false,
+          "foc": false,
+          "thr": false,
+          "lgt": false,
+          "hvy": false,
+          "amm": false,
+          "ver": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "ada": false,
+          "mgc": false,
+          "sil": false,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false
+        },
+        "proficient": true
+      },
+      "sort": 200000,
+      "flags": {
+        "obsidian": {
+          "category": "martial",
+          "type": "melee",
+          "mode": "melee",
+          "tags": {
+            "finesse": true
+          },
+          "magical": false,
+          "effects": [
+            {
+              "name": "",
+              "uuid": "1662086b-2ad5-4acc-97fe-3ed2bffefc3f",
+              "components": [
+                {
+                  "type": "attack",
+                  "uuid": "ae267442-f954-4fd9-8679-937d3ba73fb9",
+                  "attack": "melee",
+                  "category": "weapon",
+                  "ability": "",
+                  "bonus": 0,
+                  "crit": 20,
+                  "proficient": false,
+                  "reach": null,
+                  "range1": null,
+                  "range2": null,
+                  "target": ""
+                },
+                {
+                  "type": "damage",
+                  "uuid": "9b6911bd-d5e7-451b-989c-af8eb252fd21",
+                  "calc": "formula",
+                  "ndice": 1,
+                  "die": 8,
+                  "ability": "str",
+                  "bonus": 0,
+                  "damage": "prc",
+                  "versatile": false
+                }
+              ]
+            }
+          ],
+          "version": 7
+        },
+        "betterRolls5e": {
+          "quickDamage": {
+            "context": {
+              "0": ""
+            },
+            "value": {
+              "0": true
+            },
+            "altValue": {
+              "0": true
+            }
+          },
+          "quickOther": {
+            "context": "",
+            "value": true,
+            "altValue": true
+          },
+          "critRange": {
+            "value": null
+          },
+          "critDamage": {
+            "value": ""
+          },
+          "quickDesc": {
+            "value": false,
+            "altValue": false
+          },
+          "quickAttack": {
+            "value": true,
+            "altValue": true
+          },
+          "quickProperties": {
+            "value": true,
+            "altValue": true
+          },
+          "quickVersatile": {
+            "value": false,
+            "altValue": false
+          },
+          "quickFlavor": {
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "value": {
+              "quantity": false
+            },
+            "altValue": {
+              "quantity": false
+            }
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "externalactor": {
+          "labels": {
+            "activation": "1 Action",
+            "target": "1 Creature",
+            "range": "1.5 Meters",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "1d8 + @mod",
+            "damageTypes": "Piercing",
+            "abilityCheck": "Dexterity Ability Check",
+            "toHit": "+ 3",
+            "derivedDamage": [
+              {
+                "formula": "1d8 + 1",
+                "damageType": "piercing"
+              }
+            ]
+          }
+        }
+      },
+      "img": "icons/weapons/swords/sword-guard-brown.webp",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!d7yJ0eYU8VEyucjZ.uzNfQQuPoIGLNqlE"
+    },
+    {
+      "_id": "Dhj8xk8DkRdIpfE2",
+      "name": "Scale Mail +1",
+      "type": "equipment",
+      "img": "icons/equipment/chest/breastplate-metal-scaled-grey.webp",
+      "data": {
+        "description": {
+          "value": "<p><em>This armor has been embellished with powerful runes, crafted in sorcerous fires, blessed by a powerful being, or some other event has seen it bequeathed with enhanced protection for the wearer.</em></p>\n<p>You have a bonus to AC while wearing this armor.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "DMG pg. 152",
+        "quantity": 1,
+        "weight": 45,
+        "price": 1550,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "rare",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 15,
+          "type": "medium",
+          "dex": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": true,
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "permission": {
+        "default": 0,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.items.aDEAwKwttl35dWaB"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            }
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "armor": "15 AC",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "_key": "!actors.items!d7yJ0eYU8VEyucjZ.Dhj8xk8DkRdIpfE2"
+    },
+    {
+      "_id": "fYlr24lsqpwkdPMv",
+      "name": "Blade Armor",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/enchant-red-1.jpg",
+      "data": {
+        "description": {
+          "value": "<p>As a bonus action or as a reaction to taking damage, you reinforce your armor with razor-sharp blades that damage nearby enemies. Until the spell ends, you AC increases by 2 but you are unable to Dodge and have disadvantage on Dexterity saving throws. You can use a bonus action to deactivate blade armor.</p>\n<p> </p>\n<p>While blade armor is active, it is considered a melee weapon that deals 1d6 piercing damage. If a creature is grappled by you, you have advantage on attack rolls made with blade armor against the grappled creature.</p>\n<p> </p>\n<p>You have advantage on your Strength (Athletics) to grapple and deal 1d6 piercing damage when you grapple the target. A creature that is grappled by you while blade armor is active takes 1d6 piercing damage each time it attempts to escape from the grapple.</p>\n<p> </p>\n<p>You must finish a long rest before you can use this ability again.</p>\n<p> </p>\n<p>Blade armor's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), 17th level (4d6).</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ME5e",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": "when you are dealt damage "
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "div",
+        "components": {
+          "value": "",
+          "vocal": false,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "N8RgN1jdDFyXuWNq": 3,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.foundryvtt-compendiums-mix-dnd5e.me5e-spells-me5e.VIpAT7AXHdAGVbhC"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [
+              true
+            ],
+            "altValue": [
+              true
+            ],
+            "context": []
+          },
+          "quickVersatile": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "level": "Cantrip",
+            "school": "Divination",
+            "components": [],
+            "materials": "",
+            "activation": "1 Reaction",
+            "target": "",
+            "range": "Self",
+            "duration": "1 Minutes",
+            "recharge": "Recharge [undefined]",
+            "damage": "1d6",
+            "damageTypes": "Piercing",
+            "abilityCheck": "undefined Ability Check",
+            "derivedDamage": [
+              {
+                "formula": "1d6",
+                "damageType": "piercing"
+              }
+            ]
+          }
+        }
+      },
+      "_key": "!actors.items!d7yJ0eYU8VEyucjZ.fYlr24lsqpwkdPMv"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "obsidian": {
+      "saves": {
+        "str": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Str"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "dex": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "con": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Con"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "int": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "wis": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "cha": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        }
+      },
+      "skills": {
+        "acr": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ani": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "arc": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ath": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 0,
+              "name": "Str"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "dec": {
+          "rollParts": [
+            {
+              "mod": 2,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 1
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "his": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ins": {
+          "rollParts": [
+            {
+              "mod": 2,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 1
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "itm": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "inv": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "med": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "nat": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "prc": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "prf": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "per": {
+          "rollParts": [
+            {
+              "mod": 2,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 1
+            },
+            {
+              "mod": 3,
+              "name": "Cha"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "rel": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Int"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "slt": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "ste": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 1,
+              "name": "Dex"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        },
+        "sur": {
+          "rollParts": [
+            {
+              "mod": 0,
+              "name": "Prof",
+              "proficiency": true,
+              "value": 0
+            },
+            {
+              "mod": 2,
+              "name": "Wis"
+            },
+            {
+              "mod": 0,
+              "name": "Bonus"
+            }
+          ]
+        }
+      }
+    },
+    "tidy5e-sheet": {
+      "traitsExpanded": true
+    },
+    "externalactor": {
+      "classLabels": "",
+      "currencyWeight": true,
+      "disableExperience": false
+    },
+    "scene-packer": {
+      "sourceId": "Actor.fa9RlFqhn4ctCvP4"
+    }
+  },
+  "_key": "!actors!d7yJ0eYU8VEyucjZ"
+}

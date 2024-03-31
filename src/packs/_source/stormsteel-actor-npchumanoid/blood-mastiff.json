@@ -1,0 +1,766 @@
+{
+  "name": "Blood Mastiff",
+  "type": "npc",
+  "img": "modules/tavern-tales-adventures/tokens/bloodmastiff_token.webp",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 13,
+        "proficient": 0,
+        "mod": 1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 1,
+        "dc": 11
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0,
+        "mod": 2,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 2,
+        "dc": 12
+      },
+      "con": {
+        "value": 12,
+        "proficient": 0,
+        "mod": 1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 1,
+        "dc": 11
+      },
+      "int": {
+        "value": 3,
+        "proficient": 0,
+        "mod": -4,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": -4,
+        "dc": 6
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 0,
+        "mod": 1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 1,
+        "dc": 11
+      },
+      "cha": {
+        "value": 7,
+        "proficient": 0,
+        "mod": -2,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": -2,
+        "dc": 8
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 12,
+        "min": 0
+      },
+      "hp": {
+        "value": 5,
+        "min": 0,
+        "max": 5,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "1d8 + 1"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 2,
+        "total": 2,
+        "prof": 0
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 40,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 2,
+      "spelldc": 10,
+      "encumbrance": {
+        "value": 0,
+        "max": 195,
+        "pct": 0,
+        "encumbered": false
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p>Mastiffs are impressive hounds prized by humanoids for their loyalty and keen senses. Mastiffs can be trained as guard dogs, hunting dogs, and war dogs. Halflings and other Small humanoids ride them as mounts.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+        "public": ""
+      },
+      "alignment": "unaligned",
+      "race": "",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "Forest, Hill, Urban",
+      "cr": 0.125,
+      "spellLevel": 0,
+      "xp": {
+        "value": 25
+      },
+      "source": "",
+      "class": {}
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "bonus": 0,
+        "passive": 6,
+        "prof": 0,
+        "total": -4
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -2,
+        "bonus": 0,
+        "passive": 8,
+        "prof": 0,
+        "total": -2
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "bonus": 0,
+        "passive": 6,
+        "prof": 0,
+        "total": -4
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -2,
+        "bonus": 0,
+        "passive": 8,
+        "prof": 0,
+        "total": -2
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "bonus": 0,
+        "passive": 6,
+        "prof": 0,
+        "total": -4
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "bonus": 0,
+        "passive": 6,
+        "prof": 0,
+        "total": -4
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 13,
+        "prof": 2,
+        "total": 3
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -2,
+        "bonus": 0,
+        "passive": 8,
+        "prof": 0,
+        "total": -2
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -2,
+        "bonus": 0,
+        "passive": 8,
+        "prof": 0,
+        "total": -2
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "mod": -4,
+        "bonus": 0,
+        "passive": 6,
+        "prof": 0,
+        "total": -4
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11,
+        "prof": 0,
+        "total": 1
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0,
+        "level": 0
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Blood Mastiff",
+    "displayName": 20,
+    "img": "modules/tavern-tales-adventures/tokens/bloodmastiff_token.webp",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightColor": null,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "Wx4e5eG2ei5QBmy2",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "randomImg": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "nF4MjhGudvL1SjN5",
+      "name": "Bite",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\">\n<p><em>Melee Weapon Attack:</em> [[/r 1d20+3]] (+3) to hit, reach 5 ft., one target. <em>Hit:</em> 4 ([[/r 1d6 + 1]]) piercing damage. If the target is a creature, it must succeed on a DC <span class=\"rd__dc\">11</span> Strength saving throw or be knocked prone.</p>\n<div class=\"rd__spc-inline-post\">&nbsp;</div>\n</div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6  + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "str",
+          "dc": 11,
+          "scaling": "flat"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "ada": false,
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "mgc": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "sil": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 100000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "Wx4e5eG2ei5QBmy2"
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/blood_07.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!mdQkO5JCsZVQ9XVv.nF4MjhGudvL1SjN5"
+    },
+    {
+      "_id": "wWjAy0Pm1vBPrFAc",
+      "name": "Keen Hearing and Smell",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The mastiff has advantage on Wisdom (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 263, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Perception</span>) checks that rely on hearing or smell.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "Wx4e5eG2ei5QBmy2"
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/blue_29.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!mdQkO5JCsZVQ9XVv.wWjAy0Pm1vBPrFAc"
+    },
+    {
+      "_id": "j29iWSTotztpMb1m",
+      "name": "Venemous Fangs",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>If the mastiff hits a target with its Bite attack, it can use its reaction to deal an extra 3 (1d6) necrotic damage with its venomous fangs.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "reaction",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "Formula",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 300000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "Wx4e5eG2ei5QBmy2"
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/beast_03.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!mdQkO5JCsZVQ9XVv.j29iWSTotztpMb1m"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {},
+  "_id": "mdQkO5JCsZVQ9XVv",
+  "_key": "!actors!mdQkO5JCsZVQ9XVv"
+}

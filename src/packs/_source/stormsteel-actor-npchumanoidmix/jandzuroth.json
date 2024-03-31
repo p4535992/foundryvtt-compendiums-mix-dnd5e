@@ -1,0 +1,535 @@
+{
+  "name": "Jandzuroth",
+  "type": "npc",
+  "img": "modules/ddd-beginner-baubles/actors/tokens/jandzuroth-token.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 6,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 1
+      },
+      "con": {
+        "value": 14,
+        "proficient": 1
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 12,
+        "proficient": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 9,
+        "min": 0,
+        "max": 9,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "2d4 + 4"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 60,
+        "swim": 0,
+        "walk": 15,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 10,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": "passive Perception 13"
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p>This diminiutive red dragon lairs atop a tankard-sized wizard's tower, its statuesque form still and unmoving until a new master comes to claim it. </p>\n<p>Zandzuroth used to belong to a powerful and influential mage who was notorious for spoiling the creature rotten. Originally, it was the wizard that was named Jandzuroth and, in his eccentricity, he named his pet wyrm Badger. Over the intervening years, this detail has become lost to time and the dragon, much more than a mere decoration on an aging stone relic, has assumed his former master's name—which it considers much more befitting a dragon, even a small one.</p>\n<p>Jandzuroth is a curious little character. It craves attention and can be fiercely territorial, especially against creatures it considers rivals. It will harass, attack, and try to chase away other familiars, animal companions, and pets that vie for its master's attention.</p>\n<blockquote>\n<p><strong style=\"color:#191813;font-style:italic\">Rule Clarification, Jandzuroth.</strong><span style=\"color:#191813;font-style:italic\"> Full rules for Jandzuroth can be found in @Compendium[ddd-beginner-baubles.items.itccIozW0MTBLejc]{Jandzuroth}.</span></p>\n</blockquote>",
+        "public": ""
+      },
+      "alignment": "Neutral",
+      "race": "",
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0.25,
+      "spellLevel": 0,
+      "xp": {
+        "value": 10
+      },
+      "source": "Jandzuroth"
+    },
+    "traits": {
+      "size": "tiny",
+      "di": {
+        "value": [
+          "fire"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "Understands Common and Draconic but can't speak; telepathy 100 ft. (master only)"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Jandzuroth",
+    "displayName": 0,
+    "img": "modules/ddd-beginner-baubles/images/bb06/jandzuroth-token.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "7urlpWi1o3LT8biI",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "meehpoPpoKCZ8iaC",
+      "name": "Bite",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><em><span class=\"fontstyle0\">Melee Weapon attack</span></em><span class=\"fontstyle2\"><em>:</em> +4 to hit, reach 5 ft., one target. </span><em><span class=\"fontstyle0\">Hit</span></em><span class=\"fontstyle2\"><em>:</em> 4 (1d4 + 2) piercing damage.</span></p>\n</section>\n<p><span class=\"fontstyle2\">Jandzuroth attempts to bite a creature with its jaws.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Jandzuroth",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "sort": 100000,
+      "flags": {
+        "mess": {
+          "isBonusDamage": false,
+          "templateTexture": ""
+        }
+      },
+      "img": "modules/ddd-beginner-baubles/actors/icons/piercing-bite-damage.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!gPWEdmQHvav2FfJQ.meehpoPpoKCZ8iaC"
+    },
+    {
+      "_id": "dt7ue98SSfXVeynb",
+      "name": "Fire Breath",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p>Jandzuroth exhales fire at a creature within 5 foot. The target must make a DC 13 Dexterity saving throw, taking 7 (2D6) fire damage on a failed save.</p>\n</section>\n<p>Jandzuroth inhales deeply before attempting to belch fire at a creature.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Jandzuroth",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d6",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 13,
+          "scaling": "flat"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": 5,
+          "charged": true
+        }
+      },
+      "sort": 300000,
+      "flags": {
+        "mess": {
+          "templateTexture": ""
+        }
+      },
+      "img": "modules/ddd-beginner-baubles/actors/icons/fire-damage.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!gPWEdmQHvav2FfJQ.dt7ue98SSfXVeynb"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "ddd-beginner-baubles": {
+      "initialization-folder": "Beginner Baubles"
+    }
+  },
+  "_id": "gPWEdmQHvav2FfJQ",
+  "_key": "!actors!gPWEdmQHvav2FfJQ"
+}

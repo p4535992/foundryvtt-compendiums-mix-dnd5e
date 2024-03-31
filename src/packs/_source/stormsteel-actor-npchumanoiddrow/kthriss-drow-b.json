@@ -1,0 +1,4699 @@
+{
+  "name": "K'thriss Drow'b",
+  "type": "npc",
+  "img": "https://5e.tools/img/bestiary%2FAI%2FKthriss%20Drowb.jpg",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 8,
+        "proficient": 1,
+        "mod": -1
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 1,
+        "mod": 2
+      },
+      "con": {
+        "value": 12,
+        "proficient": 1,
+        "mod": 1
+      },
+      "int": {
+        "value": 14,
+        "proficient": 1,
+        "mod": 2
+      },
+      "wis": {
+        "value": 11,
+        "proficient": 2,
+        "mod": 0
+      },
+      "cha": {
+        "value": 18,
+        "proficient": 2,
+        "mod": 4
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 14,
+        "min": 0
+      },
+      "hp": {
+        "value": 44,
+        "min": 0,
+        "max": 44,
+        "temp": "0",
+        "tempmax": "0",
+        "formula": "8d8 + 8"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "total": 2,
+        "prof": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 120,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "cha",
+      "prof": 2,
+      "spelldc": 6
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p class=\"rd__quote-line \">“<i>All things are divided into meat and mouths-but even a mouth is just meat.</i>”</p><div class=\"rd__spc-inline-post\"></div><p>The drow warlock K'thriss Drow'b cuts a dashing figure as the worldly representative of the Ur-a ravenous, inscrutable, and largely indifferent elder entity from beyond reality. Tapped into this dark power, the \"C\" Team's hoards person sees all existence as a puzzle to unlock, and he is obsessed by the essential lack of meaning and purpose in the structures of so-called \"reality.\" Still, all things considered, he is most often polite and affable. Because after a long adventuring career, he understands that he can't afford to make more enemies.</p><p>Given his blue skin tone, rumors suggest that K'thriss is of mixed heritage, but no one knows for sure. As a young and doubting adherent of Lolth, he stumbled upon fragments of a relic known as the Black Altar, exposing him to their infinite truths and shocking the drow's hair jet-black. His matching \"beard\" is actually a slow-growing colony of inert spores that K'thriss believes makes him look distinguished. Possessed of alarming and asymmetric crystalline eyes, he often wears a blindfold to spare others his visage, seeing through the eyes of his familiar while he does.</p><p>Tentacles play a big part in K'thriss's spellcasting, whether wrenching him through the sky when he uses magic to fly, or manifesting in dark, suckered form when he casts spells such as thorn whip. And when enemies hear K'thriss whisper the deep truths of the Ur-typically something about how on a geologic time scale, everyone's desires are meaningless-they remember it.</p><p>K'thriss's familiar, Ligotti, is a semisapient remnant of a tentacle attack, spawned by the warlock's intercessor patron god. Though entirely alien to the material plane (and often appearing in the form of a staff), Ligotti uses the stat block of a poisonous snake with these changes:</p><ul class=\"rd__list\"><li class=\"rd__li \">It has an Intelligence score of 12 (+2).</li><li class=\"rd__li \">It has telepathy out to a range of 30 feet.</li></ul></div><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+        "public": ""
+      },
+      "alignment": "chaotic neutral",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Elf",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 3,
+      "spellLevel": 5,
+      "xp": {
+        "value": 700
+      },
+      "source": "AI",
+      "class": {
+        "level": 5,
+        "name": "warlock"
+      },
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "celestial",
+          "common",
+          "elvish",
+          "custom"
+        ],
+        "custom": "Undercommon; can read all writing"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "arc": {
+        "value": 1,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "mod": -1,
+        "bonus": 0,
+        "passive": 9
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 4,
+        "bonus": 0,
+        "passive": 14
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 4,
+        "bonus": 0,
+        "passive": 14
+      },
+      "inv": {
+        "value": 1,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 4,
+        "bonus": 0,
+        "passive": 14
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 4,
+        "bonus": 0,
+        "passive": 14
+      },
+      "rel": {
+        "value": 1,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 2,
+        "override": 2,
+        "max": 2,
+        "level": 5
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "K'thriss Drow'b",
+    "displayName": 20,
+    "img": "https://5e.tools/img/AI/K'thriss Drow'b.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 120,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "gfqY2yqlVvY3QzY4",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "KHn9aSz0uhu7vbCE",
+      "name": "Darkness",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with <span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 55, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">darkvision</span> can't see through this darkness, and nonmagical light can't illuminate it.</p><div class=\"rd__spc-inline-post\"></div><p>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 15,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "bat fur and a drop of pitch or piece of coal",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 100000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Darkness",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with <span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 55, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">darkvision</span> can't see through this darkness, and nonmagical light can't illuminate it.</p><div class=\"rd__spc-inline-post\"></div><p>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "util",
+                  "level": 2,
+                  "school": "evo",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "material": true,
+                    "concentration": true
+                  },
+                  "materials": {
+                    "value": "bat fur and a drop of pitch or piece of coal",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 15,
+                    "units": "ft",
+                    "type": "sphere"
+                  },
+                  "range": {
+                    "value": 60,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 10,
+                    "units": "minute"
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": "day"
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "innate",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-darkness.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/evil-eye-red-2.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.KHn9aSz0uhu7vbCE"
+    },
+    {
+      "_id": "GEawZsqeB0WNuTZO",
+      "name": "Faerie Fire",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.</p><div class=\"rd__spc-inline-post\"></div><p>Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being <a href=\"https://5e.tools/conditionsdiseases.html#invisible_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'invisible_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >invisible</a>.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 20,
+          "width": null,
+          "units": "ft",
+          "type": "cube"
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Faerie Fire",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.</p><div class=\"rd__spc-inline-post\"></div><p>Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being <a href=\"https://5e.tools/conditionsdiseases.html#invisible_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'invisible_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >invisible</a>.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "save",
+                  "level": 1,
+                  "school": "evo",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "material": false,
+                    "concentration": true
+                  },
+                  "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 20,
+                    "units": "ft",
+                    "type": "cube"
+                  },
+                  "range": {
+                    "value": 60,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 1,
+                    "units": "minute"
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "dex",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": "day"
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "innate",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-faerie-fire.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/fire-arrows-jade-2.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.GEawZsqeB0WNuTZO"
+    },
+    {
+      "_id": "Y7BgedDUxhKkkSoE",
+      "name": "Dancing Lights",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.</p><div class=\"rd__spc-inline-post\"></div><p>As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "any",
+          "type": "space"
+        },
+        "range": {
+          "value": 120,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a bit of phosphorus or wychwood, or a glowworm",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 300000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Dancing Lights",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.</p><div class=\"rd__spc-inline-post\"></div><p>As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "util",
+                  "level": 0,
+                  "school": "evo",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "somatic": true,
+                    "material": true,
+                    "concentration": true
+                  },
+                  "materials": {
+                    "value": "a bit of phosphorus or wychwood, or a glowworm",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 0,
+                    "units": "any",
+                    "type": "space"
+                  },
+                  "range": {
+                    "value": 120,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 1,
+                    "units": "minute"
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "always",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-dancing-lights.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/fire-arrows-sky-2.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.Y7BgedDUxhKkkSoE"
+    },
+    {
+      "_id": "wvwqcYtneqkv0lm3",
+      "name": "Disguise Self",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.</p><div class=\"rd__spc-inline-post\"></div><p>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.</p><p>To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 56, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Investigation</span>) check against your spell save DC.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": null,
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 400000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Disguise Self",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.</p><div class=\"rd__spc-inline-post\"></div><p>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.</p><p>To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 56, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Investigation</span>) check against your spell save DC.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "util",
+                  "level": 1,
+                  "school": "ill",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "somatic": true,
+                    "material": false,
+                    "concentration": false
+                  },
+                  "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 0,
+                    "units": "self",
+                    "type": "self"
+                  },
+                  "range": {
+                    "value": 0,
+                    "units": "self",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 1,
+                    "units": "hour"
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "innate",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-disguise-self.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/wind-grasp-eerie-2.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.wvwqcYtneqkv0lm3"
+    },
+    {
+      "_id": "930pR2ouf8FIjG7Q",
+      "name": "Chill Touch",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes [[/r 1d8]] necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.</p><div class=\"rd__spc-inline-post\"></div><p>If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.</p><p>This spell's damage increases by [[/r 1d8]] when you reach 5th level ([[/r 2d8]]), 11th level ([[/r 3d8]]), and 17th level ([[/r 4d8]]).</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "round"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 120,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "rsak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "nec",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": "1d8"
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 500000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Chill Touch",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes [[/r 1d8]] necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.</p><div class=\"rd__spc-inline-post\"></div><p>If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.</p><p>This spell's damage increases by [[/r 1d8]] when you reach 5th level ([[/r 2d8]]), 11th level ([[/r 3d8]]), and 17th level ([[/r 4d8]]).</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "rsak",
+                  "level": 0,
+                  "school": "nec",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "somatic": true,
+                    "material": false,
+                    "concentration": false
+                  },
+                  "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 1,
+                    "units": "",
+                    "type": "creature"
+                  },
+                  "range": {
+                    "value": 120,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 1,
+                    "units": "round"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d8",
+                        "necrotic"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "cantrip",
+                    "formula": "1d8"
+                  },
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "always",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-chill-touch.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/ice-blue-1.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.930pR2ouf8FIjG7Q"
+    },
+    {
+      "_id": "WJa4uLJC3s9XOguQ",
+      "name": "Eldritch Blast",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes [[/r 1d10]] force damage.</p><div class=\"rd__spc-inline-post\"></div><p>The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 120,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "rsak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d10",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 600000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Eldritch Blast",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes [[/r 1d10]] force damage.</p><div class=\"rd__spc-inline-post\"></div><p>The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "rsak",
+                  "level": 0,
+                  "school": "evo",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "somatic": true,
+                    "material": false,
+                    "concentration": false
+                  },
+                  "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 1,
+                    "units": "",
+                    "type": "creature"
+                  },
+                  "range": {
+                    "value": 120,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 0,
+                    "units": "inst"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d10",
+                        "force"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "always",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-eldritch-blast.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/fireball-eerie-1.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.WJa4uLJC3s9XOguQ"
+    },
+    {
+      "_id": "lucyHSMxxllMoooK",
+      "name": "Mending",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.</p><div class=\"rd__spc-inline-post\"></div><p>This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "minute",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "touch",
+          "type": "object"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "two lodestones",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 700000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Mending",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.</p><div class=\"rd__spc-inline-post\"></div><p>This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "util",
+                  "level": 0,
+                  "school": "trs",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "somatic": true,
+                    "material": true,
+                    "concentration": false
+                  },
+                  "materials": {
+                    "value": "two lodestones",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 1,
+                    "units": "touch",
+                    "type": "object"
+                  },
+                  "range": {
+                    "value": 0,
+                    "units": "touch",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "minute",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 0,
+                    "units": "inst"
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "always",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-mending.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/wind-blue-1.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.lucyHSMxxllMoooK"
+    },
+    {
+      "_id": "cs5KkR0yZZRW43aT",
+      "name": "Prestidigitation",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li><li class=\"rd__li \">You instantaneously light or snuff out a candle, a torch, or a small campfire.</li><li class=\"rd__li \">You instantaneously clean or soil an object no larger than 1 cubic foot.</li><li class=\"rd__li \">You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li><li class=\"rd__li \">You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li><li class=\"rd__li \">You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.</li></ul><p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 800000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Prestidigitation",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li><li class=\"rd__li \">You instantaneously light or snuff out a candle, a torch, or a small campfire.</li><li class=\"rd__li \">You instantaneously clean or soil an object no larger than 1 cubic foot.</li><li class=\"rd__li \">You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li><li class=\"rd__li \">You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li><li class=\"rd__li \">You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.</li></ul><p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "util",
+                  "level": 0,
+                  "school": "trs",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "somatic": true,
+                    "material": false,
+                    "concentration": false
+                  },
+                  "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 0,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": 10,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 1,
+                    "units": "hour"
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "always",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-prestidigitation.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/explosion-royal-1.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.cs5KkR0yZZRW43aT"
+    },
+    {
+      "_id": "ELp9Y20TvNyM4OEU",
+      "name": "Thorn Whip",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You create a long, vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. If the attack hits, the creature takes [[/r 1d6]] piercing damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.</p><div class=\"rd__spc-inline-post\"></div><p>This spell's damage increases by [[/r 1d6]] when you reach 5th level ([[/r 2d6]]), 11th level ([[/r 3d6]]), and 17th level ([[/r 4d6]]).</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 30,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "msak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "the stem of a plant with thorns",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": "1d6"
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 900000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Thorn Whip",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>You create a long, vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. If the attack hits, the creature takes [[/r 1d6]] piercing damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.</p><div class=\"rd__spc-inline-post\"></div><p>This spell's damage increases by [[/r 1d6]] when you reach 5th level ([[/r 2d6]]), 11th level ([[/r 3d6]]), and 17th level ([[/r 4d6]]).</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "msak",
+                  "level": 0,
+                  "school": "trs",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "somatic": true,
+                    "material": true,
+                    "concentration": false
+                  },
+                  "materials": {
+                    "value": "the stem of a plant with thorns",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 0,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": 30,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 0,
+                    "units": "inst"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d6",
+                        "piercing"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "cantrip",
+                    "formula": "1d6"
+                  },
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "always",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-thorn-whip.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/spell/phb-thorn-whip.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.ELp9Y20TvNyM4OEU"
+    },
+    {
+      "_id": "ZCMFBQ1wCgOUParg",
+      "name": "Vicious Mockery",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take [[/r 1d4]] psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.</p><div class=\"rd__spc-inline-post\"></div><p>This spell's damage increases by [[/r 1d4]] when you reach 5th level ([[/r 2d4]]), 11th level ([[/r 3d4]]), and 17th level ([[/r 4d4]]).</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4",
+              "psychic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": "1d4"
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1000000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Vicious Mockery",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take [[/r 1d4]] psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.</p><div class=\"rd__spc-inline-post\"></div><p>This spell's damage increases by [[/r 1d4]] when you reach 5th level ([[/r 2d4]]), 11th level ([[/r 3d4]]), and 17th level ([[/r 4d4]]).</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "save",
+                  "level": 0,
+                  "school": "enc",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "material": false,
+                    "concentration": false
+                  },
+                  "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 1,
+                    "units": "",
+                    "type": "creature"
+                  },
+                  "range": {
+                    "value": 60,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 0,
+                    "units": "inst"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d4",
+                        "psychic"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "cantrip",
+                    "formula": "1d4"
+                  },
+                  "save": {
+                    "ability": "wis",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "always",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-vicious-mockery.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/skills/affliction_24.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.ZCMFBQ1wCgOUParg"
+    },
+    {
+      "_id": "UDSkJdk3kFPqp8bI",
+      "name": "Dissonant Whispers",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes [[/r 3d6]] psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A <a href=\"https://5e.tools/conditionsdiseases.html#deafened_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'deafened_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >deafened</a> creature automatically succeeds on the save.</p><div class=\"rd__spc-inline-post\"></div></div><div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"67\" > <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by [[/r 1d6]] for each slot level above 1st.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "3d6",
+              "psychic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "pact",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d6"
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1100000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Dissonant Whispers",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes [[/r 3d6]] psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A <a href=\"https://5e.tools/conditionsdiseases.html#deafened_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'deafened_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >deafened</a> creature automatically succeeds on the save.</p><div class=\"rd__spc-inline-post\"></div></div><div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"67\" > <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by [[/r 1d6]] for each slot level above 1st.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "save",
+                  "level": 1,
+                  "school": "enc",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "material": false,
+                    "concentration": false
+                  },
+                  "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 0,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": 60,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 0,
+                    "units": "inst"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "3d6",
+                        "psychic"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "level",
+                    "formula": "1d6"
+                  },
+                  "save": {
+                    "ability": "wis",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "pact",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-dissonant-whispers.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/spell/phb-dissonant-whispers.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.UDSkJdk3kFPqp8bI"
+    },
+    {
+      "_id": "ddrqoMRae1PKU7XI",
+      "name": "Fly",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p><div class=\"rd__spc-inline-post\"></div></div><div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"68\" > <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "touch",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 3,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a wing feather from any bird",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "pact",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Fly",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p><div class=\"rd__spc-inline-post\"></div></div><div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"68\" > <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "util",
+                  "level": 3,
+                  "school": "trs",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "somatic": true,
+                    "material": true,
+                    "concentration": true
+                  },
+                  "materials": {
+                    "value": "a wing feather from any bird",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 1,
+                    "units": "touch",
+                    "type": "creature"
+                  },
+                  "range": {
+                    "value": 0,
+                    "units": "touch",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 10,
+                    "units": "minute"
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "pact",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-fly.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/link-spirit-1.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.ddrqoMRae1PKU7XI"
+    },
+    {
+      "_id": "s4wqsqKRQ5UPxy5E",
+      "name": "Hex",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra [[/r 1d6]] necrotic damage to the target whenever you hit it with an attack. Also, choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.</p><div class=\"rd__spc-inline-post\"></div><p>If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to curse a new creature.</p><p>A <a href=\"https://5e.tools/spells.html#remove%20curse_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'spells.html', 'PHB', 'remove%20curse_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >remove curse</a> cast on the target ends this spell early.</p></div><div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"69\" > <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 90,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "the petrified eye of a newt",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "pact",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1300000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Hex",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra [[/r 1d6]] necrotic damage to the target whenever you hit it with an attack. Also, choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.</p><div class=\"rd__spc-inline-post\"></div><p>If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to curse a new creature.</p><p>A <a href=\"https://5e.tools/spells.html#remove%20curse_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'spells.html', 'PHB', 'remove%20curse_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >remove curse</a> cast on the target ends this spell early.</p></div><div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"69\" > <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "util",
+                  "level": 1,
+                  "school": "enc",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "somatic": true,
+                    "material": true,
+                    "concentration": true
+                  },
+                  "materials": {
+                    "value": "the petrified eye of a newt",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 0,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": 90,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "bonus",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 1,
+                    "units": "hour"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d6",
+                        "necrotic"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "pact",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-hex.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/spell/phb-hex.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.s4wqsqKRQ5UPxy5E"
+    },
+    {
+      "_id": "IQ33NLWKhKqC8Ben",
+      "name": "Misty Step",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 30,
+          "width": null,
+          "units": "ft",
+          "type": "space"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "pact",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1400000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Misty Step",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "util",
+                  "level": 2,
+                  "school": "con",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "material": false,
+                    "concentration": false
+                  },
+                  "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 30,
+                    "units": "ft",
+                    "type": "space"
+                  },
+                  "range": {
+                    "value": 0,
+                    "units": "self",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "bonus",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 0,
+                    "units": "inst"
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "pact",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-misty-step.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/wind-grasp-air-1.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.IQ33NLWKhKqC8Ben"
+    },
+    {
+      "_id": "7Co6DrjSSSLnYDZZ",
+      "name": "Sending",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><div class=\"rd__spc-inline-post\"></div><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn't arrive.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "round"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "spec",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "spec"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 3,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a short piece of fine copper wire",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "pact",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1500000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Sending",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><div class=\"rd__spc-inline-post\"></div><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn't arrive.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "util",
+                  "level": 3,
+                  "school": "evo",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "somatic": true,
+                    "material": true,
+                    "concentration": false
+                  },
+                  "materials": {
+                    "value": "a short piece of fine copper wire",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 1,
+                    "units": "spec",
+                    "type": "creature"
+                  },
+                  "range": {
+                    "value": 0,
+                    "units": "spec",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 1,
+                    "units": "round"
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "pact",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-sending.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/skills/shadow_20.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.7Co6DrjSSSLnYDZZ"
+    },
+    {
+      "_id": "DpZcP1mgaQiG3Wmr",
+      "name": "Shatter",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a 10-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes [[/r 3d8]] thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.</p><div class=\"rd__spc-inline-post\"></div><p>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.</p></div><div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"70\" > <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/r 1d8]] for each slot level above 2nd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 10,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "3d8",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 14,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a chip of mica",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "pact",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1600000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Shatter",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a 10-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes [[/r 3d8]] thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.</p><div class=\"rd__spc-inline-post\"></div><p>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.</p></div><div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"70\" > <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/r 1d8]] for each slot level above 2nd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "save",
+                  "level": 2,
+                  "school": "evo",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "somatic": true,
+                    "material": true,
+                    "concentration": false
+                  },
+                  "materials": {
+                    "value": "a chip of mica",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 10,
+                    "units": "ft",
+                    "type": "sphere"
+                  },
+                  "range": {
+                    "value": 60,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 0,
+                    "units": "inst"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "3d8",
+                        "thunder"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "level",
+                    "formula": "1d8"
+                  },
+                  "save": {
+                    "ability": "con",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "pact",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-shatter.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/explosion-sky-2.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.DpZcP1mgaQiG3Wmr"
+    },
+    {
+      "_id": "KARchsfd9zhjoHKw",
+      "name": "Multiattack",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>K'thriss makes two attacks with his sickle.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "AI",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1700000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Multiattack",
+                "type": "feat",
+                "data": {
+                  "source": "AI",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>K'thriss makes two attacks with his sickle.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mailed-fist.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.KARchsfd9zhjoHKw"
+    },
+    {
+      "_id": "fji23iR07t10eAVu",
+      "name": "Sickle",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+4]] (+4) to hit, reach 5 ft., one target. <i>Hit:</i> 4 ([[/r 1d4 + 2]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "AI",
+        "quantity": 1,
+        "weight": 2,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4  + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {
+          "lgt": true
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1800000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Sickle",
+                "type": "weapon",
+                "data": {
+                  "source": "AI",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+4]] (+4) to hit, reach 5 ft., one target. <i>Hit:</i> 4 ([[/r 1d4 + 2]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d4  + @mod",
+                        "slashing"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "range": {
+                    "value": 5,
+                    "long": 0,
+                    "units": "ft"
+                  },
+                  "actionType": "mwak",
+                  "proficient": true,
+                  "quantity": 1,
+                  "weight": 2,
+                  "price": null,
+                  "rarity": "None",
+                  "weaponType": "simpleM",
+                  "properties": {
+                    "lgt": true
+                  },
+                  "attuned": false,
+                  "ability": "dex",
+                  "equipped": true,
+                  "identified": false,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  }
+                },
+                "img": "systems/dnd5e/icons/items/weapons/sickle.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/weapons/sickle.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.fji23iR07t10eAVu"
+    },
+    {
+      "_id": "bbKioQqwYdKuzYpf",
+      "name": "Special Equipment",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>K'thriss wears a robe of stars (accounted for in his statistics). The robe allows him to cast the following spells: 6/day: magic missile (7 missiles)</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "AI",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1900000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Special Equipment",
+                "type": "feat",
+                "data": {
+                  "source": "AI",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>K'thriss wears a robe of stars (accounted for in his statistics). The robe allows him to cast the following spells: 6/day: magic missile (7 missiles)</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.bbKioQqwYdKuzYpf"
+    },
+    {
+      "_id": "sHyNDVIiP19EHQF9",
+      "name": "Awakened Mind",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>K'thriss can telepathically speak to any creature he can see within 30 feet of him, provided the creature can understand at least one language.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "AI",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 2000000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Awakened Mind",
+                "type": "feat",
+                "data": {
+                  "source": "AI",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>K'thriss can telepathically speak to any creature he can see within 30 feet of him, provided the creature can understand at least one language.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.sHyNDVIiP19EHQF9"
+    },
+    {
+      "_id": "1bjmWIjR2qD4JRdH",
+      "name": "Fey Ancestry",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>K'thriss has advantage on saving throws against being <a href=\"https://5e.tools/conditionsdiseases.html#charmed_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'charmed_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >charmed</a>, and magic can't put him to sleep. Sunlight Sensitivity. While in sunlight, K'thriss has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "AI",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 2100000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Fey Ancestry",
+                "type": "feat",
+                "data": {
+                  "source": "AI",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>K'thriss has advantage on saving throws against being <a href=\"https://5e.tools/conditionsdiseases.html#charmed_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'charmed_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >charmed</a>, and magic can't put him to sleep. Sunlight Sensitivity. While in sunlight, K'thriss has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.1bjmWIjR2qD4JRdH"
+    },
+    {
+      "_id": "l1ub6STRQqdqyFjz",
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Light armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">45 gp, 13 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 12 + Dex  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 13,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 12,
+          "type": "light",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 2200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Studded Leather Armor",
+                "type": "equipment",
+                "data": {
+                  "description": {
+                    "value": "<div>\n\t\t\t<div><i>Light armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">45 gp, 13 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 12 + Dex  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "PHB",
+                  "quantity": 1,
+                  "weight": 13,
+                  "price": null,
+                  "attuned": false,
+                  "equipped": true,
+                  "rarity": "None",
+                  "identified": false,
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": null,
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "armor": {
+                    "type": "light",
+                    "value": 12,
+                    "dex": null
+                  },
+                  "strength": null,
+                  "stealth": false,
+                  "proficient": true,
+                  "attributes": {
+                    "spelldc": 10
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "attunement": ""
+                },
+                "img": "systems/dnd5e/icons/items/armor/studded.png",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/armor/studded.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.l1ub6STRQqdqyFjz"
+    },
+    {
+      "_id": "UTjrOpe1Uu9edXed",
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"71\" > <span class=\"entry-title-inner\">Innate Spellcasting.</span></span> <p>K'thriss's innate spellcasting ability is Charisma (spell save DC <span class=\"rd__dc\">14</span>). He can innately cast the following spells, requiring no material components:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: <a href=\"https://5e.tools/spells.html#dancing%20lights_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;Y7BgedDUxhKkkSoE&quot;}\">dancing lights</a>, <a href=\"https://5e.tools/spells.html#disguise%20self_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;wvwqcYtneqkv0lm3&quot;}\">disguise self</a></p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: <a href=\"https://5e.tools/spells.html#darkness_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;KHn9aSz0uhu7vbCE&quot;}\">darkness</a>, <a href=\"https://5e.tools/spells.html#faerie%20fire_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;GEawZsqeB0WNuTZO&quot;}\">faerie fire</a></p></li></ul></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "AI",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 2300000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Innate Spellcasting",
+                "type": "feat",
+                "data": {
+                  "source": "AI",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"71\" > <span class=\"entry-title-inner\">Innate Spellcasting.</span></span> <p>K'thriss's innate spellcasting ability is Charisma (spell save DC <span class=\"rd__dc\">14</span>). He can innately cast the following spells, requiring no material components:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: <a href=\"https://5e.tools/spells.html#dancing%20lights_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;Y7BgedDUxhKkkSoE&quot;}\">dancing lights</a>, <a href=\"https://5e.tools/spells.html#disguise%20self_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;wvwqcYtneqkv0lm3&quot;}\">disguise self</a></p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: <a href=\"https://5e.tools/spells.html#darkness_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;KHn9aSz0uhu7vbCE&quot;}\">darkness</a>, <a href=\"https://5e.tools/spells.html#faerie%20fire_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;GEawZsqeB0WNuTZO&quot;}\">faerie fire</a></p></li></ul></div><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell-book.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/spell-book.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.UTjrOpe1Uu9edXed"
+    },
+    {
+      "_id": "iWcqWOyXFUNF98sB",
+      "name": "Spellcasting",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"72\" > <span class=\"entry-title-inner\">Spellcasting.</span></span> <p>K'thriss is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC <span class=\"rd__dc\">14</span>, [[/r 1d20+6]] (+6) to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest, and knows the following warlock spells:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>Cantrips (at will): <a href=\"https://5e.tools/spells.html#chill%20touch_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;930pR2ouf8FIjG7Q&quot;}\">chill touch</a>, <a href=\"https://5e.tools/spells.html#eldritch%20blast_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;WJa4uLJC3s9XOguQ&quot;}\">eldritch blast</a>, <a href=\"https://5e.tools/spells.html#mending_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;lucyHSMxxllMoooK&quot;}\">mending</a>, <a href=\"https://5e.tools/spells.html#prestidigitation_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;cs5KkR0yZZRW43aT&quot;}\">prestidigitation</a>, <a href=\"https://5e.tools/spells.html#thorn%20whip_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;ELp9Y20TvNyM4OEU&quot;}\">thorn whip</a>, <a href=\"https://5e.tools/spells.html#vicious%20mockery_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;ZCMFBQ1wCgOUParg&quot;}\">vicious mockery</a></p></li><li class=\"rd__li  rd__li-spell\"><p>1st-3rd level (2 3rd-level slots): <a href=\"https://5e.tools/spells.html#dissonant%20whispers_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;UDSkJdk3kFPqp8bI&quot;}\">dissonant whispers</a>, <a href=\"https://5e.tools/spells.html#fly_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;ddrqoMRae1PKU7XI&quot;}\">fly</a>, <a href=\"https://5e.tools/spells.html#hex_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;s4wqsqKRQ5UPxy5E&quot;}\">hex</a>, <a href=\"https://5e.tools/spells.html#misty%20step_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;IQ33NLWKhKqC8Ben&quot;}\">misty step</a>, <a href=\"https://5e.tools/spells.html#sending_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;7Co6DrjSSSLnYDZZ&quot;}\">sending</a>, <a href=\"https://5e.tools/spells.html#shatter_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;DpZcP1mgaQiG3Wmr&quot;}\">shatter</a></p></li></ul></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "AI",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 2400000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "gfqY2yqlVvY3QzY4"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Spellcasting",
+                "type": "feat",
+                "data": {
+                  "source": "AI",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"72\" > <span class=\"entry-title-inner\">Spellcasting.</span></span> <p>K'thriss is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC <span class=\"rd__dc\">14</span>, [[/r 1d20+6]] (+6) to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest, and knows the following warlock spells:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>Cantrips (at will): <a href=\"https://5e.tools/spells.html#chill%20touch_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;930pR2ouf8FIjG7Q&quot;}\">chill touch</a>, <a href=\"https://5e.tools/spells.html#eldritch%20blast_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;WJa4uLJC3s9XOguQ&quot;}\">eldritch blast</a>, <a href=\"https://5e.tools/spells.html#mending_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;lucyHSMxxllMoooK&quot;}\">mending</a>, <a href=\"https://5e.tools/spells.html#prestidigitation_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;cs5KkR0yZZRW43aT&quot;}\">prestidigitation</a>, <a href=\"https://5e.tools/spells.html#thorn%20whip_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;ELp9Y20TvNyM4OEU&quot;}\">thorn whip</a>, <a href=\"https://5e.tools/spells.html#vicious%20mockery_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;ZCMFBQ1wCgOUParg&quot;}\">vicious mockery</a></p></li><li class=\"rd__li  rd__li-spell\"><p>1st-3rd level (2 3rd-level slots): <a href=\"https://5e.tools/spells.html#dissonant%20whispers_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;UDSkJdk3kFPqp8bI&quot;}\">dissonant whispers</a>, <a href=\"https://5e.tools/spells.html#fly_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;ddrqoMRae1PKU7XI&quot;}\">fly</a>, <a href=\"https://5e.tools/spells.html#hex_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;s4wqsqKRQ5UPxy5E&quot;}\">hex</a>, <a href=\"https://5e.tools/spells.html#misty%20step_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;IQ33NLWKhKqC8Ben&quot;}\">misty step</a>, <a href=\"https://5e.tools/spells.html#sending_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;7Co6DrjSSSLnYDZZ&quot;}\">sending</a>, <a href=\"https://5e.tools/spells.html#shatter_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;gfqY2yqlVvY3QzY4&quot;,&quot;itemId&quot;:&quot;DpZcP1mgaQiG3Wmr&quot;}\">shatter</a></p></li></ul></div><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell-book.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/spell-book.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!wDAkY9CrX0NpOmEc.iWcqWOyXFUNF98sB"
+    }
+  ],
+  "effects": [
+    {
+      "_id": "kW2n6LzGTHgDPDgD",
+      "flags": {},
+      "changes": [
+        {
+          "key": "data.attributes.hp.max",
+          "value": "20",
+          "mode": 2,
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 1621182382200
+      },
+      "icon": "icons/svg/aura.svg",
+      "label": "test",
+      "origin": "Actor.gfqY2yqlVvY3QzY4",
+      "tint": null,
+      "transfer": true,
+      "_key": "!actors.effects!wDAkY9CrX0NpOmEc.kW2n6LzGTHgDPDgD"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "journal-links": {
+      "references": {}
+    },
+    "downtime-ethck": {
+      "trainingItems": [],
+      "changes": []
+    },
+    "tidy5e-sheet": {
+      "npcTraitsExpanded": true
+    }
+  },
+  "_id": "wDAkY9CrX0NpOmEc",
+  "_key": "!actors!wDAkY9CrX0NpOmEc"
+}

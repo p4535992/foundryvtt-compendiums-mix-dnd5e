@@ -1,0 +1,1076 @@
+{
+  "name": "Knight",
+  "type": "npc",
+  "img": "https://5e.tools/img/MM/Knight.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0,
+        "min": 3,
+        "mod": 3,
+        "save": 3,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0
+      },
+      "dex": {
+        "value": 11,
+        "proficient": 0,
+        "min": 3,
+        "mod": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 0
+      },
+      "con": {
+        "value": 14,
+        "proficient": 1,
+        "min": 3,
+        "mod": 2,
+        "save": 4,
+        "prof": 2,
+        "saveBonus": 0,
+        "checkBonus": 0
+      },
+      "int": {
+        "value": 11,
+        "proficient": 0,
+        "min": 3,
+        "mod": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 0
+      },
+      "wis": {
+        "value": 11,
+        "proficient": 1,
+        "min": 3,
+        "save": 2,
+        "mod": 0,
+        "prof": 2,
+        "saveBonus": 0,
+        "checkBonus": 0
+      },
+      "cha": {
+        "value": 15,
+        "proficient": 0,
+        "min": 3,
+        "mod": 2,
+        "save": 2,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 18,
+        "min": 0
+      },
+      "hp": {
+        "value": 52,
+        "min": 0,
+        "max": 52,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "8d8 + 16"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "spelldc": 10,
+      "prof": 2
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p>Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+        "public": ""
+      },
+      "alignment": "any alignment",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Any Race",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 3,
+      "spellLevel": 0,
+      "xp": {
+        "value": 700
+      },
+      "source": "MM",
+      "class": {}
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "custom"
+        ],
+        "custom": "any one language (usually Common)"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "mod": 3,
+        "passive": 13,
+        "bonus": 0,
+        "prof": 0,
+        "total": 3
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 2,
+        "passive": 12,
+        "bonus": 0,
+        "prof": 0,
+        "total": 2
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 2,
+        "passive": 12,
+        "bonus": 0,
+        "prof": 0,
+        "total": 2
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 2,
+        "passive": 12,
+        "bonus": 0,
+        "prof": 0,
+        "total": 2
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 2,
+        "passive": 12,
+        "bonus": 0,
+        "prof": 0,
+        "total": 2
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0,
+        "level": 0
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Knight",
+    "displayName": 20,
+    "img": "https://5e.tools/img/MM/Knight.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "N8XfSBuhJdABkNbg",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "fJ26srhrindDcZAc",
+      "name": "Multiattack",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The knight makes two melee attacks.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 100000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!S8pao1hkXqWLbX4s.fJ26srhrindDcZAc"
+    },
+    {
+      "_id": "mjz24K8p0hFZi9vv",
+      "name": "Greatsword",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 5 ft., one target. <i>Hit:</i> 10 ([[/r 2d6 + 3]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "quantity": 1,
+        "weight": 6,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d6  + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "properties": {
+          "hvy": true,
+          "two": true
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 200000,
+      "flags": {},
+      "img": "systems/dnd5e/icons/items/weapons/sword-great.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!S8pao1hkXqWLbX4s.mjz24K8p0hFZi9vv"
+    },
+    {
+      "_id": "haagRfKnqRO4A8Hu",
+      "name": "Heavy Crossbow",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Ranged Weapon Attack:</i> [[/r 1d20+2]] (+2) to hit, range 100/400 ft., one target. <i>Hit:</i> 5 ([[/r 1d10]]) piercing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "quantity": 1,
+        "weight": 18,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 100,
+          "long": 400,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d10",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialR",
+        "properties": {
+          "amm": true,
+          "hvy": true,
+          "rel": true,
+          "two": true
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 300000,
+      "flags": {},
+      "img": "systems/dnd5e/icons/items/weapons/crossbow-heavy.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!S8pao1hkXqWLbX4s.haagRfKnqRO4A8Hu"
+    },
+    {
+      "_id": "YygGAnt5RNhAAxoU",
+      "name": "Leadership (Recharges after a Short or Long Rest)",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a [[/r d4]] to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is <a href=\"https://5e.tools/conditionsdiseases.html#incapacitated_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'incapacitated_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >incapacitated</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 400000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!S8pao1hkXqWLbX4s.YygGAnt5RNhAAxoU"
+    },
+    {
+      "_id": "GDLB5PteHFgiUQt7",
+      "name": "Brave",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The knight has advantage on saving throws against being <a href=\"https://5e.tools/conditionsdiseases.html#frightened_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'frightened_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >frightened</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 500000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!S8pao1hkXqWLbX4s.GDLB5PteHFgiUQt7"
+    },
+    {
+      "_id": "4HNYApRAf3hvt4hn",
+      "name": "Parry",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 600000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!S8pao1hkXqWLbX4s.4HNYApRAf3hvt4hn"
+    },
+    {
+      "_id": "J5F57TUN7YXvKNrh",
+      "name": "Plate Armor",
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Heavy armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">1,500 gp, 65 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 18  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p><p>The wearer has disadvantage on Stealth (Dexterity) checks.</p><p>If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 65,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 18,
+          "type": "heavy",
+          "dex": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 15,
+        "stealth": true,
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 700000,
+      "flags": {},
+      "img": "systems/dnd5e/icons/items/armor/plate.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!S8pao1hkXqWLbX4s.J5F57TUN7YXvKNrh"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "condition-automation": {
+      "originalSpeed": 30
+    },
+    "journal-links": {
+      "references": {}
+    }
+  },
+  "_id": "S8pao1hkXqWLbX4s",
+  "_key": "!actors!S8pao1hkXqWLbX4s"
+}

@@ -1,0 +1,918 @@
+{
+  "name": "Pirate Bosun",
+  "type": "npc",
+  "img": "https://5e.tools/img/GoS/Pirate Bosun.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0,
+        "mod": 3
+      },
+      "dex": {
+        "value": 11,
+        "proficient": 0,
+        "mod": 0
+      },
+      "con": {
+        "value": 13,
+        "proficient": 0,
+        "mod": 1
+      },
+      "int": {
+        "value": 11,
+        "proficient": 0,
+        "mod": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0,
+        "mod": 0
+      },
+      "cha": {
+        "value": 13,
+        "proficient": 0,
+        "mod": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 12,
+        "min": 0
+      },
+      "hp": {
+        "value": 27,
+        "min": 0,
+        "max": 27,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "5d8 + 5"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "total": 0,
+        "prof": 0
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": null,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 2,
+      "spelldc": 8
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p>The bosun (or boatswain) is tasked with organizing the cargo and crew aboard a ship. Bosuns are capable fighters whose experience with hauling cargo and delivering beatings make them tough opponents. Foul Frithoff in The Sinister Secret of Saltmarsh is the bosun who protects the cargo aboard the smugglers' ship. Ever since a bad accident, he has worn a hook at the end of one arm in place of a hand.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+        "public": ""
+      },
+      "alignment": "any alignment",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Any Race",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0.5,
+      "spellLevel": 0,
+      "xp": {
+        "value": 100
+      },
+      "source": "GoS",
+      "class": {},
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "custom"
+        ],
+        "custom": "any one language (usually Common)"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str",
+        "mod": 3,
+        "bonus": 0,
+        "passive": 13
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "itm": {
+        "value": 1,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Pirate Bosun",
+    "displayName": 20,
+    "img": "https://5e.tools/img/GoS/Pirate Bosun.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "wgkdLFnjmkabjjTW",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "rpYq1Hj4imj1OsoF",
+      "name": "Light Hammer",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee  or Ranged Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 5 ft. or range 20/60 ft., one target. <i>Hit:</i> 5 ([[/r 1d4 + 3]]) bludgeoning damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "GoS",
+        "quantity": 1,
+        "weight": 2,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 20,
+          "long": 60,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4  + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {
+          "lgt": true,
+          "thr": true
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1002,
+      "flags": {},
+      "img": "/systems/dnd5e/icons/items/weapons/hammer-light.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!kDxT4ug2xSmxsKk8.rpYq1Hj4imj1OsoF"
+    },
+    {
+      "_id": "FQPfDaICjSHPq3SM",
+      "name": "Hook",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 5 ft., one target. <i>Hit:</i> 7 ([[/r 1d8 + 3]]) piercing damage, and the target is <a href=\"https://5e.tools/conditionsdiseases.html#grappled_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'grappled_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >grappled</a> (escape DC <span class=\"rd__dc\">13</span>).</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "GoS",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8  + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1001,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!kDxT4ug2xSmxsKk8.FQPfDaICjSHPq3SM"
+    },
+    {
+      "_id": "dtxuL9bZMDfeSDPj",
+      "name": "Cargo Hauler",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The bosun has advantage on Strength checks.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "GoS",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 101,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!kDxT4ug2xSmxsKk8.dtxuL9bZMDfeSDPj"
+    },
+    {
+      "_id": "uAqPhhpztOEGAh0k",
+      "name": "Sea Legs",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The bosun has advantage on ability checks and saving throws to resist being knocked <a href=\"https://5e.tools/conditionsdiseases.html#prone_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'prone_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >prone</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "GoS",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 102,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!kDxT4ug2xSmxsKk8.uAqPhhpztOEGAh0k"
+    },
+    {
+      "_id": "wE6qrEQUpKnx0GJx",
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Light armor</i></div>\n\t\t\t<div class=\"flex w-100\">\n\t\t\t\t<div class=\"col-4\">45 gp, 13 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 12 + Dex  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 13,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 12,
+          "type": "light",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 2001,
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "studded%20leather%20armor_phb"
+        },
+        "dae": {
+          "activeEquipped": true
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/armor/studded.png",
+      "effects": [
+        {
+          "_id": "gjDIXLPSN7Mdyf5k",
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "armorEffect": true
+            }
+          },
+          "changes": [
+            {
+              "key": "data.attributes.ac.value",
+              "value": "@abilities.dex.mod > 99 ? 99 + 12 : @abilities.dex.mod + 12",
+              "mode": 5,
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 1621182383581
+          },
+          "icon": "systems/dnd5e/icons/items/armor/studded.png",
+          "label": "AC=12+dex.mod",
+          "origin": "Actor.wgkdLFnjmkabjjTW.OwnedItem.undefined",
+          "transfer": true,
+          "_key": "!actors.items.effects!kDxT4ug2xSmxsKk8.wE6qrEQUpKnx0GJx.gjDIXLPSN7Mdyf5k"
+        }
+      ],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!kDxT4ug2xSmxsKk8.wE6qrEQUpKnx0GJx"
+    }
+  ],
+  "effects": [
+    {
+      "_id": "4NeB8rQvI5oPXx0b",
+      "flags": {
+        "dae": {
+          "transfer": true,
+          "armorEffect": true
+        }
+      },
+      "changes": [
+        {
+          "key": "data.attributes.ac.value",
+          "value": "@abilities.dex.mod > 99 ? 99 + 12 : @abilities.dex.mod + 12",
+          "mode": 5,
+          "priority": 4
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47210169648
+      },
+      "icon": "systems/dnd5e/icons/items/armor/studded.png",
+      "label": "AC=12+dex.mod",
+      "origin": "Actor.wgkdLFnjmkabjjTW.Item.wE6qrEQUpKnx0GJx",
+      "transfer": true,
+      "_key": "!actors.effects!kDxT4ug2xSmxsKk8.4NeB8rQvI5oPXx0b"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "downtime-ethck": {
+      "trainingItems": [],
+      "changes": []
+    }
+  },
+  "_id": "kDxT4ug2xSmxsKk8",
+  "_key": "!actors!kDxT4ug2xSmxsKk8"
+}

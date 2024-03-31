@@ -1,0 +1,2343 @@
+{
+  "name": "Benoît Terriau",
+  "type": "npc",
+  "img": "https://i.imgur.com/YCCbrIL.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 11,
+        "proficient": 0,
+        "prof": 0,
+        "mod": 0,
+        "save": 0
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0,
+        "prof": 0,
+        "mod": 2,
+        "save": 2
+      },
+      "con": {
+        "value": 13,
+        "proficient": 1,
+        "prof": 2,
+        "mod": 1,
+        "save": 3
+      },
+      "int": {
+        "value": 17,
+        "proficient": 0,
+        "prof": 0,
+        "mod": 3,
+        "save": 3
+      },
+      "wis": {
+        "value": 16,
+        "proficient": 1,
+        "prof": 2,
+        "mod": 3,
+        "save": 5
+      },
+      "cha": {
+        "value": 17,
+        "proficient": 0,
+        "prof": 0,
+        "mod": 3,
+        "save": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "default",
+        "formula": ""
+      },
+      "hp": {
+        "value": 70,
+        "min": 0,
+        "max": 70,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "14d8+5"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "cha",
+      "prof": 2
+    },
+    "details": {
+      "biography": {
+        "value": "<p><span style=\"color:#333333;font-family:Helvetica Neue, Helvetica, Arial, sans-serif\"><span style=\"font-size:13px\">All spells that have the (SV) reference next to them are from the <a href=\"https://www.patreon.com/posts/48921857\">Of Starlight and Void</a> supplement.</span></span></p>",
+        "public": ""
+      },
+      "alignment": "chaotic neutral",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 3,
+      "spellLevel": 9,
+      "xp": {
+        "value": 700
+      },
+      "source": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "dwarvish",
+          "sylvan"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 2,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 2,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 2,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "override": null,
+        "max": 4
+      },
+      "spell2": {
+        "value": 3,
+        "override": null,
+        "max": 3
+      },
+      "spell3": {
+        "value": 3,
+        "override": null,
+        "max": 3
+      },
+      "spell4": {
+        "value": 3,
+        "override": null,
+        "max": 3
+      },
+      "spell5": {
+        "value": 1,
+        "override": null,
+        "max": 1
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": null,
+        "max": null
+      },
+      "legres": {
+        "value": null,
+        "max": null
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "token": {
+    "name": "Benoît Terriau",
+    "img": "https://i.imgur.com/k1aCEF4.png",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": true,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {},
+    "randomImg": false,
+    "tint": null,
+    "lightColor": null,
+    "x": null,
+    "y": null,
+    "elevation": null
+  },
+  "items": [
+    {
+      "_id": "IwlYZgL3mc2tSkq3",
+      "name": "Talented Fate-weaver",
+      "type": "feat",
+      "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+      "data": {
+        "description": {
+          "value": "Benoît is a natural when it comes to fate-weaving, something that few sorcerers are capable of doing. On his turn, he is able to cast any Starlight spell as a bonus action.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": null,
+          "type": null
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.IwlYZgL3mc2tSkq3"
+    },
+    {
+      "_id": "YNsYYK3OsPLaOp9S",
+      "name": "Necromancy",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+      "data": {
+        "description": {
+          "value": "Benoît has inherited his father's talent for being able to speak with the dead. ",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": null,
+          "type": null
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.YNsYYK3OsPLaOp9S"
+    },
+    {
+      "_id": "ofnvdcsTDMXIRhV0",
+      "name": "A Sealed Fate",
+      "type": "feat",
+      "img": "icons/skills/wounds/injury-body-pain-gray.webp",
+      "data": {
+        "description": {
+          "value": "Benoît's hands illuminate every time he casts a Starlight spell and once per day, he may force someone to reroll a Saving Throw. This ability cannot be used on himself.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": null,
+          "type": null
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.ofnvdcsTDMXIRhV0"
+    },
+    {
+      "_id": "mKmP9UH8TxiapDGs",
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "data": {
+        "description": {
+          "value": "<p>Benoît's spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). he can innately cast the following spells, requiring no material components:</p>\n<p>Cantrips (at will): Illuminate (SV), Sunlight Ray (SV), mage hand, prestidigitation</p>\n<p>1st level (4 slots): Hellish Rebuke, Starlight Shroud (SV), Inflict Wounds, Magic Missile</p>\n<p>2nd level (3 slots): misty step, Shatter</p>\n<p>3rd level (3 slots): counterspell, Twist Fate (SV), fly</p>\n<p>4th level (3 slots): greater invisibility, Celestial Pyre (SV)</p>\n<p>5th level (1 slot): Golden Glow (SV)</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": null,
+          "type": null
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.mKmP9UH8TxiapDGs"
+    },
+    {
+      "_id": "qpTNaKPlAoHGYHvm",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-bone-black.webp",
+      "data": {
+        "description": {
+          "value": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 2) piercing damage.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {
+          "ada": false,
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "mgc": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "sil": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.qpTNaKPlAoHGYHvm"
+    },
+    {
+      "_id": "yjRGWCRlTBOZ3Fbo",
+      "name": "Illuminate (SV)",
+      "type": "spell",
+      "img": "icons/magic/light/orbs-firefly-hand-yellow.webp",
+      "data": {
+        "description": {
+          "value": "<p>You release a cloud of shimmering gas at a creature you can see within range. The creature must succeed on a Constitution saving throw or take 1d8 radiant damage, and has disadvantage on Dexterity (Stealth) checks and can't benefit from being invisible until the start of your next turn</p>\n<p>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "cha",
+          "dc": null,
+          "scaling": "con"
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "L*",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "atwill",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200001,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.277psk7xFvcR58TI"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.yjRGWCRlTBOZ3Fbo"
+    },
+    {
+      "_id": "fwlmbSK8xlR57kDS",
+      "name": "Sunlight Ray (SV)",
+      "type": "spell",
+      "img": "icons/magic/light/beam-strike-orange.webp",
+      "data": {
+        "description": {
+          "value": "<p>A beam of bright energy shoots from your hand, moving in a straight 5 foot wide line. Everybody within that line must make a <strong>Dexterity Saving Throw</strong>. Those who fail take 1d6 Radiant Damage.</p>\n<p>Any target hit by the spell becomes a light source until the caster's next turn, emitting bright light in a 10 feet radius</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 50,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "cha",
+          "dc": null,
+          "scaling": "dex"
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "L*",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "atwill",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 50001,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.iGpQ9to64Wb02G8s"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.fwlmbSK8xlR57kDS"
+    },
+    {
+      "_id": "of4zKmP1LhxsqsmI",
+      "name": "Starlight Shroud (SV)",
+      "type": "spell",
+      "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "self",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "dex"
+        },
+        "level": 1,
+        "school": "abj",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "L*",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.oHx46VyW00VK1z2f"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.of4zKmP1LhxsqsmI"
+    },
+    {
+      "_id": "s4AbzLqTeTmkiHCo",
+      "name": "Twist Fate (SV)",
+      "type": "spell",
+      "img": "icons/magic/nature/plant-vines-skull-green.webp",
+      "data": {
+        "description": {
+          "value": "<p>You spin the threads of fate and reverse a creature's fortune. Ignore the triggering die roll. Instead, the creature must re-roll it with disadvantage. Use this new roll to determine the result as normal.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": "When a creature within range makes a successful ability check, attack roll, or saving throw"
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 3,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "L*",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.oJjbvVcSc0DSDY5o"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.s4AbzLqTeTmkiHCo"
+    },
+    {
+      "_id": "tUPVNKxXMweNxiKQ",
+      "name": "Celestial Pyre (SV)",
+      "type": "spell",
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "data": {
+        "description": {
+          "value": "<p>You can cast this spell only at night. You memorialize a dead creature you touch, turning it into a constellation, provided that it has been dead no longer than 1 day. The target's body dissolves into stardust and rises into the sky.</p>\n<p>The spell effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as raise dead. A spell that targets the dead but usually require a body can be cast targeting this constellation instead, provided the spell is cast at night and the caster can see the target's constellation. If the target of this spell is returned to life, this spell ends and the constellation fades</p>\n<p><em>\"*\" Can be substituted with 2 ounces of distilled starlight</em></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "hour",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "spec"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 4,
+        "school": "nec",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "100 lbs of firewood, which the spell consumes, L*",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.ZwADmlbOtD8xTNlq"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.tUPVNKxXMweNxiKQ"
+    },
+    {
+      "_id": "Ps7PVCS6x5Y4BQnf",
+      "name": "Golden Glow (SV)",
+      "type": "spell",
+      "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+      "data": {
+        "description": {
+          "value": "<p>You point at a spot within 30ft of you that you can see, a bright orb of sunlight takes form there. This orb emits bright light in a 20-foot radius and dim light for an additional 20 feet, the orb will hover 15ft above the ground unless you're pointing at a wall or ceiling.</p>\n<p> When a creature enters the bright light for the first time on a turn or starts its turn there, it must make a Constitution saving throw. It takes 6d8 radiant damage on a failed save, or half as much damage on a successful one.</p>\n<p>An undead makes its saving throw with disadvantage, and the spell deals maximum damage to it</p>\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 6th level or higher, the spell deals an additional 1d8 damage for each slot level above 5th.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "cha",
+          "dc": null,
+          "scaling": "con"
+        },
+        "level": 5,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a golden orb worth 100gp, which the spell consumes, L*",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Item.gm6C3GKrxaSvcJK0"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.Ps7PVCS6x5Y4BQnf"
+    },
+    {
+      "_id": "ODpl3YXDmmBWzyQi",
+      "name": "Mage Hand",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/skills/ice_16.jpg",
+      "data": {
+        "description": {
+          "value": "<p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 256",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "space"
+        },
+        "range": {
+          "value": 30,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "level": 0,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100001,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.spells.Utk1OQRwYkMkFRD3"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.ODpl3YXDmmBWzyQi"
+    },
+    {
+      "_id": "ixpeGLJKVTwS84WS",
+      "name": "Prestidigitation",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/explosion-royal-1.jpg",
+      "data": {
+        "description": {
+          "value": "<p>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:</p>\n<ul>\n<li>You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li>\n<li>You instantaneously light or snuff out a candle, a torch, or a small campfire.</li>\n<li>You instantaneously clean or soil an object no larger than 1 cubic foot.</li>\n<li>You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li>\n<li>You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li>\n<li>You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.</li>\n</ul>\n<p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 267",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "level": 0,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100001,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.spells.udsLtG0BugXHR2JQ"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.ixpeGLJKVTwS84WS"
+    },
+    {
+      "_id": "MDV0H1bCrvBcchVX",
+      "name": "Hellish Rebuke",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/horror-red-1.jpg",
+      "data": {
+        "description": {
+          "value": "<p>When you are damaged by a creature within 60 feet of you that you can see, you point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes 2d10 fire damage on a failed save, or half as much damage on a successful one.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 250",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": "Which you take in response to being damaged by a creature within 60 feet of you that you can see"
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d10",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 0,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d10"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100001,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.spells.22dPoeXfaaAv4K3h"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.MDV0H1bCrvBcchVX"
+    },
+    {
+      "_id": "Hr4wv8M9DD88IwsJ",
+      "name": "Inflict Wounds",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/rip-jade-2.jpg",
+      "data": {
+        "description": {
+          "value": "<p>Make a melee spell Attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 253",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "msak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "3d10",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "level": 1,
+        "school": "nec",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d10"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100001,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.spells.ksaaTxIbKx2sJfia"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.Hr4wv8M9DD88IwsJ"
+    },
+    {
+      "_id": "EMA7RS7Kju59yqFd",
+      "name": "Magic Missile",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/fire-arrows-magenta-1.jpg",
+      "data": {
+        "description": {
+          "value": "<p>You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.</p><p><strong>Higher Levels. </strong>When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 257",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 120,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4 + 1",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "level": 1,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100001,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.spells.41JIhpDyM9Anm7cs"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.EMA7RS7Kju59yqFd"
+    },
+    {
+      "_id": "Bu0VpTWJYUc2luo5",
+      "name": "Misty Step",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/wind-grasp-air-1.jpg",
+      "data": {
+        "description": {
+          "value": "<p>Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 260",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 30,
+          "width": null,
+          "units": "ft",
+          "type": "space"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "level": 2,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100001,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.spells.wqfAVANuQonNBgnL"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.Bu0VpTWJYUc2luo5"
+    },
+    {
+      "_id": "IZRdjQ3215MuImQk",
+      "name": "Shatter",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/explosion-sky-2.jpg",
+      "data": {
+        "description": {
+          "value": "<p>A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a 10-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes 3d8 thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.</p><p>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.</p><p><strong>Higher Levels.</strong> When you cast this spell using a 3 or higher level spell slot, the damage of the spell increases by 1d8 for each level of higher spell slot 2.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 275",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 10,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "3d8",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "A chip of mica",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d8"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100001,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.spells.wJKpSvSTbSkTjqyb"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.IZRdjQ3215MuImQk"
+    },
+    {
+      "_id": "1sxiLsZgMNEEwZZx",
+      "name": "Counterspell",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/slice-orange-3.jpg",
+      "data": {
+        "description": {
+          "value": "<p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell’s level. On a success, the creature’s spell fails and has no effect.</p><p><strong>Higher Levels. </strong>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 228",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": "which you take when you see a creature within 60 feet of you casting a spell"
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "1d20 + @mod",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "level": 3,
+        "school": "abj",
+        "components": {
+          "value": "",
+          "vocal": false,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100001,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.spells.Ek45cBpVXvJdv1Qy"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.1sxiLsZgMNEEwZZx"
+    },
+    {
+      "_id": "ShSqxzEr1Vi2b2w9",
+      "name": "Fly",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/link-spirit-1.jpg",
+      "data": {
+        "description": {
+          "value": "<p>You touch a willing creature. The target gains a flying speed of 60 feet for the Duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 243",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "level": 3,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "A wing feather from any bird",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100001,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.spells.yfbK8gZqESlaoY5t"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.ShSqxzEr1Vi2b2w9"
+    },
+    {
+      "_id": "RXunNVk1srwCz31e",
+      "name": "Greater Invisibility",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/fog-water-air-3.jpg",
+      "data": {
+        "description": {
+          "value": "<p>You or a creature you touch becomes Invisible until the spell ends. Anything the target is wearing or carrying is Invisible as long as it is on the target’s person.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 246",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "level": 4,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100001,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.spells.tEpDmYZNGc9f5OhJ"
+        }
+      },
+      "_key": "!actors.items!FQ2soKHwRTdqj0uu.RXunNVk1srwCz31e"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "Lt0TQcc4SD7mj4qc": 3,
+    "4gtGyRA2W0zGGM6r": 3,
+    "Bbx3AwTxcLCMEf32": 3
+  },
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    },
+    "scene-packer": {
+      "sourceId": "Actor.j4qyXE6X4eTTLhrC"
+    }
+  },
+  "_id": "FQ2soKHwRTdqj0uu",
+  "_key": "!actors!FQ2soKHwRTdqj0uu"
+}

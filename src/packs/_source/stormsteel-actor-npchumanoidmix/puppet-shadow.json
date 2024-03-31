@@ -1,0 +1,677 @@
+{
+  "name": "Puppet Shadow",
+  "type": "npc",
+  "img": "modules/ddd-beginner-baubles/actors/tokens/puppet-shadow-token.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 1,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0
+      },
+      "con": {
+        "value": 1,
+        "proficient": 0
+      },
+      "int": {
+        "value": 1,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 7,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 13,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 0,
+        "min": 0,
+        "max": 0,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": ""
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 10,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": "passive Perception 8"
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p>This tenebrous apparition, likely one of several called forth when the puppet theater Shadowplay is activated by its operator, stands around 5-feet-fall and resembles a much-larger version of the two-dimensional cutouts used within the purple box or, indeed, any puppet theater. It prefers to flit between shadowy recesses and remain close to walls so that it can go unnoticed or be mistaken for any regular old mundane shadow. </p>\n<blockquote>\n<p><strong style=\"color:#191813;font-style:italic\">Rule Clarification, Shadowplay.</strong><span style=\"color:#191813;font-style:italic\"> Full rules for the puppet shadow can be found in  @Compendium[ddd-beginner-baubles.items.bPSgYEe1t53Eo2mt]{Shadowplay}.</span></p>\n</blockquote>",
+        "public": ""
+      },
+      "alignment": "Unaligned",
+      "race": "",
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0.5,
+      "spellLevel": 0,
+      "xp": {
+        "value": 10
+      },
+      "source": "Shadowplay"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "frightened",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "prone",
+          "restrained",
+          "stunned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Puppet Shadow",
+    "displayName": 0,
+    "img": "modules/ddd-beginner-baubles/images/bb07/puppet-shadow-token.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "4eKEJ6jPkaVcwAZM",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "tTsCu4TZRmBDrOA0",
+      "name": "Fragile Form",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">The puppet shadow disperses for good if it deals damage to a creature or is hit with an attack, as if it had been reduced to 0 hit points.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Shadowplay",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 100000,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/fragile-form.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!VxdlTI03MRUOT4bo.tTsCu4TZRmBDrOA0"
+    },
+    {
+      "_id": "VrUETdV7p95wagvr",
+      "name": "Amorphous",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">The puppet shadow can move through a space as narrow as 1 inch wide without squeezing.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Shadowplay",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 200000,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/amorphous.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!VxdlTI03MRUOT4bo.VrUETdV7p95wagvr"
+    },
+    {
+      "_id": "IHje8LNXhcHRHarg",
+      "name": "Sunlight Weakness",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">While in sunlight, the puppet shadow has disadvantage on attack rolls, ability checks, and saving throws.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Shadowplay",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 300000,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/sunlight-weakness.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!VxdlTI03MRUOT4bo.IHje8LNXhcHRHarg"
+    },
+    {
+      "_id": "aj6y8zvWQXDsP4MS",
+      "name": "Shadow Strike",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><em><span class=\"fontstyle0\">Melee Weapon attack</span></em><span class=\"fontstyle2\"><em>:</em> +5 to hit, reach 5 ft., one target. </span><em><span class=\"fontstyle0\">Hit</span></em><span class=\"fontstyle2\"><em>:</em> 6 (1D6) + 3 force damage.</span></p>\n</section>\n<p><span class=\"fontstyle2\">The puppet shadow attempts to lash out at a creature with its form.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Shadowplay",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1D6 + @mod",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "sort": 400000,
+      "flags": {
+        "mess": {
+          "isBonusDamage": false,
+          "templateTexture": ""
+        }
+      },
+      "img": "modules/ddd-beginner-baubles/actors/icons/force-damage.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!VxdlTI03MRUOT4bo.aj6y8zvWQXDsP4MS"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "ddd-beginner-baubles": {
+      "initialization-folder": "Beginner Baubles"
+    }
+  },
+  "_id": "VxdlTI03MRUOT4bo",
+  "_key": "!actors!VxdlTI03MRUOT4bo"
+}

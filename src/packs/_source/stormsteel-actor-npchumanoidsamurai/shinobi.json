@@ -1,0 +1,1686 @@
+{
+  "name": "Shinobi",
+  "type": "npc",
+  "img": "",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 12,
+        "proficient": 0,
+        "mod": 1
+      },
+      "dex": {
+        "value": 18,
+        "proficient": 1,
+        "mod": 4
+      },
+      "con": {
+        "value": 16,
+        "proficient": 1,
+        "mod": 3
+      },
+      "int": {
+        "value": 14,
+        "proficient": 0,
+        "mod": 2
+      },
+      "wis": {
+        "value": 16,
+        "proficient": 1,
+        "mod": 3
+      },
+      "cha": {
+        "value": 12,
+        "proficient": 0,
+        "mod": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 15,
+        "min": 0
+      },
+      "hp": {
+        "value": 82,
+        "min": 0,
+        "max": 82,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "11d8 + 33"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "total": 4,
+        "prof": 0
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 40,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 4,
+      "spelldc": 8
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "any alignment",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Any Race",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 9,
+      "spellLevel": 0,
+      "xp": {
+        "value": 5000
+      },
+      "source": "ForHonor",
+      "class": {}
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 2,
+        "ability": "dex",
+        "mod": 4,
+        "bonus": 0,
+        "passive": 14
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 3,
+        "bonus": 0,
+        "passive": 13
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 3,
+        "bonus": 0,
+        "passive": 13
+      },
+      "itm": {
+        "value": 1,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 3,
+        "bonus": 0,
+        "passive": 13
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "mod": 3,
+        "bonus": 0,
+        "passive": 13
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 4,
+        "bonus": 0,
+        "passive": 14
+      },
+      "ste": {
+        "value": 2,
+        "ability": "dex",
+        "mod": 4,
+        "bonus": 0,
+        "passive": 14
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 3,
+        "bonus": 0,
+        "passive": 13
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Shinobi",
+    "displayName": 20,
+    "img": "icons/svg/mystery-man.svg",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "vnsjXVB1RXIWmKDk",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "gCeD1fJ3BS9KYjPP",
+      "name": "Multiattack",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Shinobi makes two melee or ranged attacks with their kusarigama. They may replace one or more of these attacks with a grapple or shove.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 100000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.gCeD1fJ3BS9KYjPP"
+    },
+    {
+      "_id": "hyiIstEfwmZTbgjs",
+      "name": "Kusarigama",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee  or Ranged Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, reach 5 ft. or range 10/20 ft., one target. <i>Hit:</i> 7 ([[/r 1d6 + 4]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10,
+          "long": 20,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6  + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 200000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.hyiIstEfwmZTbgjs"
+    },
+    {
+      "_id": "TALpnJ6PMN5Qmnz0",
+      "name": "Kick",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, reach 5 ft., one target. <i>Hit:</i> 6 ([[/r 1d4 + 4]]) bludgeoning damage. On a hit the creature must succeed a DC <span class=\"rd__dc\">16</span> Strength saving throw or be knocked <a href=\"https://5e.tools/conditionsdiseases.html#prone_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'prone_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >prone</a> and <a href=\"https://5e.tools/conditionsdiseases.html#incapacitated_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'incapacitated_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >incapacitated</a> until the start of its next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4  + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "str",
+          "dc": 16,
+          "scaling": "flat"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 300000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.TALpnJ6PMN5Qmnz0"
+    },
+    {
+      "_id": "TcEV7C2ZWcLf04E7",
+      "name": "Shuriken",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Ranged Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, range 30/90 ft., one target. <i>Hit:</i> 6 ([[/r 1d4 + 4]]) slashing damage. The Shinobi can throw up to 3 shuriken as part of an attack when it takes the attack action; for each thrown above the first it adds an additional damage die.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 30,
+          "long": 90,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4  + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 400000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.TcEV7C2ZWcLf04E7"
+    },
+    {
+      "_id": "A3vBabgiap7crmRs",
+      "name": "Nail Bomb",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Shinobi sets down a nail bomb, a small portion of black powder surrounded by many metal spikes with a pressure plate on top. A creature that steps on the plate and any others in a 5 foot radius must succeed on a DC <span class=\"rd__dc\">16</span> Dexterity saving throw or take 10 ([[/r 4d4]]) piercing damage.</p><div class=\"rd__spc-inline-post\"></div><p>Creatures that fail the Dexterity save take an additional 10 ([[/r 3d6]]) necrotic damage at the start of their next turn. On a successful save the damage is halved.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "4d4",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 16,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 6,
+          "charged": true
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 500000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.A3vBabgiap7crmRs"
+    },
+    {
+      "_id": "Vz0Ii4woSjNP0F4V",
+      "name": "Smoke Bomb",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Shinobi throws a smoke bomb at the floor, it emits a cloud of smoke that creates a heavily obscured area in a 10-foot radius. A moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in 1 round.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 6,
+          "charged": true
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 600000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.Vz0Ii4woSjNP0F4V"
+    },
+    {
+      "_id": "nPal0LDlavZwCejb",
+      "name": "Yama Uba",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>When the Shinobi hits a creature with a kusarigama attack they regain 3 ([[/r 1d6]]) hit points.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 700000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.nPal0LDlavZwCejb"
+    },
+    {
+      "_id": "ObNnEnrU11aLcCm4",
+      "name": "Kusarigama-Jutsu",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The sickle-like weapons the Shinobi uses are on chains with a weight at the end. When the Shinobi makes a ranged attack by throwing one of their kusarigama they pull the weapon back to their hand by the chain as part of the attack.</p><div class=\"rd__spc-inline-post\"></div><p>Additionally the Shinobi may attempt to grapple a Medium or smaller creature after hitting with a ranged kusarigama attack instead of dealing damage. If the grapple is successful, the Shinobi can pull the creature up to 15 feet towards them.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 800000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.ObNnEnrU11aLcCm4"
+    },
+    {
+      "_id": "6bIJNvGubvrS26oj",
+      "name": "Slide Tackle",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Shinobi may take the Dash action as a bonus action. Additionally if they take the Dash action and move at least 10 feet towards a creature they can attempt to perform a slide tackle.</p><div class=\"rd__spc-inline-post\"></div><p>The creature must succeed a DC <span class=\"rd__dc\">16</span> Strength saving throw or be knocked <a href=\"https://5e.tools/conditionsdiseases.html#prone_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'prone_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >prone</a> and <a href=\"https://5e.tools/conditionsdiseases.html#incapacitated_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'incapacitated_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >incapacitated</a> until the start of its next turn. The Shinobi moves to the opposite side of the tackled creature. On a successful save the creature is not <a href=\"https://5e.tools/conditionsdiseases.html#incapacitated_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'incapacitated_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >incapacitated</a> or knocked <a href=\"https://5e.tools/conditionsdiseases.html#prone_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'prone_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >prone</a>.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "str",
+          "dc": 16,
+          "scaling": "dex"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 900000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.6bIJNvGubvrS26oj"
+    },
+    {
+      "_id": "1lD372pNbuOKQmtf",
+      "name": "Sickle Rain",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>If the Shinobi hits with two kusarigama attacks on a turn, it can use its bonus action to make three more melee attacks with its kusarigama. Each of these attacks deals an extra 5 ([[/r 2d4]]) poison damage on a hit.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1000000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.1lD372pNbuOKQmtf"
+    },
+    {
+      "_id": "yNtZXNfcr73kPM61",
+      "name": "Nimble Attacker",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Shinobi can take the Disengage or Dodge action as a bonus action on each of its turns.</p><div class=\"rd__spc-inline-post\"></div><p>Additionally the Shinobi may make one kusarigama or kick attack as part of these actions.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1100000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.yNtZXNfcr73kPM61"
+    },
+    {
+      "_id": "8EHLmAg1krHoc0bw",
+      "name": "Flying Kick",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Once per turn, the Shinobi can replace a kusarigama attack with a kick attack.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1200000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.8EHLmAg1krHoc0bw"
+    },
+    {
+      "_id": "vCxqHg4Vzm4T9xcK",
+      "name": "Shadow Strike",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Shinobi adds 4 to their AC against one melee attack that would hit them as a reaction. To do so, the Shinobi must see the attacker and be wielding a melee weapon. If the attack misses after the parry, the Shinobi may make one kusarigama attack against the creature that made the attack.</p><div class=\"rd__spc-inline-post\"></div><p>If the Shinobi's attack hits the creature takes an additional 5 ([[/r 2d4]]) poison damage at the start of their next turn.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1300000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.vCxqHg4Vzm4T9xcK"
+    },
+    {
+      "_id": "pvRA6z1PqAj32amj",
+      "name": "Teleport Deflect",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>If an attack misses the Shinobi after they take the Dodge action on their turn, the Shinobi may move to within 5ft. of the creature on the opposite side to where they were and make one melee attack with advantage against the creature that made the attack which missed.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1400000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.pvRA6z1PqAj32amj"
+    },
+    {
+      "_id": "yIKzXZ6rEyEU85kn",
+      "name": "Leather Armor",
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Light armor</i></div>\n\t\t\t<div class=\"flex w-100\">\n\t\t\t\t<div class=\"col-4\">10 gp, 10 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 11 + Dex  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 10,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 11,
+          "type": "light",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1500000,
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "leather%20armor_phb"
+        },
+        "dae": {
+          "activeEquipped": true
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/armor/leather.png",
+      "effects": [
+        {
+          "_id": "wxibGsmkSLa0MsTX",
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "armorEffect": true
+            }
+          },
+          "changes": [
+            {
+              "key": "data.attributes.ac.value",
+              "value": "@abilities.dex.mod > 99 ? 99 + 11 : @abilities.dex.mod + 11",
+              "mode": 5,
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 1621182384854
+          },
+          "icon": "systems/dnd5e/icons/items/armor/leather.png",
+          "label": "AC=11+dex.mod",
+          "origin": "Actor.vnsjXVB1RXIWmKDk.OwnedItem.undefined",
+          "transfer": true,
+          "_key": "!actors.items.effects!NS8RP7dSQFLl45vU.yIKzXZ6rEyEU85kn.wxibGsmkSLa0MsTX"
+        }
+      ],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!NS8RP7dSQFLl45vU.yIKzXZ6rEyEU85kn"
+    }
+  ],
+  "effects": [
+    {
+      "_id": "BY2HCbH7cL5pa60I",
+      "flags": {
+        "dae": {
+          "transfer": true,
+          "armorEffect": true
+        }
+      },
+      "changes": [
+        {
+          "key": "data.attributes.ac.value",
+          "value": "@abilities.dex.mod > 99 ? 99 + 11 : @abilities.dex.mod + 11",
+          "mode": 5,
+          "priority": 4
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47210169678
+      },
+      "icon": "systems/dnd5e/icons/items/armor/leather.png",
+      "label": "AC=11+dex.mod",
+      "origin": "Actor.vnsjXVB1RXIWmKDk.Item.yIKzXZ6rEyEU85kn",
+      "transfer": true,
+      "_key": "!actors.effects!NS8RP7dSQFLl45vU.BY2HCbH7cL5pa60I"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {},
+  "_id": "NS8RP7dSQFLl45vU",
+  "_key": "!actors!NS8RP7dSQFLl45vU",
+  "prototypeToken": {
+    "texture": {
+      "src": ""
+    }
+  }
+}

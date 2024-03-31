@@ -1,0 +1,480 @@
+{
+  "name": "Master Brunswick",
+  "type": "npc",
+  "img": "modules/ddd-beginner-baubles/actors/tokens/master-brunswick-token.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 2,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0
+      },
+      "con": {
+        "value": 1,
+        "proficient": 0
+      },
+      "int": {
+        "value": 12,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 8,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 10,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 1,
+        "min": 0,
+        "max": 1,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "-"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 15,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "int",
+      "speed": {
+        "_deprecated": true
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><span style=\"color:#191813\"><span style=\"font-size:13px\">This ghostly apparition serves the wielder of Brunswick's Bell, though if it's happy about it, it certainly isn't immediately obvious. </span></span></span><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><span style=\"color:#191813\"><span style=\"font-size:13px\">In life, William Brunswick was a butler of startling character, poise, and professionalism. In death, his spirit has become something more akin an acerbic old man.</span></span></span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Master Brunswick has the following personality traits, ideals, bonds, and flaws:</span></p>\n<ul style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\">\n<li style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\"><strong style=\"box-sizing:border-box;user-select:text\">Personality Traits</strong>. </span><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Master Brunswick is stubborn, uncompromising, and belligerent.</span></li>\n<li style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><strong style=\"box-sizing:border-box;user-select:text\">Ideals</strong>. </span><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\">Master Brunswick believes that those charged with discharging a specific duty know more about it than their masters ever could.</span></span></li>\n<li style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><strong style=\"box-sizing:border-box;user-select:text\">Bonds</strong>. </span><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\">Master Brunswick is compelled to serve his 'master' to the best of his ability.</span></span></li>\n<li style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><strong style=\"box-sizing:border-box;user-select:text\">Flaws</strong>. </span><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\">Master Brunswick is hard of hearing and prone to yelling, 'What?', at the least convenient of times.</span></span></li>\n</ul>\n<blockquote>\n<p><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\"><strong style=\"box-sizing:border-box;user-select:text\"><strong style=\"font-size:14px;font-style:italic\">Rule Clarification, Brunswick's Bell.</strong><span style=\"font-size:14px;font-style:italic;font-weight:400\"> Full rules for Master Brunswick can be found in @Compendium[ddd-beginner-baubles.items.QCM2iZMj8caG7Eii]{Brunswick's Bell}.</span></strong></span></span></p>\n</blockquote>",
+        "public": ""
+      },
+      "alignment": "Lawful Neutral",
+      "race": "",
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": "0",
+      "spellLevel": 0,
+      "xp": {
+        "value": 10
+      },
+      "source": "Brunswick's Bell"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Mister Brunswick",
+    "displayName": 0,
+    "img": "modules/ddd-beginner-baubles/actors/tokens/master-brunswick-token.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "NqhCF9koC9vbSr2h",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "d0ZLXj48KaL44098",
+      "name": "Bell-Bound",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Master Brunswick is bound to his summoning bell and incapable of travelling more than 60 ft. from it.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Brunswick's Bell",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 100000,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/bell-bound.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!EbfT8Jp0SO4PMuhb.d0ZLXj48KaL44098"
+    },
+    {
+      "_id": "XkfGbXMh3gfQvPLO",
+      "name": "Seen Servant",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Master Brunswick is able to follow commands as per the spell <em>Unseen Servant</em>, as well as undertake simple tasks related to military service. However, unlike a servant summoned by the spell, he is visible while present.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Brunswick's Bell",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 200000,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/seen-servant.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!EbfT8Jp0SO4PMuhb.XkfGbXMh3gfQvPLO"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "ddd-beginner-baubles": {
+      "initialization-folder": "Beginner Baubles"
+    }
+  },
+  "_id": "EbfT8Jp0SO4PMuhb",
+  "_key": "!actors!EbfT8Jp0SO4PMuhb"
+}

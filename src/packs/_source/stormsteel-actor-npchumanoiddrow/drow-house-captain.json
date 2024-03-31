@@ -1,0 +1,2780 @@
+{
+  "name": "Drow House Captain",
+  "type": "npc",
+  "img": "https://5e.tools/img/MTF/Drow House Captain.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 14,
+        "proficient": 0,
+        "mod": 2
+      },
+      "dex": {
+        "value": 19,
+        "proficient": 1,
+        "mod": 4
+      },
+      "con": {
+        "value": 15,
+        "proficient": 1,
+        "mod": 2
+      },
+      "int": {
+        "value": 12,
+        "proficient": 0,
+        "mod": 1
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 1,
+        "mod": 2
+      },
+      "cha": {
+        "value": 13,
+        "proficient": 0,
+        "mod": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": "16",
+        "min": 0
+      },
+      "hp": {
+        "value": 162,
+        "min": 0,
+        "max": 162,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "25d8 + 50"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "total": 4,
+        "prof": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 120,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "cha",
+      "prof": 4,
+      "spelldc": 5
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p class=\"rd__quote-line rd__quote-line--last\">“<i>Many creatures enjoy torture, but the dark elves have made it into an exquisite art.</i>”</p><p><span class=\"rd__quote-by\">— Mordenkainen</span></p><div class=\"rd__spc-inline-post\"></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"161\"> <span class=\"entry-title-inner\">Drow House Captain.</span></span> <p>Each drow noble house entrusts the leadership of its military forces to a house captain, a position normally held by the matriarch's first or second son. The house captain commands the drow and slaves making up the family's army and has made extensive study of strategy and tactics to become an effective leader in battle.</p><div class=\"rd__spc-inline-post\"></div></div></div><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+        "public": ""
+      },
+      "alignment": "neutral evil",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "Elf",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "Underdark",
+      "cr": 9,
+      "spellLevel": 0,
+      "xp": {
+        "value": 5000
+      },
+      "source": "MTF",
+      "class": {}
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "elvish",
+          "undercommon"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 4,
+        "bonus": 0,
+        "passive": 14
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "mod": 1,
+        "bonus": 0,
+        "passive": 11
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 4,
+        "bonus": 0,
+        "passive": 14
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex",
+        "mod": 4,
+        "bonus": 0,
+        "passive": 14
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "mod": 2,
+        "bonus": 0,
+        "passive": 12
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Drow House Captain",
+    "displayName": 20,
+    "img": "https://5e.tools/img/MTF/Drow House Captain.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 120,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "ftPLhZxqtV8vxf37",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "BV8icxaXwEIwDmLe",
+      "name": "Darkness",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with <span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 73, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">darkvision</span> can't see through this darkness, and nonmagical light can't illuminate it.</p><div class=\"rd__spc-inline-post\"></div><p>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 15,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "bat fur and a drop of pitch or piece of coal",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 100000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "ftPLhZxqtV8vxf37"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Darkness",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with <span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 73, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">darkvision</span> can't see through this darkness, and nonmagical light can't illuminate it.</p><div class=\"rd__spc-inline-post\"></div><p>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "util",
+                  "level": 2,
+                  "school": "evo",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "material": true,
+                    "concentration": true
+                  },
+                  "materials": {
+                    "value": "bat fur and a drop of pitch or piece of coal",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 15,
+                    "units": "ft",
+                    "type": "sphere"
+                  },
+                  "range": {
+                    "value": 60,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 10,
+                    "units": "minute"
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": "day"
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "innate",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-darkness.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/evil-eye-red-2.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!8GVmV5dftR7Y3zbt.BV8icxaXwEIwDmLe"
+    },
+    {
+      "_id": "ohOmzlZZb6EtfwNB",
+      "name": "Faerie Fire",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.</p><div class=\"rd__spc-inline-post\"></div><p>Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being <a href=\"https://5e.tools/conditionsdiseases.html#invisible_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'invisible_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >invisible</a>.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 20,
+          "width": null,
+          "units": "ft",
+          "type": "cube"
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 13,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "ftPLhZxqtV8vxf37"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Faerie Fire",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.</p><div class=\"rd__spc-inline-post\"></div><p>Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being <a href=\"https://5e.tools/conditionsdiseases.html#invisible_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'invisible_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >invisible</a>.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "save",
+                  "level": 1,
+                  "school": "evo",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "material": false,
+                    "concentration": true
+                  },
+                  "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 20,
+                    "units": "ft",
+                    "type": "cube"
+                  },
+                  "range": {
+                    "value": 60,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 1,
+                    "units": "minute"
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "dex",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": "day"
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "innate",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-faerie-fire.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/fire-arrows-jade-2.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!8GVmV5dftR7Y3zbt.ohOmzlZZb6EtfwNB"
+    },
+    {
+      "_id": "LWxivGC93qwyYLj7",
+      "name": "Levitate",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>One creature or loose object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.</p><div class=\"rd__spc-inline-post\"></div><p>The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell's range.</p><p>When the spell ends, the target floats gently to the ground if it is still aloft.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 60,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 13,
+          "scaling": "spell"
+        },
+        "level": 2,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 300000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "ftPLhZxqtV8vxf37"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Levitate",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>One creature or loose object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.</p><div class=\"rd__spc-inline-post\"></div><p>The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell's range.</p><p>When the spell ends, the target floats gently to the ground if it is still aloft.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "save",
+                  "level": 2,
+                  "school": "trs",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "somatic": true,
+                    "material": true,
+                    "concentration": true
+                  },
+                  "materials": {
+                    "value": "either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 1,
+                    "units": "",
+                    "type": "creature"
+                  },
+                  "range": {
+                    "value": 60,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 10,
+                    "units": "minute"
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "con",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": "day"
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "innate",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-levitate.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/wind-grasp-magenta-2.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!8GVmV5dftR7Y3zbt.LWxivGC93qwyYLj7"
+    },
+    {
+      "_id": "09hAWN3vWkX9YIYG",
+      "name": "Dancing Lights",
+      "type": "spell",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.</p><div class=\"rd__spc-inline-post\"></div><p>As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "any",
+          "type": "space"
+        },
+        "range": {
+          "value": 120,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a bit of phosphorus or wychwood, or a glowworm",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 400000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "ftPLhZxqtV8vxf37"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Dancing Lights",
+                "type": "spell",
+                "data": {
+                  "source": "PHB",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.</p><div class=\"rd__spc-inline-post\"></div><p>As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "actionType": "util",
+                  "level": 0,
+                  "school": "evo",
+                  "components": {
+                    "value": "",
+                    "vocal": true,
+                    "somatic": true,
+                    "material": true,
+                    "concentration": true
+                  },
+                  "materials": {
+                    "value": "a bit of phosphorus or wychwood, or a glowworm",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                  },
+                  "target": {
+                    "value": 0,
+                    "units": "any",
+                    "type": "space"
+                  },
+                  "range": {
+                    "value": 120,
+                    "units": "ft",
+                    "long": 0
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 1,
+                    "units": "minute"
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                  },
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "ability": "cha",
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "preparation": {
+                    "mode": "always",
+                    "prepared": true
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell/phb-dancing-lights.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/fire-arrows-sky-2.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!8GVmV5dftR7Y3zbt.09hAWN3vWkX9YIYG"
+    },
+    {
+      "_id": "jo1xBwz7uvx47zOw",
+      "name": "Multiattack",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The drow makes three attacks: two with his scimitar and one with his whip or his hand crossbow.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MTF",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 500000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "ftPLhZxqtV8vxf37"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Multiattack",
+                "type": "feat",
+                "data": {
+                  "source": "MTF",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>The drow makes three attacks: two with his scimitar and one with his whip or his hand crossbow.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mailed-fist.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!8GVmV5dftR7Y3zbt.jo1xBwz7uvx47zOw"
+    },
+    {
+      "_id": "uFHRwFqJ69ZptEw4",
+      "name": "Scimitar",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, reach 5 ft., one target. <i>Hit:</i> 7 ([[/r 1d6 + 4]]) slashing damage plus 14 ([[/r 4d6]]) poison damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MTF",
+        "quantity": 1,
+        "weight": 3,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6  + @mod",
+              "slashing"
+            ],
+            [
+              "4d6",
+              "poison"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "properties": {
+          "fin": true,
+          "lgt": true
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 600000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "ftPLhZxqtV8vxf37"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Scimitar",
+                "type": "weapon",
+                "data": {
+                  "source": "MTF",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, reach 5 ft., one target. <i>Hit:</i> 7 ([[/r 1d6 + 4]]) slashing damage plus 14 ([[/r 4d6]]) poison damage.</p><div class=\"rd__spc-inline-post\"></div></div>"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d6  + @mod",
+                        "slashing"
+                      ],
+                      [
+                        "4d6",
+                        "poison"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "range": {
+                    "value": 5,
+                    "long": 0,
+                    "units": "ft"
+                  },
+                  "actionType": "mwak",
+                  "proficient": true,
+                  "quantity": 1,
+                  "weight": 3,
+                  "price": null,
+                  "rarity": "None",
+                  "weaponType": "martialM",
+                  "properties": {
+                    "fin": true,
+                    "lgt": true
+                  },
+                  "attuned": false,
+                  "ability": "dex",
+                  "equipped": true,
+                  "identified": false,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  }
+                },
+                "img": "systems/dnd5e/icons/items/weapons/sword-curved.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/weapons/sword-curved.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!8GVmV5dftR7Y3zbt.uFHRwFqJ69ZptEw4"
+    },
+    {
+      "_id": "HwqT81MBLATRR0No",
+      "name": "Whip",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, reach 10 ft., one target. <i>Hit:</i> 6 ([[/r 1d4 + 4]]) slashing damage. If the target is an ally, it has advantage on attack rolls until the end of its next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MTF",
+        "quantity": 1,
+        "weight": 3,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4  + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "properties": {
+          "fin": true,
+          "rch": true
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 700000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "ftPLhZxqtV8vxf37"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Whip",
+                "type": "weapon",
+                "data": {
+                  "source": "MTF",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, reach 10 ft., one target. <i>Hit:</i> 6 ([[/r 1d4 + 4]]) slashing damage. If the target is an ally, it has advantage on attack rolls until the end of its next turn.</p><div class=\"rd__spc-inline-post\"></div></div>"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d4  + @mod",
+                        "slashing"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "range": {
+                    "value": 10,
+                    "long": 0,
+                    "units": "ft"
+                  },
+                  "actionType": "mwak",
+                  "proficient": true,
+                  "quantity": 1,
+                  "weight": 3,
+                  "price": null,
+                  "rarity": "None",
+                  "weaponType": "martialM",
+                  "properties": {
+                    "fin": true,
+                    "rch": true
+                  },
+                  "attuned": false,
+                  "ability": "dex",
+                  "equipped": true,
+                  "identified": false,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  }
+                },
+                "img": "systems/dnd5e/icons/items/weapons/whip.png",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/weapons/whip.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!8GVmV5dftR7Y3zbt.HwqT81MBLATRR0No"
+    },
+    {
+      "_id": "dELez6enm5etmkcI",
+      "name": "Hand Crossbow",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Ranged Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, range 30/120 ft., one target. <i>Hit:</i> 7 ([[/r 1d6 + 4]]) piercing damage, and the target must succeed on a DC <span class=\"rd__dc\">13</span> Constitution saving throw or be <a href=\"https://5e.tools/conditionsdiseases.html#poisoned_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'poisoned_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >poisoned</a> for 1 hour. If the saving throw fails by 5 or more, the target is also <a href=\"https://5e.tools/conditionsdiseases.html#unconscious_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'unconscious_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >unconscious</a> while <a href=\"https://5e.tools/conditionsdiseases.html#poisoned_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'poisoned_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >poisoned</a> in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MTF",
+        "quantity": 1,
+        "weight": 3,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 30,
+          "long": 120,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6  + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 13,
+          "scaling": "flat"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialR",
+        "properties": {
+          "amm": true,
+          "lgt": true,
+          "rel": true
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 800000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "ftPLhZxqtV8vxf37"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Hand Crossbow",
+                "type": "weapon",
+                "data": {
+                  "source": "MTF",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Ranged Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, range 30/120 ft., one target. <i>Hit:</i> 7 ([[/r 1d6 + 4]]) piercing damage, and the target must succeed on a DC <span class=\"rd__dc\">13</span> Constitution saving throw or be <a href=\"https://5e.tools/conditionsdiseases.html#poisoned_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'poisoned_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >poisoned</a> for 1 hour. If the saving throw fails by 5 or more, the target is also <a href=\"https://5e.tools/conditionsdiseases.html#unconscious_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'unconscious_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >unconscious</a> while <a href=\"https://5e.tools/conditionsdiseases.html#poisoned_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'poisoned_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >poisoned</a> in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it.</p><div class=\"rd__spc-inline-post\"></div></div>"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d6  + @mod",
+                        "piercing"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "range": {
+                    "value": 30,
+                    "long": 120,
+                    "units": "ft"
+                  },
+                  "actionType": "rwak",
+                  "proficient": true,
+                  "quantity": 1,
+                  "weight": 3,
+                  "price": null,
+                  "rarity": "None",
+                  "weaponType": "martialR",
+                  "properties": {
+                    "amm": true,
+                    "lgt": true,
+                    "rel": true
+                  },
+                  "attuned": false,
+                  "ability": "dex",
+                  "equipped": true,
+                  "identified": false,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "save": {
+                    "ability": "con",
+                    "dc": 13,
+                    "scaling": "flat"
+                  }
+                },
+                "img": "systems/dnd5e/icons/items/weapons/crossbow-light.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/weapons/crossbow-light.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!8GVmV5dftR7Y3zbt.dELez6enm5etmkcI"
+    },
+    {
+      "_id": "AYSspYNWXlxFHYmU",
+      "name": "Battle Command",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>As a bonus action, the drow targets one ally he can see within 30 feet of him. If the target can see or hear the drow, the target can use its reaction to make one melee attack or to take the Dodge or Hide action.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MTF",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 900000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "ftPLhZxqtV8vxf37"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Battle Command",
+                "type": "feat",
+                "data": {
+                  "source": "MTF",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>As a bonus action, the drow targets one ally he can see within 30 feet of him. If the target can see or hear the drow, the target can use its reaction to make one melee attack or to take the Dodge or Hide action.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "bonus",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!8GVmV5dftR7Y3zbt.AYSspYNWXlxFHYmU"
+    },
+    {
+      "_id": "ZzM6IRO5DwFi5pey",
+      "name": "Fey Ancestry",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The drow has advantage on saving throws against being <a href=\"https://5e.tools/conditionsdiseases.html#charmed_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'charmed_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >charmed</a>, and magic can't put the drow to sleep.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MTF",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1000000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "ftPLhZxqtV8vxf37"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Fey Ancestry",
+                "type": "feat",
+                "data": {
+                  "source": "MTF",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>The drow has advantage on saving throws against being <a href=\"https://5e.tools/conditionsdiseases.html#charmed_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'charmed_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >charmed</a>, and magic can't put the drow to sleep.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!8GVmV5dftR7Y3zbt.ZzM6IRO5DwFi5pey"
+    },
+    {
+      "_id": "hi4g0ea94JWZOjHB",
+      "name": "Sunlight Sensitivity",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 71, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Perception</span>) checks that rely on sight.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MTF",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1100000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "ftPLhZxqtV8vxf37"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Sunlight Sensitivity",
+                "type": "feat",
+                "data": {
+                  "source": "MTF",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 71, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Perception</span>) checks that rely on sight.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!8GVmV5dftR7Y3zbt.hi4g0ea94JWZOjHB"
+    },
+    {
+      "_id": "lkub8XmmF5AfHCho",
+      "name": "Parry",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The drow adds 3 to his AC against one melee attack that would hit him. To do so, the drow must see the attacker and be wielding a melee weapon.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MTF",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "ftPLhZxqtV8vxf37"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Parry",
+                "type": "feat",
+                "data": {
+                  "source": "MTF",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>The drow adds 3 to his AC against one melee attack that would hit him. To do so, the drow must see the attacker and be wielding a melee weapon.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "reaction",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!8GVmV5dftR7Y3zbt.lkub8XmmF5AfHCho"
+    },
+    {
+      "_id": "mzcc72UYlTKONlgL",
+      "name": "Chain Mail",
+      "type": "equipment",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Heavy armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">75 gp, 55 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 16  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Made of interlocking metal rings, <i>chain mail</i> includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 72, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p><p>If the wearer has a Strength score lower than 13, their speed is reduced by 10 feet.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 55,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 16,
+          "type": "heavy",
+          "dex": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 13,
+        "stealth": true,
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1300000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "ftPLhZxqtV8vxf37"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Chain Mail",
+                "type": "equipment",
+                "data": {
+                  "description": {
+                    "value": "<div>\n\t\t\t<div><i>Heavy armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">75 gp, 55 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 16  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Made of interlocking metal rings, <i>chain mail</i> includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 72, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p><p>If the wearer has a Strength score lower than 13, their speed is reduced by 10 feet.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "PHB",
+                  "quantity": 1,
+                  "weight": 55,
+                  "price": null,
+                  "attuned": false,
+                  "equipped": true,
+                  "rarity": "None",
+                  "identified": false,
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": null,
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "armor": {
+                    "type": "heavy",
+                    "value": 16,
+                    "dex": 0
+                  },
+                  "strength": 13,
+                  "stealth": true,
+                  "proficient": true,
+                  "attributes": {
+                    "spelldc": 10
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "attunement": ""
+                },
+                "img": "systems/dnd5e/icons/items/armor/scale.png",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/armor/scale.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!8GVmV5dftR7Y3zbt.mzcc72UYlTKONlgL"
+    },
+    {
+      "_id": "bYGxshLnHnKL29fH",
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"162\" > <span class=\"entry-title-inner\">Innate Spellcasting.</span></span> <p>The drow's innate spellcasting ability is Charisma (spell save DC <span class=\"rd__dc\">13</span>). He can innately cast the following spells, requiring no material components:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: <a href=\"https://5e.tools/spells.html#dancing%20lights_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;ftPLhZxqtV8vxf37&quot;,&quot;itemId&quot;:&quot;09hAWN3vWkX9YIYG&quot;}\">dancing lights</a></p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: <a href=\"https://5e.tools/spells.html#darkness_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;ftPLhZxqtV8vxf37&quot;,&quot;itemId&quot;:&quot;BV8icxaXwEIwDmLe&quot;}\">darkness</a>, <a href=\"https://5e.tools/spells.html#faerie%20fire_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;ftPLhZxqtV8vxf37&quot;,&quot;itemId&quot;:&quot;ohOmzlZZb6EtfwNB&quot;}\">faerie fire</a>, <a href=\"https://5e.tools/spells.html#levitate_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;ftPLhZxqtV8vxf37&quot;,&quot;itemId&quot;:&quot;LWxivGC93qwyYLj7&quot;}\">levitate</a> (self only)</p></li></ul></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MTF",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1400000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "ftPLhZxqtV8vxf37"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Innate Spellcasting",
+                "type": "feat",
+                "data": {
+                  "source": "MTF",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><div  class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"162\" > <span class=\"entry-title-inner\">Innate Spellcasting.</span></span> <p>The drow's innate spellcasting ability is Charisma (spell save DC <span class=\"rd__dc\">13</span>). He can innately cast the following spells, requiring no material components:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: <a href=\"https://5e.tools/spells.html#dancing%20lights_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;ftPLhZxqtV8vxf37&quot;,&quot;itemId&quot;:&quot;09hAWN3vWkX9YIYG&quot;}\">dancing lights</a></p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: <a href=\"https://5e.tools/spells.html#darkness_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;ftPLhZxqtV8vxf37&quot;,&quot;itemId&quot;:&quot;BV8icxaXwEIwDmLe&quot;}\">darkness</a>, <a href=\"https://5e.tools/spells.html#faerie%20fire_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;ftPLhZxqtV8vxf37&quot;,&quot;itemId&quot;:&quot;ohOmzlZZb6EtfwNB&quot;}\">faerie fire</a>, <a href=\"https://5e.tools/spells.html#levitate_phb\"   data-plutonium-actor-sheet-item=\"{&quot;actorId&quot;:&quot;ftPLhZxqtV8vxf37&quot;,&quot;itemId&quot;:&quot;LWxivGC93qwyYLj7&quot;}\">levitate</a> (self only)</p></li></ul></div><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/spell-book.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/spell-book.svg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!8GVmV5dftR7Y3zbt.bYGxshLnHnKL29fH"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "journal-links": {
+      "references": {}
+    }
+  },
+  "_id": "8GVmV5dftR7Y3zbt",
+  "_key": "!actors!8GVmV5dftR7Y3zbt"
+}

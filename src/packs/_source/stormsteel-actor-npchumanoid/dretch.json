@@ -1,0 +1,900 @@
+{
+  "name": "Dretch",
+  "type": "npc",
+  "img": "modules/tavern-tales-adventures/tokens/dretch_token.webp",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 11,
+        "proficient": 0,
+        "mod": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 0,
+        "dc": 10
+      },
+      "dex": {
+        "value": 11,
+        "proficient": 0,
+        "mod": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 0,
+        "dc": 10
+      },
+      "con": {
+        "value": 12,
+        "proficient": 0,
+        "mod": 1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 1,
+        "dc": 11
+      },
+      "int": {
+        "value": 5,
+        "proficient": 0,
+        "mod": -3,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": -3,
+        "dc": 7
+      },
+      "wis": {
+        "value": 8,
+        "proficient": 0,
+        "mod": -1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": -1,
+        "dc": 9
+      },
+      "cha": {
+        "value": 3,
+        "proficient": 0,
+        "mod": -4,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": -4,
+        "dc": 6
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 11,
+        "min": 0
+      },
+      "hp": {
+        "value": 18,
+        "min": 0,
+        "max": 18,
+        "temp": null,
+        "tempmax": null,
+        "formula": "4d6 + 4"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "total": 0,
+        "prof": 0
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 20,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 2,
+      "spelldc": 10,
+      "encumbrance": {
+        "value": 0,
+        "max": 165,
+        "pct": 0,
+        "encumbered": false
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--3\">\n<div class=\"rd__b  rd__b--3\">\n<div class=\"rd__b  rd__b--3\">\n<p>Dretches are among the weakest of demons-repulsive, self-loathing creatures doomed to spend eternity in a state of perpetual discontent. Their low intelligence makes dretches unsuitable for anything but the simplest tasks. However, what they lack in potential, they make up for in sheer malice. Dretches mill about in mobs, voicing their displeasure as an unsettling din of hoots, snarls, and grunts.</p>\n</div>\n</div>\n</div>",
+        "public": ""
+      },
+      "alignment": "chaotic evil",
+      "race": "",
+      "type": {
+        "value": "fiend",
+        "subtype": "Demon",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0.25,
+      "spellLevel": 0,
+      "xp": {
+        "value": 50
+      },
+      "source": "",
+      "class": {},
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "sm",
+      "di": {
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "cold",
+          "fire",
+          "lightning"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "abyssal",
+          "custom"
+        ],
+        "custom": "telepathy 60 ft. (works only with creatures that understand Abyssal)"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "mod": -1,
+        "bonus": 0,
+        "passive": 9,
+        "prof": 0,
+        "total": -1
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "mod": -3,
+        "bonus": 0,
+        "passive": 7,
+        "prof": 0,
+        "total": -3
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -4,
+        "bonus": 0,
+        "passive": 6,
+        "prof": 0,
+        "total": -4
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "mod": -3,
+        "bonus": 0,
+        "passive": 7,
+        "prof": 0,
+        "total": -3
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "mod": -1,
+        "bonus": 0,
+        "passive": 9,
+        "prof": 0,
+        "total": -1
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -4,
+        "bonus": 0,
+        "passive": 6,
+        "prof": 0,
+        "total": -4
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "mod": -3,
+        "bonus": 0,
+        "passive": 7,
+        "prof": 0,
+        "total": -3
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "mod": -1,
+        "bonus": 0,
+        "passive": 9,
+        "prof": 0,
+        "total": -1
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "mod": -3,
+        "bonus": 0,
+        "passive": 7,
+        "prof": 0,
+        "total": -3
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "mod": -1,
+        "bonus": 0,
+        "passive": 9,
+        "prof": 0,
+        "total": -1
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -4,
+        "bonus": 0,
+        "passive": 6,
+        "prof": 0,
+        "total": -4
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "mod": -4,
+        "bonus": 0,
+        "passive": 6,
+        "prof": 0,
+        "total": -4
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "mod": -3,
+        "bonus": 0,
+        "passive": 7,
+        "prof": 0,
+        "total": -3
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "mod": 0,
+        "bonus": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "mod": -1,
+        "bonus": 0,
+        "passive": 9,
+        "prof": 0,
+        "total": -1
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0,
+        "level": 0
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Dretch",
+    "displayName": 20,
+    "img": "modules/tavern-tales-adventures/tokens/dretch_token.webp",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 60,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightColor": null,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "HOSvymtRl0eI1tWg",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "randomImg": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "WkNGzfhONf2dbcu1",
+      "name": "Multiattack",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The dretch makes two attacks: one with its bite and one with its claws.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1102,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "HOSvymtRl0eI1tWg"
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!ItPhy6pc6hwXpJpu.WkNGzfhONf2dbcu1"
+    },
+    {
+      "_id": "il8zfj55SWBMEJBQ",
+      "name": "Bite",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+2]] (+2) to hit, reach 5 ft., one target. <i>Hit:</i> 3 ([[/r 1d6]]) piercing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "ada": false,
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "mgc": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "sil": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "HOSvymtRl0eI1tWg"
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/blood_07.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!ItPhy6pc6hwXpJpu.il8zfj55SWBMEJBQ"
+    },
+    {
+      "_id": "JCuZHuk1m8STJ0Ze",
+      "name": "Claws",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+2]] (+2) to hit, reach 5 ft., one target. <i>Hit:</i> 5 ([[/r 2d4]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d4",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "ada": false,
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "mgc": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "sil": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1002,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "HOSvymtRl0eI1tWg"
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/red_31.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!ItPhy6pc6hwXpJpu.JCuZHuk1m8STJ0Ze"
+    },
+    {
+      "_id": "RXEB0aFfSwtPNQeA",
+      "name": "Fetid Cloud",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\">\n<p>A 10-foot radius of disgusting green gas extends out from the dretch. The gas spreads around corners, and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it. Any creature that starts its turn in that area must succeed on a DC <span class=\"rd__dc\">11</span> Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions.</p>\n<div class=\"rd__spc-inline-post\">&nbsp;</div>\n</div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "day"
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 11,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "sort": 1101,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "HOSvymtRl0eI1tWg"
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/affliction_16.jpg",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!ItPhy6pc6hwXpJpu.RXEB0aFfSwtPNQeA"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "downtime-ethck": {
+      "trainingItems": [],
+      "changes": []
+    }
+  },
+  "_id": "ItPhy6pc6hwXpJpu",
+  "_key": "!actors!ItPhy6pc6hwXpJpu"
+}

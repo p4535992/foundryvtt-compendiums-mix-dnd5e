@@ -160,6 +160,113 @@ Hooks.once("ready", () => {
         Hooks.on("renderItemSheet", addButton);
     }
     */
+    game.modules.get("compendium-themer").api.addModule(MODULE_ID, [
+        {
+            dataPack: `${MODULE_ID}.stormsteel-scene`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+        {
+            dataPack: `${MODULE_ID}.stormsteel-scene-merchant`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+        {
+            dataPack: `${MODULE_ID}.stormsteel-actor-npchumanoid`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+        {
+            dataPack: `${MODULE_ID}.stormsteel-actor-npchumanoiddrow`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+        {
+            dataPack: `${MODULE_ID}.stormsteel-actor-npchumanoidmix`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+        {
+            dataPack: `${MODULE_ID}.stormsteel-actor-npchumanoidsamurai`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+        {
+            dataPack: `${MODULE_ID}.stormsteel-actor-npcstory`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+        {
+            dataPack: `${MODULE_ID}.stormsteel-actor-player`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+        {
+            dataPack: `${MODULE_ID}.stormsteel-actor-npcmix`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+        {
+            dataPack: `${MODULE_ID}.stormsteel-actor-merchant`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+        {
+            dataPack: `${MODULE_ID}.stormsteel-actor-journal`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+        {
+            dataPack: `${MODULE_ID}.stormsteel-item-merchant`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+        {
+            dataPack: `${MODULE_ID}.stormsteel-item-mix`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+        {
+            dataPack: `${MODULE_ID}.stormsteel-item-hero-and-dragons`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+        {
+            dataPack: `${MODULE_ID}.stormsteel-item-spells-mix`,
+            colorText: `#ece9df`,
+            iconText: ``,
+            bannerImage: ``,
+            backgroundColorText: `#005EB8`,
+        },
+    ]);
 });
 
 /*

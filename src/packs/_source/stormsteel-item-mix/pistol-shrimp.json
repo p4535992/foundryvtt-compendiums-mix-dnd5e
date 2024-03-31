@@ -1,0 +1,148 @@
+{
+  "_id": "tidMDT8rtNcMQpBy",
+  "name": "Pistol Shrimp",
+  "permission": {
+    "default": 0,
+    "X2FU4EYTKyUpwF0o": 3
+  },
+  "type": "weapon",
+  "data": {
+    "description": {
+      "value": "<p><em>Weapon (pistol), uncommon (requires attunement)</em></p>\n<p>A biomantic fusion of crustacean and firearm, this magic weapon thrums with stored energy, ready to release a devastating strike like its pistol shrimp forebear. This pistol fires its ammunition at such tremendous velocities that cavitation bubbles form dealing an additional 1d4 thunder damage on a hit.</p>\n<p><strong>Cavitation Blast</strong>. As an action whilst you are underwater, you can release a series of pressure waves causing pockets of cavitation. Each creature in a 15-foot cone must make a <strong>DC 13 Constitution saving throw</strong>, taking 4d8 thunder damage on a failed save, or half as much damage on a successful one. Once you have used this feature, you can&rsquo;t do so again until the following dawn.</p>\n<p><strong>Misfire 2</strong>. If you roll a 1 or 2 on your attack roll, the ammunition itself disintegrates, clogging the barrel. See the Gunslinger subclass for more info.</p>\n<p><strong>Loading</strong>. Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TSotP",
+    "quantity": 1,
+    "weight": 3,
+    "price": 2500,
+    "attuned": false,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "Uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 30,
+      "long": 90,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "dex",
+    "actionType": "rwak",
+    "attackBonus": "0",
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d10 + @mod",
+          "piercing"
+        ],
+        [
+          "1d4",
+          "thunder"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "4d8",
+    "save": {
+      "ability": "con",
+      "dc": 13,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialR",
+    "properties": {
+      "amm": true,
+      "fin": false,
+      "fir": false,
+      "foc": false,
+      "hvy": false,
+      "lgt": false,
+      "lod": true,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": false,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "ada": false,
+      "arc": false,
+      "bst": false,
+      "dtp": false,
+      "het": false,
+      "hip": false,
+      "mgc": false,
+      "coi": false,
+      "snt": false,
+      "sil": false,
+      "nodam": false,
+      "fulldam": false
+    },
+    "proficient": true
+  },
+  "flags": {
+    "pick-up-stix": {
+      "pick-up-stix": {
+        "tokenData": {
+          "width": 1,
+          "height": 1
+        }
+      }
+    },
+    "midi-qol": {
+      "onUseMacroName": ""
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    }
+  },
+  "img": "moulinette/images/myitems/porvenir/items/pistol-shrimp.png",
+  "effects": [],
+  "_key": "!items!tidMDT8rtNcMQpBy"
+}

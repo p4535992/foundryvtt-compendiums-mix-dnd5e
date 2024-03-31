@@ -1,0 +1,4365 @@
+{
+  "name": "MerchantMix01",
+  "type": "npc",
+  "img": "https://i.imgur.com/P6ewYzC.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": null,
+        "calc": "default",
+        "formula": ""
+      },
+      "hp": {
+        "value": 10,
+        "min": 0,
+        "max": 10,
+        "temp": null,
+        "tempmax": null,
+        "formula": ""
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "",
+      "race": "",
+      "type": {
+        "value": "",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 1,
+      "spellLevel": 0,
+      "xp": {
+        "value": 10
+      },
+      "source": "",
+      "gender": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": {
+        "value": null
+      },
+      "gp": {
+        "value": null
+      },
+      "ep": {
+        "value": null
+      },
+      "sp": {
+        "value": null
+      },
+      "cp": {
+        "value": null
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    },
+    "flags": {
+      "lootsheetnpc5e": {
+        "lootsheettype": "Merchant",
+        "rolltable": "",
+        "shopQty": "",
+        "itemQty": "",
+        "itemQtyLimit": "",
+        "clearInventory": false
+      }
+    }
+  },
+  "token": {
+    "name": "MerchantMix01",
+    "img": "https://i.imgur.com/P6ewYzC.png",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "p1aT58LZIa2k9PgO",
+      "name": "Arcane Shop",
+      "type": "backpack",
+      "img": "icons/environment/settlement/watchtower-tan.webp",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 16660,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "capacity": {
+          "type": "weight",
+          "value": 0,
+          "weightless": true
+        },
+        "currency": {
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "critical": {
+          "threshold": null,
+          "damage": null
+        }
+      },
+      "effects": [],
+      "folder": "zNFDRqubKi7EfuXl",
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "g4WGw0lAZ3nIhapn": 3,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "dnd5e.ItemSheetShop",
+          "sourceId": "Item.vzV9M4qGEx1wvNuH"
+        },
+        "itemcollection": {
+          "contentsData": [
+            {
+              "_id": "vp6qr2ywhshc9m7j",
+              "name": "Potion of Climbing",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/unique-8.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.</em></p>\n<p>When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength (Athletics) checks you make to climb. </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 187",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 180,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Common",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 2800000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "yilhsi8zjeto3g1d",
+              "name": "Potion of Healing",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/minor-red.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion's red liquid glimmers when agitated.</em></p>\n<p>You regain 2d4+2 hit points when you drink this potion.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 187",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 50,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Common",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 0,
+                  "units": ""
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": "",
+                  "amount": null,
+                  "value": "",
+                  "_deprecated": true
+                },
+                "ability": "",
+                "actionType": "heal",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [
+                    [
+                      "2d4 + 2",
+                      "healing"
+                    ]
+                  ],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                },
+                "consumes": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "charges": {
+                  "value": 1,
+                  "max": 1,
+                  "_deprecated": true
+                },
+                "autoUse": {
+                  "value": true,
+                  "_deprecated": true
+                },
+                "autoDestroy": {
+                  "value": true,
+                  "_deprecated": true
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 200001,
+              "permission": {
+                "default": 0
+              },
+              "flags": {
+                "exportSource": {
+                  "world": "fresh",
+                  "system": "dnd5e",
+                  "coreVersion": "0.7.9",
+                  "systemVersion": "1.2.0"
+                }
+              }
+            },
+            {
+              "_id": "nocoasj50qf822eb",
+              "name": "Potion of Cold Resistance",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/major-blue.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Cold type damage for 1 hour.</p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 188",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 300,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 1900000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "6kzostdki5w2ss1k",
+              "name": "Potion of Lightning Resistance",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/grand-yellow.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Lightning type damage for 1 hour.</p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 188",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 300,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 2200000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "vgljxfj6pi80s4pm",
+              "name": "Potion of Water Breathing",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/unique-4.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 188",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 180,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 3300000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "0dlene8v74gxbyve",
+              "name": "Potion of Fire Resistance",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/major-red.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Fire type damage for 1 hour.</p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 188",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 300,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 2100000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "b484y3o1dhm1n5se",
+              "name": "Potion of Greater Healing",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/major-red.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion's red liquid glimmers when agitated.</em></p>\n<p>You regain 4d4+4 hit points when you drink this potion.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 187",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 150,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": null,
+                  "units": "inst"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": "",
+                  "amount": null,
+                  "value": "",
+                  "_deprecated": true
+                },
+                "ability": "",
+                "actionType": "heal",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [
+                    [
+                      "4d4 + 4",
+                      "healing"
+                    ]
+                  ],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                },
+                "consumes": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "charges": {
+                  "value": 1,
+                  "max": 1,
+                  "_deprecated": true
+                },
+                "autoUse": {
+                  "value": true,
+                  "_deprecated": true
+                },
+                "autoDestroy": {
+                  "value": true,
+                  "_deprecated": true
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 100001,
+              "permission": {
+                "default": 0
+              },
+              "flags": {
+                "core": {
+                  "sheetClass": ""
+                },
+                "exportSource": {
+                  "world": "fresh",
+                  "system": "dnd5e",
+                  "coreVersion": "0.7.9",
+                  "systemVersion": "1.2.0"
+                }
+              }
+            },
+            {
+              "_id": "f6zdkl6wlyihol9c",
+              "name": "Potion of Radiant Resistance",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/grand-yellow.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Radiant type damage for 1 hour.</p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 188",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 300,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 2600000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "ywx9nx67errmlygt",
+              "name": "Potion of Psychic Resistance",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/grand-violet.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Psychic type damage for 1 hour.</p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 188",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 300,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 2500000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "hic60ebbz4lawckm",
+              "name": "Potion of Poison Resistance",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/major-green.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Poison type damage for 1 hour.</p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 188",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 300,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 2400000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "ui2l9kclodnl0tkg",
+              "name": "Potion of Growth",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/unique-9.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The red in the potion’s liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts.  Shaking the bottle fails to interrupt this process.</em></p>\n<p>When you drink this potion, you gain the “enlarge” effect of the @Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Enlarge/Reduce} spell for 1d4 hours (no concentration required).</p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG. pg. 187",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 270,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 0,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 2800000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "c8ss5e8vitorkz1v",
+              "name": "Potion of Force Resistance",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/major-blue.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Force type damage for 1 hour.</p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 188",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 300,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 2000000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "nphim1cz0btgfi81",
+              "name": "Potion of Hill Giant Strength",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/major-green.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>This potion’s transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type.</em></p>\n<p>When you drink this potion, your Strength score changes to 21 for 1 hour.  The potion has no effect on you if your Strength is equal to or greater than that score.</p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 187",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 900,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 3100000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "zum3cqifojmxjnyr",
+              "name": "Potion of Animal Friendship",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/unique-4.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>Agitating this muddy liquid brings little bits into view: a fish scale, hummingbird tongue, a cat claw, or a squirrel hair.</em></p>\n<p>When you drink this potion, you can cast the @Compendium[dnd5e.spells.hDOENzjuj5WpLq7B]{Animal Friendship}  spell (save DC 13) for 1 hour at will.</p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 187",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 200,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": "Beast must have an Intelligence of 3 or lower."
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "save",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "wis",
+                  "dc": 13,
+                  "scaling": "flat"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 1600000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "pnk0bffnctlr0g6k",
+              "name": "Potion of Poison",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/unique-7.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. </em></p>\n<p>However, it is actually poison masked by illusion magic.  An identify spell reveals its true nature.</p>\n<p>If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.</p>\n<p><em>Foundry note: to apply the reduced damage from a successful Constitution save, please use the Other Formula (set at 1d6) as required.</em></p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 188",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 100,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 0,
+                  "units": "spec"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "save",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [
+                    [
+                      "3d6",
+                      "poison"
+                    ]
+                  ],
+                  "versatile": ""
+                },
+                "formula": "1d6",
+                "save": {
+                  "ability": "con",
+                  "dc": 13,
+                  "scaling": "flat"
+                },
+                "consumableType": "poison",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 3100000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "v8cjtns7m55f2k6n",
+              "name": "Potion of Necrotic Resistance",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/grand-violet.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Necrotic type damage for 1 hour.</p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 188",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 300,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 2300000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "de1kjq0dghe7wdlj",
+              "name": "Potion of Thunder Resistance",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/grand-yellow.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Thunder type damage for 1 hour.</p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 188",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 300,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 2700000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "72uxeg94xddd15o1",
+              "name": "Potion of Acid Resistance",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/major-green.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p>\n<p>When you drink this potion, you gain resistance to Acidic type damage for 1 hour.</p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 188",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 300,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Uncommon",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": null,
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 1800000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "5bvdq101w1rbqi2q",
+              "name": "Potion of Stone Giant Strength",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/major-green.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>This potion’s transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type.</em></p>\n<p>When you drink this potion, your Strength score changes to 23 for 1 hour.  The potion has no effect on you if your Strength is equal to or greater than that score.</p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 187",
+                "quantity": 1,
+                "weight": 0.1,
+                "price": 1200,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Rare",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 3200000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "2t1ady72ybxbypq7",
+              "name": "Potion of Superior Healing",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/grand-red.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion's red liquid glimmers when agitated.</em></p>\n<p>You regain 8d4+8 hit points when you drink this potion.</p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 187",
+                "quantity": 1,
+                "weight": 0.1,
+                "price": 450,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Rare",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 0,
+                  "units": ""
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": "",
+                  "amount": null,
+                  "value": "",
+                  "_deprecated": true
+                },
+                "ability": "",
+                "actionType": "heal",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [
+                    [
+                      "8d4 + 8",
+                      "healing"
+                    ]
+                  ],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                },
+                "consumes": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "charges": {
+                  "value": 1,
+                  "max": 1,
+                  "_deprecated": true
+                },
+                "autoUse": {
+                  "value": true,
+                  "_deprecated": true
+                },
+                "autoDestroy": {
+                  "value": true,
+                  "_deprecated": true
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 300001,
+              "permission": {
+                "default": 0
+              },
+              "flags": {
+                "exportSource": {
+                  "world": "fresh",
+                  "system": "dnd5e",
+                  "coreVersion": "0.7.9",
+                  "systemVersion": "1.2.0"
+                }
+              }
+            },
+            {
+              "_id": "zz7me4mkr22fayrg",
+              "name": "Potion of Mind Reading",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/unique-2.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The potion’s dense, purple liquid has an ovoid cloud of pink floating in it.</em></p>\n<p>When you drink this potion, you gain the effect of the @Compendium[dnd5e.spells.ppWAAEul0QHtm4er]{Detect Thoughts} spell (save DC 13). </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 188",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 180,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Rare",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "minute"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "save",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "wis",
+                  "dc": 13,
+                  "scaling": "flat"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 3000000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "u9sjtr5n6eorncfu",
+              "name": "Potion of Diminution",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/unique-9.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>The red in the potion’s liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it.  Shaking the bottle fails to interrupt this process.</em></p>\n<p>When you drink this potion, you gain the “reduce” effect of the @Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Enlarge/Reduce} spell for 1d4 hours (no concentration required). </p>\n<p> </p>\n<p> </p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 187",
+                "quantity": 1,
+                "weight": 0.1,
+                "price": 270,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Rare",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 0,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "1d4",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 2800000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "i8c4d6ovbqn8htuf",
+              "name": "Potion of Frost Giant Strength",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/grand-blue.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>This potion’s transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type.</em></p>\n<p>When you drink this potion, your Strength score changes to 23 for 1 hour.  The potion has no effect on you if your Strength is equal to or greater than that score.</p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 187",
+                "quantity": 1,
+                "weight": 0.1,
+                "price": 1200,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Rare",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 3000000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "u83zwu8eb0colpgu",
+              "name": "Potion of Clairvoyance",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/unique-2.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>An eyeball bobs in this yellowish liquid but vanishes when the potion is opened.</em></p>\n<p>When you drink this potion, you gain the effect of the @Compendium[dnd5e.spells.cg50KpBkBdPK6vPL]{Clairvoyance} spell.</p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 187",
+                "quantity": 1,
+                "weight": 0.1,
+                "price": 960,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Rare",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 10,
+                  "units": "minute"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 1700000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "f0gdta1bpgdvg16l",
+              "name": "Potion of Fire Giant Strength",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/grand-yellow.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>This potion’s transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type.</em></p>\n<p>When you drink this potion, your Strength score changes to 25 for 1 hour.  The potion has no effect on you if your Strength is equal to or greater than that score.</p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 187",
+                "quantity": 1,
+                "weight": 0.1,
+                "price": 1500,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Rare",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 2900000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "z1cnji5f3scfgh2e",
+              "name": "Potion of Gaseous Form",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/unique-7.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>This potion’s container seems to hold fog that moves and pours like water.</em></p>\n<p>When you drink this potion, you gain the effect of the @Compendium[dnd5e.spells.2IWiZAJtOGDoKjiz]{Gaseous Form} spell for 1 hour (no concentration required) or until you end the effect as a bonus action. </p>\n<p> </p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 187",
+                "quantity": 1,
+                "weight": 0.1,
+                "price": 300,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Rare",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "util",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [],
+                  "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 2800000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            },
+            {
+              "_id": "cl2xucl3jfdri2z0",
+              "name": "Potion of Heroism",
+              "type": "consumable",
+              "img": "systems/dnd5e/icons/items/potions/unique-6.jpg",
+              "data": {
+                "description": {
+                  "value": "<p><em>This blue potion bubbles and steams as if boiling.</em></p>\n<p>For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the effect of the @Compendium[dnd5e.spells.8dzaICjGy6mTUaUr]{Bless} spell (no concentration required)  </p>\n<p><em>Foundry note: the Other Formula button can be used to roll the bonus 1d4 received from Bless.</em></p>",
+                  "chat": "",
+                  "unidentified": ""
+                },
+                "source": "DMG pg. 188",
+                "quantity": 2,
+                "weight": 0.1,
+                "price": 180,
+                "attuned": false,
+                "attunement": 0,
+                "equipped": false,
+                "rarity": "Rare",
+                "identified": true,
+                "activation": {
+                  "type": "action",
+                  "cost": 1,
+                  "condition": ""
+                },
+                "duration": {
+                  "value": 1,
+                  "units": "hour"
+                },
+                "target": {
+                  "value": 1,
+                  "width": null,
+                  "units": "",
+                  "type": "creature"
+                },
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "touch"
+                },
+                "uses": {
+                  "value": 1,
+                  "max": 1,
+                  "per": "charges",
+                  "autoDestroy": true,
+                  "autoUse": true
+                },
+                "consume": {
+                  "type": "",
+                  "target": null,
+                  "amount": null
+                },
+                "ability": "",
+                "actionType": "heal",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                  "parts": [
+                    [
+                      "10",
+                      "temphp"
+                    ]
+                  ],
+                  "versatile": ""
+                },
+                "formula": "1d4",
+                "save": {
+                  "ability": "",
+                  "dc": null,
+                  "scaling": "spell"
+                },
+                "consumableType": "potion",
+                "attributes": {
+                  "spelldc": 10
+                }
+              },
+              "effects": [],
+              "folder": null,
+              "sort": 2800000,
+              "permission": {
+                "default": 0
+              },
+              "flags": {}
+            }
+          ],
+          "bagWeight": 0,
+          "bagPrice": 0,
+          "version": "0.8.6",
+          "nameFilter": "",
+          "markup": 10
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "externalactor": {
+          "labels": {}
+        }
+      },
+      "_key": "!actors.items!MjfyiOV6kioGiRaK.p1aT58LZIa2k9PgO"
+    },
+    {
+      "_id": "XQVvmBhAmtwyLnAh",
+      "name": "+1 Holy Symbol",
+      "type": "equipment",
+      "img": "icons/equipment/neck/pendant-bronze-gem-blue.webp",
+      "data": {
+        "description": {
+          "value": "<p><em>Wondrous Item / Rare / Requires attunement by a cleric or paladin</em></p>\n<hr />\n<p>A holy symbol is a representation of a god or pantheon. A Cleric or Paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>\n<p>A Cleric or Paladin attuned to this holy symbol that uses it as their spellcasting focus has a +1 bonus to their spell attack rolls, a +1 bonus to their spell save DC, and deals +1 damage with their damaging spells.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Super's Pack",
+        "quantity": 1,
+        "weight": 0.5,
+        "price": 5000,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "rare",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 0,
+          "type": "trinket",
+          "dex": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "effects": [
+        {
+          "_id": "fJrVOTV1vqZQaCza",
+          "changes": [
+            {
+              "key": "data.bonuses.spell.attack",
+              "mode": 0,
+              "value": "+1",
+              "priority": "20"
+            },
+            {
+              "key": "data.bonuses.spell.damage",
+              "mode": 0,
+              "value": "+1",
+              "priority": "20"
+            },
+            {
+              "key": "data.bonuses.spell.dc",
+              "mode": 2,
+              "value": "1",
+              "priority": "20"
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null
+          },
+          "icon": "icons/svg/aura.svg",
+          "label": "Holy Symbol",
+          "origin": "Compendium.world.items.37Dee34dplIH9GJp",
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "stackable": "none",
+              "specialDuration": [],
+              "transfer": true
+            }
+          },
+          "tint": null,
+          "selectedKey": [
+            "data.bonuses.spell.attack",
+            "data.bonuses.spell.damage",
+            "data.bonuses.spell.dc"
+          ],
+          "_key": "!actors.items.effects!MjfyiOV6kioGiRaK.XQVvmBhAmtwyLnAh.fJrVOTV1vqZQaCza"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "hDKSaQdd06dT2ews": 3,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            }
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "dynamiceffects": {
+          "equipActive": true,
+          "alwaysActive": false,
+          "effects": [
+            {
+              "modSpecKey": "data.attributes.spelldc",
+              "value": "1",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 1,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Attributes Spell DC"
+            },
+            {
+              "modSpecKey": "data.bonuses.msak.attack",
+              "value": "1",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 2,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Bonuses Melee Spell Attack"
+            },
+            {
+              "modSpecKey": "data.bonuses.msak.damage",
+              "value": "1",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 3,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Bonuses Melee Spell Damage"
+            },
+            {
+              "modSpecKey": "data.bonuses.rsak.damage",
+              "value": "1",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 4,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Bonuses Ranged Spell Damage"
+            },
+            {
+              "modSpecKey": "data.bonuses.rsak.attack",
+              "value": "1",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 5,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Bonuses Ranged Spell Attack"
+            }
+          ]
+        },
+        "magicitems": {
+          "charges": "0",
+          "chargeType": "c1",
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "enabled": false,
+          "destroy": false,
+          "rechargeable": false,
+          "equipped": false,
+          "attuned": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "sorting": "l"
+        },
+        "core": {
+          "sourceId": "Compendium.SupersHomebrewPack.items.37Dee34dplIH9GJp"
+        },
+        "externalactor": {
+          "labels": {
+            "armor": "",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "_key": "!actors.items!MjfyiOV6kioGiRaK.XQVvmBhAmtwyLnAh"
+    },
+    {
+      "_id": "KGegwvnp1d8Dj57X",
+      "name": "+2 Holy Symbol",
+      "type": "equipment",
+      "img": "icons/equipment/neck/pendant-bronze-gem-blue.webp",
+      "data": {
+        "description": {
+          "value": "<p><em>Wondrous Item / Very Rare / Requires attunement by a cleric or paladin</em></p>\n<hr />\n<p>A holy symbol is a representation of a god or pantheon. A Cleric or Paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>\n<p>A Cleric or Paladin attuned to this holy symbol that uses it as their spellcasting focus has a +2 bonus to their spell attack rolls, a +2 bonus to their spell save DC, and deals +2 damage with their damaging spells.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Super's Pack",
+        "quantity": 1,
+        "weight": 0.5,
+        "price": 35000,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "veryRare",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 0,
+          "type": "trinket",
+          "dex": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "hDKSaQdd06dT2ews": 3,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            }
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "dynamiceffects": {
+          "equipActive": true,
+          "alwaysActive": false,
+          "effects": [
+            {
+              "modSpecKey": "data.attributes.spelldc",
+              "value": "2",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 1,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Attributes Spell DC"
+            },
+            {
+              "modSpecKey": "data.bonuses.msak.attack",
+              "value": "2",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 2,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Bonuses Melee Spell Attack"
+            },
+            {
+              "modSpecKey": "data.bonuses.msak.damage",
+              "value": "2",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 3,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Bonuses Melee Spell Damage"
+            },
+            {
+              "modSpecKey": "data.bonuses.rsak.damage",
+              "value": "2",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 4,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Bonuses Ranged Spell Damage"
+            },
+            {
+              "modSpecKey": "data.bonuses.rsak.attack",
+              "value": "2",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 5,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Bonuses Ranged Spell Attack"
+            }
+          ]
+        },
+        "magicitems": {
+          "charges": "0",
+          "chargeType": "c1",
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "enabled": false,
+          "destroy": false,
+          "rechargeable": false,
+          "equipped": false,
+          "attuned": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "sorting": "l"
+        },
+        "core": {
+          "sourceId": "Compendium.SupersHomebrewPack.items.eO40sopXHAtMnoq7"
+        },
+        "externalactor": {
+          "labels": {
+            "armor": "",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "_key": "!actors.items!MjfyiOV6kioGiRaK.KGegwvnp1d8Dj57X"
+    },
+    {
+      "_id": "0JjfSzgCOT2fracx",
+      "name": "+3 Holy Symbol",
+      "type": "equipment",
+      "img": "icons/equipment/neck/pendant-bronze-gem-blue.webp",
+      "data": {
+        "description": {
+          "value": "<p><em>Wondrous Item / Legendary / Requires attunement by a cleric or paladin</em></p>\n<hr />\n<p>A holy symbol is a representation of a god or pantheon. A Cleric or Paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>\n<p>A Cleric or Paladin attuned to this holy symbol that uses it as their spellcasting focus has a +3 bonus to their spell attack rolls, a +3 bonus to their spell save DC, and deals +3 damage with their damaging spells.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Super's Pack",
+        "quantity": 1,
+        "weight": 0.5,
+        "price": 500000,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "legendary",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 0,
+          "type": "trinket",
+          "dex": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "hDKSaQdd06dT2ews": 3,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            }
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "dynamiceffects": {
+          "equipActive": true,
+          "alwaysActive": false,
+          "effects": [
+            {
+              "modSpecKey": "data.attributes.spelldc",
+              "value": "3",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 1,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Attributes Spell DC"
+            },
+            {
+              "modSpecKey": "data.bonuses.msak.attack",
+              "value": "3",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 2,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Bonuses Melee Spell Attack"
+            },
+            {
+              "modSpecKey": "data.bonuses.msak.damage",
+              "value": "3",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 3,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Bonuses Melee Spell Damage"
+            },
+            {
+              "modSpecKey": "data.bonuses.rsak.damage",
+              "value": "3",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 4,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Bonuses Ranged Spell Damage"
+            },
+            {
+              "modSpecKey": "data.bonuses.rsak.attack",
+              "value": "3",
+              "mode": "+",
+              "targetSpecific": false,
+              "id": 5,
+              "itemId": "pA3MBgte6btqNO34",
+              "active": false,
+              "_targets": [],
+              "label": "Bonuses Ranged Spell Attack"
+            }
+          ]
+        },
+        "magicitems": {
+          "charges": "0",
+          "chargeType": "c1",
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "enabled": false,
+          "destroy": false,
+          "rechargeable": false,
+          "equipped": false,
+          "attuned": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "sorting": "l"
+        },
+        "core": {
+          "sourceId": "Compendium.SupersHomebrewPack.items.NUz4hCByYVCbAhTO"
+        },
+        "externalactor": {
+          "labels": {
+            "armor": "",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "_key": "!actors.items!MjfyiOV6kioGiRaK.0JjfSzgCOT2fracx"
+    },
+    {
+      "_id": "tbmlcdB4PWyQR3tO",
+      "name": "Spell Scroll Cantrip Level",
+      "type": "consumable",
+      "img": "icons/sundries/scrolls/scroll-bound-orange-tan.webp",
+      "data": {
+        "description": {
+          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 10. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "DMG pg. 200",
+        "quantity": 1,
+        "weight": 0,
+        "price": 10,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": "Spell must be on the caster's spell list."
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "charges",
+          "autoDestroy": true,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "msak",
+        "attackBonus": 5,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "consumableType": "scroll",
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "permission": {
+        "default": 0,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.items.rQ6sO7HDWzqMhSI3"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "activation": "1 Action",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check",
+            "toHit": "+ 6"
+          }
+        }
+      },
+      "_key": "!actors.items!MjfyiOV6kioGiRaK.tbmlcdB4PWyQR3tO"
+    },
+    {
+      "_id": "Eg9ckzhseaYafluE",
+      "name": "Spell Scroll 2nd Level",
+      "type": "consumable",
+      "img": "icons/sundries/scrolls/scroll-bound-gold-brown.webp",
+      "data": {
+        "description": {
+          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 12. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "DMG pg. 200",
+        "quantity": 1,
+        "weight": 0,
+        "price": 120,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "uncommon",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": "Spell must be on the caster's spell list."
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "charges",
+          "autoDestroy": true,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "msak",
+        "attackBonus": 5,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "consumableType": "scroll",
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700000,
+      "permission": {
+        "default": 0,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.items.XdDp6CKh9qEvPTuS"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "activation": "1 Action",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check",
+            "toHit": "+ 6"
+          }
+        }
+      },
+      "_key": "!actors.items!MjfyiOV6kioGiRaK.Eg9ckzhseaYafluE"
+    },
+    {
+      "_id": "kGWpRxHp16mRRn5p",
+      "name": "Spell Scroll 3rd Level",
+      "type": "consumable",
+      "img": "icons/sundries/scrolls/scroll-bound-gold-brown.webp",
+      "data": {
+        "description": {
+          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 13. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 15<br /><strong>Attack bonus</strong>: +7.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "DMG pg. 200",
+        "quantity": 1,
+        "weight": 0,
+        "price": 200,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "uncommon",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": "Spell must be on the caster's spell list."
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "charges",
+          "autoDestroy": true,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "msak",
+        "attackBonus": 7,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "consumableType": "scroll",
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "permission": {
+        "default": 0,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.items.hqVKZie7x9w3Kqds"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "activation": "1 Action",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check",
+            "toHit": "+ 8"
+          }
+        }
+      },
+      "_key": "!actors.items!MjfyiOV6kioGiRaK.kGWpRxHp16mRRn5p"
+    },
+    {
+      "_id": "8skoPdfIPNPhWVBk",
+      "name": "Spell Scroll 1st Level",
+      "type": "consumable",
+      "img": "icons/sundries/scrolls/scroll-bound-orange-tan.webp",
+      "data": {
+        "description": {
+          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 11. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "DMG pg. 200",
+        "quantity": 1,
+        "weight": 0,
+        "price": 60,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": "Spell must be on the caster's spell list."
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "charges",
+          "autoDestroy": true,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "msak",
+        "attackBonus": "5",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "consumableType": "scroll",
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2900000,
+      "permission": {
+        "default": 0,
+        "a2um1mRnicEx282I": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.items.9GSfMg0VOA2b4uFN"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        },
+        "externalactor": {
+          "labels": {
+            "activation": "1 Action",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "",
+            "damageTypes": "",
+            "toHit": "+ 6",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "_key": "!actors.items!MjfyiOV6kioGiRaK.8skoPdfIPNPhWVBk"
+    }
+  ],
+  "effects": [
+    {
+      "_id": "OHxYlzTABpY4HNZZ",
+      "changes": [
+        {
+          "key": "data.bonuses.spell.attack",
+          "mode": 0,
+          "value": "+1",
+          "priority": "20"
+        },
+        {
+          "key": "data.bonuses.spell.damage",
+          "mode": 0,
+          "value": "+1",
+          "priority": "20"
+        },
+        {
+          "key": "data.bonuses.spell.dc",
+          "mode": 2,
+          "value": "1",
+          "priority": "20"
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 192618
+      },
+      "icon": "icons/svg/aura.svg",
+      "label": "Holy Symbol",
+      "origin": "Actor.4Kft0JkWJjU6yHjH.Item.XQVvmBhAmtwyLnAh",
+      "tint": null,
+      "transfer": false,
+      "flags": {
+        "dae": {
+          "stackable": "none",
+          "specialDuration": [],
+          "transfer": true
+        }
+      },
+      "_key": "!actors.effects!MjfyiOV6kioGiRaK.OHxYlzTABpY4HNZZ"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "core": {
+      "sheetClass": "dnd5e.LootSheet5eNPC"
+    },
+    "lootsheetnpc5e": {
+      "lootsheettype": "Merchant",
+      "priceModifier": 1
+    },
+    "externalactor": {
+      "classLabels": "",
+      "currencyWeight": true,
+      "disableExperience": false
+    },
+    "scene-packer": {
+      "sourceId": "Actor.4Kft0JkWJjU6yHjH"
+    }
+  },
+  "_id": "MjfyiOV6kioGiRaK",
+  "_key": "!actors!MjfyiOV6kioGiRaK"
+}

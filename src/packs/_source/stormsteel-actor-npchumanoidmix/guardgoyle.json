@@ -1,0 +1,791 @@
+{
+  "name": "Guardgoyle",
+  "type": "npc",
+  "img": "modules/ddd-beginner-baubles/actors/tokens/guardgoyle-token.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 11,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 15,
+        "proficient": 0
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0
+      },
+      "int": {
+        "value": 6,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 11,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 8,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 27,
+        "min": 0,
+        "max": 27,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "6d4 + 12"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 40,
+        "swim": 0,
+        "walk": 20,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": null,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": "Darkvision 60 ft. (blind beyond this radius), passive Perception 10"
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p>This oddly lifelike statuette's turquoise gems sparkle brightly as it sits stoically on its perch atop a hide epaulette. At a paltry eight inches tall while hunched, the tiny sculpture appears as a stone gargoyle that's been petrified mid-screech.</p>\n<p>In truth, the statuette is quite literally a guardian angel, albeit an unusual one. Aesthetically similar to those found on churches and cathedrals, it remains utterly still until its wearer's life is seriously threatened—at which time it springs into action and attempts to safeguard its charge. Though, its loyalty comes with a price.</p>\n<blockquote>\n<p><strong style=\"color:#191813;font-style:italic\">Rule Clarification, Guardgoyle.</strong><span style=\"color:#191813;font-style:italic\"> Full rules for the guardgoyle can be found in @Compendium[ddd-beginner-baubles.items.NmVslULE8R37JgaI]{Guardgoyle}.</span></p>\n</blockquote>",
+        "public": ""
+      },
+      "alignment": "Neutral",
+      "race": "",
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 1,
+      "spellLevel": 0,
+      "xp": {
+        "value": 10
+      },
+      "source": "Guardgoyle"
+    },
+    "traits": {
+      "size": "tiny",
+      "di": {
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": "Bluedgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "exhaustion",
+          "petrified",
+          "poisoned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "terran"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Guardgoyle",
+    "displayName": 0,
+    "img": "modules/ddd-beginner-baubles/images/bb04/guardgoyle-token.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "tiwrYBLZvKlmNf9i",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "bKC6yMMTJfzaclM9",
+      "name": "Watchful Guardian",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">While the guardgoyle remains within 30 ft. of a creature that it is attuned to that has 0 hit points and isn&rsquo;t stabilized, that creature is considered to be under the effects of the </span><span class=\"fontstyle2\"><em>Sanctuary</em> </span><span class=\"fontstyle0\">spell (DC 13).</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Guardgoyle",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 100000,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/watchful-guardian.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!qgfEAZ1kXDZXxeSi.bKC6yMMTJfzaclM9"
+    },
+    {
+      "_id": "WFjYPZyJ9NNmaQnx",
+      "name": "Statue's Sacrifice",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">When the guardgoyle falls,</span><span class=\"fontstyle0\"> it unleashes a burst of healing energy directed at the creature that it is attuned to. If they are within 30 ft. of it, have 0 hit points, and aren't stabilized,&nbsp;</span><span class=\"fontstyle0\">they stabilize immediately if its </span><span class=\"fontstyle0\">hit points drop to 0.<br /></span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Guardgoyle",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 200000,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/statue-sacrifice.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!qgfEAZ1kXDZXxeSi.WFjYPZyJ9NNmaQnx"
+    },
+    {
+      "_id": "Y1KlzqSO3VEJXskg",
+      "name": "Bite",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><em><span class=\"fontstyle0\">Melee Weapon attack</span></em><span class=\"fontstyle2\">: +4 to hit, reach 5 ft., one target. </span><em><span class=\"fontstyle0\">Hit</span></em><span class=\"fontstyle2\"><em>:</em> 4 (1d4 + 2) piercing damage.</span></p>\n</section>\n<p><span class=\"fontstyle2\">The guardgoyle attempts to bite a creature with its fangs.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Guardgoyle",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "sort": 400000,
+      "flags": {
+        "mess": {
+          "isBonusDamage": false,
+          "templateTexture": ""
+        }
+      },
+      "img": "modules/ddd-beginner-baubles/actors/icons/piercing-bite-damage.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!qgfEAZ1kXDZXxeSi.Y1KlzqSO3VEJXskg"
+    },
+    {
+      "_id": "PIjFqS2xIwubpduR",
+      "name": "Claws",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><em><span class=\"fontstyle0\">Melee Weapon attack</span></em><span class=\"fontstyle2\"><em>:</em> +4 to hit, reach 5 ft., one target. </span><em><span class=\"fontstyle0\">Hit</span></em><span class=\"fontstyle2\"><em>:</em> 5 (1d6 + 2) slashing damage.</span></p>\n</section>\n<p><span class=\"fontstyle2\">The guardgoyle attempts to rake a creature with its claws.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Guardgoyle",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "sort": 500000,
+      "flags": {
+        "mess": {
+          "isBonusDamage": false,
+          "templateTexture": ""
+        }
+      },
+      "img": "modules/ddd-beginner-baubles/actors/icons/slashing-claw-damage.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!qgfEAZ1kXDZXxeSi.PIjFqS2xIwubpduR"
+    },
+    {
+      "_id": "Qn5deJ5kjZtzUGrE",
+      "name": "Multiattack",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>The guardgoyle makes two attacks; one with its bite and one with its claws.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Guardgoyle",
+        "activation": {
+          "type": "action",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 600000,
+      "flags": {
+        "mess": {
+          "templateTexture": ""
+        }
+      },
+      "img": "modules/ddd-beginner-baubles/actors/icons/multiattack.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!qgfEAZ1kXDZXxeSi.Qn5deJ5kjZtzUGrE"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "ddd-beginner-baubles": {
+      "initialization-folder": "Beginner Baubles"
+    }
+  },
+  "_id": "qgfEAZ1kXDZXxeSi",
+  "_key": "!actors!qgfEAZ1kXDZXxeSi"
+}

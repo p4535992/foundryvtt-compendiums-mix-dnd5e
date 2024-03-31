@@ -1,0 +1,735 @@
+{
+  "name": "Tiny Slime",
+  "type": "npc",
+  "img": "modules/ddd-beginner-baubles/actors/tokens/substantial-slime-token.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 2,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 6,
+        "proficient": 0
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0
+      },
+      "int": {
+        "value": 1,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 6,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 3,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 0,
+        "min": 0,
+        "max": 0,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": ""
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 10,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Once this curious puddle of liquid is exposed to the magnetic field created by its control stone, the Slimestone, it animates and becomes receptive to direction—allowing it to assume bizarre geometric shapes, imitate the forms of humanoids or creatures, dance around, or ooze around its environment. The diminutive mass of sludge is also able to absorb moisture, dust motes, and other particles from the atmosphere and add these to its mass, enabling it to rapidly expand from about the size of a chicken to that of a barrel or crate, though it this form is unstable and the slime cannot maintain it for long.</p>\n<blockquote>\n<p><strong style=\"color:#191813;font-style:italic\">Rule Clarification, Slimestone.</strong><span style=\"color:#191813;font-style:italic\"> Full rules for the tiny slime can be found in @Compendium[ddd-beginner-baubles.items.hSFBcCZ841BDekXF]{Slimestone}.</span></p>\n</blockquote>",
+        "public": ""
+      },
+      "alignment": "Unaligned",
+      "race": "",
+      "type": {
+        "value": "ooze",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": "0",
+      "spellLevel": 0,
+      "xp": {
+        "value": 10
+      },
+      "source": "Slimestone"
+    },
+    "traits": {
+      "size": "tiny",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "blinded",
+          "charmed",
+          "deafened",
+          "exhaustion",
+          "prone"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Substantial Slime",
+    "displayName": 0,
+    "img": "modules/ddd-beginner-baubles/actors/tokens/substantial-slime-token.png",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "zCMSsFW0SN4a7PwZ",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "alpha": 1
+  },
+  "items": [
+    {
+      "_id": "yjtiqgy2E3gDV9fp",
+      "name": "Stone-Controlled",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">The tiny slime is useless and inert until an intellect generates an electromagnetic field of the right wavelength and of sufficient force to drive it to purpose. While holding its stone, its keeper can direct it telepathically and have the slime imitate any shape they desire as a bonus action, however it remains a Tiny creature.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Slimestone",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": -50000,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/stone-controlled.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!9FP6l7FbhNNu5d7Y.yjtiqgy2E3gDV9fp"
+    },
+    {
+      "_id": "q6O8Vfdef62lXAUh",
+      "name": "Substantial Slime",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span class=\"fontstyle2\" style=\"box-sizing: border-box; user-select: text;\">Mustering its mass and energy, the tiny slime can infrequently grow to a dangerous size. As an action, its keeper can will its size to increase from Tiny to Medium once per day. This can be maintained for up to 10 minutes, using its keepers Concentration to maintain the effect. While enlarged, the slime is affected in the following ways:</span></p>\n<ul style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">\n<li style=\"box-sizing: border-box; user-select: text;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">Its Armor Class increases to 18, however creatures have advantage on any attacks they make against it that deal lightning damage.</span></li>\n<li style=\"box-sizing: border-box; user-select: text;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">If it should be hit with an attack while Medium size,&nbsp;</span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">it immediately reverts back to its Tiny size.</span></li>\n<li style=\"box-sizing: border-box; user-select: text;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">It acts on its keepers turn and its movement speed increases to 15 feet.</span></li>\n<li style=\"box-sizing: border-box; user-select: text;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">As a bonus action, its keeper can will it to make two melee slam attacks against a creature within 5 feet of it. The bonus to hit with these is +4. On a hit, each slam deals 1d6 + 2 bludgeoning damage. Additionally, if the slime hits with its first attack, it has disadvantage on its second. If it misses on its first attack, it has advantage on its second.</span></li>\n</ul>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Slimestone",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 162500,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/substantial-slime.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!9FP6l7FbhNNu5d7Y.q6O8Vfdef62lXAUh"
+    },
+    {
+      "_id": "vvg3MzfsjR5nTZ43",
+      "name": "Amorphous",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>The tiny slime can move through a space as narrow as 1 inch wide without squeezing.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Slimestone",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 62500,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/amorphous.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!9FP6l7FbhNNu5d7Y.vvg3MzfsjR5nTZ43"
+    },
+    {
+      "_id": "qFKL4veXxSJ33y6E",
+      "name": "Stone Form",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">If the tiny slime is hit with an attack while in its slime form, it hardens into a solid rock that weighs 4 lbs and is about the size of an apple. It remains in this form until its keeper wills it to return to its slime form.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Slimestone",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Beginner Bauble",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 50000,
+      "flags": {},
+      "img": "modules/ddd-beginner-baubles/actors/icons/stone-form.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!9FP6l7FbhNNu5d7Y.qFKL4veXxSJ33y6E"
+    },
+    {
+      "_id": "Tlsbk3AEyNkjxSJ7",
+      "name": "Psuedopod (Substantial Slime Form Only)",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em> +4 to hit, 5 ft., one creature. <em>Hit:</em> 5 (1d6 + 2) bludgeoning damage.</p>\n</section>\n<p>The substantial slime swipes with its pseudopod.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Slimestone",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": "+6",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + 2",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "sort": 100000,
+      "flags": {
+        "mess": {
+          "templateTexture": ""
+        }
+      },
+      "img": "modules/ddd-beginner-baubles/actors/icons/bludgeoning-unarmed-damage.png",
+      "effects": [],
+      "folder": null,
+      "permission": {
+        "default": 0
+      },
+      "_key": "!actors.items!9FP6l7FbhNNu5d7Y.Tlsbk3AEyNkjxSJ7"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "a2um1mRnicEx282I": 3
+  },
+  "flags": {
+    "ddd-beginner-baubles": {
+      "initialization-folder": "Beginner Baubles"
+    }
+  },
+  "_id": "9FP6l7FbhNNu5d7Y",
+  "_key": "!actors!9FP6l7FbhNNu5d7Y"
+}

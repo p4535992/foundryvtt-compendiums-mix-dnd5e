@@ -1,0 +1,844 @@
+{
+  "name": "Book Golem",
+  "type": "npc",
+  "img": "https://i.imgur.com/ctqcrJk.png",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 18,
+        "proficient": 0,
+        "prof": 0,
+        "mod": 4,
+        "save": 4
+      },
+      "dex": {
+        "value": 9,
+        "proficient": 0,
+        "prof": 0,
+        "mod": -1,
+        "save": -1
+      },
+      "con": {
+        "value": 18,
+        "proficient": 0,
+        "prof": 0,
+        "mod": 4,
+        "save": 4
+      },
+      "int": {
+        "value": 3,
+        "proficient": 0,
+        "prof": 0,
+        "mod": -4,
+        "save": -4
+      },
+      "wis": {
+        "value": 11,
+        "proficient": 0,
+        "prof": 0,
+        "mod": 0,
+        "save": 0
+      },
+      "cha": {
+        "value": 1,
+        "proficient": 0,
+        "prof": 0,
+        "mod": -5,
+        "save": -5
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 14,
+        "calc": "default",
+        "formula": ""
+      },
+      "hp": {
+        "value": 44,
+        "min": 0,
+        "max": 44,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "7d10"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 120,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "int",
+      "prof": 2
+    },
+    "details": {
+      "biography": {
+        "value": "<p> </p>\n<div class=\"content note-editor summernote bio\" style=\"box-sizing:content-box;position:relative;z-index:1;margin-bottom:20px;color:#333333;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;background-color:#ffffff;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline\">\n<p style=\"box-sizing:content-box;margin:0px 0px 9px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;line-height:18px\">A pile of books, ready to protect the works of the library.</p>\n</div>",
+        "public": ""
+      },
+      "alignment": "unaligned",
+      "race": "",
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 4,
+      "spellLevel": 0,
+      "xp": {
+        "value": 1100
+      },
+      "source": ""
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [
+          "poison",
+          "piercing"
+        ],
+        "custom": "psychic; bludgeoning;and slashing from nonmagical weapons that aren't adamantine"
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "frightened",
+          "paralyzed",
+          "petrified",
+          "poisoned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "-"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": null,
+        "max": null
+      },
+      "legres": {
+        "value": null,
+        "max": null
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "token": {
+    "name": "Book Golem",
+    "img": "https://i.imgur.com/8qINmNS.png",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": false,
+    "dimSight": 120,
+    "brightSight": 60,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {},
+    "randomImg": false,
+    "tint": null,
+    "lightColor": null,
+    "x": null,
+    "y": null,
+    "elevation": null
+  },
+  "items": [
+    {
+      "_id": "WQcfz121fhJweXzT",
+      "name": "Immutable Form",
+      "type": "feat",
+      "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+      "data": {
+        "description": {
+          "value": "The golem is immune to any spell or effect that would alter its form.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": null,
+          "type": null
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!6gfMsPY2guwxrpqi.WQcfz121fhJweXzT"
+    },
+    {
+      "_id": "IdyhyU6X1PXMUCnb",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "img": "icons/equipment/head/helm-barbute-rounded-purple.webp",
+      "data": {
+        "description": {
+          "value": "The golem has advantage on saving throws against spells and other magical effects.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": null,
+          "type": null
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!6gfMsPY2guwxrpqi.IdyhyU6X1PXMUCnb"
+    },
+    {
+      "_id": "kyKe0v62GQFMhIzp",
+      "name": "Magic Weapons",
+      "type": "feat",
+      "img": "icons/magic/symbols/runes-etched-steel-blade.webp",
+      "data": {
+        "description": {
+          "value": "The golem's weapon attacks are magical.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": null,
+          "type": null
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!6gfMsPY2guwxrpqi.kyKe0v62GQFMhIzp"
+    },
+    {
+      "_id": "eoU9teElfUdGOOhK",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/blade-tips-double-blue.webp",
+      "data": {
+        "description": {
+          "value": "The golem makes two slam attacks.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": null,
+          "type": null
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!6gfMsPY2guwxrpqi.eoU9teElfUdGOOhK"
+    },
+    {
+      "_id": "FwkNL879apokFPCN",
+      "name": "Slam",
+      "type": "weapon",
+      "img": "icons/skills/melee/unarmed-punch-fist-white.webp",
+      "data": {
+        "description": {
+          "value": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8 + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {
+          "ada": false,
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "mgc": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "sil": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!6gfMsPY2guwxrpqi.FwkNL879apokFPCN"
+    },
+    {
+      "_id": "feAHvOSL7FeX9DVn",
+      "name": "Slow (Recharge 5-6)",
+      "type": "feat",
+      "img": "icons/creatures/slimes/slime-movement-swirling-blue.webp",
+      "data": {
+        "description": {
+          "value": "The golem targets one or more creatures it can see within 10 ft. of it. Each target must make a DC 14 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": 14,
+          "scaling": "dex"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "Lt0TQcc4SD7mj4qc": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!6gfMsPY2guwxrpqi.feAHvOSL7FeX9DVn"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "Lt0TQcc4SD7mj4qc": 3,
+    "4gtGyRA2W0zGGM6r": 3,
+    "Bbx3AwTxcLCMEf32": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Actor.5tgsNt09boOfTYBo"
+    }
+  },
+  "_id": "6gfMsPY2guwxrpqi",
+  "_key": "!actors!6gfMsPY2guwxrpqi"
+}
