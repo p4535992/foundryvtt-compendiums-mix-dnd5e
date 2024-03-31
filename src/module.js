@@ -1,4 +1,4 @@
-export const COMPENDIUM_MIX_DND5E_MODULE_NAME = "compendiums-mix-dnd5e";
+export const MODULE_ID = "compendiums-mix-dnd5e";
 
 export const i18n = (key) => {
     return game.i18n.localize(key);
@@ -7,14 +7,12 @@ export const i18nFormat = (key, data = {}) => {
     return game.i18n.format(key, data);
 };
 
-// let inputDown = false;
-// let hasValidToken = false;
-
 /* ------------------------------------ */
 /* Initialize module					*/
 /* ------------------------------------ */
 Hooks.on("init", () => {
-    game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, "HDhideDD5Compendium", {
+    /*
+    game.settings.register(MODULE_ID, "HDhideDD5Compendium", {
         name: i18n("compendiums-mix-dnd5e.setting.HDhideDD5Compendium.name"),
         hint: i18n("compendiums-mix-dnd5e.setting.HDhideDD5Compendium.hint"),
         scope: "world",
@@ -23,7 +21,7 @@ Hooks.on("init", () => {
         type: Boolean,
     });
 
-    game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, "enableAdditionalArmorTypes", {
+    game.settings.register(MODULE_ID, "enableAdditionalArmorTypes", {
         name: i18n("compendiums-mix-dnd5e.setting.enableAdditionalArmorTypes.name"),
         hint: i18n("compendiums-mix-dnd5e.setting.enableAdditionalArmorTypes.hint"),
         scope: "world",
@@ -32,7 +30,7 @@ Hooks.on("init", () => {
         type: Boolean,
     });
 
-    game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, "enableAdditionalSpellSchool", {
+    game.settings.register(MODULE_ID, "enableAdditionalSpellSchool", {
         name: i18n("compendiums-mix-dnd5e.setting.enableAdditionalSpellSchool.name"),
         hint: i18n("compendiums-mix-dnd5e.setting.enableAdditionalSpellSchool.hint"),
         scope: "world",
@@ -41,7 +39,7 @@ Hooks.on("init", () => {
         type: Boolean,
     });
 
-    game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, "enableAdditionalDamageTypes", {
+    game.settings.register(MODULE_ID, "enableAdditionalDamageTypes", {
         name: i18n("compendiums-mix-dnd5e.setting.enableAdditionalDamageTypes.name"),
         hint: i18n("compendiums-mix-dnd5e.setting.enableAdditionalDamageTypes.hint"),
         scope: "world",
@@ -50,7 +48,7 @@ Hooks.on("init", () => {
         type: Boolean,
     });
 
-    game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, "enableAdditionalWeaponProperties", {
+    game.settings.register(MODULE_ID, "enableAdditionalWeaponProperties", {
         name: i18n("compendiums-mix-dnd5e.setting.enableAdditionalWeaponProperties.name"),
         hint: i18n("compendiums-mix-dnd5e.setting.enableAdditionalWeaponProperties.hint"),
         scope: "world",
@@ -59,7 +57,7 @@ Hooks.on("init", () => {
         type: Boolean,
     });
 
-    game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, "enableAdditionalRarityProperties", {
+    game.settings.register(MODULE_ID, "enableAdditionalRarityProperties", {
         name: i18n("compendiums-mix-dnd5e.setting.enableAdditionalRarityProperties.name"),
         hint: i18n("compendiums-mix-dnd5e.setting.enableAdditionalRarityProperties.hint"),
         scope: "world",
@@ -68,7 +66,7 @@ Hooks.on("init", () => {
         type: Boolean,
     });
 
-    game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, "enableEzPrint", {
+    game.settings.register(MODULE_ID, "enableEzPrint", {
         name: i18n("compendiums-mix-dnd5e.setting.enableEzPrint.name"),
         hint: i18n("compendiums-mix-dnd5e.setting.enableEzPrint.hint"),
         scope: "world",
@@ -76,100 +74,7 @@ Hooks.on("init", () => {
         default: false,
         type: Boolean,
     });
-
-    // game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableTokenVisionAnimationWorldScope', {
-    //   name: i18n('compendiums-mix-dnd5e.setting.enableTokenVisionAnimationWorldScope.name'),
-    //   hint: i18n('compendiums-mix-dnd5e.setting.enableTokenVisionAnimationWorldScope.hint'),
-    //   scope: 'world',
-    //   config: true,
-    //   default: false,
-    //   type: Boolean,
-    // });
-
-    // game.settings.register(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableGmTokenDragVisibility', {
-    //   name: i18n('compendiums-mix-dnd5e.setting.enableGmTokenDragVisibility.name'),
-    //   hint: i18n('compendiums-mix-dnd5e.setting.enableGmTokenDragVisibility.hint'),
-    //   scope: 'world',
-    //   config: true,
-    //   default: false,
-    //   type: Boolean,
-    // });
-
-    // FEATURE GM Token Drag Visibility v2
-
-    // if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableGmTokenDragVisibility')) {
-    //   // eslint-disable-next-line no-undef
-    //   libWrapper.register(
-    //     COMPENDIUM_MIX_DND5E_MODULE_NAME,
-    //     'Token.prototype._onDragLeftStart',
-    //     (function () {
-    //       return async function (wrapped, ...args) {
-    //         if (!game.user.isGM || !canvas.scene.data.tokenVision) {
-    //           return wrapped.apply(this, args);
-    //         }
-
-    //         inputDown = true;
-
-    //         //Check to see if any of the controlled tokens use sight
-    //         //Check to see if any token is interactive
-    //         for (let t of canvas.tokens.controlled) {
-    //           if (t.interactive && t.data.vision) {
-    //             hasValidToken = true;
-    //             break;
-    //           }
-    //         }
-
-    //         return wrapped.apply(this, args);
-    //       };
-    //     })(),
-    //     'WRAPPER',
-    //   );
-
-    //   // eslint-disable-next-line no-undef
-    //   libWrapper.register(
-    //     COMPENDIUM_MIX_DND5E_MODULE_NAME,
-    //     'Token.prototype._onDragLeftMove',
-    //     (function () {
-    //       return async function (wrapped, ...args) {
-    //         if (!game.user.isGM || !canvas.scene.data.tokenVision || !inputDown || !hasValidToken) {
-    //           return wrapped.apply(this, args);
-    //         }
-
-    //         canvas.scene.data.tokenVision = false;
-    //         canvas.sight.refresh();
-
-    //         return wrapped.apply(this, args);
-    //       };
-    //     })(),
-    //     'WRAPPER',
-    //   );
-
-    //   // eslint-disable-next-line no-undef
-    //   libWrapper.register(
-    //     COMPENDIUM_MIX_DND5E_MODULE_NAME,
-    //     'Token.prototype._onDragLeftDrop',
-    //     (function () {
-    //       return async function (wrapped, ...args) {
-    //         EndDrag();
-    //         return wrapped.apply(this, args);
-    //       };
-    //     })(),
-    //     'WRAPPER',
-    //   );
-
-    //   // eslint-disable-next-line no-undef
-    //   libWrapper.register(
-    //     COMPENDIUM_MIX_DND5E_MODULE_NAME,
-    //     'Token.prototype._onDragLeftCancel',
-    //     (function () {
-    //       return async function (wrapped, ...args) {
-    //         EndDrag();
-    //         return wrapped.apply(this, args);
-    //       };
-    //     })(),
-    //     'WRAPPER',
-    //   );
-    // }
+    */
 });
 
 /* ------------------------------------ */
@@ -183,12 +88,13 @@ Hooks.once("setup", function () {
 /* When ready							*/
 /* ------------------------------------ */
 Hooks.once("ready", () => {
-    if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, "enableAdditionalArmorTypes")) {
+    /*
+    if (game.settings.get(MODULE_ID, "enableAdditionalArmorTypes")) {
         // danwiki
         CONFIG.DND5E.armorTypes["partial"] = i18n("DND5E.EquipmentPartial");
     }
 
-    if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, "enableAdditionalSpellSchool")) {
+    if (game.settings.get(MODULE_ID, "enableAdditionalSpellSchool")) {
         // http://kpogl.wdfiles.com/local--files/home:home/module.json
         CONFIG.DND5E.spellSchools["voi"] = i18n("DND5E.SchoolVoid");
 
@@ -196,12 +102,12 @@ Hooks.once("ready", () => {
         CONFIG.DND5E.spellSchools["chr"] = i18n("DND5E.SchoolCron");
     }
 
-    if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, "enableAdditionalDamageTypes")) {
+    if (game.settings.get(MODULE_ID, "enableAdditionalDamageTypes")) {
         // https://github.com/TheDraggo/DraggosMods
         CONFIG.DND5E.damageTypes["vile"] = i18n("DND5E.DamageVile");
     }
 
-    if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, "enableAdditionalWeaponProperties")) {
+    if (game.settings.get(MODULE_ID, "enableAdditionalWeaponProperties")) {
         // https://github.com/TheDraggo/GrimHollowWeaponProperties
 
         // CONFIG.DND5E.weaponProperties['armorpiercing'] = i18n('DND5E.WeaponPropertiesArmorpiercing');
@@ -241,70 +147,22 @@ Hooks.once("ready", () => {
         CONFIG.DND5E.weaponProperties["parrying"] = i18n("DND5E.WeaponPropertiesParrying");
     }
 
-    if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, "enableAdditionalRarityProperties")) {
+    if (game.settings.get(MODULE_ID, "enableAdditionalRarityProperties")) {
         // Rarity
         CONFIG.DND5E.itemRarity.veryCommon = "very common";
     }
 
     // FEATURE EZ-PRINT
 
-    if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, "enableEzPrint")) {
+    if (game.settings.get(MODULE_ID, "enableEzPrint")) {
         Hooks.on("renderActorSheet", addButton);
         Hooks.on("renderJournalSheet", addButton);
         Hooks.on("renderItemSheet", addButton);
     }
-
-    // FEATURE Token Vision Animation: World Scope
-
-    // if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, 'enableTokenVisionAnimationWorldScope')) {
-    //   let visionAnimationSettings = game.settings.settings.get('core.visionAnimation');
-    //   visionAnimationSettings.scope = 'world';
-    //   visionAnimationSettings.default = false;
-    // }
+    */
 });
-//--------------------------------------
-//----setting compendiums
-//--------------------------------------
-Hooks.on("renderSidebarTab", function () {
-    //if (game.settings.get('srd-heros-et-dragons', 'HDcompendiumColor')) {
-    compendiumColor();
-    //}
-    if (game.settings.get(COMPENDIUM_MIX_DND5E_MODULE_NAME, "HDhideDD5Compendium")) {
-        hideDD5Compendium();
-    }
-});
-//---------------------compendium color---visibité des compendium H&D
-function compendiumColor() {
-    var comps = document.getElementsByClassName("pack-title");
-    for (let comp of comps) {
-        let indexHD = comp.innerText.indexOf("H&D");
-        let indexCM = comp.innerText.indexOf("CM -");
-        let indexDND = comp.innerText.indexOf("SRD");
-        let indexUM5 = comp.innerText.indexOf("UM5");
-        let indexME5e = comp.innerText.indexOf("ME5e");
-        let indexFantasyPlant = comp.innerText.indexOf("Fantasy Plant");
-        let indexMap = comp.innerText.indexOf("Map");
-        let indexWeather = comp.innerText.indexOf("Weather");
 
-        if (indexHD !== -1) {
-            comp.style.color = "LightGreen";
-        } else if (indexDND !== -1) {
-            comp.style.color = "IndianRed";
-        } else if (indexUM5 !== -1) {
-            comp.style.color = "DarkOrange";
-        } else if (indexME5e !== -1) {
-            comp.style.color = "DarkTurquoise";
-        } else if (indexFantasyPlant !== -1) {
-            comp.style.color = "DarkGreen";
-        } else if (indexMap !== -1) {
-            comp.style.color = "DarkPurple";
-        } else if (indexWeather !== -1) {
-            comp.style.color = "DarkBlue";
-        } else if (indexCM !== -1) {
-            comp.style.color = "LightBlue";
-        }
-    }
-}
+/*
 
 function hideDD5Compendium() {
     var comps = document.getElementsByClassName("pack-title");
@@ -327,16 +185,4 @@ function addButton(app, html) {
 
     html.find(".window-title").after(link);
 }
-
-// function EndDrag() {
-//   if (!game.user.isGM || !inputDown) {
-//     return;
-//   }
-//   inputDown = false;
-
-//   if (hasValidToken) {
-//     canvas.scene.data.tokenVision = true;
-//     canvas.sight.refresh();
-//     hasValidToken = false;
-//   }
-// }
+*/
