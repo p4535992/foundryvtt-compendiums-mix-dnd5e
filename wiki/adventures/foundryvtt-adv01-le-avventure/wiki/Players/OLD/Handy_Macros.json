@@ -1,0 +1,448 @@
+{
+    "schema_version": 2,
+    "macros": [
+        {
+            "attributes": {
+                "action": "/w @{selected|token_name} ?{Message:}",
+                "istokenaction": false,
+                "name": "Whisper",
+                "visibleto": "all"
+            },
+            "macrobar": {
+                "color": "#980000",
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w GM ?{Message?}",
+                "istokenaction": false,
+                "name": "WhisperGM",
+                "visibleto": "all"
+            },
+            "macrobar": {
+                "color": "#674ea7",
+                "name": "Whisper%20GM"
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:default} {{name=DR/Immunities}} {{Damage Resistance= @{selected|npc_resistances}}} {{Damage Vulnerability= @{selected|npc_vulnerabilities}}} {{Damage Immunity= @{selected|npc_immunities}}} {{Condition Immunity= @{selected|npc_condition_immunities}}} ",
+                "istokenaction": false,
+                "name": "DR/Immunities",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "&{template:npc} {{normal=1}} {{name=}} {{rname=D4}} {{mod=}} {{r1=[[1d4]] | [[1d4]]}}",
+                "istokenaction": false,
+                "name": "D4",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "&{template:npc} {{normal=1}} {{name=}} {{rname=D6}} {{mod=}} {{r1=[[1d6]] | [[1d6]]}}",
+                "istokenaction": false,
+                "name": "D6",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "&{template:npc} {{normal=1}} {{name=}} {{rname=D8}} {{mod=}} {{r1=[[1d8]] | [[1d8]]}}",
+                "istokenaction": false,
+                "name": "D8",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "&{template:npc} {{normal=1}} {{name=}} {{rname=D10}} {{mod=}} {{r1=[[1d10]] | [[1d10]]}}",
+                "istokenaction": false,
+                "name": "D10",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "&{template:npc} {{normal=1}} {{name=}} {{rname=D12}} {{mod=}} {{r1=[[1d12]] | [[1d12]]}}",
+                "istokenaction": false,
+                "name": "D12",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "&{template:npc} {{normal=1}} {{name=}} {{rname=D20}} {{mod=}} {{r1=[[1d20]] | [[1d20]]}}",
+                "istokenaction": false,
+                "name": "D20",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "&{template:npcaction} {{rname=Dice Roller}} } {{description=Select your die type:  [D4](!\n#D4) [D6](!\n#D6) [D8](!\n#D8) [D10](!\n#D10) [D12](!\n#D12)﻿ [D20](!\n#D20) [D100](!\n#D100) [D??](!\n#D??)}}",
+                "istokenaction": false,
+                "name": "Dice",
+                "visibleto": "all"
+            },
+            "macrobar": {
+                "color": "#274e13",
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "&{template:npc} {{normal=1}} {{name=}} {{rname=D100}} {{mod=}} {{r1=[[1d100]] | [[1d100]]}}",
+                "istokenaction": false,
+                "name": "D100",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "&{template:npc} {{normal=1}} {{name=}} {{rname=Dice Query}} {{mod=}} {{r1=[[?{How many}d?{Die type}]]}}",
+                "istokenaction": false,
+                "name": "D??",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt /w gm &{template:npcaction} {{rname=Tavern Name Generator}} {{name=}} {{description=[[1t[Tavern-Name-1]]] [[1t[Tavern-Name-2]]], which (is a(n)) [[1t[Tavern-Type]]].}}",
+                "istokenaction": false,
+                "name": "TavernGenerator",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt  [[1t[Hoard-Treasure-0-4]]]",
+                "istokenaction": false,
+                "name": "H-CH0-4",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Hoard Treasure}} } {{description=Select your challenge level:  [Challenge 0-4](!&#13;#H-CH0-4) [Challenge 5-10](!&#13;#H-CH5-10) [Challenge 11-16](!&#13;#H-CH11-16) [Challenge 17+](!&#13;#H-CH17+)}}",
+                "istokenaction": false,
+                "name": "Hoard-Treasure",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Treasures}} } {{description=[Individual Loot Check](!&#13;#Individual-Loot-Check)\n[Individual Treasure](!&#13;#Individual-Treasure) \n[Random Trinket](!&#13;#Random-Trinkets)\n[Book](!&#13;#Books)\n[Hoard Treasure](!&#13;#Hoard-Treasure)}}",
+                "istokenaction": false,
+                "name": "Treasure",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Gemstones}} } {{description=\n[10 GP Gemstones](!&#13;#Gem-10-GP) [50 GP Gemstones](!&#13;#Gem-50-GP) [100 GP Gemstones](!&#13;#Gem-100-GP) [500 GP Gemstones](!&#13;#Gem-500-GP) [1000 GP Gemstones](!&#13;#Gem-1000-GP)[5000 GP Gemstones](!&#13;#Gem-5000-GP)}}",
+                "istokenaction": false,
+                "name": "Gemstones",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt You find [[1t[Individual-Loot-Check]]].",
+                "istokenaction": false,
+                "name": "Individual-Loot-Check",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "You find [[1t[Random-Trinkets]]].",
+                "istokenaction": false,
+                "name": "Random-Trinkets",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt! You find the book [[1t[Books]]].",
+                "istokenaction": false,
+                "name": "Books",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "When a creature takes damage from a single source equal to or greater than half its hit point maximum, it must succeed on a DC 15 Constitution saving throw or suffer a random effect determined by a roll on the System Shock table. For example, a creature that has a hit point maximum of 30 must make that Constitution save if it takes 15 damage or more from a single source.\n [[1t[Massive-Damage]]]",
+                "istokenaction": true,
+                "name": "MassiveDamage",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt &{template:npcaction} {{rname=Wild Magic}} } {{description=[[1t[WildMagicSurge]]]}}",
+                "istokenaction": false,
+                "name": "WildMagicSurge",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt &{template:npcaction} {{rname=Weather Report}} {{name=}} {{description=Good morning, it is time for the weather report.\nThe temperature is [[1t[Temperature]]], there is [[1t[Wind]]] and there is [[1t[Precipitation]]].}}",
+                "istokenaction": false,
+                "name": "WeatherReport",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt /w gm &{template:npcaction} {{rname=Monuments}} {{name=}} {{description=[[1t[Monuments]]]}}",
+                "istokenaction": false,
+                "name": "Monuments",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Generators}} } {{description=[Treasure](!&#13;#Treasure)\n[Tavern](!&#13;#TavernGenerator)\n[Weather Report](!&#13;#WeatherReport)\n[Monuments](!&#13;#Monuments)\n[Weird Locales](!&#13;#WeirdLocales) \n[City](!&#13;#CityGenerator)\n[Buildings](!&#13;#Buildings)\n[NPCs](!&#13;#NameGenerator)\n[Random Quest](!&#13;#JobBoard)\n[Traps](!&#13;#Traps)\n[Drunken Shenanigans](!&#13;#TheHangover)}}",
+                "istokenaction": false,
+                "name": "Generators",
+                "visibleto": ""
+            },
+            "macrobar": {
+                "color": "#ff0000",
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt /w gm &{template:npcaction} {{rname=Weird Locales}} {{name=}} {{description=You have come upon a(n) [[1t[WeirdLocales]]].}}",
+                "istokenaction": false,
+                "name": "WeirdLocales",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt /w gm &{template:npcaction} {{rname=City Generator}} } {{description=City Type: [[1t[CityType]]]\nName: [[1t[TownNames]]]\nGovernment: [[1t[FormOfGovernment]]]\nRuler Status: [[1t[RulersStatus]]]\nRace Relations: [[1t[RaceRelations]]]\nKnown for Its: [[1t[KnownForIts]]]\nNotable Trait: [[1t[NotableTraits]]]\nTavern Total: [[1d8]]\nShop Total: [[1d12]]\nCurrent Calamity: [[1t[Current-Calamity]]].\n\n[Leader Name Generator](!\n#NameGenerator)\n[Tavern Generator](!\n#TavernGenerator)\n[Shop Generator](!\n#ShopGenerator)\n}}",
+                "istokenaction": false,
+                "name": "CityGenerator",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt /w gm &{template:npcaction} {{rname=Building Type}} } {{description=[[1t[BuildingType]]]\n}}",
+                "istokenaction": false,
+                "name": "BuildingType",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Residence}} } {{description=[[1t[Residence]]]}}",
+                "istokenaction": false,
+                "name": "Residence",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Religious Building}} } {{description=[[1t[ReligiousBuilding]]]}}",
+                "istokenaction": false,
+                "name": "ReligiousBuilding",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Warehouse}} } {{description=[[1t[Warehouse]]]}}",
+                "istokenaction": false,
+                "name": "Warehouse",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Buildings}} } {{description=\n[Building Type](!&#13;#BuildingType)\n[Tavern](!&#13;#TavernGenerator)\n[Shop](!&#13;#ShopGenerator)\n[Residence](!&#13;#Residence)\n[Religious Building](!&#13;#ReligiousBuilding)\n[Warehouse](!&#13;#Warehouse) \n}}",
+                "istokenaction": false,
+                "name": "Buildings",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Shop Generator}} } {{description=[[1t[Shop]]]}}",
+                "istokenaction": false,
+                "name": "ShopGenerator",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Race}} {{name=}} {{description=[[1t[Races]]]}}",
+                "istokenaction": false,
+                "name": "Race",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt /w gm &{template:npcaction} {{rname=NPC Generator}} } {{description=[[1t[NPCName]]]\nAge: [[1t[NPCAge]]]\nHair Color: [[1t[NPCHairColor]]]\nEye Color: [[1t[NPCEyeColor]]]\nAppearance: [[1t[NPCAppearance]]]\nPersonality Traits: [[1t[NPCPersonality1]]] & [[1t[NPCPersonality1]]]\nProfession: [[1t[NPCProfession]]]}}",
+                "istokenaction": false,
+                "name": "NameGenerator",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "@{selected|character_name} &{template:npcaction} {{rname=Ability Checks}} {{description=Select type of Ability Check [Strength](~selected|strength) [Dexterity](~selected|dexterity) [Constitution](~selected|constitution) [Intelligence](~selected|intelligence) [Wisdom](~selected|wisdom) [Charisma](~selected|charisma) }}",
+                "istokenaction": false,
+                "name": "AbilityChecks",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "@{selected|character_name} &{template:npcaction} {{rname=Saving Throw}} {{description=Select Saving Throw [Strength](~selected|strength_save) [Dexterity](~selected|dexterity_save) [Constitution](~selected|constitution_save) [Intelligence](~selected|intelligence_save) [Wisdom](~selected|wisdom_save) [Charisma](~selected|charisma_save) }}",
+                "istokenaction": false,
+                "name": "SavingThrows",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "@{selected|character_name} &{template:npcaction} {{rname=Skill Checks}} {{description=Select Skill Check [Acrobatics](~selected|acrobatics) [Arcana](~selected|arcana) [Animal Handling](~selected|animal_handling) [Athletics](~selected|athletics) [Deception](~selected|deception) [History](~selected|history) [Insight](~selected|insight) [Intimidation](~selected|intimidation) [Investigation](~selected|investigation) [Medicine](~selected|medicine) [Nature](~selected|nature) [Perception](~selected|perception) [Performance](~selected|performance) [Persuasion](~selected|persuasion) [Religion](~selected|religion) [Sleight of Hand](~selected|sleight_of_hand) [Stealth](~selected|stealth) [Survival](~selected|survival) }}",
+                "istokenaction": false,
+                "name": "SkillChecks",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "?{Roll|Public, |Private,/w gm} Rolling ?{Number|1}?{Type|D20|D4|D6|D8|D12|D100}: [[ ?{Number}?{Type} ]]",
+                "istokenaction": false,
+                "name": "RollingDice",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "&{template:npcaction} {{rname=Checks, Saves, & Rolls}} } {{description=[Ability Checks](!\n#AbilityChecks)\n[Skill Checks](!&#13;#SkillChecks) \n[Saving Throws](!&#13;#SavingThrows)\n[Wild Magic](!&#13;#WildMagicSurge)\n[Massive Damage](!&#13;#MassiveDamage)\n[Critical Hits](!&#13;#CriticalHits)\n[Critical Failures](!&#13;#CriticalFailures)\n[Dice Roller](!&#13;#RollingDice)}}",
+                "istokenaction": false,
+                "name": "ChecksSavesRolls",
+                "visibleto": "all"
+            },
+            "macrobar": {
+                "color": "#3c78d8",
+                "name": "Checks%2C%20Saves%2C%20%26%20Rolls"
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt &{template:npcaction} {{rname=Job Board}} {{name=}} {{description=[[[[1d8]]t[RandomQuests]]]}}",
+                "istokenaction": false,
+                "name": "JobBoard",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt /w gm &{template:npcaction} {{rname=Trap Generator}} {{name=}} {{description=[[1t[Traps]]]}}",
+                "istokenaction": false,
+                "name": "Traps",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt  [[1t[Hoard-Treasure-5-10]]]",
+                "istokenaction": false,
+                "name": "H-CH5-10",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt  [[1t[Hoard-Treasure-11-16]]]",
+                "istokenaction": false,
+                "name": "H-CH11-16",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt  [[1t[Hoard-Treasure-17+]]]",
+                "istokenaction": false,
+                "name": "H-CH17+",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt &{template:npcaction} {{rname=Critical Hit Effect}} } {{description=[[1t[CriticalHitEffects]]]}}",
+                "istokenaction": false,
+                "name": "CriticalHits",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt &{template:npcaction} {{rname=Critical Failure Effect}} } {{description=[[1t[CriticalFailures]]]}}",
+                "istokenaction": false,
+                "name": "CriticalFailures",
+                "visibleto": "all"
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt &{template:npcaction} {{rname=The Hangover}} } {{description=[[1t[TheHangover]]]}}",
+                "istokenaction": false,
+                "name": "TheHangover",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt &{template:npcaction} {{rname=Motto Generator}} } {{description=[[1t[MottoWords]]] [[1t[MottoJoiner]]] [[1t[MottoWords]]]}}",
+                "istokenaction": false,
+                "name": "MottoGenerator",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!rt /w gm &{template:npcaction} {{rname=Killing Blow}} } {{description=[[1t[UT-The-Dead-Killing-Blows]]]}}",
+                "istokenaction": false,
+                "name": "Killing-Blow",
+                "visibleto": ""
+            },
+            "macrobar": {
+                "color": "#000000",
+                "name": "Killing%20Blow"
+            }
+        },
+		{
+            "attributes": {
+                "action": "!rt @{selected|wtype}&{template:default} {{name=Saving Throw for @{selected|character_name}}} {{?{Saving Throw
+						  | Strength, Strength= [[1d20+[[{[[@{selected|strength_save_bonus}]]&#44;[[@{selected|npc_str_save}]]&#125;kh1]]+[[@{selected|global_save_mod}+0d0]]]] - [[1d20+[[{[[@{selected|strength_save_bonus}]]&#44;[[@{selected|npc_str_save}]]&#125;kh1]]+[[@{selected|global_save_mod}+0d0]]]]
+						  | Dexterity, Dexterity= [[1d20+[[{[[@{selected|dexterity_save_bonus}]]&#44;[[@{selected|npc_dex_save}]]&#125;kh1]]+[[@{selected|global_save_mod}+0d0]]]] - [[1d20+[[{[[@{selected|dexterity_save_bonus}]]&#44;[[@{selected|npc_dex_save}]]&#125;kh1]]+[[@{selected|global_save_mod}+0d0]]]]
+						  | Constitution, Constitution= [[1d20+[[{[[@{selected|constitution_save_bonus}]]&#44;[[@{selected|npc_con_save}]]&#125;kh1]]+[[@{selected|global_save_mod}+0d0]]]] - [[1d20+[[{[[@{selected|constitution_save_bonus}]]&#44;[[@{selected|npc_con_save}]]&#125;kh1]]+[[@{selected|global_save_mod}+0d0]]]]
+						  | Intelligence, Intelligence= [[1d20+[[{[[@{selected|intelligence_save_bonus}]]&#44;[[@{selected|npc_int_save}]]&#125;kh1]]+[[@{selected|global_save_mod}+0d0]]]] - [[1d20+[[{[[@{selected|intelligence_save_bonus}]]&#44;[[@{selected|npc_int_save}]]&#125;kh1]]+[[@{selected|global_save_mod}+0d0]]]]
+						  | Wisdom, Wisdom= [[1d20+[[{[[@{selected|wisdom_save_bonus}]]&#44;[[@{selected|npc_wis_save}]]&#125;kh1]]+[[@{selected|global_save_mod}+0d0]]]] - [[1d20+[[{[[@{selected|wisdom_save_bonus}]]&#44;[[@{selected|npc_wis_save}]]&#125;kh1]]+[[@{selected|global_save_mod}+0d0]]]]
+						  | Charisma, Charisma= [[1d20+[[{[[@{selected|charisma_save_bonus}]]&#44;[[@{selected|npc_cha_save}]]&#125;kh1]]+[[@{selected|global_save_mod}+0d0]]]] - [[1d20+[[{[[@{selected|charisma_save_bonus}]]&#44;[[@{selected|npc_cha_save}]]&#125;kh1]]+[[@{selected|global_save_mod}+0d0]]]]
+						  | Death, Death= [[1d20+[[@{selected|global_save_mod}+0d0]]]] - [[1d20+[[@{selected|global_save_mod}+0d0]]]]}}}",
+                "istokenaction": false,
+                "name": "Saving-Throw-Updated",
+                "visibleto": ""
+            },
+            "macrobar": {
+                "color": "#000000",
+                "name": "Saving-Throw-Updated"
+            }
+        }
+    ]
+}

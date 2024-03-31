@@ -1,0 +1,957 @@
+[
+  {
+    "key": "active-effect-manager-lib.permLevel",
+    "value": "\"NONE\""
+  },
+  {
+    "key": "always-hp.add-defeated",
+    "value": "false"
+  },
+  {
+    "key": "babele.showOriginalName",
+    "value": "true"
+  },
+  {
+    "key": "babele.showTranslateOption",
+    "value": "false"
+  },
+  {
+    "key": "babele.translationFiles",
+    "value": "[\"modules/translation-dnd5e-it/compendium/dnd5e.backgrounds.json\",\"modules/translation-dnd5e-it/compendium/dnd5e.classes.json\",\"modules/translation-dnd5e-it/compendium/dnd5e.classfeatures.json\",\"modules/translation-dnd5e-it/compendium/dnd5e.heroes.json\",\"modules/translation-dnd5e-it/compendium/dnd5e.items.json\",\"modules/translation-dnd5e-it/compendium/dnd5e.monsterfeatures.json\",\"modules/translation-dnd5e-it/compendium/dnd5e.monsters.json\",\"modules/translation-dnd5e-it/compendium/dnd5e.races.json\",\"modules/translation-dnd5e-it/compendium/dnd5e.rules.json\",\"modules/translation-dnd5e-it/compendium/dnd5e.spells.json\",\"modules/translation-dnd5e-it/compendium/dnd5e.subclasses.json\",\"modules/translation-dnd5e-it/compendium/dnd5e.tables.json\",\"modules/translation-dnd5e-it/compendium/dnd5e.tradegoods.json\"]"
+  },
+  {
+    "key": "chat-portrait.imageReplacerDamageType",
+    "value": "[{\"name\":\"DND5E.DamageAcid\",\"icon\":\"modules/chat-portrait/assets/acid.svg\"},{\"name\":\"DND5E.DamageBludgeoning\",\"icon\":\"modules/chat-portrait/assets/bludgeoning.svg\"},{\"name\":\"DND5E.DamageCold\",\"icon\":\"modules/chat-portrait/assets/cold.svg\"},{\"name\":\"DND5E.DamageFire\",\"icon\":\"modules/chat-portrait/assets/fire.svg\"},{\"name\":\"DND5E.DamageForce\",\"icon\":\"modules/chat-portrait/assets/force.svg\"},{\"name\":\"DND5E.DamageLightning\",\"icon\":\"modules/chat-portrait/assets/lightning.svg\"},{\"name\":\"DND5E.DamageNecrotic\",\"icon\":\"modules/chat-portrait/assets/necrotic.svg\"},{\"name\":\"DND5E.DamagePiercing\",\"icon\":\"modules/chat-portrait/assets/piercing.svg\"},{\"name\":\"DND5E.DamagePhysical\",\"icon\":\"modules/chat-portrait/assets/non_magical_physical.svg\"},{\"name\":\"DND5E.DamagePoison\",\"icon\":\"modules/chat-portrait/assets/poison.svg\"},{\"name\":\"DND5E.DamagePsychic\",\"icon\":\"modules/chat-portrait/assets/psychic.svg\"},{\"name\":\"DND5E.DamageRadiant\",\"icon\":\"modules/chat-portrait/assets/radiant.svg\"},{\"name\":\"DND5E.DamageSlashing\",\"icon\":\"modules/chat-portrait/assets/slashing.svg\"},{\"name\":\"DND5E.DamageThunder\",\"icon\":\"modules/chat-portrait/assets/thunder.svg\"}]"
+  },
+  {
+    "key": "chat-portrait.imageReplacerIconizer",
+    "value": "[{\"name\":\"DND5E.DamageRoll\",\"icon\":\"modules/chat-portrait/assets/damage_roll.svg\"},{\"name\":\"DND5E.AttackRoll\",\"icon\":\"modules/chat-portrait/assets/attack_roll.svg\"},{\"name\":\"DND5E.SkillAcr\",\"icon\":\"modules/chat-portrait/assets/acrobatics.svg\"},{\"name\":\"DND5E.SkillAni\",\"icon\":\"modules/chat-portrait/assets/animal_handling.svg\"},{\"name\":\"DND5E.SkillArc\",\"icon\":\"modules/chat-portrait/assets/arcana.svg\"},{\"name\":\"DND5E.SkillAth\",\"icon\":\"modules/chat-portrait/assets/athletics.svg\"},{\"name\":\"DND5E.SkillDec\",\"icon\":\"modules/chat-portrait/assets/deception.svg\"},{\"name\":\"DND5E.SkillHis\",\"icon\":\"modules/chat-portrait/assets/history.svg\"},{\"name\":\"DND5E.SkillIns\",\"icon\":\"modules/chat-portrait/assets/insight.svg\"},{\"name\":\"DND5E.SkillItm\",\"icon\":\"modules/chat-portrait/assets/intimidation.svg\"},{\"name\":\"DND5E.SkillInv\",\"icon\":\"modules/chat-portrait/assets/investigation.svg\"},{\"name\":\"DND5E.SkillMed\",\"icon\":\"modules/chat-portrait/assets/medicine.svg\"},{\"name\":\"DND5E.SkillNat\",\"icon\":\"modules/chat-portrait/assets/nature.svg\"},{\"name\":\"DND5E.SkillPrc\",\"icon\":\"modules/chat-portrait/assets/perception.svg\"},{\"name\":\"DND5E.SkillPrf\",\"icon\":\"modules/chat-portrait/assets/performance.svg\"},{\"name\":\"DND5E.SkillPer\",\"icon\":\"modules/chat-portrait/assets/persuasion.svg\"},{\"name\":\"DND5E.SkillRel\",\"icon\":\"modules/chat-portrait/assets/religion.svg\"},{\"name\":\"DND5E.SkillSlt\",\"icon\":\"modules/chat-portrait/assets/sleight_of_hand.svg\"},{\"name\":\"DND5E.SkillSte\",\"icon\":\"modules/chat-portrait/assets/stealth.svg\"},{\"name\":\"DND5E.SkillSur\",\"icon\":\"modules/chat-portrait/assets/survival.svg\"},{\"name\":\"DND5E.ToolArtisans\",\"icon\":\"modules/chat-portrait/assets/artisan_s_tools.svg\"},{\"name\":\"DND5E.ToolDisguiseKit\",\"icon\":\"modules/chat-portrait/assets/disguise_kit.svg\"},{\"name\":\"DND5E.ToolForgeryKit\",\"icon\":\"modules/chat-portrait/assets/forgery_kit\"},{\"name\":\"DND5E.ToolGamingSet\",\"icon\":\"modules/chat-portrait/assets/gaming_set.svg\"},{\"name\":\"DND5E.ToolHerbalismKit\",\"icon\":\"modules/chat-portrait/assets/herbalism_kit\"},{\"name\":\"DND5E.ToolMusicalInstrument\",\"icon\":\"modules/chat-portrait/assets/musical_instrument.svg\"},{\"name\":\"DND5E.ToolNavigators\",\"icon\":\"modules/chat-portrait/assets/navigator_s_tools.svg\"},{\"name\":\"DND5E.ToolPoisonersKit\",\"icon\":\"modules/chat-portrait/assets/poisoner_s_kit.svg\"},{\"name\":\"DND5E.ToolThieves\",\"icon\":\"modules/chat-portrait/assets/thieves_tools.svg\"},{\"name\":\"DND5E.ShortRest\",\"icon\":\"modules/chat-portrait/assets/short_rest.svg\"},{\"name\":\"DND5E.LongRest\",\"icon\":\"modules/chat-portrait/assets/long_rest.svg\"},{\"name\":\"DND5E.DeathSave\",\"icon\":\"modules/chat-portrait/assets/death_saves.svg\"},{\"name\":\"DND5E.AbilityStr\",\"icon\":\"modules/chat-portrait/assets/strength.svg\"},{\"name\":\"DND5E.AbilityDex\",\"icon\":\"modules/chat-portrait/assets/dexterity.svg\"},{\"name\":\"DND5E.AbilityCon\",\"icon\":\"modules/chat-portrait/assets/constitution.svg\"},{\"name\":\"DND5E.AbilityInt\",\"icon\":\"modules/chat-portrait/assets/intelligence.svg\"},{\"name\":\"DND5E.AbilityWis\",\"icon\":\"modules/chat-portrait/assets/wisdom.svg\"},{\"name\":\"DND5E.AbilityCha\",\"icon\":\"modules/chat-portrait/assets/charisma.svg\"},{\"name\":\"DND5E.Initiative\",\"icon\":\"modules/chat-portrait/assets/initiative.svg\"}]"
+  },
+  {
+    "key": "chat-portrait.imageReplacerWeaponProperties",
+    "value": "[{\"name\":\"DND5E.WeaponPropertiesAda\",\"icon\":\"modules/chat-portrait/assets/adamantine.svg\"},{\"name\":\"DND5E.WeaponPropertiesAmm\",\"icon\":\"modules/chat-portrait/assets/ammunition.svg\"},{\"name\":\"DND5E.WeaponPropertiesFin\",\"icon\":\"modules/chat-portrait/assets/finesse.svg\"},{\"name\":\"DND5E.WeaponPropertiesFir\",\"icon\":\"modules/chat-portrait/assets/firearm.svg\"},{\"name\":\"DND5E.WeaponPropertiesFoc\",\"icon\":\"modules/chat-portrait/assets/focus.svg\"},{\"name\":\"DND5E.WeaponPropertiesHvy\",\"icon\":\"modules/chat-portrait/assets/heavy.svg\"},{\"name\":\"DND5E.WeaponPropertiesLgt\",\"icon\":\"modules/chat-portrait/assets/light.svg\"},{\"name\":\"DND5E.WeaponPropertiesLod\",\"icon\":\"modules/chat-portrait/assets/loading.svg\"},{\"name\":\"DND5E.WeaponPropertiesMgc\",\"icon\":\"modules/chat-portrait/assets/magical.svg\"},{\"name\":\"DND5E.WeaponPropertiesRch\",\"icon\":\"modules/chat-portrait/assets/reach.svg\"},{\"name\":\"DND5E.WeaponPropertiesRel\",\"icon\":\"modules/chat-portrait/assets/reload.svg\"},{\"name\":\"DND5E.WeaponPropertiesRet\",\"icon\":\"modules/chat-portrait/assets/returning.svg\"},{\"name\":\"DND5E.WeaponPropertiesSil\",\"icon\":\"modules/chat-portrait/assets/silvered.svg\"},{\"name\":\"DND5E.WeaponPropertiesSpc\",\"icon\":\"modules/chat-portrait/assets/special.svg\"},{\"name\":\"DND5E.WeaponPropertiesThr\",\"icon\":\"modules/chat-portrait/assets/thrown.svg\"},{\"name\":\"DND5E.WeaponPropertiesTwo\",\"icon\":\"modules/chat-portrait/assets/two-Handed.svg\"},{\"name\":\"DND5E.WeaponPropertiesVer\",\"icon\":\"modules/chat-portrait/assets/versatile.svg\"}]"
+  },
+  {
+    "key": "combat-hp-display.combat-display",
+    "value": "{\"friendly\":{\"value\":20,\"gmOnly\":false},\"neutral\":{\"value\":20,\"gmOnly\":false},\"hostile\":{\"value\":20,\"gmOnly\":false}}"
+  },
+  {
+    "key": "combat-utility-belt.enhancedConditionsMigrationVersion",
+    "value": "\"1.10.3\""
+  },
+  {
+    "key": "compendium-folders.cfolders",
+    "value": "{\"hidden\":{\"compendiumList\":[],\"titleText\":\"hidden-compendiums\",\"_id\":\"hidden\",\"compendiums\":[],\"expanded\":false},\"default\":{\"compendiumList\":[\"advanced-macros.macros\",\"automated-evocations-variant.aemacros\",\"automated-evocations-variant.aeactors\",\"bossbar.bossbarmacros\",\"dae.premadeitems\",\"healthEstimate.deathmacro\",\"npc-generator-dnd5e.features\",\"npc-generator-dnd5e.spells\",\"tokenmagic.tmMacros\",\"tokenmagic.tmSampleCompendium\",\"tokenmagic-automatic-wounds.tokenmagic-automatic-wounds-macros\"],\"titleText\":\"Default\",\"_id\":\"default\",\"colorText\":\"#000000\",\"compendiums\":[{\"code\":\"advanced-macros.macros\",\"folder\":\"default\"},{\"code\":\"automated-evocations-variant.aemacros\",\"folder\":\"default\"},{\"code\":\"automated-evocations-variant.aeactors\",\"folder\":\"default\"},{\"code\":\"bossbar.bossbarmacros\",\"folder\":\"default\"},{\"code\":\"dae.premadeitems\",\"folder\":\"default\"},{\"code\":\"tokenmagic.tmMacros\",\"folder\":\"default\"},{\"code\":\"tokenmagic.tmSampleCompendium\",\"folder\":\"default\"},{\"code\":\"tokenmagic-automatic-wounds.tokenmagic-automatic-wounds-macros\",\"folder\":\"default\"}],\"expanded\":false,\"fontColorText\":\"#FFFFFF\",\"type\":\"CompendiumEntry\",\"entity\":\"CompendiumFolder\",\"sorting\":\"a\",\"parent\":null,\"pathToFolder\":[],\"folderIcon\":null,\"visible\":true,\"depth\":1},\"cfolder-INbIPmOsiM\":{\"_id\":\"cfolder-INbIPmOsiM\",\"titleText\":\"Actor\",\"compendiumList\":[\"dnd5e.heroes\",\"dnd5e.monsters\",\"ddd-bloody-blueprints-and-macabre-maps.actors\",\"death-in-darkness.ghoulish-bestiary\"],\"colorText\":\"#000000\",\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"code\":\"dnd5e.heroes\",\"folder\":\"cfolder-INbIPmOsiM\"},{\"code\":\"dnd5e.monsters\",\"folder\":\"cfolder-INbIPmOsiM\"}],\"expanded\":false},\"cfolder-kX5YMUo2Zz\":{\"_id\":\"cfolder-kX5YMUo2Zz\",\"titleText\":\"Item\",\"compendiumList\":[\"dnd5e.items\",\"dnd5e.tradegoods\",\"dnd5e.spells\",\"dnd5e.backgrounds\",\"dnd5e.classes\",\"dnd5e.subclasses\",\"dnd5e.classfeatures\",\"dnd5e.races\",\"dnd5e.monsterfeatures\",\"RWE.items\",\"death-in-darkness.magic-items\",\"death-in-darkness.magical-spells\",\"death-in-darkness.undead-traits\",\"midi-qol.midiqol-sample-items\"],\"colorText\":\"#000000\",\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"code\":\"dnd5e.items\",\"folder\":\"cfolder-kX5YMUo2Zz\"},{\"code\":\"dnd5e.tradegoods\",\"folder\":\"cfolder-kX5YMUo2Zz\"},{\"code\":\"dnd5e.spells\",\"folder\":\"cfolder-kX5YMUo2Zz\"},{\"code\":\"dnd5e.backgrounds\",\"folder\":\"cfolder-kX5YMUo2Zz\"},{\"code\":\"dnd5e.classes\",\"folder\":\"cfolder-kX5YMUo2Zz\"},{\"code\":\"dnd5e.subclasses\",\"folder\":\"cfolder-kX5YMUo2Zz\"},{\"code\":\"dnd5e.classfeatures\",\"folder\":\"cfolder-kX5YMUo2Zz\"},{\"code\":\"dnd5e.races\",\"folder\":\"cfolder-kX5YMUo2Zz\"},{\"code\":\"dnd5e.monsterfeatures\",\"folder\":\"cfolder-kX5YMUo2Zz\"},{\"code\":\"RWE.items\",\"folder\":\"cfolder-kX5YMUo2Zz\"},{\"code\":\"midi-qol.midiqol-sample-items\",\"folder\":\"cfolder-kX5YMUo2Zz\"}],\"expanded\":false},\"cfolder-KMdS2nVUmw\":{\"_id\":\"cfolder-KMdS2nVUmw\",\"titleText\":\"JournalEntry\",\"compendiumList\":[\"dnd5e.rules\",\"ddd-bloody-blueprints-and-macabre-maps.journal-generic\",\"ddd-bloody-blueprints-and-macabre-maps.journal\",\"death-in-darkness.death-in-darkness-journal\",\"monks-shops.shops-village\",\"monks-shops.shops-town\",\"monks-shops.shops-city\"],\"colorText\":\"#000000\",\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"code\":\"dnd5e.rules\",\"folder\":\"cfolder-KMdS2nVUmw\"},{\"code\":\"monks-shops.shops-village\",\"folder\":\"cfolder-KMdS2nVUmw\"},{\"code\":\"monks-shops.shops-town\",\"folder\":\"cfolder-KMdS2nVUmw\"},{\"code\":\"monks-shops.shops-city\",\"folder\":\"cfolder-KMdS2nVUmw\"}],\"expanded\":false},\"cfolder-iwUOZgaaSL\":{\"_id\":\"cfolder-iwUOZgaaSL\",\"titleText\":\"RollTable\",\"compendiumList\":[\"dnd5e.tables\",\"monks-shops.shop-items\"],\"colorText\":\"#000000\",\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"code\":\"dnd5e.tables\",\"folder\":\"cfolder-iwUOZgaaSL\"},{\"code\":\"monks-shops.shop-items\",\"folder\":\"cfolder-iwUOZgaaSL\"}],\"expanded\":false},\"cfolder-dbxibMLdph\":{\"_id\":\"cfolder-dbxibMLdph\",\"titleText\":\"Scene\",\"compendiumList\":[\"angela-maps-alley.angela-maps-alley\",\"ddd-bloody-blueprints-and-macabre-maps.scenes-generic\",\"death-in-darkness.undead-encounter\"],\"colorText\":\"#000000\",\"fontColorText\":\"#FFFFFF\",\"compendiums\":[],\"expanded\":false,\"type\":\"CompendiumEntry\",\"entity\":\"CompendiumFolder\",\"sorting\":\"a\",\"parent\":null,\"pathToFolder\":[],\"folderIcon\":null,\"visible\":true,\"depth\":1},\"cfolder-BSIqxm4bp2\":{\"_id\":\"cfolder-BSIqxm4bp2\",\"titleText\":\"Macro\",\"compendiumList\":[\"dfreds-convenient-effects.dfreds-convenient-effects-macros\",\"fxmaster.fxmaster\",\"introduce-me.introduce-me\",\"monks-active-tiles.active-tile-macros\",\"narrator-tools.narrator-macros\",\"plutonium.macros\",\"sequencer.sequencer-sample-macros\"],\"colorText\":\"#000000\",\"fontColorText\":\"#FFFFFF\",\"compendiums\":[{\"code\":\"dfreds-convenient-effects.dfreds-convenient-effects-macros\",\"folder\":\"cfolder-BSIqxm4bp2\"},{\"code\":\"fxmaster.fxmaster\",\"folder\":\"cfolder-BSIqxm4bp2\"},{\"code\":\"introduce-me.introduce-me\",\"folder\":\"cfolder-BSIqxm4bp2\"},{\"code\":\"monks-active-tiles.active-tile-macros\",\"folder\":\"cfolder-BSIqxm4bp2\"},{\"code\":\"narrator-tools.narrator-macros\",\"folder\":\"cfolder-BSIqxm4bp2\"},{\"code\":\"sequencer.sequencer-sample-macros\",\"folder\":\"cfolder-BSIqxm4bp2\"}],\"expanded\":false},\"cfolder_hJwQlGqQ8J\":{\"titleText\":\"ITA\",\"colorText\":\"#c93636\",\"fontColorText\":\"#FFFFFF\",\"type\":\"CompendiumEntry\",\"_id\":\"cfolder_hJwQlGqQ8J\",\"entity\":\"CompendiumFolder\",\"sorting\":\"a\",\"parent\":null,\"pathToFolder\":[],\"compendiumList\":[\"compendiums-mix-dnd5e-ita-private.png\",\"compendiums-mix-dnd5e-ita-private.incantesimi\",\"compendiums-mix-dnd5e-ita-private.classfeatures\",\"compendiums-mix-dnd5e-ita-private.monsterfeatures\",\"compendiums-mix-dnd5e-ita-private.items\",\"compendiums-mix-dnd5e-ita-private.journal\",\"compendiums-mix-dnd5e-ita-private.backup-journals\",\"compendiums-mix-dnd5e-ita-private.backup-macro\",\"compendiums-mix-dnd5e-ita-private.pg-backup\",\"compendiums-mix-dnd5e-ita-private.monster-loot\",\"compendiums-mix-dnd5e-ita-private.scene\",\"compendiums-mix-dnd5e-ita-private.pg2\",\"compendiums-mix-dnd5e-ita-private.macro-per-pg\",\"compendiums-mix-dnd5e-ita-private.incontri-casuali\",\"compendiums-mix-dnd5e-ita-private.vecchi-journal-trigger-happy\",\"compendiums-mix-dnd5e-ita-private.equipaggiamento\",\"compendiums-mix-dnd5e-ita-private.mostri\"],\"folderIcon\":null,\"expanded\":false,\"visible\":true,\"compendiums\":[{\"code\":\"compendiums-mix-dnd5e-ita-private.png\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.incantesimi\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.classfeatures\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.monsterfeatures\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.items\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.journal\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.backup-journals\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.backup-macro\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.pg-backup\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.monster-loot\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.scene\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.pg2\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.macro-per-pg\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.incontri-casuali\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.vecchi-journal-trigger-happy\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.equipaggiamento\",\"folder\":\"cfolder_hJwQlGqQ8J\"},{\"code\":\"compendiums-mix-dnd5e-ita-private.mostri\",\"folder\":\"cfolder_hJwQlGqQ8J\"}]}}"
+  },
+  {
+    "key": "core.chatBubblesPan",
+    "value": "false"
+  },
+  {
+    "key": "core.fontSize",
+    "value": "4"
+  },
+  {
+    "key": "core.globalAmbientVolume",
+    "value": "0.4078909167902615"
+  },
+  {
+    "key": "core.globalPlaylistVolume",
+    "value": "0.4078909167902615"
+  },
+  {
+    "key": "core.keybindings",
+    "value": "{\"plutonium.KEYBINDINGS.Dismiss\":[{\"key\":\"Escape\",\"modifiers\":[]}]}"
+  },
+  {
+    "key": "core.language",
+    "value": "\"it\""
+  },
+  {
+    "key": "core.leftClickRelease",
+    "value": "true"
+  },
+  {
+    "key": "core.maxFPS",
+    "value": "30"
+  },
+  {
+    "key": "core.moduleConfiguration",
+    "value": "{\"automated-polymorpher\":false,\"dnd5e-custom-skills\":false,\"acelib\":false,\"metric-ruler-labels\":false,\"always-hp\":true,\"angela-maps-alley\":false,\"arbron-hp-bar\":true,\"enhancedcombathud\":false,\"autocomplete-inline-properties\":false,\"autoanimations\":true,\"automated-evocations-variant\":true,\"journal-icon-numbers\":false,\"babele\":true,\"betterroofs\":false,\"bossbar\":true,\"calendar-weather\":false,\"chat-images\":true,\"chat-portrait\":true,\"combat-hp-display\":true,\"combat-utility-belt\":true,\"compendium-folders\":true,\"comprehend-languages\":true,\"danger-zone\":false,\"death-in-darkness\":false,\"ddd-bloody-blueprints-and-macabre-maps\":false,\"df-architect\":false,\"dfreds-convenient-effects\":true,\"dfreds-droppables\":false,\"dfreds-effects-panel\":false,\"dfreds-pocket-change\":false,\"dice-calculator\":true,\"dipped-in-poison\":false,\"dnd-ui\":false,\"drag-all-to-hotbar\":true,\"drag-ruler\":false,\"dragupload\":false,\"drgh-hostile-takeover\":false,\"effective-transferral\":true,\"flying-tokens\":true,\"forien-copy-environment\":true,\"foundry_community_macros\":false,\"foundryvtt-maps-community-maps\":false,\"foundry_community_tables\":false,\"foundryvtt-arms-reach\":true,\"foundryvtt-compendiums-mix-dnd5e-private\":false,\"compendiums-mix-dnd5e\":false,\"foundryvtt-compendiums-mix-dnd5e\":false,\"foundryvtt-compendiums-world-stormsteel\":false,\"fxmaster\":true,\"healthEstimate\":false,\"hidden-entity-links\":true,\"ignore-vision\":false,\"illandril-token-hud-scale\":true,\"introduce-me\":true,\"itemcollection\":false,\"item-delete-check\":true,\"itemacro\":true,\"item-piles\":false,\"items-with-spells-5e\":true,\"animated-spell-effects\":false,\"JB2A_DnD5e\":false,\"kanka-foundry\":false,\"lmrtfy\":true,\"levels\":false,\"colorsettings\":true,\"active-effect-manager-lib\":true,\"_chatcommands\":false,\"scene-packer\":false,\"lib-wrapper\":true,\"LockView\":false,\"multi-token-edit\":true,\"midi-qol\":true,\"mobile-improvements\":false,\"module-credits\":true,\"monks-active-tiles\":true,\"monks-enhanced-journal\":true,\"monks-little-details\":true,\"monks-player-settings\":true,\"monks-scene-navigation\":true,\"monks-shops\":true,\"monks-sound-enhancements\":true,\"monks-tokenbar\":true,\"monks-wall-enhancement\":false,\"narrator-tools\":true,\"permission_viewer\":true,\"perfect-vision\":true,\"plutonium\":false,\"popout\":true,\"qol-maximize-reopened-sheets\":true,\"quick-insert\":false,\"quickscale\":true,\"rangefinder\":false,\"remote-highlight-ui\":false,\"rest-recovery\":true,\"RWE\":true,\"roll-new-character-stats\":false,\"symbaroum5ecore\":false,\"sequencer\":true,\"share-media\":true,\"SharedVision\":false,\"sidebar-context\":false,\"sidebar-macros\":false,\"foundryvtt-simple-calendar\":true,\"smarttarget\":true,\"socketlib\":true,\"splatter\":false,\"stairways\":false,\"statuscounter\":true,\"dnd-randomizer\":false,\"SupersHomebrewPack\":false,\"tagger\":true,\"theatre\":false,\"times-up\":true,\"token-action-hud\":true,\"token-attacher\":false,\"token-auras\":true,\"tokenmagic\":true,\"tokenmagic-automatic-wounds\":true,\"token-says\":false,\"token-variants\":false,\"token-z\":true,\"touch-vtt\":false,\"user-latency\":true,\"wall-height\":false,\"warpgate\":true,\"weatherblock\":false,\"weather-control\":false,\"weatherfx\":false,\"wild-magic-surge-5e\":false,\"window-controls\":false,\"world-scripter\":false,\"zoom-pan-options\":true,\"curtain-animations\":true,\"mmm\":true,\"monks-common-display\":false,\"multiple-document-selection\":true,\"tidy5e-sheet\":true,\"minimal-ui\":true,\"npc-generator-dnd5e\":false,\"smalltime\":false,\"compendiums-mix-dnd5e-ita-private\":true,\"compendiums-mix-dnd5e-private\":false,\"compendiums-world-stormsteel\":false,\"dae\":true,\"advanced-macros\":true,\"more-automated-spells-items-and-feats\":false,\"df-chat-enhance\":false,\"translation-dnd5e-it\":true,\"translation-core-it\":true,\"italian-modules-language-pack\":true,\"df-settings-clarity\":false,\"backpack-manager\":true,\"token-elevator\":false,\"visual-active-effects\":true,\"about-time\":true,\"color-picker\":false,\"ensemble\":false,\"babonus\":true,\"inventory-plus\":false,\"pdf-pager\":true,\"pin-cushion\":true,\"adv-reminder\":true,\"CautiousGamemastersPack\":false,\"routinglib\":false,\"mountup\":false,\"concentrationnotifier\":false,\"kctg-common\":false,\"select-tool-everywhere\":false,\"variant-encumbrance-dnd5e\":false}"
+  },
+  {
+    "key": "core.notesDisplayToggle",
+    "value": "true"
+  },
+  {
+    "key": "core.nue.shownTips",
+    "value": "true"
+  },
+  {
+    "key": "core.performanceMode",
+    "value": "2"
+  },
+  {
+    "key": "core.permissions",
+    "value": "{\"BROADCAST_AUDIO\":[2,3,4],\"BROADCAST_VIDEO\":[2,3,4],\"PING_CANVAS\":[1,2,3,4],\"TOKEN_CONFIGURE\":[2,3,4],\"JOURNAL_CREATE\":[2,3,4],\"NOTE_CREATE\":[3,4],\"TEMPLATE_CREATE\":[1,2,3,4],\"ACTOR_CREATE\":[2,3,4],\"ITEM_CREATE\":[3,4],\"TOKEN_CREATE\":[2,3,4],\"TOKEN_DELETE\":[2,3,4],\"SHOW_CURSOR\":[],\"SHOW_RULER\":[1,2,3,4],\"SETTINGS_MODIFY\":[3,4],\"WALL_DOORS\":[1,2,3,4],\"FILES_UPLOAD\":[3,4],\"DRAWING_CREATE\":[2,3,4],\"FILES_BROWSE\":[2,3,4],\"MACRO_SCRIPT\":[1,2,3,4],\"MESSAGE_WHISPER\":[1,2,3,4]}"
+  },
+  {
+    "key": "core.playlist.playingLocation",
+    "value": "\"bottom\""
+  },
+  {
+    "key": "core.rtcClientSettings",
+    "value": "{\"videoSrc\":\"default\",\"audioSrc\":\"1fc1938efaea2e92cea812a01267bbdebd728f34b153874874c325711dcd06a8\",\"audioSink\":\"0740885be6095f4fa55faaea3b4920eec4813f99ddc3cc8672c5dfaa713629c8\",\"dockPosition\":\"left\",\"hidePlayerList\":false,\"hideDock\":false,\"muteAll\":false,\"disableVideo\":false,\"borderColors\":false,\"nameplates\":1,\"voice\":{\"mode\":\"ptt\",\"pttName\":\"`\",\"pttDelay\":100,\"activityThreshold\":-45},\"users\":{}}"
+  },
+  {
+    "key": "core.sheetClasses",
+    "value": "{\"Actor\":{\"character\":\"dnd5e.Tidy5eSheet\",\"npc\":\"dnd5e.Tidy5eNPC\"}}"
+  },
+  {
+    "key": "core.time",
+    "value": "1664755369"
+  },
+  {
+    "key": "core.tourProgress",
+    "value": "{\"core\":{\"welcome\":0}}"
+  },
+  {
+    "key": "core.visionAnimation",
+    "value": "false"
+  },
+  {
+    "key": "dfreds-convenient-effects.chatMessagePermission",
+    "value": "\"4\""
+  },
+  {
+    "key": "dfreds-convenient-effects.controlsPermission",
+    "value": "\"4\""
+  },
+  {
+    "key": "dfreds-convenient-effects.expandedFolders",
+    "value": "[\"Favorites\"]"
+  },
+  {
+    "key": "dfreds-convenient-effects.favoriteEffectNames",
+    "value": "[\"\"]"
+  },
+  {
+    "key": "dfreds-convenient-effects.removeControlsPermission",
+    "value": "\"4\""
+  },
+  {
+    "key": "dnd5e.disableAdvancements",
+    "value": "true"
+  },
+  {
+    "key": "dnd5e.disableExperienceTracking",
+    "value": "true"
+  },
+  {
+    "key": "dnd5e.metricWeightUnits",
+    "value": "true"
+  },
+  {
+    "key": "dnd5e.systemMigrationVersion",
+    "value": "\"2.0.3\""
+  },
+  {
+    "key": "foundryvtt-simple-calendar.adventure-01-one-shot-01.theme",
+    "value": "\"dark\""
+  },
+  {
+    "key": "foundryvtt-simple-calendar.app-position",
+    "value": "{\"top\":157.5,\"left\":510}"
+  },
+  {
+    "key": "foundryvtt-simple-calendar.calendar-configuration",
+    "value": "[{\"id\":\"default\",\"name\":\"Default\",\"currentDate\":{\"year\":2022,\"month\":9,\"day\":2,\"seconds\":169},\"general\":{\"gameWorldTimeIntegration\":\"mixed\",\"showClock\":true,\"noteDefaultVisibility\":false,\"postNoteRemindersOnFoundryLoad\":true,\"pf2eSync\":true,\"dateFormat\":{\"date\":\"MMMM DD, YYYY\",\"time\":\"HH:mm:ss\",\"monthYear\":\"MMMM YAYYYYYZ\"}},\"leapYear\":{\"id\":\"bb150133\",\"rule\":\"gregorian\",\"customMod\":0},\"months\":[{\"id\":\"30939897\",\"name\":\"January\",\"description\":\"\",\"abbreviation\":\"Jan\",\"numericRepresentation\":1,\"numericRepresentationOffset\":0,\"numberOfDays\":31,\"numberOfLeapYearDays\":31,\"intercalary\":false,\"intercalaryInclude\":false,\"startingWeekday\":null},{\"id\":\"8787b8d8\",\"name\":\"February\",\"description\":\"\",\"abbreviation\":\"Feb\",\"numericRepresentation\":2,\"numericRepresentationOffset\":0,\"numberOfDays\":28,\"numberOfLeapYearDays\":29,\"intercalary\":false,\"intercalaryInclude\":false,\"startingWeekday\":null},{\"id\":\"e4adfae1\",\"name\":\"March\",\"description\":\"\",\"abbreviation\":\"Mar\",\"numericRepresentation\":3,\"numericRepresentationOffset\":0,\"numberOfDays\":31,\"numberOfLeapYearDays\":31,\"intercalary\":false,\"intercalaryInclude\":false,\"startingWeekday\":null},{\"id\":\"7d1a7283\",\"name\":\"April\",\"description\":\"\",\"abbreviation\":\"Apr\",\"numericRepresentation\":4,\"numericRepresentationOffset\":0,\"numberOfDays\":30,\"numberOfLeapYearDays\":30,\"intercalary\":false,\"intercalaryInclude\":false,\"startingWeekday\":null},{\"id\":\"f68ccdb5\",\"name\":\"May\",\"description\":\"\",\"abbreviation\":\"May\",\"numericRepresentation\":5,\"numericRepresentationOffset\":0,\"numberOfDays\":31,\"numberOfLeapYearDays\":31,\"intercalary\":false,\"intercalaryInclude\":false,\"startingWeekday\":null},{\"id\":\"d1273e7f\",\"name\":\"June\",\"description\":\"\",\"abbreviation\":\"Jun\",\"numericRepresentation\":6,\"numericRepresentationOffset\":0,\"numberOfDays\":30,\"numberOfLeapYearDays\":30,\"intercalary\":false,\"intercalaryInclude\":false,\"startingWeekday\":null},{\"id\":\"a17de5d8\",\"name\":\"July\",\"description\":\"\",\"abbreviation\":\"Jul\",\"numericRepresentation\":7,\"numericRepresentationOffset\":0,\"numberOfDays\":31,\"numberOfLeapYearDays\":31,\"intercalary\":false,\"intercalaryInclude\":false,\"startingWeekday\":null},{\"id\":\"a809c9c1\",\"name\":\"August\",\"description\":\"\",\"abbreviation\":\"Aug\",\"numericRepresentation\":8,\"numericRepresentationOffset\":0,\"numberOfDays\":31,\"numberOfLeapYearDays\":31,\"intercalary\":false,\"intercalaryInclude\":false,\"startingWeekday\":null},{\"id\":\"39a86cce\",\"name\":\"September\",\"description\":\"\",\"abbreviation\":\"Sep\",\"numericRepresentation\":9,\"numericRepresentationOffset\":0,\"numberOfDays\":30,\"numberOfLeapYearDays\":30,\"intercalary\":false,\"intercalaryInclude\":false,\"startingWeekday\":null},{\"id\":\"ed6fe84b\",\"name\":\"October\",\"description\":\"\",\"abbreviation\":\"Oct\",\"numericRepresentation\":10,\"numericRepresentationOffset\":0,\"numberOfDays\":31,\"numberOfLeapYearDays\":31,\"intercalary\":false,\"intercalaryInclude\":false,\"startingWeekday\":null},{\"id\":\"2c173d71\",\"name\":\"November\",\"description\":\"\",\"abbreviation\":\"Nov\",\"numericRepresentation\":11,\"numericRepresentationOffset\":0,\"numberOfDays\":30,\"numberOfLeapYearDays\":30,\"intercalary\":false,\"intercalaryInclude\":false,\"startingWeekday\":null},{\"id\":\"d5b3f3ad\",\"name\":\"December\",\"description\":\"\",\"abbreviation\":\"Dec\",\"numericRepresentation\":12,\"numericRepresentationOffset\":0,\"numberOfDays\":31,\"numberOfLeapYearDays\":31,\"intercalary\":false,\"intercalaryInclude\":false,\"startingWeekday\":null}],\"moons\":[{\"id\":\"95755bff\",\"name\":\"Moon\",\"cycleLength\":29.53059,\"firstNewMoon\":{\"yearReset\":\"none\",\"yearX\":0,\"year\":2000,\"month\":1,\"day\":4},\"phases\":[{\"name\":\"New Moon\",\"length\":1,\"icon\":\"new\",\"singleDay\":true},{\"name\":\"Waxing Crescent\",\"length\":6.38265,\"icon\":\"waxing-crescent\",\"singleDay\":false},{\"name\":\"First Quarter\",\"length\":1,\"icon\":\"first-quarter\",\"singleDay\":true},{\"name\":\"Waxing Gibbous\",\"length\":6.38265,\"icon\":\"waxing-gibbous\",\"singleDay\":false},{\"name\":\"Full Moon\",\"length\":1,\"icon\":\"full\",\"singleDay\":true},{\"name\":\"Waning Gibbous\",\"length\":6.38265,\"icon\":\"waning-gibbous\",\"singleDay\":false},{\"name\":\"Last Quarter\",\"length\":1,\"icon\":\"last-quarter\",\"singleDay\":true},{\"name\":\"Waning Crescent\",\"length\":6.38265,\"icon\":\"waning-crescent\",\"singleDay\":false}],\"color\":\"#ffffff\",\"cycleDayAdjust\":0.5}],\"noteCategories\":[{\"name\":\"Holiday\",\"textColor\":\"#FFFFFF\",\"color\":\"#148e94\"}],\"seasons\":[{\"id\":\"51404f6d\",\"name\":\"Spring\",\"description\":\"\",\"startingMonth\":2,\"startingDay\":19,\"color\":\"#46b946\",\"icon\":\"spring\",\"sunriseTime\":21600,\"sunsetTime\":64800},{\"id\":\"cb5ba0cd\",\"name\":\"Summer\",\"description\":\"\",\"startingMonth\":5,\"startingDay\":19,\"color\":\"#e0c40b\",\"icon\":\"summer\",\"sunriseTime\":21600,\"sunsetTime\":64800},{\"id\":\"93a0fee0\",\"name\":\"Fall\",\"description\":\"\",\"startingMonth\":8,\"startingDay\":21,\"color\":\"#ff8e47\",\"icon\":\"fall\",\"sunriseTime\":21600,\"sunsetTime\":64800},{\"id\":\"d9e37f02\",\"name\":\"Winter\",\"description\":\"\",\"startingMonth\":11,\"startingDay\":20,\"color\":\"#479dff\",\"icon\":\"winter\",\"sunriseTime\":21600,\"sunsetTime\":64800}],\"time\":{\"id\":\"d428b4fe\",\"hoursInDay\":24,\"minutesInHour\":60,\"secondsInMinute\":60,\"gameTimeRatio\":1,\"unifyGameAndClockPause\":false,\"updateFrequency\":1},\"weekdays\":[{\"abbreviation\":\"Su\",\"id\":\"c80776a4\",\"name\":\"Sunday\",\"description\":\"\",\"numericRepresentation\":1,\"restday\":false},{\"abbreviation\":\"Mo\",\"id\":\"8e65dfab\",\"name\":\"Monday\",\"description\":\"\",\"numericRepresentation\":2,\"restday\":false},{\"abbreviation\":\"Tu\",\"id\":\"9af5922a\",\"name\":\"Tuesday\",\"description\":\"\",\"numericRepresentation\":3,\"restday\":false},{\"abbreviation\":\"We\",\"id\":\"8a864ded\",\"name\":\"Wednesday\",\"description\":\"\",\"numericRepresentation\":4,\"restday\":false},{\"abbreviation\":\"Th\",\"id\":\"ade741ee\",\"name\":\"Thursday\",\"description\":\"\",\"numericRepresentation\":5,\"restday\":false},{\"abbreviation\":\"Fr\",\"id\":\"832a58e1\",\"name\":\"Friday\",\"description\":\"\",\"numericRepresentation\":6,\"restday\":false},{\"abbreviation\":\"Sa\",\"id\":\"79c4701a\",\"name\":\"Saturday\",\"description\":\"\",\"numericRepresentation\":7,\"restday\":false}],\"year\":{\"id\":\"c9471093\",\"numericRepresentation\":2022,\"prefix\":\"\",\"postfix\":\"\",\"showWeekdayHeadings\":true,\"firstWeekday\":4,\"yearZero\":1970,\"yearNames\":[],\"yearNamingRule\":\"default\",\"yearNamesStart\":0}}]"
+  },
+  {
+    "key": "foundryvtt-simple-calendar.open-on-load",
+    "value": "false"
+  },
+  {
+    "key": "fxmaster.clientMigration",
+    "value": "1"
+  },
+  {
+    "key": "fxmaster.migration",
+    "value": "3"
+  },
+  {
+    "key": "hidden-entity-links.hidecards",
+    "value": "true"
+  },
+  {
+    "key": "hidden-entity-links.hidecompendium",
+    "value": "true"
+  },
+  {
+    "key": "hidden-entity-links.hideplaylists",
+    "value": "true"
+  },
+  {
+    "key": "hidden-entity-links.hidescenes",
+    "value": "true"
+  },
+  {
+    "key": "hidden-entity-links.hidesettings",
+    "value": "true"
+  },
+  {
+    "key": "hidden-entity-links.hidetables",
+    "value": "true"
+  },
+  {
+    "key": "illandril-token-hud-scale.settingsVersion",
+    "value": "3"
+  },
+  {
+    "key": "introduce-me.use-token",
+    "value": "true"
+  },
+  {
+    "key": "italian-modules-language-pack.show-dialog",
+    "value": "false"
+  },
+  {
+    "key": "lmrtfy.useTokenImageOnRequester",
+    "value": "true"
+  },
+  {
+    "key": "midi-qol.ColoredBorders",
+    "value": "\"none\""
+  },
+  {
+    "key": "midi-qol.ConfigSettings",
+    "value": "{\"addDead\":\"overlay\",\"addWounded\":0,\"allowUseMacro\":true,\"allowActorUseMacro\":false,\"attackPerTarget\":false,\"autoApplyDamage\":\"yes\",\"playerDamageCard\":\"playerresults\",\"playerCardDamageDifferent\":false,\"hidePlayerDamageCard\":true,\"autoCEEffects\":\"itempri\",\"autoCheckHit\":\"all\",\"autoCheckSaves\":\"all\",\"autoFastForward\":\"attack\",\"autoRollAttack\":false,\"autoRollDamage\":\"onHit\",\"autoTarget\":\"wallsBlockIgnoreDefeated\",\"checkSaveText\":true,\"concentrationAutomation\":true,\"consumeResource\":\"none\",\"convenientEffectsReaction\":\"Reaction\",\"criticalSound\":\"sounds/dice.wav\",\"customSoundsPlaylist\":\"none\",\"damageImmunities\":\"immunityPhysical\",\"damageResistanceMultiplier\":0.5,\"damageVulnerabilityMultiplier\":2,\"defaultSaveMult\":0.5,\"diceSound\":\"sounds/dice.wav\",\"displayHitResultNumeric\":true,\"displaySaveAdvantage\":true,\"displaySaveDC\":true,\"doReactions\":\"all\",\"effectActivation\":false,\"enableddbGL\":false,\"enforceReactions\":\"none\",\"enforceBonusActions\":\"none\",\"fixStickyKeys\":true,\"fumbleSound\":\"sounds/dice.wav\",\"ghostRolls\":false,\"gmAutoAttack\":true,\"gmAutoDamage\":\"onHit\",\"gmAutoFastForwardAttack\":false,\"gmAutoFastForwardDamage\":false,\"gmConsumeResource\":\"none\",\"gmDoReactions\":\"all\",\"gmHide3dDice\":false,\"gmLateTargeting\":\"none\",\"gmRemoveButtons\":\"all\",\"hideRollDetails\":\"hitDamage\",\"ignoreSpellReactionRestriction\":false,\"itemRollStartWorkflow\":false,\"itemTypeList\":[\"weapon\",\"equipment\",\"consumable\",\"tool\",\"loot\",\"background\",\"class\",\"subclass\",\"spell\",\"feat\",\"backpack\"],\"itemUseSound\":\"\",\"keepRollStats\":false,\"keyMapping\":{\"DND5E.Advantage\":\"altKey\",\"DND5E.Disadvantage\":\"ctrlKey\",\"DND5E.Critical\":\"altKey\",\"DND5E.Versatile\":\"shiftKey\"},\"mergeCard\":true,\"mergeCardCondensed\":true,\"optionalRulesEnabled\":true,\"paranoidGM\":false,\"playerRollSaves\":\"mtb\",\"playerSaveTimeout\":30,\"playerStatsOnly\":false,\"potionUseSound\":\"\",\"promptDamageRoll\":true,\"quickSettings\":true,\"rangeTarget\":\"wallsBlockIgnoreDefeated\",\"reactionTimeout\":10,\"recordAOO\":\"none\",\"removeButtons\":\"all\",\"removeConcentration\":true,\"requireMagical\":\"off\",\"requiresTargets\":\"combat\",\"rollNPCLinkedSaves\":\"mtb\",\"rollNPCSaves\":\"mtb\",\"rollOtherDamage\":\"none\",\"rollOtherSpellDamage\":\"none\",\"saveStatsEvery\":20,\"showFastForward\":false,\"showItemDetails\":\"pc\",\"showReactionAttackRoll\":\"all\",\"showReactionChatMessage\":false,\"singleConcentrationRoll\":true,\"spellHitSound\":\"\",\"spellUseSound\":\"\",\"spellUseSoundRanged\":\"\",\"tempHPDamageConcentrationCheck\":false,\"noConcnetrationDamageCheck\":false,\"toggleOptionalRules\":false,\"useCustomSounds\":true,\"usePlayerPortrait\":false,\"useTokenNames\":true,\"weaponHitSound\":\"\",\"weaponUseSound\":\"\",\"weaponUseSoundRanged\":\"\",\"rollAlternate\":\"off\",\"optionalRules\":{\"invisAdvantage\":false,\"checkRange\":true,\"wallsBlockRange\":\"center\",\"nearbyFoe\":5,\"nearbyAllyRanged\":0,\"incapacitated\":true,\"removeHiddenInvis\":false,\"maxDRValue\":false,\"distanceIncludesHeight\":false,\"criticalSaves\":false,\"activeDefence\":false,\"challengeModeArmor\":false,\"challengeModeArmorScale\":false,\"checkFlanking\":\"advonly\",\"optionalCritRule\":-1,\"actionSpecialDurationImmediate\":false,\"challengModeArmor\":false,\"enableddbGL\":false},\"autoRemoveTemplate\":true,\"autoItemEffects\":\"applyNoButton\",\"damageImmunityMultiplier\":0,\"skillAbilityCheckAdvantage\":true}"
+  },
+  {
+    "key": "midi-qol.CriticalDamage",
+    "value": "\"doubleDice\""
+  },
+  {
+    "key": "midi-qol.Debug",
+    "value": "\"none\""
+  },
+  {
+    "key": "midi-qol.ItemRollButtons",
+    "value": "false"
+  },
+  {
+    "key": "midi-qol.LateTargeting",
+    "value": "\"all\""
+  },
+  {
+    "key": "midi-qol.MidiSoundSettings",
+    "value": "{\"any\":{},\"version\":\"0.9.48\"}"
+  },
+  {
+    "key": "minimal-ui.foundryLogoSize",
+    "value": "\"standard\""
+  },
+  {
+    "key": "minimal-ui.hotbar",
+    "value": "\"shown\""
+  },
+  {
+    "key": "minimal-ui.hotbarPosition",
+    "value": "\"default\""
+  },
+  {
+    "key": "minimal-ui.playerList",
+    "value": "\"default\""
+  },
+  {
+    "key": "minimal-ui.playerListSize",
+    "value": "\"small\""
+  },
+  {
+    "key": "minimal-ui.sceneNavigation",
+    "value": "\"shown\""
+  },
+  {
+    "key": "module-credits.clientMigratedVersion",
+    "value": "\"2.1.4\""
+  },
+  {
+    "key": "module-credits.enableGlobalConflicts",
+    "value": "true"
+  },
+  {
+    "key": "module-credits.presetsRollbacks",
+    "value": "[{\"automated-polymorpher\":true,\"dnd5e-custom-skills\":false,\"acelib\":false,\"metric-ruler-labels\":false,\"always-hp\":true,\"angela-maps-alley\":false,\"arbron-hp-bar\":true,\"enhancedcombathud\":false,\"autocomplete-inline-properties\":false,\"autoanimations\":true,\"automated-evocations-variant\":true,\"journal-icon-numbers\":false,\"babele\":true,\"betterroofs\":false,\"bossbar\":true,\"calendar-weather\":false,\"chat-images\":true,\"chat-portrait\":true,\"combat-hp-display\":false,\"combat-utility-belt\":true,\"compendium-folders\":true,\"comprehend-languages\":true,\"danger-zone\":false,\"death-in-darkness\":false,\"ddd-bloody-blueprints-and-macabre-maps\":false,\"df-architect\":false,\"dfreds-convenient-effects\":true,\"dfreds-droppables\":false,\"dfreds-effects-panel\":false,\"dfreds-pocket-change\":false,\"dice-calculator\":true,\"dipped-in-poison\":false,\"dnd-ui\":false,\"drag-all-to-hotbar\":true,\"drag-ruler\":false,\"dragupload\":false,\"drgh-hostile-takeover\":false,\"effective-transferral\":true,\"flying-tokens\":true,\"forien-copy-environment\":true,\"foundry_community_macros\":false,\"foundryvtt-maps-community-maps\":false,\"foundry_community_tables\":false,\"foundryvtt-arms-reach\":true,\"foundryvtt-compendiums-mix-dnd5e-private\":false,\"compendiums-mix-dnd5e\":false,\"foundryvtt-compendiums-mix-dnd5e\":false,\"foundryvtt-compendiums-world-stormsteel\":false,\"fxmaster\":true,\"healthEstimate\":false,\"hidden-entity-links\":true,\"ignore-vision\":false,\"illandril-token-hud-scale\":true,\"introduce-me\":true,\"itemcollection\":false,\"item-delete-check\":true,\"itemacro\":true,\"item-piles\":false,\"items-with-spells-5e\":true,\"animated-spell-effects\":false,\"JB2A_DnD5e\":false,\"kanka-foundry\":false,\"lmrtfy\":true,\"levels\":false,\"colorsettings\":true,\"active-effect-manager-lib\":true,\"_chatcommands\":false,\"scene-packer\":false,\"lib-wrapper\":true,\"LockView\":false,\"multi-token-edit\":true,\"midi-qol\":true,\"mobile-improvements\":false,\"module-credits\":true,\"monks-active-tiles\":true,\"monks-enhanced-journal\":true,\"monks-little-details\":true,\"monks-player-settings\":true,\"monks-scene-navigation\":true,\"monks-shops\":true,\"monks-sound-enhancements\":true,\"monks-tokenbar\":true,\"monks-wall-enhancement\":false,\"narrator-tools\":true,\"permission_viewer\":true,\"perfect-vision\":true,\"plutonium\":true,\"popout\":true,\"qol-maximize-reopened-sheets\":true,\"quick-insert\":false,\"quickscale\":true,\"rangefinder\":false,\"remote-highlight-ui\":false,\"rest-recovery\":true,\"RWE\":true,\"roll-new-character-stats\":false,\"symbaroum5ecore\":false,\"sequencer\":true,\"share-media\":true,\"SharedVision\":false,\"sidebar-context\":false,\"sidebar-macros\":false,\"foundryvtt-simple-calendar\":true,\"smarttarget\":true,\"socketlib\":true,\"splatter\":false,\"stairways\":false,\"statuscounter\":false,\"dnd-randomizer\":true,\"SupersHomebrewPack\":false,\"tagger\":true,\"theatre\":true,\"times-up\":true,\"token-action-hud\":true,\"token-attacher\":false,\"token-auras\":true,\"tokenmagic\":true,\"tokenmagic-automatic-wounds\":true,\"token-says\":false,\"token-variants\":false,\"token-z\":true,\"touch-vtt\":false,\"user-latency\":true,\"variant-encumbrance-dnd5e\":true,\"wall-height\":false,\"warpgate\":true,\"weatherblock\":false,\"weather-control\":false,\"weatherfx\":false,\"wild-magic-surge-5e\":false,\"window-controls\":false,\"world-scripter\":false,\"zoom-pan-options\":true,\"curtain-animations\":true,\"mmm\":true,\"monks-common-display\":false,\"multiple-document-selection\":true,\"tidy5e-sheet\":true,\"minimal-ui\":true,\"npc-generator-dnd5e\":true,\"smalltime\":false,\"compendiums-mix-dnd5e-ita-private\":true,\"compendiums-mix-dnd5e-private\":false,\"compendiums-world-stormsteel\":false,\"dae\":true,\"advanced-macros\":true,\"more-automated-spells-items-and-feats\":false,\"df-chat-enhance\":false,\"translation-dnd5e-it\":true,\"translation-core-it\":true,\"italian-modules-language-pack\":true,\"df-settings-clarity\":false,\"backpack-manager\":true,\"token-elevator\":false,\"visual-active-effects\":true,\"about-time\":true,\"color-picker\":false,\"ensemble\":false,\"babonus\":true,\"inventory-plus\":false,\"pdf-pager\":false,\"pin-cushion\":true},{\"automated-polymorpher\":true,\"dnd5e-custom-skills\":false,\"acelib\":false,\"metric-ruler-labels\":false,\"always-hp\":true,\"angela-maps-alley\":false,\"arbron-hp-bar\":true,\"enhancedcombathud\":false,\"autocomplete-inline-properties\":false,\"autoanimations\":true,\"automated-evocations-variant\":true,\"journal-icon-numbers\":false,\"babele\":true,\"betterroofs\":false,\"bossbar\":true,\"calendar-weather\":false,\"chat-images\":true,\"chat-portrait\":true,\"combat-hp-display\":false,\"combat-utility-belt\":true,\"compendium-folders\":true,\"comprehend-languages\":true,\"danger-zone\":false,\"death-in-darkness\":false,\"ddd-bloody-blueprints-and-macabre-maps\":false,\"df-architect\":false,\"dfreds-convenient-effects\":true,\"dfreds-droppables\":false,\"dfreds-effects-panel\":false,\"dfreds-pocket-change\":false,\"dice-calculator\":true,\"dipped-in-poison\":false,\"dnd-ui\":false,\"drag-all-to-hotbar\":true,\"drag-ruler\":false,\"dragupload\":false,\"drgh-hostile-takeover\":true,\"effective-transferral\":true,\"flying-tokens\":true,\"forien-copy-environment\":true,\"foundry_community_macros\":false,\"foundryvtt-maps-community-maps\":false,\"foundry_community_tables\":false,\"foundryvtt-arms-reach\":true,\"foundryvtt-compendiums-mix-dnd5e-private\":false,\"compendiums-mix-dnd5e\":false,\"foundryvtt-compendiums-mix-dnd5e\":false,\"foundryvtt-compendiums-world-stormsteel\":false,\"fxmaster\":true,\"healthEstimate\":false,\"hidden-entity-links\":true,\"ignore-vision\":false,\"illandril-token-hud-scale\":true,\"introduce-me\":true,\"itemcollection\":false,\"item-delete-check\":true,\"itemacro\":true,\"item-piles\":false,\"items-with-spells-5e\":true,\"animated-spell-effects\":false,\"JB2A_DnD5e\":false,\"kanka-foundry\":false,\"lmrtfy\":true,\"levels\":false,\"colorsettings\":true,\"active-effect-manager-lib\":true,\"_chatcommands\":false,\"scene-packer\":false,\"lib-wrapper\":true,\"LockView\":false,\"multi-token-edit\":true,\"midi-qol\":true,\"mobile-improvements\":false,\"module-credits\":true,\"monks-active-tiles\":true,\"monks-enhanced-journal\":true,\"monks-little-details\":true,\"monks-player-settings\":true,\"monks-scene-navigation\":true,\"monks-shops\":true,\"monks-sound-enhancements\":true,\"monks-tokenbar\":true,\"monks-wall-enhancement\":false,\"narrator-tools\":true,\"permission_viewer\":true,\"perfect-vision\":true,\"plutonium\":true,\"popout\":true,\"qol-maximize-reopened-sheets\":true,\"quick-insert\":false,\"quickscale\":true,\"rangefinder\":false,\"remote-highlight-ui\":false,\"rest-recovery\":true,\"RWE\":true,\"roll-new-character-stats\":false,\"symbaroum5ecore\":false,\"sequencer\":true,\"share-media\":true,\"SharedVision\":false,\"sidebar-context\":false,\"sidebar-macros\":false,\"foundryvtt-simple-calendar\":true,\"smarttarget\":true,\"socketlib\":true,\"splatter\":false,\"stairways\":false,\"statuscounter\":false,\"dnd-randomizer\":true,\"SupersHomebrewPack\":false,\"tagger\":true,\"theatre\":true,\"times-up\":true,\"token-action-hud\":true,\"token-attacher\":false,\"token-auras\":true,\"tokenmagic\":true,\"tokenmagic-automatic-wounds\":true,\"token-says\":false,\"token-variants\":false,\"token-z\":true,\"touch-vtt\":false,\"user-latency\":true,\"variant-encumbrance-dnd5e\":true,\"wall-height\":false,\"warpgate\":true,\"weatherblock\":false,\"weather-control\":false,\"weatherfx\":false,\"wild-magic-surge-5e\":false,\"window-controls\":false,\"world-scripter\":false,\"zoom-pan-options\":true,\"curtain-animations\":true,\"mmm\":true,\"monks-common-display\":false,\"multiple-document-selection\":true,\"tidy5e-sheet\":true,\"minimal-ui\":true,\"npc-generator-dnd5e\":true,\"smalltime\":false,\"compendiums-mix-dnd5e-ita-private\":true,\"compendiums-mix-dnd5e-private\":false,\"compendiums-world-stormsteel\":false,\"dae\":true,\"advanced-macros\":true,\"more-automated-spells-items-and-feats\":false,\"df-chat-enhance\":false,\"translation-dnd5e-it\":true,\"translation-core-it\":true,\"italian-modules-language-pack\":true,\"df-settings-clarity\":false,\"backpack-manager\":true,\"token-elevator\":false,\"visual-active-effects\":true,\"about-time\":true,\"color-picker\":false,\"ensemble\":false,\"babonus\":true,\"inventory-plus\":false,\"pdf-pager\":false,\"pin-cushion\":true},{\"automated-polymorpher\":false,\"dnd5e-custom-skills\":false,\"acelib\":false,\"metric-ruler-labels\":false,\"always-hp\":true,\"angela-maps-alley\":false,\"arbron-hp-bar\":true,\"enhancedcombathud\":false,\"autocomplete-inline-properties\":false,\"autoanimations\":true,\"automated-evocations-variant\":true,\"journal-icon-numbers\":false,\"babele\":true,\"betterroofs\":false,\"bossbar\":true,\"calendar-weather\":false,\"chat-images\":true,\"chat-portrait\":true,\"combat-hp-display\":false,\"combat-utility-belt\":true,\"compendium-folders\":true,\"comprehend-languages\":true,\"danger-zone\":false,\"death-in-darkness\":false,\"ddd-bloody-blueprints-and-macabre-maps\":false,\"df-architect\":false,\"dfreds-convenient-effects\":true,\"dfreds-droppables\":false,\"dfreds-effects-panel\":false,\"dfreds-pocket-change\":false,\"dice-calculator\":true,\"dipped-in-poison\":false,\"dnd-ui\":false,\"drag-all-to-hotbar\":true,\"drag-ruler\":false,\"dragupload\":false,\"drgh-hostile-takeover\":false,\"effective-transferral\":true,\"flying-tokens\":true,\"forien-copy-environment\":true,\"foundry_community_macros\":false,\"foundryvtt-maps-community-maps\":false,\"foundry_community_tables\":false,\"foundryvtt-arms-reach\":true,\"foundryvtt-compendiums-mix-dnd5e-private\":false,\"compendiums-mix-dnd5e\":false,\"foundryvtt-compendiums-mix-dnd5e\":false,\"foundryvtt-compendiums-world-stormsteel\":false,\"fxmaster\":true,\"healthEstimate\":false,\"hidden-entity-links\":true,\"ignore-vision\":false,\"illandril-token-hud-scale\":true,\"introduce-me\":true,\"itemcollection\":false,\"item-delete-check\":true,\"itemacro\":true,\"item-piles\":false,\"items-with-spells-5e\":true,\"animated-spell-effects\":false,\"JB2A_DnD5e\":false,\"kanka-foundry\":false,\"lmrtfy\":true,\"levels\":false,\"colorsettings\":true,\"active-effect-manager-lib\":true,\"_chatcommands\":false,\"scene-packer\":false,\"lib-wrapper\":true,\"LockView\":false,\"multi-token-edit\":true,\"midi-qol\":true,\"mobile-improvements\":false,\"module-credits\":true,\"monks-active-tiles\":true,\"monks-enhanced-journal\":true,\"monks-little-details\":true,\"monks-player-settings\":true,\"monks-scene-navigation\":true,\"monks-shops\":true,\"monks-sound-enhancements\":true,\"monks-tokenbar\":true,\"monks-wall-enhancement\":false,\"narrator-tools\":true,\"permission_viewer\":true,\"perfect-vision\":true,\"plutonium\":true,\"popout\":true,\"qol-maximize-reopened-sheets\":true,\"quick-insert\":false,\"quickscale\":true,\"rangefinder\":false,\"remote-highlight-ui\":false,\"rest-recovery\":true,\"RWE\":true,\"roll-new-character-stats\":false,\"symbaroum5ecore\":false,\"sequencer\":true,\"share-media\":true,\"SharedVision\":false,\"sidebar-context\":false,\"sidebar-macros\":false,\"foundryvtt-simple-calendar\":true,\"smarttarget\":true,\"socketlib\":true,\"splatter\":false,\"stairways\":false,\"statuscounter\":false,\"dnd-randomizer\":true,\"SupersHomebrewPack\":false,\"tagger\":true,\"theatre\":true,\"times-up\":true,\"token-action-hud\":true,\"token-attacher\":false,\"token-auras\":true,\"tokenmagic\":true,\"tokenmagic-automatic-wounds\":true,\"token-says\":false,\"token-variants\":false,\"token-z\":true,\"touch-vtt\":false,\"user-latency\":true,\"variant-encumbrance-dnd5e\":true,\"wall-height\":false,\"warpgate\":true,\"weatherblock\":false,\"weather-control\":false,\"weatherfx\":false,\"wild-magic-surge-5e\":false,\"window-controls\":false,\"world-scripter\":false,\"zoom-pan-options\":true,\"curtain-animations\":true,\"mmm\":true,\"monks-common-display\":false,\"multiple-document-selection\":true,\"tidy5e-sheet\":true,\"minimal-ui\":true,\"npc-generator-dnd5e\":true,\"smalltime\":false,\"compendiums-mix-dnd5e-ita-private\":true,\"compendiums-mix-dnd5e-private\":false,\"compendiums-world-stormsteel\":false,\"dae\":true,\"advanced-macros\":true,\"more-automated-spells-items-and-feats\":false,\"df-chat-enhance\":false,\"translation-dnd5e-it\":true,\"translation-core-it\":true,\"italian-modules-language-pack\":true,\"df-settings-clarity\":false,\"backpack-manager\":true,\"token-elevator\":false,\"visual-active-effects\":true,\"about-time\":true,\"color-picker\":false,\"ensemble\":false,\"babonus\":true,\"inventory-plus\":false,\"pdf-pager\":true,\"pin-cushion\":true},{\"automated-polymorpher\":false,\"dnd5e-custom-skills\":false,\"acelib\":false,\"metric-ruler-labels\":false,\"always-hp\":true,\"angela-maps-alley\":false,\"arbron-hp-bar\":true,\"enhancedcombathud\":false,\"autocomplete-inline-properties\":false,\"autoanimations\":true,\"automated-evocations-variant\":true,\"journal-icon-numbers\":false,\"babele\":true,\"betterroofs\":false,\"bossbar\":true,\"calendar-weather\":false,\"chat-images\":true,\"chat-portrait\":true,\"combat-hp-display\":false,\"combat-utility-belt\":true,\"compendium-folders\":true,\"comprehend-languages\":true,\"danger-zone\":false,\"death-in-darkness\":false,\"ddd-bloody-blueprints-and-macabre-maps\":false,\"df-architect\":false,\"dfreds-convenient-effects\":true,\"dfreds-droppables\":false,\"dfreds-effects-panel\":false,\"dfreds-pocket-change\":false,\"dice-calculator\":true,\"dipped-in-poison\":false,\"dnd-ui\":false,\"drag-all-to-hotbar\":true,\"drag-ruler\":false,\"dragupload\":false,\"drgh-hostile-takeover\":false,\"effective-transferral\":true,\"flying-tokens\":true,\"forien-copy-environment\":true,\"foundry_community_macros\":false,\"foundryvtt-maps-community-maps\":false,\"foundry_community_tables\":false,\"foundryvtt-arms-reach\":true,\"foundryvtt-compendiums-mix-dnd5e-private\":false,\"compendiums-mix-dnd5e\":false,\"foundryvtt-compendiums-mix-dnd5e\":false,\"foundryvtt-compendiums-world-stormsteel\":false,\"fxmaster\":true,\"healthEstimate\":false,\"hidden-entity-links\":true,\"ignore-vision\":false,\"illandril-token-hud-scale\":true,\"introduce-me\":true,\"itemcollection\":false,\"item-delete-check\":true,\"itemacro\":true,\"item-piles\":false,\"items-with-spells-5e\":true,\"animated-spell-effects\":false,\"JB2A_DnD5e\":false,\"kanka-foundry\":false,\"lmrtfy\":true,\"levels\":false,\"colorsettings\":true,\"active-effect-manager-lib\":true,\"_chatcommands\":false,\"scene-packer\":false,\"lib-wrapper\":true,\"LockView\":false,\"multi-token-edit\":true,\"midi-qol\":true,\"mobile-improvements\":false,\"module-credits\":true,\"monks-active-tiles\":true,\"monks-enhanced-journal\":true,\"monks-little-details\":true,\"monks-player-settings\":true,\"monks-scene-navigation\":true,\"monks-shops\":true,\"monks-sound-enhancements\":true,\"monks-tokenbar\":true,\"monks-wall-enhancement\":false,\"narrator-tools\":true,\"permission_viewer\":true,\"perfect-vision\":true,\"plutonium\":false,\"popout\":true,\"qol-maximize-reopened-sheets\":true,\"quick-insert\":false,\"quickscale\":true,\"rangefinder\":false,\"remote-highlight-ui\":false,\"rest-recovery\":true,\"RWE\":true,\"roll-new-character-stats\":false,\"symbaroum5ecore\":false,\"sequencer\":true,\"share-media\":true,\"SharedVision\":false,\"sidebar-context\":false,\"sidebar-macros\":false,\"foundryvtt-simple-calendar\":true,\"smarttarget\":true,\"socketlib\":true,\"splatter\":false,\"stairways\":false,\"statuscounter\":true,\"dnd-randomizer\":true,\"SupersHomebrewPack\":false,\"tagger\":true,\"theatre\":false,\"times-up\":true,\"token-action-hud\":true,\"token-attacher\":false,\"token-auras\":true,\"tokenmagic\":true,\"tokenmagic-automatic-wounds\":true,\"token-says\":false,\"token-variants\":false,\"token-z\":true,\"touch-vtt\":false,\"user-latency\":true,\"wall-height\":false,\"warpgate\":true,\"weatherblock\":false,\"weather-control\":false,\"weatherfx\":false,\"wild-magic-surge-5e\":false,\"window-controls\":false,\"world-scripter\":false,\"zoom-pan-options\":true,\"curtain-animations\":true,\"mmm\":true,\"monks-common-display\":false,\"multiple-document-selection\":true,\"tidy5e-sheet\":true,\"minimal-ui\":true,\"npc-generator-dnd5e\":true,\"smalltime\":false,\"compendiums-mix-dnd5e-ita-private\":true,\"compendiums-mix-dnd5e-private\":false,\"compendiums-world-stormsteel\":false,\"dae\":true,\"advanced-macros\":true,\"more-automated-spells-items-and-feats\":false,\"df-chat-enhance\":false,\"translation-dnd5e-it\":true,\"translation-core-it\":true,\"italian-modules-language-pack\":true,\"df-settings-clarity\":false,\"backpack-manager\":true,\"token-elevator\":false,\"visual-active-effects\":true,\"about-time\":true,\"color-picker\":false,\"ensemble\":false,\"babonus\":true,\"inventory-plus\":false,\"pdf-pager\":true,\"pin-cushion\":true,\"adv-reminder\":true,\"CautiousGamemastersPack\":false,\"routinglib\":false,\"mountup\":false},{\"automated-polymorpher\":false,\"dnd5e-custom-skills\":false,\"acelib\":false,\"metric-ruler-labels\":false,\"always-hp\":true,\"angela-maps-alley\":false,\"arbron-hp-bar\":true,\"enhancedcombathud\":false,\"autocomplete-inline-properties\":false,\"autoanimations\":true,\"automated-evocations-variant\":true,\"journal-icon-numbers\":false,\"babele\":true,\"betterroofs\":false,\"bossbar\":true,\"calendar-weather\":false,\"chat-images\":true,\"chat-portrait\":true,\"combat-hp-display\":true,\"combat-utility-belt\":true,\"compendium-folders\":true,\"comprehend-languages\":true,\"danger-zone\":false,\"death-in-darkness\":false,\"ddd-bloody-blueprints-and-macabre-maps\":false,\"df-architect\":false,\"dfreds-convenient-effects\":true,\"dfreds-droppables\":false,\"dfreds-effects-panel\":false,\"dfreds-pocket-change\":false,\"dice-calculator\":true,\"dipped-in-poison\":false,\"dnd-ui\":false,\"drag-all-to-hotbar\":true,\"drag-ruler\":false,\"dragupload\":false,\"drgh-hostile-takeover\":false,\"effective-transferral\":true,\"flying-tokens\":true,\"forien-copy-environment\":true,\"foundry_community_macros\":false,\"foundryvtt-maps-community-maps\":false,\"foundry_community_tables\":false,\"foundryvtt-arms-reach\":true,\"foundryvtt-compendiums-mix-dnd5e-private\":false,\"compendiums-mix-dnd5e\":false,\"foundryvtt-compendiums-mix-dnd5e\":false,\"foundryvtt-compendiums-world-stormsteel\":false,\"fxmaster\":true,\"healthEstimate\":false,\"hidden-entity-links\":true,\"ignore-vision\":false,\"illandril-token-hud-scale\":true,\"introduce-me\":true,\"itemcollection\":false,\"item-delete-check\":true,\"itemacro\":true,\"item-piles\":false,\"items-with-spells-5e\":true,\"animated-spell-effects\":false,\"JB2A_DnD5e\":false,\"kanka-foundry\":false,\"lmrtfy\":true,\"levels\":false,\"colorsettings\":true,\"active-effect-manager-lib\":true,\"_chatcommands\":false,\"scene-packer\":false,\"lib-wrapper\":true,\"LockView\":false,\"multi-token-edit\":true,\"midi-qol\":true,\"mobile-improvements\":false,\"module-credits\":true,\"monks-active-tiles\":true,\"monks-enhanced-journal\":true,\"monks-little-details\":true,\"monks-player-settings\":true,\"monks-scene-navigation\":true,\"monks-shops\":true,\"monks-sound-enhancements\":true,\"monks-tokenbar\":true,\"monks-wall-enhancement\":false,\"narrator-tools\":true,\"permission_viewer\":true,\"perfect-vision\":true,\"plutonium\":false,\"popout\":true,\"qol-maximize-reopened-sheets\":true,\"quick-insert\":false,\"quickscale\":true,\"rangefinder\":false,\"remote-highlight-ui\":false,\"rest-recovery\":true,\"RWE\":true,\"roll-new-character-stats\":false,\"symbaroum5ecore\":false,\"sequencer\":true,\"share-media\":true,\"SharedVision\":false,\"sidebar-context\":false,\"sidebar-macros\":false,\"foundryvtt-simple-calendar\":true,\"smarttarget\":true,\"socketlib\":true,\"splatter\":false,\"stairways\":false,\"statuscounter\":true,\"dnd-randomizer\":true,\"SupersHomebrewPack\":false,\"tagger\":true,\"theatre\":false,\"times-up\":true,\"token-action-hud\":true,\"token-attacher\":false,\"token-auras\":true,\"tokenmagic\":true,\"tokenmagic-automatic-wounds\":true,\"token-says\":false,\"token-variants\":false,\"token-z\":true,\"touch-vtt\":false,\"user-latency\":true,\"wall-height\":false,\"warpgate\":true,\"weatherblock\":false,\"weather-control\":false,\"weatherfx\":false,\"wild-magic-surge-5e\":false,\"window-controls\":false,\"world-scripter\":false,\"zoom-pan-options\":true,\"curtain-animations\":true,\"mmm\":true,\"monks-common-display\":false,\"multiple-document-selection\":true,\"tidy5e-sheet\":true,\"minimal-ui\":true,\"npc-generator-dnd5e\":true,\"smalltime\":false,\"compendiums-mix-dnd5e-ita-private\":true,\"compendiums-mix-dnd5e-private\":false,\"compendiums-world-stormsteel\":false,\"dae\":true,\"advanced-macros\":true,\"more-automated-spells-items-and-feats\":false,\"df-chat-enhance\":false,\"translation-dnd5e-it\":true,\"translation-core-it\":true,\"italian-modules-language-pack\":true,\"df-settings-clarity\":false,\"backpack-manager\":true,\"token-elevator\":false,\"visual-active-effects\":true,\"about-time\":true,\"color-picker\":false,\"ensemble\":false,\"babonus\":true,\"inventory-plus\":false,\"pdf-pager\":true,\"pin-cushion\":true,\"adv-reminder\":true,\"CautiousGamemastersPack\":false,\"routinglib\":false,\"mountup\":false}]"
+  },
+  {
+    "key": "module-credits.trackedChangelogs",
+    "value": "{\"LockView\":{\"title\":\"Lock View\",\"version\":\"1.5.5\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"RWE\":{\"title\":\"Revised Weapons & Equipment\",\"version\":\"1.3.0\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"SharedVision\":{\"title\":\"Shared Vision\",\"version\":\"1.1.2\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"acelib\":{\"title\":\"Ace Library\",\"version\":\"1.8.3\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"always-hp\":{\"title\":\"Always HP\",\"version\":\"10.3\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"arbron-hp-bar\":{\"title\":\"Arbron’s Improved HP Bar\",\"version\":\"2.2.4\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"autocomplete-inline-properties\":{\"title\":\"Autocomplete Inline Properties\",\"version\":\"2.9.0\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"colorsettings\":{\"title\":\"lib - Color Settings\",\"version\":\"2.9.0\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"combat-utility-belt\":{\"title\":\"Combat Utility Belt\",\"version\":\"1.10.3\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"compendium-folders\":{\"title\":\"Compendium Folders\",\"version\":\"2.5.5\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"dnd5e-custom-skills\":{\"title\":\"5e - Custom Abilities & Skills\",\"version\":\"1.1.3\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"drag-all-to-hotbar\":{\"title\":\"Drag Anything to Hotbar\",\"version\":\"1.1.0\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"drag-ruler\":{\"title\":\"Drag Ruler\",\"version\":\"1.13.2\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"fxmaster\":{\"title\":\"FXMaster\",\"version\":\"3.5.0\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"ignore-vision\":{\"title\":\"Ignore Vision\",\"version\":\"1.1.0\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"journal-icon-numbers\":{\"title\":\"Automatic Journal Icon Numbers\",\"version\":\"v1.8.1\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"lib-wrapper\":{\"title\":\"libWrapper\",\"version\":\"1.12.10.0\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"midi-qol\":{\"title\":\"Midi QOL\",\"version\":\"10.0.16\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"module-credits\":{\"title\":\"Module Management+\",\"version\":\"2.1.5\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"monks-active-tiles\":{\"title\":\"Monk's Active Tile Triggers\",\"version\":\"10.3\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"monks-enhanced-journal\":{\"title\":\"Monk's Enhanced Journal\",\"version\":\"10.4\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"monks-little-details\":{\"title\":\"Monk's Little Details\",\"version\":\"10.3\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"monks-player-settings\":{\"title\":\"Monk's Player Settings\",\"version\":\"1.0.6\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"monks-scene-navigation\":{\"title\":\"Monk's Scene Navigation\",\"version\":\"10.2\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"monks-sound-enhancements\":{\"title\":\"Monk's Sound Enhancements\",\"version\":\"1.0.4\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"monks-tokenbar\":{\"title\":\"Monk's TokenBar\",\"version\":\"10.3\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"monks-wall-enhancement\":{\"title\":\"Monk's Wall Enhancement\",\"version\":\"10.2\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"scene-packer\":{\"title\":\"Library: Scene Packer\",\"version\":\"2.6.9\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"sidebar-macros\":{\"title\":\"Sidebar Macros\",\"version\":\"0.8.2\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"socketlib\":{\"title\":\"socketlib\",\"version\":\"1.0.12\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"stairways\":{\"title\":\"Stairways (Teleporter)\",\"version\":\"0.8.99-rc2\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"token-action-hud\":{\"title\":\"Token Action HUD\",\"version\":\"3.0.12\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"window-controls\":{\"title\":\"Window Controls\",\"version\":\"1.10.0\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"monks-common-display\":{\"title\":\"Monk's Common Display\",\"version\":\"10.1\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"multiple-document-selection\":{\"title\":\"Multiple Document Selection\",\"version\":\"1.0.6\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"minimal-ui\":{\"title\":\"Minimal UI\",\"version\":\"1.5.0\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"df-chat-enhance\":{\"title\":\"DF Chat Enhancements\",\"version\":\"4.0.0\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"token-elevator\":{\"title\":\"Token Elevator\",\"version\":\"1.4.1\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"pdf-pager\":{\"title\":\"PDF Pager\",\"version\":\"0.27.0\",\"hasSeen\":true,\"type\":\"CHANGELOG\"},\"routinglib\":{\"title\":\"routinglib\",\"version\":\"1.0.6\",\"hasSeen\":true,\"type\":\"CHANGELOG\"}}"
+  },
+  {
+    "key": "module-credits.worldMigratedVersion",
+    "value": "\"2.1.4\""
+  },
+  {
+    "key": "monks-active-tiles.drop-item",
+    "value": "false"
+  },
+  {
+    "key": "monks-active-tiles.fix-action-names",
+    "value": "true"
+  },
+  {
+    "key": "monks-active-tiles.fix-imagecycle",
+    "value": "true"
+  },
+  {
+    "key": "monks-enhanced-journal.fix-journals",
+    "value": "false"
+  },
+  {
+    "key": "monks-enhanced-journal.rolling-module",
+    "value": "\"monks-tokenbar\""
+  },
+  {
+    "key": "monks-enhanced-journal.show-dialog",
+    "value": "false"
+  },
+  {
+    "key": "monks-little-details.auto-defeated",
+    "value": "\"all-zero\""
+  },
+  {
+    "key": "monks-little-details.change-invisible-image",
+    "value": "false"
+  },
+  {
+    "key": "monks-little-details.play-next-sound",
+    "value": "true"
+  },
+  {
+    "key": "monks-little-details.play-turn-sound",
+    "value": "true"
+  },
+  {
+    "key": "monks-little-details.show-bloodsplat",
+    "value": "\"false\""
+  },
+  {
+    "key": "monks-little-details.volume",
+    "value": "40"
+  },
+  {
+    "key": "monks-tokenbar.create-canvas-object",
+    "value": "false"
+  },
+  {
+    "key": "monks-tokenbar.divide-xp",
+    "value": "\"no-split\""
+  },
+  {
+    "key": "monks-tokenbar.loot-sheet",
+    "value": "\"none\""
+  },
+  {
+    "key": "monks-tokenbar.send-levelup-whisper",
+    "value": "false"
+  },
+  {
+    "key": "monks-tokenbar.show-inspiration",
+    "value": "true"
+  },
+  {
+    "key": "monks-tokenbar.show-xp-dialog",
+    "value": "false"
+  },
+  {
+    "key": "narrator-tools.sharedState",
+    "value": "{\"narration\":{\"id\":1,\"display\":false,\"message\":\"\",\"paused\":false},\"scenery\":false}"
+  },
+  {
+    "key": "perfect-vision.changelog",
+    "value": "1"
+  },
+  {
+    "key": "perfect-vision.migration",
+    "value": "1"
+  },
+  {
+    "key": "pin-cushion.specificFolder",
+    "value": "\"vh1r5QtXo92qd0er\""
+  },
+  {
+    "key": "rest-recovery.migration-version",
+    "value": "\"1.3.6\""
+  },
+  {
+    "key": "smarttarget.pipImgScale",
+    "value": "1.05"
+  },
+  {
+    "key": "smarttarget.pipScale",
+    "value": "49.4"
+  },
+  {
+    "key": "smarttarget.release",
+    "value": "1"
+  },
+  {
+    "key": "smarttarget.target-indicator",
+    "value": "\"5\""
+  },
+  {
+    "key": "smarttarget.useToken",
+    "value": "true"
+  },
+  {
+    "key": "smarttarget.useTokenGm",
+    "value": "2"
+  },
+  {
+    "key": "times-up.Debug",
+    "value": "\"none\""
+  },
+  {
+    "key": "token-action-hud.background",
+    "value": "\"#bbf8f3ff\""
+  },
+  {
+    "key": "token-action-hud.direction",
+    "value": "\"up\""
+  },
+  {
+    "key": "tokenmagic.migration",
+    "value": "\"0.4.3\""
+  },
+  {
+    "key": "tokenmagic.presets",
+    "value": "[{\"name\":\"bevel\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"bevel\",\"filterId\":\"bevel\",\"rotation\":0,\"thickness\":5,\"lightColor\":16711680,\"lightAlpha\":0.8,\"shadowColor\":65280,\"shadowAlpha\":0.5,\"animated\":{\"rotation\":{\"active\":true,\"clockWise\":true,\"loopDuration\":1600,\"animType\":\"syncRotation\"}}}]},{\"name\":\"adjustment\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"adjustment\",\"filterId\":\"adjustment\",\"saturation\":1.5,\"brightness\":1.5,\"contrast\":2,\"gamma\":2,\"red\":4,\"green\":0.25,\"blue\":0.25,\"alpha\":1,\"animated\":{\"alpha\":{\"active\":true,\"loopDuration\":5000,\"animType\":\"syncCosOscillation\",\"val1\":0.15,\"val2\":1}}}]},{\"name\":\"dropshadow\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"shadow\",\"filterId\":\"dropshadow\",\"rotation\":35,\"blur\":2,\"quality\":5,\"distance\":20,\"alpha\":0.7,\"padding\":10,\"shadowOnly\":false,\"color\":0,\"animated\":{\"blur\":{\"active\":true,\"loopDuration\":1500,\"animType\":\"syncCosOscillation\",\"val1\":2,\"val2\":3},\"rotation\":{\"active\":true,\"loopDuration\":150,\"animType\":\"syncSinOscillation\",\"val1\":33,\"val2\":35}}}]},{\"name\":\"outline\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"outline\",\"filterId\":\"outline\",\"padding\":10,\"color\":15622197,\"thickness\":1,\"quality\":5,\"animated\":{\"thickness\":{\"active\":true,\"loopDuration\":800,\"animType\":\"syncCosOscillation\",\"val1\":1,\"val2\":6}}}]},{\"name\":\"glow\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"glow\",\"filterId\":\"glow\",\"outerStrength\":7,\"innerStrength\":0,\"color\":24576,\"quality\":0.5,\"padding\":10,\"animated\":{\"color\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"colorOscillation\",\"val1\":12288,\"val2\":65280}}}]},{\"name\":\"bloom\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"xbloom\",\"filterId\":\"bloom\",\"threshold\":0.35,\"bloomScale\":0,\"brightness\":1,\"blur\":0.1,\"padding\":10,\"quality\":15,\"blendMode\":0,\"animated\":{\"bloomScale\":{\"active\":true,\"loopDuration\":2000,\"animType\":\"syncCosOscillation\",\"val1\":0,\"val2\":2.1},\"threshold\":{\"active\":false,\"loopDuration\":1000,\"animType\":\"syncCosOscillation\",\"val1\":0,\"val2\":1.9}}}]},{\"name\":\"distortion\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"distortion\",\"filterId\":\"distortion\",\"maskPath\":\"modules/tokenmagic/fx/assets/distortion-1.png\",\"maskSpriteScaleX\":5,\"maskSpriteScaleY\":5,\"padding\":20,\"animated\":{\"maskSpriteX\":{\"active\":true,\"speed\":0.05,\"animType\":\"move\"},\"maskSpriteY\":{\"active\":true,\"speed\":0.07,\"animType\":\"move\"}}}]},{\"name\":\"oldfilm\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"oldfilm\",\"filterId\":\"oldfilm\",\"sepia\":0.6,\"noise\":0.2,\"noiseSize\":1,\"scratch\":0.8,\"scratchDensity\":0.5,\"scratchWidth\":1.2,\"vignetting\":0.9,\"vignettingAlpha\":0.6,\"vignettingBlur\":0.2,\"animated\":{\"seed\":{\"active\":true,\"animType\":\"randomNumber\",\"val1\":0,\"val2\":1},\"vignetting\":{\"active\":true,\"animType\":\"syncCosOscillation\",\"loopDuration\":2000,\"val1\":0.2,\"val2\":0.4}}},{\"filterType\":\"outline\",\"filterId\":\"oldfilm\",\"color\":0,\"thickness\":0}]},{\"name\":\"twist\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"twist\",\"filterId\":\"twist\",\"radiusPercent\":120,\"angle\":0,\"animated\":{\"angle\":{\"active\":true,\"animType\":\"sinOscillation\",\"loopDuration\":10000,\"val1\":-1.8849555921538759,\"val2\":1.8849555921538759}}}]},{\"name\":\"bulge\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"bulgepinch\",\"filterId\":\"bulge\",\"padding\":150,\"strength\":0,\"zIndex\":2,\"radiusPercent\":200,\"animated\":{\"strength\":{\"active\":true,\"animType\":\"cosOscillation\",\"loopDuration\":2000,\"val1\":0,\"val2\":0.45}}}]},{\"name\":\"blur\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"blur\",\"filterId\":\"blur\",\"padding\":10,\"quality\":4,\"blur\":0,\"blurX\":0,\"blurY\":0,\"animated\":{\"blurX\":{\"active\":true,\"animType\":\"syncCosOscillation\",\"loopDuration\":500,\"val1\":0,\"val2\":6},\"blurY\":{\"active\":true,\"animType\":\"syncCosOscillation\",\"loopDuration\":750,\"val1\":0,\"val2\":6}}}]},{\"name\":\"zoomblur\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"zoomblur\",\"filterId\":\"zoomblur\",\"strength\":0.15,\"innerRadiusPercent\":65,\"radiusPercent\":100,\"padding\":30,\"animated\":{\"innerRadiusPercent\":{\"active\":true,\"animType\":\"sinOscillation\",\"loopDuration\":500,\"val1\":65,\"val2\":75}}}]},{\"name\":\"shockwave\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"shockwave\",\"filterId\":\"shockwave\",\"time\":0,\"amplitude\":8,\"wavelength\":75,\"radius\":500,\"brightness\":1.5,\"speed\":25,\"padding\":0,\"animated\":{\"time\":{\"animType\":\"cosOscillation\",\"active\":true,\"loopDuration\":1800,\"val1\":0,\"val2\":10}}}]},{\"name\":\"zapshadow\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"zapshadow\",\"filterId\":\"zapshadow\",\"alphaTolerance\":0.45}]},{\"name\":\"rays\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"ray\",\"filterId\":\"rays\",\"time\":0,\"color\":13598720,\"alpha\":0.5,\"divisor\":32,\"anchorX\":0,\"anchorY\":0,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0005,\"animType\":\"move\"}}}]},{\"name\":\"fog\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"fog\",\"filterId\":\"fog\",\"color\":0,\"density\":0.65,\"time\":0,\"dimX\":1,\"dimY\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":2.2,\"animType\":\"move\"}}}]},{\"name\":\"fumes\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"fumes\",\"filterId\":\"fumes\",\"color\":8421504,\"time\":0,\"blend\":8,\"animated\":{\"time\":{\"active\":true,\"speed\":0.001,\"animType\":\"move\"}}}]},{\"name\":\"electric\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"electric\",\"filterId\":\"electric\",\"color\":16777215,\"time\":0,\"blend\":1,\"intensity\":5,\"animated\":{\"time\":{\"active\":true,\"speed\":0.002,\"animType\":\"move\"}}}]},{\"name\":\"fire\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"fire\",\"filterId\":\"fire\",\"intensity\":1,\"color\":16777215,\"amplitude\":1,\"time\":0,\"blend\":2,\"fireBlend\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0024,\"animType\":\"move\"},\"intensity\":{\"active\":true,\"loopDuration\":15000,\"val1\":0.8,\"val2\":2,\"animType\":\"syncCosOscillation\"},\"amplitude\":{\"active\":true,\"loopDuration\":4400,\"val1\":1,\"val2\":1.4,\"animType\":\"syncCosOscillation\"}}}]},{\"name\":\"waves\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"wave\",\"filterId\":\"waves\",\"time\":0,\"anchorX\":0.5,\"anchorY\":0.5,\"strength\":0.015,\"frequency\":120,\"color\":16777215,\"maxIntensity\":2.5,\"minIntensity\":0.9,\"padding\":10,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0085,\"animType\":\"move\"},\"anchorX\":{\"active\":false,\"val1\":0.15,\"val2\":0.85,\"animType\":\"syncChaoticOscillation\",\"loopDuration\":20000},\"anchorY\":{\"active\":false,\"val1\":0.15,\"val2\":0.85,\"animType\":\"syncSinOscillation\",\"loopDuration\":20000}}}]},{\"name\":\"flood\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"flood\",\"filterId\":\"flood\",\"time\":0,\"color\":8379,\"billowy\":0.43,\"tintIntensity\":0.72,\"glint\":0.31,\"scale\":70,\"padding\":10,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0006,\"animType\":\"move\"}}}]},{\"name\":\"smoke\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"smoke\",\"filterId\":\"smoke\",\"color\":5282269,\"time\":0,\"blend\":2,\"dimX\":0.1,\"dimY\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":0.009,\"animType\":\"move\"}}}]},{\"name\":\"images\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"images\",\"filterId\":\"images\",\"time\":0,\"nbImage\":4,\"alphaImg\":1,\"alphaChr\":0,\"blend\":4,\"ampX\":0.1,\"ampY\":0.1,\"animated\":{\"time\":{\"active\":true,\"speed\":0.001,\"animType\":\"move\"}}}]},{\"name\":\"chaos-images\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"images\",\"filterId\":\"chaos-images\",\"time\":0,\"nbImage\":4,\"alphaImg\":1,\"alphaChr\":0,\"blend\":4,\"ampX\":0.1,\"ampY\":0.1,\"padding\":80,\"animated\":{\"time\":{\"active\":true,\"speed\":0.001,\"animType\":\"move\"},\"ampX\":{\"active\":true,\"val1\":0,\"val2\":0.3,\"chaosFactor\":0.03,\"animType\":\"syncChaoticOscillation\",\"loopDuration\":2000},\"ampY\":{\"active\":true,\"val1\":0,\"val2\":0.3,\"chaosFactor\":0.04,\"animType\":\"syncChaoticOscillation\",\"loopDuration\":1650},\"alphaChr\":{\"active\":true,\"animType\":\"randomNumberPerLoop\",\"val1\":0,\"val2\":1,\"loopDuration\":250},\"alphaImg\":{\"active\":true,\"animType\":\"randomNumberPerLoop\",\"val1\":0.8,\"val2\":1,\"loopDuration\":250},\"nbImage\":{\"active\":true,\"val1\":1,\"val2\":9,\"animType\":\"syncSinOscillation\",\"loopDuration\":1400}}}]},{\"name\":\"spectral-images\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"images\",\"filterId\":\"spectral-images\",\"time\":0,\"blend\":4,\"nbImage\":4,\"padding\":100,\"alphaImg\":0.5,\"alphaChr\":0,\"ampX\":0.1,\"ampY\":0.1,\"animated\":{\"time\":{\"speed\":0.001,\"animType\":\"move\"},\"ampX\":{\"val1\":0,\"val2\":0.22,\"animType\":\"syncCosOscillation\",\"loopDuration\":2500},\"ampY\":{\"val1\":0,\"val2\":0.24,\"animType\":\"syncCosOscillation\",\"loopDuration\":2500,\"pauseBetweenDuration\":2500},\"alphaChr\":{\"val1\":1,\"val2\":0,\"animType\":\"syncCosOscillation\",\"loopDuration\":2500},\"alphaImg\":{\"val1\":0.2,\"val2\":0.8,\"animType\":\"syncSinOscillation\",\"loopDuration\":2500}}}]},{\"name\":\"hexa-field\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"field\",\"filterId\":\"hexa-field\",\"shieldType\":2,\"gridPadding\":1.5,\"color\":13369548,\"time\":0,\"blend\":3,\"intensity\":1,\"lightAlpha\":0.5,\"lightSize\":0.5,\"scale\":1,\"radius\":1,\"chromatic\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0015,\"animType\":\"move\"}}}]},{\"name\":\"fire-field\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"field\",\"filterId\":\"fire-field\",\"shieldType\":1,\"gridPadding\":2,\"color\":15041872,\"time\":0,\"blend\":2,\"intensity\":1.15,\"lightAlpha\":2,\"lightSize\":0.7,\"scale\":1,\"radius\":1,\"chromatic\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0015,\"animType\":\"move\"}}}]},{\"name\":\"smoke-field\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"field\",\"filterId\":\"smoke-field\",\"shieldType\":3,\"gridPadding\":1.5,\"color\":6343792,\"time\":0,\"blend\":2,\"intensity\":0.9,\"lightAlpha\":1,\"lightSize\":0.7,\"scale\":1,\"radius\":1,\"chromatic\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0015,\"animType\":\"move\"}}}]},{\"name\":\"earth-field\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"field\",\"filterId\":\"earth-field\",\"shieldType\":4,\"gridPadding\":2,\"color\":12292208,\"time\":0,\"blend\":1,\"intensity\":1.25,\"lightAlpha\":1,\"lightSize\":0.7,\"scale\":1,\"radius\":1,\"chromatic\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0015,\"animType\":\"move\"}}}]},{\"name\":\"earth-field-top\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"field\",\"filterId\":\"earth-field-top\",\"shieldType\":5,\"gridPadding\":3,\"color\":11184810,\"time\":0,\"blend\":5,\"intensity\":1.9,\"lightAlpha\":1,\"lightSize\":0.7,\"scale\":1,\"radius\":1,\"zIndex\":5,\"chromatic\":true,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0015,\"animType\":\"move\"}}}]},{\"name\":\"air-field\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"field\",\"filterId\":\"air-field\",\"shieldType\":6,\"gridPadding\":1.2,\"color\":7377066,\"time\":0,\"blend\":14,\"intensity\":1,\"lightAlpha\":1,\"lightSize\":0.7,\"scale\":1,\"radius\":1,\"chromatic\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0015,\"animType\":\"move\"}}}]},{\"name\":\"magic-field\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"field\",\"filterId\":\"magic-field\",\"shieldType\":7,\"gridPadding\":1,\"color\":16777215,\"time\":0,\"blend\":10,\"intensity\":0.8,\"lightAlpha\":1,\"lightSize\":0.45,\"scale\":1,\"radius\":1,\"chromatic\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0015,\"animType\":\"move\"}}}]},{\"name\":\"chromatic-field\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"field\",\"filterId\":\"chromatic-field\",\"shieldType\":8,\"gridPadding\":2,\"color\":11184810,\"time\":0,\"blend\":0,\"intensity\":1,\"lightAlpha\":0,\"lightSize\":0,\"scale\":1,\"radius\":1,\"chromatic\":true,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0045,\"animType\":\"move\"}}}]},{\"name\":\"water-field\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"field\",\"filterId\":\"water-field\",\"shieldType\":9,\"gridPadding\":1.2,\"color\":2145262,\"time\":0,\"blend\":4,\"intensity\":1,\"lightAlpha\":0.7,\"lightSize\":0.5,\"scale\":0.6,\"radius\":1,\"chromatic\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0015,\"animType\":\"move\"}}}]},{\"name\":\"evil-field\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"field\",\"filterId\":\"evil-field\",\"shieldType\":9,\"gridPadding\":2,\"color\":16723984,\"time\":0,\"blend\":5,\"intensity\":1,\"lightAlpha\":4,\"lightSize\":0.8,\"scale\":0.5,\"radius\":1,\"chromatic\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0012,\"animType\":\"move\"},\"lightSize\":{\"val1\":0.4,\"val2\":1.5,\"animType\":\"syncCosOscillation\",\"loopDuration\":5000}}}]},{\"name\":\"grid-field\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"field\",\"filterId\":\"grid-field\",\"shieldType\":11,\"gridPadding\":2,\"color\":52428,\"time\":0,\"blend\":2,\"intensity\":1,\"lightAlpha\":1,\"lightSize\":0.3,\"scale\":0.5,\"radius\":1,\"chromatic\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0009,\"animType\":\"move\"}}}]},{\"name\":\"warp-field\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"field\",\"filterId\":\"warp-field\",\"shieldType\":12,\"gridPadding\":2,\"color\":16777215,\"time\":0,\"blend\":2,\"intensity\":1,\"lightAlpha\":0.8,\"lightSize\":0.5,\"scale\":0.9,\"radius\":1,\"chromatic\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0009,\"animType\":\"move\"}}}]},{\"name\":\"color-field\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"field\",\"filterId\":\"color-field\",\"shieldType\":13,\"gridPadding\":2,\"color\":52224,\"time\":0,\"blend\":14,\"intensity\":1,\"lightAlpha\":0,\"lightSize\":0,\"scale\":1,\"radius\":1,\"chromatic\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0009,\"animType\":\"move\"}}}]},{\"name\":\"sunburst\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"xray\",\"filterId\":\"sunburst\",\"time\":0,\"color\":16759552,\"blend\":9,\"dimX\":1,\"dimY\":1,\"anchorX\":0,\"anchorY\":0,\"divisor\":36,\"intensity\":4,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0012,\"animType\":\"move\"},\"anchorX\":{\"animType\":\"syncCosOscillation\",\"loopDuration\":6000,\"val1\":0.4,\"val2\":0.6}}}]},{\"name\":\"clover\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"xray\",\"filterId\":\"clover\",\"time\":0,\"color\":65280,\"blend\":9,\"dimX\":0.05,\"dimY\":0.05,\"anchorX\":0.5,\"anchorY\":0.5,\"divisor\":4,\"intensity\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0012,\"animType\":\"move\"},\"anchorX\":{\"animType\":\"syncCosOscillation\",\"loopDuration\":6000,\"val1\":0.4,\"val2\":0.6},\"anchorY\":{\"animType\":\"syncSinOscillation\",\"loopDuration\":6000,\"val1\":0.4,\"val2\":0.6}}}]},{\"name\":\"scan\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"xray\",\"filterId\":\"scan\",\"time\":0,\"color\":16777215,\"blend\":5,\"dimX\":20,\"dimY\":20,\"anchorX\":0.5,\"anchorY\":0,\"divisor\":8,\"intensity\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0005,\"animType\":\"move\"}}}]},{\"name\":\"blue-rays\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"xray\",\"filterId\":\"blue-rays\",\"time\":0,\"color\":1061119,\"blend\":9,\"dimX\":1,\"dimY\":1,\"anchorX\":0,\"anchorY\":0,\"divisor\":24,\"intensity\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0002,\"animType\":\"move\"},\"anchorX\":{\"animType\":\"syncCosOscillation\",\"loopDuration\":18000,\"val1\":0.05,\"val2\":0.95},\"anchorY\":{\"animType\":\"syncSinOscillation\",\"loopDuration\":18000,\"val1\":0.05,\"val2\":0.95}}}]},{\"name\":\"spectral-body\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"liquid\",\"filterId\":\"spectral-body\",\"color\":2140910,\"time\":0,\"blend\":8,\"intensity\":4,\"spectral\":true,\"scale\":0.9,\"animated\":{\"time\":{\"active\":true,\"speed\":0.001,\"animType\":\"move\"},\"color\":{\"active\":true,\"loopDuration\":6000,\"animType\":\"colorOscillation\",\"val1\":16777215,\"val2\":43775}}}]},{\"name\":\"mantle-of-madness\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"liquid\",\"filterId\":\"mantle-of-madness\",\"color\":37119,\"time\":0,\"blend\":5,\"intensity\":0.0001,\"spectral\":false,\"scale\":7,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0015,\"animType\":\"move\"},\"intensity\":{\"active\":true,\"animType\":\"syncCosOscillation\",\"loopDuration\":30000,\"val1\":0.0001,\"val2\":4},\"scale\":{\"active\":true,\"animType\":\"syncCosOscillation\",\"loopDuration\":30000,\"val1\":7,\"val2\":1}}}]},{\"name\":\"drift-in-plans\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"wave\",\"filterId\":\"drift-in-plans\",\"time\":0,\"anchorX\":0.5,\"anchorY\":0.5,\"strength\":0.035,\"frequency\":80,\"color\":16777215,\"maxIntensity\":1.5,\"minIntensity\":0.5,\"padding\":10,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0085,\"animType\":\"move\"},\"anchorX\":{\"active\":true,\"val1\":0.35,\"val2\":0.65,\"animType\":\"syncCosOscillation\",\"loopDuration\":10000},\"anchorY\":{\"active\":true,\"val1\":0.35,\"val2\":0.65,\"animType\":\"syncSinOscillation\",\"loopDuration\":10000}}},{\"filterType\":\"liquid\",\"filterId\":\"drift-in-plans\",\"color\":16711680,\"time\":0,\"blend\":6,\"intensity\":5,\"spectral\":false,\"scale\":2.5,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0018,\"animType\":\"move\"},\"color\":{\"active\":true,\"loopDuration\":9000,\"animType\":\"colorOscillation\",\"val1\":16711680,\"val2\":16777215}}}]},{\"name\":\"fire-aura\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"zapshadow\",\"filterId\":\"fire-aura\",\"alphaTolerance\":0.5},{\"filterType\":\"xglow\",\"filterId\":\"fire-aura\",\"auraType\":2,\"color\":9449488,\"thickness\":9.8,\"scale\":4,\"time\":0,\"auraIntensity\":2,\"subAuraIntensity\":1.5,\"threshold\":0.4,\"discard\":true,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0027,\"animType\":\"move\"},\"thickness\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"cosOscillation\",\"val1\":2,\"val2\":5}}}]},{\"name\":\"glacial-aura\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"zapshadow\",\"filterId\":\"glacial-aura\",\"alphaTolerance\":0.5},{\"filterType\":\"xglow\",\"filterId\":\"glacial-aura\",\"auraType\":1,\"color\":5282269,\"thickness\":4.5,\"scale\":3,\"time\":0,\"auraIntensity\":0.8,\"subAuraIntensity\":0.25,\"threshold\":0.5,\"discard\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0018,\"animType\":\"move\"},\"thickness\":{\"val1\":2,\"val2\":4.7,\"animType\":\"cosOscillation\",\"loopDuration\":3000},\"subAuraIntensity\":{\"val1\":0.45,\"val2\":0.65,\"animType\":\"cosOscillation\",\"loopDuration\":6000},\"auraIntensity\":{\"val1\":0.9,\"val2\":2.2,\"animType\":\"cosOscillation\",\"loopDuration\":3000}}}]},{\"name\":\"anti-aura\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"zapshadow\",\"filterId\":\"anti-aura\",\"alphaTolerance\":0.5},{\"filterType\":\"xglow\",\"filterId\":\"anti-aura\",\"auraType\":2,\"color\":328965,\"thickness\":2.7,\"scale\":7,\"time\":0,\"auraIntensity\":5,\"subAuraIntensity\":2,\"threshold\":0.08,\"discard\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0012,\"animType\":\"move\"},\"auraIntensity\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"syncCosOscillation\",\"val1\":5,\"val2\":0},\"subAuraIntensity\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"syncCosOscillation\",\"val1\":2,\"val2\":0},\"color\":{\"active\":true,\"loopDuration\":6000,\"animType\":\"syncColorOscillation\",\"val1\":328965,\"val2\":2097152},\"threshold\":{\"active\":true,\"loopDuration\":1500,\"animType\":\"syncCosOscillation\",\"val1\":0.02,\"val2\":0.5}}}]},{\"name\":\"pure-fire-aura\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"fire\",\"filterId\":\"pure-fire-aura\",\"intensity\":1,\"color\":16777215,\"amplitude\":1,\"time\":0,\"blend\":2,\"fireBlend\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0024,\"animType\":\"move\"},\"intensity\":{\"active\":true,\"loopDuration\":15000,\"val1\":0.8,\"val2\":2,\"animType\":\"syncCosOscillation\"},\"amplitude\":{\"active\":true,\"loopDuration\":4400,\"val1\":1,\"val2\":1.4,\"animType\":\"syncCosOscillation\"}}},{\"filterType\":\"zapshadow\",\"filterId\":\"pure-fire-aura\",\"alphaTolerance\":0.5},{\"filterType\":\"xglow\",\"filterId\":\"pure-fire-aura\",\"auraType\":2,\"color\":9449488,\"thickness\":9.8,\"scale\":4,\"time\":0,\"auraIntensity\":2,\"subAuraIntensity\":1.5,\"threshold\":0.4,\"discard\":true,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0027,\"animType\":\"move\"},\"thickness\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"cosOscillation\",\"val1\":2,\"val2\":5}}}]},{\"name\":\"pure-fire-aura-2\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"zapshadow\",\"filterId\":\"pure-fire-aura-2\",\"alphaTolerance\":0.5},{\"filterType\":\"xglow\",\"filterId\":\"pure-fire-aura-2\",\"auraType\":2,\"color\":9449488,\"thickness\":9.8,\"scale\":4,\"time\":0,\"auraIntensity\":1,\"subAuraIntensity\":0.3,\"threshold\":0.5,\"discard\":true,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0027,\"animType\":\"move\"},\"thickness\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"cosOscillation\",\"val1\":2,\"val2\":3.6}}},{\"filterType\":\"fire\",\"filterId\":\"pure-fire-aura-2\",\"intensity\":1,\"color\":16777215,\"amplitude\":1,\"time\":0,\"blend\":2,\"fireBlend\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0024,\"animType\":\"move\"},\"intensity\":{\"active\":true,\"loopDuration\":15000,\"val1\":0.8,\"val2\":3,\"animType\":\"syncCosOscillation\"},\"amplitude\":{\"active\":true,\"loopDuration\":4400,\"val1\":1,\"val2\":1.6,\"animType\":\"syncCosOscillation\"}}}]},{\"name\":\"pure-ice-aura\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"zapshadow\",\"filterId\":\"pure-ice-aura\",\"alphaTolerance\":0.5},{\"filterType\":\"xglow\",\"filterId\":\"pure-ice-aura\",\"auraType\":1,\"color\":5282269,\"thickness\":4.5,\"scale\":10,\"time\":0,\"auraIntensity\":0.25,\"subAuraIntensity\":1,\"threshold\":0.5,\"discard\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0018,\"animType\":\"move\"},\"thickness\":{\"val1\":2,\"val2\":3.3,\"animType\":\"cosOscillation\",\"loopDuration\":3000},\"subAuraIntensity\":{\"val1\":0.45,\"val2\":0.65,\"animType\":\"cosOscillation\",\"loopDuration\":6000},\"auraIntensity\":{\"val1\":0.9,\"val2\":2.2,\"animType\":\"cosOscillation\",\"loopDuration\":3000}}},{\"filterType\":\"smoke\",\"filterId\":\"pure-ice-aura\",\"color\":8441087,\"time\":0,\"blend\":2,\"dimX\":0.3,\"dimY\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.006,\"animType\":\"move\"},\"dimX\":{\"val1\":0.4,\"val2\":0.2,\"animType\":\"cosOscillation\",\"loopDuration\":3000}}}]},{\"name\":\"pixelate\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"pixel\",\"filterId\":\"pixelate\",\"sizeX\":2.5,\"sizeY\":2.5}]},{\"name\":\"Watery Surface\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"flood\",\"filterId\":\"Watery Surface\",\"time\":0,\"color\":8379,\"billowy\":0.43,\"tintIntensity\":0.72,\"glint\":0.31,\"scale\":70,\"padding\":10,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0006,\"animType\":\"move\"}},\"zOrder\":1}]},{\"name\":\"Protoplasm\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"liquid\",\"filterId\":\"Protoplasm\",\"color\":2140910,\"time\":0,\"blend\":8,\"intensity\":4,\"spectral\":true,\"scale\":1.4,\"animated\":{\"time\":{\"active\":true,\"speed\":0.001,\"animType\":\"move\"}},\"zOrder\":1}]},{\"name\":\"Watery Surface 2\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/white-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"liquid\",\"filterId\":\"Watery Surface 2\",\"color\":2140910,\"time\":0,\"blend\":8,\"intensity\":4,\"spectral\":false,\"scale\":1.4,\"animated\":{\"time\":{\"active\":true,\"speed\":0.001,\"animType\":\"move\"}},\"zOrder\":1}]},{\"name\":\"Smoky Area\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"smoke\",\"filterId\":\"Smoky Area\",\"color\":11184810,\"time\":0,\"blend\":2,\"dimX\":1,\"dimY\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":0.002,\"animType\":\"move\"}},\"zOrder\":1}]},{\"name\":\"Shock\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/white-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"electric\",\"filterId\":\"Shock\",\"color\":16777215,\"time\":0,\"blend\":1,\"intensity\":5,\"animated\":{\"time\":{\"active\":true,\"speed\":0.002,\"animType\":\"move\"}},\"zOrder\":1}]},{\"name\":\"Annihilating Rays\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/white-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"xray\",\"filterId\":\"Annihilating Rays\",\"time\":0,\"color\":16759552,\"blend\":9,\"dimX\":1,\"dimY\":1,\"anchorX\":0,\"anchorY\":0,\"divisor\":6,\"intensity\":4,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0012,\"animType\":\"move\"}},\"zOrder\":1}]},{\"name\":\"Classic Rays\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"ray\",\"filterId\":\"Classic Rays\",\"time\":0,\"color\":13598720,\"alpha\":0.5,\"divisor\":32,\"anchorX\":0,\"anchorY\":0,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0005,\"animType\":\"move\"}},\"zOrder\":1}]},{\"name\":\"Smoke Filaments\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"fumes\",\"filterId\":\"Smoke Filaments\",\"color\":8421504,\"time\":0,\"blend\":8,\"animated\":{\"time\":{\"active\":true,\"speed\":0.001,\"animType\":\"move\"}},\"zOrder\":1}]},{\"name\":\"Flames\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"fire\",\"filterId\":\"Flames\",\"intensity\":1.5,\"color\":16777215,\"amplitude\":1.3,\"time\":0,\"blend\":2,\"fireBlend\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0016,\"animType\":\"move\"}},\"zOrder\":1}]},{\"name\":\"Thick Fog\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-vstrong-opacity.png\",\"params\":[{\"filterType\":\"xfog\",\"filterId\":\"Thick Fog\",\"autoFit\":false,\"color\":3182847,\"time\":0,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0006,\"animType\":\"move\"}},\"zOrder\":1}]},{\"name\":\"Glowing Outline\",\"library\":\"tmfx-template\",\"params\":[{\"filterType\":\"glow\",\"filterId\":\"Glowing Outline\",\"outerStrength\":5.5,\"innerStrength\":0,\"color\":24576,\"quality\":0.5,\"padding\":10,\"animated\":{\"outerStrength\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"syncCosOscillation\",\"val1\":5.5,\"val2\":1.5}},\"zOrder\":1}]},{\"name\":\"Waves\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/white-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"wave\",\"filterId\":\"Waves\",\"time\":0,\"anchorX\":0.5,\"anchorY\":0.5,\"strength\":0.015,\"frequency\":120,\"color\":16777215,\"maxIntensity\":2.5,\"minIntensity\":0.9,\"padding\":10,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0085,\"animType\":\"move\"}},\"zOrder\":1}]},{\"name\":\"Waves 2\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/white-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"wave\",\"filterId\":\"Waves 2\",\"time\":0,\"anchorX\":0.5,\"anchorY\":0.5,\"strength\":0.014,\"frequency\":400,\"color\":16777215,\"maxIntensity\":2.4,\"minIntensity\":0.8,\"padding\":10,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0385,\"animType\":\"move\"}},\"zOrder\":1}]},{\"name\":\"Waves 3\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/white-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"wave\",\"filterId\":\"Waves 3\",\"time\":0,\"anchorX\":0.5,\"anchorY\":0.5,\"strength\":0.017,\"frequency\":35,\"color\":16777215,\"maxIntensity\":2.6,\"minIntensity\":0.9,\"padding\":20,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0085,\"animType\":\"move\"}},\"zOrder\":1}]},{\"name\":\"Zone : Fire\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"xglow\",\"filterId\":\"Zone : Fire\",\"auraType\":1,\"color\":9449488,\"scale\":1.5,\"time\":0,\"auraIntensity\":1.8,\"subAuraIntensity\":0.25,\"threshold\":0.6,\"discard\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0027,\"animType\":\"move\"},\"thickness\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"cosOscillation\",\"val1\":2,\"val2\":5}},\"zOrder\":1},{\"filterType\":\"fire\",\"filterId\":\"Zone : Fire\",\"intensity\":1.5,\"color\":16777215,\"amplitude\":1,\"time\":0,\"blend\":2,\"fireBlend\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0015,\"animType\":\"move\"}},\"zOrder\":2}]},{\"name\":\"Zone : Electricity\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/white-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"xglow\",\"filterId\":\"Zone : Electricity\",\"auraType\":2,\"color\":3158064,\"scale\":1.5,\"time\":0,\"auraIntensity\":1,\"subAuraIntensity\":0.9,\"threshold\":0,\"discard\":true,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0027,\"animType\":\"move\"},\"thickness\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"cosOscillation\",\"val1\":1,\"val2\":2}},\"zOrder\":1},{\"filterType\":\"electric\",\"filterId\":\"Zone : Electricity\",\"color\":16777215,\"time\":0,\"blend\":1,\"intensity\":5,\"animated\":{\"time\":{\"active\":true,\"speed\":0.002,\"animType\":\"move\"}},\"zOrder\":2}]},{\"name\":\"Zone : Blizzard\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"xglow\",\"filterId\":\"Zone : Blizzard\",\"auraType\":1,\"color\":5282269,\"thickness\":4.5,\"scale\":5,\"time\":0,\"auraIntensity\":0.25,\"subAuraIntensity\":1,\"threshold\":0.5,\"discard\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0018,\"animType\":\"move\"},\"thickness\":{\"val1\":2,\"val2\":3.3,\"animType\":\"cosOscillation\",\"loopDuration\":3000},\"subAuraIntensity\":{\"val1\":0.05,\"val2\":0.1,\"animType\":\"cosOscillation\",\"loopDuration\":6000},\"auraIntensity\":{\"val1\":0.9,\"val2\":2.2,\"animType\":\"cosOscillation\",\"loopDuration\":3000}},\"zOrder\":1},{\"filterType\":\"smoke\",\"filterId\":\"Zone : Blizzard\",\"color\":8441087,\"time\":0,\"blend\":2,\"dimY\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.005,\"animType\":\"move\"},\"dimX\":{\"val1\":0.4,\"val2\":0.2,\"animType\":\"cosOscillation\",\"loopDuration\":3000}},\"zOrder\":2}]},{\"name\":\"Bulging Out\",\"library\":\"tmfx-template\",\"params\":[{\"filterType\":\"bulgepinch\",\"filterId\":\"Bulging Out\",\"padding\":150,\"strength\":0,\"radiusPercent\":200,\"animated\":{\"strength\":{\"active\":true,\"animType\":\"cosOscillation\",\"loopDuration\":2000,\"val1\":0,\"val2\":0.45}},\"zOrder\":1}]},{\"name\":\"Blurred Texture\",\"library\":\"tmfx-template\",\"params\":[{\"filterType\":\"blur\",\"filterId\":\"Blurred Texture\",\"padding\":25,\"quality\":4,\"blur\":0,\"blurX\":0,\"blurY\":0,\"animated\":{\"blurX\":{\"active\":true,\"animType\":\"syncCosOscillation\",\"loopDuration\":500,\"val1\":0,\"val2\":6},\"blurY\":{\"active\":true,\"animType\":\"syncCosOscillation\",\"loopDuration\":750,\"val1\":0,\"val2\":6}},\"zOrder\":1}]},{\"name\":\"Bloomed Texture\",\"library\":\"tmfx-template\",\"params\":[{\"filterType\":\"xbloom\",\"filterId\":\"Bloomed Texture\",\"threshold\":0.35,\"bloomScale\":0,\"brightness\":1,\"blur\":0.1,\"padding\":10,\"quality\":15,\"blendMode\":0,\"animated\":{\"bloomScale\":{\"active\":true,\"loopDuration\":2000,\"animType\":\"syncCosOscillation\",\"val1\":0,\"val2\":2.1},\"threshold\":{\"active\":false,\"loopDuration\":1000,\"animType\":\"syncCosOscillation\",\"val1\":0,\"val2\":1.9}},\"zOrder\":1}]},{\"name\":\"Wild Magic\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"liquid\",\"filterId\":\"Wild Magic\",\"color\":16711680,\"time\":0,\"blend\":6,\"intensity\":5,\"spectral\":false,\"scale\":2.5,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0018,\"animType\":\"move\"}},\"zOrder\":1},{\"filterType\":\"wave\",\"filterId\":\"Wild Magic\",\"time\":0,\"anchorX\":0.5,\"anchorY\":0.5,\"strength\":0.014,\"frequency\":10,\"color\":16777215,\"maxIntensity\":1.3,\"minIntensity\":0.6,\"padding\":10,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0065,\"animType\":\"move\"}},\"zOrder\":2}]},{\"name\":\"Spider Web 1\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"web\",\"filterId\":\"Spider Web 1\",\"anchorX\":0.5,\"anchorY\":0.5,\"color\":16777215,\"thickness\":2,\"div2\":5,\"time\":98.8,\"animated\":{\"time\":{\"active\":true,\"loopDuration\":5000,\"animType\":\"cosOscillation\",\"val1\":98.8,\"val2\":99.7}},\"zOrder\":1}]},{\"name\":\"Spider Web 2\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"web\",\"filterId\":\"Spider Web 2\",\"anchorX\":0.5,\"anchorY\":0.5,\"color\":13421772,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0005,\"animType\":\"move\"}},\"zOrder\":1},{\"filterType\":\"liquid\",\"filterId\":\"Spider Web 2\",\"color\":16711680,\"time\":0,\"blend\":4,\"intensity\":8,\"spectral\":false,\"scale\":0.2,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0005,\"animType\":\"move\"}},\"zOrder\":2}]},{\"name\":\"Spider Web 3\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"web\",\"filterId\":\"Spider Web 3\",\"anchorX\":0.5,\"anchorY\":0.5,\"color\":13421772,\"time\":100,\"zOrder\":1},{\"filterType\":\"liquid\",\"filterId\":\"Spider Web 3\",\"color\":16711680,\"time\":0,\"blend\":1,\"intensity\":4,\"spectral\":true,\"scale\":0.2,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0005,\"animType\":\"move\"}},\"zOrder\":2}]},{\"name\":\"Spider Web 4\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"web\",\"filterId\":\"Spider Web 4\",\"anchorX\":0.5,\"anchorY\":0.5,\"color\":13421772,\"thickness\":2,\"div2\":5,\"time\":98.8,\"zOrder\":1,\"alphaDiscard\":true,\"animated\":{\"time\":{\"active\":true,\"loopDuration\":5000,\"animType\":\"cosOscillation\",\"val1\":98.8,\"val2\":99.7}}},{\"filterType\":\"glow\",\"filterId\":\"Spider Web 4\",\"outerStrength\":7,\"innerStrength\":3,\"color\":24576,\"quality\":0.5,\"padding\":10,\"zOrder\":2,\"animated\":{\"outerStrength\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"syncCosOscillation\",\"val1\":7,\"val2\":4}}}]},{\"name\":\"Spider Web 5\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"web\",\"filterId\":\"Spider Web 5\",\"anchorX\":0.5,\"anchorY\":0.5,\"color\":10395294,\"thickness\":0.8,\"div2\":7,\"div1\":15,\"time\":97.8,\"alphaDiscard\":true,\"zOrder\":1,\"animated\":{\"time\":{\"active\":true,\"loopDuration\":5000,\"animType\":\"cosOscillation\",\"val1\":97.8,\"val2\":98.2}}},{\"filterType\":\"glow\",\"filterId\":\"Spider Web 5\",\"outerStrength\":6,\"innerStrength\":3,\"color\":10395294,\"quality\":0.5,\"padding\":10,\"zOrder\":2,\"animated\":{\"outerStrength\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"syncCosOscillation\",\"val1\":6,\"val2\":4}}}]},{\"name\":\"Ripples : Solar\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"ripples\",\"filterId\":\"Ripples : Solar\",\"color\":13206066,\"time\":98.8,\"zOrder\":1,\"animated\":{\"time\":{\"active\":true,\"animType\":\"move\",\"speed\":0.0005}}}]},{\"name\":\"Ripples : Shadow Sun\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"ripples\",\"filterId\":\"Ripples : Shadow Sun\",\"color\":6560636,\"time\":98.8,\"zOrder\":1,\"alphaDiscard\":true,\"animated\":{\"time\":{\"active\":true,\"animType\":\"move\",\"speed\":0.0005}}}]},{\"name\":\"Ripples : Scars\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"ripples\",\"filterId\":\"Ripples : Scars\",\"color\":2516765,\"time\":98.8,\"zOrder\":1,\"alphaDiscard\":true,\"animated\":{\"time\":{\"active\":true,\"animType\":\"move\",\"speed\":0.0005}}},{\"filterType\":\"glow\",\"filterId\":\"Ripples : Scars\",\"outerStrength\":7.5,\"innerStrength\":0.5,\"color\":2516765,\"quality\":0.5,\"padding\":10,\"zOrder\":2,\"animated\":{\"outerStrength\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"syncCosOscillation\",\"val1\":7.5,\"val2\":5.5}}}]},{\"name\":\"Fairy Fireflies : Calm\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"globes\",\"filterId\":\"Fairy Fireflies : Calm\",\"color\":2516765,\"time\":98.8,\"zOrder\":1,\"distortion\":0.25,\"scale\":80,\"alphaDiscard\":true,\"animated\":{\"time\":{\"active\":true,\"animType\":\"move\",\"speed\":0.0007}}}]},{\"name\":\"Fairy Fireflies : Excited\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"globes\",\"filterId\":\"Fairy Fireflies : Excited\",\"color\":31969,\"time\":98.8,\"zOrder\":1,\"distortion\":0.25,\"scale\":80,\"alphaDiscard\":true,\"animated\":{\"time\":{\"active\":true,\"animType\":\"move\",\"speed\":0.0012}}},{\"filterType\":\"glow\",\"filterId\":\"Fairy Fireflies : Excited\",\"outerStrength\":7.5,\"innerStrength\":0.5,\"color\":31969,\"quality\":0.5,\"padding\":10,\"zOrder\":2,\"animated\":{\"outerStrength\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"syncCosOscillation\",\"val1\":7.5,\"val2\":5.5}}}]},{\"name\":\"Fairy Fireflies : Frenetic\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-strong-opacity.png\",\"params\":[{\"filterType\":\"globes\",\"filterId\":\"Fairy Fireflies : Frenetic\",\"color\":14803200,\"time\":98.8,\"zOrder\":1,\"distortion\":1.45,\"scale\":80,\"alphaDiscard\":true,\"animated\":{\"time\":{\"active\":true,\"animType\":\"move\",\"speed\":0.0016}}},{\"filterType\":\"glow\",\"filterId\":\"Fairy Fireflies : Frenetic\",\"outerStrength\":7.5,\"innerStrength\":0.5,\"color\":14803200,\"quality\":0.5,\"padding\":10,\"zOrder\":2,\"animated\":{\"outerStrength\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"syncCosOscillation\",\"val1\":7.5,\"val2\":5.5}}}]},{\"name\":\"Living Fluid\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-vstrong-opacity.png\",\"params\":[{\"filterType\":\"xfog\",\"filterId\":\"Living Fluid\",\"color\":14872211,\"autoFit\":false,\"time\":0,\"zOrder\":1,\"alphaDiscard\":true,\"animated\":{\"time\":{\"active\":true,\"animType\":\"move\",\"speed\":0.0007}}}]},{\"name\":\"Living Fluid 2\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-vstrong-opacity.png\",\"params\":[{\"filterType\":\"xfog\",\"filterId\":\"Living Fluid 2\",\"color\":14872211,\"autoFit\":false,\"time\":0,\"zOrder\":1,\"alphaDiscard\":true,\"animated\":{\"time\":{\"active\":true,\"animType\":\"move\",\"speed\":0.0007}}},{\"filterType\":\"glow\",\"filterId\":\"Living Fluid 2\",\"outerStrength\":0.5,\"innerStrength\":0.5,\"color\":14872211,\"quality\":0.5,\"padding\":10,\"zOrder\":2}]},{\"name\":\"Living Fluid 3\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-vstrong-opacity.png\",\"params\":[{\"filterType\":\"liquid\",\"filterId\":\"Living Fluid 3\",\"color\":6937746,\"time\":0,\"blend\":8,\"intensity\":4,\"spectral\":true,\"alphaDiscard\":true,\"scale\":1.4,\"zOrder\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":0.001,\"animType\":\"move\"}}}]},{\"name\":\"Living Fluid 4\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-vstrong-opacity.png\",\"params\":[{\"filterType\":\"liquid\",\"filterId\":\"Living Fluid 4\",\"color\":15107115,\"time\":0,\"blend\":8,\"intensity\":4,\"spectral\":false,\"alphaDiscard\":true,\"scale\":1.4,\"zOrder\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":0.001,\"animType\":\"move\"}}},{\"filterType\":\"glow\",\"filterId\":\"Living Fluid 4\",\"outerStrength\":1,\"innerStrength\":1,\"color\":15107115,\"quality\":0.5,\"padding\":10,\"zOrder\":2}]},{\"name\":\"Flames 2\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-vstrong-opacity.png\",\"params\":[{\"filterType\":\"fire\",\"filterId\":\"Flames 2\",\"intensity\":1.5,\"color\":16777215,\"amplitude\":1.3,\"time\":0,\"blend\":2,\"fireBlend\":1,\"alphaDiscard\":true,\"zOrder\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0016,\"animType\":\"move\"}}}]},{\"name\":\"Flames 3\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-pure.png\",\"params\":[{\"filterType\":\"fire\",\"filterId\":\"Flames 3\",\"intensity\":1.5,\"color\":16777215,\"amplitude\":1.3,\"time\":0,\"blend\":2,\"fireBlend\":1,\"alphaDiscard\":true,\"zOrder\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0016,\"animType\":\"move\"}}},{\"filterType\":\"xglow\",\"filterId\":\"Flames 3\",\"auraType\":1,\"color\":9449488,\"thickness\":2,\"scale\":\"3\",\"time\":0,\"auraIntensity\":1,\"subAuraIntensity\":1,\"threshold\":0.4,\"discard\":true,\"zOrder\":2,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0027,\"animType\":\"move\"},\"thickness\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"cosOscillation\",\"val1\":2,\"val2\":5}}}]},{\"name\":\"Classic Rays 2\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-vstrong-opacity.png\",\"params\":[{\"filterType\":\"ray\",\"filterId\":\"Classic Rays 2\",\"time\":0,\"color\":13598720,\"alpha\":1,\"divisor\":16,\"anchorX\":0,\"anchorY\":0,\"alphaDiscard\":true,\"zOrder\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0009,\"animType\":\"move\"}}}]},{\"name\":\"Fire Rays\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-pure.png\",\"params\":[{\"filterType\":\"ray\",\"filterId\":\"Fire Rays\",\"time\":0,\"color\":13598720,\"alpha\":1,\"divisor\":24,\"anchorX\":0,\"anchorY\":0,\"alphaDiscard\":true,\"zOrder\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0009,\"animType\":\"move\"}}},{\"filterType\":\"glow\",\"filterId\":\"Fire Rays\",\"outerStrength\":1,\"innerStrength\":1,\"color\":9461760,\"quality\":0.5,\"padding\":10,\"zOrder\":2},{\"filterType\":\"fire\",\"filterId\":\"Fire Rays\",\"intensity\":1.5,\"color\":16777215,\"amplitude\":1.3,\"time\":0,\"blend\":2,\"fireBlend\":1,\"zOrder\":3,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0016,\"animType\":\"move\"}}}]},{\"name\":\"Splash 1\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-vstrong-opacity.png\",\"params\":[{\"filterType\":\"splash\",\"filterId\":\"Splash 1\",\"color\":9438469,\"time\":25,\"seed\":0.1,\"splashFactor\":5,\"spread\":10,\"blend\":2,\"dimX\":1,\"dimY\":1,\"cut\":true,\"textureAlphaBlend\":true,\"padding\":200,\"zOrder\":1},{\"filterType\":\"glow\",\"filterId\":\"Splash 1\",\"outerStrength\":3.3,\"innerStrength\":1,\"color\":9438469,\"quality\":0.5,\"padding\":10,\"zOrder\":2}]},{\"name\":\"Splash 2\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-vstrong-opacity.png\",\"params\":[{\"filterType\":\"splash\",\"filterId\":\"Splash 2\",\"color\":9438469,\"time\":25,\"seed\":0.1,\"splashFactor\":3,\"spread\":10,\"blend\":2,\"dimX\":1,\"dimY\":1,\"cut\":true,\"textureAlphaBlend\":true,\"padding\":200,\"zOrder\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0009,\"animType\":\"move\"}}},{\"filterType\":\"glow\",\"filterId\":\"Splash 2\",\"outerStrength\":2,\"innerStrength\":1,\"color\":9438469,\"quality\":0.5,\"padding\":10,\"zOrder\":2}]},{\"name\":\"Splash 3\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-vstrong-opacity.png\",\"params\":[{\"filterType\":\"fumes\",\"filterId\":\"Splash 3\",\"color\":3690878,\"time\":0,\"blend\":4,\"zOrder\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":0.001,\"animType\":\"move\"}}},{\"filterType\":\"splash\",\"filterId\":\"Splash 3\",\"color\":3690878,\"time\":25,\"seed\":0.1,\"splashFactor\":3,\"spread\":10,\"blend\":2,\"dimX\":1,\"dimY\":1,\"cut\":true,\"textureAlphaBlend\":true,\"padding\":200,\"zOrder\":2,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0009,\"animType\":\"move\"}}},{\"filterType\":\"glow\",\"filterId\":\"Splash 3\",\"outerStrength\":3,\"innerStrength\":0.5,\"color\":3690878,\"quality\":0.5,\"padding\":10,\"zOrder\":3},{\"filterType\":\"liquid\",\"filterId\":\"Splash 3\",\"color\":3690878,\"time\":0,\"blend\":8,\"intensity\":3,\"spectral\":false,\"scale\":2,\"zOrder\":4,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0015,\"animType\":\"move\"}}}]},{\"name\":\"Flames 4 (colorizable)\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-vstrong-opacity.png\",\"params\":[{\"filterType\":\"xfire\",\"filterId\":\"Flames 4 (colorizable)\",\"color\":0,\"blend\":1,\"amplitude\":1,\"dispersion\":0,\"inlay\":false,\"zOrder\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0015,\"animType\":\"move\"}}}]},{\"name\":\"Flames 5 (colorizable)\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-vstrong-opacity.png\",\"params\":[{\"filterType\":\"xfire\",\"filterId\":\"Flames 5 (colorizable)\",\"color\":0,\"blend\":1,\"amplitude\":1,\"dispersion\":0,\"inlay\":false,\"alphaDiscard\":true,\"discardThreshold\":0.35,\"zOrder\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0015,\"animType\":\"move\"}}}]},{\"name\":\"Flames 6 (colorizable)\",\"library\":\"tmfx-template\",\"defaultTexture\":\"modules/tokenmagic/fx/assets/templates/black-tone-vstrong-opacity.png\",\"params\":[{\"filterType\":\"xfire\",\"filterId\":\"Flames 6 (colorizable)\",\"color\":0,\"blend\":1,\"amplitude\":1,\"dispersion\":0,\"inlay\":false,\"alphaDiscard\":true,\"discardThreshold\":0.35,\"zOrder\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0015,\"animType\":\"move\"}}},{\"filterType\":\"blur\",\"filterId\":\"Flames 6 (colorizable)\",\"padding\":30,\"quality\":4,\"blur\":2,\"zOrder\":2}]},{\"name\":\"Fire v2\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"xfire\",\"filterId\":\"Fire v2\",\"time\":0,\"blend\":1,\"amplitude\":1,\"dispersion\":0,\"chromatic\":false,\"scaleX\":1.5,\"scaleY\":1,\"inlay\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0015,\"animType\":\"move\"}}}]},{\"name\":\"Fire v2 (chromatic)\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"xfire\",\"filterId\":\"Fire v2 (chromatic)\",\"time\":0,\"blend\":2,\"amplitude\":1.1,\"dispersion\":0,\"chromatic\":true,\"scaleX\":1,\"scaleY\":1,\"inlay\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0015,\"animType\":\"move\"}}}]},{\"name\":\"Fire v2 (sparks)\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"xfire\",\"filterId\":\"Fire v2 (sparks)\",\"time\":0,\"blend\":2,\"amplitude\":0.7,\"dispersion\":0,\"chromatic\":false,\"scaleX\":2,\"scaleY\":2,\"inlay\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0015,\"animType\":\"move\"}}}]},{\"name\":\"Fire v2 (coldfire)\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"xfire\",\"filterId\":\"Fire v2 (coldfire)\",\"time\":0,\"color\":12312046,\"blend\":1,\"amplitude\":1,\"dispersion\":0,\"chromatic\":false,\"scaleX\":1,\"scaleY\":1,\"inlay\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0015,\"animType\":\"move\"}}}]},{\"name\":\"Fire v2 (blackfire)\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"xfire\",\"filterId\":\"Fire v2 (blackfire)\",\"time\":0,\"color\":7368816,\"blend\":11,\"amplitude\":1,\"dispersion\":2.2,\"chromatic\":false,\"scaleX\":2.5,\"scaleY\":2,\"inlay\":false,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.0015,\"animType\":\"move\"}}}]},{\"name\":\"Super-Frost\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"xfire\",\"filterId\":\"Super-Frost\",\"color\":11322821,\"time\":0,\"blend\":5,\"amplitude\":1,\"dispersion\":0,\"chromatic\":false,\"scaleX\":1,\"scaleY\":1,\"inlay\":true,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.002,\"animType\":\"move\"}}}]},{\"name\":\"Super-Heat\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"xfire\",\"filterId\":\"Super-Heat\",\"time\":0,\"blend\":5,\"amplitude\":0.25,\"dispersion\":-1,\"chromatic\":false,\"scaleX\":1,\"scaleY\":1,\"inlay\":true,\"animated\":{\"time\":{\"active\":true,\"speed\":-0.009,\"animType\":\"move\"}}}]},{\"name\":\"Evade Stance\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"transform\",\"filterId\":\"Evade Stance\",\"padding\":50,\"animated\":{\"translationX\":{\"animType\":\"sinOscillation\",\"val1\":-0.125,\"val2\":0.125,\"loopDuration\":1400},\"translationY\":{\"animType\":\"cosOscillation\",\"val1\":-0.035,\"val2\":0.035,\"loopDuration\":1400}}}]},{\"name\":\"Saving Roll\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"transform\",\"filterId\":\"Saving Roll\",\"autoDestroy\":true,\"padding\":80,\"pivotX\":0.5,\"pivotY\":0.55,\"animated\":{\"translationX\":{\"animType\":\"sinOscillation\",\"val1\":-0.22,\"val2\":0.22,\"loops\":1,\"loopDuration\":1250},\"rotation\":{\"animType\":\"sinOscillation\",\"val1\":-360,\"val2\":360,\"loops\":1,\"loopDuration\":1250},\"scaleY\":{\"animType\":\"cosOscillation\",\"val1\":1,\"val2\":1.3,\"loops\":2,\"loopDuration\":625},\"scaleX\":{\"animType\":\"cosOscillation\",\"val1\":1,\"val2\":1.4,\"loops\":2,\"loopDuration\":625}}}]},{\"name\":\"Dodge Jump\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"transform\",\"filterId\":\"Dodge Jump\",\"autoDestroy\":true,\"padding\":80,\"animated\":{\"translationY\":{\"animType\":\"cosOscillation\",\"val1\":0,\"val2\":-0.225,\"loops\":1,\"loopDuration\":900},\"scaleY\":{\"animType\":\"cosOscillation\",\"val1\":1,\"val2\":0.65,\"loops\":2,\"loopDuration\":450},\"scaleX\":{\"animType\":\"cosOscillation\",\"val1\":1,\"val2\":0.65,\"loops\":2,\"loopDuration\":450}}}]},{\"name\":\"Fairy Outline\",\"library\":\"tmfx-main\",\"params\":[{\"filterType\":\"globes\",\"filterId\":\"Fairy Outline\",\"time\":0,\"color\":3178734,\"distortion\":0.9,\"scale\":320,\"alphaDiscard\":true,\"zOrder\":1,\"animated\":{\"time\":{\"active\":true,\"speed\":0.0015,\"animType\":\"move\"}}},{\"filterType\":\"glow\",\"filterId\":\"Fairy Outline\",\"outerStrength\":4,\"innerStrength\":0,\"color\":16723968,\"quality\":0.5,\"padding\":10,\"animated\":{\"color\":{\"active\":true,\"loopDuration\":3000,\"animType\":\"colorOscillation\",\"val1\":16723968,\"val2\":3211008}}}]}]"
+  },
+  {
+    "name": "Gamemaster",
+    "core": {
+      "avatar": "icons/svg/mystery-man.svg",
+      "color": "#2881cc",
+      "permissions": {},
+      "role": 4
+    },
+    "flags": {
+      "monks-player-settings": {
+        "client-settings": "{\"midi-qol\":{\"LateTargeting\":\"\\\"all\\\"\"},\"foundryvtt-simple-calendar\":{\"open-on-load\":\"false\"},\"monks-little-details\":{\"volume\":\"40\",\"play-next-sound\":\"true\",\"play-turn-sound\":\"true\"},\"token-action-hud\":{\"direction\":\"\\\"up\\\"\"},\"babele\":{\"showOriginalName\":\"true\",\"showTranslateOption\":\"false\"},\"smarttarget\":{\"target-indicator\":\"\\\"5\\\"\",\"release\":\"1\"},\"monks-tokenbar\":{\"show-inspiration\":\"true\"}}",
+        "save-id": 60
+      },
+      "monks-tokenbar": {
+        "position": {
+          "left": 140,
+          "right": null,
+          "top": 172,
+          "bottom": null
+        },
+        "lastmodeST": "selfroll",
+        "lastmodeCR": "roll",
+        "lastmodeHideNPCName": false
+      },
+      "monks-little-details": {
+        "last-actor": "Scene.ilIj8CyXqZRDrURP.Token.mzurBNoFv5rbrGsQ"
+      },
+      "monks-enhanced-journal": {
+        "tabs": [
+          {
+            "id": "MIa01SYMI37Ksy50",
+            "text": "Adventure_2",
+            "active": true,
+            "history": [
+              "JournalEntry.WKutivtG7frmYLe7",
+              "Actor.K2mRxkxj7NGjy2Ch",
+              "JournalEntry.WKutivtG7frmYLe7",
+              "JournalEntry.p3yBrd2AIpTvyaxs",
+              "JournalEntry.YAbYgP4dcGgMFB19",
+              "JournalEntry.p3yBrd2AIpTvyaxs",
+              "JournalEntry.YAbYgP4dcGgMFB19",
+              "JournalEntry.p3yBrd2AIpTvyaxs",
+              "JournalEntry.YAbYgP4dcGgMFB19",
+              "JournalEntry.eo4tKxrtmMzEt7Jx"
+            ],
+            "entityId": "JournalEntry.WKutivtG7frmYLe7"
+          }
+        ],
+        "_recentlyViewed": [
+          {
+            "id": "WKutivtG7frmYLe7",
+            "uuid": "JournalEntry.WKutivtG7frmYLe7",
+            "name": "Adventure_2"
+          },
+          {
+            "id": "K2mRxkxj7NGjy2Ch",
+            "uuid": "Actor.K2mRxkxj7NGjy2Ch",
+            "name": "Bandit"
+          },
+          {
+            "id": "p3yBrd2AIpTvyaxs",
+            "uuid": "JournalEntry.p3yBrd2AIpTvyaxs",
+            "name": "NPC_2"
+          },
+          {
+            "id": "YAbYgP4dcGgMFB19",
+            "uuid": "JournalEntry.YAbYgP4dcGgMFB19",
+            "name": "NPC"
+          },
+          {
+            "id": "eo4tKxrtmMzEt7Jx",
+            "uuid": "JournalEntry.eo4tKxrtmMzEt7Jx",
+            "name": "F23",
+            "type": "text"
+          }
+        ],
+        "objectivePos": {
+          "left": 240,
+          "top": 267,
+          "width": 500
+        }
+      },
+      "dfreds-effects-panel": {
+        "topPosition": 5
+      },
+      "monks-scene-navigation": {
+        "navopenzb6TihjEWk9i3EEU": false
+      },
+      "token-action-hud": {
+        "categories": {
+          "inventory": {
+            "title": "Inventario",
+            "id": "inventory",
+            "push": false,
+            "core": true
+          },
+          "feats": {
+            "title": "Privilegi",
+            "id": "feats",
+            "push": false,
+            "core": true
+          },
+          "skills": {
+            "title": "Abilità",
+            "id": "skills",
+            "push": false,
+            "core": true
+          },
+          "saves": {
+            "title": "Tiri Salvezza",
+            "id": "saves",
+            "push": false,
+            "core": true
+          },
+          "checks": {
+            "title": "Caratteristiche",
+            "id": "checks",
+            "push": false,
+            "core": true
+          },
+          "effects": {
+            "title": "Effetti",
+            "id": "effects",
+            "push": false,
+            "core": true
+          },
+          "conditions": {
+            "title": "Condizioni",
+            "id": "conditions",
+            "push": false,
+            "core": true
+          },
+          "utility": {
+            "title": "Utilità",
+            "id": "utility",
+            "push": false,
+            "core": true
+          },
+          "spells": {
+            "title": "Incantesimi",
+            "id": "spells",
+            "push": false,
+            "core": true
+          }
+        },
+        "hudPos": {
+          "top": 61,
+          "left": 151
+        }
+      },
+      "always-hp": {
+        "alwayshpPos": {
+          "left": 103,
+          "top": 54
+        }
+      }
+    }
+  },
+  {
+    "name": "Gamemaster2",
+    "core": {
+      "avatar": "icons/svg/mystery-man.svg",
+      "color": "#a928cc",
+      "permissions": {},
+      "role": 4
+    },
+    "flags": {}
+  },
+  {
+    "name": "LoSecco",
+    "core": {
+      "avatar": "icons/svg/mystery-man.svg",
+      "color": "#7f28cc",
+      "permissions": {},
+      "role": 2
+    },
+    "flags": {
+      "df-chat-enhance": {
+        "PlayerAdventureLog": "",
+        "chat-color": ""
+      },
+      "monks-player-settings": {
+        "client-settings": "{}",
+        "save-id": 1
+      },
+      "monks-little-details": {
+        "last-actor": "Actor.hIk1p0uySaUPyi5f",
+        "targets": [
+          "20MsmzHJ157qyEV6"
+        ],
+        "findTime": 1664917922700,
+        "findIdx": 0
+      },
+      "token-action-hud": {
+        "categories": {
+          "inventory": {
+            "title": "Inventory",
+            "id": "inventory",
+            "push": false,
+            "core": true
+          },
+          "feats": {
+            "title": "Features",
+            "id": "feats",
+            "push": false,
+            "core": true
+          },
+          "skills": {
+            "title": "Skills",
+            "id": "skills",
+            "push": false,
+            "core": true
+          },
+          "saves": {
+            "title": "Saves",
+            "id": "saves",
+            "push": false,
+            "core": true
+          },
+          "checks": {
+            "title": "Checks",
+            "id": "checks",
+            "push": false,
+            "core": true
+          },
+          "effects": {
+            "title": "Effects",
+            "id": "effects",
+            "push": false,
+            "core": true
+          },
+          "conditions": {
+            "title": "Conditions",
+            "id": "conditions",
+            "push": false,
+            "core": true
+          },
+          "utility": {
+            "title": "Utility",
+            "id": "utility",
+            "push": false,
+            "core": true
+          }
+        },
+        "hudPos": {
+          "top": 80,
+          "left": 150
+        }
+      }
+    }
+  },
+  {
+    "name": "Lucky Boy 38",
+    "core": {
+      "avatar": "icons/svg/mystery-man.svg",
+      "color": "#ccb528",
+      "permissions": {},
+      "role": 2
+    },
+    "flags": {
+      "df-chat-enhance": {
+        "PlayerAdventureLog": "",
+        "chat-color": ""
+      },
+      "monks-player-settings": {
+        "client-settings": "{}",
+        "save-id": 1
+      },
+      "monks-little-details": {
+        "last-actor": "Actor.VUxSJzHHvhln8Rqm"
+      }
+    }
+  },
+  {
+    "name": "MaryMemory",
+    "core": {
+      "avatar": "icons/svg/mystery-man.svg",
+      "color": "#cc3328",
+      "permissions": {},
+      "role": 2
+    },
+    "flags": {
+      "df-chat-enhance": {
+        "PlayerAdventureLog": "",
+        "chat-color": ""
+      },
+      "monks-player-settings": {
+        "client-settings": "{}",
+        "save-id": 1
+      },
+      "monks-little-details": {
+        "last-actor": "Actor.rGhtzi7BeJsHvWCD",
+        "targets": [
+          "xFZQ62UaiA2TGRaY"
+        ]
+      },
+      "token-action-hud": {
+        "categories": {
+          "inventory": {
+            "title": "Inventory",
+            "id": "inventory",
+            "push": false,
+            "core": true
+          },
+          "spells": {
+            "title": "Spells",
+            "id": "spells",
+            "push": false,
+            "core": true
+          },
+          "feats": {
+            "title": "Features",
+            "id": "feats",
+            "push": false,
+            "core": true
+          },
+          "skills": {
+            "title": "Skills",
+            "id": "skills",
+            "push": false,
+            "core": true
+          },
+          "saves": {
+            "title": "Saves",
+            "id": "saves",
+            "push": false,
+            "core": true
+          },
+          "checks": {
+            "title": "Checks",
+            "id": "checks",
+            "push": false,
+            "core": true
+          },
+          "effects": {
+            "title": "Effects",
+            "id": "effects",
+            "push": false,
+            "core": true
+          },
+          "conditions": {
+            "title": "Conditions",
+            "id": "conditions",
+            "push": false,
+            "core": true
+          },
+          "utility": {
+            "title": "Utility",
+            "id": "utility",
+            "push": false,
+            "core": true
+          }
+        }
+      },
+      "always-hp": {
+        "alwayshpPos": {
+          "left": 19.5,
+          "top": 536
+        }
+      }
+    }
+  },
+  {
+    "name": "reru96",
+    "core": {
+      "avatar": "icons/svg/mystery-man.svg",
+      "color": "#28cc38",
+      "permissions": {},
+      "role": 2
+    },
+    "flags": {
+      "df-chat-enhance": {
+        "PlayerAdventureLog": "",
+        "chat-color": ""
+      },
+      "monks-player-settings": {
+        "client-settings": "{}",
+        "save-id": 1
+      },
+      "monks-little-details": {
+        "last-actor": "Actor.J6lgjIPv9kwC8GpR",
+        "targets": []
+      },
+      "token-action-hud": {
+        "categories": {
+          "inventory": {
+            "title": "Inventory",
+            "id": "inventory",
+            "push": false,
+            "core": true
+          },
+          "feats": {
+            "title": "Features",
+            "id": "feats",
+            "push": false,
+            "core": true
+          },
+          "skills": {
+            "title": "Skills",
+            "id": "skills",
+            "push": false,
+            "core": true
+          },
+          "saves": {
+            "title": "Saves",
+            "id": "saves",
+            "push": false,
+            "core": true
+          },
+          "checks": {
+            "title": "Checks",
+            "id": "checks",
+            "push": false,
+            "core": true
+          },
+          "effects": {
+            "title": "Effects",
+            "id": "effects",
+            "push": false,
+            "core": true
+          },
+          "conditions": {
+            "title": "Conditions",
+            "id": "conditions",
+            "push": false,
+            "core": true
+          },
+          "utility": {
+            "title": "Utility",
+            "id": "utility",
+            "push": false,
+            "core": true
+          }
+        },
+        "hudPos": {
+          "top": 80,
+          "left": 150
+        }
+      },
+      "always-hp": {
+        "alwayshpPos": {
+          "left": 1065,
+          "top": 493
+        }
+      }
+    }
+  },
+  {
+    "name": "Zonturas",
+    "core": {
+      "avatar": "icons/svg/mystery-man.svg",
+      "color": "#2874cc",
+      "permissions": {},
+      "role": 2
+    },
+    "flags": {
+      "dfreds-effects-panel": {
+        "topPosition": 5
+      },
+      "monks-player-settings": {
+        "client-settings": "{\"smarttarget\":{\"target-indicator\":\"5\",\"release\":\"1\"}}",
+        "save-id": 1
+      },
+      "monks-little-details": {
+        "last-actor": "Actor.rXMjRNBzYy7XCqxl",
+        "targets": [
+          "mnoSVPmEeZmCaE7r"
+        ]
+      },
+      "token-action-hud": {
+        "categories": {
+          "inventory": {
+            "title": "Inventory",
+            "id": "inventory",
+            "push": false,
+            "core": true
+          },
+          "feats": {
+            "title": "Features",
+            "id": "feats",
+            "push": false,
+            "core": true
+          },
+          "skills": {
+            "title": "Skills",
+            "id": "skills",
+            "push": false,
+            "core": true
+          },
+          "saves": {
+            "title": "Saves",
+            "id": "saves",
+            "push": false,
+            "core": true
+          },
+          "checks": {
+            "title": "Checks",
+            "id": "checks",
+            "push": false,
+            "core": true
+          },
+          "effects": {
+            "title": "Effects",
+            "id": "effects",
+            "push": false,
+            "core": true
+          },
+          "conditions": {
+            "title": "Conditions",
+            "id": "conditions",
+            "push": false,
+            "core": true
+          },
+          "utility": {
+            "title": "Utility",
+            "id": "utility",
+            "push": false,
+            "core": true
+          }
+        }
+      },
+      "df-chat-enhance": {
+        "PlayerAdventureLog": "",
+        "chat-color": ""
+      }
+    }
+  }
+]

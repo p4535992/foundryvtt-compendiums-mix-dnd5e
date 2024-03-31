@@ -1,0 +1,5276 @@
+{
+  "name": "Cade TossCobble",
+  "type": "character",
+  "img": "https://i.imgur.com/1QtyfUV.jpg",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 8,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 1
+      },
+      "con": {
+        "value": 13,
+        "proficient": 0
+      },
+      "int": {
+        "value": 12,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 16,
+        "proficient": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": null,
+        "calc": "default",
+        "formula": ""
+      },
+      "hp": {
+        "value": 21,
+        "min": 0,
+        "max": 21,
+        "temp": null,
+        "tempmax": null
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 25,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "cha",
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
+      "exhaustion": 0,
+      "inspiration": false,
+      "prof": 2
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "",
+      "race": "Halfling (Lightfoot)",
+      "background": "Entertainer",
+      "originalClass": "Y0eSiRFXwxE2ERdK",
+      "xp": {
+        "value": 900,
+        "min": 0,
+        "max": 2700,
+        "pct": 0
+      },
+      "appearance": "",
+      "trait": "",
+      "ideal": "",
+      "bond": "",
+      "flaw": "",
+      "attunedItemsMax": "3",
+      "attunedItemsCount": 0,
+      "maxPreparedSpells": null,
+      "gender": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "sm",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "halfling"
+        ],
+        "custom": ""
+      },
+      "weaponProf": {
+        "value": [
+          "sim",
+          "handcrossbow",
+          "longsword",
+          "rapier",
+          "shortsword"
+        ],
+        "custom": ""
+      },
+      "armorProf": {
+        "value": [
+          "lgt"
+        ],
+        "custom": ""
+      },
+      "toolProf": {
+        "value": [
+          "disg",
+          "music"
+        ],
+        "custom": "three musical instruments of your choice"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 15,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 1,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0.5,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0.5,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0.5,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0.5,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0.5,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0.5,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0.5,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 0.5,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 0.5,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 1,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0.5,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0.5,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 0.5,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 0.5,
+        "ability": "wis"
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 4
+      },
+      "spell2": {
+        "value": 2,
+        "override": null,
+        "max": 2
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "primary": {
+        "value": null,
+        "max": null,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      },
+      "secondary": {
+        "value": null,
+        "max": null,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      },
+      "tertiary": {
+        "value": null,
+        "max": null,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      }
+    }
+  },
+  "token": {
+    "name": "Cade TossCobble",
+    "img": "https://i.imgur.com/cNqtlJe.png",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": true,
+    "dimSight": 10,
+    "brightSight": 10,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 0,
+    "lightAngle": 0,
+    "lightAlpha": 0.25,
+    "lightAnimation": {
+      "speed": 5,
+      "intensity": 5
+    },
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "splatter": {
+        "bloodColor": ""
+      },
+      "token-auras": {
+        "aura1": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        },
+        "aura2": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        }
+      }
+    },
+    "randomImg": false,
+    "tint": null,
+    "lightColor": null,
+    "x": null,
+    "y": null,
+    "elevation": null
+  },
+  "items": [
+    {
+      "_id": "5mBoyTvSBil5b6jK",
+      "name": "Age",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/spells/lightning-jade-1.jpg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "0XetzgaFKjh3YImI",
+      "name": "Alignment",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/spells/lightning-jade-1.jpg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "c7MeBOD5HlcOWz2w",
+      "name": "Lucky",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/items/inventory/dice.jpg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "XWqSBZAcHmGxEUE8",
+      "name": "Brave",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/yellow_08.jpg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You have advantage on saving throws against being @condition[frightened].</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "6ScK8E2yyu1eY8Xh",
+      "name": "Halfling Nimbleness",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/armor_01.jpg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You can move through the space of any creature that is of a size larger than yours.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "0m4AwHh4Q0zvNcQ0",
+      "name": "Languages",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/spells/lightning-jade-1.jpg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "B7fe0txYSIO9TiNz",
+      "name": "Naturally Stealthy",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/shadow_17.jpg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "Y0eSiRFXwxE2ERdK",
+      "name": "Bard",
+      "type": "class",
+      "img": "/systems/dnd5e/icons/skills/affliction_24.jpg",
+      "data": {
+        "description": {
+          "value": "<table class=\"cls-tbl shadow-big w-100 mb-3\">\n\t\t\t<tbody>\n\t\t\t<tr><th class=\"border\" colspan=\"15\"></th></tr>\n\t\t\t\n\t\t\t<tr>\n\t\t\t\t<th colspan=\"3\"></th>\n\t\t\t\t<th colspan=\"2\"></th><th class=\"cls-tbl__col-group\" colspan=\"9\">Spell Slots per Spell Level</th>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<th class=\"cls-tbl__col-level\">Level</th>\n\t\t\t\t<th class=\"cls-tbl__col-prof-bonus\">Proficiency Bonus</th>\n\t\t\t\t<th>Features</th>\n\t\t\t\t<th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:0=1,flstclass:bard=1\">Cantrips Known</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstclass:bard=1\">Spells Known</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:1=1,flstclass:bard=1\">1st</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:2=1,flstclass:bard=1\">2nd</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:3=1,flstclass:bard=1\">3rd</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:4=1,flstclass:bard=1\">4th</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:5=1,flstclass:bard=1\">5th</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:6=1,flstclass:bard=1\">6th</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:7=1,flstclass:bard=1\">7th</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:8=1,flstclass:bard=1\">8th</a></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:9=1,flstclass:bard=1\">9th</a></div></th>\n\t\t\t</tr>\n\t\t\t<tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">1st</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Bardic Inspiration<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Magical Inspiration<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Spellcasting<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Spell Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">2nd</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Jack of All Trades<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Song of Rest (d6)<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Magical Inspiration</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">5</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">3rd</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Bard College<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Expertise</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">6</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">4th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Bardic Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">7</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">5th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td><div class=\"inline-block\">Bardic Inspiration (d8)<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Font of Inspiration</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">8</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">6th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td><div class=\"inline-block\">Countercharm<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Bard College feature</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">9</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">7th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td>—</td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">10</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">8th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">11</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">9th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td><div class=\"inline-block\">Song of Rest (d8)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">12</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">10th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td><div class=\"inline-block\">Bardic Inspiration (d10)<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Expertise<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Magical Secrets</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">14</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">11th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td>—</td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">15</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">12th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">15</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">13th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Song of Rest (d10)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">16</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">14th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Magical Secrets<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Bard College feature</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">18</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">15th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Bardic Inspiration (d12)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">19</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">16th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">19</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">17th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Song of Rest (d12)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">20</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">18th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Magical Secrets</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">22</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">19th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">22</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">20th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Superior Inspiration</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">22</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td>\n\t\t\t</tr>\n\t\t\t<tr><th class=\"border\" colspan=\"15\"></th></tr>\n\t\t\t</tbody>\n\t\t</table><div class=\"rd__b  rd__b--0\"><p>Humming as she traces her fingers over an ancient monument in a long-forgotten ruin, a half-elf in rugged leathers finds knowledge springing into her mind, conjured forth by the magic of her song—knowledge of the people who constructed the monument and the mythic saga it depicts.</p><p>A stern human warrior bangs his sword rhythmically against his scale mail, setting the tempo for his war chant and exhorting his companions to bravery and heroism. The magic of his song fortifies and emboldens them.</p><p>Laughing as she tunes her cittern, a gnome weaves her subtle magic over the assembled nobles, ensuring that her companions' words will be well received.</p><p>Whether scholar, skald, or scoundrel, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and even heal wounds.</p><div class=\"rd__b  rd__b--1\"><span class=\"rd__h rd__h--1\" data-title-index=\"104\"> <span class=\"entry-title-inner\">Music and Magic</span></span> <p>In the worlds of D&amp;D, words and music are not just vibrations of air, but vocalizations with power all their own. The bard is a master of song, speech, and the magic they contain. Bards say that the multiverse was spoken into existence, that the words of the gods gave it shape, and that echoes of these primordial Words of Creation still resound throughout the cosmos. The music of bards is an attempt to snatch and harness those echoes, subtly woven into their spells and powers.</p><p>The greatest strength of bards is their sheer versatility. Many bards prefer to stick to the sidelines in combat, using their magic to inspire their allies and hinder their foes from a distance. But bards are capable of defending themselves in melee if necessary, using their magic to bolster their swords and armor. Their spells lean toward charms and illusions rather than blatantly destructive spells. They have a wide-ranging knowledge of many subjects and a natural aptitude that lets them do almost anything well. Bards become masters of the talents they set their minds to perfecting, from musical performance to esoteric knowledge.</p></div><div class=\"rd__b  rd__b--1\"><span class=\"rd__h rd__h--1\" data-title-index=\"105\"> <span class=\"entry-title-inner\">Learning from Experience</span></span> <p>True bards are not common in the world. Not every minstrel singing in a tavern or jester cavorting in a royal court is a bard. Discovering the magic hidden in music requires hard study and some measure of natural talent that most troubadours and jongleurs lack. It can be hard to spot the difference between these performers and true bards, though. A bard's life is spent wandering across the land gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But a depth of knowledge, a level of musical skill, and a touch of magic set bards apart from their fellows.</p><p>Only rarely do bards settle in one place for long, and their natural desire to travel—to find new tales to tell, new skills to learn, and new discoveries beyond the horizon—makes an adventuring career a natural calling. Every adventure is an opportunity to learn, practice a variety of skills, enter long-forgotten tombs, discover lost works of magic, decipher old tomes, travel to strange places, or encounter exotic creatures. Bards love to accompany heroes to witness their deeds firsthand. A bard who can tell an awe-inspiring story from personal experience earns renown among other bards. Indeed, after telling so many stories about heroes accomplishing mighty deeds, many bards take these themes to heart and assume heroic roles themselves.</p></div><div class=\"rd__b  rd__b--1\"><span class=\"rd__h rd__h--1\" data-title-index=\"106\"> <span class=\"entry-title-inner\">Creating a Bard</span></span> <p>Bards thrive on stories, whether those stories are true or not. Your character's background and motivations are not as important as the stories that he or she tells about them. Perhaps you had a secure and mundane childhood. There's no good story to be told about that, so you might paint yourself as an orphan raised by a hag in a dismal swamp. Or your childhood might be worthy of a story. Some bards acquire their magical music through extraordinary means, including the inspiration of fey or other supernatural creatures.</p><p>Did you serve an apprenticeship, studying under a master, following the more experienced bard until you were ready to strike out on your own? Or did you attend a college where you studied bardic lore and practiced your musical magic? Perhaps you were a young runaway or orphan, befriended by a wandering bard who became your mentor. Or you might have been a spoiled noble child tutored by a master. Perhaps you stumbled into the clutches of a hag, making a bargain for a musical gift in addition to your life and freedom, but at what cost?</p><div class=\"rd__b  rd__b--2\"><span class=\"rd__h rd__h--2\" data-title-index=\"107\"> <span class=\"entry-title-inner\">Quick Build</span></span> <p>You can make a bard quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Dexterity. Second, choose the <a href=\"https://5etools-mirror-1.github.io/backgrounds.html#entertainer_phb\" data-vet-page=\"backgrounds.html\" data-vet-source=\"PHB\" data-vet-hash=\"entertainer_phb\">entertainer</a> background. Third, choose the <a href=\"https://5etools-mirror-1.github.io/spells.html#dancing%20lights_phb\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"dancing%20lights_phb\">dancing lights</a> and <a href=\"https://5etools-mirror-1.github.io/spells.html#vicious%20mockery_phb\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"vicious%20mockery_phb\">vicious mockery</a> cantrips, along with the following 1st-level spells: <a href=\"https://5etools-mirror-1.github.io/spells.html#charm%20person_phb\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"charm%20person_phb\">charm person</a>, <a href=\"https://5etools-mirror-1.github.io/spells.html#detect%20magic_phb\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"detect%20magic_phb\">detect magic</a>, <a href=\"https://5etools-mirror-1.github.io/spells.html#healing%20word_phb\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"healing%20word_phb\">healing word</a>, and <a href=\"https://5etools-mirror-1.github.io/spells.html#thunderwave_phb\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"thunderwave_phb\">thunderwave</a>.</p></div></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "levels": 3,
+        "subclass": "",
+        "hitDice": "d8",
+        "hitDiceUsed": 0,
+        "saves": [],
+        "skills": {
+          "number": 0,
+          "choices": [
+            "dec",
+            "itm",
+            "per"
+          ],
+          "value": [
+            "dec",
+            "itm",
+            "per"
+          ]
+        },
+        "spellcasting": {
+          "progression": "full",
+          "ability": "cha"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "classes.html",
+          "source": "PHB",
+          "hash": "bard_phb",
+          "sourceSubclass": null,
+          "hashSubclass": null,
+          "filterValues": {
+            "Source": {
+              "TCE": 1,
+              "ERLW": 1,
+              "UAClassFeatureVariants": 0,
+              "UA2020SubclassesPt3": 0,
+              "UAArtificer": 0,
+              "UAArtificerRevisited": 0,
+              "PHB": 1,
+              "XGE": 1,
+              "UABarbarianPrimalPaths": 0,
+              "UARevisedSubclasses": 0,
+              "SCAG": 1,
+              "UA2020SubclassesPt1": 0,
+              "UABarbarianAndMonk": 0,
+              "UA2020SubclassesPt2": 0,
+              "UABardAndPaladin": 0,
+              "UABardBardColleges": 0,
+              "UAKitsOfOld": 0,
+              "VRGR": 1,
+              "UA2020SubclassesPt4": 0,
+              "UATheRangerRevised": 0,
+              "UA2021MagesOfStrixhaven": 0,
+              "PSA": 0,
+              "UAModernMagic": 0,
+              "DMG": 1,
+              "UAClericDivineDomains": 0,
+              "GGR": 1,
+              "UAOrderDomain": 0,
+              "UAClericDruidWizard": 0,
+              "UADruid": 0,
+              "UAThreeSubclasses": 0,
+              "UARevisedClassOptions": 0,
+              "UASidekicks": 0,
+              "UALightDarkUnderdark": 0,
+              "UAWaterborneAdventures": 0,
+              "UAFighter": 0,
+              "EGW": 1,
+              "UAGothicHeroes": 0,
+              "UA2020PsionicOptionsRevisited": 0,
+              "UAFighterRogueWizard": 0,
+              "UAFighterRangerRogue": 0,
+              "Generic": 1,
+              "UA2020SubclassesPt5": 0,
+              "UAATrioOfSubclasses": 0,
+              "UAMonk": 0,
+              "UATheMysticClass": 0,
+              "UAPaladin": 0,
+              "MOT": 1,
+              "UAPrestigeClassesRunMagic": 0,
+              "UARangerAndRogue": 0,
+              "UARanger": 0,
+              "UAModifyingClasses": 0,
+              "UA2020SubclassesRevisited": 0,
+              "UASorcererAndWarlock": 0,
+              "UASorcerer": 0,
+              "UAGiantSoulSorcerer": 0,
+              "PSK": 0,
+              "UATheFaithful": 0,
+              "UAWarlockAndWizard": 0,
+              "UAEberron": 0,
+              "UAWizardRevisited": 0,
+              "_isActive": true,
+              "_totals": {
+                "yes": 11,
+                "no": 0,
+                "ignored": 49
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Miscellaneous": {
+              "Reprinted": 2,
+              "Sidekick": 2,
+              "SRD": 0,
+              "_isActive": true,
+              "_totals": {
+                "yes": 0,
+                "no": 2,
+                "ignored": 1
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Other/Text Options": {
+              "isDisplayClassIfSubclassActive": false,
+              "isClassFeatureVariant": true,
+              "_isActive": false
+            }
+          },
+          "isPrimaryClass": true
+        }
+      }
+    },
+    {
+      "_id": "G1dIgWeuapmU0otY",
+      "name": "Bardic Inspiration",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/yellow_08.jpg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a [[/r d6]].</p><div class=\"rd__spc-inline-post\"></div><p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the [[/r d20]] before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.</p><p>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p><p>Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a [[/r d8]] at 5th level, a [[/r d10]] at 10th level, and a [[/r d12]] at 15th level.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 1,
+          "max": "@abilities.cha.mod",
+          "per": "lr",
+          "type": "lr"
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "1d6",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Bard 1",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "featType": {
+          "value": "ability",
+          "_deprecated": true,
+          "type": "String",
+          "label": "Feat Type"
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "classfeatures.html",
+          "source": "PHB",
+          "hash": "bardic%20inspiration_bard_phb_1_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "ra14W9nwHxm8oKng",
+      "name": "Spellcasting",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--1\"><p>You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations. See <a href=\"https://5etools-mirror-1.github.io/book.html#PHB,10\">chapter 10</a> for the general rules of spellcasting and <a href=\"https://5etools-mirror-1.github.io/book.html#PHB,11\">chapter 11</a> for the <a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstclass:bard=1\">bard spell list</a>.</p><div class=\"rd__b  rd__b--2\"><span class=\"rd__h rd__h--2\" data-title-index=\"108\"> <span class=\"entry-title-inner\">Cantrips</span></span> <p>You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, learning a 3rd cantrip at 4th level and a 4th at 10th level.</p></div><div class=\"rd__b  rd__b--2\"><span class=\"rd__h rd__h--2\" data-title-index=\"109\"> <span class=\"entry-title-inner\">Spell Slots</span></span> <p>The Bard table shows how many spell slots you have to cast your <a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstclass:bard=1\">bard spells</a> of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p><p>For example, if you know the 1st-level spell @spell[cure wounds] and have a 1st-level and a 2nd-level spell slot available, you can cast @spell[cure wounds] using either slot.</p></div><div class=\"rd__b  rd__b--2\"><span class=\"rd__h rd__h--2\" data-title-index=\"110\"> <span class=\"entry-title-inner\">Spells Known of 1st Level and Higher</span></span> <p>You know four 1st-level spells of your choice from the bard spell list.</p><p>You learn an additional bard spell of your choice at each level except 12th, 16th, 19th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p><p>Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.</p></div><div class=\"rd__b  rd__b--2\"><span class=\"rd__h rd__h--2\" data-title-index=\"111\"> <span class=\"entry-title-inner\">Spellcasting Ability</span></span> <p>Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.</p><p></p><div class=\"text-center\"><b>Spell save DC</b> = 8 + your proficiency bonus + your Charisma modifier</div><p></p><p></p><div class=\"text-center\"><b>Spell attack modifier</b> = your proficiency bonus + your Charisma modifier</div><p></p></div><div class=\"rd__b  rd__b--2\"><span class=\"rd__h rd__h--2\" data-title-index=\"112\"> <span class=\"entry-title-inner\">Ritual Casting</span></span> <p>You can cast any bard spell you know as a ritual if that spell has the ritual tag.</p></div><div class=\"rd__b  rd__b--2\"><span class=\"rd__h rd__h--2\" data-title-index=\"113\"> <span class=\"entry-title-inner\">Spellcasting Focus</span></span> <p>You can use a @item[musical instrument|PHB] as a spellcasting focus for your bard spells.</p></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "lr"
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "requirements": "Bard 1",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "classfeatures.html",
+          "source": "PHB",
+          "hash": "spellcasting_bard_phb_1_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "Gj53RgH9jPDjM9On",
+      "name": "Jack of All Trades",
+      "type": "feat",
+      "img": "/systems/dnd5e/icons/skills/mech_8.jpg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null,
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Bard 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "classfeatures.html",
+          "source": "PHB",
+          "hash": "jack%20of%20all%20trades_bard_phb_2_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "5t035DVDt4JEFEDj",
+      "name": "Song of Rest (d6)",
+      "type": "feat",
+      "img": "/systems/dnd5e/icons/skills/green_19.jpg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points by spending Hit Dice at the end of the short rest, each of those creatures regains an extra [[/r 1d6]] hit points.</p><div class=\"rd__spc-inline-post\"></div><p>The extra hit points increase when you reach certain levels in this class: to [[/r 1d8]] at 9th level, to [[/r 1d10]] at 13th level, and to [[/r 1d12]] at 17th level.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "special",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "heal",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6",
+              "healing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Bard 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "classfeatures.html",
+          "source": "PHB",
+          "hash": "song%20of%20rest%20(d6)_bard_phb_2_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [
+              true
+            ],
+            "altValue": [
+              true
+            ],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "i450mNx57ktQFL6I",
+      "name": "Magical Inspiration",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--1\"><p><i>2nd-level bard @variantrule[optional class features|tce|optional feature]</i></p><p>If a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, the creature can roll that die and choose a target affected by the spell. Add the number rolled as a bonus to the hit points regained or the damage dealt. The Bardic Inspiration die is then lost.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "Bard 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "classfeatures.html",
+          "source": "TCE",
+          "hash": "magical%20inspiration_bard_phb_2_tce"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "MXCbxNYhv3YCfsLT",
+      "name": "Expertise",
+      "type": "feat",
+      "img": "/systems/dnd5e/icons/skills/yellow_35.jpg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p><div class=\"rd__spc-inline-post\"></div><p>At 10th level, you can choose another two skill proficiencies to gain this benefit.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Bard 3",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "classfeatures.html",
+          "source": "PHB",
+          "hash": "expertise_bard_phb_3_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "Aysmu6RVdMFjXoi0",
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/skills/blood_11.jpg",
+      "data": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1 + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {
+          "amm": false,
+          "hvy": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "bonus": {
+          "value": 0,
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damage2": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damage2Type": {
+          "value": "",
+          "_deprecated": true
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "unarmed%20strike_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [
+              true
+            ],
+            "altValue": [
+              true
+            ],
+            "context": []
+          },
+          "quickVersatile": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "KNWXZkrgPxYTG1Qw",
+      "name": "Feature: By Popular Demand",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/farmer.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true,
+              "charge": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "8ODOAg1tknrMYzAV",
+      "name": "Friends",
+      "type": "spell",
+      "img": "modules/plutonium/media/icon/spell/phb-friends.webp",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn't hostile toward you. When the spell ends, the creature realizes that you used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM's discretion), depending on the nature of your interaction with it.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "self",
+          "type": "self"
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 0,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": false,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a small amount of makeup applied to the face as this spell is cast",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "friends_phb",
+          "propDroppable": "spell",
+          "parentClassName": "Bard",
+          "parentClassSource": "PHB"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickVersatile": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "qMp9FbFSs5FbBKmO",
+      "name": "Minor Illusion",
+      "type": "spell",
+      "img": "/systems/dnd5e/icons/skills/shadow_12.jpg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p><div class=\"rd__spc-inline-post\"></div><p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p>If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p><p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (<span class=\"help help--hover\" data-plut-hover=\"true\" data-plut-hover-preload=\"true\" data-plut-hover-preload-id=\"88\">Investigation</span>) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 5,
+          "width": null,
+          "units": "ft",
+          "type": "cube"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 0,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": false,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a bit of fleece",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "minor%20illusion_phb",
+          "propDroppable": "spell",
+          "parentClassName": "Bard",
+          "parentClassSource": "PHB"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickVersatile": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "G1r7wHkwKc3v1zdz",
+      "name": "Charm Person",
+      "type": "spell",
+      "img": "/systems/dnd5e/icons/spells/explosion-magenta-2.jpg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is @condition[charmed] by you until the spell ends or until you or your companions do anything harmful to it. The @condition[charmed] creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was @condition[charmed] by you.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"114\"> <span class=\"entry-title-inner help-subtle\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 1,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "charm%20person_phb",
+          "propDroppable": "spell",
+          "parentClassName": "Bard",
+          "parentClassSource": "PHB"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickVersatile": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "lOqDNBbIpjOBeE4x",
+      "name": "Sleep",
+      "type": "spell",
+      "img": "/systems/dnd5e/icons/spells/light-magenta-1.jpg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>This spell sends creatures into a magical slumber. Roll [[/r 5d8]]; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring @condition[unconscious] creatures).</p><div class=\"rd__spc-inline-post\"></div><p>Starting with the creature that has the lowest current hit points, each creature affected by this spell falls @condition[unconscious] until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.</p><p>Undead and creatures immune to being @condition[charmed] aren't affected by this spell.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"115\"> <span class=\"entry-title-inner help-subtle\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, roll an additional [[/r 2d8]] for each slot level above 1st.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 20,
+          "width": null,
+          "units": "ft",
+          "type": "sphere"
+        },
+        "range": {
+          "value": 90,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "5d8",
+              ""
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 1,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a pinch of fine sand, rose petals, or a cricket",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "2d8"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "sleep_phb",
+          "propDroppable": "spell",
+          "parentClassName": "Bard",
+          "parentClassSource": "PHB"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [
+              true
+            ],
+            "altValue": [
+              true
+            ],
+            "context": []
+          },
+          "quickVersatile": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "use": true,
+              "resource": true
+            },
+            "altValue": {
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "xsDfOBaiOFvSNmmv",
+      "name": "Costume Clothes",
+      "type": "equipment",
+      "img": "/systems/dnd5e/icons/items/equipment/cloak-pink.jpg",
+      "data": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 4,
+        "price": 5,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "none",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": null,
+          "type": "clothing",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "costume%20clothes_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            }
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "Jt4WRjeD66qPliWj",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "/systems/dnd5e/icons/items/weapons/dagger.jpg",
+      "data": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 1,
+        "price": 2,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 20,
+          "long": 60,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {
+          "fin": true,
+          "lgt": true,
+          "thr": true,
+          "amm": false,
+          "hvy": false,
+          "fir": false,
+          "foc": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "dagger_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [
+              true
+            ],
+            "altValue": [
+              true
+            ],
+            "context": []
+          },
+          "quickVersatile": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "0npbUGNkE3cenCfW",
+      "name": "Backpack",
+      "type": "backpack",
+      "img": "/systems/dnd5e/icons/items/inventory/backpack.jpg",
+      "data": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>A <i>backpack</i> can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a <i>backpack</i>.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "capacity": {
+          "type": "weight",
+          "value": 30,
+          "weightless": false
+        },
+        "currency": {
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "damage": {
+          "parts": []
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "backpack_phb"
+        }
+      }
+    },
+    {
+      "_id": "hpYJ0GiWGvn0ySA1",
+      "name": "Bedroll",
+      "type": "loot",
+      "img": "/systems/dnd5e/icons/items/inventory/cloth-blue.jpg",
+      "data": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 7,
+        "price": 1,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "damage": {
+          "parts": []
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "bedroll_phb"
+        }
+      }
+    },
+    {
+      "_id": "7CeHX7etkJa4se0Y",
+      "name": "Costume Clothes",
+      "type": "equipment",
+      "img": "/systems/dnd5e/icons/items/equipment/cloak-pink.jpg",
+      "data": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 2,
+        "weight": 4,
+        "price": 5,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "none",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": null,
+          "type": "clothing",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "costume%20clothes_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            }
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "aRxZW3dD8MUVOKoq",
+      "name": "Candle",
+      "type": "consumable",
+      "img": "/systems/dnd5e/icons/items/inventory/candle.jpg",
+      "data": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>For 1 hour, a <i>candle</i> sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 5,
+        "weight": 0,
+        "price": 0.01,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 10,
+          "width": null,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "charges",
+          "autoDestroy": false,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "trinket",
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "candle_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "emZUf9ihdz3lOHPQ",
+      "name": "Rations (1 day)",
+      "type": "consumable",
+      "img": "/systems/dnd5e/icons/items/inventory/meat.jpg",
+      "data": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p><i>Rations</i> consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 5,
+        "weight": 2,
+        "price": 0.5,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "charges",
+          "autoDestroy": true,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "food"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "rations%20(1%20day)_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "Kmyp30Bj5m6KmFDa",
+      "name": "Waterskin",
+      "type": "consumable",
+      "img": "/systems/dnd5e/icons/items/inventory/waterskin.jpg",
+      "data": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>A <i>waterskin</i> can hold up to 4 pints of liquid.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 5,
+        "price": 0.2,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 4,
+          "max": 4,
+          "per": "charges",
+          "autoDestroy": false,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "food"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "waterskin_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "TFPVkn6gKIB7AtP8",
+      "name": "Disguise Kit",
+      "type": "tool",
+      "img": "/systems/dnd5e/icons/items/equipment/cowl.jpg",
+      "data": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</p></div><div class=\"rd__b  rd__b--2\"><p>The perfect tool for anyone who wants to engage in trickery, a <i>disguise kit</i> enables its owner to adopt a false identity.</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"116\"> <span class=\"entry-title-inner help-subtle\">Components.</span></span> <p>A <i>disguise kit</i> includes cosmetics, hair dye, small props, and a few pieces of clothing.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"117\"> <span class=\"entry-title-inner help-subtle\">Deception.</span></span> <p>In certain cases, a disguise can improve your ability to weave convincing lies.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"118\"> <span class=\"entry-title-inner help-subtle\">Intimidation.</span></span> <p>The right disguise can make you look more fearsome, whether you want to scare someone away by posing as a plague victim or intimidate a gang of thugs by taking the appearance of a bully.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"119\"> <span class=\"entry-title-inner help-subtle\">Performance.</span></span> <p>A cunning disguise can enhance an audience's enjoyment of a performance, provided the disguise is properly designed to evoke the desired reaction.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"120\"> <span class=\"entry-title-inner help-subtle\">Persuasion.</span></span> <p>Folk tend to trust a person in uniform. If you disguise yourself as an authority figure, your efforts to persuade others are often more effective.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"121\"> <span class=\"entry-title-inner help-subtle\">Create Disguise.</span></span> <p>As part of a long rest, you can create a disguise. It takes you 1 minute to don such a disguise once you have created it. You can carry only one such disguise on you at a time without drawing undue attention, unless you have a bag of holding or a similar method to keep them hidden. Each disguise weighs 1 pound.</p><div class=\"rd__spc-inline-post\"></div><p>At other times, it takes 10 minutes to craft a disguise that involves moderate changes to your appearance, and 30 minutes for one that requires more extensive changes.</p></div><table class=\"rd__table  stripe-odd-table\"><caption>Disguise Kit</caption><thead><tr><th class=\"col-10\" data-rd-isroller=\"false\">Activity</th><th class=\"col-2 text-center\" data-rd-isroller=\"false\">DC</th></tr></thead><tbody><tr><td class=\"col-10\">Cover injuries or distinguishing marks</td><td class=\"col-2 text-center\">10</td></tr><tr><td class=\"col-10\">Spot a disguise being used by someone else</td><td class=\"col-2 text-center\">15</td></tr><tr><td class=\"col-10\">Copy a humanoid's appearance</td><td class=\"col-2 text-center\">20</td></tr></tbody></table></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 3,
+        "price": 25,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "toolType": "",
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": true,
+        "damage": {
+          "parts": []
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "disguise%20kit_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickCheck": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "qVVchVS0JWwel3xr",
+      "name": "Leather Armor",
+      "type": "equipment",
+      "img": "/systems/dnd5e/icons/items/armor/leather.png",
+      "data": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 10,
+        "price": 10,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 11,
+          "type": "light",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "leather%20armor_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            }
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "5RnYE3PfmpDkEZKb",
+      "name": "Lute",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/items/inventory/lute.jpg",
+      "data": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 2,
+        "price": 35,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "toolType": "music",
+        "ability": "cha",
+        "chatFlavor": "",
+        "proficient": true,
+        "damage": {
+          "parts": []
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "lute_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickCheck": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "ZIQXiZGvxHdtss3A",
+      "name": "Pouch",
+      "type": "backpack",
+      "img": "/systems/dnd5e/icons/items/inventory/pouch.jpg",
+      "data": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>A cloth or leather <i>pouch</i> can hold up to 20 @item[sling bullet|phb|sling bullets] or 50 @item[blowgun needle|phb|blowgun needles], among other things. A compartmentalized <i>pouch</i> for holding spell components is called a @item[component pouch|phb]. A <i>pouch</i> can hold up to ⅕ cubic foot or 6 pounds of gear.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "capacity": {
+          "type": "weight",
+          "value": 6,
+          "weightless": false
+        },
+        "currency": {
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "damage": {
+          "parts": []
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "pouch_phb"
+        }
+      }
+    },
+    {
+      "_id": "8QefVcSdIf8YSi8H",
+      "name": "Shortbow",
+      "type": "weapon",
+      "img": "/systems/dnd5e/icons/items/weapons/bow-short.jpg",
+      "data": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 2,
+        "price": 25,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "common",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 80,
+          "long": 320,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": "0",
+          "per": ""
+        },
+        "consume": {
+          "type": "ammo",
+          "target": "",
+          "amount": 1
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleR",
+        "properties": {
+          "two": true,
+          "amm": true,
+          "hvy": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "lgt": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "ver": false,
+          "lod": false,
+          "ada": false,
+          "mgc": false,
+          "sil": false,
+          "nodam": false,
+          "fulldam": false,
+          "halfdam": false,
+          "critOther": false
+        },
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "shortbow_phb"
+        },
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": null
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": {
+              "0": true
+            },
+            "altValue": {
+              "0": true
+            },
+            "context": {
+              "0": ""
+            }
+          },
+          "quickVersatile": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": {
+              "quantity": false,
+              "use": false,
+              "resource": true
+            },
+            "altValue": {
+              "quantity": false,
+              "use": true,
+              "resource": true
+            }
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickPrompt": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          }
+        },
+        "magicitems": {
+          "enabled": false,
+          "equipped": false,
+          "attuned": false,
+          "charges": "0",
+          "chargeType": "c1",
+          "destroy": false,
+          "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+          "rechargeable": false,
+          "recharge": "0",
+          "rechargeType": "t1",
+          "rechargeUnit": "r1",
+          "sorting": "l"
+        }
+      }
+    },
+    {
+      "_id": "k2zedxjjVYUnHVT4",
+      "name": "The Favor of an Admirer (Love Letter, Lock of Hair, or Trinket)",
+      "type": "loot",
+      "img": "modules/plutonium/media/icon/crossed-swords.svg",
+      "data": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "damage": {
+          "parts": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "78g7JnBFLCUUXF6l": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "the%20favor%20of%20an%20admirer%20(love%20letter%2c%20lock%20of%20hair%2c%20or%20trinket)_phb"
+        }
+      }
+    }
+  ],
+  "effects": [
+    {
+      "_id": "B8yhixyNER7CE3db",
+      "changes": [
+        {
+          "key": "flags.dnd5e.jackOfAllTrades",
+          "value": "true",
+          "mode": 5,
+          "priority": 4
+        }
+      ],
+      "disabled": 0,
+      "duration": {
+        "startTime": 217866
+      },
+      "icon": "/systems/dnd5e/icons/skills/mech_8.jpg",
+      "label": "Jack of All Trades",
+      "origin": "Actor.GjbPfv5ix4MC7k7N.Item.Gj53RgH9jPDjM9On",
+      "tint": null,
+      "transfer": false,
+      "flags": {}
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "dnd5e": {
+      "halflingLucky": true
+    },
+    "combatbooster": {
+      "recentItems": [
+        "Jt4WRjeD66qPliWj",
+        "lOqDNBbIpjOBeE4x"
+      ]
+    },
+    "theatre": {
+      "settings": {
+        "emote": null,
+        "textflyin": null,
+        "textstanding": null,
+        "textfont": null,
+        "textsize": null,
+        "textcolor": null
+      }
+    },
+    "dae": {
+      "damageApplied": -8
+    },
+    "core": {
+      "sourceId": "Actor.GjbPfv5ix4MC7k7N"
+    },
+    "exportSource": {
+      "world": "leavventure",
+      "system": "dnd5e",
+      "coreVersion": "0.8.9",
+      "systemVersion": "1.4.3"
+    }
+  }
+}

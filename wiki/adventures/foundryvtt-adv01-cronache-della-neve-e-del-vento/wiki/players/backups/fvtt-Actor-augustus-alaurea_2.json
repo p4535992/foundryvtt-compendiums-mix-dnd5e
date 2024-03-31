@@ -1,0 +1,5095 @@
+{
+  "name": "Augustus Alaurea",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 13,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 18,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": null,
+        "calc": "default",
+        "formula": ""
+      },
+      "hp": {
+        "value": 22,
+        "min": 0,
+        "max": 22,
+        "temp": null,
+        "tempmax": null
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 120,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "cha",
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
+      "exhaustion": 0,
+      "inspiration": false,
+      "prof": 2
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "",
+      "race": "Owlin",
+      "background": "",
+      "originalClass": "BE84P4U5pWZ9g40S",
+      "xp": {
+        "value": 900,
+        "min": 0,
+        "max": 2700,
+        "pct": 0
+      },
+      "appearance": "",
+      "trait": "",
+      "ideal": "",
+      "bond": "",
+      "flaw": "",
+      "maxPreparedSpells": null,
+      "gender": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "sm",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "dwarvish",
+          "elvish",
+          "gnomish"
+        ],
+        "custom": ""
+      },
+      "weaponProf": {
+        "value": [
+          "sim",
+          "handcrossbow",
+          "longsword",
+          "rapier",
+          "shortsword"
+        ],
+        "custom": ""
+      },
+      "armorProf": {
+        "value": [
+          "lgt"
+        ],
+        "custom": ""
+      },
+      "toolProf": {
+        "value": [],
+        "custom": "three musical instruments of your choice"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 15,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0.5,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0.5,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0.5,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0.5,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0.5,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0.5,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 2,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0.5,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0.5,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0.5,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 2,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0.5,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0.5,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0.5,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "override": null,
+        "max": 4
+      },
+      "spell2": {
+        "value": 2,
+        "override": null,
+        "max": 2
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "primary": {
+        "value": null,
+        "max": null,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      },
+      "secondary": {
+        "value": null,
+        "max": null,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      },
+      "tertiary": {
+        "value": null,
+        "max": null,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      },
+      "wmsurgedescending": {
+        "value": 1,
+        "min": 1,
+        "max": 6,
+        "dieValue": "1d20"
+      },
+      "wmsurgeincrement": {
+        "max": 20,
+        "min": 1,
+        "value": 1
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "TEST -Jed",
+    "displayName": 0,
+    "actorLink": true,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 120,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "AAUecDDjMajFtoQ0",
+      "name": "Darkvision",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You can see in dim light within 120 feet of yourself as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SCC",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "img": "modules/plutonium/media/icon/family-tree.svg",
+      "flags": {
+        "plutonium": {
+          "page": "raceFeature",
+          "source": "SCC",
+          "hash": "darkvision_owlin_scc_scc"
+        },
+        "scene-packer": {
+          "hash": "5db867d92e98dfbbc7229f1ca27fd333fdfb8a99"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598556661,
+        "modifiedTime": 1667598556661,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "_id": "kL5DTl9jwa1YpR9h",
+      "name": "Flight",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Thanks to your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SCC",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "img": "modules/plutonium/media/icon/family-tree.svg",
+      "flags": {
+        "plutonium": {
+          "page": "raceFeature",
+          "source": "SCC",
+          "hash": "flight_owlin_scc_scc"
+        },
+        "scene-packer": {
+          "hash": "59ca2a1454fb8cc2bd722b123b6e500c040552cf"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598556665,
+        "modifiedTime": 1667598556665,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "_id": "MxIq9T8Pvj6U4YQZ",
+      "name": "Silent Feathers",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You have proficiency in the @skill[Stealth] skill.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SCC",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "img": "modules/plutonium/media/icon/family-tree.svg",
+      "flags": {
+        "plutonium": {
+          "page": "raceFeature",
+          "source": "SCC",
+          "hash": "silent%20feathers_owlin_scc_scc"
+        },
+        "scene-packer": {
+          "hash": "9dc92d2b0e5a7dd1185c067b74713e7687cf9f41"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598556667,
+        "modifiedTime": 1667598556667,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "_id": "ywZewlarFxTxXVc2",
+      "name": "Languages",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SCC",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "img": "modules/plutonium/media/icon/family-tree.svg",
+      "flags": {
+        "plutonium": {
+          "page": "raceFeature",
+          "source": "SCC",
+          "hash": "languages_owlin_scc_scc"
+        },
+        "scene-packer": {
+          "hash": "d510c7e4535bb2cd5746fd7b91f18736275fa113"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598556669,
+        "modifiedTime": 1667598556669,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Bard",
+      "type": "class",
+      "system": {
+        "description": {
+          "value": "<div class=\"mb-2 ve-flex-col\"><table class=\"cls-tbl shadow-big w-100 mb-3\">\n\t\t\t<tbody>\n\t\t\t<tr><th class=\"border\" colspan=\"15\"></th></tr>\n\t\t\t\n\t\t\t<tr>\n\t\t\t\t<th colspan=\"3\"></th>\n\t\t\t\t<th colspan=\"2\"></th><th class=\"cls-tbl__col-group\" colspan=\"9\">Spell Slots per Spell Level</th>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<th class=\"cls-tbl__col-level\">Level</th>\n\t\t\t\t<th class=\"cls-tbl__col-prof-bonus\">Proficiency Bonus</th>\n\t\t\t\t<th>Features</th>\n\t\t\t\t<th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><span class=\"bold\">Cantrips Known</span></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><span class=\"bold\">Spells Known</span></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><span class=\"bold\">1st</span></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><span class=\"bold\">2nd</span></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><span class=\"bold\">3rd</span></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><span class=\"bold\">4th</span></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><span class=\"bold\">5th</span></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><span class=\"bold\">6th</span></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><span class=\"bold\">7th</span></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><span class=\"bold\">8th</span></div></th><th class=\"cls-tbl__col-generic-center\"><div class=\"cls__squash_header\"><span class=\"bold\">9th</span></div></th>\n\t\t\t</tr>\n\t\t\t<tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">1st</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Bardic Inspiration<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Magical Inspiration<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Spellcasting<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Spell Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">2nd</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Jack of All Trades<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Song of Rest (d6)<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Magical Inspiration</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">5</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">3rd</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Bard College<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Expertise</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">6</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">4th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+2</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Bardic Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">7</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">5th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td><div class=\"inline-block\">Bardic Inspiration (d8)<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Font of Inspiration</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">8</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">6th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td><div class=\"inline-block\">Countercharm<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Bard College feature</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">9</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">7th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td>—</td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">10</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">8th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+3</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">11</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">9th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td><div class=\"inline-block\">Song of Rest (d8)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">12</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">10th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td><div class=\"inline-block\">Bardic Inspiration (d10)<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Expertise<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Magical Secrets</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">14</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">11th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td>—</td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">15</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">12th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+4</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">15</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">13th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Song of Rest (d10)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">16</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">14th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Magical Secrets<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Bard College feature</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">18</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">15th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Bardic Inspiration (d12)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">19</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">16th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+5</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">19</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">—</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">17th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Song of Rest (d12)</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">20</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">18th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Magical Secrets</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">22</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">19th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Ability Score Improvement<span class=\"mr-1\">,</span></div><div class=\"inline-block\">Proficiency Versatility</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">22</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td>\n\t\t\t</tr><tr class=\"cls-tbl__stripe-odd\">\n\t\t\t\t<td class=\"cls-tbl__col-level\">20th</td>\n\t\t\t\t<td class=\"cls-tbl__col-prof-bonus\">+6</td>\n\t\t\t\t<td><div class=\"inline-block\">Superior Inspiration</div></td>\n\t\t\t\t<td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">22</td><td class=\"cls-tbl__col-generic-center\">4</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">3</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">2</td><td class=\"cls-tbl__col-generic-center\">1</td><td class=\"cls-tbl__col-generic-center\">1</td>\n\t\t\t</tr>\n\t\t\t<tr><th class=\"border\" colspan=\"15\"></th></tr>\n\t\t\t</tbody>\n\t\t</table><div class=\"rd__b  rd__b--0\"><p>Humming as she traces her fingers over an ancient monument in a long-forgotten ruin, a half-elf in rugged leathers finds knowledge springing into her mind, conjured forth by the magic of her song—knowledge of the people who constructed the monument and the mythic saga it depicts.</p><p>A stern human warrior bangs his sword rhythmically against his scale mail, setting the tempo for his war chant and exhorting his companions to bravery and heroism. The magic of his song fortifies and emboldens them.</p><p>Laughing as she tunes her cittern, a gnome weaves her subtle magic over the assembled nobles, ensuring that her companions' words will be well received.</p><p>Whether scholar, skald, or scoundrel, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and even heal wounds.</p><div class=\"rd__b  rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"123\"> <span class=\"entry-title-inner\">Music and Magic</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></span></h2> <p>In the worlds of D&amp;D, words and music are not just vibrations of air, but vocalizations with power all their own. The bard is a master of song, speech, and the magic they contain. Bards say that the multiverse was spoken into existence, that the words of the gods gave it shape, and that echoes of these primordial Words of Creation still resound throughout the cosmos. The music of bards is an attempt to snatch and harness those echoes, subtly woven into their spells and powers.</p><p>The greatest strength of bards is their sheer versatility. Many bards prefer to stick to the sidelines in combat, using their magic to inspire their allies and hinder their foes from a distance. But bards are capable of defending themselves in melee if necessary, using their magic to bolster their swords and armor. Their spells lean toward charms and illusions rather than blatantly destructive spells. They have a wide-ranging knowledge of many subjects and a natural aptitude that lets them do almost anything well. Bards become masters of the talents they set their minds to perfecting, from musical performance to esoteric knowledge.</p></div><div class=\"rd__b  rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"124\"> <span class=\"entry-title-inner\">Learning from Experience</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></span></h2> <p>True bards are not common in the world. Not every minstrel singing in a tavern or jester cavorting in a royal court is a bard. Discovering the magic hidden in music requires hard study and some measure of natural talent that most troubadours and jongleurs lack. It can be hard to spot the difference between these performers and true bards, though. A bard's life is spent wandering across the land gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But a depth of knowledge, a level of musical skill, and a touch of magic set bards apart from their fellows.</p><p>Only rarely do bards settle in one place for long, and their natural desire to travel—to find new tales to tell, new skills to learn, and new discoveries beyond the horizon—makes an adventuring career a natural calling. Every adventure is an opportunity to learn, practice a variety of skills, enter long-forgotten tombs, discover lost works of magic, decipher old tomes, travel to strange places, or encounter exotic creatures. Bards love to accompany heroes to witness their deeds firsthand. A bard who can tell an awe-inspiring story from personal experience earns renown among other bards. Indeed, after telling so many stories about heroes accomplishing mighty deeds, many bards take these themes to heart and assume heroic roles themselves.</p></div><div class=\"rd__b  rd__b--1\"><h2 class=\"rd__h rd__h--1\" data-title-index=\"125\"> <span class=\"entry-title-inner\">Creating a Bard</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></span></h2> <p>Bards thrive on stories, whether those stories are true or not. Your character's background and motivations are not as important as the stories that he or she tells about them. Perhaps you had a secure and mundane childhood. There's no good story to be told about that, so you might paint yourself as an orphan raised by a hag in a dismal swamp. Or your childhood might be worthy of a story. Some bards acquire their magical music through extraordinary means, including the inspiration of fey or other supernatural creatures.</p><p>Did you serve an apprenticeship, studying under a master, following the more experienced bard until you were ready to strike out on your own? Or did you attend a college where you studied bardic lore and practiced your musical magic? Perhaps you were a young runaway or orphan, befriended by a wandering bard who became your mentor. Or you might have been a spoiled noble child tutored by a master. Perhaps you stumbled into the clutches of a hag, making a bargain for a musical gift in addition to your life and freedom, but at what cost?</p><div class=\"rd__b  rd__b--2\"><h3 class=\"rd__h rd__h--2\" data-title-index=\"126\"> <span class=\"entry-title-inner\">Quick Build</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></span></h3> <p>You can make a bard quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Dexterity. Second, choose the <span class=\"bold\" data-vet-page=\"backgrounds.html\" data-vet-source=\"PHB\" data-vet-hash=\"entertainer_phb\">entertainer</span> background. Third, choose the <span class=\"bold\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"dancing%20lights_phb\">dancing lights</span> and <span class=\"bold\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"vicious%20mockery_phb\">vicious mockery</span> cantrips, along with the following 1st-level spells: <span class=\"bold\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"charm%20person_phb\">charm person</span>, <span class=\"bold\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"detect%20magic_phb\">detect magic</span>, <span class=\"bold\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"healing%20word_phb\">healing word</span>, and <span class=\"bold\" data-vet-page=\"spells.html\" data-vet-source=\"PHB\" data-vet-hash=\"thunderwave_phb\">thunderwave</span>.</p></div></div></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "identifier": "bard",
+        "levels": 3,
+        "hitDice": "d8",
+        "hitDiceUsed": 0,
+        "advancement": [
+          {
+            "_id": "vc31v6423jmiex1p",
+            "type": "ScaleValue",
+            "configuration": {
+              "identifier": "inspiration",
+              "type": "dice",
+              "scale": {
+                "1": {
+                  "n": null,
+                  "die": 6
+                },
+                "5": {
+                  "n": null,
+                  "die": 8
+                },
+                "10": {
+                  "n": null,
+                  "die": 10
+                },
+                "15": {
+                  "n": null,
+                  "die": 12
+                }
+              }
+            },
+            "value": {},
+            "title": "Bardic Inspiration Die",
+            "icon": "",
+            "classRestriction": ""
+          },
+          {
+            "_id": "kf9gpqhy2mdx6hes",
+            "type": "ScaleValue",
+            "configuration": {
+              "identifier": "song-of-rest",
+              "type": "dice",
+              "scale": {
+                "2": {
+                  "n": null,
+                  "die": 6
+                },
+                "9": {
+                  "n": null,
+                  "die": 8
+                },
+                "13": {
+                  "n": null,
+                  "die": 10
+                },
+                "17": {
+                  "n": null,
+                  "die": 12
+                }
+              }
+            },
+            "value": {},
+            "title": "Song of Rest Die",
+            "icon": "",
+            "classRestriction": ""
+          },
+          {
+            "_id": "o0aDsR3ulieHzzaI",
+            "type": "ItemGrant",
+            "level": 1,
+            "title": "Features",
+            "icon": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+            "configuration": {
+              "items": []
+            },
+            "value": {
+              "added": {
+                "F29usragR0Ne9PY2": "",
+                "n7imiVnjWZAA7vJa": ""
+              }
+            }
+          },
+          {
+            "_id": "Mxb82veoEkIlEGT6",
+            "type": "ItemGrant",
+            "level": 2,
+            "title": "Features",
+            "icon": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+            "configuration": {
+              "items": []
+            },
+            "value": {
+              "added": {
+                "D3zY4mGNPSkYUhob": "",
+                "6S0ZxGIAWAtjg5bV": "",
+                "gy28sLxepJKFHqjg": ""
+              }
+            }
+          },
+          {
+            "_id": "jP2pzzjfTC56RluO",
+            "type": "ItemGrant",
+            "level": 3,
+            "title": "Features",
+            "icon": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+            "configuration": {
+              "items": []
+            },
+            "value": {
+              "added": {
+                "sDva8HxuabCk9hzG": ""
+              }
+            }
+          }
+        ],
+        "saves": [
+          "dex",
+          "cha"
+        ],
+        "skills": {
+          "number": 0,
+          "choices": [
+            "inv",
+            "prc",
+            "per"
+          ],
+          "value": [
+            "inv",
+            "prc",
+            "per"
+          ]
+        },
+        "spellcasting": {
+          "progression": "full",
+          "ability": "cha"
+        }
+      },
+      "flags": {
+        "plutonium": {
+          "page": "classes.html",
+          "source": "PHB",
+          "hash": "bard_phb",
+          "sourceSubclass": "TCE",
+          "hashSubclass": "bard_phb,state:sub-eloquence-tce=b1",
+          "propDroppable": "subclass",
+          "filterValues": {
+            "Source": {
+              "TCE": 1,
+              "ERLW": 1,
+              "UA2020SubclassesPt3": 0,
+              "UAArtificerRevisited": 0,
+              "UAClassFeatureVariants": 0,
+              "UAArtificer": 0,
+              "PHB": 1,
+              "XGE": 1,
+              "UABarbarianPrimalPaths": 0,
+              "UARevisedSubclasses": 0,
+              "SCAG": 1,
+              "UA2020SubclassesPt1": 0,
+              "UA2022GiantOptions": 0,
+              "UABarbarianAndMonk": 0,
+              "UA2020SubclassesPt2": 0,
+              "UABardAndPaladin": 0,
+              "UABardBardColleges": 0,
+              "UAKitsOfOld": 0,
+              "VRGR": 1,
+              "UA2020SubclassesPt4": 0,
+              "UATheRangerRevised": 0,
+              "UA2021MagesOfStrixhaven": 0,
+              "PSA": 0,
+              "UAModernMagic": 0,
+              "DMG": 1,
+              "UA2022WondersOfTheMultiverse": 0,
+              "UAClericDivineDomains": 0,
+              "GGR": 1,
+              "UAOrderDomain": 0,
+              "UAClericDruidWizard": 0,
+              "UADruid": 0,
+              "UAThreeSubclasses": 0,
+              "UARevisedClassOptions": 0,
+              "UASidekicks": 0,
+              "UALightDarkUnderdark": 0,
+              "UAWaterborneAdventures": 0,
+              "UAFighter": 0,
+              "EGW": 1,
+              "UAGothicHeroes": 0,
+              "UA2020PsionicOptionsRevisited": 0,
+              "UAFighterRogueWizard": 0,
+              "UAFighterRangerRogue": 0,
+              "FTD": 1,
+              "UA2020SubclassesPt5": 0,
+              "UAATrioOfSubclasses": 0,
+              "UAMonk": 0,
+              "UATheMysticClass": 0,
+              "UAPaladin": 0,
+              "MOT": 1,
+              "UAPrestigeClassesRunMagic": 0,
+              "UARangerAndRogue": 0,
+              "UARanger": 0,
+              "UAModifyingClasses": 0,
+              "UA2020SubclassesRevisited": 0,
+              "UASorcererAndWarlock": 0,
+              "UASorcerer": 0,
+              "UAGiantSoulSorcerer": 0,
+              "UA2022HeroesOfKrynn": 0,
+              "PSK": 0,
+              "UAWarlockAndWizard": 0,
+              "UATheFaithful": 0,
+              "UAEberron": 0,
+              "UAWizardRevisited": 0,
+              "_isActive": true,
+              "_totals": {
+                "yes": 11,
+                "no": 0,
+                "ignored": 52
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Miscellaneous": {
+              "Reprinted": 2,
+              "Sidekick": 2,
+              "SRD": 0,
+              "Basic Rules": 0,
+              "_isActive": true,
+              "_totals": {
+                "yes": 0,
+                "no": 2,
+                "ignored": 2
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Other/Text Options": {
+              "isDisplayClassIfSubclassActive": false,
+              "isClassFeatureVariant": true,
+              "_isActive": false
+            }
+          },
+          "isPrimaryClass": true,
+          "isDirectImport": true
+        },
+        "scene-packer": {
+          "hash": "143a6eee734d7a19ac804a31de0d4feac6d58f2c"
+        }
+      },
+      "effects": [],
+      "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+      "_id": "BE84P4U5pWZ9g40S",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598558001,
+        "modifiedTime": 1667598564934,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "College of Eloquence",
+      "type": "subclass",
+      "system": {
+        "description": {
+          "value": "<div class=\"mb-2 ve-flex-col\"><div class=\"rd__b  rd__b--1\"><p>Adherents of the College of Eloquence master the art of oratory. Persuasion is regarded as a high art, and a well-reasoned, well-spoken argument often proves more persuasive than facts. These bards wield a blend of logic and theatrical wordplay, winning over skeptics and detractors with logical arguments and plucking at heartstrings to appeal to the emotions of audiences.</p></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "identifier": "college-of-eloquence",
+        "classIdentifier": "bard",
+        "advancement": [
+          {
+            "_id": "ju3XiMmuQygC4h6q",
+            "type": "ItemGrant",
+            "level": 3,
+            "title": "Features",
+            "icon": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+            "configuration": {
+              "items": []
+            },
+            "value": {
+              "added": {
+                "LysAPhEbHVgW0rYm": "",
+                "cDngJPPnMOh5mqLR": ""
+              }
+            }
+          }
+        ],
+        "spellcasting": {
+          "progression": "none",
+          "ability": ""
+        }
+      },
+      "flags": {
+        "plutonium": {
+          "page": "classes.html",
+          "source": "PHB",
+          "hash": "bard_phb",
+          "sourceSubclass": "TCE",
+          "hashSubclass": "bard_phb,state:sub-eloquence-tce=b1",
+          "propDroppable": "subclass",
+          "filterValues": {
+            "Source": {
+              "TCE": 1,
+              "ERLW": 1,
+              "UA2020SubclassesPt3": 0,
+              "UAArtificerRevisited": 0,
+              "UAClassFeatureVariants": 0,
+              "UAArtificer": 0,
+              "PHB": 1,
+              "XGE": 1,
+              "UABarbarianPrimalPaths": 0,
+              "UARevisedSubclasses": 0,
+              "SCAG": 1,
+              "UA2020SubclassesPt1": 0,
+              "UA2022GiantOptions": 0,
+              "UABarbarianAndMonk": 0,
+              "UA2020SubclassesPt2": 0,
+              "UABardAndPaladin": 0,
+              "UABardBardColleges": 0,
+              "UAKitsOfOld": 0,
+              "VRGR": 1,
+              "UA2020SubclassesPt4": 0,
+              "UATheRangerRevised": 0,
+              "UA2021MagesOfStrixhaven": 0,
+              "PSA": 0,
+              "UAModernMagic": 0,
+              "DMG": 1,
+              "UA2022WondersOfTheMultiverse": 0,
+              "UAClericDivineDomains": 0,
+              "GGR": 1,
+              "UAOrderDomain": 0,
+              "UAClericDruidWizard": 0,
+              "UADruid": 0,
+              "UAThreeSubclasses": 0,
+              "UARevisedClassOptions": 0,
+              "UASidekicks": 0,
+              "UALightDarkUnderdark": 0,
+              "UAWaterborneAdventures": 0,
+              "UAFighter": 0,
+              "EGW": 1,
+              "UAGothicHeroes": 0,
+              "UA2020PsionicOptionsRevisited": 0,
+              "UAFighterRogueWizard": 0,
+              "UAFighterRangerRogue": 0,
+              "FTD": 1,
+              "UA2020SubclassesPt5": 0,
+              "UAATrioOfSubclasses": 0,
+              "UAMonk": 0,
+              "UATheMysticClass": 0,
+              "UAPaladin": 0,
+              "MOT": 1,
+              "UAPrestigeClassesRunMagic": 0,
+              "UARangerAndRogue": 0,
+              "UARanger": 0,
+              "UAModifyingClasses": 0,
+              "UA2020SubclassesRevisited": 0,
+              "UASorcererAndWarlock": 0,
+              "UASorcerer": 0,
+              "UAGiantSoulSorcerer": 0,
+              "UA2022HeroesOfKrynn": 0,
+              "PSK": 0,
+              "UAWarlockAndWizard": 0,
+              "UATheFaithful": 0,
+              "UAEberron": 0,
+              "UAWizardRevisited": 0,
+              "_isActive": true,
+              "_totals": {
+                "yes": 11,
+                "no": 0,
+                "ignored": 52
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Miscellaneous": {
+              "Reprinted": 2,
+              "Sidekick": 2,
+              "SRD": 0,
+              "Basic Rules": 0,
+              "_isActive": true,
+              "_totals": {
+                "yes": 0,
+                "no": 2,
+                "ignored": 2
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Other/Text Options": {
+              "isDisplayClassIfSubclassActive": false,
+              "isClassFeatureVariant": true,
+              "_isActive": false
+            }
+          },
+          "isPrimaryClass": true,
+          "isDirectImport": true
+        },
+        "scene-packer": {
+          "hash": "3cfa304754c7db149b0e2fd0f9d514c57fd5bfde"
+        }
+      },
+      "effects": [],
+      "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+      "_id": "CkVltoofmQ2eRJqh",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598558917,
+        "modifiedTime": 1667598565207,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Bardic Inspiration",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a [[/r d6]].</p><div class=\"rd__spc-inline-post\"></div><p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the [[/r d20]] before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.</p><p>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p><p>Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a [[/r d8]] at 5th level, a [[/r d10]] at 10th level, and a [[/r d12]] at 15th level.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 18,
+          "long": null,
+          "units": "m"
+        },
+        "uses": {
+          "value": 1,
+          "max": "max(1, @abilities.cha.mod)",
+          "per": "lr",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "1@scale.bard.inspiration",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Bard 1",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "bardic%20inspiration_bard_phb_1_phb"
+        },
+        "scene-packer": {
+          "hash": "9178041eafbc16217d13f25d55c12d536bcb7986"
+        },
+        "dnd5e": {
+          "advancementOrigin": "BE84P4U5pWZ9g40S.o0aDsR3ulieHzzaI"
+        }
+      },
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "_id": "F29usragR0Ne9PY2",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598559958,
+        "modifiedTime": 1667598565112,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Spellcasting",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations. See <span class=\"bold\">chapter 10</span> for the general rules of spellcasting and <span class=\"bold\">chapter 11</span> for the <span class=\"bold\">bard spell list</span>.</p><div class=\"rd__spc-inline-post\"></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"127\"> <span class=\"entry-title-inner\">Cantrips.</span></span> <p>You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, learning a 3rd cantrip at 4th level and a 4th at 10th level.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"128\"> <span class=\"entry-title-inner\">Spell Slots.</span></span> <p>The Bard table shows how many spell slots you have to cast your <span class=\"bold\">bard spells</span> of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p><div class=\"rd__spc-inline-post\"></div><p>For example, if you know the 1st-level spell @spell[cure wounds] and have a 1st-level and a 2nd-level spell slot available, you can cast @spell[cure wounds] using either slot.</p></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"129\"> <span class=\"entry-title-inner\">Spells Known of 1st Level and Higher.</span></span> <p>You know four 1st-level spells of your choice from the bard spell list.</p><div class=\"rd__spc-inline-post\"></div><p>You learn an additional bard spell of your choice at each level except 12th, 16th, 19th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p><p>Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.</p></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"130\"> <span class=\"entry-title-inner\">Spellcasting Ability.</span></span> <p>Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.</p><div class=\"rd__spc-inline-post\"></div><p></p><div class=\"text-center\"><b>Spell save DC</b> = 8 + your proficiency bonus + your Charisma modifier</div><p></p><p></p><div class=\"text-center\"><b>Spell attack modifier</b> = your proficiency bonus + your Charisma modifier</div><p></p></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"131\"> <span class=\"entry-title-inner\">Ritual Casting.</span></span> <p>You can cast any bard spell you know as a ritual if that spell has the ritual tag.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"132\"> <span class=\"entry-title-inner\">Spellcasting Focus.</span></span> <p>You can use a @item[musical instrument|PHB] as a spellcasting focus for your bard spells.</p><div class=\"rd__spc-inline-post\"></div></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Bard 1",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "spellcasting_bard_phb_1_phb"
+        },
+        "scene-packer": {
+          "hash": "d60ae68db0d3a53887f37449a1b5f56805933e4b"
+        },
+        "dnd5e": {
+          "advancementOrigin": "BE84P4U5pWZ9g40S.o0aDsR3ulieHzzaI"
+        }
+      },
+      "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
+      "_id": "n7imiVnjWZAA7vJa",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598560110,
+        "modifiedTime": 1667598565112,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Jack of All Trades",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Bard 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "jack%20of%20all%20trades_bard_phb_2_phb"
+        },
+        "scene-packer": {
+          "hash": "786b2889333aeee898ae6335832acccb280443a0"
+        },
+        "dnd5e": {
+          "advancementOrigin": "BE84P4U5pWZ9g40S.Mxb82veoEkIlEGT6"
+        }
+      },
+      "img": "icons/commodities/tech/cog-steel.webp",
+      "_id": "D3zY4mGNPSkYUhob",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598560333,
+        "modifiedTime": 1667598565112,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Song of Rest (d6)",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points by spending Hit Dice at the end of the short rest, each of those creatures regains an extra [[/r 1d6]] hit points.</p><div class=\"rd__spc-inline-post\"></div><p>The extra hit points increase when you reach certain levels in this class: to [[/r 1d8]] at 9th level, to [[/r 1d10]] at 13th level, and to [[/r 1d12]] at 17th level.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "special",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "heal",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1@scale.bard.song-of-rest",
+              "healing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Bard 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "song%20of%20rest%20(d6)_bard_phb_2_phb"
+        },
+        "scene-packer": {
+          "hash": "844fcf46ade680778cef2885c8c3ec1d78c6b6d3"
+        },
+        "dnd5e": {
+          "advancementOrigin": "BE84P4U5pWZ9g40S.Mxb82veoEkIlEGT6"
+        }
+      },
+      "img": "icons/magic/life/cross-worn-green.webp",
+      "_id": "6S0ZxGIAWAtjg5bV",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598560640,
+        "modifiedTime": 1667598565112,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "_id": "gy28sLxepJKFHqjg",
+      "name": "Magical Inspiration",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--1\"><p><i>2nd-level bard @variantrule[optional class features|tce|optional feature]</i></p><p>If a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, the creature can roll that die and choose a target affected by the spell. Add the number rolled as a bonus to the hit points regained or the damage dealt. The Bardic Inspiration die is then lost.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "Bard 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "TCE",
+          "hash": "magical%20inspiration_bard_phb_2_tce"
+        },
+        "scene-packer": {
+          "hash": "ac83b6af69fd431c6e6b49237af6671519c357d4"
+        },
+        "dnd5e": {
+          "advancementOrigin": "BE84P4U5pWZ9g40S.Mxb82veoEkIlEGT6"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598560798,
+        "modifiedTime": 1667598565112,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "_id": "LysAPhEbHVgW0rYm",
+      "name": "Silver Tongue",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--1\"><p><i>3rd-level College of Eloquence feature</i></p><p>You are a master at saying the right thing at the right time. When you make a Charisma (@skill[Persuasion]) or Charisma (@skill[Deception]) check, you can treat a [[/r d20]] roll of 9 or lower as a 10.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "Bard 3 (Eloquence)",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "flags": {
+        "plutonium": {
+          "page": "subclassFeature",
+          "source": "TCE",
+          "hash": "silver%20tongue_bard_phb_eloquence_tce_3_tce"
+        },
+        "scene-packer": {
+          "hash": "34628b83bea642b45a94d3d19856d070436a82a8"
+        },
+        "dnd5e": {
+          "advancementOrigin": "CkVltoofmQ2eRJqh.ju3XiMmuQygC4h6q"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598560945,
+        "modifiedTime": 1667598565322,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "_id": "cDngJPPnMOh5mqLR",
+      "name": "Unsettling Words",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--1\"><p><i>3rd-level College of Eloquence feature</i></p><p>You can spin words laced with magic that unsettle a creature and cause it to doubt itself. As a bonus action, you can expend one use of your Bardic Inspiration and choose one creature you can see within 60 feet of you. Roll the Bardic Inspiration die. The creature must subtract the number rolled from the next saving throw it makes before the start of your next turn.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "TCE",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "Bard 3 (Eloquence)",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "flags": {
+        "plutonium": {
+          "page": "subclassFeature",
+          "source": "TCE",
+          "hash": "unsettling%20words_bard_phb_eloquence_tce_3_tce"
+        },
+        "scene-packer": {
+          "hash": "78ca12207773ad2c6ddcd32352526ef0fe63952b"
+        },
+        "dnd5e": {
+          "advancementOrigin": "CkVltoofmQ2eRJqh.ju3XiMmuQygC4h6q"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598561118,
+        "modifiedTime": 1667598565323,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Expertise",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p><div class=\"rd__spc-inline-post\"></div><p>At 10th level, you can choose another two skill proficiencies to gain this benefit.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Bard 3",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "PHB",
+          "hash": "expertise_bard_phb_3_phb"
+        },
+        "scene-packer": {
+          "hash": "87827c78968de8c9f24e23c66987cfaefdebccfd"
+        },
+        "dnd5e": {
+          "advancementOrigin": "BE84P4U5pWZ9g40S.jP2pzzjfTC56RluO"
+        }
+      },
+      "img": "icons/commodities/tech/cog-bronze.webp",
+      "_id": "sDva8HxuabCk9hzG",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598561281,
+        "modifiedTime": 1667598565112,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 1.5,
+          "long": 0,
+          "units": "m"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1 + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "baseItem": "",
+        "properties": {
+          "amm": false,
+          "hvy": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false,
+          "mgc": false
+        },
+        "proficient": true,
+        "bonus": {
+          "value": 0,
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damage2": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damage2Type": {
+          "value": "",
+          "_deprecated": true
+        },
+        "attuned": false
+      },
+      "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "unarmed%20strike_phb"
+        },
+        "scene-packer": {
+          "hash": "62181356b7b02eec7a6b39aa7116d7528669b027"
+        }
+      },
+      "effects": [],
+      "_id": "kPvqh3uqHDHiKeo4",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598564759,
+        "modifiedTime": 1667598564759,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Faction Agent",
+      "type": "background",
+      "system": {
+        "description": {
+          "value": "<div><div class=\"rd__b  rd__b--1\"><div class=\"rd__b  rd__b--2\"><div class=\"rd__b  rd__b--3\"><p>Many organizations active in the North and across the face of Faerûn aren't bound by strictures of geography. These factions pursue their agendas without regard for political boundaries, and their members operate anywhere the organization deems necessary. These groups employ listeners, rumormongers, smugglers, sellswords, cache-holders (people who guard caches of wealth or magic for use by the faction's operatives), haven keepers, and message drop minders, to name a few. At the core of every faction are those who don't merely fulfill a small function for that organization, but who serve as its hands, head, and heart.</p><div class=\"rd__spc-inline-post\"></div><p>As a prelude to your adventuring career (and in preparation for it), you served as an agent of a particular faction in Faerûn. You might have operated openly or secretly, depending on the faction and its goals, as well as how those goals mesh with your own. Becoming an adventurer doesn't necessarily require you to relinquish membership in your faction (though you can choose to do so), and it might enhance your status in the faction.</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"133\"> <span class=\"entry-title-inner\">Factions of the Sword Coast.</span></span> <p>The lack of large, centralized governments in the North and along the Sword Coast is likely directly responsible for the proliferation of secret societies and conspiracies in those lands. If your background is as an agent for one of the main factions of the North and Sword Coast, here are some possibilities.</p><div class=\"rd__spc-inline-post\"></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"134\"> <span class=\"entry-title-inner\">The Harpers.</span></span> <p>Founded more than a millennium ago, disbanded and reorganized several times, the Harpers remain a powerful, behind-the-scenes agency, which acts to thwart evil and promote fairness through knowledge, rather than brute force. Harper agents are often proficient in @skill[Investigation], enabling them to be adept at snooping and spying. They often seek aid from other Harpers, sympathetic bards and innkeepers, rangers, and the clergy of gods that are aligned with the Harpers' ideals.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"135\"> <span class=\"entry-title-inner\">The Order of the Gauntlet.</span></span> <p>One of the newest power groups in Faerûn, the Order of the Gauntlet has an agenda similar to that of the Harpers. Its methods are vastly different, however: bearers of the gauntlet are holy warriors on a righteous quest to crush evil and promote justice, and they never hide in the shadows. Order agents tend to be proficient in @skill[Religion], and frequently seek aid from law enforcement friendly to the order's ideals, and the clergy of the order's patron gods.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"136\"> <span class=\"entry-title-inner\">The Emerald Enclave.</span></span> <p>Maintaining balance in the natural order and combating the forces that threaten that balance is the twofold goal of the Emerald Enclave. Those who serve the faction are masters of survival and living off the land. They are often proficient in @skill[Nature], and can seek assistance from woodsmen, hunters, rangers, barbarian tribes, druid circles, and priests who revere the gods of nature.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"137\"> <span class=\"entry-title-inner\">The Lords' Alliance.</span></span> <p>On one level, the agents of the Lords' Alliance are representatives of the cities and other governments that constitute the alliance. But, as a faction with interests and concerns that transcend local politics and geography, the Alliance has its own cadre of individuals who work on behalf of the organizations, wider agenda. Alliance agents are required to be knowledgeable in @skill[History], and can always rely on the aid of the governments that are part of the Alliance, plus other leaders and groups who uphold the Alliance's ideals.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"138\"> <span class=\"entry-title-inner\">The Zhentarim.</span></span> <p>In recent years, the Zhentarim have become more visible in the world at large, as the group works to improve its reputation among the common people. The faction draws employees and associates from many walks of life, setting them to tasks that serve the goals of the Black Network but aren't necessarily criminal in nature. Agents of the Black Network must often work in secret, and are frequently proficient in @skill[Deception]. They seek aid from the wizards, mercenaries, merchants and priesthoods allied with the Zhentarim.</p><div class=\"rd__spc-inline-post\"></div></div></div></div></div></div><hr /><div class=\"rd__b  rd__b--1\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Skill Proficiencies:</span> @skill[Insight] and one Intelligence, Wisdom, or Charisma skill of your choice, as appropriate to your faction</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Languages:</span> Any two of your choice</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Equipment:</span> Badge or emblem of your faction, a copy of a seminal faction text (or code-book for a covert faction), a set of @item[common clothes|phb], and a @item[pouch|phb] containing 15 gp</p></li></ul><div class=\"rd__b  rd__b--2\"><h3 class=\"rd__h rd__h--2\" data-title-index=\"139\"> <span class=\"entry-title-inner\">Feature: Safe Haven</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></span></h3> <p>As a faction agent, you have access to a secret network of supporters and operatives who can provide assistance on your adventures. You know a set of secret signs and passwords you can use to identify such operatives, who can provide you with access to a hidden safe house, free room and board, or assistance in finding information. These agents never risk their lives for you or risk revealing their true identities.</p></div><div class=\"rd__b  rd__b--2\"><h3 class=\"rd__h rd__h--2\" data-title-index=\"140\"> <span class=\"entry-title-inner\">Suggested Characteristics</span><span class=\"ve-flex-vh-center\"><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></span></h3> <p>Use the tables for the @background[acolyte] background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a faction agent. (For instance, consider the words \"faith\" and \"faction\" to be interchangeable.)</p><p>Your bond might be associated with other members of your faction, or a location or an object that is important to your faction. The ideal you strive for is probably in keeping with the tenets and principles of your faction, but might be more personal in nature.</p></div></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SCAG",
+        "advancement": [
+          {
+            "_id": "9xz0INLIDTchQfBi",
+            "type": "ItemGrant",
+            "level": 0,
+            "title": "Features",
+            "icon": "modules/plutonium/media/icon/farmer.svg",
+            "configuration": {
+              "items": []
+            },
+            "value": {
+              "added": {
+                "HuTPRNWF34T5im41": ""
+              }
+            }
+          }
+        ],
+        "damage": {
+          "parts": []
+        },
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        }
+      },
+      "flags": {
+        "plutonium": {
+          "page": "backgrounds.html",
+          "source": "SCAG",
+          "hash": "faction%20agent_scag",
+          "propDroppable": "background",
+          "isDirectImport": true
+        },
+        "scene-packer": {
+          "hash": "1784e5dd0aad356231bef608d4031ce0a6869694"
+        }
+      },
+      "effects": [],
+      "img": "modules/plutonium/media/icon/farmer.svg",
+      "_id": "zOSWi5rnrA7wRFFc",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598565685,
+        "modifiedTime": 1667598565809,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "_id": "HuTPRNWF34T5im41",
+      "name": "Safe Haven",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>As a faction agent, you have access to a secret network of supporters and operatives who can provide assistance on your adventures. You know a set of secret signs and passwords you can use to identify such operatives, who can provide you with access to a hidden safe house, free room and board, or assistance in finding information. These agents never risk their lives for you or risk revealing their true identities.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SCAG",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "Faction Agent",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "img": "modules/plutonium/media/icon/farmer.svg",
+      "flags": {
+        "plutonium": {
+          "page": "backgroundFeature",
+          "source": "SCAG",
+          "hash": "safe%20haven_faction%20agent_scag_scag"
+        },
+        "scene-packer": {
+          "hash": "93f515bcf453b6ed20cefc80d1e38a540f987480"
+        },
+        "dnd5e": {
+          "advancementOrigin": "zOSWi5rnrA7wRFFc.9xz0INLIDTchQfBi"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598565686,
+        "modifiedTime": 1667598565933,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Prestidigitation",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li><li class=\"rd__li \">You instantaneously light or snuff out a candle, a torch, or a small campfire.</li><li class=\"rd__li \">You instantaneously clean or soil an object no larger than 1 cubic foot.</li><li class=\"rd__li \">You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li><li class=\"rd__li \">You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li><li class=\"rd__li \">You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.</li></ul><p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": null,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 0,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "img": "icons/magic/fire/explosion-fireball-small-purple-orange.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "prestidigitation_phb",
+          "propDroppable": "spell",
+          "parentClassName": "Bard",
+          "parentClassSource": "PHB",
+          "parentSubclassName": "College of Eloquence",
+          "parentSubclassSource": "TCE"
+        },
+        "scene-packer": {
+          "hash": "0792a79ae543380d6ed3133bcafae577863b7719"
+        }
+      },
+      "effects": [],
+      "_id": "bFgHZZBKNmwcVYC0",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598567581,
+        "modifiedTime": 1667598567581,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Vicious Mockery",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take [[/r 1d4]] psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.</p><div class=\"rd__spc-inline-post\"></div><p>This spell's damage increases by [[/r 1d4]] when you reach 5th level ([[/r 2d4]]), 11th level ([[/r 3d4]]), and 17th level ([[/r 4d4]]).</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": null,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d4",
+              "psychic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 0,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": "1d4"
+        }
+      },
+      "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "vicious%20mockery_phb",
+          "propDroppable": "spell",
+          "parentClassName": "Bard",
+          "parentClassSource": "PHB",
+          "parentSubclassName": "College of Eloquence",
+          "parentSubclassSource": "TCE"
+        },
+        "scene-packer": {
+          "hash": "a1d1b0f10844df1e0a7c7588b5557a1b8f67ba3d"
+        }
+      },
+      "effects": [],
+      "_id": "t7u6PO5eUdBMfAvM",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598567738,
+        "modifiedTime": 1667598567738,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Dissonant Whispers",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes [[/r 3d6]] psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A @condition[deafened] creature automatically succeeds on the save.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"141\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by [[/r 1d6]] for each slot level above 1st.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": "inst"
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": null,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "3d6",
+              "psychic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 1,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d6"
+        }
+      },
+      "img": "icons/magic/death/mouth-teeth-fangs-vampire.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "dissonant%20whispers_phb",
+          "propDroppable": "spell",
+          "parentClassName": "Bard",
+          "parentClassSource": "PHB",
+          "parentSubclassName": "College of Eloquence",
+          "parentSubclassSource": "TCE"
+        },
+        "scene-packer": {
+          "hash": "ae45c7b982de69e92ee40e8a1fe05d6ef5d04d7f"
+        }
+      },
+      "effects": [],
+      "_id": "bscC4rS4ayrrcUya",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598567954,
+        "modifiedTime": 1667598567954,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Faerie Fire",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.</p><div class=\"rd__spc-inline-post\"></div><p>Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being @condition[invisible].</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 20,
+          "width": null,
+          "units": "ft",
+          "type": "cube"
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": null,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 1,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "img": "icons/magic/fire/projectile-meteor-salvo-strong-teal.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "faerie%20fire_phb",
+          "propDroppable": "spell",
+          "parentClassName": "Bard",
+          "parentClassSource": "PHB",
+          "parentSubclassName": "College of Eloquence",
+          "parentSubclassSource": "TCE"
+        },
+        "scene-packer": {
+          "hash": "2bec2b580eb97d11550ff8a636d82054d98fa859"
+        }
+      },
+      "effects": [],
+      "_id": "XoYP9F3jtnREN1UN",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598568117,
+        "modifiedTime": 1667598568117,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Identify",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.</p><div class=\"rd__spc-inline-post\"></div><p>If you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "minute",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": "inst"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "touch",
+          "type": "object"
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": null,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 1,
+        "school": "div",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": true,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a pearl worth at least 100 gp and an owl feather",
+          "consumed": false,
+          "cost": 100,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "img": "icons/magic/light/explosion-star-small-teal-purple.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "identify_phb",
+          "propDroppable": "spell",
+          "parentClassName": "Bard",
+          "parentClassSource": "PHB",
+          "parentSubclassName": "College of Eloquence",
+          "parentSubclassSource": "TCE"
+        },
+        "scene-packer": {
+          "hash": "0e75a7171aa3d349fa03e0f070fbdb11b2be07d3"
+        }
+      },
+      "effects": [],
+      "_id": "EF2fzd2Ig7xCPmmf",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598568283,
+        "modifiedTime": 1667598568283,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Illusory Script",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You write on parchment, paper, or some other suitable writing material and imbue it with a potent illusion that lasts for the duration.</p><div class=\"rd__spc-inline-post\"></div><p>To you and any creatures you designate when you cast the spell, the writing appears normal, written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, you can cause the writing to appear to be an entirely different message, written in a different hand and language, though the language must be one you know.</p><p>Should the spell be dispelled, the original script and the illusion both disappear.</p><p>A creature with @sense[truesight] can read the hidden message.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "minute",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 10,
+          "units": "day"
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "touch",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": null,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "util",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 1,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": false,
+          "somatic": true,
+          "material": true,
+          "ritual": true,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a lead-based ink worth at least 10 gp, which the spell consumes",
+          "consumed": true,
+          "cost": 10,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "img": "icons/magic/air/fog-gas-smoke-purple.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "illusory%20script_phb",
+          "propDroppable": "spell",
+          "parentClassName": "Bard",
+          "parentClassSource": "PHB",
+          "parentSubclassName": "College of Eloquence",
+          "parentSubclassSource": "TCE"
+        },
+        "scene-packer": {
+          "hash": "a15690d758ebe42078bd11df414aec91c5e54737"
+        }
+      },
+      "effects": [],
+      "_id": "02fVIXwzy9LAusyK",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598568445,
+        "modifiedTime": 1667598568445,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Tasha's Hideous Laughter",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall @condition[prone], becoming @condition[incapacitated] and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn't affected.</p><div class=\"rd__spc-inline-post\"></div><p>At the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw if it's triggered by damage. On a success, the spell ends.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": null,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 1,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "tiny tarts and a feather that is waved in the air",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "img": "icons/magic/fire/explosion-fireball-medium-purple-pink.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "tasha's%20hideous%20laughter_phb",
+          "propDroppable": "spell",
+          "parentClassName": "Bard",
+          "parentClassSource": "PHB",
+          "parentSubclassName": "College of Eloquence",
+          "parentSubclassSource": "TCE"
+        },
+        "scene-packer": {
+          "hash": "ed7a07568e78409c1bd19c6d40bdbd613e375b88"
+        }
+      },
+      "effects": [],
+      "_id": "Fl3AZo7ePPH8eqyZ",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598568610,
+        "modifiedTime": 1667598568610,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Suggestion",
+      "type": "spell",
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can't be @condition[charmed] are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.</p><p>You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn't met before the spell expires, the activity isn't performed.</p><p>If you or any of your companions damage the target, the spell ends.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 8,
+          "units": "hour"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 30,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": null,
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "cha",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "cha"
+        },
+        "level": 2,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a snake's tongue and either a bit of honeycomb or a drop of sweet oil",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "img": "icons/magic/air/air-burst-spiral-pink.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "suggestion_phb",
+          "propDroppable": "spell",
+          "parentClassName": "Bard",
+          "parentClassSource": "PHB",
+          "parentSubclassName": "College of Eloquence",
+          "parentSubclassSource": "TCE"
+        },
+        "scene-packer": {
+          "hash": "5ef1f8b189dae25635bf94c9254ec1d090526677"
+        }
+      },
+      "effects": [],
+      "_id": "kQhJVlJyhYGmGx41",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598568780,
+        "modifiedTime": 1667598568780,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Common Clothes",
+      "type": "equipment",
+      "system": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 1.5,
+        "price": 0.5,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "none",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": null,
+          "type": "clothing",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true,
+        "attuned": false
+      },
+      "img": "icons/equipment/chest/shirt-collared-brown.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "common%20clothes_phb"
+        },
+        "scene-packer": {
+          "hash": "86c3f71d7268088c6edb42efce71f6bbbd1a1636"
+        }
+      },
+      "effects": [],
+      "_id": "VRlYsNLCFWtDECKg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598569160,
+        "modifiedTime": 1667598569160,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0.5,
+        "price": 2,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 6,
+          "long": 18,
+          "units": "m"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d4 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "baseItem": "dagger",
+        "properties": {
+          "fin": true,
+          "lgt": true,
+          "thr": true,
+          "amm": false,
+          "hvy": false,
+          "fir": false,
+          "foc": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "attuned": false
+      },
+      "img": "icons/weapons/daggers/dagger-jeweled-purple.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "dagger_phb"
+        },
+        "scene-packer": {
+          "hash": "3a7cbbe34e64330c6fafe75604d80d5edd33bf3b"
+        }
+      },
+      "effects": [],
+      "_id": "d6xxl71ORbeJaNwZ",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598569329,
+        "modifiedTime": 1667598569329,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Chest",
+      "type": "backpack",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>A <i>chest</i> holds 12 cubic feet or 300 pounds of gear.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 12.5,
+        "price": 5,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "capacity": {
+          "type": "weight",
+          "value": 300,
+          "weightless": false
+        },
+        "currency": {
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "damage": {
+          "parts": []
+        },
+        "proficient": true,
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/containers/chest/chest-reinforced-steel-walnut-brown.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "chest_phb"
+        },
+        "scene-packer": {
+          "hash": "f8154d7670c55749d4edd1b4ab0ede3b43254cd8"
+        }
+      },
+      "effects": [],
+      "_id": "3znlniebjL46K8Bc",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598569593,
+        "modifiedTime": 1667598569593,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Map or Scroll Case",
+      "type": "backpack",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>This cylindrical leather case can hold up to ten rolled-up @item[paper (one sheet)|phb|sheets of paper] or five rolled-up @item[parchment (one sheet)|phb|sheets of parchment].</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 2,
+        "weight": 0.5,
+        "price": 1,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "capacity": {
+          "type": "items",
+          "value": 10,
+          "weightless": false
+        },
+        "currency": {
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "damage": {
+          "parts": []
+        },
+        "proficient": true,
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/containers/bags/case-leather-tan.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "map%20or%20scroll%20case_phb"
+        },
+        "scene-packer": {
+          "hash": "cb045da4d54830a8e18ef9dd6654e2a84e28f80c"
+        }
+      },
+      "effects": [],
+      "_id": "9DYEmaGHV8LpD6Bj",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598569783,
+        "modifiedTime": 1667598569783,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Fine Clothes",
+      "type": "equipment",
+      "system": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 3,
+        "price": 15,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "none",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": "",
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": null,
+          "type": "clothing",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true,
+        "attuned": false
+      },
+      "img": "icons/equipment/back/cloak-heavy-fur-blue.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "fine%20clothes_phb"
+        },
+        "scene-packer": {
+          "hash": "0cd0d4c32950fbca583576a3bf3206d504bff784"
+        }
+      },
+      "effects": [],
+      "_id": "Ru0wlvItcieaj9xy",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598569968,
+        "modifiedTime": 1667598569968,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Ink (1-ounce bottle)",
+      "type": "loot",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p><i>Ink</i> (1-ounce bottle)</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0,
+        "price": 10,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "attuned": false,
+        "damage": {
+          "parts": []
+        }
+      },
+      "img": "modules/plutonium/media/icon/backpack.svg",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "ink%20(1-ounce%20bottle)_phb"
+        },
+        "scene-packer": {
+          "hash": "c7dafa41db2492cd4c7652ad39ce071b09471fa5"
+        }
+      },
+      "effects": [],
+      "_id": "3TZaFVRGa3918NmD",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598570143,
+        "modifiedTime": 1667598570143,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Ink Pen",
+      "type": "loot",
+      "system": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0.02,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "damage": {
+          "parts": []
+        },
+        "proficient": true,
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/commodities/materials/feather-red-.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "ink%20pen_phb"
+        },
+        "scene-packer": {
+          "hash": "6d4dcb39a01a649dc7b2c0639931d0cdfae1f816"
+        }
+      },
+      "effects": [],
+      "_id": "55hfRDgQsDflmx2v",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598570335,
+        "modifiedTime": 1667598570335,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Lamp",
+      "type": "consumable",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>A <i>lamp</i> casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0.5,
+        "price": 0.5,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 6,
+          "units": "hour"
+        },
+        "target": {
+          "value": 13.5,
+          "width": null,
+          "units": "m",
+          "type": "radius"
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "charges",
+          "recovery": "",
+          "autoDestroy": false,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "util",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "trinket",
+        "proficient": true,
+        "attuned": false,
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/commodities/treasure/lantern-stone-grey.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "lamp_phb"
+        },
+        "scene-packer": {
+          "hash": "2c377611c3d79bf27fe583ab45df587bc666aff6"
+        }
+      },
+      "effects": [],
+      "_id": "NuLMhxhzu1KncSkl",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598570517,
+        "modifiedTime": 1667598570517,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Oil (flask)",
+      "type": "consumable",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p><i>Oil</i> usually comes in a clay flask that holds 1 pint. As an action, you can splash the <i>oil</i> in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the <i>oil</i> as an improvised weapon. On a hit, the target is covered in <i>oil</i>. If the target takes any fire damage before the <i>oil</i> dries (after 1 minute), the target takes an additional 5 fire damage from the burning <i>oil</i>. You can also pour a flask of <i>oil</i> on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the <i>oil</i> burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 2,
+        "weight": 0.5,
+        "price": 0.1,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 1.5,
+          "long": 6,
+          "units": "m"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "charges",
+          "recovery": "",
+          "autoDestroy": true,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "5",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "trinket",
+        "proficient": true,
+        "attuned": false,
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "oil%20(flask)_phb"
+        },
+        "scene-packer": {
+          "hash": "5c81b1cf46b4070c8b9dbe0c6c98456524f0528a"
+        }
+      },
+      "effects": [],
+      "_id": "putZuOBJwlqnKD0f",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598570703,
+        "modifiedTime": 1667598570703,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Paper (one sheet)",
+      "type": "loot",
+      "system": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 5,
+        "weight": 0,
+        "price": 0.2,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "damage": {
+          "parts": []
+        },
+        "proficient": true,
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/sundries/documents/document-bound-white.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "paper%20(one%20sheet)_phb"
+        },
+        "scene-packer": {
+          "hash": "e9743b04570710bbff90992027097d747a939b11"
+        }
+      },
+      "effects": [],
+      "_id": "xLXzfgLM0NSuOhMA",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598570901,
+        "modifiedTime": 1667598570901,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Perfume (vial)",
+      "type": "loot",
+      "system": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0,
+        "price": 5,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "damage": {
+          "parts": []
+        },
+        "proficient": true,
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "perfume%20(vial)_phb"
+        },
+        "scene-packer": {
+          "hash": "a18e48fd08d4cc60fd50e3f84ad4bed73f0de8b3"
+        }
+      },
+      "effects": [],
+      "_id": "SHITruyRQfcmw3nN",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598571086,
+        "modifiedTime": 1667598571086,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Sealing Wax",
+      "type": "loot",
+      "system": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0.5,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "damage": {
+          "parts": []
+        },
+        "proficient": true,
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/sundries/lights/candle-unlit-red.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "sealing%20wax_phb"
+        },
+        "scene-packer": {
+          "hash": "0098eeee3eadb9abca700377dd43e4e1091e51de"
+        }
+      },
+      "effects": [],
+      "_id": "jBkq4uBPseCQW9Le",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598571271,
+        "modifiedTime": 1667598571271,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Soap",
+      "type": "loot",
+      "system": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0.02,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "damage": {
+          "parts": []
+        },
+        "proficient": true,
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/sundries/survival/soap.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "soap_phb"
+        },
+        "scene-packer": {
+          "hash": "1946c309669654bfad4ea8756e5f938d0db87e58"
+        }
+      },
+      "effects": [],
+      "_id": "4WP7ItdVaFWZoFfa",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598571487,
+        "modifiedTime": 1667598571487,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 5,
+        "price": 10,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 11,
+          "type": "light",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "leather",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true,
+        "attuned": false
+      },
+      "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "leather%20armor_phb"
+        },
+        "scene-packer": {
+          "hash": "3e1f176a0ec95b1d0f5bc98992dd074bd5951abb"
+        }
+      },
+      "effects": [],
+      "_id": "VShAkQo9mppzBVVB",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598571726,
+        "modifiedTime": 1667598571726,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Lute",
+      "type": "tool",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"></div><div class=\"rd__b  rd__b--2\"></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 1,
+        "price": 35,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "toolType": "music",
+        "baseItem": "lute",
+        "ability": "cha",
+        "chatFlavor": "",
+        "proficient": true,
+        "bonus": "",
+        "damage": {
+          "parts": []
+        },
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/tools/instruments/lute-gold-brown.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "lute_phb"
+        },
+        "scene-packer": {
+          "hash": "1608431cff1e20d9fb7f395118d5b0c4df806c40"
+        }
+      },
+      "effects": [],
+      "_id": "Xc9oyK7J7JzeuzSg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598571939,
+        "modifiedTime": 1667598571939,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Pouch",
+      "type": "backpack",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>A cloth or leather <i>pouch</i> can hold up to 20 @item[sling bullet|phb|sling bullets] or 50 @item[blowgun needle|phb|blowgun needles], among other things. A compartmentalized <i>pouch</i> for holding spell components is called a @item[component pouch|phb]. A <i>pouch</i> can hold up to ⅕ cubic foot or 6 pounds of gear.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0.5,
+        "price": 0.5,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "capacity": {
+          "type": "weight",
+          "value": 6,
+          "weightless": false
+        },
+        "currency": {
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "damage": {
+          "parts": []
+        },
+        "proficient": true,
+        "attuned": false,
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": "ft"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        }
+      },
+      "img": "icons/containers/bags/coinpouch-simple-tan.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "pouch_phb"
+        },
+        "scene-packer": {
+          "hash": "20734534a1b6b9761f3a527a69c4dc48906ea767"
+        }
+      },
+      "effects": [],
+      "_id": "7dzd4Nfm9LEfmhAy",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598572129,
+        "modifiedTime": 1667598572129,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Rapier",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 1,
+        "price": 25,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 1.5,
+          "long": 0,
+          "units": "m"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": null,
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "baseItem": "rapier",
+        "properties": {
+          "fin": true
+        },
+        "proficient": true,
+        "attuned": false
+      },
+      "img": "icons/weapons/swords/sword-guard-brown.webp",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "rapier_phb"
+        },
+        "scene-packer": {
+          "hash": "63a53d1ff35e48d3a6f75f59c7888851ca6fa61d"
+        }
+      },
+      "effects": [],
+      "_id": "gj52RhKdL8xPD2cs",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598572328,
+        "modifiedTime": 1667598572328,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Badge or Emblem of Your Faction",
+      "type": "loot",
+      "system": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SCAG",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "attuned": false,
+        "damage": {
+          "parts": []
+        }
+      },
+      "img": "modules/plutonium/media/icon/battle-gear.svg",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "SCAG",
+          "hash": "badge%20or%20emblem%20of%20your%20faction_scag"
+        },
+        "scene-packer": {
+          "hash": "7f51baa09e69e4fa26f04235fe244c9982c1ac43"
+        }
+      },
+      "effects": [],
+      "_id": "5adx1nwBSd5kE7JY",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598572713,
+        "modifiedTime": 1667598572713,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    },
+    {
+      "name": "Copy of a Seminal Faction Text (Or Code-Book for a Covert Faction)",
+      "type": "loot",
+      "system": {
+        "description": {
+          "value": "\n\t\t",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "SCAG",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "attuned": false,
+        "damage": {
+          "parts": []
+        }
+      },
+      "img": "modules/plutonium/media/icon/battle-gear.svg",
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "SCAG",
+          "hash": "copy%20of%20a%20seminal%20faction%20text%20(or%20code-book%20for%20a%20covert%20faction)_scag"
+        },
+        "scene-packer": {
+          "hash": "e973dfd0931c3e930cbb370a050b7af9255d9550"
+        }
+      },
+      "effects": [],
+      "_id": "C5ab7PBu7a531q0P",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "L3JQRshpHxPTRaFt": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.0.3",
+        "coreVersion": "10.288",
+        "createdTime": 1667598572909,
+        "modifiedTime": 1667598572909,
+        "lastModifiedBy": "L3JQRshpHxPTRaFt"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "label": "Fly Speed",
+      "icon": "modules/plutonium/media/icon/family-tree.svg",
+      "changes": [
+        {
+          "key": "system.attributes.movement.fly",
+          "value": "@attributes.movement.walk",
+          "mode": 5,
+          "priority": 4
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47114352914,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": 0,
+        "startTurn": 0,
+        "combat": null
+      },
+      "origin": "Actor.wnt4lhqQriIEhlvR",
+      "tint": null,
+      "transfer": false,
+      "flags": {
+        "dae": {
+          "specialDuration": [],
+          "stackable": "multi"
+        }
+      },
+      "_id": "o9hoNW27vTJMTixa"
+    },
+    {
+      "label": "Jack of All Trades",
+      "icon": "icons/commodities/tech/cog-steel.webp",
+      "changes": [
+        {
+          "key": "flags.dnd5e.jackOfAllTrades",
+          "value": "true",
+          "mode": 5,
+          "priority": 4
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47114352914,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": 0,
+        "startTurn": 0,
+        "combat": null
+      },
+      "origin": "Actor.wnt4lhqQriIEhlvR.Item.D3zY4mGNPSkYUhob",
+      "tint": null,
+      "transfer": false,
+      "flags": {
+        "dae": {
+          "specialDuration": [],
+          "stackable": "multi"
+        }
+      },
+      "_id": "8R5lM6QLSKvD3WPM"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "6350ff37157150abb6048372e62ae4a05c203e24",
+      "sourceId": "Actor.wnt4lhqQriIEhlvR"
+    },
+    "midi-qol": {
+      "concentration-damage": 0
+    },
+    "variant-encumbrance-dnd5e": {
+      "enabledae": false,
+      "enabledwe": true,
+      "burrow": null,
+      "climb": null,
+      "fly": 30,
+      "swim": null,
+      "walk": 30,
+      "data": {
+        "totalWeight": 0,
+        "totalWeightToDisplay": 0,
+        "lightMax": 50,
+        "mediumMax": 100,
+        "heavyMax": 150,
+        "encumbranceTier": 0,
+        "speedDecrease": 0,
+        "unit": "kg.",
+        "encumbrance": {
+          "value": 0,
+          "max": 10,
+          "pct": 0,
+          "encumbered": false
+        }
+      }
+    },
+    "wild-magic-surge-5e": {
+      "die_type": {
+        "value": 1,
+        "min": 1,
+        "max": 6,
+        "dieValue": "1d20"
+      },
+      "surge_increment_resource": {
+        "max": 20,
+        "min": 1,
+        "value": 1
+      }
+    },
+    "exportSource": {
+      "world": "adventure-01-one-shot-01",
+      "system": "dnd5e",
+      "coreVersion": "10.288",
+      "systemVersion": "2.0.3"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.288",
+    "createdTime": 1667511823657,
+    "modifiedTime": 1667600994089,
+    "lastModifiedBy": "pW3U8NlX1D576Z0L"
+  }
+}
