@@ -6,12 +6,11 @@ import {
   terserConfig,
   typhonjsRuntime
 } from '@typhonjs-fvtt/runtime/rollup';
-import { viteZip } from 'vite-plugin-zip-file';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 import cleanPlugin from 'vite-plugin-clean';
 import { normalizePath } from 'vite';
 import path from 'path';
-import vue from '@vitejs/plugin-vue'
+import { run } from 'vite-plugin-run'
 
 // ATTENTION!
 // Please modify the below variables: s_PACKAGE_ID and s_SVELTE_HASH_ID appropriately.
@@ -20,7 +19,7 @@ import vue from '@vitejs/plugin-vue'
 // the dev server.
 const s_MODULE_ID = "compendiums-mix-dnd5e";
 const s_PACKAGE_ID = "modules/"+s_MODULE_ID;
-const s_ENTRY_JAVASCRIPT = "compendiums-mix-dnd5e.mjs";
+const s_ENTRY_JAVASCRIPT = "module.js";
 
 // A short additional string to add to Svelte CSS hash values to make yours unique. This reduces the amount of
 // duplicated framework CSS overlap between many TRL packages enabled on Foundry VTT at the same time. 'ese' is chosen
@@ -37,9 +36,13 @@ const s_TYPHONJS_MODULE_LIB = false;
 
 // Used in bundling particularly during development. If you npm-link packages to your project add them here.
 const s_RESOLVE_CONFIG = {
-  browser: false,
+  browser: true,
   dedupe: ["svelte"],
 };
+
+// ATTENTION!
+// You must change `base` and the `proxy` strings replacing `/modules/${s_MODULE_ID}/` with your
+// module or system ID.
 
 export default () => {
   /** @type {import('vite').UserConfig} */
@@ -58,7 +61,10 @@ export default () => {
 
     css: {
       // Creates a standard configuration for PostCSS with autoprefixer & postcss-preset-env.
-      postcss: postcssConfig({ compress: s_COMPRESS, sourceMap: s_SOURCEMAPS }),
+      postcss: postcssConfig({ 
+        compress: s_COMPRESS, 
+        sourceMap: s_SOURCEMAPS
+      }),
     },
 
     // About server options:
@@ -73,18 +79,20 @@ export default () => {
     server: {
       port: 29999,
       open: "/game",
+      // open: false,
       proxy: {
         // Serves static files from main Foundry server.
-        [`^(/${s_PACKAGE_ID}/(fonts|assets|lang|languages|packs|styles|templates|style.css))`]:
-          "http://localhost:30000",
+        [`^(/${s_PACKAGE_ID}/(images|fonts|assets|lang|languages|packs|styles|templates|style.css))`]:
+          "http://127.0.0.1:30000",
 
         // All other paths besides package ID path are served from main Foundry server.
-        [`^(?!/${s_PACKAGE_ID}/)`]: "http://localhost:30000",
+        [`^(?!/${s_PACKAGE_ID}/)`]: "http://127.0.0.1:30000",
 
         // Enable socket.io from main Foundry server.
-        "/socket.io": { target: "ws://localhost:30000", ws: true },
+        "/socket.io": { target: "ws://127.0.0.1:30000", ws: true },
       },
     },
+    
     build: {
       outDir: normalizePath( path.resolve(__dirname, `./dist/${s_MODULE_ID}`)), // __dirname,
       emptyOutDir: false,
@@ -94,16 +102,26 @@ export default () => {
       target: ['es2022', 'chrome100'],
       terserOptions: s_COMPRESS ? { ...terserConfig(), ecma: 2022 } : void 0,
       lib: {
-        entry: "./" + s_ENTRY_JAVASCRIPT,
+        entry: "./" + s_ENTRY_JAVASCRIPT, // "./module.js"
         formats: ["es"],
         fileName: "module",
       },
     },
 
+    // Necessary when using the dev server for top-level await usage inside of TRL.
+    optimizeDeps: {
+      esbuildOptions: {
+        target: 'es2022'
+      }
+    },
+
     plugins: [
-      //   vue(),
-      //   hbsPlugin(),
-      //   translationPlugin('./src/lang', './dist/lang'),
+      run([
+        {
+          name: 'run sass',
+          run: ['sass',  `src/styles:dist/${s_MODULE_ID}/styles`]
+        },
+      ]),
       viteStaticCopy({
         targets: [
           {
@@ -123,34 +141,38 @@ export default () => {
             dest: normalizePath(path.resolve(__dirname, `./dist/${s_MODULE_ID}/templates`)), // 2️
           },
           {
-            src: normalizePath(path.resolve(__dirname, './src/lang')) + '/[!.]*', // 1️
-            dest: normalizePath(path.resolve(__dirname, `./dist/${s_MODULE_ID}/lang`)), // 2️
+            src: normalizePath(path.resolve(__dirname, './src/lang')) + '/[!.]*',
+            dest: normalizePath(path.resolve(__dirname, `./dist/${s_MODULE_ID}/lang`)),
           },
           {
-            src: normalizePath(path.resolve(__dirname, './src/languages')) + '/[!.]*', // 1️
-            dest: normalizePath(path.resolve(__dirname, `./dist/${s_MODULE_ID}/languages`)), // 2️
+            src: normalizePath(path.resolve(__dirname, './src/languages')) + '/[!.]*',
+            dest: normalizePath(path.resolve(__dirname, `./dist/${s_MODULE_ID}/languages`)),
           },
           {
-            src: normalizePath(path.resolve(__dirname, './src/styles')) + '/[!.]*', // 1️
-            dest: normalizePath(path.resolve(__dirname, `./dist/${s_MODULE_ID}/styles`)), // 2️
+            src: normalizePath(path.resolve(__dirname, './src/styles')) + '/**/*.css',
+            dest: normalizePath(path.resolve(__dirname, `./dist/${s_MODULE_ID}/styles`)),
           },
           {
-            src: normalizePath(path.resolve(__dirname, './src/packs')) + '/[!.]*', // 1️
-            dest: normalizePath(path.resolve(__dirname, `./dist/${s_MODULE_ID}/packs`)), // 2️
+            src: normalizePath(path.resolve(__dirname, './src/packs')) + '/[!.^(_source)]*',
+            dest: normalizePath(path.resolve(__dirname, `./dist/${s_MODULE_ID}/packs`)),
           },
           {
-            src: normalizePath(path.resolve(__dirname, './src/module.json')), // 1️
-            dest: normalizePath(path.resolve(__dirname, `./dist/${s_MODULE_ID}/`)), // 2️
+            src: normalizePath(path.resolve(__dirname, './src/module.json')),
+            dest: normalizePath(path.resolve(__dirname, `./dist/${s_MODULE_ID}/`)),
+          },
+		      {
+            src: normalizePath(path.resolve(__dirname, './src/scripts/libs')) + '/[!.]*',
+            dest: normalizePath(path.resolve(__dirname, `./dist/${s_MODULE_ID}/scripts/libs`)),
           },
         ],
       }),
       svelte({
         compilerOptions: {
-          // Provides a custom hash adding the string defined in `s_SVELTE_HASH_ID` to scoped Svelte styles;
-          // This is reasonable to do as the framework styles in TRL compiled across `n` different packages will
-          // be the same. Slightly modifying the hash ensures that your package has uniquely scoped styles for all
-          // TRL components and makes it easier to review styles in the browser debugger.
-          cssHash: ({ hash, css }) => `svelte-${s_SVELTE_HASH_ID}-${hash(css)}`,
+         // Provides a custom hash adding the string defined in `s_SVELTE_HASH_ID` to scoped Svelte styles;
+         // This is reasonable to do as the framework styles in TRL compiled across `n` different packages will
+         // be the same. Slightly modifying the hash ensures that your package has uniquely scoped styles for all
+         // TRL components and makes it easier to review styles in the browser debugger.
+         cssHash: ({ hash, css }) => `svelte-${s_SVELTE_HASH_ID}-${hash(css)}`,
         },
         preprocess: preprocess(),
         onwarn: (warning, handler) => {
@@ -164,18 +186,14 @@ export default () => {
           handler(warning);
         },
       }),
-      resolve(s_RESOLVE_CONFIG), // Necessary when bundling npm-linked packages.     
+
+      resolve(s_RESOLVE_CONFIG), // Necessary when bundling npm-linked packages.
       
       // When s_TYPHONJS_MODULE_LIB is true transpile against the Foundry module version of TRL.
       s_TYPHONJS_MODULE_LIB && typhonjsRuntime(),
 
-      // viteZip({
-      //   folderPath: normalizePath(path.resolve(__dirname, `./dist/${s_MODULE_ID}`)),
-      //   outPath: normalizePath(path.resolve(__dirname, './package')),
-      //   zipName: 'module.zip',
-      //   enabled: true
-      // }),
       cleanPlugin()
     ]
   };
 };
+

@@ -1,40 +1,44 @@
 {
   "env": {
     "browser": true,
-    "es2021": true,
+    "es6": true,
     "node": true,
     "jquery": true
   },
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaVersion": 2018,
-    "requireConfigFile": false,
-    "sourceType": "module",
-    "project": "./tsconfig.json",
-  },
-  "plugins": [
-    "jsdoc"
-  ],
   "extends": [
-        "prettier",
-        "plugin:import/errors",
-        "eslint:recommended",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:json/recommended"
-    ],
-  "ignorePatterns": ["dist/"],
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "ignorePatterns": [
+    "dist/"
+  ],
   "rules": {
+    "prettier/prettier": "error",
+    "no-console": "off",
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
     "array-bracket-spacing": ["warn", "never"],
     "array-callback-return": "warn",
     "arrow-spacing": "warn",
-    "comma-dangle": ["warn", "never"],
+    "comma-dangle": ["warn", "always-multiline"],
     "comma-style": "warn",
     "computed-property-spacing": "warn",
     "constructor-super": "error",
     "default-param-last": "warn",
     "dot-location": ["warn", "property"],
     "eol-last": ["error", "always"],
-    // "eqeqeq": ["warn", "smart"],
+    "eqeqeq": "error",
     "func-call-spacing": "warn",
     "func-names": ["warn", "never"],
     "getter-return": "warn",
@@ -66,7 +70,7 @@
     "no-irregular-whitespace": "warn",
     "no-iterator": "warn",
     "no-lone-blocks": "warn",
-    "no-lonely-if": "warn",
+    "no-lonely-if": "off",
     "no-loop-func": "warn",
     "no-misleading-character-class": "warn",
     "no-mixed-operators": "warn",
@@ -97,7 +101,12 @@
     "no-unreachable-loop": "warn",
     "no-unsafe-negation": ["warn", {"enforceForOrderingRelations":  true}],
     "no-unsafe-optional-chaining": ["warn", {"disallowArithmeticOperators":  true}],
-    "no-unused-expressions": "warn",
+    "no-unused-expressions": [
+      "error",
+      {
+          "allowShortCircuit": true
+      }
+    ],
     "no-useless-backreference": "warn",
     "no-useless-call": "warn",
     "no-useless-catch": "warn",
@@ -126,10 +135,13 @@
     "wrap-iife": ["warn", "inside"],
 
     "arrow-parens": ["warn", "as-needed", {"requireForBlockBody": false}],
-    "capitalized-comments": ["warn", "always", {"ignoreConsecutiveComments": true}],
+    "capitalized-comments": ["warn", "always", {
+      "ignoreConsecutiveComments": true,
+      "ignorePattern": "noinspection"
+    }],
     "comma-spacing": "warn",
     "dot-notation": "warn",
-    "indent": ["warn", 2, {"SwitchCase": 1}],
+    "indent": ["warn", 4, {"SwitchCase": 1}],
     "key-spacing": "warn",
     "keyword-spacing": ["warn", {"overrides": {"catch": {"before": true, "after": false}}}],
     "max-len": ["warn", {
@@ -146,7 +158,6 @@
     "no-throw-literal": "error",
     "no-trailing-spaces": "warn",
     "no-useless-escape": "warn",
-    "no-unused-vars": ["warn", {"args": "none"}],
     "nonblock-statement-body-position": ["warn", "beside"],
     "one-var": ["warn", "never"],
     "operator-linebreak": ["warn", "before", {
@@ -162,8 +173,43 @@
       "named": "never",
       "asyncArrow": "always"
     }],
-    // "spaced-comment": "warn",
-
+    "spaced-comment": [
+      "error",
+      "always",
+      {
+        "markers": [
+          "/"
+        ]
+      }
+    ],
+    "@typescript-eslint/ban-ts-comment": "error",
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/lines-between-class-members": [
+        "error",
+        "always",
+        {
+            "exceptAfterSingleLine": true
+        }
+    ],
+    "@typescript-eslint/prefer-namespace-keyword": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-namespace": [
+        "error",
+        {
+            "allowDeclarations": true
+        }
+    ],
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-unsafe-declaration-merging": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/array-type": [
+        "error",
+        {
+            "default": "array"
+        }
+    ],
     "jsdoc/check-access": "warn",
     "jsdoc/check-alignment": "warn",
     "jsdoc/check-examples": "off",
@@ -172,7 +218,7 @@
     "jsdoc/check-param-names": "warn",
     "jsdoc/check-property-names": "warn",
     "jsdoc/check-syntax": "off",
-    "jsdoc/check-tag-names": "warn",
+    "jsdoc/check-tag-names": ["warn", { "definedTags": ["category"] }],
     "jsdoc/check-types": "warn",
     "jsdoc/check-values": "warn",
     "jsdoc/empty-tags": "warn",
@@ -197,54 +243,100 @@
     "jsdoc/require-property-description": "off",
     "jsdoc/require-property-name": "warn",
     "jsdoc/require-property-type": "warn",
-    "jsdoc/require-returns": "warn",
+    "jsdoc/require-returns": "off",
     "jsdoc/require-returns-check": "warn",
     "jsdoc/require-returns-description": "off",
     "jsdoc/require-returns-type": "warn",
     "jsdoc/require-throws": "off",
     "jsdoc/require-yields": "warn",
     "jsdoc/require-yields-check": "warn",
-    "jsdoc/valid-types": "off",
-
-    "eqeqeq": ["error", "always"],
-    "import/named": "off",
-    "import/no-default-export": "error",
-    "prettier/prettier": "error",
-    "no-console": "off",
-    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
-    "spaced-comment": "error",
-    "@typescript-eslint/await-thenable": "error",
-    "@typescript-eslint/ban-ts-comment": "off",
-    "@typescript-eslint/ban-types": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
-    "@typescript-eslint/prefer-namespace-keyword": "off",
-    "@typescript-eslint/no-namespace": ["error", { "allowDeclarations": true }],
-    "@typescript-eslint/no-empty-function": "off",
-    "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/no-non-null-assertion": "off",
-    "@typescript-eslint/no-unused-vars": "off", // Handled by tsconfig
-    "@typescript-eslint/array-type": ["error", { "default": "array" }],
+    "jsdoc/valid-types": "off"
   },
+  "plugins": [
+    "jsdoc",
+    "prettier",
+    "@typescript-eslint"
+  ],
   "settings": {
     "jsdoc": {
       "preferredTypes": {
-        ".<>": "<>"
+        ".<>": "<>",
+        "object": "Object",
+        "Object": "object"
       },
+      "mode": "typescript",
       "tagNamePreference": {
-        "auguments": "extends"
+        "augments": "extends"
       }
-    },
-    "import/resolver": {
-        "node": {
-            "paths": ["src", "types", "", "dist"],
-            "extensions": [".css", ".js", ".mjs", ".json", ".jsx", ".scss", ".ts", ".tsx"],
-        },
-        "eslint-import-resolver-typescript": true,
-        "typescript": {
-            "alwaysTryTypes": true,
-        },
-    },
-    "import/parsers": { "@typescript-eslint/parser": [".ts"] },
+    }
+  },
+  "overrides": [
+    {
+        "files": "tests/**/*",
+        "rules": {
+            "global-require": "off"
+        }
+    }
+  ],
+  "globals": {
+    "Hooks": true,
+    "game": true,
+    "Handlebars": true,
+    "Babele": true,
+    "foundry": true,
+    "CONFIG": true,
+    "libWrapper": true,
+    "socketlib": true,
+    "DatabaseBackend": true,
+    "Actor": true,
+    "Adventure": true,
+    "Cards": true,
+    "ChatMessage": true,
+    "Combat": true,
+    "Dice": true,
+    "FogExploration": true,
+    "Folder": true,
+    "Item": true,
+    "JournalEntry": true,
+    "Macro": true,
+    "Playlist": true,
+    "RollTable": true,
+    "Scene": true,
+    "Setting": true,
+    "User": true,
+    "Canvas": true,
+    "canvasTextStyle": true,
+    "weatherEffects": true,
+    "controlIcons": true,
+    "fontDefinitions": true,
+    "_fontFamilies": true,
+    "defaultFontFamily": true,
+    "statusEffects": true,
+    "specialStatusEffects": true,
+    "sounds": true,
+    "supportedLanguages": true,
+    "i18n": true,
+    "time": true,
+    "ActiveEffect": true,
+    "ActorDelta": true,
+    "Card": true,
+    "TableResult": true,
+    "JournalEntryPage": true,
+    "PlaylistSound": true,
+    "AmbientLight": true,
+    "AmbientSound": true,
+    "Combatant": true,
+    "Drawing": true,
+    "MeasuredTemplate": true,
+    "Note": true,
+    "Tile": true,
+    "Token": true,
+    "Wall": true,
+    "TinyMCE": true,
+    "TextEditor": true,
+    "WebRTC": true,
+    "ui": true,
+    "DND5E": true
   }
 }
+

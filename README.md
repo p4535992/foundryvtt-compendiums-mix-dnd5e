@@ -17,7 +17,7 @@ This is a collection of some public projects compendiums:
 - [Kobold Press OGL Compendium with images](Personal compendium with some images form the OGL Kobold Press Site)
 - [Innocenti Loot](https://github.com/rinnocenti/innocenti-loot) version 0.3.1 (2022-01-20)
 - [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish) version 1.1.0
-- [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons) version 3.1.5
+- [SRD heros et dragons](https://github.com/rwanoux/SRD-Heros-et-Dragons) version 3.1.5
 - [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL) version 0.2.2
 - [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e) version 1.9.0
 - [Grim Hollow Weapon Properties](https://github.com/TheDraggo/GrimHollowWeaponProperties) version 0.2
@@ -72,7 +72,7 @@ A rollable table of 1001 fish, created by burkenhare #4761 (Discord)
 PC wants to roll for a survival check, after the party makes camp alongside a river. The GM makes them roll on the d1000 fish table to determine what kind of fish they catch (thank god there is such a thing, or else it would be trout every time!) .  They roll a 210, why, it's a cownose ray! But every adventurer knows that the cownose ray is a saltwater animal, that could only mean one thing.... FLOOD!
 So you see, it can be used in many ways to contribute to the plot." - Burkenhare
 
-## [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons) version 3.1.5
+## [SRD heros et dragons](https://github.com/rwanoux/SRD-Heros-et-Dragons) version 3.1.5
 
 ## [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL) version 0.2.2
 
@@ -320,7 +320,7 @@ Thanks to anyone who helps me with this code! I appreciate the user community's 
 - [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
 - [Innocenti Loot](https://github.com/rinnocenti/innocenti-loot)
 - [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
-- [SRD heros et dragons](https://gitlab.com/lemaire.erw/srd-heros-et-dragons)
+- [SRD heros et dragons](https://github.com/rwanoux/SRD-Heros-et-Dragons)
 - [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)
 - [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
 - [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
