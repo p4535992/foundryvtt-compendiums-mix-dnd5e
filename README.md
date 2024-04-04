@@ -1,49 +1,33 @@
-# FoundryVTT Compendiums Mix DnD5e
 
-![Latest Release Download Count](https://img.shields.io/github/downloads/p4535992/foundryvtt-compendiums-mix-dnd5e/latest/module.zip?color=2b82fc&label=DOWNLOADS&style=for-the-badge) 
+![](https://img.shields.io/badge/Foundry-v0.8.9-informational)
 
-[![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Ffoundryvtt-compendiums-mix-dnd5e&colorB=006400&style=for-the-badge)](https://forge-vtt.com/bazaar#package=foundryvtt-compendiums-mix-dnd5e) 
+# FoundryVTT Compendiums Mix DnD5e Private
 
-![Foundry Core Compatible Version](https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2Fp4535992%2Ffoundryvtt-compendiums-mix-dnd5e%2Fmaster%2Fsrc%2Fmodule.json&label=Foundry%20Version&query=$.compatibleCoreVersion&colorB=orange&style=for-the-badge)
+This is a collection of some private and paided projects compendiums, for me and my friends embedded in one only module, for better use.
 
-![Latest Version](https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2Fp4535992%2Ffoundryvtt-compendiums-mix-dnd5e%2Fmaster%2Fsrc%2Fmodule.json&label=Latest%20Release&prefix=v&query=$.version&colorB=red&style=for-the-badge)
+| ------- | ------- | ------- | ------- |
+|100 Monsters & Villains for D&D 5e | 1.0.0 (2024-04-01) | Paws for Effect | https://www.kickstarter.com/projects/66899765/100-monsters-and-villains-for-dandd-5e |
+| Crafting Worlds for Game Masters | 1.0.0 (2024-04-01) | Wildheart Woods | https://www.kickstarter.com/projects/840112518/crafting-worlds-for-game-masters |
 
-[![Foundry Hub Endorsements](https://img.shields.io/endpoint?logoColor=white&url=https%3A%2F%2Fwww.foundryvtt-hub.com%2Fwp-json%2Fhubapi%2Fv1%2Fpackage%2Ffoundryvtt-compendiums-mix-dnd5e%2Fshield%2Fendorsements&style=for-the-badge)](https://www.foundryvtt-hub.com/package/foundryvtt-compendiums-mix-dnd5e/)
+| ------- | ------- | ------- | ------- |
+| Unearthed Spoils #001 - Spellbound Spelunking | 11.0.0 (2023-11-21) | Grim Press | https://foundryvtt.com/packages/usdm001-spellbound-spelunking |
+| Allies and Antagonist | 11.0.0 (2024-04-01) | Grim Press | https://foundryvtt.com/packages/allies-and-antagonists |
+| Map Collection - Wilderness | 11.0.1 (2024-04-01) | Grim Press | https://foundryvtt.com/packages/map-collection-wilderness |
 
+| ------- | ------- | ------- | ------- |
+| Loot-Tavern-Compendium magic item vol 1-23 | 1.11.1 | LootTavern | https://www.patreon.com/LootTavern |
+| ------- | ------- | ------- | ------- |
+| DDD - Beginner Baubles | version 1.3.5 | Deep Dark Design | |
+| DDD - Bloody Blueprints & Macabre Maps: Season I | version 2.2.5 | Deep Dark Design | |
+| DDD - Bloody Blueprints & Macabre Maps: Season II |  | Deep Dark Design | |
+| DDD - Handy Hubs | version 1.1.6 | Deep Dark Design| |
+| DDD - Handy Hubs 2 | version 1.0.2 | Deep Dark Design | |
 
-This is a collection of some public projects compendiums:
+TODO
 
-- [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish) version 1.1.0
-- [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL) version 0.2.2
-- [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e) version 1.9.0
-- [Grim Hollow Weapon Properties](https://github.com/TheDraggo/GrimHollowWeaponProperties) version 0.2
-- [Draggos Mod](https://github.com/TheDraggo/DraggosMods) version 0.1
-- [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration) version 0.1.0
-- [Weather Effects 5e](https://github.com/orangetruth/weather-effects-5e ) version 1.0.0
-- [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
-- [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard) version 0.1.4
-- [Flirtatious Foundry Maps 1.1.1](https://github.com/FlirtatiousMule/flirtatiousfoundry) version 1.1.1
-- [DnD5 Cheatsheet](https://github.com/pchouzenoux/foundryvtt-dnd5-cheatsheet) version 0.0.7 (2022-01-20)
-
-##### REMOVED
-
-- [REMOVED][SRD heros et dragons](https://github.com/rwanoux/SRD-Heros-et-Dragons) version 3.1.5
-- [REMOVED][Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json) version 0.26
-- [REMOVED][Kobold Press OGL Compendium with images](Personal compendium with some images form the OGL Kobold Press Site)
-- [REMOVED][Innocenti Loot](https://github.com/rinnocenti/innocenti-loot) version 0.3.1 (2022-01-20)
-- [REMOVED][Innocenti World] version Commits on Dec 10, 2021 (2022-01-20)
-- [REMOVED][Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium) version 1.2.0 (2022-01-20)
-- [REMOVED][Super's Homebrew Compendium](https://github.com/SuperNar3k/foundry) (2022-12-11)
-
-- [REMOVED][Dragon Flagon Architect](https://github.com/flamewave000/dragonflagon-arch) version 2.1.2
-- [REMOVED][Summoner](https://github.com/Jonwh25/summoner) version 1.0.18
-- [REMOVED][Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary) version 2.2.0
-- [REMOVED][FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries) version 1.0.2
-- [REMOVED][FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants) version 1.0.0 note use instead [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium)
-- [REMOVED][Token Vision Animation: World Scope](https://gitlab.com/DmitryRomanenko/token-vision-animation-world) version 1.0.1
-- [REMOVED][GM Token Drag Visibility v2](https://github.com/MAClavell/gm-token-drag-visibility-v2)
-
-**this is just a "personal" use module because some of these projects seem abbandoned or not maintained (or i just need the compendium without all the other features) and foundryvtt 0.8.X is annoying with all the warnings, but be free to use if you find useful**
+| DDD - Bloody Blueprints & Macabre Maps: Season II | version 2.1.6 | Deep Dark Design | |
+| DDD - Slayer Class | version 2.0.0 | Deep Dark Design | |
+| DDD - Soulbound Class | version 2.0.0 | Deep Dark Design | |
 
 **If any author of the original projects does not agree to use their projects on this, feel free to contact me or open an issue and I will remove the references and the code as soon as possible**
 
@@ -57,292 +41,94 @@ To install this module manually:
 1.  Inside the Foundry "Configuration and Setup" screen, click "Add-on Modules"
 2.  Click "Install Module"
 3.  In the "Manifest URL" field, paste the following url:
-`https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/releases/latest/download/module.json`
+`https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e-private/releases/latest/download/module.json`
 4.  Click 'Install' and wait for installation to complete
 5.  Don't forget to enable the module in game using the "Manage Module" button
 
-## [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json) version 0.26
-
-## [Innocenti Loot](https://github.com/rinnocenti/innocenti-loot)
-
-## [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
-
-A rollable table of 1001 fish, created by burkenhare #4761 (Discord) 
-
-"Typical use:
-PC wants to roll for a survival check, after the party makes camp alongside a river. The GM makes them roll on the d1000 fish table to determine what kind of fish they catch (thank god there is such a thing, or else it would be trout every time!) .  They roll a 210, why, it's a cownose ray! But every adventurer knows that the cownose ray is a saltwater animal, that could only mean one thing.... FLOOD!
-So you see, it can be used in many ways to contribute to the plot." - Burkenhare
-
-## [SRD heros et dragons](https://github.com/rwanoux/SRD-Heros-et-Dragons) version 3.1.5
-
-## [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL) version 0.2.2
-
-Provides support for the UM5 SRD by extending the dnd5e system. UM5 is a SRD extension for 5e created by Dias Ex Machina Games, https://www.drivethrurpg.com/product/196905/Ultramodern5SRD-OGL-5th-Edition
-
-Ultramodern OGL adds modern and future tech, including a new variant human, classes, skills, and equipment to the D&D5e system.
-
-This module is wholly unaffiliated with Dias Ex Machina Games.
-
-### Compendiums:
-- UM5 Ch.1: Skills, Proficiencies, & Feats
-- UM5 Ch.2: Backgrounds
-- UM5 Ch.2: Lifepath & Life Events
-- UM5 Ch.3: Ladders
-- UM5 Ch.4: Classes
-- UM5 Ch.5: Archetypes
-- UM5 Ch.6: New Rules Summary
-- UM5 Ch.6: New Weapon Properties
-- UM5 Ch.6: Equipment
-- UM5 Ch.6: Vehicles
-- UM5 Ch.6: Exo-Armor (Mechs)
-- UM5 Ch.7: Antagonists & Enemies
-- UM5 Ch.7: Antagonist Traits
-- UM5 Modern Locations
-
-## [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
-
-A module to add support for ME5e, a futuristic sci-fi setting, to your 5e world. Includes most compendium content from ME5e excluding that which would infringe on copyright.
-
-## [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration)
-
-This is an implementation of the [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://slyflourish_content.s3.us-east-1.amazonaws.com/1d20_lists.pdf).
-
-Shared on Twitter and adapted with permission.
-
-## [Weather Effects 5e](https://github.com/orangetruth/weather-effects-5e )
-
-This FoundryVTT module contains rollable tables with seasonal weather effects for 5e based on homebrew by KibblesTasty (https://www.gmbinder.com/share/-M6xAC_2zw4BzpByxO-c). You can find more homebrew by KibblesTasty at https://www.patreon.com/KibblesTasty.
-
-This module contains 3 compendiums:
-
-1. Weather Actors
-* A single Weather Effects actor with each weather condition added as a Feature. This allows weather effects to be easily clicked on and the description sent to chat. Each description has links to related weather effects, as well as buttons to roll damage and saving throws where applicable. 
-![image](https://user-images.githubusercontent.com/76987378/109440451-95a9a600-79ef-11eb-9588-55f790478a63.png)
-
-2. Weather Effects
-* An item for each weather effect, complete with links to related effects and buttons to roll damage and saving throws:
-![image](https://user-images.githubusercontent.com/76987378/109440608-19fc2900-79f0-11eb-9a91-5ba7742f233e.png)
-
-3. Weather Roll Tables
-* Rollable tables for all four seasons:
-![image](https://user-images.githubusercontent.com/76987378/109449280-440c1600-7a05-11eb-923d-8869b7a089b1.png)
-
-## [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
-
-## [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard)
-
-This is a collection of homebrew options for D&D 5e, ready to be added to your D&D 5e games on Foundry Virtual Tabletop. The content available in this addon can also be found on DriveThruRPG, and my patrons on Patreon get access to a much more detailed version of this addon.
-
-## [Flirtatious Foundry Maps 1.1.1](https://github.com/FlirtatiousMule/flirtatiousfoundry)
-
-A map pack using DungeonDraft, and Foundry VTT.  Featuring animated assets.  Made using FX Master, Dynamic Illumination, and Community Lighting modules.
-
-Flirtatious Notes:
-New maps are being made with FX Master, Community Lighting, and Dynamic Illumination modules if you're interested in a more immersive scene I'd recommend using them in conjunction with our maps.
-
-# Weapon Properties
-
-## [Draggos Mod](https://github.com/TheDraggo/DraggosMods)
-
-**Armor Piercing**
-
-**Blackpowder**
-
-**Brutal**
-
-**Cumbersome**
-
-**Defending**
-
-**Disarming**
-
-**Double**
-
-**Entangling**
-
-**Guard**
-
-**Hafted**
-
-**Magazine**
-
-**Momentum**
-
-**Precise**
-
-**Repeater**
-
-**Restraining**
-
-**Returning**
-
-**Scatter**
-
-**Set**
-
-**Strong-Draw**
-
-**Swift**
-
-**Tripping**
-
-## Home brew
-
-**Spiked**
-
-When hit by a weapon with the spiked property the target gains {@dice +1} damage.
-
-## Beginner Baubles
-
-**Aquatic**
-Some weapons are as aquadynamic as they are aerodynamic. The wielder doesn't have disadvantage on melee weapon attacks or ranged weapon attacks within normal range when using a weapon that has this property.
-
-**Concealed**
-Some weapons are designed to be easily concealed. The wielder has advantage on Dexterity or Charisma checks made to hide or coneal a weapon that has this property.
-
-**Dexterous**
-Some weapons require precision to wield effectively. When attacking with a weapon that has this property, the wielder uses their Dexterity modifier for their attack and damage rolls, in place of Strength.
-
-**Disguised (basic)**
-Some weapons are best hidden in plain sight. Such implements are designed to resemble common, everyday objects and can be easily mistaken as such. Identifying the true intent of a weapon that has this property requires a close inspection and a DC 10 Intelligence (investigation) or Wisdom (perception) check; or at least an hour spent in close proximity to it and a passive Perception score of 15 or higher.
-
-**Disguised (elaborate)**
-Some weapons are best hidden in plain sight. Such implements are designed to resemble common, everyday objects and can be easily mistaken as such. Identifying the true intent of a weapon that has this property requires a close inspection and a DC 15 Intelligence (investigation) or Wisdom (perception) check; or at least an hour spent in close proximity to it and a passive Perception score of 20 or higher.
-
-**Disguised (intricate)**
-Some weapons are best hidden in plain sight. Such implements are designed to resemble common, everyday objects and can be easily mistaken as such. Identifying the true intent of a weapon that has this property requires a close inspection and a DC 20 Intelligence (investigation) or Wisdom (perception) check; or at least an hour spent in close proximity to it and a passive Perception score of 25 or higher.
-
-**Lethal**
-Some weapons are unusually dangerous and difficult to handle with care. The wielder can choose to deal non-lethal damage with a weapon that has this property, however they have disadvantage on attack rolls made to do so.
-
-**Monastic**
-Some weapons favored by martial combatants are still choice implements of monks and their kind. A martial weapon that has this property counts as a monk weapon.
-
-**Non-lethal**
-Some weapons are ill-suited to inflicting mortal wounds. The wielder can choose to deal lethal damage with a weapon that has this property, however they have disadvantage on attack rolls made to do so.
-
-**Parrying**
-Some weapons are ideally suited to bolster their wielder's defence. If a creature is wielding one or more weapons with this property and does not use them to make an attack on their turn in combat, their armor class increases by 1 against melee attacks until the start of their next turn.
-
-## Item and Equipment Properties
-
-**Partial Armor**
-
-Partial armor only grants its AC bonus if you are wearing light or no armor. If you are wearing only one piece of partial armor, you are still considered to be wearing your base armor type (e.g. no armor or light armor). If you are wearing two pieces of partial armor, you are considered to be wearing the heaviest type among the armor pieces you are wearing (e.g. medium or heavy armor). You cannot benefit from wearing three or more pieces of partial armor.
-
-## [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium)
-
-A module for FoundryVTT that includes over 600 fantasy plants from Broderick's Compendium: Plants and Fungi Across the
-Realm (version 2.0) (
-Source: https://www.reddit.com/r/DnD/comments/83oupp/brodericks_compendium_plants_and_fungi_across_the/ ). I did not
-create any of the plants. This addon includes rolltables for the following regions as per the source material:
-
-* Arctic
-* City
-* Coastal
-* Desert
-* Forest
-* Jungle
-* Mountain
-* Ocean
-* Plains
-* River
-* Swamp
-* Underdark & Cave
-
-Roll tables and plants are included as compendiums. Open up the roll table and select the region type your party is
-searching in. Results will be added to a "Found Plants" loot actor for distribution to the players.
-
-## Wait a minute... I've already seen this!
-
-This module is a fork of the
-wonderful [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants) module by Kyle Bishop,
-but with the following changes:
-- The CSS classes and inline styles inside the plant descriptions are removed, so that the native font styles of your
-  FoundryVTT theme are applied. 
-- It provides pictures to many of the plants. 
-- Every plant description contains the biomes where to find it.
-- Some already legendary plants get an additional info, if they are "Exceedingly Rare".
-
-This version also adds compatibility for the new rarity setting, which got introduced by the DND5E 1.4.0 system.
-
-# [Super's Homebrew Compendium](https://github.com/SuperNar3k/foundry)
-
-This module provides additional homebrewed D&D 5th Edition content to be used in FoundryVTT. More to come! Spotlights: 230+ items, 230+ feats, 45+ new spells, 10+ new classes, 70+ new subclasses, 25+ new races, balanced Deck of Many Things, Inspiration and Mockery tables, D&D 5e Conditions! Note: this module is even better when paired up with the DynamicAfterEffects, BetterRolls and MagicItems modules (but is not needed to function). Join the Discord server here and vote on future content to be added!
-
-## Installation
-
-**Method 1:**
-
-* Start Foundry and head to the Add-on Modules tab.
-* Click Install Module.
-* Search for "Broderick's Compendium"
-* Click the install button when it comes up.
-
-**Method 2:**
-
-* Start Foundry and head to the Add-on Modules tab.
-* Click Install Module.
-* Paste the following link into the "Manifest URL" field at the
-  bottom: https://github.com/marcstraube/foundryvtt-brodericks-compendium/releases/download/1.1.0/module.json
-* Click Install
-
-## Suggested Use
-
-I currently use this in my campaign to allow players to forage. If you use the included roll tables for the region(s)
-they are in, you can select the Generate Loot button on the table, it will create a new instance of the item on the
-Actor "Found Plants" in the Actors tab (it will create that loot actor if you don't have it already).
-
-I also have Forien's Unidentified Items add-on and right click the new plant and mystify before letting the players see
-it/access it. You can save a copy to your items for reference if you want.
-
-## Additional Features
-
-### [EZ-Print](https://gitlab.com/fvtt-modules-lab/ez-print/-/tree/master) version 0.1.6
-
-Tries to let you print many application windows
-
-![img](https://user-content.gitlab-static.net/383f16b2fbb4334594218f7522a4de8ea4fa1a0f/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3733343039353532343832323737373937362f3834343635333438363131323131323637302f657a2d7072696e742d66697273742e676966)
-
-## [Changelog](./changelog.md)
-
 ## Issues
 
-Any issues, bugs, or feature requests are always welcome to be reported directly to the [Issue Tracker](https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e/issues ), or using the [Bug Reporter Module](https://foundryvtt.com/packages/bug-reporter/).
+Any issues, bugs, or feature requests are always welcome to be reported directly to the [Issue Tracker](https://github.com/p4535992/foundryvtt-compendiums-mix-dnd5e-private/issues ), or using the [Bug Reporter Module](https://foundryvtt.com/packages/bug-reporter/).
 
-## Credit
+# Build
 
-Thanks to anyone who helps me with this code! I appreciate the user community's feedback on this project!
+## Install all packages
 
-- [Kobold Press OGL Compendium](http://kpogl.wdfiles.com/local--files/home:home/module.json)
-- [Kobold Press OGL Compendium with images](Personal compendium with some images form the OGL Kobold Press Site)
-- [Summoner](https://github.com/Jonwh25/summoner)
-- [Supplemental Bestiary Pack](https://github.com/sparkcity/fvtt-supplementalbestiary)
-- [FoundryVTT Lingering Injuries](https://gitlab.com/p4535992/foundryvtt-lingering-injuries)
-- [Innocenti Loot](https://github.com/rinnocenti/innocenti-loot)
-- [1001 Fish](https://github.com/cswendrowski/FoundryVTT-1000-Fish)
-- [SRD heros et dragons](https://github.com/rwanoux/SRD-Heros-et-Dragons)
-- [Ultramodern OGL/SRD (UM5) by Dias Ex Machina Games](https://github.com/MrBrentRogers/UM5-Ultramodern5-OGL)
-- [fvtt-me5e (Mass Effect 5e)](https://github.com/sparkcity/fvtt-me5e)
-- [FoundryVTT-FantasyPlants](https://github.com/KyleBishop/FoundryVTT-FantasyPlants)
-- [Grim Hollow Weapon Properties](https://github.com/TheDraggo/GrimHollowWeaponProperties)
-- [Draggos Mod](https://github.com/TheDraggo/DraggosMods)
-- [Sly Flourish' 1d20 Lists for D&D Adventure Inspiration](https://gitlab.com/fohswe/sf-adventure-inspiration)
-- [Weather Effects 5e](https://github.com/orangetruth/weather-effects-5e )
-- [Modular Trains](https://www.reddit.com/r/FoundryVTT/comments/mgc1m6/modular_trains_module_just_a_simple_few_tokens_to/)
-- [Copper Dragon's Hoard](https://github.com/copperdragongames/copperdragonhoard)
-- [Flirtatious Foundry Maps 1.1.1](https://github.com/FlirtatiousMule/flirtatiousfoundry)
-- [Dragon Flagon Architect](https://github.com/flamewave000/dragonflagon-arch)
-- [Innocenti World] version Commits on Jul 31, 2021
-- [Broderick's Compendium: Plants and Fungi Across the Realm](https://github.com/marcstraube/foundryvtt-brodericks-compendium) version 1.0.0
-- [Super's Homebrew Compendium](https://github.com/SuperNar3k/foundry)
+```bash
+npm install
+```
+
+### dev
+
+`dev` will let you develop you own code with hot reloading on the browser
+
+```bash
+npm run dev
+```
+
+### build
+
+`build` will build and set up a symlink between `dist` and your `dataPath`.
+
+```bash
+npm run build
+```
+
+### build:watch
+
+`build:watch` will build and watch for changes, rebuilding automatically.
+
+```bash
+npm run build:watch
+```
+
+### prettier-format
+
+`prettier-format` launch the prettier plugin based on the configuration [here](./.prettierrc)
+
+```bash
+npm run-script prettier-format
+```
+
+### lint
+
+`lint` launch the eslint process based on the configuration [here](./.eslintrc.json)
+
+```bash
+npm run-script lint
+```
+
+### lint:fix
+
+`lint:fix` launch the eslint process with the fix argument
+
+```bash
+npm run-script lint:fix
+```
+
+### build:json
+
+`build:json` unpack LevelDB pack on `src/packs` to the json db sources in `src/packs/_source`very useful for backup your items and manually fix some hard issue with some text editor
+
+```bash
+npm run-script build:json
+```
+
+### build:clean
+
+`build:clean` clean packs json sources in `src/packs/_source`. NOTE: usually this command is launched after the command `build:json` and after make some modifications on the json source files with some text editor, but before the `build:db`
+
+```bash
+npm run-script build:clean
+```
+
+### build:db
+
+`build:db` packs the json db sources in `src/packs/_source` to LevelDB pack on `src/packs` with the new jsons. NOTE: usually this command is launched after the command `build:json` and after make some modifications on the json source files with some text editor
+
+```bash
+npm run-script build:db
+```
 
 ## License
 
-This package is under an [MIT license](LICENSE) and the [Foundry Virtual Tabletop Limited License Agreement for module development](https://foundryvtt.com/article/license/).
-
-## Acknowledgements
-
-Bootstrapped with League of Extraordinary FoundryVTT Developers  [foundry-vtt-types](https://github.com/League-of-Foundry-Developers/foundry-vtt-types).
-
-Mad props to the 'League of Extraordinary FoundryVTT Developers' community which helped me figure out a lot.
+THIS IS A PRIVATE REPOSITORY FOR ME AND MY FRIENDS

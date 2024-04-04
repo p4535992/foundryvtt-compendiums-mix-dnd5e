@@ -86,7 +86,7 @@ function cleanPackEntry(data, { clearSourceId=true, ownership=0 }={}) {
   if ( clearSourceId ) delete data.flags?.core?.sourceId;
   delete data.flags?.importSource;
   delete data.flags?.exportSource;
-  if ( data._stats?.lastModifiedBy ) data._stats.lastModifiedBy = "packsebuilder0000";
+  if ( data._stats?.lastModifiedBy ) data._stats.lastModifiedBy = "packsbuilder0000";
 
   // Remove empty entries in flags
   if ( !data.flags ) data.flags = {};
@@ -109,12 +109,6 @@ function cleanPackEntry(data, { clearSourceId=true, ownership=0 }={}) {
   // Remove mystery-man.svg from Actors
   if ( ["character", "npc"].includes(data.type) && data.img === "icons/svg/mystery-man.svg" ) {
     data.img = "";
-    if(!data.prototypeToken) {
-      data.prototypeToken = {};
-    }
-    if(!data.prototypeToken.texture) {
-      data.prototypeToken.texture = {};
-    }
     data.prototypeToken.texture.src = "";
   }
 
