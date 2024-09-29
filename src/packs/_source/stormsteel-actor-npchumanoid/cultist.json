@@ -2,7 +2,355 @@
   "name": "Cultist",
   "type": "npc",
   "img": "modules/tavern-tales-adventures/tokens/cultist_token.webp",
-  "data": {
+  "items": [
+    {
+      "_id": "kNKiCOXEq5rR3k4M",
+      "name": "Scimitar",
+      "type": "weapon",
+      "sort": 100000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "fL3Au2XSLtd4LX2D"
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/items/weapons/sword-curved.jpg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+3]] (+3) to hit, reach 5 ft., one creature. <i>Hit:</i> 4 ([[/r 1d6 + 1]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6  + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "properties": {
+          "fin": true,
+          "lgt": true
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!FmhRyGVBYZljyjkm.kNKiCOXEq5rR3k4M"
+    },
+    {
+      "_id": "P4yJaZMlyiuE9DxW",
+      "name": "Dark Devotion",
+      "type": "feat",
+      "sort": 200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "fL3Au2XSLtd4LX2D"
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/red_01.jpg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\">\n<p>The cultist has advantage on saving throws against being charmed or frightened.</p>\n<div class=\"rd__spc-inline-post\">&nbsp;</div>\n</div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MM",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!FmhRyGVBYZljyjkm.P4yJaZMlyiuE9DxW"
+    },
+    {
+      "_id": "rNB7Ef7QTVyynJ8t",
+      "name": "Leather Armor",
+      "type": "equipment",
+      "sort": 300000,
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "leather%20armor_phb"
+        },
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "fL3Au2XSLtd4LX2D"
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/items/armor/leather.png",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Light armor</i></div>\n\t\t\t<div class=\"flex w-100\">\n\t\t\t\t<div class=\"col-4\">10 gp, 10 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 11 + Dex  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": {
+          "value": 10,
+          "units": "lb"
+        },
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 11,
+          "type": "light",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!FmhRyGVBYZljyjkm.rNB7Ef7QTVyynJ8t"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "FmhRyGVBYZljyjkm",
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 11,
@@ -428,33 +776,14 @@
       }
     }
   },
-  "token": {
+  "prototypeToken": {
     "flags": {},
     "name": "Cultist",
     "displayName": 20,
-    "img": "modules/tavern-tales-adventures/tokens/cultist_token.webp",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
     "lockRotation": false,
     "rotation": 0,
-    "vision": true,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightColor": null,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "fL3Au2XSLtd4LX2D",
     "actorLink": false,
     "disposition": -1,
     "displayBars": 40,
@@ -462,313 +791,78 @@
       "attribute": "attributes.hp"
     },
     "bar2": {
-      "attribute": ""
+      "attribute": null
     },
     "randomImg": false,
-    "alpha": 1
-  },
-  "items": [
-    {
-      "_id": "kNKiCOXEq5rR3k4M",
-      "name": "Scimitar",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+3]] (+3) to hit, reach 5 ft., one creature. <i>Hit:</i> 4 ([[/r 1d6 + 1]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MM",
-        "quantity": 1,
-        "weight": 3,
-        "price": null,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "None",
-        "identified": false,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "dex",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d6  + @mod",
-              "slashing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "martialM",
-        "properties": {
-          "fin": true,
-          "lgt": true
-        },
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
+    "alpha": 1,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 1,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
       },
-      "sort": 100000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": "fL3Au2XSLtd4LX2D"
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/items/weapons/sword-curved.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!FmhRyGVBYZljyjkm.kNKiCOXEq5rR3k4M"
+      "negative": false,
+      "priority": 0,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    {
-      "_id": "P4yJaZMlyiuE9DxW",
-      "name": "Dark Devotion",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--3\">\n<p>The cultist has advantage on saving throws against being charmed or frightened.</p>\n<div class=\"rd__spc-inline-post\">&nbsp;</div>\n</div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MM",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 200000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": "fL3Au2XSLtd4LX2D"
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/red_01.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!FmhRyGVBYZljyjkm.P4yJaZMlyiuE9DxW"
+    "texture": {
+      "src": "modules/tavern-tales-adventures/tokens/cultist_token.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
     },
-    {
-      "_id": "rNB7Ef7QTVyynJ8t",
-      "name": "Leather Armor",
-      "type": "equipment",
-      "data": {
-        "description": {
-          "value": "<div>\n\t\t\t<div><i>Light armor</i></div>\n\t\t\t<div class=\"flex w-100\">\n\t\t\t\t<div class=\"col-4\">10 gp, 10 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 11 + Dex  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB",
-        "quantity": 1,
-        "weight": 10,
-        "price": null,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "None",
-        "identified": false,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 11,
-          "type": "light",
-          "dex": null
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "speed": {
-          "value": null,
-          "conditions": ""
-        },
-        "strength": null,
-        "stealth": false,
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
       },
-      "sort": 300000,
-      "flags": {
-        "plutonium": {
-          "page": "items.html",
-          "source": "PHB",
-          "hash": "leather%20armor_phb"
-        },
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": "fL3Au2XSLtd4LX2D"
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/items/armor/leather.png",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!FmhRyGVBYZljyjkm.rNB7Ef7QTVyynJ8t"
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     }
-  ],
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
   },
-  "flags": {},
-  "_id": "FmhRyGVBYZljyjkm",
   "_key": "!actors!FmhRyGVBYZljyjkm"
 }

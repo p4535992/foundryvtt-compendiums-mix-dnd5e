@@ -2,7 +2,1420 @@
   "name": "Hitokiri",
   "type": "npc",
   "img": "",
-  "data": {
+  "items": [
+    {
+      "_id": "7qXo5FUSIaLU51nQ",
+      "name": "Multiattack",
+      "type": "feat",
+      "sort": 1102,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Hitokiri makes two masakari axe attacks. They may replace one or more of these attacks with a grapple or shove.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!pBJm6trwm5x5hVDC.7qXo5FUSIaLU51nQ"
+    },
+    {
+      "_id": "HTzyrjt9ztuXoFuX",
+      "name": "Masakari Axe",
+      "type": "weapon",
+      "sort": 1001,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, reach 5 ft., one target. <i>Hit:</i> 11 ([[/r 1d12 + 4]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d12  + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!pBJm6trwm5x5hVDC.HTzyrjt9ztuXoFuX"
+    },
+    {
+      "_id": "6fXRmr0QFYTJxfyv",
+      "name": "Masakari Backswing",
+      "type": "weapon",
+      "sort": 1002,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, reach 5 ft., one target. <i>Hit:</i> 8 ([[/r 1d8 + 4]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8  + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!pBJm6trwm5x5hVDC.6fXRmr0QFYTJxfyv"
+    },
+    {
+      "_id": "LvQlgkZtpctWp0fS",
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "sort": 1003,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, reach 5 ft., one target. <i>Hit:</i> 6 ([[/r 1d4 + 4]]) bludgeoning damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4  + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!pBJm6trwm5x5hVDC.LvQlgkZtpctWp0fS"
+    },
+    {
+      "_id": "Cj3jA1KwN7LKyYlv",
+      "name": "Senbonzakura",
+      "type": "feat",
+      "sort": 1104,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Hitokiri makes a masakari axe attack with disadvantage on the attack roll. If the attack hits, it is considered a critical hit and it deals an extra 22 ([[/r 3d12]]) damage.</p><div class=\"rd__spc-inline-post\"></div><p>Additionally if the creature is reduced to 0 hit points, it dies.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 6,
+          "charged": true
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!pBJm6trwm5x5hVDC.Cj3jA1KwN7LKyYlv"
+    },
+    {
+      "_id": "Fbfi1h2s7rg6DI61",
+      "name": "Deliverance",
+      "type": "feat",
+      "sort": 101,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>When the Hitokiri reduces a creature to 0 hit points with a melee attack on its turn, the Hitokiri gains 13 ([[/r 2d12]]) temporary hit points.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!pBJm6trwm5x5hVDC.Fbfi1h2s7rg6DI61"
+    },
+    {
+      "_id": "WI2z72RlqoZADbjZ",
+      "name": "Regeneration",
+      "type": "feat",
+      "sort": 104,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Hitokiri regains 9 hit points at the start of its turn if it has less than half its maximum hit points and has at least 1 hit point.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!pBJm6trwm5x5hVDC.WI2z72RlqoZADbjZ"
+    },
+    {
+      "_id": "z17g55jOSiBrs5Ks",
+      "name": "Rei Sweep",
+      "type": "feat",
+      "sort": 105,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Once per turn, the Hitokiri may make an unarmed strike instead an attack with their masakari axe. On a hit, the creature is <a href=\"https://5e.tools/conditionsdiseases.html#incapacitated_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'incapacitated_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >incapacitated</a> until the start of their next turn and is knocked <a href=\"https://5e.tools/conditionsdiseases.html#prone_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'prone_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >prone</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!pBJm6trwm5x5hVDC.z17g55jOSiBrs5Ks"
+    },
+    {
+      "_id": "6V85ol5tR7DV4OUn",
+      "name": "Mugen-ryu",
+      "type": "feat",
+      "sort": 103,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>When the Hitokiri hits with a masakari axe attack, they can make an additional attack against the same creature as part of that attack action. The Hitokiri may make up to three additional attacks this way in one turn.</p><div class=\"rd__spc-inline-post\"></div><p>If the Hitokiri uses their Mangetsu Rift trait, Meikai trait or Senbonzakura action, they do not gain an extra attack from this trait.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!pBJm6trwm5x5hVDC.6V85ol5tR7DV4OUn"
+    },
+    {
+      "_id": "NbS43pkxStEP7cU9",
+      "name": "Mangetsu Rift",
+      "type": "feat",
+      "sort": 102,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Once per turn, the Hitokiri may make one of their masakari axe attacks with a -5 penalty to the attack roll. If the attack hits, they add +10 to the attack's damage. This cannot be used on the same attack as the Senbonzakura trait.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!pBJm6trwm5x5hVDC.NbS43pkxStEP7cU9"
+    },
+    {
+      "_id": "CdCDhvtLuCWO36OJ",
+      "name": "Meikai",
+      "type": "feat",
+      "sort": 1101,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>When the Hitokiri hits with a masakari axe attack, they can make a masakari backswing attack as a bonus action.</p><div class=\"rd__spc-inline-post\"></div><p>If the Hitokiri uses their Senbonzakura action, they do not gain an extra attack from this trait.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!pBJm6trwm5x5hVDC.CdCDhvtLuCWO36OJ"
+    },
+    {
+      "_id": "9FqhMnmCPxkYvwDp",
+      "name": "Righteous Deflection",
+      "type": "feat",
+      "sort": 1103,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Hitokiri goes to parry and adds 4 to their AC against one melee attack that would hit them as a reaction. To do so, the Hitokiri must see the attacker and be wielding a melee weapon.</p><div class=\"rd__spc-inline-post\"></div><p>If the attack misses after the parry, they gain resistance to non-magical bludgeoning, piercing and slashing damage until the end of their next turn.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!pBJm6trwm5x5hVDC.9FqhMnmCPxkYvwDp"
+    },
+    {
+      "_id": "EYdpqwdpfsRpnVH0",
+      "name": "Leather Armor",
+      "type": "equipment",
+      "sort": 2001,
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "PHB",
+          "hash": "leather%20armor_phb"
+        },
+        "dae": {
+          "activeEquipped": true
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/armor/leather.png",
+      "effects": [
+        {
+          "_id": "yIO6In4mQM0iZaD7",
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "armorEffect": true
+            }
+          },
+          "changes": [
+            {
+              "key": "system.attributes.ac.value",
+              "value": "@abilities.dex.mod > 99 ? 99 + 11 : @abilities.dex.mod + 11",
+              "mode": 5,
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 1621182381867,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": "Actor.lhpMJp3yLV5cWd75.Item.undefined",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "12.331",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null
+          },
+          "name": "AC=11+dex.mod",
+          "img": "systems/dnd5e/icons/items/armor/leather.png",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "_key": "!actors.items.effects!pBJm6trwm5x5hVDC.EYdpqwdpfsRpnVH0.yIO6In4mQM0iZaD7"
+        }
+      ],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Light armor</i></div>\n\t\t\t<div class=\"flex w-100\">\n\t\t\t\t<div class=\"col-4\">10 gp, 10 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 11 + Dex  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": {
+          "value": 10,
+          "units": "lb"
+        },
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 11,
+          "type": "light",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!pBJm6trwm5x5hVDC.EYdpqwdpfsRpnVH0"
+    }
+  ],
+  "effects": [
+    {
+      "_id": "QQem8v9DUFlCQfUQ",
+      "flags": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.value",
+          "value": "1",
+          "mode": 2,
+          "priority": 7
+        }
+      ],
+      "duration": {
+        "startTime": 1621182381867,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "transfer": true,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "Other AC Bonus",
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!pBJm6trwm5x5hVDC.QQem8v9DUFlCQfUQ"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "downtime-ethck": {
+      "trainingItems": [],
+      "changes": []
+    }
+  },
+  "_id": "pBJm6trwm5x5hVDC",
+  "prototypeToken": {
+    "texture": {
+      "src": "",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "name": "Hitokiri",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 18,
@@ -365,1178 +1778,6 @@
         "value": false,
         "initiative": 20
       }
-    }
-  },
-  "token": {
-    "flags": {},
-    "name": "Hitokiri",
-    "displayName": 20,
-    "img": "icons/svg/mystery-man.svg",
-    "tint": null,
-    "width": 1,
-    "height": 1,
-    "scale": 1,
-    "lockRotation": false,
-    "rotation": 0,
-    "vision": true,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "lhpMJp3yLV5cWd75",
-    "actorLink": false,
-    "disposition": -1,
-    "displayBars": 40,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "randomImg": false,
-    "mirrorX": false,
-    "mirrorY": false,
-    "alpha": 1
-  },
-  "items": [
-    {
-      "_id": "7qXo5FUSIaLU51nQ",
-      "name": "Multiattack",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Hitokiri makes two masakari axe attacks. They may replace one or more of these attacks with a grapple or shove.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1102,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!pBJm6trwm5x5hVDC.7qXo5FUSIaLU51nQ"
-    },
-    {
-      "_id": "HTzyrjt9ztuXoFuX",
-      "name": "Masakari Axe",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, reach 5 ft., one target. <i>Hit:</i> 11 ([[/r 1d12 + 4]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "quantity": 1,
-        "weight": 0,
-        "price": null,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": false,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "str",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d12  + @mod",
-              "slashing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "natural",
-        "properties": {},
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1001,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!pBJm6trwm5x5hVDC.HTzyrjt9ztuXoFuX"
-    },
-    {
-      "_id": "6fXRmr0QFYTJxfyv",
-      "name": "Masakari Backswing",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, reach 5 ft., one target. <i>Hit:</i> 8 ([[/r 1d8 + 4]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "quantity": 1,
-        "weight": 0,
-        "price": null,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": false,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "str",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d8  + @mod",
-              "slashing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "natural",
-        "properties": {},
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1002,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!pBJm6trwm5x5hVDC.6fXRmr0QFYTJxfyv"
-    },
-    {
-      "_id": "LvQlgkZtpctWp0fS",
-      "name": "Unarmed Strike",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+8]] (+8) to hit, reach 5 ft., one target. <i>Hit:</i> 6 ([[/r 1d4 + 4]]) bludgeoning damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "quantity": 1,
-        "weight": 0,
-        "price": null,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": false,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "str",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d4  + @mod",
-              "bludgeoning"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "natural",
-        "properties": {},
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1003,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!pBJm6trwm5x5hVDC.LvQlgkZtpctWp0fS"
-    },
-    {
-      "_id": "Cj3jA1KwN7LKyYlv",
-      "name": "Senbonzakura",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Hitokiri makes a masakari axe attack with disadvantage on the attack roll. If the attack hits, it is considered a critical hit and it deals an extra 22 ([[/r 3d12]]) damage.</p><div class=\"rd__spc-inline-post\"></div><p>Additionally if the creature is reduced to 0 hit points, it dies.</p></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": 6,
-          "charged": true
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1104,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!pBJm6trwm5x5hVDC.Cj3jA1KwN7LKyYlv"
-    },
-    {
-      "_id": "Fbfi1h2s7rg6DI61",
-      "name": "Deliverance",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>When the Hitokiri reduces a creature to 0 hit points with a melee attack on its turn, the Hitokiri gains 13 ([[/r 2d12]]) temporary hit points.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 101,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!pBJm6trwm5x5hVDC.Fbfi1h2s7rg6DI61"
-    },
-    {
-      "_id": "WI2z72RlqoZADbjZ",
-      "name": "Regeneration",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Hitokiri regains 9 hit points at the start of its turn if it has less than half its maximum hit points and has at least 1 hit point.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 104,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!pBJm6trwm5x5hVDC.WI2z72RlqoZADbjZ"
-    },
-    {
-      "_id": "z17g55jOSiBrs5Ks",
-      "name": "Rei Sweep",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>Once per turn, the Hitokiri may make an unarmed strike instead an attack with their masakari axe. On a hit, the creature is <a href=\"https://5e.tools/conditionsdiseases.html#incapacitated_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'incapacitated_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >incapacitated</a> until the start of their next turn and is knocked <a href=\"https://5e.tools/conditionsdiseases.html#prone_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'prone_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >prone</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 105,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!pBJm6trwm5x5hVDC.z17g55jOSiBrs5Ks"
-    },
-    {
-      "_id": "6V85ol5tR7DV4OUn",
-      "name": "Mugen-ryu",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>When the Hitokiri hits with a masakari axe attack, they can make an additional attack against the same creature as part of that attack action. The Hitokiri may make up to three additional attacks this way in one turn.</p><div class=\"rd__spc-inline-post\"></div><p>If the Hitokiri uses their Mangetsu Rift trait, Meikai trait or Senbonzakura action, they do not gain an extra attack from this trait.</p></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 103,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!pBJm6trwm5x5hVDC.6V85ol5tR7DV4OUn"
-    },
-    {
-      "_id": "NbS43pkxStEP7cU9",
-      "name": "Mangetsu Rift",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>Once per turn, the Hitokiri may make one of their masakari axe attacks with a -5 penalty to the attack roll. If the attack hits, they add +10 to the attack's damage. This cannot be used on the same attack as the Senbonzakura trait.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 102,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!pBJm6trwm5x5hVDC.NbS43pkxStEP7cU9"
-    },
-    {
-      "_id": "CdCDhvtLuCWO36OJ",
-      "name": "Meikai",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>When the Hitokiri hits with a masakari axe attack, they can make a masakari backswing attack as a bonus action.</p><div class=\"rd__spc-inline-post\"></div><p>If the Hitokiri uses their Senbonzakura action, they do not gain an extra attack from this trait.</p></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "bonus",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1101,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!pBJm6trwm5x5hVDC.CdCDhvtLuCWO36OJ"
-    },
-    {
-      "_id": "9FqhMnmCPxkYvwDp",
-      "name": "Righteous Deflection",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Hitokiri goes to parry and adds 4 to their AC against one melee attack that would hit them as a reaction. To do so, the Hitokiri must see the attacker and be wielding a melee weapon.</p><div class=\"rd__spc-inline-post\"></div><p>If the attack misses after the parry, they gain resistance to non-magical bludgeoning, piercing and slashing damage until the end of their next turn.</p></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "reaction",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1103,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!pBJm6trwm5x5hVDC.9FqhMnmCPxkYvwDp"
-    },
-    {
-      "_id": "EYdpqwdpfsRpnVH0",
-      "name": "Leather Armor",
-      "type": "equipment",
-      "data": {
-        "description": {
-          "value": "<div>\n\t\t\t<div><i>Light armor</i></div>\n\t\t\t<div class=\"flex w-100\">\n\t\t\t\t<div class=\"col-4\">10 gp, 10 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 11 + Dex  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB",
-        "quantity": 1,
-        "weight": 10,
-        "price": null,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "None",
-        "identified": false,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 11,
-          "type": "light",
-          "dex": null
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "speed": {
-          "value": null,
-          "conditions": ""
-        },
-        "strength": null,
-        "stealth": false,
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 2001,
-      "flags": {
-        "plutonium": {
-          "page": "items.html",
-          "source": "PHB",
-          "hash": "leather%20armor_phb"
-        },
-        "dae": {
-          "activeEquipped": true
-        }
-      },
-      "img": "/systems/dnd5e/icons/items/armor/leather.png",
-      "effects": [
-        {
-          "_id": "yIO6In4mQM0iZaD7",
-          "flags": {
-            "dae": {
-              "transfer": true,
-              "armorEffect": true
-            }
-          },
-          "changes": [
-            {
-              "key": "data.attributes.ac.value",
-              "value": "@abilities.dex.mod > 99 ? 99 + 11 : @abilities.dex.mod + 11",
-              "mode": 5,
-              "priority": 4
-            }
-          ],
-          "disabled": false,
-          "duration": {
-            "startTime": 1621182381867
-          },
-          "icon": "systems/dnd5e/icons/items/armor/leather.png",
-          "label": "AC=11+dex.mod",
-          "origin": "Actor.lhpMJp3yLV5cWd75.OwnedItem.undefined",
-          "transfer": true,
-          "_key": "!actors.items.effects!pBJm6trwm5x5hVDC.EYdpqwdpfsRpnVH0.yIO6In4mQM0iZaD7"
-        }
-      ],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!pBJm6trwm5x5hVDC.EYdpqwdpfsRpnVH0"
-    }
-  ],
-  "effects": [
-    {
-      "_id": "QQem8v9DUFlCQfUQ",
-      "flags": {},
-      "changes": [
-        {
-          "key": "data.attributes.ac.value",
-          "value": "1",
-          "mode": 2,
-          "priority": 7
-        }
-      ],
-      "duration": {
-        "startTime": 1621182381867
-      },
-      "icon": "modules/plutonium/media/icon/mighty-force.svg",
-      "label": "Other AC Bonus",
-      "disabled": false,
-      "transfer": true,
-      "_key": "!actors.effects!pBJm6trwm5x5hVDC.QQem8v9DUFlCQfUQ"
-    }
-  ],
-  "folder": null,
-  "sort": 0,
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
-  "flags": {
-    "downtime-ethck": {
-      "trainingItems": [],
-      "changes": []
-    }
-  },
-  "_id": "pBJm6trwm5x5hVDC",
-  "prototypeToken": {
-    "texture": {
-      "src": ""
     }
   },
   "_key": "!actors!pBJm6trwm5x5hVDC"

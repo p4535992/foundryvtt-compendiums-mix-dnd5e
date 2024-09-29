@@ -1,12 +1,69 @@
 {
   "_id": "2Av7laYleAMNJNCZ",
   "name": "Harmonic Blade",
-  "permission": {
-    "default": 0,
-    "qtb8j5Fh7Hu0wRrz": 3
-  },
   "type": "weapon",
-  "data": {
+  "flags": {
+    "betterRolls5e": {
+      "quickDamage": {
+        "context": {
+          "0": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{Armor Piercing}"
+        },
+        "value": {
+          "0": true
+        },
+        "altValue": {
+          "0": true
+        }
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickVersatile": {
+        "value": false,
+        "altValue": false
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      },
+      "critRange": {
+        "value": ""
+      },
+      "critDamage": {
+        "value": ""
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/items/weapons/dagger.jpg",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "description": {
       "value": "<p><span class=\"fontstyle0\">@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.PkYYoSwGjKt9BiTo]{Weapon Group: Melee Weapons}</span></p>\n<p><span class=\"fontstyle0\">Beginning its life as a surgical scalpel, this device quickly evolved to accomplish the ethically opposite goal. The blade vibrates in excess of 75,000 Hz, enabling it to slice or penetrate virtually any substance. More advanced designs translate little of this pulsation to the user's hand, though it does still occur. As a result, using a harmonic blade for more than a few minutes generates significant muscle fatigue. Because a larger blade translates more of its energy to the wielder, there has not been a practical harmonic blade longer than a few inches.<br /></span></p>\n<p><span class=\"fontstyle0\">If you have proficiency in Wisdom (Medicine), you gain a +2 bonus to damage with this weapon. Damage increases to 1d6 if you have advantage on the target.</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 67px;\"><span class=\"fontstyle0\">Harmonic blade </span></td>\n<td style=\"width: 44px;\"><span class=\"fontstyle0\">18,000 </span></td>\n<td style=\"width: 86px;\"><span class=\"fontstyle0\">1d4 slashing / piercing </span></td>\n<td style=\"width: 40px;\"><span class=\"fontstyle0\">1.5 lb. </span></td>\n<td style=\"width: 150px;\"><span class=\"fontstyle0\">AP, finesse, light, reload (20-M), TL 2</span></td>\n</tr>\n</tbody>\n</table>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\">@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{AP (Armor Piercing)}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.qB35DS5654aWtgir]{Finesse}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.bY9owuVfWrNWp8NV]{Light}</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\">@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 20-M} @Compendium[compendiums-mix-dnd5e.um5-equipment.lmAMoPPYbIwgHfGl]{Battry Cell, Medium}</p>",
       "chat": "",
@@ -14,7 +71,10 @@
     },
     "source": "UM5 p.78",
     "quantity": 1,
-    "weight": 1.5,
+    "weight": {
+      "value": 1.5,
+      "units": "lb"
+    },
     "price": 2,
     "attuned": false,
     "equipped": false,
@@ -30,7 +90,7 @@
       "units": ""
     },
     "target": {
-      "value": 0,
+      "value": null,
       "units": "",
       "type": ""
     },
@@ -97,53 +157,7 @@
     },
     "proficient": false
   },
-  "flags": {
-    "betterRolls5e": {
-      "quickDamage": {
-        "context": {
-          "0": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{Armor Piercing}"
-        },
-        "value": {
-          "0": true
-        },
-        "altValue": {
-          "0": true
-        }
-      },
-      "quickDesc": {
-        "value": true,
-        "altValue": true
-      },
-      "quickAttack": {
-        "value": true,
-        "altValue": true
-      },
-      "quickProperties": {
-        "value": true,
-        "altValue": true
-      },
-      "quickVersatile": {
-        "value": false,
-        "altValue": false
-      },
-      "quickOther": {
-        "value": true,
-        "altValue": true,
-        "context": ""
-      },
-      "quickFlavor": {
-        "value": true,
-        "altValue": true
-      },
-      "critRange": {
-        "value": ""
-      },
-      "critDamage": {
-        "value": ""
-      }
-    }
-  },
-  "img": "systems/dnd5e/icons/items/weapons/dagger.jpg",
-  "effects": [],
+  "folder": null,
+  "sort": 0,
   "_key": "!items!2Av7laYleAMNJNCZ"
 }

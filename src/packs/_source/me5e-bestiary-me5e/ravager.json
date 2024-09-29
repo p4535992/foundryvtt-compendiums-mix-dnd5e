@@ -1,12 +1,492 @@
 {
   "_id": "lxBuajwJCrSpW9Xn",
   "name": "Ravager",
-  "permission": {
-    "default": 0,
-    "N8RgN1jdDFyXuWNq": 3
-  },
   "type": "npc",
-  "data": {
+  "sort": 100001,
+  "flags": {},
+  "img": "",
+  "items": [
+    {
+      "_id": "KO3niDzaMpRf8lSp",
+      "flags": {},
+      "name": "Egg Sacs",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/affliction_11.jpg",
+      "sort": 100000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Egg Sacs (4).</em></span>&nbsp;If the ravager takes piercing or slashing damage that is not from the result of a critical hit one of its egg sacs explodes, releasing 1d10 swarmers.</p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!lxBuajwJCrSpW9Xn.KO3niDzaMpRf8lSp"
+    },
+    {
+      "_id": "qlFcAqUVlldZVVle",
+      "flags": {},
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+      "sort": 100000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Multiattack.</em></span> The {creature} makes 2 twin artillery attacks.</p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!lxBuajwJCrSpW9Xn.qlFcAqUVlldZVVle"
+    },
+    {
+      "_id": "y12ZuqE9FRoP3FKd",
+      "flags": {},
+      "name": "Acid Splash",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/green_29.jpg",
+      "sort": 200000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Acid Splash (Recharge 5-6).</em></span>&nbsp;The ravager spits acid in a 6m cube. Each creature in that line must make a DC 15 Dexterity saving throw, taking 27 (6d8) acid damage on a failed save, or half as much damage on a successful one.</p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 6,
+          "units": "ft",
+          "type": "line"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "6d8",
+              "acid"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 15,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 5,
+          "charged": true
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!lxBuajwJCrSpW9Xn.y12ZuqE9FRoP3FKd"
+    },
+    {
+      "_id": "vbwIDRROx4On6MtJ",
+      "flags": {},
+      "name": "Twin Artillery Cannons",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/skills/arrow_13.jpg",
+      "sort": 300000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p>Twin Artillery Cannons. Ranged Weapon Attack: +5 to hit, range 60/180m, one target. Hit: 18 (3d10 + 2) piercing damage and 10 (3d6) acid damage.</p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 0,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 60,
+          "long": 180,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": 3,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "3d10+2",
+              "piercing"
+            ],
+            [
+              "3d6",
+              "acid"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "amm": false,
+          "arc": false,
+          "bst": false,
+          "dtp": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "het": false,
+          "hvy": false,
+          "hip": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "coi": false,
+          "rel": false,
+          "ret": false,
+          "snt": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!lxBuajwJCrSpW9Xn.vbwIDRROx4On6MtJ"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "texture": {
+      "src": "",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "name": "Ravager",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 10,
@@ -409,362 +889,6 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {},
-  "img": "",
-  "token": {
-    "flags": {},
-    "name": "h",
-    "displayName": 0,
-    "img": "icons/svg/mystery-man.svg",
-    "tint": null,
-    "width": 2,
-    "height": 2,
-    "scale": 1,
-    "lockRotation": false,
-    "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightAlpha": 1,
-    "actorId": "lxBuajwJCrSpW9Xn",
-    "actorLink": false,
-    "actorData": {},
-    "disposition": -1,
-    "displayBars": 0,
-    "bar1": {},
-    "bar2": {},
-    "randomImg": false
-  },
-  "items": [
-    {
-      "_id": "KO3niDzaMpRf8lSp",
-      "flags": {},
-      "name": "Egg Sacs ",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/affliction_11.jpg",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Egg Sacs (4).</em></span>&nbsp;If the ravager takes piercing or slashing damage that is not from the result of a critical hit one of its egg sacs explodes, releasing 1d10 swarmers.</p>\n</section>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 100000,
-      "effects": [],
-      "_key": "!actors.items!lxBuajwJCrSpW9Xn.KO3niDzaMpRf8lSp"
-    },
-    {
-      "_id": "qlFcAqUVlldZVVle",
-      "flags": {},
-      "name": "Multiattack",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Multiattack.</em></span> The {creature} makes 2 twin artillery attacks.</p>\n</section>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 100000,
-      "effects": [],
-      "_key": "!actors.items!lxBuajwJCrSpW9Xn.qlFcAqUVlldZVVle"
-    },
-    {
-      "_id": "y12ZuqE9FRoP3FKd",
-      "flags": {},
-      "name": "Acid Splash",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/green_29.jpg",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Acid Splash (Recharge 5-6).</em></span>&nbsp;The ravager spits acid in a 6m cube. Each creature in that line must make a DC 15 Dexterity saving throw, taking 27 (6d8) acid damage on a failed save, or half as much damage on a successful one.</p>\n</section>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": 6,
-          "units": "ft",
-          "type": "line"
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "save",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "6d8",
-              "acid"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "dex",
-          "dc": 15,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": 5,
-          "charged": true
-        }
-      },
-      "sort": 200000,
-      "effects": [],
-      "_key": "!actors.items!lxBuajwJCrSpW9Xn.y12ZuqE9FRoP3FKd"
-    },
-    {
-      "_id": "vbwIDRROx4On6MtJ",
-      "flags": {},
-      "name": "Twin Artillery Cannons",
-      "type": "weapon",
-      "img": "systems/dnd5e/icons/skills/arrow_13.jpg",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p>Twin Artillery Cannons. Ranged Weapon Attack: +5 to hit, range 60/180m, one target. Hit: 18 (3d10 + 2) piercing damage and 10 (3d6) acid damage.</p>\n</section>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "quantity": 1,
-        "weight": 0,
-        "price": 0,
-        "attuned": false,
-        "equipped": true,
-        "rarity": "",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 60,
-          "long": 180,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "rwak",
-        "attackBonus": 3,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "3d10+2",
-              "piercing"
-            ],
-            [
-              "3d6",
-              "acid"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "natural",
-        "properties": {
-          "amm": false,
-          "arc": false,
-          "bst": false,
-          "dtp": false,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "het": false,
-          "hvy": false,
-          "hip": false,
-          "lgt": false,
-          "lod": false,
-          "rch": false,
-          "coi": false,
-          "rel": false,
-          "ret": false,
-          "snt": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": true
-      },
-      "sort": 300000,
-      "effects": [],
-      "_key": "!actors.items!lxBuajwJCrSpW9Xn.vbwIDRROx4On6MtJ"
-    }
-  ],
-  "effects": [],
-  "prototypeToken": {
-    "texture": {
-      "src": ""
-    }
-  },
+  "folder": null,
   "_key": "!actors!lxBuajwJCrSpW9Xn"
 }

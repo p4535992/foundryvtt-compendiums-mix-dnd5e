@@ -1,12 +1,522 @@
 {
   "_id": "gqjKeHakuz9gNCFy",
   "name": "Warlock of the Web",
-  "permission": {
-    "default": 0,
-    "F8rFBCyj19PfyFut": 3
-  },
   "type": "npc",
-  "data": {
+  "sort": 100001,
+  "flags": {},
+  "img": "worlds/harroden/assets/token-spider-cultist.png",
+  "items": [
+    {
+      "_id": "mRSqUsgAWsVjfXt3",
+      "name": "Claw",
+      "type": "weapon",
+      "sort": 400000,
+      "flags": {},
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>Melee Weapon Attack: +5 to hit, Reach 5 ft., one target. Hit: 7 (1d8)+3 piercing damage. Upon a successful Claw attack, the target must make a DC 11 CON saving throw or take 9 (2d8) poison damage (success = half damage). If the poison damage reduces the target to 0 HP, the target is stable but poisoned and paralyzed for 1 hour, even if the target regains HP.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 0,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 5,
+          "width": null,
+          "units": "ft",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 5,
+        "chatFlavor": "For the Queen!",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "7 (1d8+3)",
+              "piercing"
+            ]
+          ],
+          "versatile": "9 (2d8) poison"
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 11,
+          "scaling": "flat"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "img": "icons/svg/item-bag.svg",
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!gqjKeHakuz9gNCFy.mRSqUsgAWsVjfXt3"
+    },
+    {
+      "_id": "2tajtVZmtuyq0GOr",
+      "name": "Web Sense",
+      "type": "feat",
+      "sort": 100001,
+      "flags": {},
+      "img": "systems/dnd5e/icons/spells/shielding-spirit-3.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>While in contact with a web, the acolyte knows the exact location of any other creature in contact with the same web.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!gqjKeHakuz9gNCFy.2tajtVZmtuyq0GOr"
+    },
+    {
+      "_id": "yIhotshLJ4aopnNj",
+      "name": "Spider Climb",
+      "type": "feat",
+      "sort": 300001,
+      "flags": {
+        "_sheetTab": "description"
+      },
+      "img": "systems/dnd5e/icons/skills/green_23.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>The acolyte can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!gqjKeHakuz9gNCFy.yIhotshLJ4aopnNj"
+    },
+    {
+      "_id": "Afv688xKwXrz4ETB",
+      "name": "Web Walker",
+      "type": "feat",
+      "sort": 200001,
+      "flags": {
+        "_sheetTab": "description"
+      },
+      "img": "systems/dnd5e/icons/skills/yellow_42.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>The acolyte ignores movement restrictions caused by webbing.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!gqjKeHakuz9gNCFy.Afv688xKwXrz4ETB"
+    },
+    {
+      "_id": "84xHQJBTx73O0laf",
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "sort": 600001,
+      "flags": {
+        "_sheetTab": "description",
+        "dynamiceffects": {
+          "equipActive": false,
+          "alwaysActive": false,
+          "effects": []
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/violet_08.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>The Warlock's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:</p>\n<p>At will: poison spray, infestation</p>\n<p>3/day each: ray of sickness</p>\n<p>1/day each: blindness and deafness, hold person</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!gqjKeHakuz9gNCFy.84xHQJBTx73O0laf"
+    }
+  ],
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 14,
@@ -287,470 +797,94 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {},
-  "img": "worlds/harroden/assets/token-spider-cultist.png",
-  "token": {
+  "prototypeToken": {
     "flags": {},
     "name": "Warlock",
     "displayName": 20,
-    "img": "worlds/harroden/assets/token-spider-cultist.png",
-    "tint": "",
     "width": 1,
     "height": 1,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
     "lockRotation": false,
     "rotation": 0,
-    "vision": true,
-    "dimSight": 20,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightColor": "",
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "gqjKeHakuz9gNCFy",
     "actorLink": false,
     "disposition": -1,
     "displayBars": 20,
     "bar1": {
-      "attribute": ""
+      "attribute": "attributes.hp"
     },
     "bar2": {
-      "attribute": ""
+      "attribute": null
     },
-    "randomImg": false
-  },
-  "items": [
-    {
-      "_id": "mRSqUsgAWsVjfXt3",
-      "name": "Claw",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, Reach 5 ft., one target. Hit: 7 (1d8)+3 piercing damage. Upon a successful Claw attack, the target must make a DC 11 CON saving throw or take 9 (2d8) poison damage (success = half damage). If the poison damage reduces the target to 0 HP, the target is stable but poisoned and paralyzed for 1 hour, even if the target regains HP.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "quantity": 1,
-        "weight": 0,
-        "price": 0,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": 5,
-          "width": null,
-          "units": "ft",
-          "type": "creature"
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "str",
-        "actionType": "mwak",
-        "attackBonus": 5,
-        "chatFlavor": "For the Queen!",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "7 (1d8+3)",
-              "piercing"
-            ]
-          ],
-          "versatile": "9 (2d8) poison"
-        },
-        "formula": "",
-        "save": {
-          "ability": "con",
-          "dc": 11,
-          "scaling": "flat"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "natural",
-        "properties": {
-          "amm": false,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "hvy": false,
-          "lgt": false,
-          "lod": false,
-          "rch": false,
-          "rel": false,
-          "ret": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": true
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 1,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
       },
-      "sort": 400000,
-      "flags": {},
-      "effects": [],
-      "_key": "!actors.items!gqjKeHakuz9gNCFy.mRSqUsgAWsVjfXt3"
+      "negative": false,
+      "priority": 0,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    {
-      "_id": "2tajtVZmtuyq0GOr",
-      "name": "Web Sense",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p>While in contact with a web, the acolyte knows the exact location of any other creature in contact with the same web.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 100001,
-      "flags": {},
-      "img": "systems/dnd5e/icons/spells/shielding-spirit-3.jpg",
-      "effects": [],
-      "_key": "!actors.items!gqjKeHakuz9gNCFy.2tajtVZmtuyq0GOr"
+    "texture": {
+      "src": "worlds/harroden/assets/token-spider-cultist.png",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
     },
-    {
-      "_id": "yIhotshLJ4aopnNj",
-      "name": "Spider Climb",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p>The acolyte can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": "",
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell",
-          "value": ""
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "time": {
-          "value": "",
-          "_deprecated": true
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": true
-        }
-      },
-      "sort": 300001,
-      "flags": {
-        "_sheetTab": "description"
-      },
-      "img": "systems/dnd5e/icons/skills/green_23.jpg",
-      "effects": [],
-      "_key": "!actors.items!gqjKeHakuz9gNCFy.yIhotshLJ4aopnNj"
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 20,
+      "brightness": 0,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
     },
-    {
-      "_id": "Afv688xKwXrz4ETB",
-      "name": "Web Walker",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p>The acolyte ignores movement restrictions caused by webbing.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": "",
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell",
-          "value": ""
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "time": {
-          "value": "",
-          "_deprecated": true
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": true
-        }
-      },
-      "sort": 200001,
-      "flags": {
-        "_sheetTab": "description"
-      },
-      "img": "systems/dnd5e/icons/skills/yellow_42.jpg",
-      "effects": [],
-      "_key": "!actors.items!gqjKeHakuz9gNCFy.Afv688xKwXrz4ETB"
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "alpha": 1,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
     },
-    {
-      "_id": "84xHQJBTx73O0laf",
-      "name": "Innate Spellcasting",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p>The Warlock's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:</p>\n<p>At will: poison spray, infestation</p>\n<p>3/day each: ray of sickness</p>\n<p>1/day each: blindness and deafness, hold person</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": "",
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell",
-          "value": ""
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "time": {
-          "value": "",
-          "_deprecated": true
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": true
-        },
-        "attributes": {
-          "spelldc": 10
-        }
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
       },
-      "sort": 600001,
-      "flags": {
-        "_sheetTab": "description",
-        "dynamiceffects": {
-          "equipActive": false,
-          "alwaysActive": false,
-          "effects": []
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/violet_08.jpg",
-      "effects": [],
-      "_key": "!actors.items!gqjKeHakuz9gNCFy.84xHQJBTx73O0laf"
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     }
-  ],
-  "effects": [],
+  },
+  "folder": null,
   "_key": "!actors!gqjKeHakuz9gNCFy"
 }

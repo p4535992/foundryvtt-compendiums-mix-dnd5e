@@ -1,12 +1,500 @@
 {
   "_id": "7EdeIgdzTJhhyJH6",
   "name": "Blue Legionnaire",
-  "permission": {
-    "default": 0,
-    "N8RgN1jdDFyXuWNq": 3
-  },
   "type": "npc",
-  "data": {
+  "sort": 100001,
+  "flags": {},
+  "img": "",
+  "items": [
+    {
+      "_id": "nq9qVmM2waOIkegO",
+      "flags": {},
+      "name": "Tech Armor",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/weapon_14.jpg",
+      "sort": 600000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><span style=\"font-family: BookSanity;\"><span style=\"font-size: 11.9811px;\"><em><strong>Tech Armor (1/Day). </strong></em>As a bonus action, the {creature} can activate its Tech Armor. It immediately gains 10 temporary hit points. While the </span></span><span style=\"font-family: BookSanity; font-size: 11.9811px;\">{creature} </span><span style=\"font-family: BookSanity;\"><span style=\"font-size: 11.9811px;\">has at least 1 of these temporary hit points remaining, it has +2 AC.</span></span></p>\n<p><span style=\"font-family: BookSanity;\"><span style=\"font-size: 11.9811px;\">As a reaction to taking damage, the {creature} can activate its tech armor.</span></span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "day"
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7EdeIgdzTJhhyJH6.nq9qVmM2waOIkegO"
+    },
+    {
+      "_id": "xiLk4yEzoSJ0cD8P",
+      "flags": {},
+      "name": "Disrupter Ammo",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/blue_05.jpg",
+      "sort": 400000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>When the {creature} hits with its Vindicator, if the target is primed, the target detonates. Otherwise, the target becomes primed: lightning until the end of the {creature}'s next turn.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4",
+              "fire"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7EdeIgdzTJhhyJH6.xiLk4yEzoSJ0cD8P"
+    },
+    {
+      "_id": "m0mTEODkmPtnKJf9",
+      "flags": {},
+      "name": "Vindicator",
+      "type": "weapon",
+      "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/uncassault.svg",
+      "sort": 700000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<ul>\n<li>Range: 50/150m</li>\n<li>Heat: 12</li>\n</ul>\n<section class=\"secret\">\n<p style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0.352cm; line-height: 1.1em; font-family: ScalySans; vertical-align: baseline; margin-top: 0px; margin-bottom: 0px; padding: 0px 0px 0.8em; z-index: 15; break-inside: avoid;\"><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">M-15 Vindicator (burst fire, two-handed).</em></span>&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Ranged Weapon Attack:</em>&nbsp;+2 to hit, range (50/150m), one target.&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Hit:</em>&nbsp;7 (1d10 + 2) piercing damage</p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Me5e",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": 15500,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Uncommon",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 50,
+          "long": 150,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d10+2",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "ars",
+        "properties": {
+          "amm": false,
+          "arc": false,
+          "bst": true,
+          "dtp": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "het": false,
+          "hvy": false,
+          "hip": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "coi": false,
+          "rel": false,
+          "ret": false,
+          "snt": false,
+          "spc": false,
+          "thr": false,
+          "two": true,
+          "ver": false
+        },
+        "proficient": false
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7EdeIgdzTJhhyJH6.m0mTEODkmPtnKJf9"
+    },
+    {
+      "_id": "4uF5RR2R2FQIsksK",
+      "flags": {},
+      "name": "Inferno Grenade",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/items/inventory/bomb.jpg",
+      "sort": 800000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Inferno Grenade (2/day).</em></span>&nbsp;Target an area within 10m. Each creature within 4m of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d4 fire or half as much on a successful one. The 4m area continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.</p>\n</section>\n<p>&nbsp;</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ME5e",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 0,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 4,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 2,
+          "max": 2,
+          "per": "day",
+          "autoDestroy": false
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "3d4",
+              ""
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 13,
+          "scaling": "flat"
+        },
+        "consumableType": "rod"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!7EdeIgdzTJhhyJH6.4uF5RR2R2FQIsksK"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "texture": {
+      "src": "",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "name": "Blue Legionnaire",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 12,
@@ -407,367 +895,6 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {},
-  "img": "",
-  "token": {
-    "flags": {},
-    "name": "Blue Pyro",
-    "displayName": 0,
-    "img": "icons/svg/mystery-man.svg",
-    "tint": null,
-    "width": 1,
-    "height": 1,
-    "scale": 1,
-    "lockRotation": false,
-    "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightAlpha": 1,
-    "actorId": "7EdeIgdzTJhhyJH6",
-    "actorLink": false,
-    "actorData": {},
-    "disposition": -1,
-    "displayBars": 0,
-    "bar1": {},
-    "bar2": {},
-    "randomImg": false
-  },
-  "items": [
-    {
-      "_id": "nq9qVmM2waOIkegO",
-      "flags": {},
-      "name": "Tech Armor",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/weapon_14.jpg",
-      "data": {
-        "description": {
-          "value": "<p><span style=\"font-family: BookSanity;\"><span style=\"font-size: 11.9811px;\"><em><strong>Tech Armor (1/Day). </strong></em>As a bonus action, the {creature} can activate its Tech Armor. It immediately gains 10 temporary hit points. While the </span></span><span style=\"font-family: BookSanity; font-size: 11.9811px;\">{creature} </span><span style=\"font-family: BookSanity;\"><span style=\"font-size: 11.9811px;\">has at least 1 of these temporary hit points remaining, it has +2 AC.</span></span></p>\n<p><span style=\"font-family: BookSanity;\"><span style=\"font-size: 11.9811px;\">As a reaction to taking damage, the {creature} can activate its tech armor.</span></span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "bonus",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 1,
-          "max": 1,
-          "per": "day"
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 600000,
-      "effects": [],
-      "_key": "!actors.items!7EdeIgdzTJhhyJH6.nq9qVmM2waOIkegO"
-    },
-    {
-      "_id": "xiLk4yEzoSJ0cD8P",
-      "flags": {},
-      "name": "Disrupter Ammo",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/blue_05.jpg",
-      "data": {
-        "description": {
-          "value": "<p>When the {creature} hits with its Vindicator, if the target is primed, the target detonates. Otherwise, the target becomes primed: lightning until the end of the {creature}'s next turn.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d4",
-              "fire"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 400000,
-      "effects": [],
-      "_key": "!actors.items!7EdeIgdzTJhhyJH6.xiLk4yEzoSJ0cD8P"
-    },
-    {
-      "_id": "m0mTEODkmPtnKJf9",
-      "flags": {},
-      "name": "Vindicator",
-      "type": "weapon",
-      "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/uncassault.svg",
-      "data": {
-        "description": {
-          "value": "<ul>\n<li>Range: 50/150m</li>\n<li>Heat: 12</li>\n</ul>\n<section class=\"secret\">\n<p style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0.352cm; line-height: 1.1em; font-family: ScalySans; vertical-align: baseline; margin-top: 0px; margin-bottom: 0px; padding: 0px 0px 0.8em; z-index: 15; break-inside: avoid;\"><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">M-15 Vindicator (burst fire, two-handed).</em></span>&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Ranged Weapon Attack:</em>&nbsp;+2 to hit, range (50/150m), one target.&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Hit:</em>&nbsp;7 (1d10 + 2) piercing damage</p>\n</section>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "Me5e",
-        "quantity": 1,
-        "weight": 2,
-        "price": 15500,
-        "attuned": false,
-        "equipped": false,
-        "rarity": "Uncommon",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 50,
-          "long": 150,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "dex",
-        "actionType": "rwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d10+2",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "ars",
-        "properties": {
-          "amm": false,
-          "arc": false,
-          "bst": true,
-          "dtp": false,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "het": false,
-          "hvy": false,
-          "hip": false,
-          "lgt": false,
-          "lod": false,
-          "rch": false,
-          "coi": false,
-          "rel": false,
-          "ret": false,
-          "snt": false,
-          "spc": false,
-          "thr": false,
-          "two": true,
-          "ver": false
-        },
-        "proficient": false
-      },
-      "sort": 700000,
-      "effects": [],
-      "_key": "!actors.items!7EdeIgdzTJhhyJH6.m0mTEODkmPtnKJf9"
-    },
-    {
-      "_id": "4uF5RR2R2FQIsksK",
-      "flags": {},
-      "name": "Inferno Grenade",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/items/inventory/bomb.jpg",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Inferno Grenade (2/day).</em></span>&nbsp;Target an area within 10m. Each creature within 4m of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d4 fire or half as much on a successful one. The 4m area continues to burn for 1 minute. A creature must also make the saving throw when it enters the burning space for the first time on a turn or ends its turn there.</p>\n</section>\n<p>&nbsp;</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ME5e",
-        "quantity": 1,
-        "weight": 0,
-        "price": 0,
-        "attuned": false,
-        "equipped": false,
-        "rarity": "",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": 4,
-          "units": "ft",
-          "type": "radius"
-        },
-        "range": {
-          "value": 10,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 2,
-          "max": 2,
-          "per": "day",
-          "autoDestroy": false
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "save",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "3d4",
-              ""
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "dex",
-          "dc": 13,
-          "scaling": "flat"
-        },
-        "consumableType": "rod"
-      },
-      "sort": 800000,
-      "effects": [],
-      "_key": "!actors.items!7EdeIgdzTJhhyJH6.4uF5RR2R2FQIsksK"
-    }
-  ],
-  "effects": [],
-  "prototypeToken": {
-    "texture": {
-      "src": ""
-    }
-  },
+  "folder": null,
   "_key": "!actors!7EdeIgdzTJhhyJH6"
 }

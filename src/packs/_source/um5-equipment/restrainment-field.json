@@ -1,12 +1,66 @@
 {
   "_id": "fC0IDtqeryQLOxoa",
   "name": "Restrainment Field",
-  "permission": {
-    "default": 0,
-    "qtb8j5Fh7Hu0wRrz": 3
-  },
   "type": "weapon",
-  "data": {
+  "flags": {
+    "betterRolls5e": {
+      "quickSave": {
+        "value": true,
+        "altValue": true
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickVersatile": {
+        "value": false,
+        "altValue": false
+      },
+      "quickCharges": {
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      },
+      "critRange": {
+        "value": ""
+      },
+      "critDamage": {
+        "value": ""
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/spells/light-jade-2.jpg",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "description": {
       "value": "<p><span class=\"fontstyle0\">@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HU4lNUAme2XmxfAN]{Weapon Group: Small Arms, One-Handed}&nbsp;</span></p>\n<p><span class=\"fontstyle0\">This pistol-shaped weapon from Mann launches a balloon-like force field, capturing a target by warping its containment matrix around its victim and then compressing the field to restrain the target from moving. If this weapon strikes a target, it is @Compendium[combat-utility-belt.conditionsdnd5e.0mkU8eksNfwd1AZY]{Restrained}: the victim needs to make a DC15 Dexterity or Dexterity</span>&nbsp; <span class=\"fontstyle0\">(Acrobatics) check to escape. Only Large targets or smaller can be targeted. A target can be hit additional times, each time increasing the save DC by +2 (maximum DC25).</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 90px;\"><span class=\"fontstyle0\">Restrainment field </span></td>\n<td style=\"width: 38px;\"><span class=\"fontstyle0\">2,800 </span></td>\n<td style=\"width: 46px;\"><span class=\"fontstyle0\">Special </span></td>\n<td style=\"width: 52px;\"><span class=\"fontstyle0\">50/200 </span></td>\n<td style=\"width: 46px;\"><span class=\"fontstyle0\">5 lb. </span></td>\n<td style=\"width: 112px;\"><span class=\"fontstyle0\">Reload (4-H), TL4</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 4-H} @Compendium[compendiums-mix-dnd5e.um5-equipment.JKcEAJ4xm2Us5hYN]{Battry Cell, High}</p>",
       "chat": "",
@@ -14,7 +68,10 @@
     },
     "source": "UM5 p.76",
     "quantity": 1,
-    "weight": 5,
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
     "price": 2800,
     "attuned": false,
     "equipped": false,
@@ -92,50 +149,7 @@
     },
     "proficient": true
   },
-  "flags": {
-    "betterRolls5e": {
-      "quickSave": {
-        "value": true,
-        "altValue": true
-      },
-      "quickDesc": {
-        "value": true,
-        "altValue": true
-      },
-      "quickAttack": {
-        "value": true,
-        "altValue": true
-      },
-      "quickProperties": {
-        "value": true,
-        "altValue": true
-      },
-      "quickVersatile": {
-        "value": false,
-        "altValue": false
-      },
-      "quickCharges": {
-        "value": true,
-        "altValue": true
-      },
-      "quickOther": {
-        "value": true,
-        "altValue": true,
-        "context": ""
-      },
-      "quickFlavor": {
-        "value": true,
-        "altValue": true
-      },
-      "critRange": {
-        "value": ""
-      },
-      "critDamage": {
-        "value": ""
-      }
-    }
-  },
-  "img": "systems/dnd5e/icons/spells/light-jade-2.jpg",
-  "effects": [],
+  "folder": null,
+  "sort": 0,
   "_key": "!items!fC0IDtqeryQLOxoa"
 }

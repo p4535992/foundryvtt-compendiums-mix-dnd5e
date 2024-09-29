@@ -1,12 +1,601 @@
 {
   "_id": "fvUKMNf3QZj8fDZf",
   "name": "Swarm of Rats",
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
   "type": "npc",
-  "data": {
+  "sort": 100001,
+  "flags": {
+    "journal-links": {
+      "references": {}
+    }
+  },
+  "img": "systems/dnd5e/tokens/beast/SwarmRats.png",
+  "items": [
+    {
+      "_id": "EsvdwAvnKR0SGP6R",
+      "name": "Keen Smell",
+      "type": "feat",
+      "sort": 100000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "EsvdwAvnKR0SGP6R",
+                "name": "Keen Smell",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<p>The swarm has<strong> advantage </strong>on Wisdom (Perception) checks that rely on smell.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": "",
+                    "type": ""
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": "",
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": "",
+                    "value": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell",
+                    "value": ""
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 100000,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/blue_29.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/blue_29.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>The swarm has<strong> advantage </strong>on Wisdom (Perception) checks that rely on smell.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fvUKMNf3QZj8fDZf.EsvdwAvnKR0SGP6R"
+    },
+    {
+      "_id": "ARmqveDkUL48Hupc",
+      "name": "Swarm",
+      "type": "feat",
+      "sort": 200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "ARmqveDkUL48Hupc",
+                "name": "Swarm",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": "",
+                    "type": ""
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": "",
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": "",
+                    "value": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell",
+                    "value": ""
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 200000,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/green_05.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/green_05.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fvUKMNf3QZj8fDZf.ARmqveDkUL48Hupc"
+    },
+    {
+      "_id": "ESv9NuVeZhnEW1ua",
+      "name": "Bites",
+      "type": "weapon",
+      "sort": 300000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "ESv9NuVeZhnEW1ua",
+                "name": "Bites",
+                "type": "weapon",
+                "data": {
+                  "description": {
+                    "value": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+2 to hit,</strong>, <strong>0 ft.,</strong> one target in the swarm's space. Hit: <strong>7 (2d6) <em>piercing damage</em></strong>, or <strong>3 (1d6) <em>piercing damage</em></strong> if the swarm has half of its hit points or fewer.</p></section>\n<p>The Swarm of Rats attacks with a flurry of Bites.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "quantity": 1,
+                  "weight": 0,
+                  "price": null,
+                  "attuned": false,
+                  "equipped": true,
+                  "rarity": "Common",
+                  "identified": true,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "ft"
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": "dex",
+                  "actionType": "mwak",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [
+                      [
+                        "2d6",
+                        "piercing"
+                      ]
+                    ],
+                    "versatile": "1d6"
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "armor": {
+                    "value": 10
+                  },
+                  "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                  },
+                  "weaponType": "natural",
+                  "properties": {
+                    "fin": true,
+                    "amm": false,
+                    "fir": false,
+                    "foc": false,
+                    "hvy": false,
+                    "lgt": false,
+                    "lod": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                  },
+                  "proficient": true,
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 300000,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/red_29.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/red_29.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+2 to hit,</strong>, <strong>0 ft.,</strong> one target in the swarm's space. Hit: <strong>7 (2d6) <em>piercing damage</em></strong>, or <strong>3 (1d6) <em>piercing damage</em></strong> if the swarm has half of its hit points or fewer.</p></section>\n<p>The Swarm of Rats attacks with a flurry of Bites.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d6",
+              "piercing"
+            ]
+          ],
+          "versatile": "1d6"
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "fin": true,
+          "amm": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fvUKMNf3QZj8fDZf.ESv9NuVeZhnEW1ua"
+    }
+  ],
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 9,
@@ -440,37 +1029,14 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {
-    "journal-links": {
-      "references": {}
-    }
-  },
-  "img": "systems/dnd5e/tokens/beast/SwarmRats.png",
-  "token": {
+  "prototypeToken": {
     "flags": {},
     "name": "Swarm of Rats",
     "displayName": 40,
-    "img": "systems/dnd5e/tokens/beast/SwarmRats.png",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 1,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 30,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "fvUKMNf3QZj8fDZf",
     "actorLink": false,
     "disposition": -1,
     "displayBars": 20,
@@ -480,535 +1046,77 @@
     "bar2": {
       "attribute": "attributes.ac.value"
     },
-    "randomImg": false
-  },
-  "items": [
-    {
-      "_id": "EsvdwAvnKR0SGP6R",
-      "name": "Keen Smell",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p>The swarm has<strong> advantage </strong>on Wisdom (Perception) checks that rely on smell.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": "",
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell",
-          "value": ""
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "alpha": 1,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
       },
-      "sort": 100000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "EsvdwAvnKR0SGP6R",
-                "name": "Keen Smell",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "<p>The swarm has<strong> advantage </strong>on Wisdom (Perception) checks that rely on smell.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "",
-                    "cost": 0,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": "",
-                    "type": ""
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": "",
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": "",
-                    "value": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell",
-                    "value": ""
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 100000,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/blue_29.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/blue_29.jpg",
-      "effects": [],
-      "_key": "!actors.items!fvUKMNf3QZj8fDZf.EsvdwAvnKR0SGP6R"
+      "negative": false,
+      "priority": 0,
+      "color": null,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    {
-      "_id": "ARmqveDkUL48Hupc",
-      "name": "Swarm",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": "",
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell",
-          "value": ""
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 200000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "ARmqveDkUL48Hupc",
-                "name": "Swarm",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "",
-                    "cost": 0,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": "",
-                    "type": ""
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": "",
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": "",
-                    "value": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell",
-                    "value": ""
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 200000,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/green_05.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/green_05.jpg",
-      "effects": [],
-      "_key": "!actors.items!fvUKMNf3QZj8fDZf.ARmqveDkUL48Hupc"
+    "texture": {
+      "src": "systems/dnd5e/tokens/beast/SwarmRats.png",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
     },
-    {
-      "_id": "ESv9NuVeZhnEW1ua",
-      "name": "Bites",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+2 to hit,</strong>, <strong>0 ft.,</strong> one target in the swarm's space. Hit: <strong>7 (2d6) <em>piercing damage</em></strong>, or <strong>3 (1d6) <em>piercing damage</em></strong> if the swarm has half of its hit points or fewer.</p></section>\n<p>The Swarm of Rats attacks with a flurry of Bites.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "quantity": 1,
-        "weight": 0,
-        "price": null,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "Common",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "dex",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "2d6",
-              "piercing"
-            ]
-          ],
-          "versatile": "1d6"
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "natural",
-        "properties": {
-          "fin": true,
-          "amm": false,
-          "fir": false,
-          "foc": false,
-          "hvy": false,
-          "lgt": false,
-          "lod": false,
-          "rch": false,
-          "rel": false,
-          "ret": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 30,
+      "brightness": 0,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "alpha": 1,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
       },
-      "sort": 300000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "ESv9NuVeZhnEW1ua",
-                "name": "Bites",
-                "type": "weapon",
-                "data": {
-                  "description": {
-                    "value": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+2 to hit,</strong>, <strong>0 ft.,</strong> one target in the swarm's space. Hit: <strong>7 (2d6) <em>piercing damage</em></strong>, or <strong>3 (1d6) <em>piercing damage</em></strong> if the swarm has half of its hit points or fewer.</p></section>\n<p>The Swarm of Rats attacks with a flurry of Bites.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "quantity": 1,
-                  "weight": 0,
-                  "price": null,
-                  "attuned": false,
-                  "equipped": true,
-                  "rarity": "Common",
-                  "identified": true,
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": "ft"
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": ""
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": "dex",
-                  "actionType": "mwak",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [
-                      [
-                        "2d6",
-                        "piercing"
-                      ]
-                    ],
-                    "versatile": "1d6"
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "armor": {
-                    "value": 10
-                  },
-                  "hp": {
-                    "value": 0,
-                    "max": 0,
-                    "dt": null,
-                    "conditions": ""
-                  },
-                  "weaponType": "natural",
-                  "properties": {
-                    "fin": true,
-                    "amm": false,
-                    "fir": false,
-                    "foc": false,
-                    "hvy": false,
-                    "lgt": false,
-                    "lod": false,
-                    "rch": false,
-                    "rel": false,
-                    "ret": false,
-                    "spc": false,
-                    "thr": false,
-                    "two": false,
-                    "ver": false
-                  },
-                  "proficient": true,
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 300000,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/red_29.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/red_29.jpg",
-      "effects": [],
-      "_key": "!actors.items!fvUKMNf3QZj8fDZf.ESv9NuVeZhnEW1ua"
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     }
-  ],
-  "effects": [],
+  },
+  "folder": null,
   "_key": "!actors!fvUKMNf3QZj8fDZf"
 }

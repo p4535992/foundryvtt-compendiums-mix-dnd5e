@@ -1,12 +1,777 @@
 {
   "_id": "ED3KuPR5dgrC8QRx",
   "name": "Utility Exoskeleton",
-  "permission": {
-    "default": 0,
-    "qtb8j5Fh7Hu0wRrz": 3
-  },
   "type": "npc",
-  "data": {
+  "sort": 100001,
+  "flags": {},
+  "img": "modules/compendiums-mix-dnd5e/assets/um5/Mechs/sci-fi_combat-droid_16.webp",
+  "items": [
+    {
+      "_id": "gEinoBQxcMfVGLmp",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": {
+              "0": true
+            },
+            "altValue": {
+              "0": true
+            },
+            "context": {
+              "0": ""
+            }
+          },
+          "quickVersatile": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Gauntlets",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/skills/ice_10.jpg",
+      "sort": 500001,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-rules.T77zvGdp7mn1uopU]{Exo-Armor Rules &amp; Descriptions}</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Gauntlets</strong>: Unarmed attacks with the armor do base 1d8 damage. If you already inflict 1d8 or more damage with unarmed attacks, increase the damage dice by one step (1d10 &gt; 1d12 &gt; 2d6 &gt; 2d8 &gt; 2d10). The gauntlets also have a +1 enhancement bonus to attack and damage rolls.<br style=\"box-sizing: border-box; user-select: text;\"></span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">&nbsp;</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">&nbsp;</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">&nbsp;</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.89",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 0,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 1,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8 + 1 + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ED3KuPR5dgrC8QRx.gEinoBQxcMfVGLmp"
+    },
+    {
+      "_id": "umHxn3R0kyMkbIog",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Disruption Recovery",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/spells/air-burst-sky-2.jpg",
+      "sort": 700001,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Disruption Recovery</strong><span style=\"color: #191813; font-size: 13px;\">: As a reaction to shutdown, the Mech comes back online. Once you use this feature , you cannot use it again until you finish a long rest.&nbsp;</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.89",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "lr"
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ED3KuPR5dgrC8QRx.umHxn3R0kyMkbIog"
+    },
+    {
+      "_id": "REEcnSB84qefh7yF",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Battry Cell, High",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/items/inventory/chest-stone.jpg",
+      "sort": 200000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">High (H): These cells are large, powerful, and usually reserved for huge weapons and massive energy equipment. They cost $40 each. One cell weighs 2 lbs.</span> <br style=\"font-variant-numeric: normal; font-variant-east-asian: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;\" /><br /></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.73",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": 40,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "autoDestroy": false
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "ammo"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ED3KuPR5dgrC8QRx.REEcnSB84qefh7yF"
+    },
+    {
+      "_id": "Rwj9QVndoPgaG1Bo",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Resistances",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/spells/protect-royal-1.jpg",
+      "sort": 1900001,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Resistances</strong>: You have resistance to bludgeoning</span>&nbsp;&nbsp;<span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">from nonmagical weapons.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ED3KuPR5dgrC8QRx.Rwj9QVndoPgaG1Bo"
+    },
+    {
+      "_id": "NWHqEn7LA4DJYcQ1",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Damage Threshold of 2",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/spells/protect-jade-3.jpg",
+      "sort": 1000001,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">@Compendium[compendiums-mix-dnd5e.um5-rules.T77zvGdp7mn1uopU]{Exo-Armor Rules &amp; Descriptions}</span></p>\n<p><span class=\"fontstyle0\"><strong>@Compendium[compendiums-mix-dnd5e.um5-rules.br89VG05tCUMDv4m]{Hit Points &amp; Threshold}:&nbsp;</strong></span><span style=\"color: #191813; font-size: 13px;\">The utility exoskeleton has 15 hit points and a threshold of 2.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.89",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ED3KuPR5dgrC8QRx.NWHqEn7LA4DJYcQ1"
+    }
+  ],
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": "10",
@@ -403,10 +1168,7 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {},
-  "img": "modules/compendiums-mix-dnd5e/assets/um5/Mechs/sci-fi_combat-droid_16.webp",
-  "token": {
+  "prototypeToken": {
     "flags": {
       "token-auras": {
         "aura1": {
@@ -425,713 +1187,90 @@
     },
     "name": "Utility Exoskeleton",
     "displayName": 0,
-    "img": "modules/compendiums-mix-dnd5e/assets/um5/Mechs/sci-fi_combat-droid_16.webp",
-    "tint": "",
     "width": 1,
     "height": 1,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightColor": "",
-    "lightAlpha": 1,
-    "actorId": "ED3KuPR5dgrC8QRx",
     "actorLink": false,
-    "actorData": {},
     "disposition": -1,
     "displayBars": 0,
     "bar1": {
-      "attribute": ""
+      "attribute": "attributes.hp"
     },
     "bar2": {
-      "attribute": ""
+      "attribute": null
     },
-    "randomImg": false
-  },
-  "items": [
-    {
-      "_id": "gEinoBQxcMfVGLmp",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": {
-              "0": true
-            },
-            "altValue": {
-              "0": true
-            },
-            "context": {
-              "0": ""
-            }
-          },
-          "quickVersatile": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 1,
+      "negative": false,
+      "priority": 0,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
       },
-      "name": "Gauntlets",
-      "type": "weapon",
-      "img": "systems/dnd5e/icons/skills/ice_10.jpg",
-      "data": {
-        "description": {
-          "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-rules.T77zvGdp7mn1uopU]{Exo-Armor Rules &amp; Descriptions}</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Gauntlets</strong>: Unarmed attacks with the armor do base 1d8 damage. If you already inflict 1d8 or more damage with unarmed attacks, increase the damage dice by one step (1d10 &gt; 1d12 &gt; 2d6 &gt; 2d8 &gt; 2d10). The gauntlets also have a +1 enhancement bonus to attack and damage rolls.<br style=\"box-sizing: border-box; user-select: text;\"></span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">&nbsp;</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">&nbsp;</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">&nbsp;</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5 p.89",
-        "quantity": 1,
-        "weight": 0,
-        "price": 0,
-        "attuned": false,
-        "equipped": true,
-        "rarity": "",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 10,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "str",
-        "actionType": "mwak",
-        "attackBonus": 1,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d8 + 1 + @mod",
-              "bludgeoning"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "simpleM",
-        "properties": {
-          "amm": false,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "hvy": false,
-          "lgt": false,
-          "lod": false,
-          "rch": false,
-          "rel": false,
-          "ret": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": true
-      },
-      "sort": 500001,
-      "effects": [],
-      "_key": "!actors.items!ED3KuPR5dgrC8QRx.gEinoBQxcMfVGLmp"
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    {
-      "_id": "umHxn3R0kyMkbIog",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [],
-            "altValue": [],
-            "context": []
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
-      },
-      "name": "Disruption Recovery",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/spells/air-burst-sky-2.jpg",
-      "data": {
-        "description": {
-          "value": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Disruption Recovery</strong><span style=\"color: #191813; font-size: 13px;\">: As a reaction to shutdown, the Mech comes back online. Once you use this feature , you cannot use it again until you finish a long rest.&nbsp;</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5 p.89",
-        "activation": {
-          "type": "reaction",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 1,
-          "max": 1,
-          "per": "lr"
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 700001,
-      "effects": [],
-      "_key": "!actors.items!ED3KuPR5dgrC8QRx.umHxn3R0kyMkbIog"
+    "texture": {
+      "src": "modules/compendiums-mix-dnd5e/assets/um5/Mechs/sci-fi_combat-droid_16.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
     },
-    {
-      "_id": "REEcnSB84qefh7yF",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [],
-            "altValue": [],
-            "context": []
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
-      },
-      "name": "Battry Cell, High",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/items/inventory/chest-stone.jpg",
-      "data": {
-        "description": {
-          "value": "<p><span class=\"fontstyle0\">High (H): These cells are large, powerful, and usually reserved for huge weapons and massive energy equipment. They cost $40 each. One cell weighs 2 lbs.</span> <br style=\"font-variant-numeric: normal; font-variant-east-asian: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;\" /><br /></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5 p.73",
-        "quantity": 1,
-        "weight": 2,
-        "price": 40,
-        "attuned": false,
-        "equipped": false,
-        "rarity": "",
-        "identified": true,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null,
-          "autoDestroy": false
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "consumableType": "ammo"
-      },
-      "sort": 200000,
-      "effects": [],
-      "_key": "!actors.items!ED3KuPR5dgrC8QRx.REEcnSB84qefh7yF"
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
     },
-    {
-      "_id": "Rwj9QVndoPgaG1Bo",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [],
-            "altValue": [],
-            "context": []
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
-      },
-      "name": "Resistances",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/spells/protect-royal-1.jpg",
-      "data": {
-        "description": {
-          "value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Resistances</strong>: You have resistance to bludgeoning</span>&nbsp;&nbsp;<span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">from nonmagical weapons.</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 1900001,
-      "effects": [],
-      "_key": "!actors.items!ED3KuPR5dgrC8QRx.Rwj9QVndoPgaG1Bo"
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "alpha": 1,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
     },
-    {
-      "_id": "NWHqEn7LA4DJYcQ1",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [],
-            "altValue": [],
-            "context": []
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
       },
-      "name": "Damage Threshold of 2",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/spells/protect-jade-3.jpg",
-      "data": {
-        "description": {
-          "value": "<p><span class=\"fontstyle0\">@Compendium[compendiums-mix-dnd5e.um5-rules.T77zvGdp7mn1uopU]{Exo-Armor Rules &amp; Descriptions}</span></p>\n<p><span class=\"fontstyle0\"><strong>@Compendium[compendiums-mix-dnd5e.um5-rules.br89VG05tCUMDv4m]{Hit Points &amp; Threshold}:&nbsp;</strong></span><span style=\"color: #191813; font-size: 13px;\">The utility exoskeleton has 15 hit points and a threshold of 2.</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5 p.89",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 1000001,
-      "effects": [],
-      "_key": "!actors.items!ED3KuPR5dgrC8QRx.NWHqEn7LA4DJYcQ1"
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     }
-  ],
-  "effects": [],
+  },
+  "folder": null,
   "_key": "!actors!ED3KuPR5dgrC8QRx"
 }

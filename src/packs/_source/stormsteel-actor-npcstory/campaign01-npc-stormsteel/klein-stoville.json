@@ -172,10 +172,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!FwH19cZLjzikyeEN.9H9uwwQpYeQvLMNM"
     },
@@ -289,7 +291,10 @@
           "custom": "KINGARMY"
         },
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
         "price": {
           "value": 0,
           "denomination": "gp"
@@ -388,10 +393,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!FwH19cZLjzikyeEN.KwuQ4MNL75igGLiV"
     },
@@ -573,10 +580,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!FwH19cZLjzikyeEN.SCGjAaLdJsI4h5hG"
     },
@@ -748,10 +757,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!FwH19cZLjzikyeEN.9T3ZcZBLDqimPqbh"
     },
@@ -936,10 +947,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!FwH19cZLjzikyeEN.v7cdoKaotBGXqKFF"
     },
@@ -1060,7 +1073,10 @@
           "custom": "PHB"
         },
         "quantity": 1,
-        "weight": 65,
+        "weight": {
+          "value": 65,
+          "units": "lb"
+        },
         "price": {
           "value": 0,
           "denomination": "gp"
@@ -1162,10 +1178,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!FwH19cZLjzikyeEN.2ijyosn9tlu1h9cD"
     },
@@ -1372,10 +1390,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!FwH19cZLjzikyeEN.m9Fh3fnvSWRqSNsE"
     },
@@ -1582,10 +1602,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!FwH19cZLjzikyeEN.0w6UyRqmx1MNYM4O"
     },
@@ -1792,10 +1814,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!FwH19cZLjzikyeEN.13s89vwlC2TRySCW"
     }
@@ -2400,16 +2424,22 @@
         "max": 1
       },
       "color": null,
-      "attenuation": 0.5
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
     },
     "texture": {
       "src": "moulinette/images/img/npccampaign01/Klein_Stoville.Token.png",
-      "tint": null,
+      "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "sight": {
       "angle": 360,
@@ -2424,15 +2454,33 @@
     },
     "detectionModes": [],
     "appendNumber": false,
-    "prependAdjective": false
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "_stats": {
     "systemId": "dnd5e",
     "systemVersion": "3.1.1",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1711899702645,
     "modifiedTime": 1711899702645,
-    "lastModifiedBy": "packsbuilder0000"
+    "lastModifiedBy": "packsbuilder0000",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!actors!FwH19cZLjzikyeEN"
 }

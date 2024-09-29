@@ -159,10 +159,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!x3DwenNYvxtVT3LA.tE0TQq9QALNTnNIg"
     },
@@ -272,7 +274,10 @@
           "custom": "p4535992Humanoid"
         },
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
         "price": {
           "value": 0,
           "denomination": "gp"
@@ -373,10 +378,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!x3DwenNYvxtVT3LA.lVgwkjwZ56Ae2m1N"
     },
@@ -470,7 +477,10 @@
           "custom": "p4535992Humanoid"
         },
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
         "price": {
           "value": 0,
           "denomination": "gp"
@@ -569,10 +579,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!x3DwenNYvxtVT3LA.v2W0tazHtKfcObZc"
     },
@@ -666,7 +678,10 @@
           "custom": "p4535992Humanoid"
         },
         "quantity": 1,
-        "weight": 2,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
         "price": {
           "value": 0.5,
           "denomination": "gp"
@@ -767,10 +782,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!x3DwenNYvxtVT3LA.kbOiTPWUGHOKQbEp"
     },
@@ -883,7 +900,10 @@
           "custom": "p4535992Humanoid"
         },
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
         "price": {
           "value": 0,
           "denomination": "gp"
@@ -982,10 +1002,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!x3DwenNYvxtVT3LA.yb11Va0rYcsFaa3c"
     },
@@ -1157,10 +1179,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!x3DwenNYvxtVT3LA.jq4Qihqz3wjHvy2e"
     },
@@ -1332,10 +1356,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!x3DwenNYvxtVT3LA.LR5IScrbn3SEX0gz"
     },
@@ -1512,10 +1538,12 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": null,
+        "coreVersion": "12.331",
         "createdTime": null,
         "modifiedTime": null,
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
       "_key": "!actors.items!x3DwenNYvxtVT3LA.tiF9tLYKt2DL8dk4"
     }
@@ -2122,16 +2150,22 @@
         "max": 1
       },
       "color": null,
-      "attenuation": 0.5
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
     },
     "texture": {
       "src": "https://i.imgur.com/bhjQbXx.png",
-      "tint": null,
+      "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
       "offsetY": 0,
-      "rotation": 0
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
     },
     "sight": {
       "angle": 360,
@@ -2146,15 +2180,33 @@
     },
     "detectionModes": [],
     "appendNumber": false,
-    "prependAdjective": false
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
   "_stats": {
     "systemId": "dnd5e",
     "systemVersion": "3.1.1",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1711899702645,
     "modifiedTime": 1711899702645,
-    "lastModifiedBy": "packsbuilder0000"
+    "lastModifiedBy": "packsbuilder0000",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_key": "!actors!x3DwenNYvxtVT3LA"
 }

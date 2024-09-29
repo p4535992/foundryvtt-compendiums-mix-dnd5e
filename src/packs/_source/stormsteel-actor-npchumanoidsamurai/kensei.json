@@ -2,7 +2,1432 @@
   "name": "Kensei",
   "type": "npc",
   "img": "",
-  "data": {
+  "items": [
+    {
+      "_id": "wbrmvyoS4rZwwhh8",
+      "name": "Multiattack",
+      "type": "feat",
+      "sort": 1103,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Kensei makes two nodachi attacks. They may replace one or more of these attacks with a grapple or shove.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wJEN6EwhO1HEiseS.wbrmvyoS4rZwwhh8"
+    },
+    {
+      "_id": "KVyJOnKsAHcYdSQs",
+      "name": "Nodachi",
+      "type": "weapon",
+      "sort": 1002,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+6]] (+6) to hit, reach 5 ft., one target. <i>Hit:</i> 10 ([[/r 3d4 + 3]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "3d4  + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wJEN6EwhO1HEiseS.KVyJOnKsAHcYdSQs"
+    },
+    {
+      "_id": "IBGLTOjduj3ghTWM",
+      "name": "Pommel Strike",
+      "type": "weapon",
+      "sort": 1003,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+6]] (+6) to hit, reach 5 ft., one target. <i>Hit:</i> 5 ([[/r 1d4 + 3]]) bludgeoning damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4  + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wJEN6EwhO1HEiseS.IBGLTOjduj3ghTWM"
+    },
+    {
+      "_id": "aHsZgx4uDZFCVhI4",
+      "name": "Longbow",
+      "type": "weapon",
+      "sort": 1001,
+      "flags": {},
+      "img": "/systems/dnd5e/icons/items/weapons/bow-long.jpg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Ranged Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, range 150/600 ft., one target. <i>Hit:</i> 6 ([[/r 1d8 + 2]]) piercing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 150,
+          "long": 600,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d8  + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialR",
+        "properties": {
+          "amm": true,
+          "hvy": true,
+          "two": true
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wJEN6EwhO1HEiseS.aHsZgx4uDZFCVhI4"
+    },
+    {
+      "_id": "dMXFuKb8svqMYzMB",
+      "name": "Inspire",
+      "type": "feat",
+      "sort": 1102,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>All allied creatures within 15 feet of the Kensei gain a bonus to their attack and damage rolls equal to the Kensei's Charisma modifier until the end of the Kensei's next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 6,
+          "charged": true
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wJEN6EwhO1HEiseS.dMXFuKb8svqMYzMB"
+    },
+    {
+      "_id": "J2PzrG2cMzW2wWqt",
+      "name": "Smoke Bomb",
+      "type": "feat",
+      "sort": 1106,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Kensei throws a smoke bomb at the floor, it emits a cloud of smoke that creates a heavily obscured area in a 10-foot radius. A moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in 1 round.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 6,
+          "charged": true
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wJEN6EwhO1HEiseS.J2PzrG2cMzW2wWqt"
+    },
+    {
+      "_id": "MK7Zbwfh6ZeaAUij",
+      "name": "Brave Devotion",
+      "type": "feat",
+      "sort": 101,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Kensei has advantage on saving throws against being <a href=\"https://5e.tools/conditionsdiseases.html#charmed_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'charmed_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >charmed</a> and <a href=\"https://5e.tools/conditionsdiseases.html#frightened_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'frightened_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >frightened</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wJEN6EwhO1HEiseS.MK7Zbwfh6ZeaAUij"
+    },
+    {
+      "_id": "KZbdjFQRkgDkDpof",
+      "name": "Second Wind",
+      "type": "feat",
+      "sort": 1105,
+      "flags": {},
+      "img": "/systems/dnd5e/icons/skills/blood_04.jpg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Kensei can use its bonus action to regain 7 ([[/r 1d8 + 3]]) hit points. They regain the use of this ability after finishing a short or long rest.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wJEN6EwhO1HEiseS.KZbdjFQRkgDkDpof"
+    },
+    {
+      "_id": "rkVvK43Hi7YYgSSB",
+      "name": "Swift Strike",
+      "type": "feat",
+      "sort": 103,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Kensei may make a single melee attack with its nodachi as part of taking the Dodge action.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wJEN6EwhO1HEiseS.rkVvK43Hi7YYgSSB"
+    },
+    {
+      "_id": "UrT1QEbX6LfT3cx6",
+      "name": "Dawn of the Steel Sun",
+      "type": "feat",
+      "sort": 1101,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>If the Kensei hits with a nodachi attack on their turn, they may make one additional attack with advantage using their nodachi as a bonus action. On a hit, it deals an extra 5 ([[/r 2d4]]) damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wJEN6EwhO1HEiseS.UrT1QEbX6LfT3cx6"
+    },
+    {
+      "_id": "uZEFA4MIeQInhxCy",
+      "name": "Helm Splitter",
+      "type": "feat",
+      "sort": 102,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Once per turn, the Kensei may make an attack with their pommel strike instead of their nodachi. On a hit, the creature is <a href=\"https://5e.tools/conditionsdiseases.html#incapacitated_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'incapacitated_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >incapacitated</a> until the start of their next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wJEN6EwhO1HEiseS.uZEFA4MIeQInhxCy"
+    },
+    {
+      "_id": "agVR6IoLQT5CWkVN",
+      "name": "Parry",
+      "type": "feat",
+      "sort": 1104,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Kensei adds 3 to their AC against one melee attack that would hit them as a reaction. To do so, the Kensei must see the attacker and be wielding a melee weapon.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wJEN6EwhO1HEiseS.agVR6IoLQT5CWkVN"
+    },
+    {
+      "_id": "p3WZYX8ycvTpNdgG",
+      "name": "Wooden Curiass",
+      "type": "equipment",
+      "sort": 2001,
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "FFHonourableHeroes",
+          "hash": "wooden%20curiass_ffhonourableheroes"
+        },
+        "dae": {
+          "activeEquipped": true
+        }
+      },
+      "img": "modules/plutonium/media/icon/scale-mail.svg",
+      "effects": [
+        {
+          "_id": "eBbOAwfSgf5Uk4OZ",
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "armorEffect": true
+            }
+          },
+          "changes": [
+            {
+              "key": "system.attributes.ac.value",
+              "value": "@abilities.dex.mod > 2 ? 2 + 14: @abilities.dex.mod + 14",
+              "mode": 5,
+              "priority": 4
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 1621182382334,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": "Actor.v1IJLz980fdXTp1P.Item.undefined",
+          "transfer": true,
+          "_stats": {
+            "coreVersion": "12.331",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null
+          },
+          "name": "AC=14+dex.mod",
+          "img": "modules/plutonium/media/icon/scale-mail.svg",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "_key": "!actors.items.effects!wJEN6EwhO1HEiseS.p3WZYX8ycvTpNdgG.eBbOAwfSgf5Uk4OZ"
+        }
+      ],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Medium armor</i></div>\n\t\t\t<div class=\"flex w-100\">\n\t\t\t\t<div class=\"col-4\">100 gp, 30 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 14 + Dex (max 2)  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>This armor consists of a fitted wooden chest piece worn with supple leather along with a helmet, pauldrons, gauntlets and greaves; with some variations featuring slats of wood used for reinforcement. Although it leaves the joints relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered thanks to the lightweight material.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 7, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ForHonor",
+        "quantity": 1,
+        "weight": {
+          "value": 30,
+          "units": "lb"
+        },
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "None",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 14,
+          "type": "medium",
+          "dex": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": true,
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wJEN6EwhO1HEiseS.p3WZYX8ycvTpNdgG"
+    }
+  ],
+  "effects": [
+    {
+      "_id": "KsqwOiq0wlrXX0l4",
+      "flags": {
+        "dae": {
+          "transfer": true,
+          "armorEffect": true
+        }
+      },
+      "changes": [
+        {
+          "key": "system.attributes.ac.value",
+          "value": "@abilities.dex.mod > 2 ? 2 + 14: @abilities.dex.mod + 14",
+          "mode": 5,
+          "priority": 4
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 47210169678,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": "Actor.v1IJLz980fdXTp1P.Item.p3WZYX8ycvTpNdgG",
+      "transfer": true,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "AC=14+dex.mod",
+      "img": "modules/plutonium/media/icon/scale-mail.svg",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!wJEN6EwhO1HEiseS.KsqwOiq0wlrXX0l4"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "downtime-ethck": {
+      "trainingItems": [],
+      "changes": []
+    },
+    "ATL": {
+      "originals": {}
+    }
+  },
+  "_id": "wJEN6EwhO1HEiseS",
+  "prototypeToken": {
+    "texture": {
+      "src": "",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "name": "Kensei",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 16,
@@ -363,1191 +1788,6 @@
         "value": false,
         "initiative": 20
       }
-    }
-  },
-  "token": {
-    "flags": {},
-    "name": "Kensei",
-    "displayName": 20,
-    "img": "icons/svg/mystery-man.svg",
-    "tint": null,
-    "width": 1,
-    "height": 1,
-    "scale": 1,
-    "lockRotation": false,
-    "rotation": 0,
-    "vision": true,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "v1IJLz980fdXTp1P",
-    "actorLink": false,
-    "disposition": -1,
-    "displayBars": 40,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "randomImg": false,
-    "mirrorX": false,
-    "mirrorY": false,
-    "alpha": 1
-  },
-  "items": [
-    {
-      "_id": "wbrmvyoS4rZwwhh8",
-      "name": "Multiattack",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Kensei makes two nodachi attacks. They may replace one or more of these attacks with a grapple or shove.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1103,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wJEN6EwhO1HEiseS.wbrmvyoS4rZwwhh8"
-    },
-    {
-      "_id": "KVyJOnKsAHcYdSQs",
-      "name": "Nodachi",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+6]] (+6) to hit, reach 5 ft., one target. <i>Hit:</i> 10 ([[/r 3d4 + 3]]) slashing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "quantity": 1,
-        "weight": 0,
-        "price": null,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": false,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "str",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "3d4  + @mod",
-              "slashing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "natural",
-        "properties": {},
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1002,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wJEN6EwhO1HEiseS.KVyJOnKsAHcYdSQs"
-    },
-    {
-      "_id": "IBGLTOjduj3ghTWM",
-      "name": "Pommel Strike",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+6]] (+6) to hit, reach 5 ft., one target. <i>Hit:</i> 5 ([[/r 1d4 + 3]]) bludgeoning damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "quantity": 1,
-        "weight": 0,
-        "price": null,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": false,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "str",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d4  + @mod",
-              "bludgeoning"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "natural",
-        "properties": {},
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1003,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wJEN6EwhO1HEiseS.IBGLTOjduj3ghTWM"
-    },
-    {
-      "_id": "aHsZgx4uDZFCVhI4",
-      "name": "Longbow",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Ranged Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, range 150/600 ft., one target. <i>Hit:</i> 6 ([[/r 1d8 + 2]]) piercing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "quantity": 1,
-        "weight": 2,
-        "price": null,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "None",
-        "identified": false,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 150,
-          "long": 600,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "dex",
-        "actionType": "rwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d8  + @mod",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "martialR",
-        "properties": {
-          "amm": true,
-          "hvy": true,
-          "two": true
-        },
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1001,
-      "flags": {},
-      "img": "/systems/dnd5e/icons/items/weapons/bow-long.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wJEN6EwhO1HEiseS.aHsZgx4uDZFCVhI4"
-    },
-    {
-      "_id": "dMXFuKb8svqMYzMB",
-      "name": "Inspire",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>All allied creatures within 15 feet of the Kensei gain a bonus to their attack and damage rolls equal to the Kensei's Charisma modifier until the end of the Kensei's next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": 6,
-          "charged": true
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1102,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wJEN6EwhO1HEiseS.dMXFuKb8svqMYzMB"
-    },
-    {
-      "_id": "J2PzrG2cMzW2wWqt",
-      "name": "Smoke Bomb",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Kensei throws a smoke bomb at the floor, it emits a cloud of smoke that creates a heavily obscured area in a 10-foot radius. A moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in 1 round.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": 6,
-          "charged": true
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1106,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wJEN6EwhO1HEiseS.J2PzrG2cMzW2wWqt"
-    },
-    {
-      "_id": "MK7Zbwfh6ZeaAUij",
-      "name": "Brave Devotion",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Kensei has advantage on saving throws against being <a href=\"https://5e.tools/conditionsdiseases.html#charmed_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'charmed_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >charmed</a> and <a href=\"https://5e.tools/conditionsdiseases.html#frightened_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'frightened_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >frightened</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 101,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wJEN6EwhO1HEiseS.MK7Zbwfh6ZeaAUij"
-    },
-    {
-      "_id": "KZbdjFQRkgDkDpof",
-      "name": "Second Wind",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Kensei can use its bonus action to regain 7 ([[/r 1d8 + 3]]) hit points. They regain the use of this ability after finishing a short or long rest.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "bonus",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1105,
-      "flags": {},
-      "img": "/systems/dnd5e/icons/skills/blood_04.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wJEN6EwhO1HEiseS.KZbdjFQRkgDkDpof"
-    },
-    {
-      "_id": "rkVvK43Hi7YYgSSB",
-      "name": "Swift Strike",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Kensei may make a single melee attack with its nodachi as part of taking the Dodge action.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 103,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wJEN6EwhO1HEiseS.rkVvK43Hi7YYgSSB"
-    },
-    {
-      "_id": "UrT1QEbX6LfT3cx6",
-      "name": "Dawn of the Steel Sun",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>If the Kensei hits with a nodachi attack on their turn, they may make one additional attack with advantage using their nodachi as a bonus action. On a hit, it deals an extra 5 ([[/r 2d4]]) damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "bonus",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1101,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wJEN6EwhO1HEiseS.UrT1QEbX6LfT3cx6"
-    },
-    {
-      "_id": "uZEFA4MIeQInhxCy",
-      "name": "Helm Splitter",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>Once per turn, the Kensei may make an attack with their pommel strike instead of their nodachi. On a hit, the creature is <a href=\"https://5e.tools/conditionsdiseases.html#incapacitated_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'incapacitated_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >incapacitated</a> until the start of their next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 102,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wJEN6EwhO1HEiseS.uZEFA4MIeQInhxCy"
-    },
-    {
-      "_id": "agVR6IoLQT5CWkVN",
-      "name": "Parry",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The Kensei adds 3 to their AC against one melee attack that would hit them as a reaction. To do so, the Kensei must see the attacker and be wielding a melee weapon.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "activation": {
-          "type": "reaction",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1104,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wJEN6EwhO1HEiseS.agVR6IoLQT5CWkVN"
-    },
-    {
-      "_id": "p3WZYX8ycvTpNdgG",
-      "name": "Wooden Curiass",
-      "type": "equipment",
-      "data": {
-        "description": {
-          "value": "<div>\n\t\t\t<div><i>Medium armor</i></div>\n\t\t\t<div class=\"flex w-100\">\n\t\t\t\t<div class=\"col-4\">100 gp, 30 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 14 + Dex (max 2)  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>This armor consists of a fitted wooden chest piece worn with supple leather along with a helmet, pauldrons, gauntlets and greaves; with some variations featuring slats of wood used for reinforcement. Although it leaves the joints relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered thanks to the lightweight material.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 7, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ForHonor",
-        "quantity": 1,
-        "weight": 30,
-        "price": null,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "None",
-        "identified": false,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 14,
-          "type": "medium",
-          "dex": 2
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "speed": {
-          "value": null,
-          "conditions": ""
-        },
-        "strength": null,
-        "stealth": true,
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 2001,
-      "flags": {
-        "plutonium": {
-          "page": "items.html",
-          "source": "FFHonourableHeroes",
-          "hash": "wooden%20curiass_ffhonourableheroes"
-        },
-        "dae": {
-          "activeEquipped": true
-        }
-      },
-      "img": "modules/plutonium/media/icon/scale-mail.svg",
-      "effects": [
-        {
-          "_id": "eBbOAwfSgf5Uk4OZ",
-          "flags": {
-            "dae": {
-              "transfer": true,
-              "armorEffect": true
-            }
-          },
-          "changes": [
-            {
-              "key": "data.attributes.ac.value",
-              "value": "@abilities.dex.mod > 2 ? 2 + 14: @abilities.dex.mod + 14",
-              "mode": 5,
-              "priority": 4
-            }
-          ],
-          "disabled": false,
-          "duration": {
-            "startTime": 1621182382334
-          },
-          "icon": "modules/plutonium/media/icon/scale-mail.svg",
-          "label": "AC=14+dex.mod",
-          "origin": "Actor.v1IJLz980fdXTp1P.OwnedItem.undefined",
-          "transfer": true,
-          "_key": "!actors.items.effects!wJEN6EwhO1HEiseS.p3WZYX8ycvTpNdgG.eBbOAwfSgf5Uk4OZ"
-        }
-      ],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wJEN6EwhO1HEiseS.p3WZYX8ycvTpNdgG"
-    }
-  ],
-  "effects": [
-    {
-      "_id": "KsqwOiq0wlrXX0l4",
-      "flags": {
-        "dae": {
-          "transfer": true,
-          "armorEffect": true
-        }
-      },
-      "changes": [
-        {
-          "key": "data.attributes.ac.value",
-          "value": "@abilities.dex.mod > 2 ? 2 + 14: @abilities.dex.mod + 14",
-          "mode": 5,
-          "priority": 4
-        }
-      ],
-      "disabled": false,
-      "duration": {
-        "startTime": 47210169678
-      },
-      "icon": "modules/plutonium/media/icon/scale-mail.svg",
-      "label": "AC=14+dex.mod",
-      "origin": "Actor.v1IJLz980fdXTp1P.Item.p3WZYX8ycvTpNdgG",
-      "transfer": true,
-      "_key": "!actors.effects!wJEN6EwhO1HEiseS.KsqwOiq0wlrXX0l4"
-    }
-  ],
-  "folder": null,
-  "sort": 0,
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
-  "flags": {
-    "downtime-ethck": {
-      "trainingItems": [],
-      "changes": []
-    },
-    "ATL": {
-      "originals": {}
-    }
-  },
-  "_id": "wJEN6EwhO1HEiseS",
-  "prototypeToken": {
-    "texture": {
-      "src": ""
     }
   },
   "_key": "!actors!wJEN6EwhO1HEiseS"

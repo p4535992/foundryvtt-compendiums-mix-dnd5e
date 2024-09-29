@@ -2,7 +2,567 @@
   "name": "Flail Snail",
   "type": "npc",
   "img": "https://5e.tools/img/bestiary%2FVGM%2FFlail%20Snail.jpg",
-  "data": {
+  "items": [
+    {
+      "_id": "gbjq57Hrl5pCDtvr",
+      "name": "Multiattack",
+      "type": "feat",
+      "sort": 100000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The flail snail makes as many flail tentacle attacks as it has flail tentacles, all against the same target.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "VGM",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!9pYLqzXhiI4IyeMO.gbjq57Hrl5pCDtvr"
+    },
+    {
+      "_id": "SaE7TfovBthWajyw",
+      "name": "Flail Tentacle",
+      "type": "weapon",
+      "sort": 200000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/sword-brandish.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 10 ft., one target. <i>Hit:</i> 6 ([[/r 1d6 + 3]]) bludgeoning damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "VGM",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": null,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6  + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!9pYLqzXhiI4IyeMO.SaE7TfovBthWajyw"
+    },
+    {
+      "_id": "W1pHRUeWZeSYXbJF",
+      "name": "Scintillating Shell (Recharges after a Short or Long Rest)",
+      "type": "feat",
+      "sort": 300000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The snail's shell emits dazzling, colored light until the end of the snail's next turn. During this time, the shell sheds bright light in a 30-foot radius and dim light for an additional 30 feet, and creatures that can see the snail have disadvantage on attack rolls against it. In addition, any creature within the bright light and able to see the snail when this power is activated must succeed on a DC <span class=\"rd__dc\">15</span> Wisdom saving throw or be <a href=\"https://5e.tools/conditionsdiseases.html#stunned_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'stunned_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >stunned</a> until the light ends.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "VGM",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 15,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!9pYLqzXhiI4IyeMO.W1pHRUeWZeSYXbJF"
+    },
+    {
+      "_id": "ilJsST39j54HPycE",
+      "name": "Shell Defense",
+      "type": "feat",
+      "sort": 400000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The flail snail withdraws into its shell, gaining a +4 bonus to AC until it emerges. It can emerge from its shell as a bonus action on its turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "VGM",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!9pYLqzXhiI4IyeMO.ilJsST39j54HPycE"
+    },
+    {
+      "_id": "E39sb6Wsc88tj70S",
+      "name": "Antimagic Shell",
+      "type": "feat",
+      "sort": 500000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The snail has advantage on saving throws against spells, and any creature making a spell attack against the snail has disadvantage on the attack roll. If the snail succeeds on its saving throw against a spell or a spell attack misses it, an additional effect might occur, as determined by rolling a [[/r d6]]:</p><div class=\"rd__spc-inline-post\"></div><p>1–2: If the spell affects an area or has multiple targets, it fails and has no effect. If the spell targets only the snail, it has no effect on the snail and is reflected back at the caster, using the spell slot level, spell save DC, attack bonus, and spellcasting ability of the caster.</p><p>3–4: No additional effect.</p><p>5–6: The snail's shell converts some of the spell's energy into a burst of destructive force. Each creature within 30 feet of the snail must make a DC <span class=\"rd__dc\">15</span> Constitution saving throw, taking [[/r 1d6]] force damage per level of the spell on a failed save, or half as much damage on a successful one.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "VGM",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!9pYLqzXhiI4IyeMO.E39sb6Wsc88tj70S"
+    },
+    {
+      "_id": "zajgtJQdo5S2t9hs",
+      "name": "Flail Tentacles",
+      "type": "feat",
+      "sort": 600000,
+      "flags": {},
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The flail snail has five flail tentacles. Whenever the snail takes 10 damage or more on a single turn, one of its tentacles dies. If even one tentacle remains, the snail regrows all dead ones within [[/r 1d4]] days. If all its tentacles die, the snail retracts into its shell, gaining total cover, and it begins wailing, a sound that can be heard for 600 feet, stopping only when it dies [[/r 5d6]] minutes later. Healing magic that restores limbs, such as the regenerate spell, can halt this dying process.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "VGM",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!9pYLqzXhiI4IyeMO.zajgtJQdo5S2t9hs"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "downtime-ethck": {
+      "trainingItems": []
+    },
+    "journal-links": {
+      "references": {}
+    }
+  },
+  "_id": "9pYLqzXhiI4IyeMO",
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 17,
@@ -326,30 +886,14 @@
       }
     }
   },
-  "token": {
+  "prototypeToken": {
     "flags": {},
     "name": "Flail Snail",
     "displayName": 20,
-    "img": "https://5e.tools/img/VGM/Flail Snail.png",
-    "tint": null,
     "width": 2,
     "height": 2,
-    "scale": 1,
     "lockRotation": false,
     "rotation": 0,
-    "vision": true,
-    "dimSight": 60,
-    "brightSight": 60,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "FhNYxX4WtjGBOnra",
     "actorLink": false,
     "disposition": -1,
     "displayBars": 40,
@@ -360,497 +904,75 @@
       "attribute": null
     },
     "randomImg": false,
-    "mirrorX": false,
-    "mirrorY": false,
-    "alpha": 1
-  },
-  "items": [
-    {
-      "_id": "gbjq57Hrl5pCDtvr",
-      "name": "Multiattack",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The flail snail makes as many flail tentacle attacks as it has flail tentacles, all against the same target.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "VGM",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
+    "alpha": 1,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "alpha": 1,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
       },
-      "sort": 100000,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!9pYLqzXhiI4IyeMO.gbjq57Hrl5pCDtvr"
+      "negative": false,
+      "priority": 0,
+      "color": null,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    {
-      "_id": "SaE7TfovBthWajyw",
-      "name": "Flail Tentacle",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 10 ft., one target. <i>Hit:</i> 6 ([[/r 1d6 + 3]]) bludgeoning damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "VGM",
-        "quantity": 1,
-        "weight": 0,
-        "price": null,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": false,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 10,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "str",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d6  + @mod",
-              "bludgeoning"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "natural",
-        "properties": {},
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 200000,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/sword-brandish.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!9pYLqzXhiI4IyeMO.SaE7TfovBthWajyw"
+    "texture": {
+      "src": "https://5e.tools/img/VGM/Flail Snail.png",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
     },
-    {
-      "_id": "W1pHRUeWZeSYXbJF",
-      "name": "Scintillating Shell (Recharges after a Short or Long Rest)",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The snail's shell emits dazzling, colored light until the end of the snail's next turn. During this time, the shell sheds bright light in a 30-foot radius and dim light for an additional 30 feet, and creatures that can see the snail have disadvantage on attack rolls against it. In addition, any creature within the bright light and able to see the snail when this power is activated must succeed on a DC <span class=\"rd__dc\">15</span> Wisdom saving throw or be <a href=\"https://5e.tools/conditionsdiseases.html#stunned_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'conditionsdiseases.html', 'PHB', 'stunned_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >stunned</a> until the light ends.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "VGM",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "wis",
-          "dc": 15,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 300000,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!9pYLqzXhiI4IyeMO.W1pHRUeWZeSYXbJF"
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 60,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
     },
-    {
-      "_id": "ilJsST39j54HPycE",
-      "name": "Shell Defense",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The flail snail withdraws into its shell, gaining a +4 bonus to AC until it emerges. It can emerge from its shell as a bonus action on its turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "VGM",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 400000,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!9pYLqzXhiI4IyeMO.ilJsST39j54HPycE"
+    "hexagonalShape": 1,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
     },
-    {
-      "_id": "E39sb6Wsc88tj70S",
-      "name": "Antimagic Shell",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The snail has advantage on saving throws against spells, and any creature making a spell attack against the snail has disadvantage on the attack roll. If the snail succeeds on its saving throw against a spell or a spell attack misses it, an additional effect might occur, as determined by rolling a [[/r d6]]:</p><div class=\"rd__spc-inline-post\"></div><p>1–2: If the spell affects an area or has multiple targets, it fails and has no effect. If the spell targets only the snail, it has no effect on the snail and is reflected back at the caster, using the spell slot level, spell save DC, attack bonus, and spellcasting ability of the caster.</p><p>3–4: No additional effect.</p><p>5–6: The snail's shell converts some of the spell's energy into a burst of destructive force. Each creature within 30 feet of the snail must make a DC <span class=\"rd__dc\">15</span> Constitution saving throw, taking [[/r 1d6]] force damage per level of the spell on a failed save, or half as much damage on a successful one.</p></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "VGM",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
       },
-      "sort": 500000,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!9pYLqzXhiI4IyeMO.E39sb6Wsc88tj70S"
-    },
-    {
-      "_id": "zajgtJQdo5S2t9hs",
-      "name": "Flail Tentacles",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The flail snail has five flail tentacles. Whenever the snail takes 10 damage or more on a single turn, one of its tentacles dies. If even one tentacle remains, the snail regrows all dead ones within [[/r 1d4]] days. If all its tentacles die, the snail retracts into its shell, gaining total cover, and it begins wailing, a sound that can be heard for 600 feet, stopping only when it dies [[/r 5d6]] minutes later. Healing magic that restores limbs, such as the regenerate spell, can halt this dying process.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "VGM",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 600000,
-      "flags": {},
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!9pYLqzXhiI4IyeMO.zajgtJQdo5S2t9hs"
-    }
-  ],
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
-  "flags": {
-    "downtime-ethck": {
-      "trainingItems": []
-    },
-    "journal-links": {
-      "references": {}
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     }
   },
-  "_id": "9pYLqzXhiI4IyeMO",
   "_key": "!actors!9pYLqzXhiI4IyeMO"
 }

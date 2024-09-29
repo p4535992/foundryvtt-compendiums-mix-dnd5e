@@ -1,12 +1,446 @@
 {
   "_id": "yAd4jdfn0ZI0BC9l",
   "name": "Kerberos Dragoon",
-  "permission": {
-    "default": 0,
-    "N8RgN1jdDFyXuWNq": 3
-  },
   "type": "npc",
-  "data": {
+  "sort": 100001,
+  "flags": {},
+  "img": "",
+  "items": [
+    {
+      "_id": "lxXoe5gx1cwedB56",
+      "flags": {},
+      "name": "Aggressive",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/red_22.jpg",
+      "sort": 100000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>As a bonus action, the {creature} can move up to its speed toward a hostile creature that it can see.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!yAd4jdfn0ZI0BC9l.lxXoe5gx1cwedB56"
+    },
+    {
+      "_id": "fGfYZgLq7f1m0O7I",
+      "flags": {},
+      "name": "Hornet",
+      "type": "weapon",
+      "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/uncsmg.svg",
+      "sort": 200000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<ul>\n<li>Range: 8/24m</li>\n<li>Heat: 6</li>\n</ul>\n<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">M-25 Hornet (double tap, hip fire, burst fire).</em></span>&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Ranged Weapon Attack:</em> +4 to hit, range (8/24m), one target.&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Hit:</em> 9 (2d4 + 4) piercing damage</p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Me5e",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": 15000,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Uncommon",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d4+4",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "smg",
+        "properties": {
+          "amm": false,
+          "arc": false,
+          "bst": true,
+          "dtp": true,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "het": false,
+          "hvy": false,
+          "hip": true,
+          "lgt": true,
+          "lod": false,
+          "rch": false,
+          "coi": false,
+          "rel": false,
+          "ret": false,
+          "snt": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!yAd4jdfn0ZI0BC9l.fGfYZgLq7f1m0O7I"
+    },
+    {
+      "_id": "pZnhj1PsHTl6K1m5",
+      "flags": {},
+      "name": "Omni-Whip",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/items/weapons/whip.png",
+      "sort": 300000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<ul>\n<li>Range: 4m</li>\n<li>Heat: N/A</li>\n</ul>\n<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Omni-Whip.</em></span>&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Melee Weapon Attack:</em>&nbsp;+4 to hit, reach 4m, one target.&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Hit:</em>&nbsp;9 (2d4 + 4) lightning damage</p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Me5e",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 35000,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Rare",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 4,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d4+4",
+              "lightning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {
+          "amm": false,
+          "arc": false,
+          "bst": false,
+          "dtp": false,
+          "fin": true,
+          "fir": false,
+          "foc": false,
+          "het": false,
+          "hvy": false,
+          "hip": false,
+          "lgt": false,
+          "lod": false,
+          "rch": true,
+          "coi": false,
+          "rel": false,
+          "ret": false,
+          "snt": false,
+          "spc": true,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": false
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!yAd4jdfn0ZI0BC9l.pZnhj1PsHTl6K1m5"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "texture": {
+      "src": "",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "name": "Kerberos Dragoon",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 12,
@@ -407,327 +841,6 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {},
-  "img": "",
-  "token": {
-    "flags": {},
-    "name": "k",
-    "displayName": 0,
-    "img": "icons/svg/mystery-man.svg",
-    "tint": null,
-    "width": 1,
-    "height": 1,
-    "scale": 1,
-    "lockRotation": false,
-    "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightAlpha": 1,
-    "actorId": "yAd4jdfn0ZI0BC9l",
-    "actorLink": false,
-    "actorData": {},
-    "disposition": -1,
-    "displayBars": 0,
-    "bar1": {},
-    "bar2": {},
-    "randomImg": false
-  },
-  "items": [
-    {
-      "_id": "lxXoe5gx1cwedB56",
-      "flags": {},
-      "name": "Aggressive",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/red_22.jpg",
-      "data": {
-        "description": {
-          "value": "<p>As a bonus action, the {creature} can move up to its speed toward a hostile creature that it can see.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "bonus",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 100000,
-      "effects": [],
-      "_key": "!actors.items!yAd4jdfn0ZI0BC9l.lxXoe5gx1cwedB56"
-    },
-    {
-      "_id": "fGfYZgLq7f1m0O7I",
-      "flags": {},
-      "name": "Hornet",
-      "type": "weapon",
-      "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/uncsmg.svg",
-      "data": {
-        "description": {
-          "value": "<ul>\n<li>Range: 8/24m</li>\n<li>Heat: 6</li>\n</ul>\n<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">M-25 Hornet (double tap, hip fire, burst fire).</em></span>&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Ranged Weapon Attack:</em> +4 to hit, range (8/24m), one target.&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Hit:</em> 9 (2d4 + 4) piercing damage</p>\n</section>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "Me5e",
-        "quantity": 1,
-        "weight": 1,
-        "price": 15000,
-        "attuned": false,
-        "equipped": true,
-        "rarity": "Uncommon",
-        "identified": true,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "rwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "2d4+4",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "smg",
-        "properties": {
-          "amm": false,
-          "arc": false,
-          "bst": true,
-          "dtp": true,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "het": false,
-          "hvy": false,
-          "hip": true,
-          "lgt": true,
-          "lod": false,
-          "rch": false,
-          "coi": false,
-          "rel": false,
-          "ret": false,
-          "snt": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": true
-      },
-      "sort": 200000,
-      "effects": [],
-      "_key": "!actors.items!yAd4jdfn0ZI0BC9l.fGfYZgLq7f1m0O7I"
-    },
-    {
-      "_id": "pZnhj1PsHTl6K1m5",
-      "flags": {},
-      "name": "Omni-Whip",
-      "type": "weapon",
-      "img": "systems/dnd5e/icons/items/weapons/whip.png",
-      "data": {
-        "description": {
-          "value": "<ul>\n<li>Range: 4m</li>\n<li>Heat: N/A</li>\n</ul>\n<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Omni-Whip.</em></span>&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Melee Weapon Attack:</em>&nbsp;+4 to hit, reach 4m, one target.&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Hit:</em>&nbsp;9 (2d4 + 4) lightning damage</p>\n</section>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "Me5e",
-        "quantity": 1,
-        "weight": 0,
-        "price": 35000,
-        "attuned": false,
-        "equipped": false,
-        "rarity": "Rare",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 4,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "rwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "2d4+4",
-              "lightning"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "simpleM",
-        "properties": {
-          "amm": false,
-          "arc": false,
-          "bst": false,
-          "dtp": false,
-          "fin": true,
-          "fir": false,
-          "foc": false,
-          "het": false,
-          "hvy": false,
-          "hip": false,
-          "lgt": false,
-          "lod": false,
-          "rch": true,
-          "coi": false,
-          "rel": false,
-          "ret": false,
-          "snt": false,
-          "spc": true,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": false
-      },
-      "sort": 300000,
-      "effects": [],
-      "_key": "!actors.items!yAd4jdfn0ZI0BC9l.pZnhj1PsHTl6K1m5"
-    }
-  ],
-  "effects": [],
-  "prototypeToken": {
-    "texture": {
-      "src": ""
-    }
-  },
+  "folder": null,
   "_key": "!actors!yAd4jdfn0ZI0BC9l"
 }

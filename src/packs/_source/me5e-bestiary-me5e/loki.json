@@ -1,12 +1,820 @@
 {
   "_id": "kOohTSjEMjIQCy3I",
   "name": "Loki",
-  "permission": {
-    "default": 0,
-    "N8RgN1jdDFyXuWNq": 3
-  },
   "type": "npc",
-  "data": {
+  "sort": 100001,
+  "flags": {},
+  "img": "",
+  "items": [
+    {
+      "_id": "JMbq1omjfgvRcx3w",
+      "flags": {},
+      "name": "Post-mortem Explosion",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/blood_09.jpg",
+      "sort": 500000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Post-mortem Explosion.</em></span>&nbsp;When the mech is reduced to 0 hit points, it self-destructs. Each creature within a 2m radius sphere must succeed on a DC 10 Dexterity saving throw or take 5 (2d4) thunder damage.</p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "6d10",
+              "thunder"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 15,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!kOohTSjEMjIQCy3I.JMbq1omjfgvRcx3w"
+    },
+    {
+      "_id": "xGK7FQENXG2dvtVB",
+      "flags": {},
+      "name": "Limited Tactics",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/yellow_04.jpg",
+      "sort": 200000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Limited Tactics.</em></span>&nbsp;The mech is incapable of complex combat tactics. It never seeks cover and cannot take the Hide, Dodge, Help, or Disengage actions.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!kOohTSjEMjIQCy3I.xGK7FQENXG2dvtVB"
+    },
+    {
+      "_id": "cqU1ZXrmc4PZGavs",
+      "flags": {},
+      "name": "Chatter",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/blood_02.jpg",
+      "sort": 600000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Chatter (variant).</em></span>&nbsp;The mech can be programmed with pre-recorded phrases, which it utters occasionally during combat. Each hostile creature that hears the phrase much pass a Wisdom saving throw. On a failure, a creature becomes unnerved by the phrase and can only target the mech when making attack rolls or using damaging spells. On a success, a creature is unaffected and is immune to the mech's Chatter. The DC of the saving throw is dependant on the phrase, but cannot be higher than 12.</p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 12,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!kOohTSjEMjIQCy3I.cqU1ZXrmc4PZGavs"
+    },
+    {
+      "_id": "1POYYqpVrfAGKG0P",
+      "flags": {},
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/violet_08.jpg",
+      "sort": 900000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Innate Spellcasting.</em></span>&nbsp;The mech's innate spellcasting ability is Intelligence (spell save DC 9, +1 to hit with spell attacks). It can innately cast the following:</p>\n<p>5/day:&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">shocking grasp</em></p>\n</section>\n<p>The {creature} is a spellcaster. Its spellcasting ability is Intelligence.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!kOohTSjEMjIQCy3I.1POYYqpVrfAGKG0P"
+    },
+    {
+      "_id": "SHf9IZtc3VnHH9Cy",
+      "flags": {},
+      "name": "Shocking Grasp",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/spells/protect-orange-1.jpg",
+      "sort": 1000000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>Send an electric shock from your omni-tool to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor. On a hit, the target becomes primed (lightning) until the end of your next turn and takes 1d6 lightning damage. Then the target must succeed on a Constitution saving throw or become stunned until the end of your next turn. A target with at least 1 shield point has advantage on this saving throw.</p>\n<p>&nbsp;</p>\n<p>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d6 for each slot level above 1st.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ME5e",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "msak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6",
+              "lightning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 9,
+          "scaling": "spell"
+        },
+        "level": 1,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": false,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "",
+          "prepared": false
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!kOohTSjEMjIQCy3I.SHf9IZtc3VnHH9Cy"
+    },
+    {
+      "_id": "GpEC82nnixblDyuY",
+      "flags": {},
+      "name": "Shuriken",
+      "type": "weapon",
+      "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/comsmg.svg",
+      "sort": 1100000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<ul>\n<li>Range: 4/12m</li>\n<li>Heat: 3</li>\n</ul>\n<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">M-4 Shuriken (hip fire, burst fire).</em></span>&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Ranged Weapon Attack:</em>&nbsp;+1 to hit, range (4/12m), one target.&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Hit:</em>&nbsp;6 (2d4 + 1) piercing damage</p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Me5e",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": 8000,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 4,
+          "long": 12,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": 1,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d4+1",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "smg",
+        "properties": {
+          "amm": false,
+          "arc": false,
+          "bst": true,
+          "dtp": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "het": false,
+          "hvy": false,
+          "hip": true,
+          "lgt": true,
+          "lod": false,
+          "rch": false,
+          "coi": false,
+          "rel": false,
+          "ret": false,
+          "snt": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": false
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!kOohTSjEMjIQCy3I.GpEC82nnixblDyuY"
+    },
+    {
+      "_id": "zVlCwEKEpTuE4Gyv",
+      "flags": {},
+      "name": "Predator",
+      "type": "weapon",
+      "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/comheavypistol.svg",
+      "sort": 1200000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<ul>\n<li>Range: 20/60m</li>\n<li>Heat: 15</li>\n</ul>\n<section class=\"secret\">\n<p>Predator (double tap). Ranged Weapon Attack: +1 to hit, range (20/60m), one target. Hit: 3 (1d4 + 1) piercing damage</p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Me5e",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": 5500,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 20,
+          "long": 60,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": 1,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4+1",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "hps",
+        "properties": {
+          "amm": false,
+          "arc": false,
+          "bst": false,
+          "dtp": true,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "het": false,
+          "hvy": false,
+          "hip": false,
+          "lgt": true,
+          "lod": false,
+          "rch": false,
+          "coi": false,
+          "rel": false,
+          "ret": false,
+          "snt": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": false
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!kOohTSjEMjIQCy3I.zVlCwEKEpTuE4Gyv"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "texture": {
+      "src": "",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "name": "Loki",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 10,
@@ -412,645 +1220,6 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {},
-  "img": "",
-  "token": {
-    "flags": {},
-    "name": "LOKI",
-    "displayName": 0,
-    "img": "icons/svg/mystery-man.svg",
-    "tint": null,
-    "width": 1,
-    "height": 1,
-    "scale": 1,
-    "lockRotation": false,
-    "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightAlpha": 1,
-    "actorId": "kOohTSjEMjIQCy3I",
-    "actorLink": false,
-    "actorData": {},
-    "disposition": -1,
-    "displayBars": 0,
-    "bar1": {},
-    "bar2": {},
-    "randomImg": false
-  },
-  "items": [
-    {
-      "_id": "JMbq1omjfgvRcx3w",
-      "flags": {},
-      "name": "Post-mortem Explosion",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/blood_09.jpg",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Post-mortem Explosion.</em></span>&nbsp;When the mech is reduced to 0 hit points, it self-destructs. Each creature within a 2m radius sphere must succeed on a DC 10 Dexterity saving throw or take 5 (2d4) thunder damage.</p>\n</section>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "save",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "6d10",
-              "thunder"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "dex",
-          "dc": 15,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 500000,
-      "effects": [],
-      "_key": "!actors.items!kOohTSjEMjIQCy3I.JMbq1omjfgvRcx3w"
-    },
-    {
-      "_id": "xGK7FQENXG2dvtVB",
-      "flags": {},
-      "name": "Limited Tactics",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/yellow_04.jpg",
-      "data": {
-        "description": {
-          "value": "<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Limited Tactics.</em></span>&nbsp;The mech is incapable of complex combat tactics. It never seeks cover and cannot take the Hide, Dodge, Help, or Disengage actions.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell",
-          "value": ""
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "time": {
-          "value": "",
-          "_deprecated": true
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": true
-        }
-      },
-      "sort": 200000,
-      "effects": [],
-      "_key": "!actors.items!kOohTSjEMjIQCy3I.xGK7FQENXG2dvtVB"
-    },
-    {
-      "_id": "cqU1ZXrmc4PZGavs",
-      "flags": {},
-      "name": "Chatter",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/blood_02.jpg",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Chatter (variant).</em></span>&nbsp;The mech can be programmed with pre-recorded phrases, which it utters occasionally during combat. Each hostile creature that hears the phrase much pass a Wisdom saving throw. On a failure, a creature becomes unnerved by the phrase and can only target the mech when making attack rolls or using damaging spells. On a success, a creature is unaffected and is immune to the mech's Chatter. The DC of the saving throw is dependant on the phrase, but cannot be higher than 12.</p>\n</section>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "action",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "save",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "wis",
-          "dc": 12,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 600000,
-      "effects": [],
-      "_key": "!actors.items!kOohTSjEMjIQCy3I.cqU1ZXrmc4PZGavs"
-    },
-    {
-      "_id": "1POYYqpVrfAGKG0P",
-      "flags": {},
-      "name": "Innate Spellcasting",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/violet_08.jpg",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Innate Spellcasting.</em></span>&nbsp;The mech's innate spellcasting ability is Intelligence (spell save DC 9, +1 to hit with spell attacks). It can innately cast the following:</p>\n<p>5/day:&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">shocking grasp</em></p>\n</section>\n<p>The {creature} is a spellcaster. Its spellcasting ability is Intelligence.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": "",
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell",
-          "value": ""
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "time": {
-          "value": "",
-          "_deprecated": true
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": true
-        }
-      },
-      "sort": 900000,
-      "effects": [],
-      "_key": "!actors.items!kOohTSjEMjIQCy3I.1POYYqpVrfAGKG0P"
-    },
-    {
-      "_id": "SHf9IZtc3VnHH9Cy",
-      "flags": {},
-      "name": "Shocking Grasp",
-      "type": "spell",
-      "img": "systems/dnd5e/icons/spells/protect-orange-1.jpg",
-      "data": {
-        "description": {
-          "value": "<p>Send an electric shock from your omni-tool to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor. On a hit, the target becomes primed (lightning) until the end of your next turn and takes 1d6 lightning damage. Then the target must succeed on a Constitution saving throw or become stunned until the end of your next turn. A target with at least 1 shield point has advantage on this saving throw.</p>\n<p>&nbsp;</p>\n<p>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d6 for each slot level above 1st.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ME5e",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": "inst"
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "touch"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "msak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d6",
-              "lightning"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "con",
-          "dc": 9,
-          "scaling": "spell"
-        },
-        "level": 1,
-        "school": "con",
-        "components": {
-          "value": "",
-          "vocal": false,
-          "somatic": false,
-          "material": false,
-          "ritual": false,
-          "concentration": false
-        },
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "",
-          "prepared": false
-        },
-        "scaling": {
-          "mode": "none",
-          "formula": ""
-        }
-      },
-      "sort": 1000000,
-      "effects": [],
-      "_key": "!actors.items!kOohTSjEMjIQCy3I.SHf9IZtc3VnHH9Cy"
-    },
-    {
-      "_id": "GpEC82nnixblDyuY",
-      "flags": {},
-      "name": "Shuriken",
-      "type": "weapon",
-      "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/comsmg.svg",
-      "data": {
-        "description": {
-          "value": "<ul>\n<li>Range: 4/12m</li>\n<li>Heat: 3</li>\n</ul>\n<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">M-4 Shuriken (hip fire, burst fire).</em></span>&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Ranged Weapon Attack:</em>&nbsp;+1 to hit, range (4/12m), one target.&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Hit:</em>&nbsp;6 (2d4 + 1) piercing damage</p>\n</section>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "Me5e",
-        "quantity": 1,
-        "weight": 2,
-        "price": 8000,
-        "attuned": false,
-        "equipped": false,
-        "rarity": "Common",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 4,
-          "long": 12,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "rwak",
-        "attackBonus": 1,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "2d4+1",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "smg",
-        "properties": {
-          "amm": false,
-          "arc": false,
-          "bst": true,
-          "dtp": false,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "het": false,
-          "hvy": false,
-          "hip": true,
-          "lgt": true,
-          "lod": false,
-          "rch": false,
-          "coi": false,
-          "rel": false,
-          "ret": false,
-          "snt": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": false
-      },
-      "sort": 1100000,
-      "effects": [],
-      "_key": "!actors.items!kOohTSjEMjIQCy3I.GpEC82nnixblDyuY"
-    },
-    {
-      "_id": "zVlCwEKEpTuE4Gyv",
-      "flags": {},
-      "name": "Predator",
-      "type": "weapon",
-      "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/comheavypistol.svg",
-      "data": {
-        "description": {
-          "value": "<ul>\n<li>Range: 20/60m</li>\n<li>Heat: 15</li>\n</ul>\n<section class=\"secret\">\n<p>Predator (double tap). Ranged Weapon Attack: +1 to hit, range (20/60m), one target. Hit: 3 (1d4 + 1) piercing damage</p>\n</section>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "Me5e",
-        "quantity": 1,
-        "weight": 1,
-        "price": 5500,
-        "attuned": false,
-        "equipped": false,
-        "rarity": "Common",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 20,
-          "long": 60,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "rwak",
-        "attackBonus": 1,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d4+1",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "hps",
-        "properties": {
-          "amm": false,
-          "arc": false,
-          "bst": false,
-          "dtp": true,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "het": false,
-          "hvy": false,
-          "hip": false,
-          "lgt": true,
-          "lod": false,
-          "rch": false,
-          "coi": false,
-          "rel": false,
-          "ret": false,
-          "snt": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": false
-      },
-      "sort": 1200000,
-      "effects": [],
-      "_key": "!actors.items!kOohTSjEMjIQCy3I.zVlCwEKEpTuE4Gyv"
-    }
-  ],
-  "effects": [],
-  "prototypeToken": {
-    "texture": {
-      "src": ""
-    }
-  },
+  "folder": null,
   "_key": "!actors!kOohTSjEMjIQCy3I"
 }

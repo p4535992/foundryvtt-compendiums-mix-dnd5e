@@ -1,12 +1,999 @@
 {
   "_id": "Akyq9McDvrLZW4g3",
   "name": "Pilot Eel",
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
   "type": "npc",
-  "data": {
+  "sort": 100001,
+  "flags": {
+    "journal-links": {
+      "references": {}
+    }
+  },
+  "img": "moulinette/images/mytokens/porvenir/tokens/Skeleton-Eel.png",
+  "items": [
+    {
+      "_id": "C7KY1yJX44It6LJb",
+      "name": "Shortsword",
+      "type": "weapon",
+      "sort": 600000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "C7KY1yJX44It6LJb",
+                "name": "Shortsword",
+                "type": "weapon",
+                "data": {
+                  "description": {
+                    "value": "<p>A medium sized blade with a firm crossguard and a leather-wrapped handle. A versatile weapon which makes up in versatility what it lacks in reach.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "PHB pg. 149",
+                  "quantity": 1,
+                  "weight": 2,
+                  "price": 10,
+                  "attuned": false,
+                  "equipped": true,
+                  "rarity": "Common",
+                  "identified": true,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": 5,
+                    "long": null,
+                    "units": "ft"
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": "",
+                  "actionType": "mwak",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d6 + @mod",
+                        "piercing"
+                      ],
+                      [
+                        "1d6",
+                        "lightning"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "armor": {
+                    "value": 10
+                  },
+                  "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                  },
+                  "weaponType": "martialM",
+                  "properties": {
+                    "fin": true,
+                    "lgt": true,
+                    "amm": false,
+                    "hvy": false,
+                    "fir": false,
+                    "foc": false,
+                    "lod": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                  },
+                  "proficient": true,
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 600000,
+                "flags": {},
+                "img": "systems/dnd5e/icons/items/weapons/sword-short.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/items/weapons/sword-short.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>A medium sized blade with a firm crossguard and a leather-wrapped handle. A versatile weapon which makes up in versatility what it lacks in reach.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 149",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": 10,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "piercing"
+            ],
+            [
+              "1d6",
+              "lightning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "properties": {
+          "fin": true,
+          "lgt": true,
+          "amm": false,
+          "hvy": false,
+          "fir": false,
+          "foc": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Akyq9McDvrLZW4g3.C7KY1yJX44It6LJb"
+    },
+    {
+      "_id": "NAm4lkphT14t0Sci",
+      "name": "Shortbow",
+      "type": "weapon",
+      "sort": 2600001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "NAm4lkphT14t0Sci",
+                "name": "Shortbow",
+                "type": "weapon",
+                "data": {
+                  "description": {
+                    "value": "<p>This two handed bow is somewhat smaller than the traditional longbow variant, making it well suited for rapid attacks while on the move or mounted from horseback.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "PHB pg. 149",
+                  "quantity": 1,
+                  "weight": 2,
+                  "price": 25,
+                  "attuned": false,
+                  "equipped": true,
+                  "rarity": "Common",
+                  "identified": true,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 0,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": 0,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": 80,
+                    "long": 320,
+                    "units": "ft"
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": "",
+                  "actionType": "rwak",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d6 + @mod",
+                        "piercing"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "armor": {
+                    "value": 10
+                  },
+                  "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                  },
+                  "weaponType": "simpleR",
+                  "properties": {
+                    "two": true,
+                    "amm": true,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "ver": false,
+                    "lod": false
+                  },
+                  "proficient": true,
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 2600001,
+                "flags": {},
+                "img": "systems/dnd5e/icons/items/weapons/bow-short.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/items/weapons/bow-short.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>This two handed bow is somewhat smaller than the traditional longbow variant, making it well suited for rapid attacks while on the move or mounted from horseback.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 149",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": 25,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 80,
+          "long": 320,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleR",
+        "properties": {
+          "two": true,
+          "amm": true,
+          "hvy": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "lgt": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "ver": false,
+          "lod": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Akyq9McDvrLZW4g3.NAm4lkphT14t0Sci"
+    },
+    {
+      "_id": "639L6lDNWh3ZQcQ1",
+      "name": "Electrified Weapons",
+      "type": "feat",
+      "sort": 0,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "639L6lDNWh3ZQcQ1",
+                "name": "Electrified Weapons",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<section class=\"secret\">\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals an <strong>extra 3 (1d6) <em>lightning damage</em></strong> (included in the attack).</p>\n</section>\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals extra lightning damage (included in the attack).</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "",
+                    "cost": null,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                  },
+                  "ability": null,
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 0,
+                "flags": {},
+                "img": "systems/dnd5e/icons/spells/enchant-sky-3.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/spells/enchant-sky-3.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals an <strong>extra 3 (1d6) <em>lightning damage</em></strong> (included in the attack).</p>\n</section>\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals extra lightning damage (included in the attack).</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Akyq9McDvrLZW4g3.639L6lDNWh3ZQcQ1"
+    },
+    {
+      "_id": "By3uuOKVJslwZxeG",
+      "name": "Limited Amphibiousness",
+      "type": "feat",
+      "sort": 2700001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "By3uuOKVJslwZxeG",
+                "name": "Limited Amphibiousness",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<section class=\"secret\">\n<p>The Pilot Eel can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</p>\n</section>\n<p>The Pilot Eel can breathe air and water.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "",
+                    "cost": null,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                  },
+                  "ability": null,
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 2700001,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/emerald_05.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/emerald_05.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p>The Pilot Eel can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</p>\n</section>\n<p>The Pilot Eel can breathe air and water.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Akyq9McDvrLZW4g3.By3uuOKVJslwZxeG"
+    },
+    {
+      "_id": "O6fhiqlT5aNqyXby",
+      "name": "Psychic Susceptibility",
+      "type": "feat",
+      "sort": 2800001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "O6fhiqlT5aNqyXby",
+                "name": "Psychic Susceptibility",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<p>If the skeleton takes psychic damage, it must make a Wisdom saving throw with a DC equal to 10, or half the psychic damage it took, whichever is greater. On a failed save, the skeleton is stunned until the end of its next turn. Additionally on a failed save, roll a die. On an odd result, the eel is driven from the body, exiting prone in an unoccupied space within 5 ft. of the skeleton. The skeleton then immediately reverts to inanimate remains.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": "",
+                    "type": ""
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": "",
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": "",
+                    "value": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell",
+                    "value": ""
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 2800001,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/violet_26.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/violet_26.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>If the skeleton takes psychic damage, it must make a Wisdom saving throw with a DC equal to 10, or half the psychic damage it took, whichever is greater. On a failed save, the skeleton is stunned until the end of its next turn. Additionally on a failed save, roll a die. On an odd result, the eel is driven from the body, exiting prone in an unoccupied space within 5 ft. of the skeleton. The skeleton then immediately reverts to inanimate remains.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Akyq9McDvrLZW4g3.O6fhiqlT5aNqyXby"
+    }
+  ],
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 10,
@@ -413,41 +1400,14 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {
-    "journal-links": {
-      "references": {}
-    }
-  },
-  "img": "moulinette/images/mytokens/porvenir/tokens/Skeleton-Eel.png",
-  "token": {
+  "prototypeToken": {
     "flags": {},
     "name": "Pilot Eel",
     "displayName": 40,
-    "img": "worlds/porvenir/tokens/Skeleton-Eel.png",
-    "tint": "",
     "width": 1,
     "height": 1,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightColor": "",
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "type": "",
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "Akyq9McDvrLZW4g3",
     "actorLink": false,
     "disposition": -1,
     "displayBars": 20,
@@ -457,902 +1417,77 @@
     "bar2": {
       "attribute": "attributes.ac.value"
     },
-    "randomImg": false
-  },
-  "items": [
-    {
-      "_id": "C7KY1yJX44It6LJb",
-      "name": "Shortsword",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<p>A medium sized blade with a firm crossguard and a leather-wrapped handle. A versatile weapon which makes up in versatility what it lacks in reach.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB pg. 149",
-        "quantity": 1,
-        "weight": 2,
-        "price": 10,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "Common",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d6 + @mod",
-              "piercing"
-            ],
-            [
-              "1d6",
-              "lightning"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "martialM",
-        "properties": {
-          "fin": true,
-          "lgt": true,
-          "amm": false,
-          "hvy": false,
-          "fir": false,
-          "foc": false,
-          "lod": false,
-          "rch": false,
-          "rel": false,
-          "ret": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 1,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
       },
-      "sort": 600000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "C7KY1yJX44It6LJb",
-                "name": "Shortsword",
-                "type": "weapon",
-                "data": {
-                  "description": {
-                    "value": "<p>A medium sized blade with a firm crossguard and a leather-wrapped handle. A versatile weapon which makes up in versatility what it lacks in reach.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "PHB pg. 149",
-                  "quantity": 1,
-                  "weight": 2,
-                  "price": 10,
-                  "attuned": false,
-                  "equipped": true,
-                  "rarity": "Common",
-                  "identified": true,
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": 5,
-                    "long": null,
-                    "units": "ft"
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": ""
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": "",
-                  "actionType": "mwak",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [
-                      [
-                        "1d6 + @mod",
-                        "piercing"
-                      ],
-                      [
-                        "1d6",
-                        "lightning"
-                      ]
-                    ],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "armor": {
-                    "value": 10
-                  },
-                  "hp": {
-                    "value": 0,
-                    "max": 0,
-                    "dt": null,
-                    "conditions": ""
-                  },
-                  "weaponType": "martialM",
-                  "properties": {
-                    "fin": true,
-                    "lgt": true,
-                    "amm": false,
-                    "hvy": false,
-                    "fir": false,
-                    "foc": false,
-                    "lod": false,
-                    "rch": false,
-                    "rel": false,
-                    "ret": false,
-                    "spc": false,
-                    "thr": false,
-                    "two": false,
-                    "ver": false
-                  },
-                  "proficient": true,
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 600000,
-                "flags": {},
-                "img": "systems/dnd5e/icons/items/weapons/sword-short.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/items/weapons/sword-short.jpg",
-      "effects": [],
-      "_key": "!actors.items!Akyq9McDvrLZW4g3.C7KY1yJX44It6LJb"
+      "negative": false,
+      "priority": 0,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    {
-      "_id": "NAm4lkphT14t0Sci",
-      "name": "Shortbow",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<p>This two handed bow is somewhat smaller than the traditional longbow variant, making it well suited for rapid attacks while on the move or mounted from horseback.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB pg. 149",
-        "quantity": 1,
-        "weight": 2,
-        "price": 25,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "Common",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": 0,
-          "units": ""
-        },
-        "target": {
-          "value": 0,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 80,
-          "long": 320,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "rwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d6 + @mod",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "simpleR",
-        "properties": {
-          "two": true,
-          "amm": true,
-          "hvy": false,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "lgt": false,
-          "rch": false,
-          "rel": false,
-          "ret": false,
-          "spc": false,
-          "thr": false,
-          "ver": false,
-          "lod": false
-        },
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 2600001,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "NAm4lkphT14t0Sci",
-                "name": "Shortbow",
-                "type": "weapon",
-                "data": {
-                  "description": {
-                    "value": "<p>This two handed bow is somewhat smaller than the traditional longbow variant, making it well suited for rapid attacks while on the move or mounted from horseback.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "PHB pg. 149",
-                  "quantity": 1,
-                  "weight": 2,
-                  "price": 25,
-                  "attuned": false,
-                  "equipped": true,
-                  "rarity": "Common",
-                  "identified": true,
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": 0,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": 0,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": 80,
-                    "long": 320,
-                    "units": "ft"
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": ""
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": "",
-                  "actionType": "rwak",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [
-                      [
-                        "1d6 + @mod",
-                        "piercing"
-                      ]
-                    ],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "armor": {
-                    "value": 10
-                  },
-                  "hp": {
-                    "value": 0,
-                    "max": 0,
-                    "dt": null,
-                    "conditions": ""
-                  },
-                  "weaponType": "simpleR",
-                  "properties": {
-                    "two": true,
-                    "amm": true,
-                    "hvy": false,
-                    "fin": false,
-                    "fir": false,
-                    "foc": false,
-                    "lgt": false,
-                    "rch": false,
-                    "rel": false,
-                    "ret": false,
-                    "spc": false,
-                    "thr": false,
-                    "ver": false,
-                    "lod": false
-                  },
-                  "proficient": true,
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 2600001,
-                "flags": {},
-                "img": "systems/dnd5e/icons/items/weapons/bow-short.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/items/weapons/bow-short.jpg",
-      "effects": [],
-      "_key": "!actors.items!Akyq9McDvrLZW4g3.NAm4lkphT14t0Sci"
+    "texture": {
+      "src": "worlds/porvenir/tokens/Skeleton-Eel.png",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
     },
-    {
-      "_id": "639L6lDNWh3ZQcQ1",
-      "name": "Electrified Weapons",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals an <strong>extra 3 (1d6) <em>lightning damage</em></strong> (included in the attack).</p>\n</section>\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals extra lightning damage (included in the attack).</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 0,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "639L6lDNWh3ZQcQ1",
-                "name": "Electrified Weapons",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "<section class=\"secret\">\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals an <strong>extra 3 (1d6) <em>lightning damage</em></strong> (included in the attack).</p>\n</section>\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals extra lightning damage (included in the attack).</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "",
-                    "cost": null,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": null,
-                    "amount": null
-                  },
-                  "ability": null,
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 0,
-                "flags": {},
-                "img": "systems/dnd5e/icons/spells/enchant-sky-3.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/spells/enchant-sky-3.jpg",
-      "effects": [],
-      "_key": "!actors.items!Akyq9McDvrLZW4g3.639L6lDNWh3ZQcQ1"
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
     },
-    {
-      "_id": "By3uuOKVJslwZxeG",
-      "name": "Limited Amphibiousness",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p>The Pilot Eel can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</p>\n</section>\n<p>The Pilot Eel can breathe air and water.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 2700001,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "By3uuOKVJslwZxeG",
-                "name": "Limited Amphibiousness",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "<section class=\"secret\">\n<p>The Pilot Eel can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</p>\n</section>\n<p>The Pilot Eel can breathe air and water.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "",
-                    "cost": null,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": null,
-                    "amount": null
-                  },
-                  "ability": null,
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 2700001,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/emerald_05.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/emerald_05.jpg",
-      "effects": [],
-      "_key": "!actors.items!Akyq9McDvrLZW4g3.By3uuOKVJslwZxeG"
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "alpha": 1,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
     },
-    {
-      "_id": "O6fhiqlT5aNqyXby",
-      "name": "Psychic Susceptibility",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p>If the skeleton takes psychic damage, it must make a Wisdom saving throw with a DC equal to 10, or half the psychic damage it took, whichever is greater. On a failed save, the skeleton is stunned until the end of its next turn. Additionally on a failed save, roll a die. On an odd result, the eel is driven from the body, exiting prone in an unoccupied space within 5 ft. of the skeleton. The skeleton then immediately reverts to inanimate remains.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": "",
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell",
-          "value": ""
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
       },
-      "sort": 2800001,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "O6fhiqlT5aNqyXby",
-                "name": "Psychic Susceptibility",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "<p>If the skeleton takes psychic damage, it must make a Wisdom saving throw with a DC equal to 10, or half the psychic damage it took, whichever is greater. On a failed save, the skeleton is stunned until the end of its next turn. Additionally on a failed save, roll a die. On an odd result, the eel is driven from the body, exiting prone in an unoccupied space within 5 ft. of the skeleton. The skeleton then immediately reverts to inanimate remains.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "",
-                    "cost": 0,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": "",
-                    "type": ""
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": "",
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": "",
-                    "value": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell",
-                    "value": ""
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 2800001,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/violet_26.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/violet_26.jpg",
-      "effects": [],
-      "_key": "!actors.items!Akyq9McDvrLZW4g3.O6fhiqlT5aNqyXby"
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     }
-  ],
-  "effects": [],
+  },
+  "folder": null,
   "_key": "!actors!Akyq9McDvrLZW4g3"
 }

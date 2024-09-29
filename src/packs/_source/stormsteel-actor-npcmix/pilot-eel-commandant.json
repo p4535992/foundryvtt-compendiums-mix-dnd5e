@@ -1,12 +1,1503 @@
 {
   "_id": "hhi27SyAzkogamVs",
   "name": "Pilot Eel Commandant",
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
   "type": "npc",
-  "data": {
+  "sort": 100001,
+  "flags": {
+    "journal-links": {
+      "references": {}
+    }
+  },
+  "img": "moulinette/images/mytokens/porvenir/tokens/Skeleton-Eel-Boss.png",
+  "items": [
+    {
+      "_id": "Ln7zQUl865vjy5eM",
+      "name": "Lightfooted",
+      "type": "feat",
+      "sort": 200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "Ln7zQUl865vjy5eM",
+                "name": "Lightfooted",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "The commandant can take the Dash or Disengage action as a bonus action on each of its turns.",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": null,
+                    "type": null
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                  },
+                  "ability": null,
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 200000,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/armor_01.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/armor_01.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "The commandant can take the Dash or Disengage action as a bonus action on each of its turns.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": null,
+          "type": null
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!hhi27SyAzkogamVs.Ln7zQUl865vjy5eM"
+    },
+    {
+      "_id": "TE3P6sGevljJevmG",
+      "name": "Pistol",
+      "type": "weapon",
+      "sort": 800000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "TE3P6sGevljJevmG",
+                "name": "Pistol",
+                "type": "weapon",
+                "data": {
+                  "description": {
+                    "value": "*Ranged Weapon Attack:* +7 to hit, range 30/90 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage.",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "quantity": 1,
+                  "weight": 0,
+                  "price": 0,
+                  "attuned": false,
+                  "equipped": true,
+                  "rarity": "",
+                  "identified": true,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "",
+                    "type": null
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": "dex",
+                  "actionType": "mwak",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d10 + @mod",
+                        "piercing"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "armor": {
+                    "value": 10
+                  },
+                  "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                  },
+                  "weaponType": "simpleM",
+                  "properties": {
+                    "amm": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "hvy": false,
+                    "lgt": false,
+                    "lod": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                  },
+                  "proficient": true,
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 800000,
+                "flags": {},
+                "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "*Ranged Weapon Attack:* +7 to hit, range 30/90 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 0,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "type": null
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d10 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!hhi27SyAzkogamVs.TE3P6sGevljJevmG"
+    },
+    {
+      "_id": "VbKu7IxaPeEqVotB",
+      "name": "Cutlass",
+      "type": "weapon",
+      "sort": 900000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "VbKu7IxaPeEqVotB",
+                "name": "Cutlass",
+                "type": "weapon",
+                "data": {
+                  "description": {
+                    "value": "<p>*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage plus 3 (1d6) lightning damage.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "PHB pg. 149",
+                  "quantity": 1,
+                  "weight": 2,
+                  "price": 10,
+                  "attuned": false,
+                  "equipped": true,
+                  "rarity": "Common",
+                  "identified": true,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": 5,
+                    "long": null,
+                    "units": "ft"
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": "",
+                  "actionType": "mwak",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d6 + @mod",
+                        "slashing"
+                      ],
+                      [
+                        "1d6",
+                        "lightning"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "armor": {
+                    "value": 10
+                  },
+                  "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                  },
+                  "weaponType": "martialM",
+                  "properties": {
+                    "fin": true,
+                    "lgt": true,
+                    "amm": false,
+                    "hvy": false,
+                    "fir": false,
+                    "foc": false,
+                    "lod": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                  },
+                  "proficient": true,
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 900000,
+                "flags": {},
+                "img": "icons/weapons/swords/scimitar-worn-blue.webp",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "icons/weapons/swords/scimitar-worn-blue.webp",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage plus 3 (1d6) lightning damage.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 149",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": 10,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "slashing"
+            ],
+            [
+              "1d6",
+              "lightning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "properties": {
+          "fin": true,
+          "lgt": true,
+          "amm": false,
+          "hvy": false,
+          "fir": false,
+          "foc": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!hhi27SyAzkogamVs.VbKu7IxaPeEqVotB"
+    },
+    {
+      "_id": "k3RbaXAQdcGFTo3B",
+      "name": "Electrified Weapons",
+      "type": "feat",
+      "sort": 0,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "k3RbaXAQdcGFTo3B",
+                "name": "Electrified Weapons",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<section class=\"secret\">\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals an <strong>extra 3 (1d6) <em>lightning damage</em></strong> (included in the attack).</p>\n</section>\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals extra lightning damage (included in the attack).</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "",
+                    "cost": null,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                  },
+                  "ability": null,
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 0,
+                "flags": {},
+                "img": "systems/dnd5e/icons/spells/enchant-sky-3.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/spells/enchant-sky-3.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals an <strong>extra 3 (1d6) <em>lightning damage</em></strong> (included in the attack).</p>\n</section>\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals extra lightning damage (included in the attack).</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!hhi27SyAzkogamVs.k3RbaXAQdcGFTo3B"
+    },
+    {
+      "_id": "VOJnkqSt2EjgttRs",
+      "name": "Limited Amphibiousness",
+      "type": "feat",
+      "sort": 2700001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "VOJnkqSt2EjgttRs",
+                "name": "Limited Amphibiousness",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<section class=\"secret\">\n<p>The Pilot Eel can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</p>\n</section>\n<p>The Pilot Eel can breathe air and water.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "",
+                    "cost": null,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                  },
+                  "ability": null,
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 2700001,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/emerald_05.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/emerald_05.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p>The Pilot Eel can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</p>\n</section>\n<p>The Pilot Eel can breathe air and water.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!hhi27SyAzkogamVs.VOJnkqSt2EjgttRs"
+    },
+    {
+      "_id": "c7YCcz8NMn7FmK95",
+      "name": "Psychic Susceptibility",
+      "type": "feat",
+      "sort": 2800001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "c7YCcz8NMn7FmK95",
+                "name": "Psychic Susceptibility",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<p>If the skeleton takes psychic damage, it must make a Wisdom saving throw with a DC equal to 10, or half the psychic damage it took, whichever is greater. On a failed save, the skeleton is stunned until the end of its next turn. Additionally on a failed save, roll a die. On an odd result, the eel is driven from the body, exiting prone in an unoccupied space within 5 ft. of the skeleton. The skeleton then immediately reverts to inanimate remains.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": "",
+                    "type": ""
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": "",
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": "",
+                    "value": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell",
+                    "value": ""
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 2800001,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/violet_26.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/violet_26.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>If the skeleton takes psychic damage, it must make a Wisdom saving throw with a DC equal to 10, or half the psychic damage it took, whichever is greater. On a failed save, the skeleton is stunned until the end of its next turn. Additionally on a failed save, roll a die. On an odd result, the eel is driven from the body, exiting prone in an unoccupied space within 5 ft. of the skeleton. The skeleton then immediately reverts to inanimate remains.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!hhi27SyAzkogamVs.c7YCcz8NMn7FmK95"
+    },
+    {
+      "_id": "YMUADFsKaq5YetRV",
+      "name": "Multiattack",
+      "type": "feat",
+      "sort": 2900001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "YMUADFsKaq5YetRV",
+                "name": "Multiattack",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<p>The commandant makes two attacks with its cutlass.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": null,
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 2900001,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>The commandant makes two attacks with its cutlass.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!hhi27SyAzkogamVs.YMUADFsKaq5YetRV"
+    },
+    {
+      "_id": "4SdsI61munrGIOuD",
+      "name": "Sneak Attack",
+      "type": "feat",
+      "sort": 3000001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "4SdsI61munrGIOuD",
+                "name": "Sneak Attack",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<section class=\"secret\">Once per turn.</section>\n<p>the commandant deals an extra 10 (3d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the commandant that isn't incapacitated and the commandant doesn't have disadvantage on the attack roll.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "special",
+                    "cost": null,
+                    "condition": "once per turn"
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": null,
+                    "max": null,
+                    "per": "",
+                    "type": ""
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": "dex",
+                  "actionType": "mwak",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [
+                      [
+                        "3d6",
+                        "slashing"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell",
+                    "value": ""
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 3000001,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/red_13.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/red_13.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">Once per turn.</section>\n<p>the commandant deals an extra 10 (3d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the commandant that isn't incapacitated and the commandant doesn't have disadvantage on the attack roll.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "special",
+          "cost": null,
+          "condition": "once per turn"
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": null,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "3d6",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!hhi27SyAzkogamVs.4SdsI61munrGIOuD"
+    }
+  ],
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 14,
@@ -413,41 +1904,14 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {
-    "journal-links": {
-      "references": {}
-    }
-  },
-  "img": "moulinette/images/mytokens/porvenir/tokens/Skeleton-Eel-Boss.png",
-  "token": {
+  "prototypeToken": {
     "flags": {},
     "name": "Pilot Eel Commandant",
     "displayName": 40,
-    "img": "worlds/porvenir/tokens/Skeleton-Eel-Boss.png",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightColor": "",
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "type": "",
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "hhi27SyAzkogamVs",
     "actorLink": false,
     "disposition": -1,
     "displayBars": 20,
@@ -457,1364 +1921,77 @@
     "bar2": {
       "attribute": "attributes.ac.value"
     },
-    "randomImg": false
-  },
-  "items": [
-    {
-      "_id": "Ln7zQUl865vjy5eM",
-      "name": "Lightfooted",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "The commandant can take the Dash or Disengage action as a bonus action on each of its turns.",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": null,
-          "type": null
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 1,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
       },
-      "sort": 200000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "Ln7zQUl865vjy5eM",
-                "name": "Lightfooted",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "The commandant can take the Dash or Disengage action as a bonus action on each of its turns.",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "",
-                    "cost": 0,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": null,
-                    "type": null
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": null,
-                    "amount": null
-                  },
-                  "ability": null,
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 200000,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/armor_01.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/armor_01.jpg",
-      "effects": [],
-      "_key": "!actors.items!hhi27SyAzkogamVs.Ln7zQUl865vjy5eM"
+      "negative": false,
+      "priority": 0,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    {
-      "_id": "TE3P6sGevljJevmG",
-      "name": "Pistol",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "*Ranged Weapon Attack:* +7 to hit, range 30/90 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage.",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "quantity": 1,
-        "weight": 0,
-        "price": 0,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "",
-          "type": null
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "dex",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d10 + @mod",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "simpleM",
-        "properties": {
-          "amm": false,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "hvy": false,
-          "lgt": false,
-          "lod": false,
-          "rch": false,
-          "rel": false,
-          "ret": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 800000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "TE3P6sGevljJevmG",
-                "name": "Pistol",
-                "type": "weapon",
-                "data": {
-                  "description": {
-                    "value": "*Ranged Weapon Attack:* +7 to hit, range 30/90 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage.",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "quantity": 1,
-                  "weight": 0,
-                  "price": 0,
-                  "attuned": false,
-                  "equipped": true,
-                  "rarity": "",
-                  "identified": true,
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": "",
-                    "type": null
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": ""
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": "dex",
-                  "actionType": "mwak",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [
-                      [
-                        "1d10 + @mod",
-                        "piercing"
-                      ]
-                    ],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "armor": {
-                    "value": 10
-                  },
-                  "hp": {
-                    "value": 0,
-                    "max": 0,
-                    "dt": null,
-                    "conditions": ""
-                  },
-                  "weaponType": "simpleM",
-                  "properties": {
-                    "amm": false,
-                    "fin": false,
-                    "fir": false,
-                    "foc": false,
-                    "hvy": false,
-                    "lgt": false,
-                    "lod": false,
-                    "rch": false,
-                    "rel": false,
-                    "ret": false,
-                    "spc": false,
-                    "thr": false,
-                    "two": false,
-                    "ver": false
-                  },
-                  "proficient": true,
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 800000,
-                "flags": {},
-                "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
-      "effects": [],
-      "_key": "!actors.items!hhi27SyAzkogamVs.TE3P6sGevljJevmG"
+    "texture": {
+      "src": "worlds/porvenir/tokens/Skeleton-Eel-Boss.png",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
     },
-    {
-      "_id": "VbKu7IxaPeEqVotB",
-      "name": "Cutlass",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<p>*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage plus 3 (1d6) lightning damage.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB pg. 149",
-        "quantity": 1,
-        "weight": 2,
-        "price": 10,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "Common",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d6 + @mod",
-              "slashing"
-            ],
-            [
-              "1d6",
-              "lightning"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "martialM",
-        "properties": {
-          "fin": true,
-          "lgt": true,
-          "amm": false,
-          "hvy": false,
-          "fir": false,
-          "foc": false,
-          "lod": false,
-          "rch": false,
-          "rel": false,
-          "ret": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 900000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "VbKu7IxaPeEqVotB",
-                "name": "Cutlass",
-                "type": "weapon",
-                "data": {
-                  "description": {
-                    "value": "<p>*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage plus 3 (1d6) lightning damage.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "PHB pg. 149",
-                  "quantity": 1,
-                  "weight": 2,
-                  "price": 10,
-                  "attuned": false,
-                  "equipped": true,
-                  "rarity": "Common",
-                  "identified": true,
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": 5,
-                    "long": null,
-                    "units": "ft"
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": ""
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": "",
-                  "actionType": "mwak",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [
-                      [
-                        "1d6 + @mod",
-                        "slashing"
-                      ],
-                      [
-                        "1d6",
-                        "lightning"
-                      ]
-                    ],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "armor": {
-                    "value": 10
-                  },
-                  "hp": {
-                    "value": 0,
-                    "max": 0,
-                    "dt": null,
-                    "conditions": ""
-                  },
-                  "weaponType": "martialM",
-                  "properties": {
-                    "fin": true,
-                    "lgt": true,
-                    "amm": false,
-                    "hvy": false,
-                    "fir": false,
-                    "foc": false,
-                    "lod": false,
-                    "rch": false,
-                    "rel": false,
-                    "ret": false,
-                    "spc": false,
-                    "thr": false,
-                    "two": false,
-                    "ver": false
-                  },
-                  "proficient": true,
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 900000,
-                "flags": {},
-                "img": "icons/weapons/swords/scimitar-worn-blue.webp",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "icons/weapons/swords/scimitar-worn-blue.webp",
-      "effects": [],
-      "_key": "!actors.items!hhi27SyAzkogamVs.VbKu7IxaPeEqVotB"
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
     },
-    {
-      "_id": "k3RbaXAQdcGFTo3B",
-      "name": "Electrified Weapons",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals an <strong>extra 3 (1d6) <em>lightning damage</em></strong> (included in the attack).</p>\n</section>\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals extra lightning damage (included in the attack).</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 0,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "k3RbaXAQdcGFTo3B",
-                "name": "Electrified Weapons",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "<section class=\"secret\">\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals an <strong>extra 3 (1d6) <em>lightning damage</em></strong> (included in the attack).</p>\n</section>\n<p>The Eel's weapon attacks are magical. When the eel hits with any weapon, the weapon deals extra lightning damage (included in the attack).</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "",
-                    "cost": null,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": null,
-                    "amount": null
-                  },
-                  "ability": null,
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 0,
-                "flags": {},
-                "img": "systems/dnd5e/icons/spells/enchant-sky-3.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/spells/enchant-sky-3.jpg",
-      "effects": [],
-      "_key": "!actors.items!hhi27SyAzkogamVs.k3RbaXAQdcGFTo3B"
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "alpha": 1,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
     },
-    {
-      "_id": "VOJnkqSt2EjgttRs",
-      "name": "Limited Amphibiousness",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p>The Pilot Eel can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</p>\n</section>\n<p>The Pilot Eel can breathe air and water.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
       },
-      "sort": 2700001,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "VOJnkqSt2EjgttRs",
-                "name": "Limited Amphibiousness",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "<section class=\"secret\">\n<p>The Pilot Eel can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</p>\n</section>\n<p>The Pilot Eel can breathe air and water.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "",
-                    "cost": null,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": null,
-                    "amount": null
-                  },
-                  "ability": null,
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 2700001,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/emerald_05.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/emerald_05.jpg",
-      "effects": [],
-      "_key": "!actors.items!hhi27SyAzkogamVs.VOJnkqSt2EjgttRs"
-    },
-    {
-      "_id": "c7YCcz8NMn7FmK95",
-      "name": "Psychic Susceptibility",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p>If the skeleton takes psychic damage, it must make a Wisdom saving throw with a DC equal to 10, or half the psychic damage it took, whichever is greater. On a failed save, the skeleton is stunned until the end of its next turn. Additionally on a failed save, roll a die. On an odd result, the eel is driven from the body, exiting prone in an unoccupied space within 5 ft. of the skeleton. The skeleton then immediately reverts to inanimate remains.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": "",
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell",
-          "value": ""
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 2800001,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "c7YCcz8NMn7FmK95",
-                "name": "Psychic Susceptibility",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "<p>If the skeleton takes psychic damage, it must make a Wisdom saving throw with a DC equal to 10, or half the psychic damage it took, whichever is greater. On a failed save, the skeleton is stunned until the end of its next turn. Additionally on a failed save, roll a die. On an odd result, the eel is driven from the body, exiting prone in an unoccupied space within 5 ft. of the skeleton. The skeleton then immediately reverts to inanimate remains.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "",
-                    "cost": 0,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": "",
-                    "type": ""
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": "",
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": "",
-                    "value": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell",
-                    "value": ""
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 2800001,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/violet_26.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/violet_26.jpg",
-      "effects": [],
-      "_key": "!actors.items!hhi27SyAzkogamVs.c7YCcz8NMn7FmK95"
-    },
-    {
-      "_id": "YMUADFsKaq5YetRV",
-      "name": "Multiattack",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p>The commandant makes two attacks with its cutlass.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 2900001,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "YMUADFsKaq5YetRV",
-                "name": "Multiattack",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "<p>The commandant makes two attacks with its cutlass.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": ""
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": null,
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 2900001,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
-      "effects": [],
-      "_key": "!actors.items!hhi27SyAzkogamVs.YMUADFsKaq5YetRV"
-    },
-    {
-      "_id": "4SdsI61munrGIOuD",
-      "name": "Sneak Attack",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">Once per turn.</section>\n<p>the commandant deals an extra 10 (3d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the commandant that isn't incapacitated and the commandant doesn't have disadvantage on the attack roll.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "special",
-          "cost": null,
-          "condition": "once per turn"
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": null,
-          "max": null,
-          "per": "",
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "dex",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "3d6",
-              "slashing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell",
-          "value": ""
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 3000001,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "4SdsI61munrGIOuD",
-                "name": "Sneak Attack",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "<section class=\"secret\">Once per turn.</section>\n<p>the commandant deals an extra 10 (3d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the commandant that isn't incapacitated and the commandant doesn't have disadvantage on the attack roll.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "special",
-                    "cost": null,
-                    "condition": "once per turn"
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": null,
-                    "max": null,
-                    "per": "",
-                    "type": ""
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": "dex",
-                  "actionType": "mwak",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [
-                      [
-                        "3d6",
-                        "slashing"
-                      ]
-                    ],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell",
-                    "value": ""
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 3000001,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/red_13.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/red_13.jpg",
-      "effects": [],
-      "_key": "!actors.items!hhi27SyAzkogamVs.4SdsI61munrGIOuD"
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     }
-  ],
-  "effects": [],
+  },
+  "folder": null,
   "_key": "!actors!hhi27SyAzkogamVs"
 }

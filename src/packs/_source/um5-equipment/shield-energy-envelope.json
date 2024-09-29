@@ -1,11 +1,79 @@
 {
   "name": "Shield, Energy Envelope",
-  "permission": {
-    "default": 0,
-    "qtb8j5Fh7Hu0wRrz": 3
-  },
   "type": "equipment",
-  "data": {
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": {
+          "0": ""
+        }
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/items/armor/shield.png",
+  "_id": "OzFg8AddQp0VmRpW",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "description": {
       "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-rules.8LYPguczQUxUtxHF]{UM5 Ch.6: Armor} @Compendium[compendiums-mix-dnd5e.um5-rules.gzpa55qoOo6qq2qt]{UM5 Ch.6: Shields Descriptions} @Compendium[compendiums-mix-dnd5e.um5-rules.aMZgpx4YpHpEBjf8]{Tech Level 5}</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">The most advanced active defense system available, the energy shield covers its user only a centimeter from his skin, and thus is capable of protecting against all incoming attacks. Its only drawback is its tendency to neutralize temporarily when its user makes a melee physical attack.<br style=\"box-sizing: border-box; user-select: text;\"></span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Backpack Mount</strong>: The energy envelope does not use up a hand.<br style=\"box-sizing: border-box; user-select: text;\"></span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">@Compendium[compendiums-mix-dnd5e.um5-rules.br89VG05tCUMDv4m]{Hit Points &amp; Threshold}</strong></span><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">: The envelope has its own hit points and threshold, the same as exo-armor. These hit points cannot be repaired; the energy envelope regains all lost hit points after a long rest. <span style=\"text-decoration: underline;\">The energy envelope has 30 hit points and a threshold of 10.</span><br style=\"box-sizing: border-box; user-select: text;\"></span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Limitation</strong>: You lose your shield bonus to AC until the beginning of your next turn if you are hit with a melee attack.</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td width=\"200\"><span class=\"fontstyle0\">Energy Envelope </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">40,000 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">+1 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">— </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">— </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">5 lb. </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">H </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">5</span></td>\n</tr>\n</tbody>\n</table>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\">@Compendium[compendiums-mix-dnd5e.um5-equipment.JKcEAJ4xm2Us5hYN]{Battry Cell, High}</p>",
       "chat": "",
@@ -13,7 +81,10 @@
     },
     "source": "UM5 p.91",
     "quantity": 1,
-    "weight": 5,
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
     "price": 40000,
     "attuned": false,
     "equipped": true,
@@ -21,7 +92,7 @@
     "identified": true,
     "activation": {
       "type": "special",
-      "cost": 0,
+      "cost": null,
       "condition": "When hit, this shield can absorb 10 hp from a single hit, User takes any remaining"
     },
     "duration": {
@@ -82,64 +153,7 @@
     "stealth": false,
     "proficient": true
   },
-  "flags": {
-    "betterRolls5e": {
-      "critRange": {
-        "type": "String",
-        "value": ""
-      },
-      "critDamage": {
-        "type": "String",
-        "value": ""
-      },
-      "quickDesc": {
-        "type": "Boolean",
-        "value": true,
-        "altValue": true
-      },
-      "quickAttack": {
-        "type": "Boolean",
-        "value": true,
-        "altValue": true
-      },
-      "quickSave": {
-        "type": "Boolean",
-        "value": true,
-        "altValue": true
-      },
-      "quickDamage": {
-        "type": "Array",
-        "value": [],
-        "altValue": [],
-        "context": {
-          "0": ""
-        }
-      },
-      "quickProperties": {
-        "type": "Boolean",
-        "value": true,
-        "altValue": true
-      },
-      "quickCharges": {
-        "type": "Boolean",
-        "value": true,
-        "altValue": true
-      },
-      "quickOther": {
-        "type": "Boolean",
-        "value": true,
-        "altValue": true,
-        "context": ""
-      },
-      "quickFlavor": {
-        "type": "Boolean",
-        "value": true,
-        "altValue": true
-      }
-    }
-  },
-  "img": "systems/dnd5e/icons/items/armor/shield.png",
-  "_id": "OzFg8AddQp0VmRpW",
-  "effects": [],
+  "folder": null,
+  "sort": 0,
   "_key": "!items!OzFg8AddQp0VmRpW"
 }

@@ -1,11 +1,24 @@
 {
   "name": "Cain",
-  "permission": {
-    "default": 0,
-    "N8RgN1jdDFyXuWNq": 3
-  },
   "type": "weapon",
-  "data": {
+  "flags": {},
+  "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/spcheavy.svg",
+  "_id": "brsNPAz00i2ujeGx",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "description": {
       "value": "<ul>\n<li>Range: 120m</li>\n<li>Charges: 5</li>\n</ul>\n<p>As an Attack, choose a location within 120m and begin targeting. If you remain targeting until the start of your next turn, you can choose to continue targeting, consuming another charge, or you may use an Attack to fire the Cain. When fired, any creature within 2m of the target location automatically fails the saving throw. Creatures within 10m of the target make a DC 18 Dexterity saving throw. On a failed save, a creature takes X + 5d12 radient damage where X is the number of charges you used multiplied by 2. On a success, a creature takes half damage.</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -13,7 +26,10 @@
     },
     "source": "Me5e",
     "quantity": 1,
-    "weight": 11,
+    "weight": {
+      "value": 11,
+      "units": "lb"
+    },
     "price": 82500,
     "attuned": false,
     "equipped": false,
@@ -21,7 +37,7 @@
     "identified": true,
     "activation": {
       "type": "",
-      "cost": 0,
+      "cost": null,
       "condition": ""
     },
     "duration": {
@@ -39,7 +55,7 @@
       "units": ""
     },
     "uses": {
-      "value": 0,
+      "value": null,
       "max": 0,
       "per": null
     },
@@ -98,9 +114,7 @@
     },
     "proficient": true
   },
-  "flags": {},
-  "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/spcheavy.svg",
-  "_id": "brsNPAz00i2ujeGx",
-  "effects": [],
+  "folder": null,
+  "sort": 0,
   "_key": "!items!brsNPAz00i2ujeGx"
 }

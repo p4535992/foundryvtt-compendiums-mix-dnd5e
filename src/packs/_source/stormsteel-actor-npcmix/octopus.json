@@ -1,12 +1,913 @@
 {
   "_id": "VpcacDOh5V4RnQIL",
   "name": "Octopus",
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
   "type": "npc",
-  "data": {
+  "sort": 100001,
+  "flags": {
+    "journal-links": {
+      "references": {}
+    }
+  },
+  "img": "systems/dnd5e/tokens/beast/Octopus.png",
+  "items": [
+    {
+      "_id": "SLnyx0Ta2ksVM9QL",
+      "name": "Tentacles",
+      "type": "weapon",
+      "sort": 100000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "SLnyx0Ta2ksVM9QL",
+                "name": "Tentacles",
+                "type": "weapon",
+                "data": {
+                  "description": {
+                    "value": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+4 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit:<strong> 1 <em>bludgeoning damage</em>.</strong></p><p>The target is grappled (escape DC 10). Until this grapple ends, the octopus can't use its tentacles on another target.</p></section><p>The Octopus attacks with its Tentacles. The target is grappled . Until this grapple ends, the octopus can't use its tentacles on another target.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "quantity": 1,
+                  "weight": 0,
+                  "price": 0,
+                  "attuned": false,
+                  "equipped": true,
+                  "rarity": "",
+                  "identified": true,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": 5,
+                    "long": null,
+                    "units": "ft"
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": "dex",
+                  "actionType": "mwak",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [
+                      [
+                        "1",
+                        "bludgeoning"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "armor": {
+                    "value": 10
+                  },
+                  "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                  },
+                  "weaponType": "natural",
+                  "properties": {
+                    "amm": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "hvy": false,
+                    "lgt": false,
+                    "lod": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                  },
+                  "proficient": true,
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 100000,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/green_02.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/green_02.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+4 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit:<strong> 1 <em>bludgeoning damage</em>.</strong></p><p>The target is grappled (escape DC 10). Until this grapple ends, the octopus can't use its tentacles on another target.</p></section><p>The Octopus attacks with its Tentacles. The target is grappled . Until this grapple ends, the octopus can't use its tentacles on another target.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 0,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!VpcacDOh5V4RnQIL.SLnyx0Ta2ksVM9QL"
+    },
+    {
+      "_id": "TKztZERtXehbxu2q",
+      "name": "Hold Breath",
+      "type": "feat",
+      "sort": 200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "TKztZERtXehbxu2q",
+                "name": "Hold Breath",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<p>While out of water, the octopus can hold its breath for <strong>30 minutes</strong>.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "",
+                    "cost": null,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                  },
+                  "ability": null,
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 200000,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/blue_36.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/blue_36.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>While out of water, the octopus can hold its breath for <strong>30 minutes</strong>.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!VpcacDOh5V4RnQIL.TKztZERtXehbxu2q"
+    },
+    {
+      "_id": "ODM4yi5BKpC4Hohw",
+      "name": "Underwater Camouflage",
+      "type": "feat",
+      "sort": 300000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "ODM4yi5BKpC4Hohw",
+                "name": "Underwater Camouflage",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<p>The octopus has<strong> advantage </strong>on Dexterity (Stealth) checks made while underwater.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "",
+                    "cost": null,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                  },
+                  "ability": null,
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 300000,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/blue_16.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/blue_16.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>The octopus has<strong> advantage </strong>on Dexterity (Stealth) checks made while underwater.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!VpcacDOh5V4RnQIL.ODM4yi5BKpC4Hohw"
+    },
+    {
+      "_id": "LZOszBNIg9oMej4l",
+      "name": "Water Breathing",
+      "type": "feat",
+      "sort": 400000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "LZOszBNIg9oMej4l",
+                "name": "Water Breathing",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<p>The octopus can breathe only underwater.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "",
+                    "cost": null,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                  },
+                  "ability": null,
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 400000,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/blue_12.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/blue_12.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p>The octopus can breathe only underwater.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!VpcacDOh5V4RnQIL.LZOszBNIg9oMej4l"
+    },
+    {
+      "_id": "8qYBpaA8c3BuBujY",
+      "name": "Ink Cloud",
+      "type": "feat",
+      "sort": 500000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "8qYBpaA8c3BuBujY",
+                "name": "Ink Cloud",
+                "type": "feat",
+                "data": {
+                  "description": {
+                    "value": "<section class=\"secret\"><p>A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.</p><p></p></section><p>A 5-foot-radius cloud of ink extends all around the octopus if it is underwater.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "",
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 1,
+                    "units": "minute"
+                  },
+                  "target": {
+                    "value": 5,
+                    "units": "ft",
+                    "type": "radius"
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
+                  },
+                  "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": "sr"
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": null,
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "requirements": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": true
+                  },
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 500000,
+                "flags": {},
+                "img": "systems/dnd5e/icons/skills/emerald_09.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/skills/emerald_09.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\"><p>A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.</p><p></p></section><p>A 5-foot-radius cloud of ink extends all around the octopus if it is underwater.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": 5,
+          "width": null,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "sr"
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": true
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!VpcacDOh5V4RnQIL.8qYBpaA8c3BuBujY"
+    }
+  ],
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 4,
@@ -426,37 +1327,14 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {
-    "journal-links": {
-      "references": {}
-    }
-  },
-  "img": "systems/dnd5e/tokens/beast/Octopus.png",
-  "token": {
+  "prototypeToken": {
     "flags": {},
     "name": "Octopus",
     "displayName": 40,
-    "img": "systems/dnd5e/tokens/beast/Octopus.png",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 1,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 30,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "VpcacDOh5V4RnQIL",
     "actorLink": false,
     "disposition": 0,
     "displayBars": 20,
@@ -466,819 +1344,77 @@
     "bar2": {
       "attribute": "attributes.ac.value"
     },
-    "randomImg": false
-  },
-  "items": [
-    {
-      "_id": "SLnyx0Ta2ksVM9QL",
-      "name": "Tentacles",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+4 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit:<strong> 1 <em>bludgeoning damage</em>.</strong></p><p>The target is grappled (escape DC 10). Until this grapple ends, the octopus can't use its tentacles on another target.</p></section><p>The Octopus attacks with its Tentacles. The target is grappled . Until this grapple ends, the octopus can't use its tentacles on another target.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "quantity": 1,
-        "weight": 0,
-        "price": 0,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "dex",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1",
-              "bludgeoning"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "natural",
-        "properties": {
-          "amm": false,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "hvy": false,
-          "lgt": false,
-          "lod": false,
-          "rch": false,
-          "rel": false,
-          "ret": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "alpha": 1,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
       },
-      "sort": 100000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "SLnyx0Ta2ksVM9QL",
-                "name": "Tentacles",
-                "type": "weapon",
-                "data": {
-                  "description": {
-                    "value": "<section class=\"secret\"><p><em>Melee Weapon Attack:</em><strong>+4 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit:<strong> 1 <em>bludgeoning damage</em>.</strong></p><p>The target is grappled (escape DC 10). Until this grapple ends, the octopus can't use its tentacles on another target.</p></section><p>The Octopus attacks with its Tentacles. The target is grappled . Until this grapple ends, the octopus can't use its tentacles on another target.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "quantity": 1,
-                  "weight": 0,
-                  "price": 0,
-                  "attuned": false,
-                  "equipped": true,
-                  "rarity": "",
-                  "identified": true,
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": 5,
-                    "long": null,
-                    "units": "ft"
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": ""
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": "dex",
-                  "actionType": "mwak",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [
-                      [
-                        "1",
-                        "bludgeoning"
-                      ]
-                    ],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "flat"
-                  },
-                  "armor": {
-                    "value": 10
-                  },
-                  "hp": {
-                    "value": 0,
-                    "max": 0,
-                    "dt": null,
-                    "conditions": ""
-                  },
-                  "weaponType": "natural",
-                  "properties": {
-                    "amm": false,
-                    "fin": false,
-                    "fir": false,
-                    "foc": false,
-                    "hvy": false,
-                    "lgt": false,
-                    "lod": false,
-                    "rch": false,
-                    "rel": false,
-                    "ret": false,
-                    "spc": false,
-                    "thr": false,
-                    "two": false,
-                    "ver": false
-                  },
-                  "proficient": true,
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 100000,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/green_02.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/green_02.jpg",
-      "effects": [],
-      "_key": "!actors.items!VpcacDOh5V4RnQIL.SLnyx0Ta2ksVM9QL"
+      "negative": false,
+      "priority": 0,
+      "color": null,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    {
-      "_id": "TKztZERtXehbxu2q",
-      "name": "Hold Breath",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p>While out of water, the octopus can hold its breath for <strong>30 minutes</strong>.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 200000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "TKztZERtXehbxu2q",
-                "name": "Hold Breath",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "<p>While out of water, the octopus can hold its breath for <strong>30 minutes</strong>.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "",
-                    "cost": null,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": null,
-                    "amount": null
-                  },
-                  "ability": null,
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 200000,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/blue_36.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/blue_36.jpg",
-      "effects": [],
-      "_key": "!actors.items!VpcacDOh5V4RnQIL.TKztZERtXehbxu2q"
+    "texture": {
+      "src": "systems/dnd5e/tokens/beast/Octopus.png",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
     },
-    {
-      "_id": "ODM4yi5BKpC4Hohw",
-      "name": "Underwater Camouflage",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p>The octopus has<strong> advantage </strong>on Dexterity (Stealth) checks made while underwater.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 300000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "ODM4yi5BKpC4Hohw",
-                "name": "Underwater Camouflage",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "<p>The octopus has<strong> advantage </strong>on Dexterity (Stealth) checks made while underwater.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "",
-                    "cost": null,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": null,
-                    "amount": null
-                  },
-                  "ability": null,
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 300000,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/blue_16.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/blue_16.jpg",
-      "effects": [],
-      "_key": "!actors.items!VpcacDOh5V4RnQIL.ODM4yi5BKpC4Hohw"
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 30,
+      "brightness": 0,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
     },
-    {
-      "_id": "LZOszBNIg9oMej4l",
-      "name": "Water Breathing",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p>The octopus can breathe only underwater.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 400000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "LZOszBNIg9oMej4l",
-                "name": "Water Breathing",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "<p>The octopus can breathe only underwater.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "",
-                    "cost": null,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": null,
-                    "amount": null
-                  },
-                  "ability": null,
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 400000,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/blue_12.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/blue_12.jpg",
-      "effects": [],
-      "_key": "!actors.items!VpcacDOh5V4RnQIL.LZOszBNIg9oMej4l"
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "alpha": 1,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
     },
-    {
-      "_id": "8qYBpaA8c3BuBujY",
-      "name": "Ink Cloud",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\"><p>A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.</p><p></p></section><p>A 5-foot-radius cloud of ink extends all around the octopus if it is underwater.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": 1,
-          "units": "minute"
-        },
-        "target": {
-          "value": 5,
-          "width": null,
-          "units": "ft",
-          "type": "radius"
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "self"
-        },
-        "uses": {
-          "value": 1,
-          "max": 1,
-          "per": "sr"
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": true
-        },
-        "attributes": {
-          "spelldc": 10
-        }
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
       },
-      "sort": 500000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "8qYBpaA8c3BuBujY",
-                "name": "Ink Cloud",
-                "type": "feat",
-                "data": {
-                  "description": {
-                    "value": "<section class=\"secret\"><p>A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.</p><p></p></section><p>A 5-foot-radius cloud of ink extends all around the octopus if it is underwater.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "",
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": 1,
-                    "units": "minute"
-                  },
-                  "target": {
-                    "value": 5,
-                    "units": "ft",
-                    "type": "radius"
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": "self"
-                  },
-                  "uses": {
-                    "value": 1,
-                    "max": 1,
-                    "per": "sr"
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": null,
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "requirements": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": true
-                  },
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 500000,
-                "flags": {},
-                "img": "systems/dnd5e/icons/skills/emerald_09.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/skills/emerald_09.jpg",
-      "effects": [],
-      "_key": "!actors.items!VpcacDOh5V4RnQIL.8qYBpaA8c3BuBujY"
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     }
-  ],
-  "effects": [],
+  },
+  "folder": null,
   "_key": "!actors!VpcacDOh5V4RnQIL"
 }

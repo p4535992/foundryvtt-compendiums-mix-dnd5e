@@ -2,15 +2,84 @@
   "name": "Oil of Quickstone",
   "type": "consumable",
   "img": "icons/svg/blood.svg",
-  "data": {
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "betterRolls5e": {
+      "quickOther": {
+        "context": "",
+        "value": true,
+        "altValue": true
+      },
+      "critRange": {
+        "value": null
+      },
+      "critDamage": {
+        "value": ""
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickTemplate": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "value": {
+          "quantity": false,
+          "use": true
+        },
+        "altValue": {
+          "quantity": false,
+          "use": true
+        }
+      }
+    }
+  },
+  "_id": "gAIcTwubDVt6tA0u",
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "description": {
-      "value": "<p id=\"docs-internal-guid-803d3f8b-7fff-b61a-fef4-bbf70657a7e3\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:12pt\"><span style=\"font-size:12pt;font-family:Arial;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">This viscous substance is said to have been made from xorn saliva and other less savory ingredients, and is stored in a bottle that is intended to shatter on impact. When thrown, any stony 5x5 square it lands in turns into a viscous soup for 1 minute. Anyone in the square when the oil impacts can attempt a DC 15 Dex save to move into an adjacent square and avoid the effect. Anyone remaining in the affected area, and anyone who enters the area thereafter, begins to sink into the stoney soup and is restrained. Attempting to escape takes an action, and succeeds with a DC 15 Strength (Athletics) check. At the end of the duration, the stone solidifies, trapping anyone still inside. When solidified, the DC to escape rises to 25, and the target is incapacitated rather than restrained.</span></p>\n<p style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><span style=\"font-size:12pt;font-family:Arial;font-style:italic;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">“Sometimes I toss it at the giants’ feet,” the dragon explains. “They’re too big to stick in it, so it just trips them up. </span><span style=\"font-size:12pt;font-family:Arial;font-style:italic;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">Not sure which is more </span><span style=\"font-size:12pt;font-family:Arial;font-style:italic;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">hilarious, their stumbling </span><span style=\"font-size:12pt;font-family:Arial;font-style:italic;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">about or their cursing!”</span></p>",
+      "value": "<p id=\"docs-internal-guid-803d3f8b-7fff-b61a-fef4-bbf70657a7e3\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:12pt\"><span style=\"font-size:12pt;font-family:Arial;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">This viscous substance is said to have been made from xorn saliva and other less savory ingredients, and is stored in a bottle that is intended to shatter on impact. When thrown, any stony 5x5 square it lands in turns into a viscous soup for 1 minute. Anyone in the square when the oil impacts can attempt a DC 15 Dex save to move into an adjacent square and avoid the effect. Anyone remaining in the affected area, and anyone who enters the area thereafter, begins to sink into the stoney soup and is restrained. Attempting to escape takes an action, and succeeds with a DC 15 Strength (Athletics) check. At the end of the duration, the stone solidifies, trapping anyone still inside. When solidified, the DC to escape rises to 25, and the target is incapacitated rather than restrained.</span></p>\n<p style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt\"><span style=\"font-size:12pt;font-family:Arial;font-style:italic;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">\"Sometimes I toss it at the giants' feet,\" the dragon explains. \"They're too big to stick in it, so it just trips them up. </span><span style=\"font-size:12pt;font-family:Arial;font-style:italic;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">Not sure which is more </span><span style=\"font-size:12pt;font-family:Arial;font-style:italic;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">hilarious, their stumbling </span><span style=\"font-size:12pt;font-family:Arial;font-style:italic;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">about or their cursing!\"</span></p>",
       "chat": "",
       "unidentified": ""
     },
     "source": "Copper Dragon Games",
     "quantity": 1,
-    "weight": 0,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
     "price": 0,
     "attuned": false,
     "attunement": 0,
@@ -65,62 +134,5 @@
     },
     "consumableType": "potion"
   },
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
-    "default": 0,
-    "qHcbfM9SXP8X4UKu": 3
-  },
-  "flags": {
-    "betterRolls5e": {
-      "quickOther": {
-        "context": "",
-        "value": true,
-        "altValue": true
-      },
-      "critRange": {
-        "value": null
-      },
-      "critDamage": {
-        "value": ""
-      },
-      "quickDesc": {
-        "value": true,
-        "altValue": true
-      },
-      "quickAttack": {
-        "value": true,
-        "altValue": true
-      },
-      "quickSave": {
-        "value": true,
-        "altValue": true
-      },
-      "quickProperties": {
-        "value": true,
-        "altValue": true
-      },
-      "quickTemplate": {
-        "value": true,
-        "altValue": true
-      },
-      "quickFlavor": {
-        "value": true,
-        "altValue": true
-      },
-      "quickCharges": {
-        "value": {
-          "quantity": false,
-          "use": true
-        },
-        "altValue": {
-          "quantity": false,
-          "use": true
-        }
-      }
-    }
-  },
-  "_id": "gAIcTwubDVt6tA0u",
   "_key": "!items!gAIcTwubDVt6tA0u"
 }

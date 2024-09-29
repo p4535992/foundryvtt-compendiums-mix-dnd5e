@@ -1,12 +1,462 @@
 {
   "_id": "35XDttAAtXxbU1dH",
   "name": "Kerberos Assault Trooper",
-  "permission": {
-    "default": 0,
-    "N8RgN1jdDFyXuWNq": 3
-  },
   "type": "npc",
-  "data": {
+  "sort": 100001,
+  "flags": {},
+  "img": "",
+  "items": [
+    {
+      "_id": "IDzbT3WsdPs9eTSi",
+      "flags": {},
+      "name": "Stun Baton",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/items/weapons/staff-blue.jpg",
+      "sort": 100000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<ul>\n<li>Range: 2m</li>\n<li>Heat: N/A</li>\n</ul>\n<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Stun Baton.</em></span>&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Melee Weapon Attack:</em>&nbsp;+1 to hit, reach 2m, one target.&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Hit:</em> 4 (1d6 + 1) bludgeoning damage and the target takes 2 (1d4) lightning damage. If the target is maintaining a concentration spell, it automatically fails its saving throw to maintain that spell.</p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Me5e",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": 13500,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Uncommon",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6+1",
+              "bludgeoning"
+            ],
+            [
+              "1d4",
+              "lightning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {
+          "amm": false,
+          "arc": false,
+          "bst": false,
+          "dtp": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "het": false,
+          "hvy": false,
+          "hip": false,
+          "lgt": true,
+          "lod": false,
+          "rch": false,
+          "coi": false,
+          "rel": false,
+          "ret": false,
+          "snt": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": false
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!35XDttAAtXxbU1dH.IDzbT3WsdPs9eTSi"
+    },
+    {
+      "_id": "ECMdnxwQuyjERSLn",
+      "flags": {},
+      "name": "Hornet",
+      "type": "weapon",
+      "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/uncsmg.svg",
+      "sort": 200000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<ul>\n<li>Range: 8/24m</li>\n<li>Heat: 6</li>\n</ul>\n<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">M-25 Hornet (double tap, hip fire, burst fire).</em></span>&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Ranged Weapon Attack:</em>&nbsp;+1 to hit, range (8/24m), one target.&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Hit:</em>&nbsp;6 (2d4 + 1) piercing damage</p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "Me5e",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": 15000,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Uncommon",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "2d4+1",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "smg",
+        "properties": {
+          "amm": false,
+          "arc": false,
+          "bst": true,
+          "dtp": true,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "het": false,
+          "hvy": false,
+          "hip": true,
+          "lgt": true,
+          "lod": false,
+          "rch": false,
+          "coi": false,
+          "rel": false,
+          "ret": false,
+          "snt": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": false
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!35XDttAAtXxbU1dH.ECMdnxwQuyjERSLn"
+    },
+    {
+      "_id": "y2oR47Zd8yXKv1H7",
+      "flags": {},
+      "name": "Frag Grenade",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/items/inventory/bomb.jpg",
+      "sort": 300000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><span style=\"font-family: BookSanity;\"><span style=\"font-size: 11.9811px;\"><strong>Frag Grenade (2/day)</strong>. Target an area within 10m. Each creature within 4m of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one.</span></span></p>\n</section>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "ME5e",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 0,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 4,
+          "units": "ft",
+          "type": "radius"
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": "",
+          "autoDestroy": false
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "3d12",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": 13,
+          "scaling": "flat"
+        },
+        "consumableType": "rod"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!35XDttAAtXxbU1dH.y2oR47Zd8yXKv1H7"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "texture": {
+      "src": "",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "name": "Kerberos Assault Trooper",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 12,
@@ -407,340 +857,6 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {},
-  "img": "",
-  "token": {
-    "flags": {},
-    "name": "k",
-    "displayName": 0,
-    "img": "icons/svg/mystery-man.svg",
-    "tint": null,
-    "width": 1,
-    "height": 1,
-    "scale": 1,
-    "lockRotation": false,
-    "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightAlpha": 1,
-    "actorId": "35XDttAAtXxbU1dH",
-    "actorLink": false,
-    "actorData": {},
-    "disposition": -1,
-    "displayBars": 0,
-    "bar1": {},
-    "bar2": {},
-    "randomImg": false
-  },
-  "items": [
-    {
-      "_id": "IDzbT3WsdPs9eTSi",
-      "flags": {},
-      "name": "Stun Baton",
-      "type": "weapon",
-      "img": "systems/dnd5e/icons/items/weapons/staff-blue.jpg",
-      "data": {
-        "description": {
-          "value": "<ul>\n<li>Range: 2m</li>\n<li>Heat: N/A</li>\n</ul>\n<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Stun Baton.</em></span>&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Melee Weapon Attack:</em>&nbsp;+1 to hit, reach 2m, one target.&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Hit:</em> 4 (1d6 + 1) bludgeoning damage and the target takes 2 (1d4) lightning damage. If the target is maintaining a concentration spell, it automatically fails its saving throw to maintain that spell.</p>\n</section>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "Me5e",
-        "quantity": 1,
-        "weight": 1,
-        "price": 13500,
-        "attuned": false,
-        "equipped": true,
-        "rarity": "Uncommon",
-        "identified": true,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "rwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d6+1",
-              "bludgeoning"
-            ],
-            [
-              "1d4",
-              "lightning"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "simpleM",
-        "properties": {
-          "amm": false,
-          "arc": false,
-          "bst": false,
-          "dtp": false,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "het": false,
-          "hvy": false,
-          "hip": false,
-          "lgt": true,
-          "lod": false,
-          "rch": false,
-          "coi": false,
-          "rel": false,
-          "ret": false,
-          "snt": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": false
-      },
-      "sort": 100000,
-      "effects": [],
-      "_key": "!actors.items!35XDttAAtXxbU1dH.IDzbT3WsdPs9eTSi"
-    },
-    {
-      "_id": "ECMdnxwQuyjERSLn",
-      "flags": {},
-      "name": "Hornet",
-      "type": "weapon",
-      "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/uncsmg.svg",
-      "data": {
-        "description": {
-          "value": "<ul>\n<li>Range: 8/24m</li>\n<li>Heat: 6</li>\n</ul>\n<section class=\"secret\">\n<p><span style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-weight: 800; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: -0.02em;\"><em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">M-25 Hornet (double tap, hip fire, burst fire).</em></span>&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Ranged Weapon Attack:</em>&nbsp;+1 to hit, range (8/24m), one target.&nbsp;<em style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; vertical-align: baseline; margin: 0px; padding: 0px;\">Hit:</em>&nbsp;6 (2d4 + 1) piercing damage</p>\n</section>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "Me5e",
-        "quantity": 1,
-        "weight": 1,
-        "price": 15000,
-        "attuned": false,
-        "equipped": true,
-        "rarity": "Uncommon",
-        "identified": true,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "rwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "2d4+1",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "smg",
-        "properties": {
-          "amm": false,
-          "arc": false,
-          "bst": true,
-          "dtp": true,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "het": false,
-          "hvy": false,
-          "hip": true,
-          "lgt": true,
-          "lod": false,
-          "rch": false,
-          "coi": false,
-          "rel": false,
-          "ret": false,
-          "snt": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": false
-      },
-      "sort": 200000,
-      "effects": [],
-      "_key": "!actors.items!35XDttAAtXxbU1dH.ECMdnxwQuyjERSLn"
-    },
-    {
-      "_id": "y2oR47Zd8yXKv1H7",
-      "flags": {},
-      "name": "Frag Grenade",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/items/inventory/bomb.jpg",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p><span style=\"font-family: BookSanity;\"><span style=\"font-size: 11.9811px;\"><strong>Frag Grenade (2/day)</strong>. Target an area within 10m. Each creature within 4m of the target must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d12 piercing damage or half as much damage on a successful one.</span></span></p>\n</section>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "ME5e",
-        "quantity": 1,
-        "weight": 0,
-        "price": 0,
-        "attuned": false,
-        "equipped": false,
-        "rarity": "",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": 4,
-          "units": "ft",
-          "type": "radius"
-        },
-        "range": {
-          "value": 10,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": "",
-          "autoDestroy": false
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "save",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "3d12",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "dex",
-          "dc": 13,
-          "scaling": "flat"
-        },
-        "consumableType": "rod"
-      },
-      "sort": 300000,
-      "effects": [],
-      "_key": "!actors.items!35XDttAAtXxbU1dH.y2oR47Zd8yXKv1H7"
-    }
-  ],
-  "effects": [],
-  "prototypeToken": {
-    "texture": {
-      "src": ""
-    }
-  },
+  "folder": null,
   "_key": "!actors!35XDttAAtXxbU1dH"
 }

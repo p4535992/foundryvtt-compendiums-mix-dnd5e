@@ -1,12 +1,499 @@
 {
   "_id": "1aM2fGMFyd2C3oQ6",
   "name": "Skeleton",
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
   "type": "npc",
-  "data": {
+  "sort": 100001,
+  "flags": {
+    "journal-links": {
+      "references": {}
+    }
+  },
+  "img": "moulinette/images/mytokens/porvenir/tokens/SkeletonCaptainSwordFlintlock.png",
+  "items": [
+    {
+      "_id": "hrTC2vP0xMgI8q8y",
+      "name": "Shortbow",
+      "type": "weapon",
+      "sort": 2600001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "hrTC2vP0xMgI8q8y",
+                "name": "Shortbow",
+                "type": "weapon",
+                "data": {
+                  "description": {
+                    "value": "<section class=\"secret\">\n<p>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: <strong>5 (1d6 + 2) <em>piercing damage</em></strong>.</p></section>\n<p>The Skeleton attacks with its Shortbow.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "PHB pg. 149",
+                  "quantity": 1,
+                  "weight": 2,
+                  "price": 25,
+                  "attuned": false,
+                  "equipped": true,
+                  "rarity": "Common",
+                  "identified": true,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": 0,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": 0,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": 80,
+                    "long": 320,
+                    "units": "ft"
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": "",
+                  "actionType": "rwak",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d6 + @mod",
+                        "piercing"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "armor": {
+                    "value": 10
+                  },
+                  "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                  },
+                  "weaponType": "simpleR",
+                  "properties": {
+                    "two": true,
+                    "amm": true,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "ver": false,
+                    "lod": false
+                  },
+                  "proficient": true,
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 2600001,
+                "flags": {},
+                "img": "systems/dnd5e/icons/items/weapons/bow-short.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/items/weapons/bow-short.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: <strong>5 (1d6 + 2) <em>piercing damage</em></strong>.</p></section>\n<p>The Skeleton attacks with its Shortbow.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 149",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": 25,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 80,
+          "long": 320,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleR",
+        "properties": {
+          "two": true,
+          "amm": true,
+          "hvy": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "lgt": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "ver": false,
+          "lod": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1aM2fGMFyd2C3oQ6.hrTC2vP0xMgI8q8y"
+    },
+    {
+      "_id": "qXbbvudRpBoul3bH",
+      "name": "Shortsword",
+      "type": "weapon",
+      "sort": 2700001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "qXbbvudRpBoul3bH",
+                "name": "Shortsword",
+                "type": "weapon",
+                "data": {
+                  "description": {
+                    "value": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+4 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>5 (1d6 + 2) <em>piercing damage</em></strong>.</p></section>\n<p>The Skeleton attacks with its Shortsword.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "PHB pg. 149",
+                  "quantity": 1,
+                  "weight": 2,
+                  "price": 10,
+                  "attuned": false,
+                  "equipped": true,
+                  "rarity": "Common",
+                  "identified": true,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": 5,
+                    "long": null,
+                    "units": "ft"
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "ability": "",
+                  "actionType": "mwak",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d6 + @mod",
+                        "piercing"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "armor": {
+                    "value": 10
+                  },
+                  "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                  },
+                  "weaponType": "martialM",
+                  "properties": {
+                    "fin": true,
+                    "lgt": true,
+                    "amm": false,
+                    "hvy": false,
+                    "fir": false,
+                    "foc": false,
+                    "lod": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                  },
+                  "proficient": true,
+                  "attributes": {
+                    "spelldc": 10
+                  }
+                },
+                "sort": 2700001,
+                "flags": {},
+                "img": "systems/dnd5e/icons/items/weapons/sword-short.jpg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/dnd5e/icons/items/weapons/sword-short.jpg",
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+4 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>5 (1d6 + 2) <em>piercing damage</em></strong>.</p></section>\n<p>The Skeleton attacks with its Shortsword.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 149",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": 10,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "properties": {
+          "fin": true,
+          "lgt": true,
+          "amm": false,
+          "hvy": false,
+          "fir": false,
+          "foc": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1aM2fGMFyd2C3oQ6.qXbbvudRpBoul3bH"
+    }
+  ],
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 10,
@@ -434,41 +921,14 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {
-    "journal-links": {
-      "references": {}
-    }
-  },
-  "img": "moulinette/images/mytokens/porvenir/tokens/SkeletonCaptainSwordFlintlock.png",
-  "token": {
+  "prototypeToken": {
     "flags": {},
     "name": "Skeleton",
     "displayName": 40,
-    "img": "worlds/porvenir/tokens/SkeletonCaptainSwordFlintlock.png",
-    "tint": "",
     "width": 1,
     "height": 1,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 60,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightColor": "",
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "type": "",
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "1aM2fGMFyd2C3oQ6",
     "actorLink": false,
     "disposition": -1,
     "displayBars": 20,
@@ -478,444 +938,77 @@
     "bar2": {
       "attribute": "attributes.ac.value"
     },
-    "randomImg": false
-  },
-  "items": [
-    {
-      "_id": "hrTC2vP0xMgI8q8y",
-      "name": "Shortbow",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: <strong>5 (1d6 + 2) <em>piercing damage</em></strong>.</p></section>\n<p>The Skeleton attacks with its Shortbow.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB pg. 149",
-        "quantity": 1,
-        "weight": 2,
-        "price": 25,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "Common",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": 0,
-          "units": ""
-        },
-        "target": {
-          "value": 0,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 80,
-          "long": 320,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "rwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d6 + @mod",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "simpleR",
-        "properties": {
-          "two": true,
-          "amm": true,
-          "hvy": false,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "lgt": false,
-          "rch": false,
-          "rel": false,
-          "ret": false,
-          "spc": false,
-          "thr": false,
-          "ver": false,
-          "lod": false
-        },
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 1,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
       },
-      "sort": 2600001,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "hrTC2vP0xMgI8q8y",
-                "name": "Shortbow",
-                "type": "weapon",
-                "data": {
-                  "description": {
-                    "value": "<section class=\"secret\">\n<p>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: <strong>5 (1d6 + 2) <em>piercing damage</em></strong>.</p></section>\n<p>The Skeleton attacks with its Shortbow.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "PHB pg. 149",
-                  "quantity": 1,
-                  "weight": 2,
-                  "price": 25,
-                  "attuned": false,
-                  "equipped": true,
-                  "rarity": "Common",
-                  "identified": true,
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": 0,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": 0,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": 80,
-                    "long": 320,
-                    "units": "ft"
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": ""
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": "",
-                  "actionType": "rwak",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [
-                      [
-                        "1d6 + @mod",
-                        "piercing"
-                      ]
-                    ],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "armor": {
-                    "value": 10
-                  },
-                  "hp": {
-                    "value": 0,
-                    "max": 0,
-                    "dt": null,
-                    "conditions": ""
-                  },
-                  "weaponType": "simpleR",
-                  "properties": {
-                    "two": true,
-                    "amm": true,
-                    "hvy": false,
-                    "fin": false,
-                    "fir": false,
-                    "foc": false,
-                    "lgt": false,
-                    "rch": false,
-                    "rel": false,
-                    "ret": false,
-                    "spc": false,
-                    "thr": false,
-                    "ver": false,
-                    "lod": false
-                  },
-                  "proficient": true,
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 2600001,
-                "flags": {},
-                "img": "systems/dnd5e/icons/items/weapons/bow-short.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/items/weapons/bow-short.jpg",
-      "effects": [],
-      "_key": "!actors.items!1aM2fGMFyd2C3oQ6.hrTC2vP0xMgI8q8y"
+      "negative": false,
+      "priority": 0,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    {
-      "_id": "qXbbvudRpBoul3bH",
-      "name": "Shortsword",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+4 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>5 (1d6 + 2) <em>piercing damage</em></strong>.</p></section>\n<p>The Skeleton attacks with its Shortsword.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB pg. 149",
-        "quantity": 1,
-        "weight": 2,
-        "price": 10,
-        "attuned": false,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "Common",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d6 + @mod",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "martialM",
-        "properties": {
-          "fin": true,
-          "lgt": true,
-          "amm": false,
-          "hvy": false,
-          "fir": false,
-          "foc": false,
-          "lod": false,
-          "rch": false,
-          "rel": false,
-          "ret": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
+    "texture": {
+      "src": "worlds/porvenir/tokens/SkeletonCaptainSwordFlintlock.png",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 60,
+      "brightness": 0,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "alpha": 1,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
       },
-      "sort": 2700001,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "_id": "qXbbvudRpBoul3bH",
-                "name": "Shortsword",
-                "type": "weapon",
-                "data": {
-                  "description": {
-                    "value": "<section class=\"secret\">\n<p><em>Melee Weapon Attack:</em><strong>+4 to hit,</strong>, <strong>5 ft.,</strong> one target. Hit: <strong>5 (1d6 + 2) <em>piercing damage</em></strong>.</p></section>\n<p>The Skeleton attacks with its Shortsword.</p>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "PHB pg. 149",
-                  "quantity": 1,
-                  "weight": 2,
-                  "price": 10,
-                  "attuned": false,
-                  "equipped": true,
-                  "rarity": "Common",
-                  "identified": true,
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": 5,
-                    "long": null,
-                    "units": "ft"
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": ""
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "ability": "",
-                  "actionType": "mwak",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [
-                      [
-                        "1d6 + @mod",
-                        "piercing"
-                      ]
-                    ],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "armor": {
-                    "value": 10
-                  },
-                  "hp": {
-                    "value": 0,
-                    "max": 0,
-                    "dt": null,
-                    "conditions": ""
-                  },
-                  "weaponType": "martialM",
-                  "properties": {
-                    "fin": true,
-                    "lgt": true,
-                    "amm": false,
-                    "hvy": false,
-                    "fir": false,
-                    "foc": false,
-                    "lod": false,
-                    "rch": false,
-                    "rel": false,
-                    "ret": false,
-                    "spc": false,
-                    "thr": false,
-                    "two": false,
-                    "ver": false
-                  },
-                  "proficient": true,
-                  "attributes": {
-                    "spelldc": 10
-                  }
-                },
-                "sort": 2700001,
-                "flags": {},
-                "img": "systems/dnd5e/icons/items/weapons/sword-short.jpg",
-                "effects": []
-              }
-            }
-          }
-        }
-      },
-      "img": "systems/dnd5e/icons/items/weapons/sword-short.jpg",
-      "effects": [],
-      "_key": "!actors.items!1aM2fGMFyd2C3oQ6.qXbbvudRpBoul3bH"
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     }
-  ],
-  "effects": [],
+  },
+  "folder": null,
   "_key": "!actors!1aM2fGMFyd2C3oQ6"
 }

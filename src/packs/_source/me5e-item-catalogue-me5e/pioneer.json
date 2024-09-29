@@ -1,11 +1,24 @@
 {
   "name": "Pioneer",
-  "permission": {
-    "default": 0,
-    "N8RgN1jdDFyXuWNq": 3
-  },
   "type": "weapon",
-  "data": {
+  "flags": {},
+  "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/rarassault.svg",
+  "_id": "n8rb2KgR4e1BcHQl",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "description": {
       "value": "<ul>\n<li>Range: 40/120m</li>\n<li>Heat: 8</li>\n</ul>\n<p>Whenever you make an attack roll with this weapon and miss, you gain a stacking +1 bonus to subsequent attack rolls. Whenever you make an attack roll with this weapon and hit, your +1 bonus resets to 0.</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -13,7 +26,10 @@
     },
     "source": "Me5e",
     "quantity": 1,
-    "weight": 2,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
     "price": 37000,
     "attuned": false,
     "equipped": false,
@@ -21,7 +37,7 @@
     "identified": true,
     "activation": {
       "type": "",
-      "cost": 0,
+      "cost": null,
       "condition": ""
     },
     "duration": {
@@ -39,7 +55,7 @@
       "units": ""
     },
     "uses": {
-      "value": 0,
+      "value": null,
       "max": 0,
       "per": null
     },
@@ -103,9 +119,7 @@
     },
     "proficient": true
   },
-  "flags": {},
-  "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/rarassault.svg",
-  "_id": "n8rb2KgR4e1BcHQl",
-  "effects": [],
+  "folder": null,
+  "sort": 0,
   "_key": "!items!n8rb2KgR4e1BcHQl"
 }

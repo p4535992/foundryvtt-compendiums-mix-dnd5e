@@ -1,12 +1,79 @@
 {
   "_id": "CogcuXT6jRtjQmAj",
   "name": "Shield, Forced Defense",
-  "permission": {
-    "default": 0,
-    "qtb8j5Fh7Hu0wRrz": 3
-  },
   "type": "equipment",
-  "data": {
+  "flags": {
+    "betterRolls5e": {
+      "critRange": {
+        "type": "String",
+        "value": ""
+      },
+      "critDamage": {
+        "type": "String",
+        "value": ""
+      },
+      "quickDesc": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickSave": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "type": "Array",
+        "value": [],
+        "altValue": [],
+        "context": {
+          "0": ""
+        }
+      },
+      "quickProperties": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickCharges": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "type": "Boolean",
+        "value": true,
+        "altValue": true
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/items/armor/shield.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "description": {
       "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-rules.8LYPguczQUxUtxHF]{UM5 Ch.6: Armor} @Compendium[compendiums-mix-dnd5e.um5-rules.gzpa55qoOo6qq2qt]{UM5 Ch.6: Shields Descriptions} @Compendium[compendiums-mix-dnd5e.um5-rules.5Omv85vwf9Hu3YHJ]{Tech Level 0}</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">This is a heavy titanium shield with grooves on its bottom, allowing for a firm root into the ground. In addition, a locked slit can open once it has been planted.&nbsp;</span></p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">If planted into the ground as a bonus action, the shield remains upright and acts as @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.fzRgOPv3Lml078TL]{three-quarters cover}&nbsp;to anyone behind it (as well as offering its bonus to AC). You must be occupying the same space as the shield to receive this benefit.&nbsp;</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td width=\"200\"><span class=\"fontstyle0\">Forced Defense Shield </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">250 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">+2 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">— </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">Disadvantage </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">12 lb. </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">— </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">0</span></td>\n</tr>\n</tbody>\n</table>",
       "chat": "",
@@ -14,7 +81,10 @@
     },
     "source": "UM5 p.91",
     "quantity": 1,
-    "weight": 12,
+    "weight": {
+      "value": 12,
+      "units": "lb"
+    },
     "price": 250,
     "attuned": false,
     "equipped": true,
@@ -22,7 +92,7 @@
     "identified": true,
     "activation": {
       "type": "",
-      "cost": 0,
+      "cost": null,
       "condition": ""
     },
     "duration": {
@@ -83,63 +153,7 @@
     "stealth": true,
     "proficient": true
   },
-  "flags": {
-    "betterRolls5e": {
-      "critRange": {
-        "type": "String",
-        "value": ""
-      },
-      "critDamage": {
-        "type": "String",
-        "value": ""
-      },
-      "quickDesc": {
-        "type": "Boolean",
-        "value": true,
-        "altValue": true
-      },
-      "quickAttack": {
-        "type": "Boolean",
-        "value": true,
-        "altValue": true
-      },
-      "quickSave": {
-        "type": "Boolean",
-        "value": true,
-        "altValue": true
-      },
-      "quickDamage": {
-        "type": "Array",
-        "value": [],
-        "altValue": [],
-        "context": {
-          "0": ""
-        }
-      },
-      "quickProperties": {
-        "type": "Boolean",
-        "value": true,
-        "altValue": true
-      },
-      "quickCharges": {
-        "type": "Boolean",
-        "value": true,
-        "altValue": true
-      },
-      "quickOther": {
-        "type": "Boolean",
-        "value": true,
-        "altValue": true,
-        "context": ""
-      },
-      "quickFlavor": {
-        "type": "Boolean",
-        "value": true,
-        "altValue": true
-      }
-    }
-  },
-  "img": "systems/dnd5e/icons/items/armor/shield.png",
-  "effects": [],
+  "folder": null,
+  "sort": 0,
   "_key": "!items!CogcuXT6jRtjQmAj"
 }

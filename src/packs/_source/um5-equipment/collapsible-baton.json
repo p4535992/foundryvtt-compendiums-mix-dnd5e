@@ -1,12 +1,69 @@
 {
   "_id": "k0v4typ5Q2CyS2oY",
   "name": "Collapsible Baton",
-  "permission": {
-    "default": 0,
-    "qtb8j5Fh7Hu0wRrz": 3
-  },
   "type": "weapon",
-  "data": {
+  "flags": {
+    "betterRolls5e": {
+      "quickDamage": {
+        "context": {
+          "0": ""
+        },
+        "value": {
+          "0": true
+        },
+        "altValue": {
+          "0": true
+        }
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickVersatile": {
+        "value": false,
+        "altValue": false
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      },
+      "critRange": {
+        "value": ""
+      },
+      "critDamage": {
+        "value": ""
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/items/weapons/quarterstaff.jpg",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "description": {
       "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.PkYYoSwGjKt9BiTo]{Weapon Group: Melee Weapons}</p>\n<p>A simple metal or carbon fiber tube that extends as a free action. Used as a cudgel weapon to bludgeon foes, bruising flesh and breaking bones.</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 79px;\"><span class=\"fontstyle0\">Collapsible baton </span></td>\n<td style=\"width: 28px;\"><span class=\"fontstyle0\">25 </span></td>\n<td style=\"width: 107px;\"><span class=\"fontstyle0\">1d4 bludgeoning </span></td>\n<td style=\"width: 43px;\"><span class=\"fontstyle0\">1 lb. </span></td>\n<td style=\"width: 134px;\"><span class=\"fontstyle0\">Finesse, immune, light</span></td>\n</tr>\n</tbody>\n</table>",
       "chat": "",
@@ -14,7 +71,10 @@
     },
     "source": "UM5 p.79",
     "quantity": 1,
-    "weight": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
     "price": 25,
     "attuned": false,
     "equipped": false,
@@ -40,7 +100,7 @@
       "units": "ft"
     },
     "uses": {
-      "value": 0,
+      "value": null,
       "max": 0,
       "per": ""
     },
@@ -100,53 +160,7 @@
       "spelldc": 10
     }
   },
-  "flags": {
-    "betterRolls5e": {
-      "quickDamage": {
-        "context": {
-          "0": ""
-        },
-        "value": {
-          "0": true
-        },
-        "altValue": {
-          "0": true
-        }
-      },
-      "quickDesc": {
-        "value": true,
-        "altValue": true
-      },
-      "quickAttack": {
-        "value": true,
-        "altValue": true
-      },
-      "quickProperties": {
-        "value": true,
-        "altValue": true
-      },
-      "quickVersatile": {
-        "value": false,
-        "altValue": false
-      },
-      "quickOther": {
-        "value": true,
-        "altValue": true,
-        "context": ""
-      },
-      "quickFlavor": {
-        "value": true,
-        "altValue": true
-      },
-      "critRange": {
-        "value": ""
-      },
-      "critDamage": {
-        "value": ""
-      }
-    }
-  },
-  "img": "systems/dnd5e/icons/items/weapons/quarterstaff.jpg",
-  "effects": [],
+  "folder": null,
+  "sort": 0,
   "_key": "!items!k0v4typ5Q2CyS2oY"
 }

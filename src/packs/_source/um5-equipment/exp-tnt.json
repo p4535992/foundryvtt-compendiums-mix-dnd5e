@@ -1,76 +1,6 @@
 {
   "name": "Exp: TNT",
-  "permission": {
-    "default": 0,
-    "qtb8j5Fh7Hu0wRrz": 3
-  },
   "type": "consumable",
-  "data": {
-    "description": {
-      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-rules.WklldBUUO3oesibI]{UM5 Ch.6: Granades &amp; Explosives} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.6Q68AXyaylapovfL]{(EXP) TNT (Trinitrotoluene)}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-rules.5Omv85vwf9Hu3YHJ]{Tech Level 0}</p>\n<p><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text; color: #191813;\">TNT is the standard explosive to which all others are compared. Although not employed in modern industry or military applications, it is still common in black market circles and in civilian use (e.g. mining). Unlike moldable explosive, TNT can accidentally detonate if caught in the blast of another explosion.</span><span style=\"color: #191813;\">&nbsp;&nbsp;</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td width=\"200\"><span class=\"fontstyle0\">TNT </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">1d8 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">Physical </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">5 ft. </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">1 lb. </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">20 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">0 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">Yes </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">Explosive</span></td>\n</tr>\n</tbody>\n</table>\n<h2><span class=\"fontstyle2\">Physical<br /></span></h2>\n<p><span class=\"fontstyle0\">Grenades and explosives with the physical damage type deal bludgeoning damage unless otherwise stated. Medium or smaller targets that don't save against the Dexterity saving throw are knocked @Compendium[combat-utility-belt.conditionsdnd5e.ekm4TUHKT3QUPdPv]{Prone} by the explosion.&nbsp;</span></p>",
-      "chat": "",
-      "unidentified": ""
-    },
-    "source": "UM5 p.84",
-    "quantity": 1,
-    "weight": 1,
-    "price": 20,
-    "attuned": false,
-    "equipped": false,
-    "rarity": "TL0",
-    "identified": true,
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": 5,
-      "units": "ft",
-      "type": "radius"
-    },
-    "range": {
-      "value": null,
-      "long": 0,
-      "units": ""
-    },
-    "uses": {
-      "value": 0,
-      "max": 0,
-      "per": "",
-      "autoDestroy": true
-    },
-    "consume": {
-      "type": "",
-      "target": "",
-      "amount": null
-    },
-    "ability": "",
-    "actionType": "save",
-    "attackBonus": 0,
-    "chatFlavor": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.6Q68AXyaylapovfL]{TNT}; Physical: Dexterity saving throw are knocked @Compendium[combat-utility-belt.conditionsdnd5e.ekm4TUHKT3QUPdPv]{Prone} by the explosion. ",
-    "critical": null,
-    "damage": {
-      "parts": [
-        [
-          "1d8",
-          "fire"
-        ]
-      ],
-      "versatile": ""
-    },
-    "formula": "",
-    "save": {
-      "ability": "dex",
-      "dc": null,
-      "scaling": "dex"
-    },
-    "consumableType": "ammo"
-  },
   "flags": {
     "betterRolls5e": {
       "critRange": {
@@ -139,5 +69,89 @@
   "img": "systems/dnd5e/icons/spells/explosion-red-2.jpg",
   "_id": "T7W34hlIcwfSPmId",
   "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-rules.WklldBUUO3oesibI]{UM5 Ch.6: Granades &amp; Explosives} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.6Q68AXyaylapovfL]{(EXP) TNT (Trinitrotoluene)}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-rules.5Omv85vwf9Hu3YHJ]{Tech Level 0}</p>\n<p><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text; color: #191813;\">TNT is the standard explosive to which all others are compared. Although not employed in modern industry or military applications, it is still common in black market circles and in civilian use (e.g. mining). Unlike moldable explosive, TNT can accidentally detonate if caught in the blast of another explosion.</span><span style=\"color: #191813;\">&nbsp;&nbsp;</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td width=\"200\"><span class=\"fontstyle0\">TNT </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">1d8 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">Physical </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">5 ft. </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">1 lb. </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">20 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">0 </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">Yes </span></td>\n<td width=\"200\"><span class=\"fontstyle0\">Explosive</span></td>\n</tr>\n</tbody>\n</table>\n<h2><span class=\"fontstyle2\">Physical<br /></span></h2>\n<p><span class=\"fontstyle0\">Grenades and explosives with the physical damage type deal bludgeoning damage unless otherwise stated. Medium or smaller targets that don't save against the Dexterity saving throw are knocked @Compendium[combat-utility-belt.conditionsdnd5e.ekm4TUHKT3QUPdPv]{Prone} by the explosion.&nbsp;</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.84",
+    "quantity": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "price": 20,
+    "attuned": false,
+    "equipped": false,
+    "rarity": "TL0",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": 5,
+      "units": "ft",
+      "type": "radius"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": 0,
+      "per": "",
+      "autoDestroy": true
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.6Q68AXyaylapovfL]{TNT}; Physical: Dexterity saving throw are knocked @Compendium[combat-utility-belt.conditionsdnd5e.ekm4TUHKT3QUPdPv]{Prone} by the explosion. ",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d8",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "dex"
+    },
+    "consumableType": "ammo"
+  },
+  "folder": null,
+  "sort": 0,
   "_key": "!items!T7W34hlIcwfSPmId"
 }

@@ -2,509 +2,15 @@
   "name": "MerchanFood01",
   "type": "npc",
   "img": "https://i.imgur.com/9BOwQXp.png",
-  "data": {
-    "abilities": {
-      "str": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "dex": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "con": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "int": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "wis": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "cha": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      }
-    },
-    "attributes": {
-      "ac": {
-        "flat": null,
-        "calc": "default",
-        "formula": ""
-      },
-      "hp": {
-        "value": 10,
-        "min": 0,
-        "max": 10,
-        "temp": null,
-        "tempmax": null,
-        "formula": ""
-      },
-      "init": {
-        "value": 0,
-        "bonus": 0
-      },
-      "movement": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "swim": 0,
-        "walk": 30,
-        "units": "ft",
-        "hover": false
-      },
-      "senses": {
-        "darkvision": 0,
-        "blindsight": 0,
-        "tremorsense": 0,
-        "truesight": 0,
-        "units": "ft",
-        "special": ""
-      },
-      "spellcasting": "int"
-    },
-    "details": {
-      "biography": {
-        "value": "",
-        "public": ""
-      },
-      "alignment": "",
-      "race": "",
-      "type": {
-        "value": "",
-        "subtype": "",
-        "swarm": "",
-        "custom": ""
-      },
-      "environment": "",
-      "cr": 1,
-      "spellLevel": 0,
-      "xp": {
-        "value": 10
-      },
-      "source": "",
-      "gender": "",
-      "age": "",
-      "height": "",
-      "weight": "",
-      "eyes": "",
-      "skin": "",
-      "hair": "",
-      "notes1name": "",
-      "notes2name": "",
-      "notes3name": "",
-      "notes4name": ""
-    },
-    "traits": {
-      "size": "med",
-      "di": {
-        "value": [],
-        "custom": ""
-      },
-      "dr": {
-        "value": [],
-        "custom": ""
-      },
-      "dv": {
-        "value": [],
-        "custom": ""
-      },
-      "ci": {
-        "value": [],
-        "custom": ""
-      },
-      "languages": {
-        "value": [],
-        "custom": ""
-      }
-    },
-    "currency": {
-      "pp": null,
-      "gp": null,
-      "ep": null,
-      "sp": null,
-      "cp": null
-    },
-    "skills": {
-      "acr": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ani": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "arc": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ath": {
-        "value": 0,
-        "ability": "str",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "dec": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "his": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ins": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "itm": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "inv": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "med": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "nat": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "prc": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "prf": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "per": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "rel": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "slt": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ste": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "sur": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      }
-    },
-    "spells": {
-      "spell1": {
-        "value": 0,
-        "override": null
-      },
-      "spell2": {
-        "value": 0,
-        "override": null
-      },
-      "spell3": {
-        "value": 0,
-        "override": null
-      },
-      "spell4": {
-        "value": 0,
-        "override": null
-      },
-      "spell5": {
-        "value": 0,
-        "override": null
-      },
-      "spell6": {
-        "value": 0,
-        "override": null
-      },
-      "spell7": {
-        "value": 0,
-        "override": null
-      },
-      "spell8": {
-        "value": 0,
-        "override": null
-      },
-      "spell9": {
-        "value": 0,
-        "override": null
-      },
-      "pact": {
-        "value": 0,
-        "override": null
-      }
-    },
-    "bonuses": {
-      "mwak": {
-        "attack": "",
-        "damage": ""
-      },
-      "rwak": {
-        "attack": "",
-        "damage": ""
-      },
-      "msak": {
-        "attack": "",
-        "damage": ""
-      },
-      "rsak": {
-        "attack": "",
-        "damage": ""
-      },
-      "abilities": {
-        "check": "",
-        "save": "",
-        "skill": ""
-      },
-      "spell": {
-        "dc": ""
-      }
-    },
-    "resources": {
-      "legact": {
-        "value": 0,
-        "max": 0
-      },
-      "legres": {
-        "value": 0,
-        "max": 0
-      },
-      "lair": {
-        "value": false,
-        "initiative": 0
-      }
-    },
-    "flags": {
-      "lootsheetnpc5e": {
-        "lootsheettype": "Merchant",
-        "rolltable": "",
-        "shopQty": "",
-        "itemQty": "",
-        "itemQtyLimit": "",
-        "clearInventory": false
-      }
-    }
-  },
-  "token": {
-    "name": "MerchanFood01",
-    "img": "https://i.imgur.com/9BOwQXp.png",
-    "displayName": 0,
-    "actorLink": false,
-    "width": 1,
-    "height": 1,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 0.25,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "disposition": -1,
-    "displayBars": 0,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "flags": {},
-    "randomImg": false
-  },
   "items": [
     {
       "_id": "cCIvHfp89ApSpgNv",
       "name": "Red Rose of the Empire",
       "type": "consumable",
       "img": "modules/foundryvtt-compendiums-mix-dnd5e/assets/pizza-shared-stuff/extraiconpack/items/trade-goods/herbalism/herb98.webp",
-      "data": {
-        "description": {
-          "value": "<p>Ancient red rose typical of the imperial period.</p>\n<p>Symbolizes nobility and power.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "quantity": 1,
-        "weight": 0,
-        "price": 200,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": true,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null,
-          "autoDestroy": false
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "consumableType": "potion"
-      },
       "effects": [],
       "folder": "bJEo6Si0aB64jMxA",
       "sort": 100000,
-      "permission": {
-        "default": 0,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -620,15 +126,86 @@
           }
         }
       },
-      "siftoolkit": {
-        "audio": {
-          "playDamageAudio": false,
-          "clip": {
-            "text": "",
-            "bttn": "Select"
-          },
-          "volume": 100
-        }
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<p>Ancient red rose typical of the imperial period.</p>\n<p>Symbolizes nobility and power.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 200,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "autoDestroy": false
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "potion"
       },
       "_key": "!actors.items!aYyN96SXdCprESv7.cCIvHfp89ApSpgNv"
     },
@@ -637,78 +214,9 @@
       "name": "Mushroom of the fog",
       "type": "consumable",
       "img": "modules/foundryvtt-compendiums-mix-dnd5e/assets/pizza-shared-stuff/extraiconpack/items/trade-goods/herbalism/125_b.webp",
-      "data": {
-        "description": {
-          "value": "<p>Very toxic mushroom is known for its hallucinogenic and adrenaline-boosting properties</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "quantity": 10,
-        "weight": 0,
-        "price": 15,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": true,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null,
-          "autoDestroy": false
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "consumableType": "potion"
-      },
       "effects": [],
       "folder": "bJEo6Si0aB64jMxA",
       "sort": 100000,
-      "permission": {
-        "default": 0,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -824,6 +332,87 @@
           }
         }
       },
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<p>Very toxic mushroom is known for its hallucinogenic and adrenaline-boosting properties</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 10,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 15,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "autoDestroy": false
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "potion"
+      },
       "_key": "!actors.items!aYyN96SXdCprESv7.L0J37Geh5ZrYY7oq"
     },
     {
@@ -831,45 +420,9 @@
       "name": "Herbalism and Food Shop",
       "type": "backpack",
       "img": "icons/environment/settlement/farm-silo-windmill.webp",
-      "data": {
-        "description": {
-          "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "quantity": 1,
-        "weight": 0,
-        "price": 16660,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": true,
-        "capacity": {
-          "type": "weight",
-          "value": 0,
-          "weightless": true
-        },
-        "currency": {
-          "cp": 0,
-          "sp": 0,
-          "ep": 0,
-          "gp": 0,
-          "pp": 0
-        },
-        "critical": {
-          "threshold": null,
-          "damage": null
-        }
-      },
       "effects": [],
       "folder": "zNFDRqubKi7EfuXl",
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "g4WGw0lAZ3nIhapn": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "core": {
           "sheetClass": "dnd5e.ItemSheetShop",
@@ -3171,6 +2724,53 @@
           "labels": {}
         }
       },
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 16660,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "capacity": {
+          "type": "weight",
+          "value": null,
+          "weightless": true
+        },
+        "currency": {
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "critical": {
+          "threshold": null,
+          "damage": null
+        }
+      },
       "_key": "!actors.items!aYyN96SXdCprESv7.UGZ76kD6cfMVHTlW"
     },
     {
@@ -3178,79 +2778,9 @@
       "name": "Aadarna",
       "type": "consumable",
       "img": "modules/foundryvtt-compendiums-mix-dnd5e/assets/pizza-shared-stuff/extraiconpack/items/trade-goods/herbalism/11_b.webp",
-      "data": {
-        "description": {
-          "value": "<p><span id=\"docs-internal-guid-bb244cae-7fff-bdf4-015f-eac57be250cd\" style=\"font-size:12pt;font-family:'Bookman Old Style', serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">A tough plant that grows on the edges of swamps, the stem grows symmetrical pairs of stiff oval leaves. During warmer months the plant blossoms into violet flowers. The large roots of the plant can be ground into a powder and is the main ingredient in a potion that allows other people to see into other realms, often referred to as Sight Beyond. For the next hour after drinking, the vision of the character shifts to the Astral Realm. They may perceive what happens from a position that corresponds to their location in the Material Realm. During that time, they are blind to everything that happens in the Material Realm, including combat.</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "quantity": 100,
-        "weight": 0,
-        "price": 1,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": true,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null,
-          "autoDestroy": false
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "consumableType": "potion"
-      },
       "effects": [],
       "folder": "bJEo6Si0aB64jMxA",
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "0dke80Cb9LhbPTyn": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -3352,22 +2882,31 @@
           }
         }
       },
-      "_key": "!actors.items!aYyN96SXdCprESv7.XsNO48unSMANSMvg"
-    },
-    {
-      "_id": "pSTtC1yRakYFkuiR",
-      "name": "Abyssal Blackgrass",
-      "type": "consumable",
-      "img": "modules/foundryvtt-compendiums-mix-dnd5e/assets/pizza-shared-stuff/extraiconpack/items/trade-goods/herbalism/116_b.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p><span id=\"docs-internal-guid-08c1f6a4-7fff-287b-08ac-ac958b345467\" style=\"font-size:12pt;font-family:'Bookman Old Style', serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">Thick black weed native to the Underdark that propagates via tiny seeds. On the surface it appears as 1-foot diamater clumps, but its roots extend in a 50 ft diamater just beneath the surface. Natural healing is prevented when standing above its roots, and magical healing only heals half the normal HP. If the clump is pulled out, the plant survives and regrows the clump in 1d4 days. Only digging up the whole root system or the use of a Blight-type spell can truly kill it. Has taint-mechanic boosting effects.</span></p>",
+          "value": "<p><span id=\"docs-internal-guid-bb244cae-7fff-bdf4-015f-eac57be250cd\" style=\"font-size:12pt;font-family:'Bookman Old Style', serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">A tough plant that grows on the edges of swamps, the stem grows symmetrical pairs of stiff oval leaves. During warmer months the plant blossoms into violet flowers. The large roots of the plant can be ground into a powder and is the main ingredient in a potion that allows other people to see into other realms, often referred to as Sight Beyond. For the next hour after drinking, the vision of the character shifts to the Astral Realm. They may perceive what happens from a position that corresponds to their location in the Material Realm. During that time, they are blind to everything that happens in the Material Realm, including combat.</span></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "",
         "quantity": 100,
-        "weight": 0,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
         "price": 1,
         "attunement": 0,
         "equipped": true,
@@ -3375,7 +2914,7 @@
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -3394,7 +2933,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -3424,14 +2963,16 @@
         },
         "consumableType": "potion"
       },
+      "_key": "!actors.items!aYyN96SXdCprESv7.XsNO48unSMANSMvg"
+    },
+    {
+      "_id": "pSTtC1yRakYFkuiR",
+      "name": "Abyssal Blackgrass",
+      "type": "consumable",
+      "img": "modules/foundryvtt-compendiums-mix-dnd5e/assets/pizza-shared-stuff/extraiconpack/items/trade-goods/herbalism/116_b.webp",
       "effects": [],
       "folder": "bJEo6Si0aB64jMxA",
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "0dke80Cb9LhbPTyn": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -3533,22 +3074,31 @@
           }
         }
       },
-      "_key": "!actors.items!aYyN96SXdCprESv7.pSTtC1yRakYFkuiR"
-    },
-    {
-      "_id": "aqR95hnPiCr4SLzD",
-      "name": "Acacia Tree",
-      "type": "consumable",
-      "img": "modules/foundryvtt-compendiums-mix-dnd5e/assets/pizza-shared-stuff/extraiconpack/items/trade-goods/herbalism/117_b.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p><span id=\"docs-internal-guid-6875d8d4-7fff-aba7-9e36-cd37053abacc\" style=\"font-size:12pt;font-family:'Bookman Old Style', serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">A tall tree growing in warmer plain environments with large, sharp thorns on the branches and small, oval shaped leaves. The acacia has long been associated with rituals surrounding the burying and preservation of the dead, and as well as in rituals designed to contact and speak with the dead. If acacia is combined with a solution of melted iron and poured into the hand of a person who is has recently died, the time period in which Raise Dead works is increased to a period of 30 days instead of 10.</span></p>",
+          "value": "<p><span id=\"docs-internal-guid-08c1f6a4-7fff-287b-08ac-ac958b345467\" style=\"font-size:12pt;font-family:'Bookman Old Style', serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">Thick black weed native to the Underdark that propagates via tiny seeds. On the surface it appears as 1-foot diamater clumps, but its roots extend in a 50 ft diamater just beneath the surface. Natural healing is prevented when standing above its roots, and magical healing only heals half the normal HP. If the clump is pulled out, the plant survives and regrows the clump in 1d4 days. Only digging up the whole root system or the use of a Blight-type spell can truly kill it. Has taint-mechanic boosting effects.</span></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "",
         "quantity": 100,
-        "weight": 0,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
         "price": 1,
         "attunement": 0,
         "equipped": true,
@@ -3556,7 +3106,7 @@
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -3575,7 +3125,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -3605,14 +3155,16 @@
         },
         "consumableType": "potion"
       },
+      "_key": "!actors.items!aYyN96SXdCprESv7.pSTtC1yRakYFkuiR"
+    },
+    {
+      "_id": "aqR95hnPiCr4SLzD",
+      "name": "Acacia Tree",
+      "type": "consumable",
+      "img": "modules/foundryvtt-compendiums-mix-dnd5e/assets/pizza-shared-stuff/extraiconpack/items/trade-goods/herbalism/117_b.webp",
       "effects": [],
       "folder": "bJEo6Si0aB64jMxA",
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "0dke80Cb9LhbPTyn": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -3714,22 +3266,31 @@
           }
         }
       },
-      "_key": "!actors.items!aYyN96SXdCprESv7.aqR95hnPiCr4SLzD"
-    },
-    {
-      "_id": "msUqVu4va0DQlt8a",
-      "name": "Adamant Algae",
-      "type": "consumable",
-      "img": "modules/foundryvtt-compendiums-mix-dnd5e/assets/pizza-shared-stuff/extraiconpack/items/trade-goods/herbalism/118_b.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p dir=\"ltr\" style=\"line-height:1.295;margin-top:0pt;margin-bottom:0pt\"><span style=\"font-size:12pt;font-family:'Bookman Old Style', serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">Rare algae that grows in water gathered around adamantine. Produces dark red liquid that doubles natural healing rate for 24 hours (requires 1 ounce per 100 lb of body weight) meaning that hit points regained from expended hit dice during a short rest are doubled and the amount of hit dice recovered during a long rest is doubled. Typical pool contains 32 ounces of the liquid, which becomes useless 30 minutes after removal from the pool unless stored in an adamantine vial (200 gp), which makes it last for 1 month. </span></p>",
+          "value": "<p><span id=\"docs-internal-guid-6875d8d4-7fff-aba7-9e36-cd37053abacc\" style=\"font-size:12pt;font-family:'Bookman Old Style', serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">A tall tree growing in warmer plain environments with large, sharp thorns on the branches and small, oval shaped leaves. The acacia has long been associated with rituals surrounding the burying and preservation of the dead, and as well as in rituals designed to contact and speak with the dead. If acacia is combined with a solution of melted iron and poured into the hand of a person who is has recently died, the time period in which Raise Dead works is increased to a period of 30 days instead of 10.</span></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "",
         "quantity": 100,
-        "weight": 0,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
         "price": 1,
         "attunement": 0,
         "equipped": true,
@@ -3737,7 +3298,7 @@
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -3756,7 +3317,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -3784,16 +3345,18 @@
           "dc": null,
           "scaling": "spell"
         },
-        "consumableType": "food"
+        "consumableType": "potion"
       },
+      "_key": "!actors.items!aYyN96SXdCprESv7.aqR95hnPiCr4SLzD"
+    },
+    {
+      "_id": "msUqVu4va0DQlt8a",
+      "name": "Adamant Algae",
+      "type": "consumable",
+      "img": "modules/foundryvtt-compendiums-mix-dnd5e/assets/pizza-shared-stuff/extraiconpack/items/trade-goods/herbalism/118_b.webp",
       "effects": [],
       "folder": "bJEo6Si0aB64jMxA",
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "0dke80Cb9LhbPTyn": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -3895,22 +3458,31 @@
           }
         }
       },
-      "_key": "!actors.items!aYyN96SXdCprESv7.msUqVu4va0DQlt8a"
-    },
-    {
-      "_id": "MVH0nA652dpxBzjX",
-      "name": "Adder's Tongue",
-      "type": "consumable",
-      "img": "modules/foundryvtt-compendiums-mix-dnd5e/assets/pizza-shared-stuff/extraiconpack/items/trade-goods/herbalism/119_b.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p dir=\"ltr\" style=\"line-height:1.295;margin-top:0pt;margin-bottom:0pt\"><span style=\"font-size:12pt;font-family:'Bookman Old Style', serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">The herb has one leaf which grows from a stalk about three inches from the ground. Its appearance gives it its name. The leaf must be boiled in olive oil and set in the sun for three days. At the end of that time the infusion can be used as a balm for wounds. In the event that the wound is infected the balm will draw out the infection within one day. However, for that one day the damage caused by the infection will be twice as severe, infection damage can be determined by the DM. If the wound is not infected the balm will increase the rate of healing by 1 hp for that day, adding +1 to any hit points regained during a short rest.</span></p>",
+          "value": "<p dir=\"ltr\" style=\"line-height:1.295;margin-top:0pt;margin-bottom:0pt\"><span style=\"font-size:12pt;font-family:'Bookman Old Style', serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">Rare algae that grows in water gathered around adamantine. Produces dark red liquid that doubles natural healing rate for 24 hours (requires 1 ounce per 100 lb of body weight) meaning that hit points regained from expended hit dice during a short rest are doubled and the amount of hit dice recovered during a long rest is doubled. Typical pool contains 32 ounces of the liquid, which becomes useless 30 minutes after removal from the pool unless stored in an adamantine vial (200 gp), which makes it last for 1 month. </span></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "",
         "quantity": 100,
-        "weight": 0,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
         "price": 1,
         "attunement": 0,
         "equipped": true,
@@ -3918,7 +3490,7 @@
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -3937,7 +3509,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -3965,16 +3537,18 @@
           "dc": null,
           "scaling": "spell"
         },
-        "consumableType": "potion"
+        "consumableType": "food"
       },
+      "_key": "!actors.items!aYyN96SXdCprESv7.msUqVu4va0DQlt8a"
+    },
+    {
+      "_id": "MVH0nA652dpxBzjX",
+      "name": "Adder's Tongue",
+      "type": "consumable",
+      "img": "modules/foundryvtt-compendiums-mix-dnd5e/assets/pizza-shared-stuff/extraiconpack/items/trade-goods/herbalism/119_b.webp",
       "effects": [],
       "folder": "bJEo6Si0aB64jMxA",
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "0dke80Cb9LhbPTyn": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -4076,22 +3650,31 @@
           }
         }
       },
-      "_key": "!actors.items!aYyN96SXdCprESv7.MVH0nA652dpxBzjX"
-    },
-    {
-      "_id": "N7RqQyuZfCMP2J1s",
-      "name": "Adgana",
-      "type": "consumable",
-      "img": "modules/foundryvtt-compendiums-mix-dnd5e/assets/pizza-shared-stuff/extraiconpack/items/trade-goods/herbalism/120_b.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p dir=\"ltr\" style=\"line-height:1.295;margin-top:0pt;margin-bottom:0pt\"><span style=\"font-size:12pt;font-family:'Bookman Old Style', serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">The leaves of this plant must be dried. They may then be crushed and eaten. Its effects diminish with constant use. The first time and second time Adgana is used it adds 2 to the user's Strength, Dexterity and Constitution for 2d4+4 minutes. The third time it is used it adds 1 to Strength and Dexterity for the same amount of time, the 4th time +1 is added to Strength only, and after that no benefit is ever gained. In addition to this, the herb is also highly addictive, meaning that after the first and second used, the user must make a DC 16 Wisdom save or become addicted. This DC increases by +1 for each additional use, and addiction causes a -1 penalty to Strength, Dexterity, and Constitution until next consumption of Adgana.</span></p>",
+          "value": "<p dir=\"ltr\" style=\"line-height:1.295;margin-top:0pt;margin-bottom:0pt\"><span style=\"font-size:12pt;font-family:'Bookman Old Style', serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">The herb has one leaf which grows from a stalk about three inches from the ground. Its appearance gives it its name. The leaf must be boiled in olive oil and set in the sun for three days. At the end of that time the infusion can be used as a balm for wounds. In the event that the wound is infected the balm will draw out the infection within one day. However, for that one day the damage caused by the infection will be twice as severe, infection damage can be determined by the DM. If the wound is not infected the balm will increase the rate of healing by 1 hp for that day, adding +1 to any hit points regained during a short rest.</span></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "",
         "quantity": 100,
-        "weight": 0,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
         "price": 1,
         "attunement": 0,
         "equipped": true,
@@ -4099,7 +3682,7 @@
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -4118,7 +3701,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -4148,14 +3731,16 @@
         },
         "consumableType": "potion"
       },
+      "_key": "!actors.items!aYyN96SXdCprESv7.MVH0nA652dpxBzjX"
+    },
+    {
+      "_id": "N7RqQyuZfCMP2J1s",
+      "name": "Adgana",
+      "type": "consumable",
+      "img": "modules/foundryvtt-compendiums-mix-dnd5e/assets/pizza-shared-stuff/extraiconpack/items/trade-goods/herbalism/120_b.webp",
       "effects": [],
       "folder": "bJEo6Si0aB64jMxA",
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "0dke80Cb9LhbPTyn": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -4257,16 +3842,93 @@
           }
         }
       },
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<p dir=\"ltr\" style=\"line-height:1.295;margin-top:0pt;margin-bottom:0pt\"><span style=\"font-size:12pt;font-family:'Bookman Old Style', serif;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap\">The leaves of this plant must be dried. They may then be crushed and eaten. Its effects diminish with constant use. The first time and second time Adgana is used it adds 2 to the user's Strength, Dexterity and Constitution for 2d4+4 minutes. The third time it is used it adds 1 to Strength and Dexterity for the same amount of time, the 4th time +1 is added to Strength only, and after that no benefit is ever gained. In addition to this, the herb is also highly addictive, meaning that after the first and second used, the user must make a DC 16 Wisdom save or become addicted. This DC increases by +1 for each additional use, and addiction causes a -1 penalty to Strength, Dexterity, and Constitution until next consumption of Adgana.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 100,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 1,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "autoDestroy": false
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "potion"
+      },
       "_key": "!actors.items!aYyN96SXdCprESv7.N7RqQyuZfCMP2J1s"
     }
   ],
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
   "flags": {
     "core": {
       "sheetClass": "core.o"
@@ -4290,5 +3952,495 @@
     }
   },
   "_id": "aYyN96SXdCprESv7",
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": null,
+        "calc": "default",
+        "formula": ""
+      },
+      "hp": {
+        "value": 10,
+        "min": 0,
+        "max": 10,
+        "temp": null,
+        "tempmax": null,
+        "formula": ""
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "",
+      "race": "",
+      "type": {
+        "value": "",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 1,
+      "spellLevel": 0,
+      "xp": {
+        "value": 10
+      },
+      "source": "",
+      "gender": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": null,
+      "gp": null,
+      "ep": null,
+      "sp": null,
+      "cp": null
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    },
+    "flags": {
+      "lootsheetnpc5e": {
+        "lootsheettype": "Merchant",
+        "rolltable": "",
+        "shopQty": "",
+        "itemQty": "",
+        "itemQtyLimit": "",
+        "clearInventory": false
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "MerchanFood01",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {},
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "alpha": 0.25,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "https://i.imgur.com/9BOwQXp.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
   "_key": "!actors!aYyN96SXdCprESv7"
 }

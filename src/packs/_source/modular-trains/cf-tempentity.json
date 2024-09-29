@@ -1,12 +1,36 @@
 {
   "_id": "rkPeDfy6mZkmplCE",
   "name": "#[CF_tempEntity]",
-  "permission": {
-    "default": 0,
-    "YWJmZjdlYTgxMzZj": 3
-  },
   "type": "character",
-  "data": {
+  "sort": 100001,
+  "flags": {
+    "cf": {
+      "id": "temp_f0prbqynu2c",
+      "folderPath": [
+        null
+      ],
+      "color": "#000000",
+      "name": "Modular Trains",
+      "children": [],
+      "icon": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 10,
@@ -301,51 +325,95 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {
-    "cf": {
-      "id": "temp_f0prbqynu2c",
-      "folderPath": [
-        null
-      ],
-      "color": "#000000",
-      "name": "Modular Trains",
-      "children": [],
-      "icon": ""
-    }
-  },
-  "token": {
+  "prototypeToken": {
     "flags": {},
     "name": "#[CF_tempEntity]",
     "displayName": 0,
-    "img": "icons/svg/mystery-man.svg",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 1,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "rkPeDfy6mZkmplCE",
     "actorLink": false,
     "disposition": -1,
     "displayBars": 0,
-    "bar1": {},
-    "bar2": {},
-    "randomImg": false
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "alpha": 1,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "alpha": 1,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
   },
-  "items": [],
-  "effects": [],
+  "img": "",
+  "folder": null,
   "_key": "!actors!rkPeDfy6mZkmplCE"
 }

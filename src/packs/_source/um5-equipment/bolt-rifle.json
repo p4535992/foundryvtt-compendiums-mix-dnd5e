@@ -1,102 +1,7 @@
 {
   "_id": "DR8DwChRuYvfN3tm",
   "name": "Bolt Rifle",
-  "permission": {
-    "default": 0,
-    "qtb8j5Fh7Hu0wRrz": 3
-  },
   "type": "weapon",
-  "data": {
-    "description": {
-      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.Fim0r8kwu9pO2qPe]{Weapon Group: Small Arms, Two-Handed}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 57px;\"><span class=\"fontstyle0\">Bolt rifle </span></td>\n<td style=\"width: 33px;\"><span class=\"fontstyle0\">300 </span></td>\n<td style=\"width: 87px;\"><span class=\"fontstyle0\">1d8 piercing </span></td>\n<td style=\"width: 60px;\"><span class=\"fontstyle0\">100/400 </span></td>\n<td style=\"width: 39px;\"><span class=\"fontstyle0\">8 lb. </span></td>\n<td style=\"width: 119px;\"><span class=\"fontstyle0\">Feed (5 shots)</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.R1ekSNyjgw3v0svx]{Feed (5 shots)}</p>",
-      "chat": "",
-      "unidentified": ""
-    },
-    "source": "UM5 p.76",
-    "quantity": 1,
-    "weight": 8,
-    "price": 300,
-    "attuned": false,
-    "equipped": true,
-    "rarity": "TL1",
-    "identified": true,
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
-    "duration": {
-      "value": 0,
-      "units": ""
-    },
-    "target": {
-      "value": 0,
-      "units": "",
-      "type": ""
-    },
-    "range": {
-      "value": 100,
-      "long": 400,
-      "units": "ft"
-    },
-    "uses": {
-      "value": 5,
-      "max": 5,
-      "per": "charges"
-    },
-    "consume": {
-      "type": "",
-      "target": "",
-      "amount": null
-    },
-    "ability": "",
-    "actionType": "rwak",
-    "attackBonus": 0,
-    "chatFlavor": "",
-    "critical": null,
-    "damage": {
-      "parts": [
-        [
-          "1d8 + @mod",
-          "piercing"
-        ]
-      ],
-      "versatile": ""
-    },
-    "formula": "",
-    "save": {
-      "ability": "",
-      "dc": null,
-      "scaling": "flat"
-    },
-    "armor": {
-      "value": 10
-    },
-    "hp": {
-      "value": 0,
-      "max": 0,
-      "dt": null,
-      "conditions": ""
-    },
-    "weaponType": "simpleR",
-    "properties": {
-      "amm": false,
-      "lgt": false,
-      "hvy": false,
-      "fin": false,
-      "fir": true,
-      "foc": false,
-      "rch": false,
-      "rel": false,
-      "ret": false,
-      "spc": true,
-      "thr": false,
-      "two": true,
-      "ver": false,
-      "lod": false
-    },
-    "proficient": true
-  },
   "flags": {
     "betterRolls5e": {
       "critRange": {
@@ -169,5 +74,114 @@
   },
   "img": "systems/dnd5e/icons/skills/weapon_35.jpg",
   "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.Fim0r8kwu9pO2qPe]{Weapon Group: Small Arms, Two-Handed}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 57px;\"><span class=\"fontstyle0\">Bolt rifle </span></td>\n<td style=\"width: 33px;\"><span class=\"fontstyle0\">300 </span></td>\n<td style=\"width: 87px;\"><span class=\"fontstyle0\">1d8 piercing </span></td>\n<td style=\"width: 60px;\"><span class=\"fontstyle0\">100/400 </span></td>\n<td style=\"width: 39px;\"><span class=\"fontstyle0\">8 lb. </span></td>\n<td style=\"width: 119px;\"><span class=\"fontstyle0\">Feed (5 shots)</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.R1ekSNyjgw3v0svx]{Feed (5 shots)}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.76",
+    "quantity": 1,
+    "weight": {
+      "value": 8,
+      "units": "lb"
+    },
+    "price": 300,
+    "attuned": false,
+    "equipped": true,
+    "rarity": "TL1",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 100,
+      "long": 400,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 5,
+      "max": 5,
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleR",
+    "properties": {
+      "amm": false,
+      "lgt": false,
+      "hvy": false,
+      "fin": false,
+      "fir": true,
+      "foc": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": true,
+      "thr": false,
+      "two": true,
+      "ver": false,
+      "lod": false
+    },
+    "proficient": true
+  },
+  "folder": null,
+  "sort": 0,
   "_key": "!items!DR8DwChRuYvfN3tm"
 }

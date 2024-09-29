@@ -3,7 +3,1784 @@
   "name": "Jeanna Silverchain",
   "type": "npc",
   "img": "moulinette/images/img/npccampaign01/Jeanna_Silverchain.Avatar.png",
-  "data": {
+  "items": [
+    {
+      "_id": "VWJty9mq5isaHsUd",
+      "name": "Multiattack",
+      "type": "feat",
+      "sort": 1103,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "kOoDDOeRUYBT8Amq"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Multiattack",
+                "type": "feat",
+                "data": {
+                  "source": "MME",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>The wight makes two longsword attacks or two longbow attacks. It can use its Life Drain in place of one longsword attack.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mailed-fist.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Action",
+            "activation": "1 Action",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The wight makes two longsword attacks or two longbow attacks. It can use its Life Drain in place of one longsword attack.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MME",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!2FJDxWtoLWmYBgGT.VWJty9mq5isaHsUd"
+    },
+    {
+      "_id": "c4SvXYglRNcpdQiz",
+      "name": "Life Drain",
+      "type": "weapon",
+      "sort": 1001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "kOoDDOeRUYBT8Amq"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Life Drain",
+                "type": "weapon",
+                "data": {
+                  "source": "MME",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 5 ft., one creature. <i>Hit:</i> 6 ([[/r 1d6 + 3]]) necrotic damage. The target must succeed on a DC <span class=\"rd__dc\">14</span> Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p><div class=\"rd__spc-inline-post\"></div><p>A humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time.</p></div>"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d6  + @mod",
+                        "necrotic"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "range": {
+                    "value": 5,
+                    "long": 0,
+                    "units": "ft"
+                  },
+                  "actionType": "mwak",
+                  "proficient": true,
+                  "quantity": 1,
+                  "weight": 0,
+                  "price": null,
+                  "rarity": "",
+                  "weaponType": "natural",
+                  "properties": {},
+                  "attuned": false,
+                  "ability": "str",
+                  "equipped": true,
+                  "identified": false,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "save": {
+                    "ability": "con",
+                    "dc": 14,
+                    "scaling": "flat"
+                  }
+                },
+                "img": "modules/plutonium/media/icon/sword-brandish.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "activation": "1 Action",
+            "target": "",
+            "range": "5 Feet",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "1d6  + @mod",
+            "damageTypes": "Necrotic",
+            "abilityCheck": "Strength Ability Check",
+            "save": "DC 14 Constitution",
+            "toHit": "+ 5",
+            "derivedDamage": [
+              {
+                "formula": "1d6 + 3",
+                "damageType": "necrotic"
+              }
+            ]
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/sword-brandish.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 5 ft., one creature. <i>Hit:</i> 6 ([[/r 1d6 + 3]]) necrotic damage. The target must succeed on a DC <span class=\"rd__dc\">14</span> Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p><div class=\"rd__spc-inline-post\"></div><p>A humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MME",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": null,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d6  + @mod",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "con",
+          "dc": 14,
+          "scaling": "flat"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {},
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!2FJDxWtoLWmYBgGT.c4SvXYglRNcpdQiz"
+    },
+    {
+      "_id": "bzvWm3GgNZt9lIsN",
+      "name": "Longsword",
+      "type": "weapon",
+      "sort": 1003,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "kOoDDOeRUYBT8Amq"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Longsword",
+                "type": "weapon",
+                "data": {
+                  "source": "MME",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 5 ft., one target. <i>Hit:</i> 7 ([[/r 1d8 + 3]]) slashing damage, or 8 ([[/r 1d10 + 3]]) slashing damage if used with two hands.</p><div class=\"rd__spc-inline-post\"></div></div>"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d8  + @mod",
+                        "slashing"
+                      ]
+                    ],
+                    "versatile": "1d10  + @mod"
+                  },
+                  "range": {
+                    "value": 5,
+                    "long": 0,
+                    "units": "ft"
+                  },
+                  "actionType": "mwak",
+                  "proficient": true,
+                  "quantity": 1,
+                  "weight": 3,
+                  "price": null,
+                  "rarity": "None",
+                  "weaponType": "martialM",
+                  "properties": {
+                    "ver": true
+                  },
+                  "attuned": false,
+                  "ability": "str",
+                  "equipped": true,
+                  "identified": false,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  }
+                },
+                "img": "systems/dnd5e/icons/items/weapons/sword-long.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "activation": "1 Action",
+            "target": "",
+            "range": "5 Feet",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "1d8  + @mod",
+            "damageTypes": "Slashing",
+            "abilityCheck": "Strength Ability Check",
+            "toHit": "+ 5",
+            "derivedDamage": [
+              {
+                "formula": "1d8 + 3",
+                "damageType": "slashing"
+              }
+            ]
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/weapons/sword-long.jpg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 5 ft., one target. <i>Hit:</i> 7 ([[/r 1d8 + 3]]) slashing damage, or 8 ([[/r 1d10 + 3]]) slashing damage if used with two hands.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MME",
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": null,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8  + @mod",
+              "slashing"
+            ]
+          ],
+          "versatile": "1d10  + @mod"
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "baseItem": "",
+        "properties": {
+          "ver": true
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!2FJDxWtoLWmYBgGT.bzvWm3GgNZt9lIsN"
+    },
+    {
+      "_id": "7y0Rv321ep3fsYGr",
+      "name": "Longbow",
+      "type": "weapon",
+      "sort": 1002,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "kOoDDOeRUYBT8Amq"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Longbow",
+                "type": "weapon",
+                "data": {
+                  "source": "MME",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Ranged Weapon Attack:</i> [[/r 1d20+4]] (+4) to hit, range 150/600 ft., one target. <i>Hit:</i> 6 ([[/r 1d8 + 2]]) piercing damage.</p><div class=\"rd__spc-inline-post\"></div></div>"
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d8  + @mod",
+                        "piercing"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "range": {
+                    "value": 150,
+                    "long": 600,
+                    "units": "ft"
+                  },
+                  "actionType": "rwak",
+                  "proficient": true,
+                  "quantity": 1,
+                  "weight": 2,
+                  "price": null,
+                  "rarity": "None",
+                  "weaponType": "martialR",
+                  "properties": {
+                    "amm": true,
+                    "hvy": true,
+                    "two": true
+                  },
+                  "attuned": false,
+                  "ability": "dex",
+                  "equipped": true,
+                  "identified": false,
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  }
+                },
+                "img": "systems/dnd5e/icons/items/weapons/bow-long.jpg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "activation": "1 Action",
+            "target": "",
+            "range": "150 / 600 Feet",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "1d8  + @mod",
+            "damageTypes": "Piercing",
+            "abilityCheck": "Dexterity Ability Check",
+            "toHit": "+ 4",
+            "derivedDamage": [
+              {
+                "formula": "1d8 + 2",
+                "damageType": "piercing"
+              }
+            ]
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/weapons/bow-long.jpg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Ranged Weapon Attack:</i> [[/r 1d20+4]] (+4) to hit, range 150/600 ft., one target. <i>Hit:</i> 6 ([[/r 1d8 + 2]]) piercing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MME",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": null,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 150,
+          "long": 600,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8  + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialR",
+        "baseItem": "",
+        "properties": {
+          "amm": true,
+          "hvy": true,
+          "two": true
+        },
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!2FJDxWtoLWmYBgGT.7y0Rv321ep3fsYGr"
+    },
+    {
+      "_id": "ExkLkmvdWywbFE07",
+      "name": "Maneuver Allies",
+      "type": "feat",
+      "sort": 1102,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "kOoDDOeRUYBT8Amq"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Maneuver Allies",
+                "type": "feat",
+                "data": {
+                  "source": "MME",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Up to four allies within 60 feet of this captain that can hear it can each use their reaction to move up to half their speed without provoking opportunity attacks.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": 5,
+                    "charged": true
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mailed-fist.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Action",
+            "activation": "1 Action",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [5+]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Up to four allies within 60 feet of this captain that can hear it can each use their reaction to move up to half their speed without provoking opportunity attacks.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MME",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 5,
+          "charged": true
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!2FJDxWtoLWmYBgGT.ExkLkmvdWywbFE07"
+    },
+    {
+      "_id": "zrn872h5n6cDJSAJ",
+      "name": "Sunlight Sensitivity",
+      "type": "feat",
+      "sort": 102,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "kOoDDOeRUYBT8Amq"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Sunlight Sensitivity",
+                "type": "feat",
+                "data": {
+                  "source": "MME",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Passive",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MME",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!2FJDxWtoLWmYBgGT.zrn872h5n6cDJSAJ"
+    },
+    {
+      "_id": "SSQ7zfCPQG0q0hSI",
+      "name": "Distracting Strike (1/Turn)",
+      "type": "feat",
+      "sort": 101,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "kOoDDOeRUYBT8Amq"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Distracting Strike (1/Turn)",
+                "type": "feat",
+                "data": {
+                  "source": "MME",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>When the wight hits a creature with a weapon attack, the next attack roll against the target by an attacker other than the wight has advantage if the attack is made before the start of the wight's next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Passive",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>When the wight hits a creature with a weapon attack, the next attack roll against the target by an attacker other than the wight has advantage if the attack is made before the start of the wight's next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MME",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!2FJDxWtoLWmYBgGT.SSQ7zfCPQG0q0hSI"
+    },
+    {
+      "_id": "0wo0tkxCMTbrfjQS",
+      "name": "Directed Strike",
+      "type": "feat",
+      "sort": 1101,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "kOoDDOeRUYBT8Amq"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Directed Strike",
+                "type": "feat",
+                "data": {
+                  "source": "MME",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>When a creature the wight can see within 30 feet of it makes an attack roll, and the creature can hear the wight, the wight grants advantage to that roll.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "reaction",
+                    "cost": 1,
+                    "condition": "When a creature the wight can see within 30 feet of it makes an attack roll, and the creature can hear the wight, the wight grants advantage to that roll."
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 3,
+                    "max": 3,
+                    "per": "day"
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Action",
+            "activation": "1 Reaction",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>When a creature the wight can see within 30 feet of it makes an attack roll, and the creature can hear the wight, the wight grants advantage to that roll.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MME",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": "When a creature the wight can see within 30 feet of it makes an attack roll, and the creature can hear the wight, the wight grants advantage to that roll."
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "per": "day"
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!2FJDxWtoLWmYBgGT.0wo0tkxCMTbrfjQS"
+    },
+    {
+      "_id": "ZHY8igWQRX1qoRiA",
+      "name": "Half Plate Armor",
+      "type": "equipment",
+      "sort": 2001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "kOoDDOeRUYBT8Amq"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Half Plate Armor",
+                "type": "equipment",
+                "data": {
+                  "description": {
+                    "value": "<div>\n\t\t\t<div><i>Medium armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">750 gp, 40 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 15 + Dex (max 2)  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 111, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "PHB",
+                  "quantity": 1,
+                  "weight": 40,
+                  "price": null,
+                  "attuned": false,
+                  "equipped": true,
+                  "rarity": "None",
+                  "identified": false,
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": null,
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "armor": {
+                    "type": "medium",
+                    "value": 15,
+                    "dex": 2
+                  },
+                  "strength": null,
+                  "stealth": true,
+                  "proficient": true,
+                  "attributes": {
+                    "spelldc": 10
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "attunement": ""
+                },
+                "img": "systems/dnd5e/icons/items/armor/halfplate.png",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "armor": "15 AC",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/armor/halfplate.png",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Medium armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">750 gp, 40 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 15 + Dex (max 2)  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 111, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": {
+          "value": 40,
+          "units": "lb"
+        },
+        "price": null,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 15,
+          "type": "medium",
+          "dex": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": true,
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!2FJDxWtoLWmYBgGT.ZHY8igWQRX1qoRiA"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "journal-links": {
+      "references": {}
+    },
+    "downtime-ethck": {
+      "trainingItems": [],
+      "changes": []
+    },
+    "tidy5e-sheet": {
+      "npcTraitsExpanded": true
+    },
+    "externalactor": {
+      "classLabels": "",
+      "currencyWeight": true,
+      "disableExperience": false
+    },
+    "scene-packer": {
+      "sourceId": "Actor.kOoDDOeRUYBT8Amq"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 16,
@@ -473,7 +2250,7 @@
       }
     }
   },
-  "token": {
+  "prototypeToken": {
     "flags": {
       "token-auras": {
         "aura1": {
@@ -508,29 +2285,10 @@
     },
     "name": "Jeanna Silverchain",
     "displayName": 20,
-    "img": "moulinette/images/img/npccampaign01/Jeanna_Silverchain.Token.png",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
     "lockRotation": false,
     "rotation": 0,
-    "vision": true,
-    "dimSight": 10,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightColor": null,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "kOoDDOeRUYBT8Amq",
     "actorLink": true,
     "disposition": -1,
     "displayBars": 40,
@@ -541,1672 +2299,74 @@
       "attribute": "attributes.ac.value"
     },
     "randomImg": false,
-    "alpha": 1
-  },
-  "items": [
-    {
-      "_id": "VWJty9mq5isaHsUd",
-      "name": "Multiattack",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>The wight makes two longsword attacks or two longbow attacks. It can use its Life Drain in place of one longsword attack.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MME",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
+    "alpha": 1,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 1,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
       },
-      "sort": 1103,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "kOoDDOeRUYBT8Amq"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Multiattack",
-                "type": "feat",
-                "data": {
-                  "source": "MME",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p>The wight makes two longsword attacks or two longbow attacks. It can use its Life Drain in place of one longsword attack.</p><div class=\"rd__spc-inline-post\"></div></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "requirements": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "ability": "",
-                  "actionType": "other",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "consume": {
-                    "type": null,
-                    "target": null,
-                    "amount": null
-                  }
-                },
-                "img": "modules/plutonium/media/icon/mailed-fist.svg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "featType": "Action",
-            "activation": "1 Action",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [null]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!2FJDxWtoLWmYBgGT.VWJty9mq5isaHsUd"
+      "negative": false,
+      "priority": 0,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    {
-      "_id": "c4SvXYglRNcpdQiz",
-      "name": "Life Drain",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 5 ft., one creature. <i>Hit:</i> 6 ([[/r 1d6 + 3]]) necrotic damage. The target must succeed on a DC <span class=\"rd__dc\">14</span> Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p><div class=\"rd__spc-inline-post\"></div><p>A humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time.</p></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MME",
-        "quantity": 1,
-        "weight": 0,
-        "price": null,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": false,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "str",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [
-            [
-              "1d6  + @mod",
-              "necrotic"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "con",
-          "dc": 14,
-          "scaling": "flat"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "natural",
-        "baseItem": "",
-        "properties": {},
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1001,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "kOoDDOeRUYBT8Amq"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Life Drain",
-                "type": "weapon",
-                "data": {
-                  "source": "MME",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 5 ft., one creature. <i>Hit:</i> 6 ([[/r 1d6 + 3]]) necrotic damage. The target must succeed on a DC <span class=\"rd__dc\">14</span> Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p><div class=\"rd__spc-inline-post\"></div><p>A humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time.</p></div>"
-                  },
-                  "damage": {
-                    "parts": [
-                      [
-                        "1d6  + @mod",
-                        "necrotic"
-                      ]
-                    ],
-                    "versatile": ""
-                  },
-                  "range": {
-                    "value": 5,
-                    "long": 0,
-                    "units": "ft"
-                  },
-                  "actionType": "mwak",
-                  "proficient": true,
-                  "quantity": 1,
-                  "weight": 0,
-                  "price": null,
-                  "rarity": "",
-                  "weaponType": "natural",
-                  "properties": {},
-                  "attuned": false,
-                  "ability": "str",
-                  "equipped": true,
-                  "identified": false,
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "save": {
-                    "ability": "con",
-                    "dc": 14,
-                    "scaling": "flat"
-                  }
-                },
-                "img": "modules/plutonium/media/icon/sword-brandish.svg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "activation": "1 Action",
-            "target": "",
-            "range": "5 Feet",
-            "duration": "",
-            "recharge": "Recharge [undefined]",
-            "damage": "1d6  + @mod",
-            "damageTypes": "Necrotic",
-            "abilityCheck": "Strength Ability Check",
-            "save": "DC 14 Constitution",
-            "toHit": "+ 5",
-            "derivedDamage": [
-              {
-                "formula": "1d6 + 3",
-                "damageType": "necrotic"
-              }
-            ]
-          }
-        }
-      },
-      "img": "modules/plutonium/media/icon/sword-brandish.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!2FJDxWtoLWmYBgGT.c4SvXYglRNcpdQiz"
+    "texture": {
+      "src": "moulinette/images/img/npccampaign01/Jeanna_Silverchain.Token.png",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
     },
-    {
-      "_id": "bzvWm3GgNZt9lIsN",
-      "name": "Longsword",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 5 ft., one target. <i>Hit:</i> 7 ([[/r 1d8 + 3]]) slashing damage, or 8 ([[/r 1d10 + 3]]) slashing damage if used with two hands.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MME",
-        "quantity": 1,
-        "weight": 3,
-        "price": null,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": false,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "str",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [
-            [
-              "1d8  + @mod",
-              "slashing"
-            ]
-          ],
-          "versatile": "1d10  + @mod"
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "martialM",
-        "baseItem": "",
-        "properties": {
-          "ver": true
-        },
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1003,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "kOoDDOeRUYBT8Amq"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Longsword",
-                "type": "weapon",
-                "data": {
-                  "source": "MME",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Melee Weapon Attack:</i> [[/r 1d20+5]] (+5) to hit, reach 5 ft., one target. <i>Hit:</i> 7 ([[/r 1d8 + 3]]) slashing damage, or 8 ([[/r 1d10 + 3]]) slashing damage if used with two hands.</p><div class=\"rd__spc-inline-post\"></div></div>"
-                  },
-                  "damage": {
-                    "parts": [
-                      [
-                        "1d8  + @mod",
-                        "slashing"
-                      ]
-                    ],
-                    "versatile": "1d10  + @mod"
-                  },
-                  "range": {
-                    "value": 5,
-                    "long": 0,
-                    "units": "ft"
-                  },
-                  "actionType": "mwak",
-                  "proficient": true,
-                  "quantity": 1,
-                  "weight": 3,
-                  "price": null,
-                  "rarity": "None",
-                  "weaponType": "martialM",
-                  "properties": {
-                    "ver": true
-                  },
-                  "attuned": false,
-                  "ability": "str",
-                  "equipped": true,
-                  "identified": false,
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  }
-                },
-                "img": "systems/dnd5e/icons/items/weapons/sword-long.jpg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "activation": "1 Action",
-            "target": "",
-            "range": "5 Feet",
-            "duration": "",
-            "recharge": "Recharge [undefined]",
-            "damage": "1d8  + @mod",
-            "damageTypes": "Slashing",
-            "abilityCheck": "Strength Ability Check",
-            "toHit": "+ 5",
-            "derivedDamage": [
-              {
-                "formula": "1d8 + 3",
-                "damageType": "slashing"
-              }
-            ]
-          }
-        }
-      },
-      "img": "/systems/dnd5e/icons/items/weapons/sword-long.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!2FJDxWtoLWmYBgGT.bzvWm3GgNZt9lIsN"
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 10,
+      "brightness": 0,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
     },
-    {
-      "_id": "7y0Rv321ep3fsYGr",
-      "name": "Longbow",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Ranged Weapon Attack:</i> [[/r 1d20+4]] (+4) to hit, range 150/600 ft., one target. <i>Hit:</i> 6 ([[/r 1d8 + 2]]) piercing damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MME",
-        "quantity": 1,
-        "weight": 2,
-        "price": null,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": false,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 150,
-          "long": 600,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "dex",
-        "actionType": "rwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [
-            [
-              "1d8  + @mod",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "martialR",
-        "baseItem": "",
-        "properties": {
-          "amm": true,
-          "hvy": true,
-          "two": true
-        },
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1002,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "kOoDDOeRUYBT8Amq"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Longbow",
-                "type": "weapon",
-                "data": {
-                  "source": "MME",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p><i>Ranged Weapon Attack:</i> [[/r 1d20+4]] (+4) to hit, range 150/600 ft., one target. <i>Hit:</i> 6 ([[/r 1d8 + 2]]) piercing damage.</p><div class=\"rd__spc-inline-post\"></div></div>"
-                  },
-                  "damage": {
-                    "parts": [
-                      [
-                        "1d8  + @mod",
-                        "piercing"
-                      ]
-                    ],
-                    "versatile": ""
-                  },
-                  "range": {
-                    "value": 150,
-                    "long": 600,
-                    "units": "ft"
-                  },
-                  "actionType": "rwak",
-                  "proficient": true,
-                  "quantity": 1,
-                  "weight": 2,
-                  "price": null,
-                  "rarity": "None",
-                  "weaponType": "martialR",
-                  "properties": {
-                    "amm": true,
-                    "hvy": true,
-                    "two": true
-                  },
-                  "attuned": false,
-                  "ability": "dex",
-                  "equipped": true,
-                  "identified": false,
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  }
-                },
-                "img": "systems/dnd5e/icons/items/weapons/bow-long.jpg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "activation": "1 Action",
-            "target": "",
-            "range": "150 / 600 Feet",
-            "duration": "",
-            "recharge": "Recharge [undefined]",
-            "damage": "1d8  + @mod",
-            "damageTypes": "Piercing",
-            "abilityCheck": "Dexterity Ability Check",
-            "toHit": "+ 4",
-            "derivedDamage": [
-              {
-                "formula": "1d8 + 2",
-                "damageType": "piercing"
-              }
-            ]
-          }
-        }
-      },
-      "img": "/systems/dnd5e/icons/items/weapons/bow-long.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!2FJDxWtoLWmYBgGT.7y0Rv321ep3fsYGr"
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
     },
-    {
-      "_id": "ExkLkmvdWywbFE07",
-      "name": "Maneuver Allies",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>Up to four allies within 60 feet of this captain that can hear it can each use their reaction to move up to half their speed without provoking opportunity attacks.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MME",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": 5,
-          "charged": true
-        },
-        "attributes": {
-          "spelldc": 10
-        }
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
       },
-      "sort": 1102,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "kOoDDOeRUYBT8Amq"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Maneuver Allies",
-                "type": "feat",
-                "data": {
-                  "source": "MME",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Up to four allies within 60 feet of this captain that can hear it can each use their reaction to move up to half their speed without provoking opportunity attacks.</p><div class=\"rd__spc-inline-post\"></div></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "requirements": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "ability": "",
-                  "actionType": "other",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "recharge": {
-                    "value": 5,
-                    "charged": true
-                  },
-                  "consume": {
-                    "type": null,
-                    "target": null,
-                    "amount": null
-                  }
-                },
-                "img": "modules/plutonium/media/icon/mailed-fist.svg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "featType": "Action",
-            "activation": "1 Action",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [5+]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!2FJDxWtoLWmYBgGT.ExkLkmvdWywbFE07"
-    },
-    {
-      "_id": "zrn872h5n6cDJSAJ",
-      "name": "Sunlight Sensitivity",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MME",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 102,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "kOoDDOeRUYBT8Amq"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Sunlight Sensitivity",
-                "type": "feat",
-                "data": {
-                  "source": "MME",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p>While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p><div class=\"rd__spc-inline-post\"></div></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "requirements": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "flat"
-                  },
-                  "activation": {
-                    "type": "",
-                    "cost": 0,
-                    "condition": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "ability": "",
-                  "actionType": "other",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "consume": {
-                    "type": null,
-                    "target": null,
-                    "amount": null
-                  }
-                },
-                "img": "modules/plutonium/media/icon/mighty-force.svg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "featType": "Passive",
-            "activation": "",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [null]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!2FJDxWtoLWmYBgGT.zrn872h5n6cDJSAJ"
-    },
-    {
-      "_id": "SSQ7zfCPQG0q0hSI",
-      "name": "Distracting Strike (1/Turn)",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>When the wight hits a creature with a weapon attack, the next attack roll against the target by an attacker other than the wight has advantage if the attack is made before the start of the wight's next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MME",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 101,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "kOoDDOeRUYBT8Amq"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Distracting Strike (1/Turn)",
-                "type": "feat",
-                "data": {
-                  "source": "MME",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p>When the wight hits a creature with a weapon attack, the next attack roll against the target by an attacker other than the wight has advantage if the attack is made before the start of the wight's next turn.</p><div class=\"rd__spc-inline-post\"></div></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "requirements": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "flat"
-                  },
-                  "activation": {
-                    "type": "",
-                    "cost": 0,
-                    "condition": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "ability": "",
-                  "actionType": "other",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "consume": {
-                    "type": null,
-                    "target": null,
-                    "amount": null
-                  }
-                },
-                "img": "modules/plutonium/media/icon/mighty-force.svg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "featType": "Passive",
-            "activation": "",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [null]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!2FJDxWtoLWmYBgGT.SSQ7zfCPQG0q0hSI"
-    },
-    {
-      "_id": "0wo0tkxCMTbrfjQS",
-      "name": "Directed Strike",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>When a creature the wight can see within 30 feet of it makes an attack roll, and the creature can hear the wight, the wight grants advantage to that roll.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MME",
-        "activation": {
-          "type": "reaction",
-          "cost": 1,
-          "condition": "When a creature the wight can see within 30 feet of it makes an attack roll, and the creature can hear the wight, the wight grants advantage to that roll."
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 3,
-          "max": 3,
-          "per": "day"
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1101,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "kOoDDOeRUYBT8Amq"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Directed Strike",
-                "type": "feat",
-                "data": {
-                  "source": "MME",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p>When a creature the wight can see within 30 feet of it makes an attack roll, and the creature can hear the wight, the wight grants advantage to that roll.</p><div class=\"rd__spc-inline-post\"></div></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "requirements": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "flat"
-                  },
-                  "activation": {
-                    "type": "reaction",
-                    "cost": 1,
-                    "condition": "When a creature the wight can see within 30 feet of it makes an attack roll, and the creature can hear the wight, the wight grants advantage to that roll."
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 3,
-                    "max": 3,
-                    "per": "day"
-                  },
-                  "ability": "",
-                  "actionType": "other",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "consume": {
-                    "type": null,
-                    "target": null,
-                    "amount": null
-                  }
-                },
-                "img": "modules/plutonium/media/icon/mighty-force.svg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "featType": "Action",
-            "activation": "1 Reaction",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [null]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!2FJDxWtoLWmYBgGT.0wo0tkxCMTbrfjQS"
-    },
-    {
-      "_id": "ZHY8igWQRX1qoRiA",
-      "name": "Half Plate Armor",
-      "type": "equipment",
-      "data": {
-        "description": {
-          "value": "<div>\n\t\t\t<div><i>Medium armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">750 gp, 40 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 15 + Dex (max 2)  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 111, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB",
-        "quantity": 1,
-        "weight": 40,
-        "price": null,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": false,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 15,
-          "type": "medium",
-          "dex": 2
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "baseItem": "",
-        "speed": {
-          "value": null,
-          "conditions": ""
-        },
-        "strength": null,
-        "stealth": true,
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 2001,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "kOoDDOeRUYBT8Amq"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Half Plate Armor",
-                "type": "equipment",
-                "data": {
-                  "description": {
-                    "value": "<div>\n\t\t\t<div><i>Medium armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">750 gp, 40 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 15 + Dex (max 2)  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 111, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "PHB",
-                  "quantity": 1,
-                  "weight": 40,
-                  "price": null,
-                  "attuned": false,
-                  "equipped": true,
-                  "rarity": "None",
-                  "identified": false,
-                  "activation": {
-                    "type": "",
-                    "cost": 0,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "ability": null,
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null
-                  },
-                  "armor": {
-                    "type": "medium",
-                    "value": 15,
-                    "dex": 2
-                  },
-                  "strength": null,
-                  "stealth": true,
-                  "proficient": true,
-                  "attributes": {
-                    "spelldc": 10
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "attunement": ""
-                },
-                "img": "systems/dnd5e/icons/items/armor/halfplate.png",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "armor": "15 AC",
-            "activation": "",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [undefined]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "/systems/dnd5e/icons/items/armor/halfplate.png",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!2FJDxWtoLWmYBgGT.ZHY8igWQRX1qoRiA"
-    }
-  ],
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
-  "flags": {
-    "journal-links": {
-      "references": {}
-    },
-    "downtime-ethck": {
-      "trainingItems": [],
-      "changes": []
-    },
-    "tidy5e-sheet": {
-      "npcTraitsExpanded": true
-    },
-    "externalactor": {
-      "classLabels": "",
-      "currencyWeight": true,
-      "disableExperience": false
-    },
-    "scene-packer": {
-      "sourceId": "Actor.kOoDDOeRUYBT8Amq"
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     }
   },
   "_key": "!actors!2FJDxWtoLWmYBgGT"

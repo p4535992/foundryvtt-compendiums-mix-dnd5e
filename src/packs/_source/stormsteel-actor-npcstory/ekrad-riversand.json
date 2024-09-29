@@ -3,7 +3,1752 @@
   "name": "Ekrad Riversand",
   "type": "npc",
   "img": "moulinette/images/img/npccampaign01/Ekrad_Riversand.Avatar.png",
-  "data": {
+  "items": [
+    {
+      "_id": "piYCIFlrSWqgeiWI",
+      "name": "Multiattack",
+      "type": "feat",
+      "sort": 1102,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "o7jiDJ4KJGbeJhyI"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Multiattack",
+                "type": "feat",
+                "data": {
+                  "source": "MFoV",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin makes four attacks with his longsword.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mailed-fist.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Action",
+            "activation": "1 Action",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mailed-fist.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin makes four attacks with his longsword.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MFoV",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wodLIRw4MgD0qVve.piYCIFlrSWqgeiWI"
+    },
+    {
+      "_id": "hsP3LW1guXojh79F",
+      "name": "Longsword",
+      "type": "feat",
+      "sort": 1101,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "o7jiDJ4KJGbeJhyI"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Longsword",
+                "type": "feat",
+                "data": {
+                  "source": "MFoV",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Melee Weapon Attack: [[/r 1d20+10]] (+10) to hit, reach 10 ft., one target. Hit: 9 ([[/r 1d8 + 5]]) slashing damage, or 10 ([[/r 1d10 + 5]]) slashing damage if used with two hands, plus 13 ([[/r 3d8]]) necrotic damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [
+                      [
+                        "1d8  + @mod",
+                        "slashing"
+                      ],
+                      [
+                        "1d10  + @mod",
+                        "slashing"
+                      ],
+                      [
+                        "3d8",
+                        "necrotic"
+                      ]
+                    ],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "spell"
+                  },
+                  "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 1,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mailed-fist.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Action",
+            "activation": "1 Action",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "1d8  + @mod + 1d10  + @mod + 3d8",
+            "damageTypes": "Slashing, Slashing, Necrotic",
+            "abilityCheck": "undefined Ability Check",
+            "derivedDamage": [
+              {
+                "formula": "1d8 + 5",
+                "damageType": "slashing"
+              },
+              {
+                "formula": "1d10 + 5",
+                "damageType": "slashing"
+              },
+              {
+                "formula": "3d8",
+                "damageType": "necrotic"
+              }
+            ]
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/weapons/sword-long.jpg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Melee Weapon Attack: [[/r 1d20+10]] (+10) to hit, reach 10 ft., one target. Hit: 9 ([[/r 1d8 + 5]]) slashing damage, or 10 ([[/r 1d10 + 5]]) slashing damage if used with two hands, plus 13 ([[/r 3d8]]) necrotic damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MFoV",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 1,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8  + @mod",
+              "slashing"
+            ],
+            [
+              "1d10  + @mod",
+              "slashing"
+            ],
+            [
+              "3d8",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wodLIRw4MgD0qVve.hsP3LW1guXojh79F"
+    },
+    {
+      "_id": "t0gBYz7Yx4TxBy3a",
+      "name": "Invisibility",
+      "type": "feat",
+      "sort": 101,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "o7jiDJ4KJGbeJhyI"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Invisibility",
+                "type": "feat",
+                "data": {
+                  "source": "MFoV",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin can cast the spell <a href=\"https://5e.tools/spells.html#invisibility_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'spells.html', 'PHB', 'invisibility_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >invisibility</a> at will.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Passive",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/fog-sky-2.jpg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin can cast the spell <a href=\"https://5e.tools/spells.html#invisibility_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'spells.html', 'PHB', 'invisibility_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >invisibility</a> at will.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MFoV",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wodLIRw4MgD0qVve.t0gBYz7Yx4TxBy3a"
+    },
+    {
+      "_id": "AoN4dH6SoxNGqMbo",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "sort": 102,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "o7jiDJ4KJGbeJhyI"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Magic Resistance",
+                "type": "feat",
+                "data": {
+                  "source": "MFoV",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin has advantage on saving throws against spells and other magical effects.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Passive",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin has advantage on saving throws against spells and other magical effects.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MFoV",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wodLIRw4MgD0qVve.AoN4dH6SoxNGqMbo"
+    },
+    {
+      "_id": "MBfnSf41G3l5gYFI",
+      "name": "Umbral Blade",
+      "type": "feat",
+      "sort": 103,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "o7jiDJ4KJGbeJhyI"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Umbral Blade",
+                "type": "feat",
+                "data": {
+                  "source": "MFoV",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin's longsword has reach, deals an additional [[/r 3d8]] necrotic damage (included in the attack) and scores a critical hit on a roll of 18-20.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Passive",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin's longsword has reach, deals an additional [[/r 3d8]] necrotic damage (included in the attack) and scores a critical hit on a roll of 18-20.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MFoV",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wodLIRw4MgD0qVve.MBfnSf41G3l5gYFI"
+    },
+    {
+      "_id": "dePXg4qVt5G19KXW",
+      "name": "Parry",
+      "type": "feat",
+      "sort": 1103,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "o7jiDJ4KJGbeJhyI"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Parry",
+                "type": "feat",
+                "data": {
+                  "source": "MFoV",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin adds 5 to its AC against one melee attack that would hit it. To do so, Roldin must see the attacker and be wielding a melee weapon.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "reaction",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Action",
+            "activation": "1 Reaction",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin adds 5 to its AC against one melee attack that would hit it. To do so, Roldin must see the attacker and be wielding a melee weapon.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MFoV",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wodLIRw4MgD0qVve.dePXg4qVt5G19KXW"
+    },
+    {
+      "_id": "ZjBMYgfp9JeIzwEE",
+      "name": "Shift",
+      "type": "feat",
+      "sort": 1104,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "o7jiDJ4KJGbeJhyI"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Shift",
+                "type": "feat",
+                "data": {
+                  "source": "MFoV",
+                  "description": {
+                    "value": "<div  class=\"rd__b  rd__b--3\"><p>When a creature moves up to Roldin, he moves 10 feet away without provoking opportunity attacks.</p><div class=\"rd__spc-inline-post\"></div></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "requirements": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "flat"
+                  },
+                  "activation": {
+                    "type": "reaction",
+                    "cost": 1,
+                    "condition": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": "",
+                  "actionType": "other",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "formula": "",
+                  "recharge": {
+                    "value": null,
+                    "charged": false
+                  },
+                  "consume": {
+                    "type": null,
+                    "target": null,
+                    "amount": null
+                  }
+                },
+                "img": "modules/plutonium/media/icon/mighty-force.svg",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Action",
+            "activation": "1 Reaction",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "modules/plutonium/media/icon/mighty-force.svg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>When a creature moves up to Roldin, he moves 10 feet away without provoking opportunity attacks.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "MFoV",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wodLIRw4MgD0qVve.ZjBMYgfp9JeIzwEE"
+    },
+    {
+      "_id": "bLqDXE9qWf44Hjwe",
+      "name": "Plate Armor",
+      "type": "equipment",
+      "sort": 2001,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "o7jiDJ4KJGbeJhyI"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Plate Armor",
+                "type": "equipment",
+                "data": {
+                  "description": {
+                    "value": "<div>\n\t\t\t<div><i>Heavy armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">1.500 gp, 65 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 18  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 30, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p><p>If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "PHB",
+                  "quantity": 1,
+                  "weight": 65,
+                  "price": null,
+                  "attuned": false,
+                  "equipped": true,
+                  "rarity": "None",
+                  "identified": false,
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": null,
+                  "actionType": "",
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "armor": {
+                    "type": "heavy",
+                    "value": 18,
+                    "dex": 0
+                  },
+                  "strength": 15,
+                  "stealth": true,
+                  "proficient": true,
+                  "attributes": {
+                    "spelldc": 10
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "attunement": ""
+                },
+                "img": "systems/dnd5e/icons/items/armor/plate.png",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "armor": "18 AC",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/items/armor/plate.png",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Heavy armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">1.500 gp, 65 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 18  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 30, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p><p>If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": {
+          "value": 65,
+          "units": "lb"
+        },
+        "price": null,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 18,
+          "type": "heavy",
+          "dex": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": 15,
+        "stealth": true,
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wodLIRw4MgD0qVve.bLqDXE9qWf44Hjwe"
+    },
+    {
+      "_id": "jClWbBaQ7yefjVrV",
+      "name": "Shield",
+      "type": "equipment",
+      "sort": 2002,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "o7jiDJ4KJGbeJhyI"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Shield",
+                "type": "equipment",
+                "data": {
+                  "description": {
+                    "value": "<div>\n\t\t\t<div><i>Armor (<a href=\"https://5e.tools/items.html#shield_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'items.html', 'phb', 'shield_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >shield</a>)</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">10 gp, 6 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC +2  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>A <i>shield</i> is made from wood or metal and is carried in one hand. Wielding a <i>shield</i> increases your Armor Class by 2. You can benefit from only one <i>shield</i> at a time.</p></div>",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": "PHB",
+                  "quantity": 1,
+                  "weight": 6,
+                  "price": null,
+                  "attuned": false,
+                  "equipped": true,
+                  "rarity": "None",
+                  "identified": false,
+                  "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                  },
+                  "duration": {
+                    "value": null,
+                    "units": ""
+                  },
+                  "target": {
+                    "value": null,
+                    "units": "",
+                    "type": ""
+                  },
+                  "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                  },
+                  "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": null
+                  },
+                  "ability": null,
+                  "actionType": null,
+                  "attackBonus": 0,
+                  "chatFlavor": "",
+                  "critical": null,
+                  "damage": {
+                    "parts": [],
+                    "versatile": ""
+                  },
+                  "formula": "",
+                  "save": {
+                    "ability": "",
+                    "dc": null
+                  },
+                  "armor": {
+                    "type": "shield",
+                    "value": 2,
+                    "dex": null
+                  },
+                  "strength": "",
+                  "stealth": false,
+                  "proficient": true,
+                  "attributes": {
+                    "spelldc": 10
+                  },
+                  "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                  },
+                  "attunement": ""
+                },
+                "img": "systems/dnd5e/icons/items/armor/shield.png",
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "armor": "2 AC",
+            "activation": "",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "/systems/dnd5e/icons/spells/protect-magenta-1.jpg",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<div>\n\t\t\t<div><i>Armor (<a href=\"https://5e.tools/items.html#shield_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'items.html', 'phb', 'shield_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >shield</a>)</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">10 gp, 6 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC +2  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>A <i>shield</i> is made from wood or metal and is carried in one hand. Wielding a <i>shield</i> increases your Armor Class by 2. You can benefit from only one <i>shield</i> at a time.</p></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": {
+          "value": 6,
+          "units": "lb"
+        },
+        "price": null,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 2,
+          "type": "shield",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": "",
+        "stealth": false,
+        "proficient": true,
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!wodLIRw4MgD0qVve.jClWbBaQ7yefjVrV"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "journal-links": {
+      "references": {}
+    },
+    "downtime-ethck": {
+      "trainingItems": [],
+      "changes": []
+    },
+    "tidy5e-sheet": {
+      "npcTraitsExpanded": true
+    },
+    "externalactor": {
+      "classLabels": "",
+      "currencyWeight": true,
+      "disableExperience": false
+    },
+    "scene-packer": {
+      "sourceId": "Actor.o7jiDJ4KJGbeJhyI"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 20,
@@ -466,7 +2211,7 @@
       }
     }
   },
-  "token": {
+  "prototypeToken": {
     "flags": {
       "token-auras": {
         "aura1": {
@@ -501,29 +2246,10 @@
     },
     "name": "Ekrad Riversand",
     "displayName": 20,
-    "img": "moulinette/images/img/npccampaign01/Ekrad_Riversand.Token.png",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
     "lockRotation": false,
     "rotation": 0,
-    "vision": true,
-    "dimSight": 10,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightColor": null,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "o7jiDJ4KJGbeJhyI",
     "actorLink": true,
     "disposition": -1,
     "displayBars": 40,
@@ -531,1649 +2257,77 @@
       "attribute": "attributes.hp"
     },
     "bar2": {
-      "attribute": ""
+      "attribute": null
     },
     "randomImg": false,
-    "alpha": 1
-  },
-  "items": [
-    {
-      "_id": "piYCIFlrSWqgeiWI",
-      "name": "Multiattack",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin makes four attacks with his longsword.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MFoV",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
+    "alpha": 1,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 1,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
       },
-      "sort": 1102,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "o7jiDJ4KJGbeJhyI"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Multiattack",
-                "type": "feat",
-                "data": {
-                  "source": "MFoV",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin makes four attacks with his longsword.</p><div class=\"rd__spc-inline-post\"></div></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "requirements": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "ability": "",
-                  "actionType": "other",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "consume": {
-                    "type": null,
-                    "target": null,
-                    "amount": null
-                  }
-                },
-                "img": "modules/plutonium/media/icon/mailed-fist.svg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "featType": "Action",
-            "activation": "1 Action",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [null]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "modules/plutonium/media/icon/mailed-fist.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wodLIRw4MgD0qVve.piYCIFlrSWqgeiWI"
+      "negative": false,
+      "priority": 0,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    {
-      "_id": "hsP3LW1guXojh79F",
-      "name": "Longsword",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>Melee Weapon Attack: [[/r 1d20+10]] (+10) to hit, reach 10 ft., one target. Hit: 9 ([[/r 1d8 + 5]]) slashing damage, or 10 ([[/r 1d10 + 5]]) slashing damage if used with two hands, plus 13 ([[/r 3d8]]) necrotic damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MFoV",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 1,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [
-            [
-              "1d8  + @mod",
-              "slashing"
-            ],
-            [
-              "1d10  + @mod",
-              "slashing"
-            ],
-            [
-              "3d8",
-              "necrotic"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1101,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "o7jiDJ4KJGbeJhyI"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Longsword",
-                "type": "feat",
-                "data": {
-                  "source": "MFoV",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Melee Weapon Attack: [[/r 1d20+10]] (+10) to hit, reach 10 ft., one target. Hit: 9 ([[/r 1d8 + 5]]) slashing damage, or 10 ([[/r 1d10 + 5]]) slashing damage if used with two hands, plus 13 ([[/r 3d8]]) necrotic damage.</p><div class=\"rd__spc-inline-post\"></div></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "damage": {
-                    "parts": [
-                      [
-                        "1d8  + @mod",
-                        "slashing"
-                      ],
-                      [
-                        "1d10  + @mod",
-                        "slashing"
-                      ],
-                      [
-                        "3d8",
-                        "necrotic"
-                      ]
-                    ],
-                    "versatile": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "requirements": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "spell"
-                  },
-                  "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "ability": "",
-                  "actionType": "other",
-                  "attackBonus": 1,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "consume": {
-                    "type": null,
-                    "target": null,
-                    "amount": null
-                  }
-                },
-                "img": "modules/plutonium/media/icon/mailed-fist.svg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "featType": "Action",
-            "activation": "1 Action",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [null]",
-            "damage": "1d8  + @mod + 1d10  + @mod + 3d8",
-            "damageTypes": "Slashing, Slashing, Necrotic",
-            "abilityCheck": "undefined Ability Check",
-            "derivedDamage": [
-              {
-                "formula": "1d8 + 5",
-                "damageType": "slashing"
-              },
-              {
-                "formula": "1d10 + 5",
-                "damageType": "slashing"
-              },
-              {
-                "formula": "3d8",
-                "damageType": "necrotic"
-              }
-            ]
-          }
-        }
-      },
-      "img": "/systems/dnd5e/icons/items/weapons/sword-long.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wodLIRw4MgD0qVve.hsP3LW1guXojh79F"
+    "texture": {
+      "src": "moulinette/images/img/npccampaign01/Ekrad_Riversand.Token.png",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
     },
-    {
-      "_id": "t0gBYz7Yx4TxBy3a",
-      "name": "Invisibility",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin can cast the spell <a href=\"https://5e.tools/spells.html#invisibility_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'spells.html', 'PHB', 'invisibility_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >invisibility</a> at will.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MFoV",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 101,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "o7jiDJ4KJGbeJhyI"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Invisibility",
-                "type": "feat",
-                "data": {
-                  "source": "MFoV",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin can cast the spell <a href=\"https://5e.tools/spells.html#invisibility_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'spells.html', 'PHB', 'invisibility_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >invisibility</a> at will.</p><div class=\"rd__spc-inline-post\"></div></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "requirements": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "flat"
-                  },
-                  "activation": {
-                    "type": "",
-                    "cost": 0,
-                    "condition": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "ability": "",
-                  "actionType": "other",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "consume": {
-                    "type": null,
-                    "target": null,
-                    "amount": null
-                  }
-                },
-                "img": "modules/plutonium/media/icon/mighty-force.svg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "featType": "Passive",
-            "activation": "",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [null]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "/systems/dnd5e/icons/spells/fog-sky-2.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wodLIRw4MgD0qVve.t0gBYz7Yx4TxBy3a"
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 10,
+      "brightness": 0,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
     },
-    {
-      "_id": "AoN4dH6SoxNGqMbo",
-      "name": "Magic Resistance",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin has advantage on saving throws against spells and other magical effects.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MFoV",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 102,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "o7jiDJ4KJGbeJhyI"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Magic Resistance",
-                "type": "feat",
-                "data": {
-                  "source": "MFoV",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin has advantage on saving throws against spells and other magical effects.</p><div class=\"rd__spc-inline-post\"></div></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "requirements": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "flat"
-                  },
-                  "activation": {
-                    "type": "",
-                    "cost": 0,
-                    "condition": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "ability": "",
-                  "actionType": "other",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "consume": {
-                    "type": null,
-                    "target": null,
-                    "amount": null
-                  }
-                },
-                "img": "modules/plutonium/media/icon/mighty-force.svg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "featType": "Passive",
-            "activation": "",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [null]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wodLIRw4MgD0qVve.AoN4dH6SoxNGqMbo"
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
     },
-    {
-      "_id": "MBfnSf41G3l5gYFI",
-      "name": "Umbral Blade",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin's longsword has reach, deals an additional [[/r 3d8]] necrotic damage (included in the attack) and scores a critical hit on a roll of 18-20.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MFoV",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
       },
-      "sort": 103,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "o7jiDJ4KJGbeJhyI"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Umbral Blade",
-                "type": "feat",
-                "data": {
-                  "source": "MFoV",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin's longsword has reach, deals an additional [[/r 3d8]] necrotic damage (included in the attack) and scores a critical hit on a roll of 18-20.</p><div class=\"rd__spc-inline-post\"></div></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "requirements": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "flat"
-                  },
-                  "activation": {
-                    "type": "",
-                    "cost": 0,
-                    "condition": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "ability": "",
-                  "actionType": "other",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "consume": {
-                    "type": null,
-                    "target": null,
-                    "amount": null
-                  }
-                },
-                "img": "modules/plutonium/media/icon/mighty-force.svg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "featType": "Passive",
-            "activation": "",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [null]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wodLIRw4MgD0qVve.MBfnSf41G3l5gYFI"
-    },
-    {
-      "_id": "dePXg4qVt5G19KXW",
-      "name": "Parry",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin adds 5 to its AC against one melee attack that would hit it. To do so, Roldin must see the attacker and be wielding a melee weapon.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MFoV",
-        "activation": {
-          "type": "reaction",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1103,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "o7jiDJ4KJGbeJhyI"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Parry",
-                "type": "feat",
-                "data": {
-                  "source": "MFoV",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p>Roldin adds 5 to its AC against one melee attack that would hit it. To do so, Roldin must see the attacker and be wielding a melee weapon.</p><div class=\"rd__spc-inline-post\"></div></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "requirements": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "flat"
-                  },
-                  "activation": {
-                    "type": "reaction",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "ability": "",
-                  "actionType": "other",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "consume": {
-                    "type": null,
-                    "target": null,
-                    "amount": null
-                  }
-                },
-                "img": "modules/plutonium/media/icon/mighty-force.svg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "featType": "Action",
-            "activation": "1 Reaction",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [null]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wodLIRw4MgD0qVve.dePXg4qVt5G19KXW"
-    },
-    {
-      "_id": "ZjBMYgfp9JeIzwEE",
-      "name": "Shift",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<div  class=\"rd__b  rd__b--3\"><p>When a creature moves up to Roldin, he moves 10 feet away without provoking opportunity attacks.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "MFoV",
-        "activation": {
-          "type": "reaction",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": null,
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "other",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "flat"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 1104,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "o7jiDJ4KJGbeJhyI"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Shift",
-                "type": "feat",
-                "data": {
-                  "source": "MFoV",
-                  "description": {
-                    "value": "<div  class=\"rd__b  rd__b--3\"><p>When a creature moves up to Roldin, he moves 10 feet away without provoking opportunity attacks.</p><div class=\"rd__spc-inline-post\"></div></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "requirements": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null,
-                    "scaling": "flat"
-                  },
-                  "activation": {
-                    "type": "reaction",
-                    "cost": 1,
-                    "condition": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "ability": "",
-                  "actionType": "other",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "formula": "",
-                  "recharge": {
-                    "value": null,
-                    "charged": false
-                  },
-                  "consume": {
-                    "type": null,
-                    "target": null,
-                    "amount": null
-                  }
-                },
-                "img": "modules/plutonium/media/icon/mighty-force.svg",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "featType": "Action",
-            "activation": "1 Reaction",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [null]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "modules/plutonium/media/icon/mighty-force.svg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wodLIRw4MgD0qVve.ZjBMYgfp9JeIzwEE"
-    },
-    {
-      "_id": "bLqDXE9qWf44Hjwe",
-      "name": "Plate Armor",
-      "type": "equipment",
-      "data": {
-        "description": {
-          "value": "<div>\n\t\t\t<div><i>Heavy armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">1.500 gp, 65 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 18  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 30, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p><p>If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.</p></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB",
-        "quantity": 1,
-        "weight": 65,
-        "price": null,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": false,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 18,
-          "type": "heavy",
-          "dex": 0
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "baseItem": "",
-        "speed": {
-          "value": null,
-          "conditions": ""
-        },
-        "strength": 15,
-        "stealth": true,
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 2001,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "o7jiDJ4KJGbeJhyI"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Plate Armor",
-                "type": "equipment",
-                "data": {
-                  "description": {
-                    "value": "<div>\n\t\t\t<div><i>Heavy armor</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">1.500 gp, 65 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC 18  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p><p>The wearer has disadvantage on Dexterity (<span class=\"help--hover\" onmouseover=\"Renderer.hover.handlePredefinedMouseOver(event, this, 30, {})\" onmousemove=\"Renderer.hover.handlePredefinedMouseMove(event, this)\" onmouseleave=\"Renderer.hover.handlePredefinedMouseLeave(event, this)\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\">Stealth</span>) checks.</p><p>If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.</p></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "PHB",
-                  "quantity": 1,
-                  "weight": 65,
-                  "price": null,
-                  "attuned": false,
-                  "equipped": true,
-                  "rarity": "None",
-                  "identified": false,
-                  "activation": {
-                    "type": "",
-                    "cost": 0,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "ability": null,
-                  "actionType": "",
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null
-                  },
-                  "armor": {
-                    "type": "heavy",
-                    "value": 18,
-                    "dex": 0
-                  },
-                  "strength": 15,
-                  "stealth": true,
-                  "proficient": true,
-                  "attributes": {
-                    "spelldc": 10
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "attunement": ""
-                },
-                "img": "systems/dnd5e/icons/items/armor/plate.png",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "armor": "18 AC",
-            "activation": "",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [undefined]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "/systems/dnd5e/icons/items/armor/plate.png",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wodLIRw4MgD0qVve.bLqDXE9qWf44Hjwe"
-    },
-    {
-      "_id": "jClWbBaQ7yefjVrV",
-      "name": "Shield",
-      "type": "equipment",
-      "data": {
-        "description": {
-          "value": "<div>\n\t\t\t<div><i>Armor (<a href=\"https://5e.tools/items.html#shield_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'items.html', 'phb', 'shield_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >shield</a>)</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">10 gp, 6 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC +2  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>A <i>shield</i> is made from wood or metal and is carried in one hand. Wielding a <i>shield</i> increases your Armor Class by 2. You can benefit from only one <i>shield</i> at a time.</p></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB",
-        "quantity": 1,
-        "weight": 6,
-        "price": null,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": false,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": null,
-        "actionType": null,
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 2,
-          "type": "shield",
-          "dex": null
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "baseItem": "",
-        "speed": {
-          "value": null,
-          "conditions": ""
-        },
-        "strength": "",
-        "stealth": false,
-        "proficient": true,
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 2002,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": {
-              "actorId": "o7jiDJ4KJGbeJhyI"
-            },
-            "initialState": {
-              "count": 1,
-              "itemData": {
-                "name": "Shield",
-                "type": "equipment",
-                "data": {
-                  "description": {
-                    "value": "<div>\n\t\t\t<div><i>Armor (<a href=\"https://5e.tools/items.html#shield_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this, 'items.html', 'phb', 'shield_phb', null)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\"  ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >shield</a>)</i></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">10 gp, 6 lb.</div>\n\t\t\t\t<div class=\"col-8 text-right\">AC +2  </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<hr>\n\t\t<div  class=\"rd__b  rd__b--2\"><p>A <i>shield</i> is made from wood or metal and is carried in one hand. Wielding a <i>shield</i> increases your Armor Class by 2. You can benefit from only one <i>shield</i> at a time.</p></div>",
-                    "chat": "",
-                    "unidentified": ""
-                  },
-                  "source": "PHB",
-                  "quantity": 1,
-                  "weight": 6,
-                  "price": null,
-                  "attuned": false,
-                  "equipped": true,
-                  "rarity": "None",
-                  "identified": false,
-                  "activation": {
-                    "type": "",
-                    "cost": 0,
-                    "condition": ""
-                  },
-                  "duration": {
-                    "value": null,
-                    "units": ""
-                  },
-                  "target": {
-                    "value": null,
-                    "units": "",
-                    "type": ""
-                  },
-                  "range": {
-                    "value": null,
-                    "long": null,
-                    "units": ""
-                  },
-                  "uses": {
-                    "value": 0,
-                    "max": 0,
-                    "per": null
-                  },
-                  "ability": null,
-                  "actionType": null,
-                  "attackBonus": 0,
-                  "chatFlavor": "",
-                  "critical": null,
-                  "damage": {
-                    "parts": [],
-                    "versatile": ""
-                  },
-                  "formula": "",
-                  "save": {
-                    "ability": "",
-                    "dc": null
-                  },
-                  "armor": {
-                    "type": "shield",
-                    "value": 2,
-                    "dex": null
-                  },
-                  "strength": "",
-                  "stealth": false,
-                  "proficient": true,
-                  "attributes": {
-                    "spelldc": 10
-                  },
-                  "consume": {
-                    "type": "",
-                    "target": "",
-                    "amount": null
-                  },
-                  "attunement": ""
-                },
-                "img": "systems/dnd5e/icons/items/armor/shield.png",
-                "flags": {}
-              }
-            },
-            "itemType": "Item",
-            "isLocked": false
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "armor": "2 AC",
-            "activation": "",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [undefined]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "/systems/dnd5e/icons/spells/protect-magenta-1.jpg",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!wodLIRw4MgD0qVve.jClWbBaQ7yefjVrV"
-    }
-  ],
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
-  "flags": {
-    "journal-links": {
-      "references": {}
-    },
-    "downtime-ethck": {
-      "trainingItems": [],
-      "changes": []
-    },
-    "tidy5e-sheet": {
-      "npcTraitsExpanded": true
-    },
-    "externalactor": {
-      "classLabels": "",
-      "currencyWeight": true,
-      "disableExperience": false
-    },
-    "scene-packer": {
-      "sourceId": "Actor.o7jiDJ4KJGbeJhyI"
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     }
   },
   "_key": "!actors!wodLIRw4MgD0qVve"

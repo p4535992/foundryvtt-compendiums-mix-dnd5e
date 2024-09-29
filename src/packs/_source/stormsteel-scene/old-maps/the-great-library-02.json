@@ -8,7 +8,11 @@
   "width": 2170,
   "height": 4410,
   "padding": 0.25,
-  "initial": {},
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": 0.5
+  },
   "backgroundColor": "#ffffff",
   "grid": {
     "size": 70,
@@ -16,14 +20,11 @@
     "color": "#c0c0c0",
     "alpha": 0.2,
     "distance": 5,
-    "units": "ft"
+    "units": "ft",
+    "style": "solidLines",
+    "thickness": 1
   },
   "tokenVision": true,
-  "fogExploration": false,
-  "fogReset": 1628669488071,
-  "globalLight": false,
-  "globalLightThreshold": null,
-  "darkness": 0.25,
   "drawings": [],
   "tokens": [
     {
@@ -39,7 +40,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -105,16 +105,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/lfdzIpK.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -127,7 +133,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "_id": "b8GnYyG21rXOpDU5",
@@ -805,10 +810,12 @@
             "_stats": {
               "systemId": null,
               "systemVersion": null,
-              "coreVersion": null,
+              "coreVersion": "12.331",
               "createdTime": null,
               "modifiedTime": null,
-              "lastModifiedBy": null
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
             },
             "_key": "!scenes.tokens.delta.items!6BSI6XoIMOsGr4L0.b8GnYyG21rXOpDU5.b8GnYyG21rXOpDU5.HUK1bSNi9ghrmlUe"
           },
@@ -1032,10 +1039,12 @@
             "_stats": {
               "systemId": null,
               "systemVersion": null,
-              "coreVersion": null,
+              "coreVersion": "12.331",
               "createdTime": null,
               "modifiedTime": null,
-              "lastModifiedBy": null
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
             },
             "_key": "!scenes.tokens.delta.items!6BSI6XoIMOsGr4L0.b8GnYyG21rXOpDU5.b8GnYyG21rXOpDU5.cl3Ji0FiYX62d8tn"
           },
@@ -1216,10 +1225,12 @@
             "_stats": {
               "systemId": null,
               "systemVersion": null,
-              "coreVersion": null,
+              "coreVersion": "12.331",
               "createdTime": null,
               "modifiedTime": null,
-              "lastModifiedBy": null
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
             },
             "_key": "!scenes.tokens.delta.items!6BSI6XoIMOsGr4L0.b8GnYyG21rXOpDU5.b8GnYyG21rXOpDU5.SqctqdXEiZxNPahV"
           },
@@ -1433,10 +1444,12 @@
             "_stats": {
               "systemId": null,
               "systemVersion": null,
-              "coreVersion": null,
+              "coreVersion": "12.331",
               "createdTime": null,
               "modifiedTime": null,
-              "lastModifiedBy": null
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
             },
             "_key": "!scenes.tokens.delta.items!6BSI6XoIMOsGr4L0.b8GnYyG21rXOpDU5.b8GnYyG21rXOpDU5.Nn8MNR0UyKsjHyjs"
           }
@@ -1473,6 +1486,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!6BSI6XoIMOsGr4L0.b8GnYyG21rXOpDU5"
     },
     {
@@ -1488,7 +1520,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": 1,
@@ -1552,16 +1583,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/D9Gr5pf.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": -1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -1574,7 +1611,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "_id": "DRGlcArfjGoO0tc6",
@@ -1590,6 +1626,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!6BSI6XoIMOsGr4L0.DRGlcArfjGoO0tc6"
     },
     {
@@ -1605,7 +1660,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 330,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": 1,
@@ -1669,16 +1723,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/nHcOmdG.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 0.5,
         "scaleY": 0.5,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -1691,7 +1751,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "_id": "iVLPDrOXifvww0EP",
@@ -1707,6 +1766,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!6BSI6XoIMOsGr4L0.iVLPDrOXifvww0EP"
     },
     {
@@ -1722,7 +1800,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -1784,16 +1861,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/ipXfTgp.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -1806,7 +1889,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "_id": "mmWCGuJqJXasa5q0",
@@ -1822,6 +1904,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!6BSI6XoIMOsGr4L0.mmWCGuJqJXasa5q0"
     },
     {
@@ -1837,7 +1938,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": 1,
@@ -1898,16 +1998,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/rggqGX3.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -1920,7 +2026,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "_id": "INxt9OEpgsxicLT1",
@@ -1936,6 +2041,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!6BSI6XoIMOsGr4L0.INxt9OEpgsxicLT1"
     },
     {
@@ -1951,7 +2075,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": 1,
@@ -2022,16 +2145,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/yjJbVw1.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2044,7 +2173,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "_id": "yBlw4kVwTczVcN8s",
@@ -2060,6 +2188,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!6BSI6XoIMOsGr4L0.yBlw4kVwTczVcN8s"
     },
     {
@@ -2075,7 +2222,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -2140,16 +2286,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/bhjQbXx.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2162,7 +2314,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "_id": "pGCI5TC0OKhfg8yP",
@@ -2178,6 +2329,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!6BSI6XoIMOsGr4L0.pGCI5TC0OKhfg8yP"
     },
     {
@@ -2193,7 +2363,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -2231,7 +2400,9 @@
           "max": 1
         },
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/T90LIP5.png",
@@ -2240,7 +2411,11 @@
         "offsetX": 0,
         "offsetY": 0,
         "rotation": 0,
-        "tint": null
+        "tint": "#ffffff",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2253,7 +2428,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "system": {
@@ -2277,6 +2451,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!6BSI6XoIMOsGr4L0.Yyh14gFbwe0TzDHH"
     },
     {
@@ -2292,7 +2485,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -2327,7 +2519,9 @@
           "max": 1
         },
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/T90LIP5.png",
@@ -2336,7 +2530,11 @@
         "offsetX": 0,
         "offsetY": 0,
         "rotation": 0,
-        "tint": null
+        "tint": "#ffffff",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2349,7 +2547,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "system": {
@@ -2373,6 +2570,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!6BSI6XoIMOsGr4L0.yLiLgSd5FF07yasM"
     },
     {
@@ -2388,7 +2604,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -2426,7 +2641,9 @@
           "max": 1
         },
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/T90LIP5.png",
@@ -2435,7 +2652,11 @@
         "offsetX": 0,
         "offsetY": 0,
         "rotation": 0,
-        "tint": null
+        "tint": "#ffffff",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2448,7 +2669,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "system": {
@@ -2472,6 +2692,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!6BSI6XoIMOsGr4L0.77J4E2w9QAqJYr2H"
     },
     {
@@ -2487,7 +2726,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -2525,7 +2763,9 @@
           "max": 1
         },
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/T90LIP5.png",
@@ -2534,7 +2774,11 @@
         "offsetX": 0,
         "offsetY": 0,
         "rotation": 0,
-        "tint": null
+        "tint": "#ffffff",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2547,7 +2791,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "system": {
@@ -2571,6 +2814,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!6BSI6XoIMOsGr4L0.bzaKQkg6NrLoivz5"
     },
     {
@@ -2586,7 +2848,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -2624,7 +2885,9 @@
           "max": 1
         },
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/T90LIP5.png",
@@ -2633,7 +2896,11 @@
         "offsetX": 0,
         "offsetY": 0,
         "rotation": 0,
-        "tint": null
+        "tint": "#ffffff",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2646,7 +2913,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "_id": "O5TaR54xOMBJ4K32",
@@ -2662,6 +2928,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!6BSI6XoIMOsGr4L0.O5TaR54xOMBJ4K32"
     },
     {
@@ -2677,7 +2962,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": 1,
@@ -2742,16 +3026,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/FwJzxS4.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2764,7 +3054,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "_id": "3Hw0RfXiAeu0Zzw0",
@@ -2780,6 +3069,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!6BSI6XoIMOsGr4L0.3Hw0RfXiAeu0Zzw0"
     }
   ],
@@ -2812,10 +3120,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.QqJrRQvfHylueZU0"
     },
     {
@@ -2846,10 +3157,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.vTaecyhAxSXhz8mz"
     },
     {
@@ -2880,10 +3194,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.WXCuaYai0UFdIg79"
     },
     {
@@ -2914,10 +3231,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.jezuEwD5cuMBVjPI"
     },
     {
@@ -2948,10 +3268,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.wdug1gNM3LRglns5"
     },
     {
@@ -2982,10 +3305,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.jfEc1Jbrd7zX4KCr"
     },
     {
@@ -3018,10 +3344,13 @@
         "saturation": 0,
         "contrast": 0,
         "shadows": 0,
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.uGckRjAryUaFizaC"
     },
     {
@@ -3052,10 +3381,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.UMGpBbURXrbWILSK"
     },
     {
@@ -3086,10 +3418,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.n9e6dq7ewJl4jmhG"
     },
     {
@@ -3120,10 +3455,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.wGVigZe39qKS3Wqs"
     },
     {
@@ -3154,10 +3492,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.XSPaKvw02nmRUyVy"
     },
     {
@@ -3188,10 +3529,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.SW0Qm4ug7sG6cEt8"
     },
     {
@@ -3222,10 +3566,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.Cw2yGjbgJToRcMmk"
     },
     {
@@ -3256,10 +3603,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.I8fHkB6lQkFyIpsN"
     },
     {
@@ -3290,10 +3640,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.lkp884MftMG2MZMq"
     },
     {
@@ -3324,10 +3677,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.6Ukv9xxeYQVpyO1F"
     },
     {
@@ -3358,10 +3714,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.gMkkMim06vajfTBn"
     },
     {
@@ -3392,10 +3751,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.Fo42leqSjfnq26Aa"
     },
     {
@@ -3426,10 +3788,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.A2FNeIeJo90pvZ47"
     },
     {
@@ -3460,10 +3825,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.ZoKvt7iHCxbxmflh"
     },
     {
@@ -3494,10 +3862,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.PeS1OkF8KDn0W9Iv"
     },
     {
@@ -3528,10 +3899,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.LM0iyPV8Qf8h2gV2"
     },
     {
@@ -3562,10 +3936,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.LoRsyEGMMZ0vjuQb"
     },
     {
@@ -3596,10 +3973,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.FufnoeBCttvSI4c9"
     },
     {
@@ -3630,10 +4010,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.YSzQqqPXFOdcDPDp"
     },
     {
@@ -3664,10 +4047,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.j9u6PDYUqkUG2zJU"
     },
     {
@@ -3698,10 +4084,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.1HpDkOpF3DHKMkRM"
     },
     {
@@ -3732,10 +4121,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.NDgmU8qkFMs7E8z0"
     },
     {
@@ -3766,10 +4158,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.LkjTkrg85b4CHqzJ"
     },
     {
@@ -3800,10 +4195,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.LhdSJebK2V6aTDpv"
     },
     {
@@ -3834,10 +4232,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.uCKRhUBuVEjcA9ck"
     },
     {
@@ -3868,10 +4269,13 @@
         "saturation": 0,
         "contrast": 0,
         "shadows": 0,
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.8dKP4uAzTehCfXcR"
     },
     {
@@ -3902,10 +4306,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.LsTn0HxX5kExSgVH"
     },
     {
@@ -3936,10 +4343,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.QOOSONAirJ54Ictv"
     },
     {
@@ -3970,10 +4380,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.GmQLLBSWKnuKOgaH"
     },
     {
@@ -4004,10 +4417,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.VwIaTEnkwQdsga8r"
     },
     {
@@ -4038,10 +4454,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.TMK9VopDdyseTtjP"
     },
     {
@@ -4072,10 +4491,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.SvHSPtR572m20Tm1"
     },
     {
@@ -4106,10 +4528,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.WyM5nuLZHYjEahGk"
     },
     {
@@ -4140,10 +4565,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.TxHutuzsxrTEkldx"
     },
     {
@@ -4174,10 +4602,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.stXIAhG6zKvv4b9Y"
     },
     {
@@ -4208,10 +4639,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.PbOw2q33HY4rU1Yt"
     },
     {
@@ -4242,10 +4676,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.z6tiId14dfjGREij"
     },
     {
@@ -4276,10 +4713,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.7MN1hdwNF0W4dKbQ"
     },
     {
@@ -4310,10 +4750,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.1i9MUR4lOIOCAXRi"
     },
     {
@@ -4344,10 +4787,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.mKZXd083go5R42Kj"
     },
     {
@@ -4378,10 +4824,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.iQcoyG1wLQ1yTOSc"
     },
     {
@@ -4412,10 +4861,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.xs4aEkMW8Bq9ObHR"
     },
     {
@@ -4446,10 +4898,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.LJFt158qbKVZya8x"
     },
     {
@@ -4480,10 +4935,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.5QycjcTATNk3mq4W"
     },
     {
@@ -4514,10 +4972,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.O9DCEVr282sLooc2"
     },
     {
@@ -4548,10 +5009,13 @@
         "saturation": 0,
         "contrast": 0,
         "shadows": 0,
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.KCXyKbWDkxmnCNUr"
     },
     {
@@ -4582,10 +5046,13 @@
         "saturation": 0,
         "contrast": 0,
         "shadows": 0,
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.qAG0vjOP9airrWjN"
     },
     {
@@ -4616,10 +5083,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.8LYn41G4fwsOSXOw"
     },
     {
@@ -4650,10 +5120,13 @@
         "contrast": 0,
         "shadows": 0,
         "attenuation": 0.5,
-        "color": null
+        "color": null,
+        "negative": false,
+        "priority": 0
       },
       "walls": true,
       "vision": false,
+      "elevation": 0,
       "_key": "!scenes.lights!6BSI6XoIMOsGr4L0.LRj6HxFXdOTTnARw"
     }
   ],
@@ -13828,23 +14301,70 @@
     "scaleX": 1,
     "scaleY": 1,
     "rotation": 0,
-    "tint": null
+    "tint": "#ffffff",
+    "anchorX": 0,
+    "anchorY": 0,
+    "fit": "fill",
+    "alphaThreshold": 0
   },
   "foregroundElevation": null,
-  "fogOverlay": null,
-  "fogExploredColor": null,
-  "fogUnexploredColor": null,
   "journalEntryPage": null,
   "_stats": {
     "systemId": "dnd5e",
     "systemVersion": "3.1.1",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1711899994639,
     "modifiedTime": 1711899994639,
-    "lastModifiedBy": "packsbuilder0000"
+    "lastModifiedBy": "packsbuilder0000",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "6BSI6XoIMOsGr4L0",
   "active": false,
   "sort": 0,
+  "regions": [],
+  "environment": {
+    "globalLight": {
+      "luminosity": 0,
+      "enabled": false,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 0.25,
+    "darknessLock": false,
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "fog": {
+    "exploration": false,
+    "reset": 1628669488071,
+    "overlay": null,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
+  },
   "_key": "!scenes!6BSI6XoIMOsGr4L0"
 }

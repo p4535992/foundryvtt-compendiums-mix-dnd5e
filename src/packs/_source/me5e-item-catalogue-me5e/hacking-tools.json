@@ -1,11 +1,24 @@
 {
   "name": "Hacking Tools",
-  "permission": {
-    "default": 0,
-    "N8RgN1jdDFyXuWNq": 3
-  },
   "type": "tool",
-  "data": {
+  "flags": {},
+  "img": "systems/dnd5e/icons/items/inventory/anvil.jpg",
+  "_id": "OOwVEJ5nqqc8wVod",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "description": {
       "value": "<p style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 11.9811px; line-height: 1.3em; font-family: BookSanity; vertical-align: baseline; margin-top: 0px; margin-bottom: 0px; padding: 0px 0px 0.8em; z-index: 15; break-inside: avoid;\">Hacking tools are used to override security systems in order to gain access to encrypted files, open locked doors, or sabotage security devices such as cameras, turrets, or mechs. Proficiency with the tools also grants you a general knowledge of VIs, encryption techniques, and cryptography.</p>\n<hr style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; visibility: hidden; margin: 0px; font-family: BookSanity; font-size: 11.9811px;\">\n<ul style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 11.9811px; line-height: 1.3em; font-family: BookSanity; vertical-align: baseline; margin-top: 0px; padding-left: 1em; list-style: outside none; text-indent: -1em;\">\n<li style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font: inherit; vertical-align: baseline; margin: 0px; padding: 0px; break-inside: avoid;\"><strong style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: 0.03em;\">Cost.</strong>&nbsp;5,000 credits</li>\n<li style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font: inherit; vertical-align: baseline; margin: 0px; padding: 0px; break-inside: avoid;\"><strong style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: 0.03em;\">Components</strong>. A port-cable fabricator (includes schematics for all 238 Human USB standards!), a library of security counter-measure scripts, and an air-gapped computer interface.</li>\n</ul>\n<h4 id=\"benefits\" style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 800; font-stretch: inherit; font-size: 0.458cm; line-height: inherit; font-family: MrJeeves; vertical-align: baseline; margin-top: 0.2em; margin-bottom: 0px; color: #58180d;\">Benefits</h4>\n<hr style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; visibility: hidden; margin: 0px; font-family: BookSanity; font-size: 11.9811px;\">\n<ul style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 11.9811px; line-height: 1.3em; font-family: BookSanity; vertical-align: baseline; margin-top: 0px; padding-left: 1em; list-style: outside none; text-indent: -1em;\">\n<li style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font: inherit; vertical-align: baseline; margin: 0px; padding: 0px; break-inside: avoid;\"><strong style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: 0.03em;\">Perception</strong>. You're understanding of patterns and cryptography gives you insight when discerning information from unknown languages.</li>\n<li style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font: inherit; vertical-align: baseline; margin: 0px; padding: 0px; break-inside: avoid;\"><strong style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: 0.03em;\">Investigation</strong>. You gain additional insight when utilizing networked systems (such as the exonet) to find information.</li>\n<li style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font: inherit; vertical-align: baseline; margin: 0px; padding: 0px; break-inside: avoid;\"><strong style=\"-webkit-print-color-adjust: exact; box-sizing: border-box; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; margin: 0px; padding: 0px; letter-spacing: 0.03em;\">Fortify</strong>. Just as you can break down security, you can also fortify it. For each hour of work, you can further encrypt an electronic data package, rebuff a security device, or harden a network to attack, increasing the DC to hack it by 1 (maximum 5).</li>\n</ul>",
       "chat": "",
@@ -13,7 +26,10 @@
     },
     "source": "",
     "quantity": 1,
-    "weight": 0,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
     "price": 5000,
     "attuned": false,
     "equipped": false,
@@ -23,9 +39,7 @@
     "chatFlavor": "",
     "proficient": 0
   },
-  "flags": {},
-  "img": "systems/dnd5e/icons/items/inventory/anvil.jpg",
-  "_id": "OOwVEJ5nqqc8wVod",
-  "effects": [],
+  "folder": null,
+  "sort": 0,
   "_key": "!items!OOwVEJ5nqqc8wVod"
 }

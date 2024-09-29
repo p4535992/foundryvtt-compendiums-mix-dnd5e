@@ -1,12 +1,24 @@
 {
   "_id": "JWNEJAcsG7iazlZx",
   "name": "Ghost Cutlass",
-  "permission": {
-    "default": 0,
-    "X2FU4EYTKyUpwF0o": 3
-  },
   "type": "weapon",
-  "data": {
+  "flags": {},
+  "img": "moulinette/images/myitems/porvenir/items/ghost-cutlass.png",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "description": {
       "value": "<p><em>Uncommon, Requires attunement</em></p>\n<p>As a bonus action you can speak this round, rusted hilt&rsquo;scommand word. A curved blade of ethereal green smokesprouts from the barnacle-encrusted metal and swims withghastly, ghostly visages. Legend says these faces belong tothose who fell whilst wielding the blade, a part of their soultrapped forever in its decrepit metal.</p>\n<p>You have a +1 bonus to attack and damage rolls made withthis magic weapon, which deals psychic damage instead ofslashing damage.</p>\n<p><strong>Rare variant: </strong>Increase the bonus to +2</p>",
       "chat": "",
@@ -14,7 +26,10 @@
     },
     "source": "TSotP",
     "quantity": 1,
-    "weight": 3,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
     "price": 1000,
     "attuned": false,
     "attunement": 0,
@@ -42,7 +57,7 @@
       "units": "ft"
     },
     "uses": {
-      "value": 0,
+      "value": null,
       "max": 0,
       "per": ""
     },
@@ -102,8 +117,7 @@
       "spelldc": 10
     }
   },
-  "flags": {},
-  "img": "moulinette/images/myitems/porvenir/items/ghost-cutlass.png",
-  "effects": [],
+  "folder": null,
+  "sort": 0,
   "_key": "!items!JWNEJAcsG7iazlZx"
 }

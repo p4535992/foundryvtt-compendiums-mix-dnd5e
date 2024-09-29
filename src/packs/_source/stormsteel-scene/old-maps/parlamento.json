@@ -8,7 +8,11 @@
   "width": 1800,
   "height": 2595,
   "padding": 0.25,
-  "initial": {},
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": 0.5
+  },
   "backgroundColor": "#999999",
   "grid": {
     "size": 100,
@@ -16,14 +20,11 @@
     "color": "#000000",
     "alpha": 0.2,
     "distance": 5,
-    "units": "ft"
+    "units": "ft",
+    "style": "solidLines",
+    "thickness": 1
   },
   "tokenVision": false,
-  "fogExploration": false,
-  "fogReset": 1629662380153,
-  "globalLight": false,
-  "globalLightThreshold": null,
-  "darkness": 0,
   "drawings": [],
   "tokens": [
     {
@@ -39,7 +40,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -100,16 +100,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/IJgB5mq.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -122,7 +128,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -139,7 +144,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -155,6 +159,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.NrhpVy00fA54kZti.NrhpVy00fA54kZti.f3jnulb91tdf22vg"
           },
           {
@@ -170,7 +189,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/D8f8KWu.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -186,6 +204,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/D8f8KWu.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.NrhpVy00fA54kZti.NrhpVy00fA54kZti.04ohn3rhpfpjaci2"
           }
         ],
@@ -201,6 +234,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.NrhpVy00fA54kZti"
     },
     {
@@ -216,7 +268,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -277,16 +328,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/RfrUByw.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -299,7 +356,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -316,7 +372,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -332,6 +387,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.mh4JcpBwUZj597vG.mh4JcpBwUZj597vG.5dp9oi84nohu00sh"
           }
         ],
@@ -347,6 +417,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.mh4JcpBwUZj597vG"
     },
     {
@@ -362,7 +451,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -423,16 +511,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/9rjP4lL.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -445,7 +539,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -462,7 +555,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -478,6 +570,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.UD3Wh1O6lDpytfiB.UD3Wh1O6lDpytfiB.luq2cm64fi1ccm4x"
           }
         ],
@@ -493,6 +600,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.UD3Wh1O6lDpytfiB"
     },
     {
@@ -508,7 +634,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -569,16 +694,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/XD46dtY.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -591,7 +722,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -608,7 +738,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/D8f8KWu.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -624,6 +753,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/D8f8KWu.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.8eXyQDqChMALExsi.8eXyQDqChMALExsi.nd115p5fx7g4vebu"
           }
         ],
@@ -639,6 +783,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.8eXyQDqChMALExsi"
     },
     {
@@ -654,7 +817,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -715,16 +877,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/J9kg6VQ.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -737,7 +905,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -754,7 +921,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -770,6 +936,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.cMDgxavysyHM8OW2.cMDgxavysyHM8OW2.118kj9bem17cqog0"
           }
         ],
@@ -785,6 +966,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.cMDgxavysyHM8OW2"
     },
     {
@@ -800,7 +1000,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -861,16 +1060,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/HrVO986.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -883,7 +1088,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -900,7 +1104,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -916,6 +1119,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.NwysoDlSaiJw6yN2.NwysoDlSaiJw6yN2.lginmzu6umsv6zvi"
           }
         ],
@@ -931,6 +1149,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.NwysoDlSaiJw6yN2"
     },
     {
@@ -946,7 +1183,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -1007,16 +1243,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/xQ2hZCI.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -1029,7 +1271,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -1046,7 +1287,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -1062,6 +1302,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.wURHQZeaFNj902x4.wURHQZeaFNj902x4.gg7luht9qidtfl1e"
           }
         ],
@@ -1077,6 +1332,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.wURHQZeaFNj902x4"
     },
     {
@@ -1092,7 +1366,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -1153,16 +1426,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/WqBTHCN.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -1175,7 +1454,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -1192,7 +1470,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/zVPdbdU.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -1208,6 +1485,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/zVPdbdU.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.1Q5xLlc2tHmDt4ep.1Q5xLlc2tHmDt4ep.norfslwt53cesmlg"
           }
         ],
@@ -1223,6 +1515,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.1Q5xLlc2tHmDt4ep"
     },
     {
@@ -1238,7 +1549,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -1299,16 +1609,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/b8jKZ9b.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -1321,7 +1637,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -1338,7 +1653,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -1354,6 +1668,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.uqH42Ps6QlSDAv8t.uqH42Ps6QlSDAv8t.t3p7leap7fh3e4yf"
           }
         ],
@@ -1369,6 +1698,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.uqH42Ps6QlSDAv8t"
     },
     {
@@ -1384,7 +1732,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -1445,16 +1792,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/dfdJZQl.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -1467,7 +1820,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -1484,7 +1836,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -1500,6 +1851,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.e3tLabbmu5sd4rgO.e3tLabbmu5sd4rgO.630nok7870nbeqkk"
           }
         ],
@@ -1515,6 +1881,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.e3tLabbmu5sd4rgO"
     },
     {
@@ -1530,7 +1915,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -1591,16 +1975,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/nxRUabc.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -1613,7 +2003,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -1630,7 +2019,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/D8f8KWu.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -1646,6 +2034,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/D8f8KWu.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.0Vt4xrWztOabdiV5.0Vt4xrWztOabdiV5.12wj2ldde03bihvu"
           }
         ],
@@ -1661,6 +2064,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.0Vt4xrWztOabdiV5"
     },
     {
@@ -1676,7 +2098,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -1737,16 +2158,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/793SiYv.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -1759,7 +2186,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -1776,7 +2202,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -1792,6 +2217,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.m3zIcpKPCrwFixK0.m3zIcpKPCrwFixK0.dt1fnfch08bph6c2"
           }
         ],
@@ -1807,6 +2247,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.m3zIcpKPCrwFixK0"
     },
     {
@@ -1822,7 +2281,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -1883,16 +2341,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/RV9V8am.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -1905,7 +2369,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -1922,7 +2385,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -1938,6 +2400,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.n5R0uusMLIRWPmNB.n5R0uusMLIRWPmNB.n9drj29ylyhw5dmi"
           }
         ],
@@ -1953,6 +2430,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.n5R0uusMLIRWPmNB"
     },
     {
@@ -1968,7 +2464,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -2029,16 +2524,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/gR7IoF2.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2051,7 +2552,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -2068,7 +2568,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/D8f8KWu.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -2084,6 +2583,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/D8f8KWu.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.dxUH7UCMSHm4msqi.dxUH7UCMSHm4msqi.m9sfb4w1nnbtj03q"
           }
         ],
@@ -2099,6 +2613,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.dxUH7UCMSHm4msqi"
     },
     {
@@ -2114,7 +2647,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -2175,16 +2707,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/ktMKgJ0.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2197,7 +2735,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -2214,7 +2751,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -2230,6 +2766,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.X5p75EHaNqmOqCQH.X5p75EHaNqmOqCQH.vewnlpdkklassbm7"
           }
         ],
@@ -2245,6 +2796,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.X5p75EHaNqmOqCQH"
     },
     {
@@ -2260,7 +2830,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -2321,16 +2890,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/dzO32iX.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2343,7 +2918,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -2360,7 +2934,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/zVPdbdU.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -2376,6 +2949,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/zVPdbdU.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.ZN6df2mYdpZh6q4v.ZN6df2mYdpZh6q4v.dnr0ubqzfxq4mjjp"
           }
         ],
@@ -2391,6 +2979,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.ZN6df2mYdpZh6q4v"
     },
     {
@@ -2406,7 +3013,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -2467,16 +3073,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/hNjOUdM.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2489,7 +3101,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -2506,7 +3117,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -2522,6 +3132,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.j9a25pXO82M03PD8.j9a25pXO82M03PD8.mmczz548jqge33ol"
           }
         ],
@@ -2537,6 +3162,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.j9a25pXO82M03PD8"
     },
     {
@@ -2552,7 +3196,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -2613,16 +3256,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/rRUlBON.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2635,7 +3284,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -2652,7 +3300,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -2668,6 +3315,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.4qxdscDYq4TY6rb5.4qxdscDYq4TY6rb5.2tkr9tv5vf2wlefl"
           }
         ],
@@ -2683,6 +3345,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.4qxdscDYq4TY6rb5"
     },
     {
@@ -2698,7 +3379,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -2759,16 +3439,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/PIVykCf.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2781,7 +3467,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -2798,7 +3483,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -2814,6 +3498,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.MGWC8ayRH6rTE2lS.MGWC8ayRH6rTE2lS.obmwdpha3rayp627"
           }
         ],
@@ -2829,6 +3528,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.MGWC8ayRH6rTE2lS"
     },
     {
@@ -2844,7 +3562,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -2905,16 +3622,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/kVLi5nS.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -2927,7 +3650,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -2944,7 +3666,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/zVPdbdU.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -2960,6 +3681,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/zVPdbdU.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.briiiijUAqb5M3Qw.briiiijUAqb5M3Qw.20wk3cx4ye5vij0u"
           }
         ],
@@ -2975,6 +3711,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.briiiijUAqb5M3Qw"
     },
     {
@@ -2990,7 +3745,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -3051,16 +3805,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/8FzYv3j.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -3073,7 +3833,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -3090,7 +3849,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/D8f8KWu.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -3106,6 +3864,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/D8f8KWu.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.TYKLmD8jaIAona6W.TYKLmD8jaIAona6W.v27myjbv6rfhpg1f"
           }
         ],
@@ -3121,6 +3894,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.TYKLmD8jaIAona6W"
     },
     {
@@ -3136,7 +3928,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -3197,16 +3988,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/sudSzvb.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -3219,7 +4016,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -3236,7 +4032,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -3252,6 +4047,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.DJcAzOrRCmboPpsv.DJcAzOrRCmboPpsv.jixqgxlk9ujck24p"
           }
         ],
@@ -3267,6 +4077,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.DJcAzOrRCmboPpsv"
     },
     {
@@ -3282,7 +4111,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -3343,16 +4171,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/MnBpaIU.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -3365,7 +4199,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -3382,7 +4215,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -3398,6 +4230,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.hnK4CJ9tVX6n3GYN.hnK4CJ9tVX6n3GYN.2iekjgkeqnwaubbg"
           }
         ],
@@ -3413,6 +4260,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.hnK4CJ9tVX6n3GYN"
     },
     {
@@ -3428,7 +4294,6 @@
       "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
-      "effects": [],
       "alpha": 1,
       "hidden": false,
       "disposition": -1,
@@ -3489,16 +4354,22 @@
           "min": 0,
           "max": 1
         },
-        "attenuation": 0.5
+        "attenuation": 0.5,
+        "negative": false,
+        "priority": 0
       },
       "texture": {
         "src": "https://i.imgur.com/mSzvuMX.png",
-        "tint": null,
+        "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
         "offsetY": 0,
-        "rotation": 0
+        "rotation": 0,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
       },
       "sight": {
         "angle": 360,
@@ -3511,7 +4382,6 @@
         "saturation": 0,
         "contrast": 0
       },
-      "overlayEffect": "",
       "detectionModes": [],
       "delta": {
         "effects": [
@@ -3528,7 +4398,6 @@
               "startRound": null,
               "startTurn": null
             },
-            "icon": "https://i.imgur.com/usZn7wH.png",
             "transfer": false,
             "flags": {
               "core": {
@@ -3544,6 +4413,21 @@
             "description": "",
             "origin": null,
             "statuses": [],
+            "_stats": {
+              "coreVersion": "12.331",
+              "systemId": null,
+              "systemVersion": null,
+              "createdTime": null,
+              "modifiedTime": null,
+              "lastModifiedBy": null,
+              "compendiumSource": null,
+              "duplicateSource": null
+            },
+            "img": "https://i.imgur.com/usZn7wH.png",
+            "type": "base",
+            "system": {},
+            "tint": "#ffffff",
+            "sort": 0,
             "_key": "!scenes.tokens.delta.effects!59QlYHNyDzLqottB.pUPNQQxRQX4s2RJA.pUPNQQxRQX4s2RJA.6ga9tefi8bnsn6ku"
           }
         ],
@@ -3559,6 +4443,25 @@
       },
       "appendNumber": false,
       "prependAdjective": false,
+      "hexagonalShape": 0,
+      "sort": 0,
+      "locked": false,
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "_regions": [],
       "_key": "!scenes.tokens!59QlYHNyDzLqottB.pUPNQQxRQX4s2RJA"
     }
   ],
@@ -3605,23 +4508,70 @@
     "scaleX": 1,
     "scaleY": 1,
     "rotation": 0,
-    "tint": null
+    "tint": "#ffffff",
+    "anchorX": 0,
+    "anchorY": 0,
+    "fit": "fill",
+    "alphaThreshold": 0
   },
   "foregroundElevation": null,
-  "fogOverlay": null,
-  "fogExploredColor": null,
-  "fogUnexploredColor": null,
   "journalEntryPage": null,
   "_stats": {
     "systemId": "dnd5e",
     "systemVersion": "3.1.1",
-    "coreVersion": "11.315",
+    "coreVersion": "12.331",
     "createdTime": 1711899973432,
     "modifiedTime": 1711899973432,
-    "lastModifiedBy": "packsbuilder0000"
+    "lastModifiedBy": "packsbuilder0000",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "59QlYHNyDzLqottB",
   "active": false,
   "sort": 0,
+  "regions": [],
+  "environment": {
+    "globalLight": {
+      "luminosity": 0,
+      "enabled": false,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "fog": {
+    "exploration": false,
+    "reset": 1629662380153,
+    "overlay": null,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
+  },
   "_key": "!scenes!59QlYHNyDzLqottB"
 }

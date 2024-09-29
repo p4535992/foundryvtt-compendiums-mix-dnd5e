@@ -2,486 +2,15 @@
   "name": "MerchantMix01",
   "type": "npc",
   "img": "https://i.imgur.com/P6ewYzC.png",
-  "data": {
-    "abilities": {
-      "str": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "dex": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "con": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "int": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "wis": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "cha": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      }
-    },
-    "attributes": {
-      "ac": {
-        "flat": null,
-        "calc": "default",
-        "formula": ""
-      },
-      "hp": {
-        "value": 10,
-        "min": 0,
-        "max": 10,
-        "temp": null,
-        "tempmax": null,
-        "formula": ""
-      },
-      "init": {
-        "value": 0,
-        "bonus": 0
-      },
-      "movement": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "swim": 0,
-        "walk": 30,
-        "units": "ft",
-        "hover": false
-      },
-      "senses": {
-        "darkvision": 0,
-        "blindsight": 0,
-        "tremorsense": 0,
-        "truesight": 0,
-        "units": "ft",
-        "special": ""
-      },
-      "spellcasting": "int"
-    },
-    "details": {
-      "biography": {
-        "value": "",
-        "public": ""
-      },
-      "alignment": "",
-      "race": "",
-      "type": {
-        "value": "",
-        "subtype": "",
-        "swarm": "",
-        "custom": ""
-      },
-      "environment": "",
-      "cr": 1,
-      "spellLevel": 0,
-      "xp": {
-        "value": 10
-      },
-      "source": "",
-      "gender": "",
-      "age": "",
-      "height": "",
-      "weight": "",
-      "eyes": "",
-      "skin": "",
-      "hair": "",
-      "notes1name": "",
-      "notes2name": "",
-      "notes3name": "",
-      "notes4name": ""
-    },
-    "traits": {
-      "size": "med",
-      "di": {
-        "value": [],
-        "custom": ""
-      },
-      "dr": {
-        "value": [],
-        "custom": ""
-      },
-      "dv": {
-        "value": [],
-        "custom": ""
-      },
-      "ci": {
-        "value": [],
-        "custom": ""
-      },
-      "languages": {
-        "value": [],
-        "custom": ""
-      }
-    },
-    "currency": {
-      "pp": {
-        "value": null
-      },
-      "gp": {
-        "value": null
-      },
-      "ep": {
-        "value": null
-      },
-      "sp": {
-        "value": null
-      },
-      "cp": {
-        "value": null
-      }
-    },
-    "skills": {
-      "acr": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ani": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "arc": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ath": {
-        "value": 0,
-        "ability": "str",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "dec": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "his": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ins": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "itm": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "inv": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "med": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "nat": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "prc": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "prf": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "per": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "rel": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "slt": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ste": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "sur": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      }
-    },
-    "spells": {
-      "spell1": {
-        "value": 0,
-        "override": null
-      },
-      "spell2": {
-        "value": 0,
-        "override": null
-      },
-      "spell3": {
-        "value": 0,
-        "override": null
-      },
-      "spell4": {
-        "value": 0,
-        "override": null
-      },
-      "spell5": {
-        "value": 0,
-        "override": null
-      },
-      "spell6": {
-        "value": 0,
-        "override": null
-      },
-      "spell7": {
-        "value": 0,
-        "override": null
-      },
-      "spell8": {
-        "value": 0,
-        "override": null
-      },
-      "spell9": {
-        "value": 0,
-        "override": null
-      },
-      "pact": {
-        "value": 0,
-        "override": null
-      }
-    },
-    "bonuses": {
-      "mwak": {
-        "attack": "",
-        "damage": ""
-      },
-      "rwak": {
-        "attack": "",
-        "damage": ""
-      },
-      "msak": {
-        "attack": "",
-        "damage": ""
-      },
-      "rsak": {
-        "attack": "",
-        "damage": ""
-      },
-      "abilities": {
-        "check": "",
-        "save": "",
-        "skill": ""
-      },
-      "spell": {
-        "dc": ""
-      }
-    },
-    "resources": {
-      "legact": {
-        "value": 0,
-        "max": 0
-      },
-      "legres": {
-        "value": 0,
-        "max": 0
-      },
-      "lair": {
-        "value": false,
-        "initiative": 0
-      }
-    },
-    "flags": {
-      "lootsheetnpc5e": {
-        "lootsheettype": "Merchant",
-        "rolltable": "",
-        "shopQty": "",
-        "itemQty": "",
-        "itemQtyLimit": "",
-        "clearInventory": false
-      }
-    }
-  },
-  "token": {
-    "name": "MerchantMix01",
-    "img": "https://i.imgur.com/P6ewYzC.png",
-    "displayName": 0,
-    "actorLink": false,
-    "width": 1,
-    "height": 1,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 0.25,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "disposition": -1,
-    "displayBars": 0,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "flags": {},
-    "randomImg": false
-  },
   "items": [
     {
       "_id": "p1aT58LZIa2k9PgO",
       "name": "Arcane Shop",
       "type": "backpack",
       "img": "icons/environment/settlement/watchtower-tan.webp",
-      "data": {
-        "description": {
-          "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "quantity": 1,
-        "weight": 0,
-        "price": 16660,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": true,
-        "capacity": {
-          "type": "weight",
-          "value": 0,
-          "weightless": true
-        },
-        "currency": {
-          "cp": 0,
-          "sp": 0,
-          "ep": 0,
-          "gp": 0,
-          "pp": 0
-        },
-        "critical": {
-          "threshold": null,
-          "damage": null
-        }
-      },
       "effects": [],
       "folder": "zNFDRqubKi7EfuXl",
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "g4WGw0lAZ3nIhapn": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "core": {
           "sheetClass": "dnd5e.ItemSheetShop",
@@ -2783,6 +2312,53 @@
           "labels": {}
         }
       },
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 16660,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "capacity": {
+          "type": "weight",
+          "value": null,
+          "weightless": true
+        },
+        "currency": {
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "critical": {
+          "threshold": null,
+          "damage": null
+        }
+      },
       "_key": "!actors.items!MjfyiOV6kioGiRaK.p1aT58LZIa2k9PgO"
     },
     {
@@ -2790,117 +2366,39 @@
       "name": "+1 Holy Symbol",
       "type": "equipment",
       "img": "icons/equipment/neck/pendant-bronze-gem-blue.webp",
-      "data": {
-        "description": {
-          "value": "<p><em>Wondrous Item / Rare / Requires attunement by a cleric or paladin</em></p>\n<hr />\n<p>A holy symbol is a representation of a god or pantheon. A Cleric or Paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>\n<p>A Cleric or Paladin attuned to this holy symbol that uses it as their spellcasting focus has a +1 bonus to their spell attack rolls, a +1 bonus to their spell save DC, and deals +1 damage with their damaging spells.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "Super's Pack",
-        "quantity": 1,
-        "weight": 0.5,
-        "price": 5000,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "rare",
-        "identified": true,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 0,
-          "type": "trinket",
-          "dex": 0
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "baseItem": "",
-        "speed": {
-          "value": null,
-          "conditions": ""
-        },
-        "strength": 0,
-        "stealth": false,
-        "proficient": true
-      },
       "effects": [
         {
           "_id": "fJrVOTV1vqZQaCza",
           "changes": [
             {
-              "key": "data.bonuses.spell.attack",
+              "key": "system.bonuses.spell.attack",
               "mode": 0,
               "value": "+1",
-              "priority": "20"
+              "priority": 20
             },
             {
-              "key": "data.bonuses.spell.damage",
+              "key": "system.bonuses.spell.damage",
               "mode": 0,
               "value": "+1",
-              "priority": "20"
+              "priority": 20
             },
             {
-              "key": "data.bonuses.spell.dc",
+              "key": "system.bonuses.spell.dc",
               "mode": 2,
               "value": "1",
-              "priority": "20"
+              "priority": 20
             }
           ],
           "disabled": false,
           "duration": {
-            "startTime": null
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
           },
-          "icon": "icons/svg/aura.svg",
-          "label": "Holy Symbol",
           "origin": "Compendium.world.items.37Dee34dplIH9GJp",
           "transfer": true,
           "flags": {
@@ -2910,22 +2408,29 @@
               "transfer": true
             }
           },
-          "tint": null,
-          "selectedKey": [
-            "data.bonuses.spell.attack",
-            "data.bonuses.spell.damage",
-            "data.bonuses.spell.dc"
-          ],
+          "tint": "#ffffff",
+          "_stats": {
+            "coreVersion": "12.331",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null
+          },
+          "name": "Holy Symbol",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "statuses": [],
+          "sort": 0,
           "_key": "!actors.items.effects!MjfyiOV6kioGiRaK.XQVvmBhAmtwyLnAh.fJrVOTV1vqZQaCza"
         }
       ],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "hDKSaQdd06dT2ews": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -3084,30 +2589,39 @@
           }
         }
       },
-      "_key": "!actors.items!MjfyiOV6kioGiRaK.XQVvmBhAmtwyLnAh"
-    },
-    {
-      "_id": "KGegwvnp1d8Dj57X",
-      "name": "+2 Holy Symbol",
-      "type": "equipment",
-      "img": "icons/equipment/neck/pendant-bronze-gem-blue.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p><em>Wondrous Item / Very Rare / Requires attunement by a cleric or paladin</em></p>\n<hr />\n<p>A holy symbol is a representation of a god or pantheon. A Cleric or Paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>\n<p>A Cleric or Paladin attuned to this holy symbol that uses it as their spellcasting focus has a +2 bonus to their spell attack rolls, a +2 bonus to their spell save DC, and deals +2 damage with their damaging spells.</p>",
+          "value": "<p><em>Wondrous Item / Rare / Requires attunement by a cleric or paladin</em></p>\n<hr />\n<p>A holy symbol is a representation of a god or pantheon. A Cleric or Paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>\n<p>A Cleric or Paladin attuned to this holy symbol that uses it as their spellcasting focus has a +1 bonus to their spell attack rolls, a +1 bonus to their spell save DC, and deals +1 damage with their damaging spells.</p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "Super's Pack",
         "quantity": 1,
-        "weight": 0.5,
-        "price": 35000,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
+        "price": 5000,
         "attunement": 0,
         "equipped": true,
-        "rarity": "veryRare",
+        "rarity": "rare",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -3126,7 +2640,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null
         },
@@ -3169,18 +2683,20 @@
           "value": null,
           "conditions": ""
         },
-        "strength": 0,
+        "strength": null,
         "stealth": false,
         "proficient": true
       },
+      "_key": "!actors.items!MjfyiOV6kioGiRaK.XQVvmBhAmtwyLnAh"
+    },
+    {
+      "_id": "KGegwvnp1d8Dj57X",
+      "name": "+2 Holy Symbol",
+      "type": "equipment",
+      "img": "icons/equipment/neck/pendant-bronze-gem-blue.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "hDKSaQdd06dT2ews": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -3339,30 +2855,39 @@
           }
         }
       },
-      "_key": "!actors.items!MjfyiOV6kioGiRaK.KGegwvnp1d8Dj57X"
-    },
-    {
-      "_id": "0JjfSzgCOT2fracx",
-      "name": "+3 Holy Symbol",
-      "type": "equipment",
-      "img": "icons/equipment/neck/pendant-bronze-gem-blue.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p><em>Wondrous Item / Legendary / Requires attunement by a cleric or paladin</em></p>\n<hr />\n<p>A holy symbol is a representation of a god or pantheon. A Cleric or Paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>\n<p>A Cleric or Paladin attuned to this holy symbol that uses it as their spellcasting focus has a +3 bonus to their spell attack rolls, a +3 bonus to their spell save DC, and deals +3 damage with their damaging spells.</p>",
+          "value": "<p><em>Wondrous Item / Very Rare / Requires attunement by a cleric or paladin</em></p>\n<hr />\n<p>A holy symbol is a representation of a god or pantheon. A Cleric or Paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>\n<p>A Cleric or Paladin attuned to this holy symbol that uses it as their spellcasting focus has a +2 bonus to their spell attack rolls, a +2 bonus to their spell save DC, and deals +2 damage with their damaging spells.</p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "Super's Pack",
         "quantity": 1,
-        "weight": 0.5,
-        "price": 500000,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
+        "price": 35000,
         "attunement": 0,
         "equipped": true,
-        "rarity": "legendary",
+        "rarity": "veryRare",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -3381,7 +2906,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null
         },
@@ -3424,18 +2949,20 @@
           "value": null,
           "conditions": ""
         },
-        "strength": 0,
+        "strength": null,
         "stealth": false,
         "proficient": true
       },
+      "_key": "!actors.items!MjfyiOV6kioGiRaK.KGegwvnp1d8Dj57X"
+    },
+    {
+      "_id": "0JjfSzgCOT2fracx",
+      "name": "+3 Holy Symbol",
+      "type": "equipment",
+      "img": "icons/equipment/neck/pendant-bronze-gem-blue.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "hDKSaQdd06dT2ews": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -3594,31 +3121,40 @@
           }
         }
       },
-      "_key": "!actors.items!MjfyiOV6kioGiRaK.0JjfSzgCOT2fracx"
-    },
-    {
-      "_id": "tbmlcdB4PWyQR3tO",
-      "name": "Spell Scroll Cantrip Level",
-      "type": "consumable",
-      "img": "icons/sundries/scrolls/scroll-bound-orange-tan.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 10. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
+          "value": "<p><em>Wondrous Item / Legendary / Requires attunement by a cleric or paladin</em></p>\n<hr />\n<p>A holy symbol is a representation of a god or pantheon. A Cleric or Paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>\n<p>A Cleric or Paladin attuned to this holy symbol that uses it as their spellcasting focus has a +3 bonus to their spell attack rolls, a +3 bonus to their spell save DC, and deals +3 damage with their damaging spells.</p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "DMG pg. 200",
+        "source": "Super's Pack",
         "quantity": 1,
-        "weight": 0,
-        "price": 10,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
+        "price": 500000,
         "attunement": 0,
         "equipped": true,
-        "rarity": "common",
+        "rarity": "legendary",
         "identified": true,
         "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": "Spell must be on the caster's spell list."
+          "type": "",
+          "cost": null,
+          "condition": ""
         },
         "duration": {
           "value": null,
@@ -3636,20 +3172,18 @@
           "units": ""
         },
         "uses": {
-          "value": 1,
-          "max": 1,
-          "per": "charges",
-          "autoDestroy": true,
-          "autoUse": true
+          "value": null,
+          "max": 0,
+          "per": null
         },
         "consume": {
           "type": "",
           "target": null,
           "amount": null
         },
-        "ability": "",
-        "actionType": "msak",
-        "attackBonus": 5,
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
         "chatFlavor": "",
         "critical": {
           "threshold": null,
@@ -3663,20 +3197,38 @@
         "save": {
           "ability": "",
           "dc": null,
-          "scaling": "flat"
+          "scaling": "spell"
         },
-        "consumableType": "scroll",
-        "attributes": {
-          "spelldc": 10
-        }
+        "armor": {
+          "value": 0,
+          "type": "trinket",
+          "dex": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true
       },
+      "_key": "!actors.items!MjfyiOV6kioGiRaK.0JjfSzgCOT2fracx"
+    },
+    {
+      "_id": "tbmlcdB4PWyQR3tO",
+      "name": "Spell Scroll Cantrip Level",
+      "type": "consumable",
+      "img": "icons/sundries/scrolls/scroll-bound-orange-tan.webp",
       "effects": [],
       "folder": null,
       "sort": 500000,
-      "permission": {
-        "default": 0,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "core": {
           "sourceId": "Compendium.dnd5e.items.rQ6sO7HDWzqMhSI3"
@@ -3765,26 +3317,35 @@
           }
         }
       },
-      "_key": "!actors.items!MjfyiOV6kioGiRaK.tbmlcdB4PWyQR3tO"
-    },
-    {
-      "_id": "Eg9ckzhseaYafluE",
-      "name": "Spell Scroll 2nd Level",
-      "type": "consumable",
-      "img": "icons/sundries/scrolls/scroll-bound-gold-brown.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 12. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
+          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 10. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "DMG pg. 200",
         "quantity": 1,
-        "weight": 0,
-        "price": 120,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 10,
         "attunement": 0,
         "equipped": true,
-        "rarity": "uncommon",
+        "rarity": "common",
         "identified": true,
         "activation": {
           "type": "action",
@@ -3841,13 +3402,16 @@
           "spelldc": 10
         }
       },
+      "_key": "!actors.items!MjfyiOV6kioGiRaK.tbmlcdB4PWyQR3tO"
+    },
+    {
+      "_id": "Eg9ckzhseaYafluE",
+      "name": "Spell Scroll 2nd Level",
+      "type": "consumable",
+      "img": "icons/sundries/scrolls/scroll-bound-gold-brown.webp",
       "effects": [],
       "folder": null,
       "sort": 700000,
-      "permission": {
-        "default": 0,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "core": {
           "sourceId": "Compendium.dnd5e.items.XdDp6CKh9qEvPTuS"
@@ -3936,23 +3500,32 @@
           }
         }
       },
-      "_key": "!actors.items!MjfyiOV6kioGiRaK.Eg9ckzhseaYafluE"
-    },
-    {
-      "_id": "kGWpRxHp16mRRn5p",
-      "name": "Spell Scroll 3rd Level",
-      "type": "consumable",
-      "img": "icons/sundries/scrolls/scroll-bound-gold-brown.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 13. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 15<br /><strong>Attack bonus</strong>: +7.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
+          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 12. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "DMG pg. 200",
         "quantity": 1,
-        "weight": 0,
-        "price": 200,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 120,
         "attunement": 0,
         "equipped": true,
         "rarity": "uncommon",
@@ -3991,7 +3564,7 @@
         },
         "ability": "",
         "actionType": "msak",
-        "attackBonus": 7,
+        "attackBonus": 5,
         "chatFlavor": "",
         "critical": {
           "threshold": null,
@@ -4012,13 +3585,16 @@
           "spelldc": 10
         }
       },
+      "_key": "!actors.items!MjfyiOV6kioGiRaK.Eg9ckzhseaYafluE"
+    },
+    {
+      "_id": "kGWpRxHp16mRRn5p",
+      "name": "Spell Scroll 3rd Level",
+      "type": "consumable",
+      "img": "icons/sundries/scrolls/scroll-bound-gold-brown.webp",
       "effects": [],
       "folder": null,
       "sort": 600000,
-      "permission": {
-        "default": 0,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "core": {
           "sourceId": "Compendium.dnd5e.items.hqVKZie7x9w3Kqds"
@@ -4107,26 +3683,35 @@
           }
         }
       },
-      "_key": "!actors.items!MjfyiOV6kioGiRaK.kGWpRxHp16mRRn5p"
-    },
-    {
-      "_id": "8skoPdfIPNPhWVBk",
-      "name": "Spell Scroll 1st Level",
-      "type": "consumable",
-      "img": "icons/sundries/scrolls/scroll-bound-orange-tan.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 11. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
+          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 13. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 15<br /><strong>Attack bonus</strong>: +7.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "DMG pg. 200",
         "quantity": 1,
-        "weight": 0,
-        "price": 60,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 200,
         "attunement": 0,
         "equipped": true,
-        "rarity": "common",
+        "rarity": "uncommon",
         "identified": true,
         "activation": {
           "type": "action",
@@ -4150,19 +3735,19 @@
         },
         "uses": {
           "value": 1,
-          "max": "1",
+          "max": 1,
           "per": "charges",
           "autoDestroy": true,
           "autoUse": true
         },
         "consume": {
           "type": "",
-          "target": "",
+          "target": null,
           "amount": null
         },
         "ability": "",
         "actionType": "msak",
-        "attackBonus": "5",
+        "attackBonus": 7,
         "chatFlavor": "",
         "critical": {
           "threshold": null,
@@ -4183,13 +3768,16 @@
           "spelldc": 10
         }
       },
+      "_key": "!actors.items!MjfyiOV6kioGiRaK.kGWpRxHp16mRRn5p"
+    },
+    {
+      "_id": "8skoPdfIPNPhWVBk",
+      "name": "Spell Scroll 1st Level",
+      "type": "consumable",
+      "img": "icons/sundries/scrolls/scroll-bound-orange-tan.webp",
       "effects": [],
       "folder": null,
       "sort": 2900000,
-      "permission": {
-        "default": 0,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "core": {
           "sourceId": "Compendium.dnd5e.items.9GSfMg0VOA2b4uFN"
@@ -4292,6 +3880,91 @@
           }
         }
       },
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 11. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "DMG pg. 200",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 60,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": "Spell must be on the caster's spell list."
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "charges",
+          "autoDestroy": true,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "msak",
+        "attackBonus": "5",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "consumableType": "scroll",
+        "attributes": {
+          "spelldc": 10
+        }
+      },
       "_key": "!actors.items!MjfyiOV6kioGiRaK.8skoPdfIPNPhWVBk"
     }
   ],
@@ -4300,32 +3973,36 @@
       "_id": "OHxYlzTABpY4HNZZ",
       "changes": [
         {
-          "key": "data.bonuses.spell.attack",
+          "key": "system.bonuses.spell.attack",
           "mode": 0,
           "value": "+1",
-          "priority": "20"
+          "priority": 20
         },
         {
-          "key": "data.bonuses.spell.damage",
+          "key": "system.bonuses.spell.damage",
           "mode": 0,
           "value": "+1",
-          "priority": "20"
+          "priority": 20
         },
         {
-          "key": "data.bonuses.spell.dc",
+          "key": "system.bonuses.spell.dc",
           "mode": 2,
           "value": "1",
-          "priority": "20"
+          "priority": 20
         }
       ],
       "disabled": false,
       "duration": {
-        "startTime": 192618
+        "startTime": 192618,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
       },
-      "icon": "icons/svg/aura.svg",
-      "label": "Holy Symbol",
       "origin": "Actor.4Kft0JkWJjU6yHjH.Item.XQVvmBhAmtwyLnAh",
-      "tint": null,
+      "tint": "#ffffff",
       "transfer": false,
       "flags": {
         "dae": {
@@ -4334,15 +4011,28 @@
           "transfer": true
         }
       },
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "name": "Holy Symbol",
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
       "_key": "!actors.effects!MjfyiOV6kioGiRaK.OHxYlzTABpY4HNZZ"
     }
   ],
   "folder": null,
   "sort": 0,
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
   "flags": {
     "core": {
       "sheetClass": "dnd5e.LootSheet5eNPC"
@@ -4361,5 +4051,505 @@
     }
   },
   "_id": "MjfyiOV6kioGiRaK",
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": null,
+        "calc": "default",
+        "formula": ""
+      },
+      "hp": {
+        "value": 10,
+        "min": 0,
+        "max": 10,
+        "temp": null,
+        "tempmax": null,
+        "formula": ""
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "",
+      "race": "",
+      "type": {
+        "value": "",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 1,
+      "spellLevel": 0,
+      "xp": {
+        "value": 10
+      },
+      "source": "",
+      "gender": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": {
+        "value": null
+      },
+      "gp": {
+        "value": null
+      },
+      "ep": {
+        "value": null
+      },
+      "sp": {
+        "value": null
+      },
+      "cp": {
+        "value": null
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    },
+    "flags": {
+      "lootsheetnpc5e": {
+        "lootsheettype": "Merchant",
+        "rolltable": "",
+        "shopQty": "",
+        "itemQty": "",
+        "itemQtyLimit": "",
+        "clearInventory": false
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "MerchantMix01",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {},
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "alpha": 0.25,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "https://i.imgur.com/P6ewYzC.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
   "_key": "!actors!MjfyiOV6kioGiRaK"
 }

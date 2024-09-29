@@ -1,12 +1,1018 @@
 {
   "_id": "ElQXAtwrvKjKe7Mb",
   "name": "Mobile Motor Armor",
-  "permission": {
-    "default": 0,
-    "qtb8j5Fh7Hu0wRrz": 3
-  },
   "type": "npc",
-  "data": {
+  "sort": 100001,
+  "flags": {},
+  "img": "modules/compendiums-mix-dnd5e/assets/um5/Mechs/mech_05.webp",
+  "items": [
+    {
+      "_id": "qqumjGbKRRjFakO7",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Resistances",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/spells/protect-royal-1.jpg",
+      "sort": 1900001,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Resistances</strong><span style=\"color: #191813; font-size: 13px;\">:&nbsp;</span><span style=\"color: #191813; font-size: 13px;\">You gain resistance fire, acid, and cold, as well as bludgeoning, and slashing from nonmagical weapons.&nbsp;</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.89",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ElQXAtwrvKjKe7Mb.qqumjGbKRRjFakO7"
+    },
+    {
+      "_id": "y3mKl1BWbey7J0p7",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Damage Threshold of 5",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/spells/protect-jade-3.jpg",
+      "sort": 1000001,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">@Compendium[compendiums-mix-dnd5e.um5-rules.T77zvGdp7mn1uopU]{Exo-Armor Rules &amp; Descriptions}</span></p>\n<p><span class=\"fontstyle0\"><strong>@Compendium[compendiums-mix-dnd5e.um5-rules.br89VG05tCUMDv4m]{Hit Points &amp; Threshold}:&nbsp;</strong></span><span style=\"color: #191813; font-size: 13px;\">The mobile motor armor has 35 hit points and a threshold of 5.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.89",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ElQXAtwrvKjKe7Mb.y3mKl1BWbey7J0p7"
+    },
+    {
+      "_id": "y0JC0Un4Ow4voQhM",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Removable Weapon Limbs",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/affliction_06.jpg",
+      "sort": 2000001,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Removable Weapon Limbs</strong><span style=\"color: #191813; font-size: 13px;\">: You can remove a gauntlet and replace it with a heavy weapon mount. Because the mobile motor armor is Large, you can install super heavy weapons as heavy weapons. Likewise, you can install heavy weapons or two-handed small arms in these mounts as two-handed small arms and one-handed small arms, respectively.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.89",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ElQXAtwrvKjKe7Mb.y0JC0Un4Ow4voQhM"
+    },
+    {
+      "_id": "1zed4y7yvoMnm42s",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [
+              true
+            ],
+            "altValue": [
+              true
+            ],
+            "context": {
+              "0": ""
+            }
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Gauntlets",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/blood_11.jpg",
+      "sort": 100000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Gauntlets</strong><span style=\"color: #191813; font-size: 13px;\">: Unarmed attacks with the armor do base 1d6 damage. If you already inflict 1d6 or more damage with unarmed attacks, increase the damage dice by one step (1d8 &gt; 1d10 &gt; 1d12 &gt; 2d6 &gt; 2d8 &gt; 2d10). The gauntlets also grant a +1 bonus to attack and damage rolls.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.88",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 1,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + 1 + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ElQXAtwrvKjKe7Mb.1zed4y7yvoMnm42s"
+    },
+    {
+      "_id": "TMfSuvcN9NAUE1UT",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Disruption Recovery",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/spells/air-burst-sky-2.jpg",
+      "sort": 700001,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Disruption Recovery</strong><span style=\"color: #191813; font-size: 13px;\">: As a reaction to shutdown, the Mech comes back online. Once you use this feature , you cannot use it again until you finish a long rest.&nbsp;</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.86",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "lr"
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Legendary (TL5)",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ElQXAtwrvKjKe7Mb.TMfSuvcN9NAUE1UT"
+    },
+    {
+      "_id": "McylAJ9YU2Rbp39K",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Battry Cell, High",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/items/inventory/chest-stone.jpg",
+      "sort": 200000,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">High (H): These cells are large, powerful, and usually reserved for huge weapons and massive energy equipment. They cost $40 each. One cell weighs 2 lbs.</span> <br style=\"font-variant-numeric: normal; font-variant-east-asian: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;\" /><br /></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.73",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": 40,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "autoDestroy": false
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "ammo"
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ElQXAtwrvKjKe7Mb.McylAJ9YU2Rbp39K"
+    },
+    {
+      "_id": "ZeLFF40hsTjZ777R",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Large Size",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/items/weapons/crystal.png",
+      "sort": 1100001,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\"><strong>Large Size</strong>: You are considered a Large creature while wearing the armor. </span></p>\n<p><span class=\"fontstyle0\">You have reach.</span> </p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.86",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Legendary (TL5)",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ElQXAtwrvKjKe7Mb.ZeLFF40hsTjZ777R"
+    }
+  ],
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": "20",
@@ -407,929 +1413,94 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {},
-  "img": "modules/compendiums-mix-dnd5e/assets/um5/Mechs/mech_05.webp",
-  "token": {
+  "prototypeToken": {
     "flags": {},
     "name": "Mobile Motor Armor",
     "displayName": 0,
-    "img": "modules/compendiums-mix-dnd5e/assets/um5/Mechs/mech_05.webp",
-    "tint": null,
     "width": 2,
     "height": 2,
-    "scale": 1,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightAlpha": 1,
-    "actorId": "ElQXAtwrvKjKe7Mb",
     "actorLink": false,
-    "actorData": {},
     "disposition": -1,
     "displayBars": 0,
-    "bar1": {},
-    "bar2": {},
-    "randomImg": false
-  },
-  "items": [
-    {
-      "_id": "qqumjGbKRRjFakO7",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [],
-            "altValue": [],
-            "context": []
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
-      },
-      "name": "Resistances",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/spells/protect-royal-1.jpg",
-      "data": {
-        "description": {
-          "value": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Resistances</strong><span style=\"color: #191813; font-size: 13px;\">:&nbsp;</span><span style=\"color: #191813; font-size: 13px;\">You gain resistance fire, acid, and cold, as well as bludgeoning, and slashing from nonmagical weapons.&nbsp;</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5 p.89",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 1900001,
-      "effects": [],
-      "_key": "!actors.items!ElQXAtwrvKjKe7Mb.qqumjGbKRRjFakO7"
+    "bar1": {
+      "attribute": "attributes.hp"
     },
-    {
-      "_id": "y3mKl1BWbey7J0p7",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [],
-            "altValue": [],
-            "context": []
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
-      },
-      "name": "Damage Threshold of 5",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/spells/protect-jade-3.jpg",
-      "data": {
-        "description": {
-          "value": "<p><span class=\"fontstyle0\">@Compendium[compendiums-mix-dnd5e.um5-rules.T77zvGdp7mn1uopU]{Exo-Armor Rules &amp; Descriptions}</span></p>\n<p><span class=\"fontstyle0\"><strong>@Compendium[compendiums-mix-dnd5e.um5-rules.br89VG05tCUMDv4m]{Hit Points &amp; Threshold}:&nbsp;</strong></span><span style=\"color: #191813; font-size: 13px;\">The mobile motor armor has 35 hit points and a threshold of 5.</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5 p.89",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 1000001,
-      "effects": [],
-      "_key": "!actors.items!ElQXAtwrvKjKe7Mb.y3mKl1BWbey7J0p7"
+    "bar2": {
+      "attribute": null
     },
-    {
-      "_id": "y0JC0Un4Ow4voQhM",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [],
-            "altValue": [],
-            "context": []
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "alpha": 1,
+      "negative": false,
+      "priority": 0,
+      "color": null,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
       },
-      "name": "Removable Weapon Limbs",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/affliction_06.jpg",
-      "data": {
-        "description": {
-          "value": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Removable Weapon Limbs</strong><span style=\"color: #191813; font-size: 13px;\">: You can remove a gauntlet and replace it with a heavy weapon mount. Because the mobile motor armor is Large, you can install super heavy weapons as heavy weapons. Likewise, you can install heavy weapons or two-handed small arms in these mounts as two-handed small arms and one-handed small arms, respectively.</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5 p.89",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 2000001,
-      "effects": [],
-      "_key": "!actors.items!ElQXAtwrvKjKe7Mb.y0JC0Un4Ow4voQhM"
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    {
-      "_id": "1zed4y7yvoMnm42s",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [
-              true
-            ],
-            "altValue": [
-              true
-            ],
-            "context": {
-              "0": ""
-            }
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
-      },
-      "name": "Gauntlets",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/blood_11.jpg",
-      "data": {
-        "description": {
-          "value": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Gauntlets</strong><span style=\"color: #191813; font-size: 13px;\">: Unarmed attacks with the armor do base 1d6 damage. If you already inflict 1d6 or more damage with unarmed attacks, increase the damage dice by one step (1d8 &gt; 1d10 &gt; 1d12 &gt; 2d6 &gt; 2d8 &gt; 2d10). The gauntlets also grant a +1 bonus to attack and damage rolls.</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5 p.88",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "str",
-        "actionType": "mwak",
-        "attackBonus": 1,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d6 + 1 + @mod",
-              "bludgeoning"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 100000,
-      "effects": [],
-      "_key": "!actors.items!ElQXAtwrvKjKe7Mb.1zed4y7yvoMnm42s"
+    "texture": {
+      "src": "modules/compendiums-mix-dnd5e/assets/um5/Mechs/mech_05.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
     },
-    {
-      "_id": "TMfSuvcN9NAUE1UT",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [],
-            "altValue": [],
-            "context": []
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
-      },
-      "name": "Disruption Recovery",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/spells/air-burst-sky-2.jpg",
-      "data": {
-        "description": {
-          "value": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Disruption Recovery</strong><span style=\"color: #191813; font-size: 13px;\">: As a reaction to shutdown, the Mech comes back online. Once you use this feature , you cannot use it again until you finish a long rest.&nbsp;</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5 p.86",
-        "activation": {
-          "type": "reaction",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 1,
-          "max": 1,
-          "per": "lr"
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "Legendary (TL5)",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 700001,
-      "effects": [],
-      "_key": "!actors.items!ElQXAtwrvKjKe7Mb.TMfSuvcN9NAUE1UT"
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
     },
-    {
-      "_id": "McylAJ9YU2Rbp39K",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [],
-            "altValue": [],
-            "context": []
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
-      },
-      "name": "Battry Cell, High",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/items/inventory/chest-stone.jpg",
-      "data": {
-        "description": {
-          "value": "<p><span class=\"fontstyle0\">High (H): These cells are large, powerful, and usually reserved for huge weapons and massive energy equipment. They cost $40 each. One cell weighs 2 lbs.</span> <br style=\"font-variant-numeric: normal; font-variant-east-asian: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;\" /><br /></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5 p.73",
-        "quantity": 1,
-        "weight": 2,
-        "price": 40,
-        "attuned": false,
-        "equipped": false,
-        "rarity": "",
-        "identified": true,
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null,
-          "autoDestroy": false
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "consumableType": "ammo"
-      },
-      "sort": 200000,
-      "effects": [],
-      "_key": "!actors.items!ElQXAtwrvKjKe7Mb.McylAJ9YU2Rbp39K"
+    "hexagonalShape": 1,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "alpha": 1,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
     },
-    {
-      "_id": "ZeLFF40hsTjZ777R",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [],
-            "altValue": [],
-            "context": []
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
       },
-      "name": "Large Size",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/items/weapons/crystal.png",
-      "data": {
-        "description": {
-          "value": "<p><span class=\"fontstyle0\"><strong>Large Size</strong>: You are considered a Large creature while wearing the armor. </span></p>\n<p><span class=\"fontstyle0\">You have reach.</span> </p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5 p.86",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "Legendary (TL5)",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 1100001,
-      "effects": [],
-      "_key": "!actors.items!ElQXAtwrvKjKe7Mb.ZeLFF40hsTjZ777R"
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     }
-  ],
-  "effects": [],
+  },
+  "folder": null,
   "_key": "!actors!ElQXAtwrvKjKe7Mb"
 }

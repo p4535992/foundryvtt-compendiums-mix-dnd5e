@@ -1,12 +1,583 @@
 {
   "_id": "9C5w01v7HiC4SIVT",
   "name": "YF-21 Skinsuit",
-  "permission": {
-    "default": 0,
-    "qtb8j5Fh7Hu0wRrz": 3
-  },
   "type": "npc",
-  "data": {
+  "sort": 100001,
+  "flags": {},
+  "img": "modules/compendiums-mix-dnd5e/assets/um5/Mechs/skinsuit_01.webp",
+  "items": [
+    {
+      "_id": "dT0joedsdRkMZku2",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Boosters",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/violet_21.jpg",
+      "sort": 2300001,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">&nbsp;</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Boosters</strong>: You have advantage with Strength (Athletics) checks when jumping.</span></p>\n<p><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">&nbsp;</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9C5w01v7HiC4SIVT.dT0joedsdRkMZku2"
+    },
+    {
+      "_id": "7H0ZPKUftryilv95",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Disruption Recovery",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/spells/air-burst-sky-2.jpg",
+      "sort": 700001,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Disruption Recovery</strong><span style=\"color: #191813; font-size: 13px;\">: As a reaction to shutdown, the Mech comes back online. Once you use this feature , you cannot use it again until you finish a long rest.&nbsp;</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.89",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "lr"
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9C5w01v7HiC4SIVT.7H0ZPKUftryilv95"
+    },
+    {
+      "_id": "28qSv4qaDYNN2Fja",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Damage Threshold of 2",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/spells/protect-jade-3.jpg",
+      "sort": 1000001,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><span class=\"fontstyle0\">@Compendium[compendiums-mix-dnd5e.um5-rules.T77zvGdp7mn1uopU]{Exo-Armor Rules &amp; Descriptions}</span></p>\n<p><span class=\"fontstyle0\"><strong>@Compendium[compendiums-mix-dnd5e.um5-rules.br89VG05tCUMDv4m]{Hit Points &amp; Threshold}: </strong></span><span style=\"color: #191813; font-size: 13px;\">The skinsuit has 25 hit points and a threshold of 2.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9C5w01v7HiC4SIVT.28qSv4qaDYNN2Fja"
+    },
+    {
+      "_id": "WF71z0PPozza07Cl",
+      "flags": {
+        "betterRolls5e": {
+          "critRange": {
+            "type": "String",
+            "value": ""
+          },
+          "critDamage": {
+            "type": "String",
+            "value": ""
+          },
+          "quickDesc": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickAttack": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickSave": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickDamage": {
+            "type": "Array",
+            "value": [],
+            "altValue": [],
+            "context": []
+          },
+          "quickProperties": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickCharges": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          },
+          "quickTemplate": {
+            "type": "Boolean",
+            "value": false,
+            "altValue": false
+          },
+          "quickOther": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true,
+            "context": ""
+          },
+          "quickFlavor": {
+            "type": "Boolean",
+            "value": true,
+            "altValue": true
+          }
+        }
+      },
+      "name": "Mask",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/items/equipment/helmet-steel.jpg",
+      "sort": 1200001,
+      "effects": [],
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Mask</strong><span style=\"color: #191813; font-size: 13px;\">: You are immune to gas attacks and inhaled poisons.&nbsp;</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.89",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9C5w01v7HiC4SIVT.WF71z0PPozza07Cl"
+    }
+  ],
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": "10",
@@ -403,539 +974,94 @@
       }
     }
   },
-  "sort": 100001,
-  "flags": {},
-  "img": "modules/compendiums-mix-dnd5e/assets/um5/Mechs/skinsuit_01.webp",
-  "token": {
+  "prototypeToken": {
     "flags": {},
     "name": "YF-21 Skinsuit",
     "displayName": 0,
-    "img": "modules/compendiums-mix-dnd5e/assets/um5/Mechs/skinsuit_01.webp",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 1,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 360,
-    "lightAngle": 360,
-    "lightAlpha": 1,
-    "actorId": "9C5w01v7HiC4SIVT",
     "actorLink": false,
-    "actorData": {},
     "disposition": -1,
     "displayBars": 0,
-    "bar1": {},
-    "bar2": {},
-    "randomImg": false
-  },
-  "items": [
-    {
-      "_id": "dT0joedsdRkMZku2",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [],
-            "altValue": [],
-            "context": []
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
-      },
-      "name": "Boosters",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/violet_21.jpg",
-      "data": {
-        "description": {
-          "value": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">&nbsp;</p>\n<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text;\">Boosters</strong>: You have advantage with Strength (Athletics) checks when jumping.</span></p>\n<p><span class=\"fontstyle0\" style=\"box-sizing: border-box; user-select: text;\">&nbsp;</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 2300001,
-      "effects": [],
-      "_key": "!actors.items!9C5w01v7HiC4SIVT.dT0joedsdRkMZku2"
+    "bar1": {
+      "attribute": "attributes.hp"
     },
-    {
-      "_id": "7H0ZPKUftryilv95",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [],
-            "altValue": [],
-            "context": []
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
-      },
-      "name": "Disruption Recovery",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/spells/air-burst-sky-2.jpg",
-      "data": {
-        "description": {
-          "value": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Disruption Recovery</strong><span style=\"color: #191813; font-size: 13px;\">: As a reaction to shutdown, the Mech comes back online. Once you use this feature , you cannot use it again until you finish a long rest.&nbsp;</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5 p.89",
-        "activation": {
-          "type": "reaction",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 1,
-          "max": 1,
-          "per": "lr"
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 700001,
-      "effects": [],
-      "_key": "!actors.items!9C5w01v7HiC4SIVT.7H0ZPKUftryilv95"
+    "bar2": {
+      "attribute": null
     },
-    {
-      "_id": "28qSv4qaDYNN2Fja",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [],
-            "altValue": [],
-            "context": []
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "alpha": 1,
+      "negative": false,
+      "priority": 0,
+      "color": null,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
       },
-      "name": "Damage Threshold of 2",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/spells/protect-jade-3.jpg",
-      "data": {
-        "description": {
-          "value": "<p><span class=\"fontstyle0\">@Compendium[compendiums-mix-dnd5e.um5-rules.T77zvGdp7mn1uopU]{Exo-Armor Rules &amp; Descriptions}</span></p>\n<p><span class=\"fontstyle0\"><strong>@Compendium[compendiums-mix-dnd5e.um5-rules.br89VG05tCUMDv4m]{Hit Points &amp; Threshold}: </strong></span><span style=\"color: #191813; font-size: 13px;\">The skinsuit has 25 hit points and a threshold of 2.</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 1000001,
-      "effects": [],
-      "_key": "!actors.items!9C5w01v7HiC4SIVT.28qSv4qaDYNN2Fja"
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    {
-      "_id": "WF71z0PPozza07Cl",
-      "flags": {
-        "betterRolls5e": {
-          "critRange": {
-            "type": "String",
-            "value": ""
-          },
-          "critDamage": {
-            "type": "String",
-            "value": ""
-          },
-          "quickDesc": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickAttack": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickSave": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickDamage": {
-            "type": "Array",
-            "value": [],
-            "altValue": [],
-            "context": []
-          },
-          "quickProperties": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickCharges": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          },
-          "quickTemplate": {
-            "type": "Boolean",
-            "value": false,
-            "altValue": false
-          },
-          "quickOther": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true,
-            "context": ""
-          },
-          "quickFlavor": {
-            "type": "Boolean",
-            "value": true,
-            "altValue": true
-          }
-        }
+    "texture": {
+      "src": "modules/compendiums-mix-dnd5e/assets/um5/Mechs/skinsuit_01.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "alpha": 1,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
       },
-      "name": "Mask",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/items/equipment/helmet-steel.jpg",
-      "data": {
-        "description": {
-          "value": "<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Mask</strong><span style=\"color: #191813; font-size: 13px;\">: You are immune to gas attacks and inhaled poisons.&nbsp;</span></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5 p.89",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 1200001,
-      "effects": [],
-      "_key": "!actors.items!9C5w01v7HiC4SIVT.WF71z0PPozza07Cl"
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     }
-  ],
-  "effects": [],
+  },
+  "folder": null,
   "_key": "!actors!9C5w01v7HiC4SIVT"
 }

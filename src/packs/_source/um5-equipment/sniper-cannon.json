@@ -1,102 +1,7 @@
 {
   "_id": "7TthNPm4c3MSrqCs",
   "name": "Sniper Cannon",
-  "permission": {
-    "default": 0,
-    "qtb8j5Fh7Hu0wRrz": 3
-  },
   "type": "weapon",
-  "data": {
-    "description": {
-      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.Fim0r8kwu9pO2qPe]{Weapon Group: Small Arms, Two-Handed}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 54px;\"><span class=\"fontstyle0\">Sniper cannon </span></td>\n<td style=\"width: 37px;\"><span class=\"fontstyle0\">500 </span></td>\n<td style=\"width: 63px;\"><span class=\"fontstyle0\">1d10 piercing </span></td>\n<td style=\"width: 64px;\"><span class=\"fontstyle0\">200/800 </span></td>\n<td style=\"width: 44px;\"><span class=\"fontstyle0\">15 lb. </span></td>\n<td style=\"width: 127px;\"><span class=\"fontstyle0\">AP, reload (6 shots), sniper (+1), TL1</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{AP (Armor Piercing)} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.G7qOWSIdHwghUlBX]{Sniper +1}</p>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 6 shots}</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
-      "chat": "",
-      "unidentified": ""
-    },
-    "source": "UM5 p.76",
-    "quantity": 1,
-    "weight": 15,
-    "price": 500,
-    "attuned": false,
-    "equipped": false,
-    "rarity": "TL1",
-    "identified": true,
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
-    "duration": {
-      "value": 0,
-      "units": ""
-    },
-    "target": {
-      "value": 0,
-      "units": "",
-      "type": ""
-    },
-    "range": {
-      "value": 200,
-      "long": 800,
-      "units": "ft"
-    },
-    "uses": {
-      "value": 6,
-      "max": 6,
-      "per": "charges"
-    },
-    "consume": {
-      "type": "",
-      "target": "",
-      "amount": null
-    },
-    "ability": "",
-    "actionType": "rwak",
-    "attackBonus": 0,
-    "chatFlavor": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.G7qOWSIdHwghUlBX]{Sniper}: Action or Bonus action to Aim at a target over 25 ft, gain +1 to hit.",
-    "critical": null,
-    "damage": {
-      "parts": [
-        [
-          "1d10 + @mod",
-          "piercing"
-        ]
-      ],
-      "versatile": ""
-    },
-    "formula": "",
-    "save": {
-      "ability": "",
-      "dc": null,
-      "scaling": "flat"
-    },
-    "armor": {
-      "value": 10
-    },
-    "hp": {
-      "value": 0,
-      "max": 0,
-      "dt": null,
-      "conditions": ""
-    },
-    "weaponType": "martialR",
-    "properties": {
-      "amm": false,
-      "lgt": false,
-      "hvy": false,
-      "fin": false,
-      "fir": true,
-      "foc": false,
-      "rch": false,
-      "rel": true,
-      "ret": false,
-      "spc": true,
-      "thr": false,
-      "two": true,
-      "ver": false,
-      "lod": false
-    },
-    "proficient": false
-  },
   "flags": {
     "betterRolls5e": {
       "critRange": {
@@ -170,5 +75,114 @@
   },
   "img": "systems/dnd5e/icons/skills/weapon_44.jpg",
   "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.Fim0r8kwu9pO2qPe]{Weapon Group: Small Arms, Two-Handed}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 54px;\"><span class=\"fontstyle0\">Sniper cannon </span></td>\n<td style=\"width: 37px;\"><span class=\"fontstyle0\">500 </span></td>\n<td style=\"width: 63px;\"><span class=\"fontstyle0\">1d10 piercing </span></td>\n<td style=\"width: 64px;\"><span class=\"fontstyle0\">200/800 </span></td>\n<td style=\"width: 44px;\"><span class=\"fontstyle0\">15 lb. </span></td>\n<td style=\"width: 127px;\"><span class=\"fontstyle0\">AP, reload (6 shots), sniper (+1), TL1</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{AP (Armor Piercing)} @Compendium[compendiums-mix-dnd5e.um5-weaponproperties.G7qOWSIdHwghUlBX]{Sniper +1}</p>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 6 shots}</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.76",
+    "quantity": 1,
+    "weight": {
+      "value": 15,
+      "units": "lb"
+    },
+    "price": 500,
+    "attuned": false,
+    "equipped": false,
+    "rarity": "TL1",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 200,
+      "long": 800,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 6,
+      "max": 6,
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.G7qOWSIdHwghUlBX]{Sniper}: Action or Bonus action to Aim at a target over 25 ft, gain +1 to hit.",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d10 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "martialR",
+    "properties": {
+      "amm": false,
+      "lgt": false,
+      "hvy": false,
+      "fin": false,
+      "fir": true,
+      "foc": false,
+      "rch": false,
+      "rel": true,
+      "ret": false,
+      "spc": true,
+      "thr": false,
+      "two": true,
+      "ver": false,
+      "lod": false
+    },
+    "proficient": false
+  },
+  "folder": null,
+  "sort": 0,
   "_key": "!items!7TthNPm4c3MSrqCs"
 }

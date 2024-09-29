@@ -2,551 +2,15 @@
   "name": "MerchantWeapon01",
   "type": "npc",
   "img": "https://i.imgur.com/dYp7MIK.png",
-  "data": {
-    "abilities": {
-      "str": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "dex": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "con": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "int": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "wis": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "cha": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      }
-    },
-    "attributes": {
-      "ac": {
-        "flat": null,
-        "calc": "default",
-        "formula": ""
-      },
-      "hp": {
-        "value": 10,
-        "min": 0,
-        "max": 10,
-        "temp": null,
-        "tempmax": null,
-        "formula": ""
-      },
-      "init": {
-        "value": 0,
-        "bonus": 0
-      },
-      "movement": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "swim": 0,
-        "walk": 30,
-        "units": "ft",
-        "hover": false
-      },
-      "senses": {
-        "darkvision": 0,
-        "blindsight": 0,
-        "tremorsense": 0,
-        "truesight": 0,
-        "units": "ft",
-        "special": ""
-      },
-      "spellcasting": "int"
-    },
-    "details": {
-      "biography": {
-        "value": "",
-        "public": ""
-      },
-      "alignment": "",
-      "race": "",
-      "type": {
-        "value": "",
-        "subtype": "",
-        "swarm": "",
-        "custom": ""
-      },
-      "environment": "",
-      "cr": 1,
-      "spellLevel": 0,
-      "xp": {
-        "value": 10
-      },
-      "source": "",
-      "gender": "",
-      "age": "",
-      "height": "",
-      "weight": "",
-      "eyes": "",
-      "skin": "",
-      "hair": "",
-      "notes1name": "",
-      "notes2name": "",
-      "notes3name": "",
-      "notes4name": ""
-    },
-    "traits": {
-      "size": "med",
-      "di": {
-        "value": [],
-        "custom": ""
-      },
-      "dr": {
-        "value": [],
-        "custom": ""
-      },
-      "dv": {
-        "value": [],
-        "custom": ""
-      },
-      "ci": {
-        "value": [],
-        "custom": ""
-      },
-      "languages": {
-        "value": [],
-        "custom": ""
-      }
-    },
-    "currency": {
-      "pp": {
-        "value": null
-      },
-      "gp": {
-        "value": null
-      },
-      "ep": {
-        "value": null
-      },
-      "sp": {
-        "value": null
-      },
-      "cp": {
-        "value": null
-      }
-    },
-    "skills": {
-      "acr": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ani": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "arc": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ath": {
-        "value": 0,
-        "ability": "str",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "dec": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "his": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ins": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "itm": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "inv": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "med": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "nat": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "prc": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "prf": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "per": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "rel": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "slt": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ste": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "sur": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      }
-    },
-    "spells": {
-      "spell1": {
-        "value": 0,
-        "override": null
-      },
-      "spell2": {
-        "value": 0,
-        "override": null
-      },
-      "spell3": {
-        "value": 0,
-        "override": null
-      },
-      "spell4": {
-        "value": 0,
-        "override": null
-      },
-      "spell5": {
-        "value": 0,
-        "override": null
-      },
-      "spell6": {
-        "value": 0,
-        "override": null
-      },
-      "spell7": {
-        "value": 0,
-        "override": null
-      },
-      "spell8": {
-        "value": 0,
-        "override": null
-      },
-      "spell9": {
-        "value": 0,
-        "override": null
-      },
-      "pact": {
-        "value": 0,
-        "override": null
-      }
-    },
-    "bonuses": {
-      "mwak": {
-        "attack": "",
-        "damage": ""
-      },
-      "rwak": {
-        "attack": "",
-        "damage": ""
-      },
-      "msak": {
-        "attack": "",
-        "damage": ""
-      },
-      "rsak": {
-        "attack": "",
-        "damage": ""
-      },
-      "abilities": {
-        "check": "",
-        "save": "",
-        "skill": ""
-      },
-      "spell": {
-        "dc": ""
-      }
-    },
-    "resources": {
-      "legact": {
-        "value": 0,
-        "max": 0
-      },
-      "legres": {
-        "value": 0,
-        "max": 0
-      },
-      "lair": {
-        "value": false,
-        "initiative": 0
-      }
-    },
-    "flags": {
-      "lootsheetnpc5e": {
-        "lootsheettype": "Merchant",
-        "rolltable": "",
-        "shopQty": "",
-        "itemQty": "",
-        "itemQtyLimit": "",
-        "clearInventory": false
-      }
-    }
-  },
-  "token": {
-    "name": "MerchantWeapon01",
-    "img": "https://i.imgur.com/dYp7MIK.png",
-    "displayName": 0,
-    "actorLink": false,
-    "width": 1,
-    "height": 1,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 0.25,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "disposition": -1,
-    "displayBars": 0,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "flags": {},
-    "randomImg": false
-  },
   "items": [
     {
       "_id": "Myv336eQCDVqehLc",
       "name": "Bayonet, Fighting Knife",
       "type": "weapon",
       "img": "icons/weapons/daggers/dagger-jeweled-purple.webp",
-      "data": {
-        "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.PkYYoSwGjKt9BiTo]{Weapon Group: Melee Weapons}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width:85px\"><span class=\"fontstyle0\">Fighting knife bayonet </span></td>\n<td style=\"width:24px\"><span class=\"fontstyle0\">25 </span></td>\n<td style=\"width:86px\"><span class=\"fontstyle0\">1d6 piercing </span></td>\n<td style=\"width:32px\"><span class=\"fontstyle0\">2 lb. </span></td>\n<td style=\"width:164px\"><span class=\"fontstyle0\">Finesse, light, undermount</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.qB35DS5654aWtgir]{Finesse} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.bY9owuVfWrNWp8NV]{Light} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.ndsgjoLFhH09eWJa]{Undermount} A short metal blade mounted to aa firearm.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "UM5 p.79",
-        "quantity": 1,
-        "weight": 2,
-        "price": 25,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "common",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": 0,
-          "units": ""
-        },
-        "target": {
-          "value": 0,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [
-            [
-              "1d6 + @mod",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "simpleM",
-        "baseItem": "",
-        "properties": {
-          "fin": true,
-          "lgt": true,
-          "thr": false,
-          "amm": false,
-          "hvy": false,
-          "fir": false,
-          "foc": false,
-          "lod": false,
-          "rch": false,
-          "rel": false,
-          "ret": false,
-          "spc": false,
-          "two": false,
-          "ver": false
-        },
-        "proficient": true
-      },
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -644,34 +108,43 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.Myv336eQCDVqehLc"
-    },
-    {
-      "_id": "H0yXuTBAEjc6Zj2T",
-      "name": "Ammo: Armor Piercing",
-      "type": "consumable",
-      "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p><span class=\"fontstyle0\">A weapon with AP rounds gains the AP property.</span></p>\n<p><span class=\"fontstyle0\"><strong>Use</strong>: Caseless rounds, ESP bullets, gauss iron flechettes, sabot SPPs, traditional bullets, heavy shells.</span></p>\n<p><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\">Cost</strong><span style=\"color:#191813;font-size:13px\">: x5 regular ammo price</span></p>\n<p><span style=\"text-decoration:underline\"><strong><span class=\"fontstyle0\">@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{AP (Armor Piercing)}</span></strong></span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\">This weapon ignores a target's resistance to the weapon's damage type (e.g.: a piercing weapon ignores resistance to piercing). If the target has fantasy damage resistances, the weapon also counts as magical, silver, and adamantine.<br style=\"box-sizing:border-box;user-select:text\" /></span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\">If an opponent has immunity to the weapon’s damage type and the weapon has the AP property, the opponent has only resistance to that weapon instead of immunity. </span></p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.PkYYoSwGjKt9BiTo]{Weapon Group: Melee Weapons}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width:85px\"><span class=\"fontstyle0\">Fighting knife bayonet </span></td>\n<td style=\"width:24px\"><span class=\"fontstyle0\">25 </span></td>\n<td style=\"width:86px\"><span class=\"fontstyle0\">1d6 piercing </span></td>\n<td style=\"width:32px\"><span class=\"fontstyle0\">2 lb. </span></td>\n<td style=\"width:164px\"><span class=\"fontstyle0\">Finesse, light, undermount</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.qB35DS5654aWtgir]{Finesse} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.bY9owuVfWrNWp8NV]{Light} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.ndsgjoLFhH09eWJa]{Undermount} A short metal blade mounted to aa firearm.</p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "UM5 p.81",
-        "quantity": 20,
-        "weight": 0,
-        "price": 5,
+        "source": "UM5 p.79",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": 25,
         "attunement": 0,
         "equipped": true,
-        "rarity": "",
+        "rarity": "common",
         "identified": true,
         "activation": {
-          "type": "",
-          "cost": 0,
+          "type": "action",
+          "cost": 1,
           "condition": ""
         },
         "duration": {
-          "value": null,
+          "value": 0,
           "units": ""
         },
         "target": {
@@ -681,23 +154,22 @@
           "type": ""
         },
         "range": {
-          "value": null,
+          "value": 5,
           "long": null,
-          "units": ""
+          "units": "ft"
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
-          "per": null,
-          "autoDestroy": false
+          "per": ""
         },
         "consume": {
           "type": "",
-          "target": null,
+          "target": "",
           "amount": null
         },
-        "ability": null,
-        "actionType": "",
+        "ability": "",
+        "actionType": "mwak",
         "attackBonus": 0,
         "chatFlavor": "",
         "critical": {
@@ -705,7 +177,12 @@
           "damage": null
         },
         "damage": {
-          "parts": [],
+          "parts": [
+            [
+              "1d6 + @mod",
+              "piercing"
+            ]
+          ],
           "versatile": ""
         },
         "formula": "",
@@ -714,16 +191,45 @@
           "dc": null,
           "scaling": "spell"
         },
-        "consumableType": "ammo"
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "baseItem": "",
+        "properties": {
+          "fin": true,
+          "lgt": true,
+          "thr": false,
+          "amm": false,
+          "hvy": false,
+          "fir": false,
+          "foc": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.Myv336eQCDVqehLc"
+    },
+    {
+      "_id": "H0yXuTBAEjc6Zj2T",
+      "name": "Ammo: Armor Piercing",
+      "type": "consumable",
+      "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -835,40 +341,39 @@
           }
         }
       },
-      "siftoolkit": {
-        "audio": {
-          "playDamageAudio": false,
-          "clip": {
-            "text": "",
-            "bttn": "Select"
-          },
-          "volume": 100
-        }
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.H0yXuTBAEjc6Zj2T"
-    },
-    {
-      "_id": "f3XE21HtKAYr1Gj1",
-      "name": "Ammo: Bullet (high caliber)",
-      "type": "consumable",
-      "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
-      "data": {
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>1d12 and up</p>",
+          "value": "<p><span class=\"fontstyle0\">A weapon with AP rounds gains the AP property.</span></p>\n<p><span class=\"fontstyle0\"><strong>Use</strong>: Caseless rounds, ESP bullets, gauss iron flechettes, sabot SPPs, traditional bullets, heavy shells.</span></p>\n<p><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\">Cost</strong><span style=\"color:#191813;font-size:13px\">: x5 regular ammo price</span></p>\n<p><span style=\"text-decoration:underline\"><strong><span class=\"fontstyle0\">@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{AP (Armor Piercing)}</span></strong></span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\">This weapon ignores a target's resistance to the weapon's damage type (e.g.: a piercing weapon ignores resistance to piercing). If the target has fantasy damage resistances, the weapon also counts as magical, silver, and adamantine.<br style=\"box-sizing:border-box;user-select:text\" /></span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\">If an opponent has immunity to the weapon's damage type and the weapon has the AP property, the opponent has only resistance to that weapon instead of immunity. </span></p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "",
+        "source": "UM5 p.81",
         "quantity": 20,
-        "weight": 0,
-        "price": 3,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 5,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -887,7 +392,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -917,14 +422,16 @@
         },
         "consumableType": "ammo"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.H0yXuTBAEjc6Zj2T"
+    },
+    {
+      "_id": "f3XE21HtKAYr1Gj1",
+      "name": "Ammo: Bullet (high caliber)",
+      "type": "consumable",
+      "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -1004,30 +511,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.f3XE21HtKAYr1Gj1"
-    },
-    {
-      "_id": "wxclHyPGSv5DqPO6",
-      "name": "Ammo: Bullet (low caliber)",
-      "type": "consumable",
-      "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>1d4-1d6</p>",
+          "value": "<p>1d12 and up</p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "",
         "quantity": 20,
-        "weight": 0,
-        "price": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 3,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -1046,7 +562,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -1076,14 +592,16 @@
         },
         "consumableType": "ammo"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.f3XE21HtKAYr1Gj1"
+    },
+    {
+      "_id": "wxclHyPGSv5DqPO6",
+      "name": "Ammo: Bullet (low caliber)",
+      "type": "consumable",
+      "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -1163,30 +681,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.wxclHyPGSv5DqPO6"
-    },
-    {
-      "_id": "1Hc1lgom3XBSyAi6",
-      "name": "Ammo: Bullet (medium caliber)",
-      "type": "consumable",
-      "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>1d8-1d10</p>",
+          "value": "<p>1d4-1d6</p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "",
         "quantity": 20,
-        "weight": 0,
-        "price": 2,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 1,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -1205,7 +732,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -1235,14 +762,16 @@
         },
         "consumableType": "ammo"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.wxclHyPGSv5DqPO6"
+    },
+    {
+      "_id": "1Hc1lgom3XBSyAi6",
+      "name": "Ammo: Bullet (medium caliber)",
+      "type": "consumable",
+      "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -1322,30 +851,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.1Hc1lgom3XBSyAi6"
-    },
-    {
-      "_id": "qnH2Ro3Xxw3v4p7v",
-      "name": "Ammo: Rubber",
-      "type": "consumable",
-      "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p><span class=\"fontstyle0\">Large and larger targets suffer neither damage nor any effect. Medium and smaller targets suffer 1 hit point of damage (which cannot be modified) and disadvantage on attack rolls until the start of your next turn. A critical hit causes the target to be stunned until the start of your next turn.</span></p>\n<p><span class=\"fontstyle0\"><strong>Use</strong>: Caseless rounds, ESP bullets, sabot SPPs, shotgun shells, traditional bullets.<br /></span></p>\n<p><span class=\"fontstyle0\"><strong>Requirement</strong>: Non-auto or non-auto-heavy.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\">Cost</strong><span style=\"color:#191813;font-size:13px\">: x3 regular ammo price</span></p>",
+          "value": "<p>1d8-1d10</p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "UM5 p.81",
-        "quantity": 1,
-        "weight": 0,
-        "price": 1,
+        "source": "",
+        "quantity": 20,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 2,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -1364,7 +902,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -1394,14 +932,16 @@
         },
         "consumableType": "ammo"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.1Hc1lgom3XBSyAi6"
+    },
+    {
+      "_id": "qnH2Ro3Xxw3v4p7v",
+      "name": "Ammo: Rubber",
+      "type": "consumable",
+      "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -1499,30 +1039,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.qnH2Ro3Xxw3v4p7v"
-    },
-    {
-      "_id": "udIUosuQrNoH5a7V",
-      "name": "Ammo: Shotgun Slug",
-      "type": "consumable",
-      "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>Any</p>",
+          "value": "<p><span class=\"fontstyle0\">Large and larger targets suffer neither damage nor any effect. Medium and smaller targets suffer 1 hit point of damage (which cannot be modified) and disadvantage on attack rolls until the start of your next turn. A critical hit causes the target to be stunned until the start of your next turn.</span></p>\n<p><span class=\"fontstyle0\"><strong>Use</strong>: Caseless rounds, ESP bullets, sabot SPPs, shotgun shells, traditional bullets.<br /></span></p>\n<p><span class=\"fontstyle0\"><strong>Requirement</strong>: Non-auto or non-auto-heavy.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\">Cost</strong><span style=\"color:#191813;font-size:13px\">: x3 regular ammo price</span></p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "",
-        "quantity": 10,
-        "weight": 0,
-        "price": 2,
+        "source": "UM5 p.81",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 1,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -1541,7 +1090,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -1571,14 +1120,16 @@
         },
         "consumableType": "ammo"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.qnH2Ro3Xxw3v4p7v"
+    },
+    {
+      "_id": "udIUosuQrNoH5a7V",
+      "name": "Ammo: Shotgun Slug",
+      "type": "consumable",
+      "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -1658,30 +1209,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.udIUosuQrNoH5a7V"
-    },
-    {
-      "_id": "rLFoMGNpFxNNaRe0",
-      "name": "Ammo: Tracer",
-      "type": "consumable",
-      "img": "icons/magic/light/beam-strike-orange-gold.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p><span class=\"fontstyle0\">If you suffer disadvantage from firing at a target at long range and miss with your attack, on your next attack, you no longer suffer disadvantage. You also suffer -2 damage on each damage die.<br /></span></p>\n<p><span class=\"fontstyle0\"><strong>Use</strong>: Caseless rounds, ESP bullets, gauss iron flechettes, sabot SPPs, traditional bullets;<br /></span></p>\n<p><span class=\"fontstyle0\"><strong>Requirement</strong>: Auto or auto-heavy weapons only.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><strong>Cost</strong>: x4 regular ammo price</p>",
+          "value": "<p>Any</p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "UM5 p.81",
-        "quantity": 1,
-        "weight": 0,
-        "price": "5",
+        "source": "",
+        "quantity": 10,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 2,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -1700,7 +1260,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -1730,14 +1290,16 @@
         },
         "consumableType": "ammo"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.udIUosuQrNoH5a7V"
+    },
+    {
+      "_id": "rLFoMGNpFxNNaRe0",
+      "name": "Ammo: Tracer",
+      "type": "consumable",
+      "img": "icons/magic/light/beam-strike-orange-gold.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -1817,59 +1379,69 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.rLFoMGNpFxNNaRe0"
-    },
-    {
-      "_id": "g8pIrifMNVqoFYhd",
-      "name": "Air Dart Gun",
-      "type": "weapon",
-      "img": "icons/weapons/guns/gun-topbarrel.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p><span class=\"fontstyle2\">@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.HU4lNUAme2XmxfAN]{Weapon Group: Small Arms, One-Handed}</span></p>\n<p><span class=\"fontstyle2\">The air-dart gun resembles a standard pistol except it fires a small needle via an air compressor. The needle inflicts no damage but can deliver any number of medical injections. You choose which injection to employ from your inventory before making the attack.</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td><span class=\"fontstyle0\">Air dart pistol </span></td>\n<td><span class=\"fontstyle0\">150 </span></td>\n<td><span class=\"fontstyle0\">Special </span></td>\n<td><span class=\"fontstyle0\">20/100 </span></td>\n<td><span class=\"fontstyle0\">4 lb. </span></td>\n<td><span class=\"fontstyle0\">Light, loading, undermount</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.bY9owuVfWrNWp8NV]{Light} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.z2wFzTqhwoovc1Su]{Loading} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.ndsgjoLFhH09eWJa]{Undermount} </p>\n<hr />\n<h2>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.COmZhW4Lv2ooxdha]{Injections}</h2>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.BQP0JrEgTyjtdfeP]{Injection: Detonator} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.QVECnRPFw6bWeApT]{Injection: Fear}</p>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.XAHL7HYIUyXfqDRe]{Injection: Narcosynthesis} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.TDArmghJNhkA0nri]{Injection: Open Mind}</p>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.VPsyClC1jtgkHZLK]{Injection: Pain} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.4rQuCDklVwdjOiiY]{Injection: Paralysis}</p>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.AYldDF83Rc6PNedU]{Injection: Slow} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.AYldDF83Rc6PNedU]{Injection: Slow}</p>",
+          "value": "<p><span class=\"fontstyle0\">If you suffer disadvantage from firing at a target at long range and miss with your attack, on your next attack, you no longer suffer disadvantage. You also suffer -2 damage on each damage die.<br /></span></p>\n<p><span class=\"fontstyle0\"><strong>Use</strong>: Caseless rounds, ESP bullets, gauss iron flechettes, sabot SPPs, traditional bullets;<br /></span></p>\n<p><span class=\"fontstyle0\"><strong>Requirement</strong>: Auto or auto-heavy weapons only.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><strong>Cost</strong>: x4 regular ammo price</p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "UM5 p.79",
+        "source": "UM5 p.81",
         "quantity": 1,
-        "weight": 4,
-        "price": 150,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": "5",
         "attunement": 0,
         "equipped": true,
-        "rarity": "common",
+        "rarity": "",
         "identified": true,
         "activation": {
-          "type": "action",
-          "cost": 1,
+          "type": "",
+          "cost": null,
           "condition": ""
         },
         "duration": {
-          "value": 0,
+          "value": null,
           "units": ""
         },
         "target": {
-          "value": 0,
+          "value": null,
           "width": null,
           "units": "",
           "type": ""
         },
         "range": {
-          "value": 20,
-          "long": 60,
-          "units": "ft"
+          "value": null,
+          "long": null,
+          "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
-          "per": ""
+          "per": null,
+          "autoDestroy": false
         },
         "consume": {
           "type": "",
-          "target": "",
+          "target": null,
           "amount": null
         },
-        "ability": "",
-        "actionType": "rwak",
+        "ability": null,
+        "actionType": "",
         "attackBonus": 0,
         "chatFlavor": "",
         "critical": {
@@ -1877,12 +1449,7 @@
           "damage": null
         },
         "damage": {
-          "parts": [
-            [
-              "1",
-              "piercing"
-            ]
-          ],
+          "parts": [],
           "versatile": ""
         },
         "formula": "",
@@ -1891,43 +1458,18 @@
           "dc": null,
           "scaling": "spell"
         },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "simpleR",
-        "baseItem": "",
-        "properties": {
-          "fin": true,
-          "thr": true,
-          "amm": false,
-          "hvy": false,
-          "fir": true,
-          "foc": false,
-          "lgt": false,
-          "rch": false,
-          "rel": true,
-          "ret": false,
-          "spc": true,
-          "two": false,
-          "ver": false,
-          "lod": true
-        },
-        "proficient": true
+        "consumableType": "ammo"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.rLFoMGNpFxNNaRe0"
+    },
+    {
+      "_id": "g8pIrifMNVqoFYhd",
+      "name": "Air Dart Gun",
+      "type": "weapon",
+      "img": "icons/weapons/guns/gun-topbarrel.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "quickDamage": {
@@ -2033,26 +1575,35 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.g8pIrifMNVqoFYhd"
-    },
-    {
-      "_id": "ushuM4ir34VXEPXO",
-      "name": "Assault Rifle",
-      "type": "weapon",
-      "img": "icons/skills/ranged/cannon-barrel-firing-yellow.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.Fim0r8kwu9pO2qPe]{Weapon Group: Small Arms, Two-Handed}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width:55px\"><span class=\"fontstyle0\">Assault rifle </span></td>\n<td style=\"width:33px\"><span class=\"fontstyle0\">300 </span></td>\n<td style=\"width:83px\"><span class=\"fontstyle0\">1d8 piercing </span></td>\n<td style=\"width:59px\"><span class=\"fontstyle0\">100/400 </span></td>\n<td style=\"width:28px\"><span class=\"fontstyle0\">7 lb. </span></td>\n<td style=\"width:131px\"><span class=\"fontstyle0\">Auto (1d10), reload (50 shots)</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.450g1kbvRQoe1x5P]{Auto 1d10} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.HE1gIc0o7bZeLjFT]{Burst Fire}</p>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 50 shots}</p>\n<p> </p>",
+          "value": "<p><span class=\"fontstyle2\">@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.HU4lNUAme2XmxfAN]{Weapon Group: Small Arms, One-Handed}</span></p>\n<p><span class=\"fontstyle2\">The air-dart gun resembles a standard pistol except it fires a small needle via an air compressor. The needle inflicts no damage but can deliver any number of medical injections. You choose which injection to employ from your inventory before making the attack.</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td><span class=\"fontstyle0\">Air dart pistol </span></td>\n<td><span class=\"fontstyle0\">150 </span></td>\n<td><span class=\"fontstyle0\">Special </span></td>\n<td><span class=\"fontstyle0\">20/100 </span></td>\n<td><span class=\"fontstyle0\">4 lb. </span></td>\n<td><span class=\"fontstyle0\">Light, loading, undermount</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.bY9owuVfWrNWp8NV]{Light} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.z2wFzTqhwoovc1Su]{Loading} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.ndsgjoLFhH09eWJa]{Undermount} </p>\n<hr />\n<h2>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.COmZhW4Lv2ooxdha]{Injections}</h2>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.BQP0JrEgTyjtdfeP]{Injection: Detonator} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.QVECnRPFw6bWeApT]{Injection: Fear}</p>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.XAHL7HYIUyXfqDRe]{Injection: Narcosynthesis} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.TDArmghJNhkA0nri]{Injection: Open Mind}</p>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.VPsyClC1jtgkHZLK]{Injection: Pain} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.4rQuCDklVwdjOiiY]{Injection: Paralysis}</p>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.AYldDF83Rc6PNedU]{Injection: Slow} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.AYldDF83Rc6PNedU]{Injection: Slow}</p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "UM5 p.76",
+        "source": "UM5 p.79",
         "quantity": 1,
-        "weight": 7,
-        "price": 300,
+        "weight": {
+          "value": 4,
+          "units": "lb"
+        },
+        "price": 150,
         "attunement": 0,
         "equipped": true,
-        "rarity": "",
+        "rarity": "common",
         "identified": true,
         "activation": {
           "type": "action",
@@ -2064,20 +1615,20 @@
           "units": ""
         },
         "target": {
-          "value": 0,
+          "value": null,
           "width": null,
           "units": "",
           "type": ""
         },
         "range": {
-          "value": 100,
-          "long": 400,
+          "value": 20,
+          "long": 60,
           "units": "ft"
         },
         "uses": {
-          "value": 50,
-          "max": 50,
-          "per": "charges"
+          "value": null,
+          "max": 0,
+          "per": ""
         },
         "consume": {
           "type": "",
@@ -2095,15 +1646,7 @@
         "damage": {
           "parts": [
             [
-              "1d8 + @mod",
-              "piercing"
-            ],
-            [
-              "1d10 + @mod",
-              "piercing"
-            ],
-            [
-              "1d8",
+              "1",
               "piercing"
             ]
           ],
@@ -2111,9 +1654,9 @@
         },
         "formula": "",
         "save": {
-          "ability": "dex",
-          "dc": 15,
-          "scaling": "flat"
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
         },
         "armor": {
           "value": 10
@@ -2127,31 +1670,33 @@
         "weaponType": "simpleR",
         "baseItem": "",
         "properties": {
+          "fin": true,
+          "thr": true,
           "amm": false,
-          "lgt": false,
           "hvy": false,
-          "fin": false,
           "fir": true,
           "foc": false,
+          "lgt": false,
           "rch": false,
           "rel": true,
           "ret": false,
           "spc": true,
-          "thr": false,
-          "two": true,
+          "two": false,
           "ver": false,
-          "lod": false
+          "lod": true
         },
         "proficient": true
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.g8pIrifMNVqoFYhd"
+    },
+    {
+      "_id": "ushuM4ir34VXEPXO",
+      "name": "Assault Rifle",
+      "type": "weapon",
+      "img": "icons/skills/ranged/cannon-barrel-firing-yellow.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -2264,34 +1809,43 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.ushuM4ir34VXEPXO"
-    },
-    {
-      "_id": "yzGK5CktdTDjMiVV",
-      "name": "Binoculars",
-      "type": "equipment",
-      "img": "icons/skills/targeting/target-strike-gray.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear}</p>\n<p><span class=\"fontstyle0\">Ranging in size from small and concealable to large and clumsy, binoculars bring distant objects into close focus. They are sturdy, waterproof, and survive falls up to 50 feet. If broken, they cannot be repaired.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.Fim0r8kwu9pO2qPe]{Weapon Group: Small Arms, Two-Handed}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width:55px\"><span class=\"fontstyle0\">Assault rifle </span></td>\n<td style=\"width:33px\"><span class=\"fontstyle0\">300 </span></td>\n<td style=\"width:83px\"><span class=\"fontstyle0\">1d8 piercing </span></td>\n<td style=\"width:59px\"><span class=\"fontstyle0\">100/400 </span></td>\n<td style=\"width:28px\"><span class=\"fontstyle0\">7 lb. </span></td>\n<td style=\"width:131px\"><span class=\"fontstyle0\">Auto (1d10), reload (50 shots)</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.450g1kbvRQoe1x5P]{Auto 1d10} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.HE1gIc0o7bZeLjFT]{Burst Fire}</p>\n<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 50 shots}</p>\n<p> </p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "UM5 p.94",
+        "source": "UM5 p.76",
         "quantity": 1,
-        "weight": 0,
-        "price": "50",
+        "weight": {
+          "value": 7,
+          "units": "lb"
+        },
+        "price": 300,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
-          "type": "",
-          "cost": 0,
+          "type": "action",
+          "cost": 1,
           "condition": ""
         },
         "duration": {
-          "value": null,
+          "value": 0,
           "units": ""
         },
         "target": {
@@ -2301,22 +1855,22 @@
           "type": ""
         },
         "range": {
-          "value": null,
-          "long": null,
-          "units": ""
+          "value": 100,
+          "long": 400,
+          "units": "ft"
         },
         "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
+          "value": 50,
+          "max": 50,
+          "per": "charges"
         },
         "consume": {
           "type": "",
-          "target": null,
+          "target": "",
           "amount": null
         },
-        "ability": null,
-        "actionType": "",
+        "ability": "",
+        "actionType": "rwak",
         "attackBonus": 0,
         "chatFlavor": "",
         "critical": {
@@ -2324,19 +1878,30 @@
           "damage": null
         },
         "damage": {
-          "parts": [],
+          "parts": [
+            [
+              "1d8 + @mod",
+              "piercing"
+            ],
+            [
+              "1d10 + @mod",
+              "piercing"
+            ],
+            [
+              "1d8",
+              "piercing"
+            ]
+          ],
           "versatile": ""
         },
         "formula": "",
         "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
+          "ability": "dex",
+          "dc": 15,
+          "scaling": "flat"
         },
         "armor": {
-          "value": 0,
-          "type": "",
-          "dex": null
+          "value": 10
         },
         "hp": {
           "value": 0,
@@ -2344,23 +1909,36 @@
           "dt": null,
           "conditions": ""
         },
+        "weaponType": "simpleR",
         "baseItem": "",
-        "speed": {
-          "value": null,
-          "conditions": ""
+        "properties": {
+          "amm": false,
+          "lgt": false,
+          "hvy": false,
+          "fin": false,
+          "fir": true,
+          "foc": false,
+          "rch": false,
+          "rel": true,
+          "ret": false,
+          "spc": true,
+          "thr": false,
+          "two": true,
+          "ver": false,
+          "lod": false
         },
-        "strength": 0,
-        "stealth": false,
         "proficient": true
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.ushuM4ir34VXEPXO"
+    },
+    {
+      "_id": "yzGK5CktdTDjMiVV",
+      "name": "Binoculars",
+      "type": "equipment",
+      "img": "icons/skills/targeting/target-strike-gray.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -2436,30 +2014,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.yzGK5CktdTDjMiVV"
-    },
-    {
-      "_id": "u9wQH6zDStXqMOI1",
-      "name": "Detonator, Friend/Foe Trigger",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-equipment.ZQyIaZLxh6RhmN2h]{Battry Cell, Basic}</p>\n<p><span class=\"fontstyle0\">This detonator can be programmed to detonate the moment a pecific monster enters its blast radius. It can also be programmed to detonate for everything but specific people. There is no limit on its parameters, but setting the programming requires at least one minute.</span></p>\n<p> </p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear}</p>\n<p><span class=\"fontstyle0\">Ranging in size from small and concealable to large and clumsy, binoculars bring distant objects into close focus. They are sturdy, waterproof, and survive falls up to 50 feet. If broken, they cannot be repaired.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "UM5 p.93",
+        "source": "UM5 p.94",
         "quantity": 1,
-        "weight": 0,
-        "price": 10,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": "50",
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -2478,10 +2065,9 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
-          "per": null,
-          "autoDestroy": false
+          "per": null
         },
         "consume": {
           "type": "",
@@ -2506,16 +2092,36 @@
           "dc": null,
           "scaling": "spell"
         },
-        "consumableType": "potion"
+        "armor": {
+          "value": 0,
+          "type": "",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.yzGK5CktdTDjMiVV"
+    },
+    {
+      "_id": "u9wQH6zDStXqMOI1",
+      "name": "Detonator, Friend/Foe Trigger",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -2595,30 +2201,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.u9wQH6zDStXqMOI1"
-    },
-    {
-      "_id": "vsGRWoDh4zg1xqTW",
-      "name": "Detonator, Impact Trigger",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear}</p>\n<p><span class=\"fontstyle0\">After the safety is pulled, impact triggers detonate upon impact with any rigid surface. This detonator is rarely used except with grenades.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-equipment.ZQyIaZLxh6RhmN2h]{Battry Cell, Basic}</p>\n<p><span class=\"fontstyle0\">This detonator can be programmed to detonate the moment a pecific monster enters its blast radius. It can also be programmed to detonate for everything but specific people. There is no limit on its parameters, but setting the programming requires at least one minute.</span></p>\n<p> </p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "UM5 p.93",
         "quantity": 1,
-        "weight": 0,
-        "price": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 10,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -2637,7 +2252,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -2667,14 +2282,16 @@
         },
         "consumableType": "potion"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.u9wQH6zDStXqMOI1"
+    },
+    {
+      "_id": "vsGRWoDh4zg1xqTW",
+      "name": "Detonator, Impact Trigger",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -2754,30 +2371,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.vsGRWoDh4zg1xqTW"
-    },
-    {
-      "_id": "fDAHjxV6CsqSyuC8",
-      "name": "Detonator, Magnetic Trigger",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-equipment.ZQyIaZLxh6RhmN2h]{Battry Cell, Basic}</p>\n<p><span class=\"fontstyle0\">These unique detonators only function on explosive payloads of 5 lbs. or less. When armed, the detonator detects any sizeable metallic object (such as a vehicle, exo-armor, or suit of plate) passing within 30 feet and is pulled (together with its explosive) towards it, detonating on impact. If there is any form of cover or impedance, the detonator stops but still detonates.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear}</p>\n<p><span class=\"fontstyle0\">After the safety is pulled, impact triggers detonate upon impact with any rigid surface. This detonator is rarely used except with grenades.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "UM5 p.93",
         "quantity": 1,
-        "weight": 0,
-        "price": 15,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 1,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -2796,7 +2422,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -2826,14 +2452,16 @@
         },
         "consumableType": "potion"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.vsGRWoDh4zg1xqTW"
+    },
+    {
+      "_id": "fDAHjxV6CsqSyuC8",
+      "name": "Detonator, Magnetic Trigger",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -2913,22 +2541,31 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.fDAHjxV6CsqSyuC8"
-    },
-    {
-      "_id": "7vZ7CRraEeXSThdX",
-      "name": "Detonator, Motion Trigger",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-equipment.ZQyIaZLxh6RhmN2h]{Battry Cell, Basic}</p>\n<p><span class=\"fontstyle0\">This detonator detects movement in its burst area and detonates regardless of the target.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-equipment.ZQyIaZLxh6RhmN2h]{Battry Cell, Basic}</p>\n<p><span class=\"fontstyle0\">These unique detonators only function on explosive payloads of 5 lbs. or less. When armed, the detonator detects any sizeable metallic object (such as a vehicle, exo-armor, or suit of plate) passing within 30 feet and is pulled (together with its explosive) towards it, detonating on impact. If there is any form of cover or impedance, the detonator stops but still detonates.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "UM5 p.93",
         "quantity": 1,
-        "weight": 0,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
         "price": 15,
         "attunement": 0,
         "equipped": true,
@@ -2936,7 +2573,7 @@
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -2955,7 +2592,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -2985,14 +2622,16 @@
         },
         "consumableType": "potion"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.fDAHjxV6CsqSyuC8"
+    },
+    {
+      "_id": "7vZ7CRraEeXSThdX",
+      "name": "Detonator, Motion Trigger",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -3072,30 +2711,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.7vZ7CRraEeXSThdX"
-    },
-    {
-      "_id": "K0dflmDeXpwpZERp",
-      "name": "Detonator, Pressure Trigger",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear}</p>\n<p><span class=\"fontstyle0\">These trigger the moment a weight is pressed upon the detonator. Large and larger targets automatically trigger pressure detonators upon entering a square containing one. Medium and smaller targets have a 50% chance to avoid the sensor unless the person placing the explosive succeeded on an DC15 Intelligence (Demolitions) check for proper placement. The sensor can be manually adjusted to only detonate for specificsized targets (e.g.: detonation only for Huge targets).</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-equipment.ZQyIaZLxh6RhmN2h]{Battry Cell, Basic}</p>\n<p><span class=\"fontstyle0\">This detonator detects movement in its burst area and detonates regardless of the target.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "UM5 p.93",
         "quantity": 1,
-        "weight": 0,
-        "price": 20,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 15,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -3114,7 +2762,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -3144,14 +2792,16 @@
         },
         "consumableType": "potion"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.7vZ7CRraEeXSThdX"
+    },
+    {
+      "_id": "K0dflmDeXpwpZERp",
+      "name": "Detonator, Pressure Trigger",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -3231,30 +2881,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.K0dflmDeXpwpZERp"
-    },
-    {
-      "_id": "Bgkm6mzrXLwhMBTX",
-      "name": "Detonator, Wired Remote",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-equipment.ZQyIaZLxh6RhmN2h]{Battry Cell, Basic}</p>\n<p><span class=\"fontstyle0\">This simple form runs an electrical pulse that triggers the mechanical, chemical, or electrical detonator. The maximum range of any wired detonator is 2,000 feet.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear}</p>\n<p><span class=\"fontstyle0\">These trigger the moment a weight is pressed upon the detonator. Large and larger targets automatically trigger pressure detonators upon entering a square containing one. Medium and smaller targets have a 50% chance to avoid the sensor unless the person placing the explosive succeeded on an DC15 Intelligence (Demolitions) check for proper placement. The sensor can be manually adjusted to only detonate for specificsized targets (e.g.: detonation only for Huge targets).</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "UM5 p.93",
         "quantity": 1,
-        "weight": 0,
-        "price": 15,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 20,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -3273,7 +2932,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -3303,14 +2962,16 @@
         },
         "consumableType": "potion"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.K0dflmDeXpwpZERp"
+    },
+    {
+      "_id": "Bgkm6mzrXLwhMBTX",
+      "name": "Detonator, Wired Remote",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -3390,30 +3051,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.Bgkm6mzrXLwhMBTX"
-    },
-    {
-      "_id": "2dxLlxFAm3ULH4ao",
-      "name": "Detonator, Trip Trigger",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear}</p>\n<p><span class=\"fontstyle0\">This detonator is a simple mechanical or chemical trigger attached to an explosive with a trip wire: a creature passing through the wire pulls the pin and detonates the device. You can run up to 25 feet of wire but the detonation only occurs in the square where the explosives are placed. Because the wire needs to be raised to be triggered, there is a DC20 Wisdom (Perception) check to spot the wire.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-equipment.ZQyIaZLxh6RhmN2h]{Battry Cell, Basic}</p>\n<p><span class=\"fontstyle0\">This simple form runs an electrical pulse that triggers the mechanical, chemical, or electrical detonator. The maximum range of any wired detonator is 2,000 feet.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "UM5 p.93",
         "quantity": 1,
-        "weight": 0,
-        "price": 5,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 15,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -3432,7 +3102,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -3462,14 +3132,16 @@
         },
         "consumableType": "potion"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.Bgkm6mzrXLwhMBTX"
+    },
+    {
+      "_id": "2dxLlxFAm3ULH4ao",
+      "name": "Detonator, Trip Trigger",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -3549,30 +3221,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.2dxLlxFAm3ULH4ao"
-    },
-    {
-      "_id": "KDBiXwrHjtRfTGLI",
-      "name": "Detonator, Timer",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear}</p>\n<p><span class=\"fontstyle0\">Timers utilize a mechanical clock to countdown compared to a digital timer. Although one may purchase a RDR (red digital readout) for the same price, this makes the detonator a TL2 item. The actual trigger is usually chemical or mechanical.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear}</p>\n<p><span class=\"fontstyle0\">This detonator is a simple mechanical or chemical trigger attached to an explosive with a trip wire: a creature passing through the wire pulls the pin and detonates the device. You can run up to 25 feet of wire but the detonation only occurs in the square where the explosives are placed. Because the wire needs to be raised to be triggered, there is a DC20 Wisdom (Perception) check to spot the wire.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "UM5 p.93",
         "quantity": 1,
-        "weight": 0,
-        "price": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 5,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -3591,7 +3272,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -3621,14 +3302,16 @@
         },
         "consumableType": "potion"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.2dxLlxFAm3ULH4ao"
+    },
+    {
+      "_id": "KDBiXwrHjtRfTGLI",
+      "name": "Detonator, Timer",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -3708,30 +3391,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.KDBiXwrHjtRfTGLI"
-    },
-    {
-      "_id": "SuoTw0fU9CzJ4imI",
-      "name": "Detonator, Radio Remote",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-equipment.ZQyIaZLxh6RhmN2h]{Battry Cell, Basic}</p>\n<p><span class=\"fontstyle0\">The range limit of a radio remote is 5,000 feet. Both the transmitter and receiver require batteries.</span></p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear}</p>\n<p><span class=\"fontstyle0\">Timers utilize a mechanical clock to countdown compared to a digital timer. Although one may purchase a RDR (red digital readout) for the same price, this makes the detonator a TL2 item. The actual trigger is usually chemical or mechanical.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "UM5 p.93",
         "quantity": 1,
-        "weight": 0,
-        "price": 25,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 1,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
           "type": "",
-          "cost": 0,
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -3750,7 +3442,7 @@
           "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": null,
           "autoDestroy": false
@@ -3780,14 +3472,16 @@
         },
         "consumableType": "potion"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.KDBiXwrHjtRfTGLI"
+    },
+    {
+      "_id": "SuoTw0fU9CzJ4imI",
+      "name": "Detonator, Radio Remote",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -3867,30 +3561,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.SuoTw0fU9CzJ4imI"
-    },
-    {
-      "_id": "SKbTwkd3ADIjXq8S",
-      "name": "Grenade: Concussion",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.WklldBUUO3oesibI]{UM5 Ch.6: Granades &amp; Explosives} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.a6bTH9RIOA1gwoza]{Grenade}  @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.C9Q3Yg0CgOm7Ty1N]{(EXP) Concussion} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.oaLjWnlYGoulu7oy]{Tech Level 1}</p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">This light explosive uses air pressure as well as shrapnel to disrupt enemy lines. They are often employed as mines and in air bursts to break up dense collections of personnel.</span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"> Targets with 10 hit points or less that fail the saving <span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">throw are killed.</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td><span class=\"fontstyle0\">Concussion </span></td>\n<td><span class=\"fontstyle0\">1d6 </span></td>\n<td><span class=\"fontstyle0\">Physical </span></td>\n<td><span class=\"fontstyle0\">5 ft. </span></td>\n<td><span class=\"fontstyle0\">½ lb. </span></td>\n<td><span class=\"fontstyle0\">10 </span></td>\n<td><span class=\"fontstyle0\">1 </span></td>\n<td><span class=\"fontstyle0\">No </span></td>\n<td><span class=\"fontstyle0\">Detonator</span></td>\n</tr>\n</tbody>\n</table>\n<h2 style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\">Physical<br style=\"box-sizing:border-box;user-select:text\" /></span></h2>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Grenades and explosives with the physical damage type deal bludgeoning damage unless otherwise stated. Medium or smaller targets that don't save against the Dexterity saving throw are knocked prone by the explosion.</span></p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-equipment.ZQyIaZLxh6RhmN2h]{Battry Cell, Basic}</p>\n<p><span class=\"fontstyle0\">The range limit of a radio remote is 5,000 feet. Both the transmitter and receiver require batteries.</span></p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "UM5 p.83",
+        "source": "UM5 p.93",
         "quantity": 1,
-        "weight": 0.5,
-        "price": 10,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 25,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
-          "type": "action",
-          "cost": 1,
+          "type": "",
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -3898,64 +3601,57 @@
           "units": ""
         },
         "target": {
-          "value": 5,
+          "value": null,
           "width": null,
-          "units": "ft",
-          "type": "radius"
+          "units": "",
+          "type": ""
         },
         "range": {
-          "value": 20,
-          "long": 60,
-          "units": "ft"
+          "value": null,
+          "long": null,
+          "units": ""
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
-          "per": "",
+          "per": null,
           "autoDestroy": false
         },
         "consume": {
           "type": "",
-          "target": "",
+          "target": null,
           "amount": null
         },
-        "ability": "",
-        "actionType": "mwak",
+        "ability": null,
+        "actionType": "",
         "attackBonus": 0,
-        "chatFlavor": "@Compendium[combat-utility-belt.conditionsdnd5e.ekm4TUHKT3QUPdPv]{Prone} if targets fail the Dex saving throw. @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.C9Q3Yg0CgOm7Ty1N]{(EXP) Concussion}: Targets =<10 HP that fail the saving are killed.",
+        "chatFlavor": "",
         "critical": {
           "threshold": null,
           "damage": null
         },
         "damage": {
-          "parts": [
-            [
-              "1 + 1 + @mod",
-              ""
-            ],
-            [
-              "1d6",
-              ""
-            ]
-          ],
+          "parts": [],
           "versatile": ""
         },
         "formula": "",
         "save": {
-          "ability": "dex",
+          "ability": "",
           "dc": null,
-          "scaling": "dex"
+          "scaling": "spell"
         },
-        "consumableType": "ammo"
+        "consumableType": "potion"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.SuoTw0fU9CzJ4imI"
+    },
+    {
+      "_id": "SKbTwkd3ADIjXq8S",
+      "name": "Grenade: Concussion",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -4056,23 +3752,32 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.SKbTwkd3ADIjXq8S"
-    },
-    {
-      "_id": "orqqQMk0MJ1LhHrt",
-      "name": "Grenade:  Frag (Fragmentation)",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/explosion-royal-2.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.WklldBUUO3oesibI]{UM5 Ch.6: Granades &amp; Explosives} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.a6bTH9RIOA1gwoza]{Grenade}  @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.xTJEQZpGy8acbzHz]{(EXP) Frag (Fragmentation)} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.oaLjWnlYGoulu7oy]{Tech Level 1}</p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Frags are designed purely as an antipersonnel explosive by discharging dozens of plastic or steel flechettes blowing out along with fragments of the explosive's own shell. This deadly shrapnel shreds anything it touches (dealing bludgeoning, piercing, AND slashing damage).</span>   </p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td><span class=\"fontstyle0\">Fragmentation </span></td>\n<td><span class=\"fontstyle0\">1d8 </span></td>\n<td><span class=\"fontstyle0\">Physical </span></td>\n<td><span class=\"fontstyle0\">10 ft. </span></td>\n<td><span class=\"fontstyle0\">½ lb. </span></td>\n<td><span class=\"fontstyle0\">25 </span></td>\n<td><span class=\"fontstyle0\">1 </span></td>\n<td><span class=\"fontstyle0\">No </span></td>\n<td><span class=\"fontstyle0\">Detonator</span></td>\n</tr>\n</tbody>\n</table>\n<h2 style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\">Physical<br style=\"box-sizing:border-box;user-select:text\" /></span></h2>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Grenades and explosives with the physical damage type deal bludgeoning damage unless otherwise stated. Medium or smaller targets that don't save against the Dexterity saving throw are knocked prone by the explosion.</span></p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.WklldBUUO3oesibI]{UM5 Ch.6: Granades &amp; Explosives} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.a6bTH9RIOA1gwoza]{Grenade}  @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.C9Q3Yg0CgOm7Ty1N]{(EXP) Concussion} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.oaLjWnlYGoulu7oy]{Tech Level 1}</p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">This light explosive uses air pressure as well as shrapnel to disrupt enemy lines. They are often employed as mines and in air bursts to break up dense collections of personnel.</span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"> Targets with 10 hit points or less that fail the saving <span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">throw are killed.</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td><span class=\"fontstyle0\">Concussion </span></td>\n<td><span class=\"fontstyle0\">1d6 </span></td>\n<td><span class=\"fontstyle0\">Physical </span></td>\n<td><span class=\"fontstyle0\">5 ft. </span></td>\n<td><span class=\"fontstyle0\">½ lb. </span></td>\n<td><span class=\"fontstyle0\">10 </span></td>\n<td><span class=\"fontstyle0\">1 </span></td>\n<td><span class=\"fontstyle0\">No </span></td>\n<td><span class=\"fontstyle0\">Detonator</span></td>\n</tr>\n</tbody>\n</table>\n<h2 style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\">Physical<br style=\"box-sizing:border-box;user-select:text\" /></span></h2>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Grenades and explosives with the physical damage type deal bludgeoning damage unless otherwise stated. Medium or smaller targets that don't save against the Dexterity saving throw are knocked prone by the explosion.</span></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "UM5 p.83",
         "quantity": 1,
-        "weight": 0.5,
-        "price": 25,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
+        "price": 10,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
@@ -4087,7 +3792,7 @@
           "units": ""
         },
         "target": {
-          "value": 10,
+          "value": 5,
           "width": null,
           "units": "ft",
           "type": "radius"
@@ -4098,7 +3803,7 @@
           "units": "ft"
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": "",
           "autoDestroy": false
@@ -4111,7 +3816,7 @@
         "ability": "",
         "actionType": "mwak",
         "attackBonus": 0,
-        "chatFlavor": "@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.xTJEQZpGy8acbzHz]{Frag} deadly shrapnel shreds anything it touches (dealing bludgeoning, piercing, AND slashing damage).",
+        "chatFlavor": "@Compendium[combat-utility-belt.conditionsdnd5e.ekm4TUHKT3QUPdPv]{Prone} if targets fail the Dex saving throw. @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.C9Q3Yg0CgOm7Ty1N]{(EXP) Concussion}: Targets =<10 HP that fail the saving are killed.",
         "critical": {
           "threshold": null,
           "damage": null
@@ -4120,11 +3825,11 @@
           "parts": [
             [
               "1 + 1 + @mod",
-              "bludgeoning"
+              ""
             ],
             [
-              "1d8",
-              "piercing"
+              "1d6",
+              ""
             ]
           ],
           "versatile": ""
@@ -4137,14 +3842,16 @@
         },
         "consumableType": "ammo"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.SKbTwkd3ADIjXq8S"
+    },
+    {
+      "_id": "orqqQMk0MJ1LhHrt",
+      "name": "Grenade:  Frag (Fragmentation)",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/explosion-royal-2.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -4245,22 +3952,31 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.orqqQMk0MJ1LhHrt"
-    },
-    {
-      "_id": "c1IklbBIWrA3LusS",
-      "name": "Grenade:  Flashbang",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/explosion-sky-3.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.WklldBUUO3oesibI]{UM5 Ch.6: Granades &amp; Explosives} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.a6bTH9RIOA1gwoza]{Grenade}  @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.zgyP1fMQAonWXbqW]{(EXP) Flashbang} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.oaLjWnlYGoulu7oy]{Tech Level 1}</p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Also simply referred to as a stun grenade, a flash bang reduces the combat effectiveness of opponents by confusing and disorientating them with a sudden blinding magnesium flash and a deafening blast. The grenade body doesn't actually fragment so no shrapnel is dispersed.<br style=\"box-sizing:border-box;user-select:text\" /></span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Targets that fail the save are blinded and deafened until the end of your next turn.</span>  </p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td><span class=\"fontstyle0\">Flashbang </span></td>\n<td><span class=\"fontstyle0\">Special </span></td>\n<td><span class=\"fontstyle0\">Special </span></td>\n<td><span class=\"fontstyle0\">10 ft. </span></td>\n<td><span class=\"fontstyle0\">½ lb. </span></td>\n<td><span class=\"fontstyle0\">25 </span></td>\n<td><span class=\"fontstyle0\">1 </span></td>\n<td><span class=\"fontstyle0\">No </span></td>\n<td><span class=\"fontstyle0\">Detonator</span></td>\n</tr>\n</tbody>\n</table>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"> </p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.WklldBUUO3oesibI]{UM5 Ch.6: Granades &amp; Explosives} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.a6bTH9RIOA1gwoza]{Grenade}  @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.xTJEQZpGy8acbzHz]{(EXP) Frag (Fragmentation)} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.oaLjWnlYGoulu7oy]{Tech Level 1}</p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Frags are designed purely as an antipersonnel explosive by discharging dozens of plastic or steel flechettes blowing out along with fragments of the explosive's own shell. This deadly shrapnel shreds anything it touches (dealing bludgeoning, piercing, AND slashing damage).</span>   </p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td><span class=\"fontstyle0\">Fragmentation </span></td>\n<td><span class=\"fontstyle0\">1d8 </span></td>\n<td><span class=\"fontstyle0\">Physical </span></td>\n<td><span class=\"fontstyle0\">10 ft. </span></td>\n<td><span class=\"fontstyle0\">½ lb. </span></td>\n<td><span class=\"fontstyle0\">25 </span></td>\n<td><span class=\"fontstyle0\">1 </span></td>\n<td><span class=\"fontstyle0\">No </span></td>\n<td><span class=\"fontstyle0\">Detonator</span></td>\n</tr>\n</tbody>\n</table>\n<h2 style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle2\" style=\"box-sizing:border-box;user-select:text\">Physical<br style=\"box-sizing:border-box;user-select:text\" /></span></h2>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Grenades and explosives with the physical damage type deal bludgeoning damage unless otherwise stated. Medium or smaller targets that don't save against the Dexterity saving throw are knocked prone by the explosion.</span></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "UM5 p.83",
         "quantity": 1,
-        "weight": 0.5,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
         "price": 25,
         "attunement": 0,
         "equipped": true,
@@ -4287,7 +4003,7 @@
           "units": "ft"
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": "",
           "autoDestroy": false
@@ -4300,7 +4016,7 @@
         "ability": "",
         "actionType": "mwak",
         "attackBonus": 0,
-        "chatFlavor": "@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.zgyP1fMQAonWXbqW]{Flashbang} Dex save or blinded and deafened until the end of your next turn.  ",
+        "chatFlavor": "@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.xTJEQZpGy8acbzHz]{Frag} deadly shrapnel shreds anything it touches (dealing bludgeoning, piercing, AND slashing damage).",
         "critical": {
           "threshold": null,
           "damage": null
@@ -4310,6 +4026,10 @@
             [
               "1 + 1 + @mod",
               "bludgeoning"
+            ],
+            [
+              "1d8",
+              "piercing"
             ]
           ],
           "versatile": ""
@@ -4322,14 +4042,16 @@
         },
         "consumableType": "ammo"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.orqqQMk0MJ1LhHrt"
+    },
+    {
+      "_id": "c1IklbBIWrA3LusS",
+      "name": "Grenade:  Flashbang",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/explosion-sky-3.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -4423,23 +4145,32 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.c1IklbBIWrA3LusS"
-    },
-    {
-      "_id": "lOTU1rF1naFfiNwh",
-      "name": "Grenade: EMP",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/explosion-sky-1.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.WklldBUUO3oesibI]{UM5 Ch.6: Granades &amp; Explosives} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.a6bTH9RIOA1gwoza]{Grenade}  @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.5p3UjT3tUP0z1oCf]{(EXP) EMP} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.wbgddINY6cseqVgE]{Tech Level 3}</p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">EMPs don't inflict any damage, but instead discharge an electromagnetic burst that disrupts electronics.</span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">When detonated, all technology that employs a cell suffers stop functioning for [[1d4]] minutes. Vehicles suffer disadvantage on Dexterity checks for [[1d4]] minutes.</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td><span class=\"fontstyle0\">EMP </span></td>\n<td><span class=\"fontstyle0\">None </span></td>\n<td><span class=\"fontstyle0\">None </span></td>\n<td><span class=\"fontstyle0\">15 ft. </span></td>\n<td><span class=\"fontstyle0\">½ lb. </span></td>\n<td><span class=\"fontstyle0\">100 </span></td>\n<td><span class=\"fontstyle0\">3 </span></td>\n<td><span class=\"fontstyle0\">No </span></td>\n<td><span class=\"fontstyle0\">Detonator</span></td>\n</tr>\n</tbody>\n</table>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"> </p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.WklldBUUO3oesibI]{UM5 Ch.6: Granades &amp; Explosives} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.a6bTH9RIOA1gwoza]{Grenade}  @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.zgyP1fMQAonWXbqW]{(EXP) Flashbang} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.oaLjWnlYGoulu7oy]{Tech Level 1}</p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Also simply referred to as a stun grenade, a flash bang reduces the combat effectiveness of opponents by confusing and disorientating them with a sudden blinding magnesium flash and a deafening blast. The grenade body doesn't actually fragment so no shrapnel is dispersed.<br style=\"box-sizing:border-box;user-select:text\" /></span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Targets that fail the save are blinded and deafened until the end of your next turn.</span>  </p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td><span class=\"fontstyle0\">Flashbang </span></td>\n<td><span class=\"fontstyle0\">Special </span></td>\n<td><span class=\"fontstyle0\">Special </span></td>\n<td><span class=\"fontstyle0\">10 ft. </span></td>\n<td><span class=\"fontstyle0\">½ lb. </span></td>\n<td><span class=\"fontstyle0\">25 </span></td>\n<td><span class=\"fontstyle0\">1 </span></td>\n<td><span class=\"fontstyle0\">No </span></td>\n<td><span class=\"fontstyle0\">Detonator</span></td>\n</tr>\n</tbody>\n</table>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"> </p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "UM5 p.83",
         "quantity": 1,
-        "weight": 0.5,
-        "price": 100,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
+        "price": 25,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
@@ -4454,7 +4185,7 @@
           "units": ""
         },
         "target": {
-          "value": 15,
+          "value": 10,
           "width": null,
           "units": "ft",
           "type": "radius"
@@ -4465,7 +4196,7 @@
           "units": "ft"
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": "",
           "autoDestroy": false
@@ -4478,7 +4209,7 @@
         "ability": "",
         "actionType": "mwak",
         "attackBonus": 0,
-        "chatFlavor": "@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.5p3UjT3tUP0z1oCf]{EMP} All technology with 15-ft radius stops functioning for [[1d4]] minutes. Vehicles suffer disadvantage on Dexterity checks for [[1d4]] minutes.",
+        "chatFlavor": "@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.zgyP1fMQAonWXbqW]{Flashbang} Dex save or blinded and deafened until the end of your next turn.  ",
         "critical": {
           "threshold": null,
           "damage": null
@@ -4487,7 +4218,7 @@
           "parts": [
             [
               "1 + 1 + @mod",
-              ""
+              "bludgeoning"
             ]
           ],
           "versatile": ""
@@ -4500,14 +4231,16 @@
         },
         "consumableType": "ammo"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.c1IklbBIWrA3LusS"
+    },
+    {
+      "_id": "lOTU1rF1naFfiNwh",
+      "name": "Grenade: EMP",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/explosion-sky-1.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -4602,23 +4335,32 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.lOTU1rF1naFfiNwh"
-    },
-    {
-      "_id": "ICXUcYhDhOZt2Qcz",
-      "name": "Grenade: HEAT",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.WklldBUUO3oesibI]{UM5 Ch.6: Granades &amp; Explosives} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.a6bTH9RIOA1gwoza]{Grenade}  @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.6mwuvYMwCZg5yRvC]{(EXP) H.E.A.T.} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{AP} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.oaLjWnlYGoulu7oy]{Tech Level 1}</p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Or high-explosive anti-tank, HEAT is able to generate extreme temperature in a focused burst, compromising virtually any defense. When focused into a shaped charge, a HEAT weapon is the greatest threat to armored opponents.<br style=\"box-sizing:border-box;user-select:text\" /></span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">HEAT explosives have the AP property, and also count as fire and radiant against targets resistant to those types.</span>  </p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td><span class=\"fontstyle0\">HEAT </span></td>\n<td><span class=\"fontstyle0\">2d6 </span></td>\n<td><span class=\"fontstyle0\">Physical </span></td>\n<td><span class=\"fontstyle0\">5 ft. </span></td>\n<td><span class=\"fontstyle0\">½ lb. </span></td>\n<td><span class=\"fontstyle0\">45 </span></td>\n<td><span class=\"fontstyle0\">1 </span></td>\n<td><span class=\"fontstyle0\">No </span></td>\n<td><span class=\"fontstyle0\">Detonator</span></td>\n</tr>\n</tbody>\n</table>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span style=\"font-size:1.5em\">Physical</span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Grenades and explosives with the physical damage type deal bludgeoning damage unless otherwise stated. Medium or smaller targets that don't save against the Dexterity saving throw are knocked prone by the explosion.</span></p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.WklldBUUO3oesibI]{UM5 Ch.6: Granades &amp; Explosives} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.a6bTH9RIOA1gwoza]{Grenade}  @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.5p3UjT3tUP0z1oCf]{(EXP) EMP} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.wbgddINY6cseqVgE]{Tech Level 3}</p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">EMPs don't inflict any damage, but instead discharge an electromagnetic burst that disrupts electronics.</span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">When detonated, all technology that employs a cell suffers stop functioning for [[1d4]] minutes. Vehicles suffer disadvantage on Dexterity checks for [[1d4]] minutes.</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td><span class=\"fontstyle0\">EMP </span></td>\n<td><span class=\"fontstyle0\">None </span></td>\n<td><span class=\"fontstyle0\">None </span></td>\n<td><span class=\"fontstyle0\">15 ft. </span></td>\n<td><span class=\"fontstyle0\">½ lb. </span></td>\n<td><span class=\"fontstyle0\">100 </span></td>\n<td><span class=\"fontstyle0\">3 </span></td>\n<td><span class=\"fontstyle0\">No </span></td>\n<td><span class=\"fontstyle0\">Detonator</span></td>\n</tr>\n</tbody>\n</table>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"> </p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "UM5 p.83",
         "quantity": 1,
-        "weight": 0.5,
-        "price": 45,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
+        "price": 100,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
@@ -4633,7 +4375,7 @@
           "units": ""
         },
         "target": {
-          "value": 5,
+          "value": 15,
           "width": null,
           "units": "ft",
           "type": "radius"
@@ -4644,7 +4386,7 @@
           "units": "ft"
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
           "per": "",
           "autoDestroy": false
@@ -4657,7 +4399,7 @@
         "ability": "",
         "actionType": "mwak",
         "attackBonus": 0,
-        "chatFlavor": "@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.6mwuvYMwCZg5yRvC]{H.E.A.T.} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{AP}",
+        "chatFlavor": "@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.5p3UjT3tUP0z1oCf]{EMP} All technology with 15-ft radius stops functioning for [[1d4]] minutes. Vehicles suffer disadvantage on Dexterity checks for [[1d4]] minutes.",
         "critical": {
           "threshold": null,
           "damage": null
@@ -4666,11 +4408,7 @@
           "parts": [
             [
               "1 + 1 + @mod",
-              "bludgeoning"
-            ],
-            [
-              "2d6",
-              "radiant"
+              ""
             ]
           ],
           "versatile": ""
@@ -4683,14 +4421,16 @@
         },
         "consumableType": "ammo"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.lOTU1rF1naFfiNwh"
+    },
+    {
+      "_id": "ICXUcYhDhOZt2Qcz",
+      "name": "Grenade: HEAT",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/explosion-orange-1.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -4791,30 +4531,39 @@
           }
         }
       },
-      "_key": "!actors.items!6o0fiCTxJKenCqdN.ICXUcYhDhOZt2Qcz"
-    },
-    {
-      "_id": "V9bVQUSnMRodnXMt",
-      "name": "Lie Detector",
-      "type": "equipment",
-      "img": "systems/dnd5e/icons/spells/wind-grasp-eerie-2.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.oW9iuEoxWvtPKvDo]{UM5 Ch.6: Tech Level 0-5}</p>\n<p>No paper, needles, or wire; this device is a simple palmshaped item that is placed gently on the subject’s body. You have advantage on Wisdom (Insight) checks on the target. Each attempt uses a charge.</p>",
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.WklldBUUO3oesibI]{UM5 Ch.6: Granades &amp; Explosives} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.a6bTH9RIOA1gwoza]{Grenade}  @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.tyqnHVNxWuUF1jDk]{EXP (Explosives)} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.6mwuvYMwCZg5yRvC]{(EXP) H.E.A.T.} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{AP} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.oaLjWnlYGoulu7oy]{Tech Level 1}</p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Or high-explosive anti-tank, HEAT is able to generate extreme temperature in a focused burst, compromising virtually any defense. When focused into a shaped charge, a HEAT weapon is the greatest threat to armored opponents.<br style=\"box-sizing:border-box;user-select:text\" /></span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">HEAT explosives have the AP property, and also count as fire and radiant against targets resistant to those types.</span>  </p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td><span class=\"fontstyle0\">HEAT </span></td>\n<td><span class=\"fontstyle0\">2d6 </span></td>\n<td><span class=\"fontstyle0\">Physical </span></td>\n<td><span class=\"fontstyle0\">5 ft. </span></td>\n<td><span class=\"fontstyle0\">½ lb. </span></td>\n<td><span class=\"fontstyle0\">45 </span></td>\n<td><span class=\"fontstyle0\">1 </span></td>\n<td><span class=\"fontstyle0\">No </span></td>\n<td><span class=\"fontstyle0\">Detonator</span></td>\n</tr>\n</tbody>\n</table>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span style=\"font-size:1.5em\">Physical</span></p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813\"><span class=\"fontstyle0\" style=\"box-sizing:border-box;user-select:text\">Grenades and explosives with the physical damage type deal bludgeoning damage unless otherwise stated. Medium or smaller targets that don't save against the Dexterity saving throw are knocked prone by the explosion.</span></p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "UM5 p.95",
+        "source": "UM5 p.83",
         "quantity": 1,
-        "weight": 0,
-        "price": "500",
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
+        "price": 45,
         "attunement": 0,
         "equipped": true,
         "rarity": "",
         "identified": true,
         "activation": {
-          "type": "",
-          "cost": 0,
+          "type": "action",
+          "cost": 1,
           "condition": ""
         },
         "duration": {
@@ -4822,72 +4571,66 @@
           "units": ""
         },
         "target": {
-          "value": null,
+          "value": 5,
           "width": null,
-          "units": "",
-          "type": ""
+          "units": "ft",
+          "type": "radius"
         },
         "range": {
-          "value": null,
-          "long": null,
-          "units": ""
+          "value": 20,
+          "long": 60,
+          "units": "ft"
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": 0,
-          "per": null
+          "per": "",
+          "autoDestroy": false
         },
         "consume": {
           "type": "",
-          "target": null,
+          "target": "",
           "amount": null
         },
-        "ability": null,
-        "actionType": "",
+        "ability": "",
+        "actionType": "mwak",
         "attackBonus": 0,
-        "chatFlavor": "",
+        "chatFlavor": "@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.6mwuvYMwCZg5yRvC]{H.E.A.T.} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-weaponproperties.iK2nOll8s5dIVgVp]{AP}",
         "critical": {
           "threshold": null,
           "damage": null
         },
         "damage": {
-          "parts": [],
+          "parts": [
+            [
+              "1 + 1 + @mod",
+              "bludgeoning"
+            ],
+            [
+              "2d6",
+              "radiant"
+            ]
+          ],
           "versatile": ""
         },
         "formula": "",
         "save": {
-          "ability": "",
+          "ability": "dex",
           "dc": null,
-          "scaling": "spell"
+          "scaling": "dex"
         },
-        "armor": {
-          "value": 0,
-          "type": "trinket",
-          "dex": null
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "baseItem": "",
-        "speed": {
-          "value": null,
-          "conditions": ""
-        },
-        "strength": 0,
-        "stealth": false,
-        "proficient": true
+        "consumableType": "ammo"
       },
+      "_key": "!actors.items!6o0fiCTxJKenCqdN.ICXUcYhDhOZt2Qcz"
+    },
+    {
+      "_id": "V9bVQUSnMRodnXMt",
+      "name": "Lie Detector",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/spells/wind-grasp-eerie-2.jpg",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "qtb8j5Fh7Hu0wRrz": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -4963,6 +4706,104 @@
           }
         }
       },
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<p>@Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.R1ew21i3luHJHfV5]{UM5 Ch.6: Gear} @Compendium[foundryvtt-compendiums-mix-dnd5e.um5-rules.oW9iuEoxWvtPKvDo]{UM5 Ch.6: Tech Level 0-5}</p>\n<p>No paper, needles, or wire; this device is a simple palmshaped item that is placed gently on the subject's body. You have advantage on Wisdom (Insight) checks on the target. Each attempt uses a charge.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "UM5 p.95",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": "500",
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 0,
+          "type": "trinket",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true
+      },
       "_key": "!actors.items!6o0fiCTxJKenCqdN.V9bVQUSnMRodnXMt"
     },
     {
@@ -4970,45 +4811,9 @@
       "name": "Weapon Shop",
       "type": "backpack",
       "img": "icons/environment/settlement/stone-gatehouse-tan.webp",
-      "data": {
-        "description": {
-          "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "quantity": 1,
-        "weight": 0,
-        "price": 16660,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": true,
-        "capacity": {
-          "type": "weight",
-          "value": 0,
-          "weightless": true
-        },
-        "currency": {
-          "cp": 0,
-          "sp": 0,
-          "ep": 0,
-          "gp": 0,
-          "pp": 0
-        },
-        "critical": {
-          "threshold": null,
-          "damage": null
-        }
-      },
       "effects": [],
       "folder": "zNFDRqubKi7EfuXl",
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "g4WGw0lAZ3nIhapn": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "core": {
           "sheetClass": "dnd5e.ItemSheetShop",
@@ -7310,16 +7115,59 @@
           "labels": {}
         }
       },
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 16660,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "capacity": {
+          "type": "weight",
+          "value": null,
+          "weightless": true
+        },
+        "currency": {
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "critical": {
+          "threshold": null,
+          "damage": null
+        }
+      },
       "_key": "!actors.items!6o0fiCTxJKenCqdN.RWVPCVlBugYodGFX"
     }
   ],
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
   "flags": {
     "core": {
       "sheetClass": "dnd5e.LootSheet5eNPC"
@@ -7827,5 +7675,505 @@
     }
   },
   "_id": "6o0fiCTxJKenCqdN",
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": null,
+        "calc": "default",
+        "formula": ""
+      },
+      "hp": {
+        "value": 10,
+        "min": 0,
+        "max": 10,
+        "temp": null,
+        "tempmax": null,
+        "formula": ""
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "",
+      "race": "",
+      "type": {
+        "value": "",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 1,
+      "spellLevel": 0,
+      "xp": {
+        "value": 10
+      },
+      "source": "",
+      "gender": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": {
+        "value": null
+      },
+      "gp": {
+        "value": null
+      },
+      "ep": {
+        "value": null
+      },
+      "sp": {
+        "value": null
+      },
+      "cp": {
+        "value": null
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    },
+    "flags": {
+      "lootsheetnpc5e": {
+        "lootsheettype": "Merchant",
+        "rolltable": "",
+        "shopQty": "",
+        "itemQty": "",
+        "itemQtyLimit": "",
+        "clearInventory": false
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "MerchantWeapon01",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {},
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "alpha": 0.25,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "https://i.imgur.com/dYp7MIK.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
   "_key": "!actors!6o0fiCTxJKenCqdN"
 }

@@ -2,486 +2,15 @@
   "name": "MerchantPotion01",
   "type": "npc",
   "img": "https://i.imgur.com/QDzqmEx.png",
-  "data": {
-    "abilities": {
-      "str": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "dex": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "con": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "int": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "wis": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      },
-      "cha": {
-        "value": 10,
-        "proficient": 0,
-        "bonuses": {
-          "check": "",
-          "save": ""
-        }
-      }
-    },
-    "attributes": {
-      "ac": {
-        "flat": null,
-        "calc": "default",
-        "formula": ""
-      },
-      "hp": {
-        "value": 10,
-        "min": 0,
-        "max": 10,
-        "temp": null,
-        "tempmax": null,
-        "formula": ""
-      },
-      "init": {
-        "value": 0,
-        "bonus": 0
-      },
-      "movement": {
-        "burrow": 0,
-        "climb": 0,
-        "fly": 0,
-        "swim": 0,
-        "walk": 30,
-        "units": "ft",
-        "hover": false
-      },
-      "senses": {
-        "darkvision": 0,
-        "blindsight": 0,
-        "tremorsense": 0,
-        "truesight": 0,
-        "units": "ft",
-        "special": ""
-      },
-      "spellcasting": "int"
-    },
-    "details": {
-      "biography": {
-        "value": "",
-        "public": ""
-      },
-      "alignment": "",
-      "race": "",
-      "type": {
-        "value": "",
-        "subtype": "",
-        "swarm": "",
-        "custom": ""
-      },
-      "environment": "",
-      "cr": 1,
-      "spellLevel": 0,
-      "xp": {
-        "value": 10
-      },
-      "source": "",
-      "gender": "",
-      "age": "",
-      "height": "",
-      "weight": "",
-      "eyes": "",
-      "skin": "",
-      "hair": "",
-      "notes1name": "",
-      "notes2name": "",
-      "notes3name": "",
-      "notes4name": ""
-    },
-    "traits": {
-      "size": "med",
-      "di": {
-        "value": [],
-        "custom": ""
-      },
-      "dr": {
-        "value": [],
-        "custom": ""
-      },
-      "dv": {
-        "value": [],
-        "custom": ""
-      },
-      "ci": {
-        "value": [],
-        "custom": ""
-      },
-      "languages": {
-        "value": [],
-        "custom": ""
-      }
-    },
-    "currency": {
-      "pp": {
-        "value": null
-      },
-      "gp": {
-        "value": null
-      },
-      "ep": {
-        "value": null
-      },
-      "sp": {
-        "value": null
-      },
-      "cp": {
-        "value": null
-      }
-    },
-    "skills": {
-      "acr": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ani": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "arc": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ath": {
-        "value": 0,
-        "ability": "str",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "dec": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "his": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ins": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "itm": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "inv": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "med": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "nat": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "prc": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "prf": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "per": {
-        "value": 0,
-        "ability": "cha",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "rel": {
-        "value": 0,
-        "ability": "int",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "slt": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "ste": {
-        "value": 0,
-        "ability": "dex",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      },
-      "sur": {
-        "value": 0,
-        "ability": "wis",
-        "bonuses": {
-          "check": "",
-          "passive": ""
-        }
-      }
-    },
-    "spells": {
-      "spell1": {
-        "value": 0,
-        "override": null
-      },
-      "spell2": {
-        "value": 0,
-        "override": null
-      },
-      "spell3": {
-        "value": 0,
-        "override": null
-      },
-      "spell4": {
-        "value": 0,
-        "override": null
-      },
-      "spell5": {
-        "value": 0,
-        "override": null
-      },
-      "spell6": {
-        "value": 0,
-        "override": null
-      },
-      "spell7": {
-        "value": 0,
-        "override": null
-      },
-      "spell8": {
-        "value": 0,
-        "override": null
-      },
-      "spell9": {
-        "value": 0,
-        "override": null
-      },
-      "pact": {
-        "value": 0,
-        "override": null
-      }
-    },
-    "bonuses": {
-      "mwak": {
-        "attack": "",
-        "damage": ""
-      },
-      "rwak": {
-        "attack": "",
-        "damage": ""
-      },
-      "msak": {
-        "attack": "",
-        "damage": ""
-      },
-      "rsak": {
-        "attack": "",
-        "damage": ""
-      },
-      "abilities": {
-        "check": "",
-        "save": "",
-        "skill": ""
-      },
-      "spell": {
-        "dc": ""
-      }
-    },
-    "resources": {
-      "legact": {
-        "value": 0,
-        "max": 0
-      },
-      "legres": {
-        "value": 0,
-        "max": 0
-      },
-      "lair": {
-        "value": false,
-        "initiative": 0
-      }
-    },
-    "flags": {
-      "lootsheetnpc5e": {
-        "lootsheettype": "Merchant",
-        "rolltable": "",
-        "shopQty": "",
-        "itemQty": "",
-        "itemQtyLimit": "",
-        "clearInventory": false
-      }
-    }
-  },
-  "token": {
-    "name": "MerchantPotion01",
-    "img": "https://i.imgur.com/QDzqmEx.png",
-    "displayName": 0,
-    "actorLink": false,
-    "width": 1,
-    "height": 1,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "vision": false,
-    "dimSight": 0,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightAlpha": 0.25,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "disposition": -1,
-    "displayBars": 0,
-    "bar1": {
-      "attribute": "attributes.hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "flags": {},
-    "randomImg": false
-  },
   "items": [
     {
       "_id": "sNLAYaDQxvGf1916",
       "name": "Potion Shop",
       "type": "backpack",
       "img": "icons/environment/settlement/market-stall.webp",
-      "data": {
-        "description": {
-          "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "quantity": 1,
-        "weight": 0,
-        "price": 16660,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "",
-        "identified": true,
-        "capacity": {
-          "type": "weight",
-          "value": 0,
-          "weightless": true
-        },
-        "currency": {
-          "cp": 0,
-          "sp": 0,
-          "ep": 0,
-          "gp": 0,
-          "pp": 0
-        },
-        "critical": {
-          "threshold": null,
-          "damage": null
-        }
-      },
       "effects": [],
       "folder": "zNFDRqubKi7EfuXl",
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "g4WGw0lAZ3nIhapn": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "core": {
           "sheetClass": "dnd5e.ItemSheetShop",
@@ -2783,6 +2312,53 @@
           "labels": {}
         }
       },
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 16660,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "capacity": {
+          "type": "weight",
+          "value": null,
+          "weightless": true
+        },
+        "currency": {
+          "cp": 0,
+          "sp": 0,
+          "ep": 0,
+          "gp": 0,
+          "pp": 0
+        },
+        "critical": {
+          "threshold": null,
+          "damage": null
+        }
+      },
       "_key": "!actors.items!PBrFknfH3vZfZBo4.sNLAYaDQxvGf1916"
     },
     {
@@ -2790,107 +2366,9 @@
       "name": "Potion of Healing",
       "type": "consumable",
       "img": "icons/consumables/potions/potion-tube-corked-red.webp",
-      "data": {
-        "description": {
-          "value": "<p><em>The potion's red liquid glimmers when agitated.</em></p>\n<p>You regain 2d4+2 hit points when you drink this potion.</p>\n<p> </p>\n<p> </p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "DMG pg. 187",
-        "quantity": 19,
-        "weight": 0.1,
-        "price": 50,
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "common",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": 0,
-          "units": ""
-        },
-        "target": {
-          "value": 1,
-          "width": null,
-          "units": "",
-          "type": "creature"
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "touch"
-        },
-        "uses": {
-          "value": "1",
-          "max": "1",
-          "per": "charges",
-          "autoDestroy": true,
-          "autoUse": true
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null,
-          "value": "",
-          "_deprecated": true
-        },
-        "ability": "",
-        "actionType": "heal",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [
-            [
-              "2d4 + 2",
-              "healing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "consumableType": "potion",
-        "attributes": {
-          "spelldc": 10
-        },
-        "consumes": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "charges": {
-          "value": 1,
-          "max": 1,
-          "_deprecated": true
-        },
-        "autoUse": {
-          "value": true,
-          "_deprecated": true
-        },
-        "autoDestroy": {
-          "value": true,
-          "_deprecated": true
-        }
-      },
       "effects": [],
       "folder": null,
       "sort": 200001,
-      "permission": {
-        "default": 0,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "core": {
           "sourceId": "Compendium.dnd5e.items.ytlsBjYsZ7OBSEBs"
@@ -3004,26 +2482,35 @@
           }
         }
       },
-      "_key": "!actors.items!PBrFknfH3vZfZBo4.nwAnPwDzl8PBJwx5"
-    },
-    {
-      "_id": "oneZfrgQye9fpYxw",
-      "name": "Potion of Invisibility",
-      "type": "consumable",
-      "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p><em>This potion’s container looks empty but feels as though it holds liquid. </em></p>\n<p>When you drink it, you become invisible for 1 hour. Anything you wear or carry is invisible with you. The effect ends early if you attack or cast a spell.</p>\n<p> </p>",
+          "value": "<p><em>The potion's red liquid glimmers when agitated.</em></p>\n<p>You regain 2d4+2 hit points when you drink this potion.</p>\n<p> </p>\n<p> </p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "DMG pg. 188",
-        "quantity": 5,
-        "weight": 0.1,
-        "price": 180,
+        "source": "DMG pg. 187",
+        "quantity": 19,
+        "weight": {
+          "value": 0.1,
+          "units": "lb"
+        },
+        "price": 50,
         "attunement": 0,
         "equipped": true,
-        "rarity": "veryRare",
+        "rarity": "common",
         "identified": true,
         "activation": {
           "type": "action",
@@ -3031,8 +2518,8 @@
           "condition": ""
         },
         "duration": {
-          "value": 1,
-          "units": "hour"
+          "value": 0,
+          "units": ""
         },
         "target": {
           "value": 1,
@@ -3046,7 +2533,7 @@
           "units": "touch"
         },
         "uses": {
-          "value": 1,
+          "value": "1",
           "max": "1",
           "per": "charges",
           "autoDestroy": true,
@@ -3055,10 +2542,12 @@
         "consume": {
           "type": "",
           "target": "",
-          "amount": null
+          "amount": null,
+          "value": "",
+          "_deprecated": true
         },
-        "ability": null,
-        "actionType": "",
+        "ability": "",
+        "actionType": "heal",
         "attackBonus": 0,
         "chatFlavor": "",
         "critical": {
@@ -3066,7 +2555,12 @@
           "damage": null
         },
         "damage": {
-          "parts": [],
+          "parts": [
+            [
+              "2d4 + 2",
+              "healing"
+            ]
+          ],
           "versatile": ""
         },
         "formula": "",
@@ -3078,15 +2572,36 @@
         "consumableType": "potion",
         "attributes": {
           "spelldc": 10
+        },
+        "consumes": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "charges": {
+          "value": 1,
+          "max": 1,
+          "_deprecated": true
+        },
+        "autoUse": {
+          "value": true,
+          "_deprecated": true
+        },
+        "autoDestroy": {
+          "value": true,
+          "_deprecated": true
         }
       },
+      "_key": "!actors.items!PBrFknfH3vZfZBo4.nwAnPwDzl8PBJwx5"
+    },
+    {
+      "_id": "oneZfrgQye9fpYxw",
+      "name": "Potion of Invisibility",
+      "type": "consumable",
+      "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
       "effects": [],
       "folder": null,
       "sort": 2900000,
-      "permission": {
-        "default": 0,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "core": {
           "sourceId": "Compendium.dnd5e.items.rTn4p9nJr4Aq2GPB"
@@ -3188,23 +2703,32 @@
           }
         }
       },
-      "_key": "!actors.items!PBrFknfH3vZfZBo4.oneZfrgQye9fpYxw"
-    },
-    {
-      "_id": "9ucwR0OxbJgFi4v4",
-      "name": "Potion of Speed",
-      "type": "consumable",
-      "img": "icons/consumables/potions/potion-bottle-corked-fancy-orange.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p><em>The potion’s yellow fluid is streaked with black and swirls on its own.</em></p>\n<p>When you drink this potion, you gain the effect of the @Compendium[dnd5e.spells.Szvk5FEVQW3uhJi5]{Haste} spell for 1 minute (no concentration required).</p>\n<p> </p>",
+          "value": "<p><em>This potion's container looks empty but feels as though it holds liquid. </em></p>\n<p>When you drink it, you become invisible for 1 hour. Anything you wear or carry is invisible with you. The effect ends early if you attack or cast a spell.</p>\n<p> </p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "DMG pg. 188",
         "quantity": 5,
-        "weight": 0.1,
-        "price": 400,
+        "weight": {
+          "value": 0.1,
+          "units": "lb"
+        },
+        "price": 180,
         "attunement": 0,
         "equipped": true,
         "rarity": "veryRare",
@@ -3216,7 +2740,7 @@
         },
         "duration": {
           "value": 1,
-          "units": "minute"
+          "units": "hour"
         },
         "target": {
           "value": 1,
@@ -3241,8 +2765,8 @@
           "target": "",
           "amount": null
         },
-        "ability": "",
-        "actionType": "util",
+        "ability": null,
+        "actionType": "",
         "attackBonus": 0,
         "chatFlavor": "",
         "critical": {
@@ -3264,13 +2788,16 @@
           "spelldc": 10
         }
       },
+      "_key": "!actors.items!PBrFknfH3vZfZBo4.oneZfrgQye9fpYxw"
+    },
+    {
+      "_id": "9ucwR0OxbJgFi4v4",
+      "name": "Potion of Speed",
+      "type": "consumable",
+      "img": "icons/consumables/potions/potion-bottle-corked-fancy-orange.webp",
       "effects": [],
       "folder": null,
       "sort": 3200000,
-      "permission": {
-        "default": 0,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "core": {
           "sourceId": "Compendium.dnd5e.items.ctKfjHjk9gs9UtZI"
@@ -3372,26 +2899,35 @@
           }
         }
       },
-      "_key": "!actors.items!PBrFknfH3vZfZBo4.9ucwR0OxbJgFi4v4"
-    },
-    {
-      "_id": "PkKfwa6UWng1UoV5",
-      "name": "Potion of Diminution",
-      "type": "consumable",
-      "img": "icons/consumables/potions/potion-tube-corked-glowing-red.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p><em>The red in the potion’s liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it.  Shaking the bottle fails to interrupt this process.</em></p>\n<p>When you drink this potion, you gain the “reduce” effect of the @Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Enlarge/Reduce} spell for 1d4 hours (no concentration required). </p>\n<p> </p>\n<p> </p>\n<p> </p>",
+          "value": "<p><em>The potion's yellow fluid is streaked with black and swirls on its own.</em></p>\n<p>When you drink this potion, you gain the effect of the @Compendium[dnd5e.spells.Szvk5FEVQW3uhJi5]{Haste} spell for 1 minute (no concentration required).</p>\n<p> </p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "DMG pg. 187",
+        "source": "DMG pg. 188",
         "quantity": 5,
-        "weight": 0.1,
-        "price": 270,
+        "weight": {
+          "value": 0.1,
+          "units": "lb"
+        },
+        "price": 400,
         "attunement": 0,
         "equipped": true,
-        "rarity": "",
+        "rarity": "veryRare",
         "identified": true,
         "activation": {
           "type": "action",
@@ -3399,8 +2935,8 @@
           "condition": ""
         },
         "duration": {
-          "value": 0,
-          "units": "hour"
+          "value": 1,
+          "units": "minute"
         },
         "target": {
           "value": 1,
@@ -3437,7 +2973,7 @@
           "parts": [],
           "versatile": ""
         },
-        "formula": "1d4",
+        "formula": "",
         "save": {
           "ability": "",
           "dc": null,
@@ -3448,6 +2984,13 @@
           "spelldc": 10
         }
       },
+      "_key": "!actors.items!PBrFknfH3vZfZBo4.9ucwR0OxbJgFi4v4"
+    },
+    {
+      "_id": "PkKfwa6UWng1UoV5",
+      "name": "Potion of Diminution",
+      "type": "consumable",
+      "img": "icons/consumables/potions/potion-tube-corked-glowing-red.webp",
       "effects": [
         {
           "_id": "ahSbu59yYSN2u9NJ",
@@ -3465,22 +3008,40 @@
             }
           ],
           "duration": {
-            "startTime": null
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
           },
-          "icon": "systems/dnd5e/icons/items/potions/unique-9.jpg",
-          "label": "Potion of Diminution",
           "transfer": false,
           "disabled": false,
+          "_stats": {
+            "coreVersion": "12.331",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null
+          },
+          "name": "Potion of Diminution",
+          "img": "systems/dnd5e/icons/items/potions/unique-9.jpg",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
           "_key": "!actors.items.effects!PBrFknfH3vZfZBo4.PkKfwa6UWng1UoV5.ahSbu59yYSN2u9NJ"
         }
       ],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "gSvPH9u5wzkE1oU1": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "dynamiceffects": {
           "equipActive": true,
@@ -3598,22 +3159,31 @@
           }
         }
       },
-      "_key": "!actors.items!PBrFknfH3vZfZBo4.PkKfwa6UWng1UoV5"
-    },
-    {
-      "_id": "gunPLF0XtRph9PfK",
-      "name": "Potion of Growth",
-      "type": "consumable",
-      "img": "icons/consumables/potions/potion-tube-corked-glowing-red.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p><em>The red in the potion’s liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts.  Shaking the bottle fails to interrupt this process.</em></p>\n<p>When you drink this potion, you gain the “enlarge” effect of the @Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Enlarge/Reduce} spell for 1d4 hours (no concentration required).</p>",
+          "value": "<p><em>The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it.  Shaking the bottle fails to interrupt this process.</em></p>\n<p>When you drink this potion, you gain the \"reduce\" effect of the @Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Enlarge/Reduce} spell for 1d4 hours (no concentration required). </p>\n<p> </p>\n<p> </p>\n<p> </p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "DMG. pg. 187",
+        "source": "DMG pg. 187",
         "quantity": 5,
-        "weight": 0.1,
+        "weight": {
+          "value": 0.1,
+          "units": "lb"
+        },
         "price": 270,
         "attunement": 0,
         "equipped": true,
@@ -3663,7 +3233,7 @@
           "parts": [],
           "versatile": ""
         },
-        "formula": "",
+        "formula": "1d4",
         "save": {
           "ability": "",
           "dc": null,
@@ -3674,6 +3244,13 @@
           "spelldc": 10
         }
       },
+      "_key": "!actors.items!PBrFknfH3vZfZBo4.PkKfwa6UWng1UoV5"
+    },
+    {
+      "_id": "gunPLF0XtRph9PfK",
+      "name": "Potion of Growth",
+      "type": "consumable",
+      "img": "icons/consumables/potions/potion-tube-corked-glowing-red.webp",
       "effects": [
         {
           "_id": "b2Xw4C6jepxMELvZ",
@@ -3691,22 +3268,40 @@
             }
           ],
           "duration": {
-            "startTime": null
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
           },
-          "icon": "systems/dnd5e/icons/items/potions/unique-9.jpg",
-          "label": "Potion of Growth",
           "transfer": false,
           "disabled": false,
+          "_stats": {
+            "coreVersion": "12.331",
+            "systemId": null,
+            "systemVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null
+          },
+          "name": "Potion of Growth",
+          "img": "systems/dnd5e/icons/items/potions/unique-9.jpg",
+          "type": "base",
+          "system": {},
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
           "_key": "!actors.items.effects!PBrFknfH3vZfZBo4.gunPLF0XtRph9PfK.b2Xw4C6jepxMELvZ"
         }
       ],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "gSvPH9u5wzkE1oU1": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "dynamiceffects": {
           "equipActive": true,
@@ -3824,26 +3419,35 @@
           }
         }
       },
-      "_key": "!actors.items!PBrFknfH3vZfZBo4.gunPLF0XtRph9PfK"
-    },
-    {
-      "_id": "lajhBPxsSNzQORTd",
-      "name": "Potion of Defense",
-      "type": "consumable",
-      "img": "icons/consumables/potions/bottle-bulb-corked-labeled-blue.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p><em>Wondrous Item (Consumable) / Rare</em></p>\n<hr />\n<p>This slate gray potion looks like sheets of folded metals while still, but swirling it slowly changes it into a gray slurry. When you drink this potion, your skin begins to harden and seemingly becomes glossed over with a metallic wash. Your Armor Class is increased to 18 if it is less than that, else your Armor Class is increased by 1. This potion’s effects last for 1 minute.</p>",
+          "value": "<p><em>The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts.  Shaking the bottle fails to interrupt this process.</em></p>\n<p>When you drink this potion, you gain the \"enlarge\" effect of the @Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Enlarge/Reduce} spell for 1d4 hours (no concentration required).</p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "Super's Pack",
+        "source": "DMG. pg. 187",
         "quantity": 5,
-        "weight": 0.5,
-        "price": 350,
+        "weight": {
+          "value": 0.1,
+          "units": "lb"
+        },
+        "price": 270,
         "attunement": 0,
         "equipped": true,
-        "rarity": "rare",
+        "rarity": "",
         "identified": true,
         "activation": {
           "type": "action",
@@ -3851,33 +3455,34 @@
           "condition": ""
         },
         "duration": {
-          "value": 1,
-          "units": "minute"
+          "value": 0,
+          "units": "hour"
         },
         "target": {
-          "value": null,
+          "value": 1,
           "width": null,
           "units": "",
-          "type": "self"
+          "type": "creature"
         },
         "range": {
           "value": null,
           "long": null,
-          "units": "self"
+          "units": "touch"
         },
         "uses": {
-          "value": 0,
-          "max": "0",
-          "per": "",
-          "autoDestroy": false
+          "value": 1,
+          "max": "1",
+          "per": "charges",
+          "autoDestroy": true,
+          "autoUse": true
         },
         "consume": {
           "type": "",
           "target": "",
           "amount": null
         },
-        "ability": null,
-        "actionType": "",
+        "ability": "",
+        "actionType": "util",
         "attackBonus": 0,
         "chatFlavor": "",
         "critical": {
@@ -3894,16 +3499,21 @@
           "dc": null,
           "scaling": "spell"
         },
-        "consumableType": "potion"
+        "consumableType": "potion",
+        "attributes": {
+          "spelldc": 10
+        }
       },
+      "_key": "!actors.items!PBrFknfH3vZfZBo4.gunPLF0XtRph9PfK"
+    },
+    {
+      "_id": "lajhBPxsSNzQORTd",
+      "name": "Potion of Defense",
+      "type": "consumable",
+      "img": "icons/consumables/potions/bottle-bulb-corked-labeled-blue.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "JlFhFpzP9v6IKox6": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -4010,35 +3620,44 @@
           }
         }
       },
-      "_key": "!actors.items!PBrFknfH3vZfZBo4.lajhBPxsSNzQORTd"
-    },
-    {
-      "_id": "8ZrgrFlONmS65uUP",
-      "name": "Potion of Mediocre Healing",
-      "type": "consumable",
-      "img": "icons/consumables/potions/potion-tube-corked-red.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<div>\n<div><em>Wondrous Item </em><em>(Consumable) / Common</em></div>\n</div>\n<hr />\n<div class=\"rd__b  rd__b--2\">\n<p>You regain [[/r 3d4 + 3]] hit points when you drink this potion. The potion's red liquid glimmers when agitated.</p>\n</div>",
+          "value": "<p><em>Wondrous Item (Consumable) / Rare</em></p>\n<hr />\n<p>This slate gray potion looks like sheets of folded metals while still, but swirling it slowly changes it into a gray slurry. When you drink this potion, your skin begins to harden and seemingly becomes glossed over with a metallic wash. Your Armor Class is increased to 18 if it is less than that, else your Armor Class is increased by 1. This potion's effects last for 1 minute.</p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "Super's Homebrew",
-        "quantity": 20,
-        "weight": 0.5,
-        "price": 100,
+        "source": "Super's Pack",
+        "quantity": 5,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
+        "price": 350,
         "attunement": 0,
         "equipped": true,
-        "rarity": "common",
+        "rarity": "rare",
         "identified": true,
         "activation": {
-          "type": "bonus",
+          "type": "action",
           "cost": 1,
           "condition": ""
         },
         "duration": {
-          "value": null,
-          "units": "inst"
+          "value": "",
+          "units": "minute"
         },
         "target": {
           "value": null,
@@ -4049,24 +3668,21 @@
         "range": {
           "value": null,
           "long": null,
-          "units": ""
+          "units": "self"
         },
         "uses": {
-          "value": 0,
+          "value": null,
           "max": "0",
           "per": "",
-          "autoDestroy": true,
-          "autoUse": true
+          "autoDestroy": false
         },
         "consume": {
           "type": "",
           "target": "",
-          "amount": null,
-          "value": "",
-          "_deprecated": true
+          "amount": null
         },
-        "ability": "",
-        "actionType": "heal",
+        "ability": null,
+        "actionType": "",
         "attackBonus": 0,
         "chatFlavor": "",
         "critical": {
@@ -4074,12 +3690,7 @@
           "damage": null
         },
         "damage": {
-          "parts": [
-            [
-              "3d4+3",
-              "healing"
-            ]
-          ],
+          "parts": [],
           "versatile": ""
         },
         "formula": "",
@@ -4088,29 +3699,18 @@
           "dc": null,
           "scaling": "spell"
         },
-        "consumableType": "potion",
-        "charges": {
-          "value": 1,
-          "max": 1,
-          "_deprecated": true
-        },
-        "autoUse": {
-          "value": true,
-          "_deprecated": true
-        },
-        "autoDestroy": {
-          "value": true,
-          "_deprecated": true
-        }
+        "consumableType": "potion"
       },
+      "_key": "!actors.items!PBrFknfH3vZfZBo4.lajhBPxsSNzQORTd"
+    },
+    {
+      "_id": "8ZrgrFlONmS65uUP",
+      "name": "Potion of Mediocre Healing",
+      "type": "consumable",
+      "img": "icons/consumables/potions/potion-tube-corked-red.webp",
       "effects": [],
       "folder": "NJe9KrCUqfaV1fSW",
       "sort": 0,
-      "permission": {
-        "default": 0,
-        "JlFhFpzP9v6IKox6": 3,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -4229,51 +3829,60 @@
           }
         }
       },
-      "_key": "!actors.items!PBrFknfH3vZfZBo4.8ZrgrFlONmS65uUP"
-    },
-    {
-      "_id": "Q5LHW0neF8ah17AR",
-      "name": "Potion of Greater Healing",
-      "type": "consumable",
-      "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p><em>The potion's red liquid glimmers when agitated.</em></p>\n<p>You regain 4d4+4 hit points when you drink this potion.</p>\n<p> </p>\n<p> </p>",
+          "value": "<div>\n<div><em>Wondrous Item </em><em>(Consumable) / Common</em></div>\n</div>\n<hr />\n<div class=\"rd__b  rd__b--2\">\n<p>You regain [[/r 3d4 + 3]] hit points when you drink this potion. The potion's red liquid glimmers when agitated.</p>\n</div>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "DMG pg. 187",
+        "source": "Super's Homebrew",
         "quantity": 20,
-        "weight": 0.1,
-        "price": 150,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
+        "price": 100,
         "attunement": 0,
         "equipped": true,
-        "rarity": "uncommon",
+        "rarity": "common",
         "identified": true,
         "activation": {
-          "type": "action",
+          "type": "bonus",
           "cost": 1,
           "condition": ""
         },
         "duration": {
-          "value": null,
+          "value": "",
           "units": "inst"
         },
         "target": {
-          "value": 1,
+          "value": null,
           "width": null,
           "units": "",
-          "type": "creature"
+          "type": "self"
         },
         "range": {
           "value": null,
           "long": null,
-          "units": "touch"
+          "units": ""
         },
         "uses": {
-          "value": 1,
-          "max": "1",
-          "per": "charges",
+          "value": null,
+          "max": "0",
+          "per": "",
           "autoDestroy": true,
           "autoUse": true
         },
@@ -4295,7 +3904,7 @@
         "damage": {
           "parts": [
             [
-              "4d4 + 4",
+              "3d4+3",
               "healing"
             ]
           ],
@@ -4308,14 +3917,6 @@
           "scaling": "spell"
         },
         "consumableType": "potion",
-        "attributes": {
-          "spelldc": 10
-        },
-        "consumes": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
         "charges": {
           "value": 1,
           "max": 1,
@@ -4330,13 +3931,16 @@
           "_deprecated": true
         }
       },
+      "_key": "!actors.items!PBrFknfH3vZfZBo4.8ZrgrFlONmS65uUP"
+    },
+    {
+      "_id": "Q5LHW0neF8ah17AR",
+      "name": "Potion of Greater Healing",
+      "type": "consumable",
+      "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
       "effects": [],
       "folder": null,
       "sort": 100001,
-      "permission": {
-        "default": 0,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "core": {
           "sheetClass": "",
@@ -4451,27 +4055,36 @@
           }
         }
       },
-      "_key": "!actors.items!PBrFknfH3vZfZBo4.Q5LHW0neF8ah17AR"
-    },
-    {
-      "_id": "xadoYTA8nutODx01",
-      "name": "Spell Scroll: Fireball",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/fireball-red-2.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.</p><p>The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.</p><p><strong>Higher Levels.</strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>",
+          "value": "<p><em>The potion's red liquid glimmers when agitated.</em></p>\n<p>You regain 4d4+4 hit points when you drink this potion.</p>\n<p> </p>\n<p> </p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "PHB pg. 241",
+        "source": "DMG pg. 187",
         "quantity": 20,
-        "weight": 1,
-        "price": 100,
+        "weight": {
+          "value": 0.1,
+          "units": "lb"
+        },
+        "price": 150,
         "attunement": 0,
         "equipped": true,
-        "rarity": "",
-        "identified": false,
+        "rarity": "uncommon",
+        "identified": true,
         "activation": {
           "type": "action",
           "cost": 1,
@@ -4482,29 +4095,32 @@
           "units": "inst"
         },
         "target": {
-          "value": 20,
+          "value": 1,
           "width": null,
-          "units": "ft",
-          "type": "sphere"
+          "units": "",
+          "type": "creature"
         },
         "range": {
-          "value": 150,
-          "long": 0,
-          "units": "ft"
+          "value": null,
+          "long": null,
+          "units": "touch"
         },
         "uses": {
           "value": 1,
           "max": "1",
-          "per": "",
-          "autoDestroy": false
+          "per": "charges",
+          "autoDestroy": true,
+          "autoUse": true
         },
         "consume": {
           "type": "",
           "target": "",
-          "amount": null
+          "amount": null,
+          "value": "",
+          "_deprecated": true
         },
         "ability": "",
-        "actionType": "save",
+        "actionType": "heal",
         "attackBonus": 0,
         "chatFlavor": "",
         "critical": {
@@ -4514,49 +4130,51 @@
         "damage": {
           "parts": [
             [
-              "8d6",
-              "fire"
+              "4d4 + 4",
+              "healing"
             ]
           ],
           "versatile": ""
         },
         "formula": "",
         "save": {
-          "ability": "dex",
-          "dc": 0,
+          "ability": "",
+          "dc": null,
           "scaling": "spell"
         },
-        "consumableType": "ammo",
-        "components": {
-          "value": "",
-          "vocal": true,
-          "somatic": true,
-          "material": true,
-          "ritual": false,
-          "concentration": false
+        "consumableType": "potion",
+        "attributes": {
+          "spelldc": 10
         },
-        "materials": {
-          "value": "A tiny ball of bat guano and sulfur",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
+        "consumes": {
+          "type": "",
+          "target": null,
+          "amount": null
         },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": true
+        "charges": {
+          "value": 1,
+          "max": 1,
+          "_deprecated": true
         },
-        "scaling": {
-          "mode": "level",
-          "formula": "1d6"
+        "autoUse": {
+          "value": true,
+          "_deprecated": true
+        },
+        "autoDestroy": {
+          "value": true,
+          "_deprecated": true
         }
       },
+      "_key": "!actors.items!PBrFknfH3vZfZBo4.Q5LHW0neF8ah17AR"
+    },
+    {
+      "_id": "xadoYTA8nutODx01",
+      "name": "Spell Scroll: Fireball",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/fireball-red-2.jpg",
       "effects": [],
       "folder": "vkoRMS2cazef7dQJ",
       "sort": 100000,
-      "permission": {
-        "default": 0,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "core": {
           "sourceId": "Compendium.dnd5e.spells.ztgcdrWPshKRpFd0"
@@ -4676,53 +4294,61 @@
           }
         }
       },
-      "_key": "!actors.items!PBrFknfH3vZfZBo4.xadoYTA8nutODx01"
-    },
-    {
-      "_id": "HyNkZXRTVogzsNU0",
-      "name": "Spell Scroll: Light",
-      "type": "consumable",
-      "img": "systems/dnd5e/icons/spells/light-sky-1.jpg",
-      "data": {
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
         "description": {
-          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p><hr /><h3>Light (Level 0)</h3><hr /><p>You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.</p><p>If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.</p><hr /><h3>Scroll Details</h3><hr />\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 10. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
+          "value": "<p>A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.</p><p>The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.</p><p><strong>Higher Levels.</strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "PHB pg. 255",
+        "source": "PHB pg. 241",
         "quantity": 20,
-        "weight": 0,
-        "price": 10,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": 100,
         "attunement": 0,
         "equipped": true,
-        "rarity": "common",
-        "identified": true,
+        "rarity": "",
+        "identified": false,
         "activation": {
           "type": "action",
           "cost": 1,
           "condition": ""
         },
         "duration": {
-          "value": 1,
-          "units": "hour"
+          "value": null,
+          "units": "inst"
         },
         "target": {
-          "value": 1,
+          "value": 20,
           "width": null,
-          "units": "",
-          "type": "object"
+          "units": "ft",
+          "type": "sphere"
         },
         "range": {
-          "value": null,
+          "value": 150,
           "long": null,
-          "units": "touch"
+          "units": "ft"
         },
         "uses": {
           "value": 1,
           "max": "1",
-          "per": "charges",
-          "autoDestroy": true,
-          "autoUse": true
+          "per": "",
+          "autoDestroy": false
         },
         "consume": {
           "type": "",
@@ -4731,35 +4357,61 @@
         },
         "ability": "",
         "actionType": "save",
-        "attackBonus": 5,
+        "attackBonus": 0,
         "chatFlavor": "",
         "critical": {
           "threshold": null,
           "damage": null
         },
         "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
+          "parts": [
+            [
+              "8d6",
+              "fire"
+            ]
+          ],
+          "versatile": ""
         },
         "formula": "",
         "save": {
           "ability": "dex",
-          "dc": 0,
+          "dc": null,
           "scaling": "spell"
         },
-        "consumableType": "scroll",
-        "attributes": {
-          "spelldc": 10
+        "consumableType": "ammo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "A tiny ball of bat guano and sulfur",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": "1d6"
         }
       },
+      "_key": "!actors.items!PBrFknfH3vZfZBo4.xadoYTA8nutODx01"
+    },
+    {
+      "_id": "HyNkZXRTVogzsNU0",
+      "name": "Spell Scroll: Light",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/spells/light-sky-1.jpg",
       "effects": [],
       "folder": null,
       "sort": 500000,
-      "permission": {
-        "default": 0,
-        "a2um1mRnicEx282I": 3
-      },
       "flags": {
         "betterRolls5e": {
           "critRange": {
@@ -4859,16 +4511,98 @@
           }
         }
       },
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can use an action to read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible.</p><hr /><h3>Light (Level 0)</h3><hr /><p>You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.</p><p>If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.</p><hr /><h3>Scroll Details</h3><hr />\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 10. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 255",
+        "quantity": 20,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": 10,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": 1,
+          "width": null,
+          "units": "",
+          "type": "object"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "charges",
+          "autoDestroy": true,
+          "autoUse": true
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 5,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "dex",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "consumableType": "scroll",
+        "attributes": {
+          "spelldc": 10
+        }
+      },
       "_key": "!actors.items!PBrFknfH3vZfZBo4.HyNkZXRTVogzsNU0"
     }
   ],
   "effects": [],
   "folder": null,
   "sort": 0,
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
   "flags": {
     "core": {
       "sheetClass": "dnd5e.LootSheet5eNPC"
@@ -4887,5 +4621,505 @@
     }
   },
   "_id": "PBrFknfH3vZfZBo4",
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": null,
+        "calc": "default",
+        "formula": ""
+      },
+      "hp": {
+        "value": 10,
+        "min": 0,
+        "max": 10,
+        "temp": null,
+        "tempmax": null,
+        "formula": ""
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "",
+      "race": "",
+      "type": {
+        "value": "",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 1,
+      "spellLevel": 0,
+      "xp": {
+        "value": 10
+      },
+      "source": "",
+      "gender": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": {
+        "value": null
+      },
+      "gp": {
+        "value": null
+      },
+      "ep": {
+        "value": null
+      },
+      "sp": {
+        "value": null
+      },
+      "cp": {
+        "value": null
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    },
+    "flags": {
+      "lootsheetnpc5e": {
+        "lootsheettype": "Merchant",
+        "rolltable": "",
+        "shopQty": "",
+        "itemQty": "",
+        "itemQtyLimit": "",
+        "clearInventory": false
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "MerchantPotion01",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {},
+    "randomImg": false,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "alpha": 0.25,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "https://i.imgur.com/QDzqmEx.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
   "_key": "!actors!PBrFknfH3vZfZBo4"
 }

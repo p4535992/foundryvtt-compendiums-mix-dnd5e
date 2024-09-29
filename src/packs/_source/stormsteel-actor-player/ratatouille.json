@@ -3,7 +3,310 @@
   "name": "Ratatouille",
   "type": "character",
   "img": "https://i.imgur.com/Lb866aM.jpg",
-  "data": {
+  "items": [
+    {
+      "_id": "N7BfHS2R49Q9gUMO",
+      "name": "Bite",
+      "type": "weapon",
+      "sort": 100000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "8IJ6U4F9uHAIZwHL"
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "activation": "1 Action",
+            "target": "",
+            "range": "5 Feet",
+            "duration": "",
+            "recharge": "Recharge [undefined]",
+            "damage": "1 + @mod",
+            "damageTypes": "Piercing",
+            "abilityCheck": "Dexterity Ability Check",
+            "toHit": "+ 3",
+            "derivedDamage": [
+              {
+                "formula": "3",
+                "damageType": "piercing"
+              }
+            ]
+          }
+        }
+      },
+      "img": "icons/creatures/abilities/fang-tooth-venomous.webp",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<p>The rat gnashes at you with two long pestilent teeth.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": "",
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [
+            [
+              "1 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {},
+        "proficient": true,
+        "bonus": {
+          "value": 0,
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damage2": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damage2Type": {
+          "value": "",
+          "_deprecated": true
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!kKFwASjICY8x1pt6.N7BfHS2R49Q9gUMO"
+    },
+    {
+      "_id": "fD6oj8aawBb7AXwU",
+      "name": "Keen Smell",
+      "type": "feat",
+      "sort": 200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "8IJ6U4F9uHAIZwHL"
+          }
+        },
+        "externalactor": {
+          "labels": {
+            "featType": "Action",
+            "activation": "None",
+            "target": "",
+            "range": "",
+            "duration": "",
+            "recharge": "Recharge [null]",
+            "damage": "",
+            "damageTypes": "",
+            "abilityCheck": "undefined Ability Check"
+          }
+        }
+      },
+      "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
+      "effects": [],
+      "folder": null,
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "system": {
+        "description": {
+          "value": "<p>The rat has advantage on Wisdom (Perception) checks that rely on smell.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": null,
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": 0,
+          "per": null,
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": null
+        },
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Rat",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "attributes": {
+          "spelldc": 10
+        }
+      },
+      "_key": "!actors.items!kKFwASjICY8x1pt6.fD6oj8aawBb7AXwU"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "VariantEncumbrance": {
+      "speed": 9,
+      "tier": 0,
+      "weight": null
+    },
+    "externalactor": {
+      "classLabels": "",
+      "currencyWeight": true,
+      "disableExperience": false
+    },
+    "scene-packer": {
+      "sourceId": "Actor.6vwYuZmD7yOIONNt"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "abilities": {
       "str": {
         "value": 4,
@@ -561,7 +864,7 @@
       }
     }
   },
-  "token": {
+  "prototypeToken": {
     "flags": {
       "monks-tokenbar": {
         "include": "default"
@@ -593,29 +896,10 @@
     },
     "name": "Ratatouille",
     "displayName": 20,
-    "img": "https://i.imgur.com/Lb866aM.jpg",
-    "tint": null,
     "width": 1,
     "height": 1,
-    "scale": 1,
-    "mirrorX": false,
-    "mirrorY": false,
     "lockRotation": false,
     "rotation": 0,
-    "vision": true,
-    "dimSight": 9,
-    "brightSight": 0,
-    "dimLight": 0,
-    "brightLight": 0,
-    "sightAngle": 0,
-    "lightAngle": 0,
-    "lightColor": null,
-    "lightAlpha": 1,
-    "lightAnimation": {
-      "speed": 5,
-      "intensity": 5
-    },
-    "actorId": "8IJ6U4F9uHAIZwHL",
     "actorLink": true,
     "disposition": 1,
     "displayBars": 20,
@@ -623,283 +907,77 @@
       "attribute": "attributes.hp"
     },
     "bar2": {
-      "attribute": ""
+      "attribute": null
     },
     "randomImg": false,
     "alpha": 1,
-    "x": null,
-    "y": null,
-    "elevation": null
-  },
-  "items": [
-    {
-      "_id": "N7BfHS2R49Q9gUMO",
-      "name": "Bite",
-      "type": "weapon",
-      "data": {
-        "description": {
-          "value": "<p>The rat gnashes at you with two long pestilent teeth.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": null,
-        "quantity": 1,
-        "weight": 0,
-        "price": "",
-        "attunement": 0,
-        "equipped": true,
-        "rarity": "common",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "dex",
-        "actionType": "mwak",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [
-            [
-              "1 + @mod",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "natural",
-        "baseItem": "",
-        "properties": {},
-        "proficient": true,
-        "bonus": {
-          "value": 0,
-          "_deprecated": true
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": true
-        },
-        "damage2": {
-          "value": "",
-          "_deprecated": true
-        },
-        "damage2Type": {
-          "value": "",
-          "_deprecated": true
-        },
-        "attributes": {
-          "spelldc": 10
-        }
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 1,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
       },
-      "sort": 100000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": "8IJ6U4F9uHAIZwHL"
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "activation": "1 Action",
-            "target": "",
-            "range": "5 Feet",
-            "duration": "",
-            "recharge": "Recharge [undefined]",
-            "damage": "1 + @mod",
-            "damageTypes": "Piercing",
-            "abilityCheck": "Dexterity Ability Check",
-            "toHit": "+ 3",
-            "derivedDamage": [
-              {
-                "formula": "3",
-                "damageType": "piercing"
-              }
-            ]
-          }
-        }
-      },
-      "img": "icons/creatures/abilities/fang-tooth-venomous.webp",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!kKFwASjICY8x1pt6.N7BfHS2R49Q9gUMO"
+      "negative": false,
+      "priority": 0,
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
-    {
-      "_id": "fD6oj8aawBb7AXwU",
-      "name": "Keen Smell",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p>The rat has advantage on Wisdom (Perception) checks that rely on smell.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": null,
-        "activation": {
-          "type": "none",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "target": {
-          "value": "",
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": "",
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null,
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": null,
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": null
-        },
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell",
-          "value": ""
-        },
-        "requirements": "Rat",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "time": {
-          "value": "",
-          "_deprecated": true
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": true
-        },
-        "attributes": {
-          "spelldc": 10
-        }
-      },
-      "sort": 200000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": "8IJ6U4F9uHAIZwHL"
-          }
-        },
-        "externalactor": {
-          "labels": {
-            "featType": "Action",
-            "activation": "None",
-            "target": "",
-            "range": "",
-            "duration": "",
-            "recharge": "Recharge [null]",
-            "damage": "",
-            "damageTypes": "",
-            "abilityCheck": "undefined Ability Check"
-          }
-        }
-      },
-      "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
-      "effects": [],
-      "folder": null,
-      "permission": {
-        "default": 0
-      },
-      "_key": "!actors.items!kKFwASjICY8x1pt6.fD6oj8aawBb7AXwU"
-    }
-  ],
-  "effects": [],
-  "folder": null,
-  "sort": 0,
-  "permission": {
-    "default": 0,
-    "a2um1mRnicEx282I": 3
-  },
-  "flags": {
-    "VariantEncumbrance": {
-      "speed": 9,
-      "tier": 0,
-      "weight": null
+    "texture": {
+      "src": "https://i.imgur.com/Lb866aM.jpg",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "alphaThreshold": 0.75
     },
-    "externalactor": {
-      "classLabels": "",
-      "currencyWeight": true,
-      "disableExperience": false
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 9,
+      "brightness": 0,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
     },
-    "scene-packer": {
-      "sourceId": "Actor.6vwYuZmD7yOIONNt"
+    "appendNumber": false,
+    "prependAdjective": false,
+    "hexagonalShape": 0,
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
     }
   },
   "_key": "!actors!kKFwASjICY8x1pt6"

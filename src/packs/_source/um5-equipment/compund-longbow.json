@@ -1,12 +1,69 @@
 {
   "_id": "WCv4CUmHVFUAZCqY",
   "name": "Compund Longbow",
-  "permission": {
-    "default": 0,
-    "qtb8j5Fh7Hu0wRrz": 3
-  },
   "type": "weapon",
-  "data": {
+  "flags": {
+    "betterRolls5e": {
+      "quickDamage": {
+        "context": {
+          "0": ""
+        },
+        "value": {
+          "0": true
+        },
+        "altValue": {
+          "0": true
+        }
+      },
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickAttack": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickVersatile": {
+        "value": false,
+        "altValue": false
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      },
+      "critRange": {
+        "value": ""
+      },
+      "critDamage": {
+        "value": ""
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/items/weapons/bow-long.jpg",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "description": {
       "value": "<p><span class=\"fontstyle0\">Compound bows are fashioned of steel or aluminum—a few rare models are constructed from carbon fiber or microlattice. Their power comes from a series of pulleys, cams, and levers. They do not warp and can be adjusted for a variety of conditions.<br></span></p>\n<p><span class=\"fontstyle0\">A compound longbow can be adjusted for greater force at the cost of a more demanding draw. Using settings above the first requires proficiency with the weapon and the listed minimum Strength score. </span></p>\n<p><strong><span class=\"fontstyle0\" style=\"font-size: 11pt;\">Setting 1</span></strong><span class=\"fontstyle0\">—1d6 piercing;&nbsp;</span><strong><span class=\"fontstyle0\" style=\"font-size: 11pt;\">Setting 2</span></strong><span class=\"fontstyle0\">—Str 15, 1d8 piercing; </span></p>\n<p><strong><span class=\"fontstyle0\" style=\"font-size: 11pt;\">Setting 3</span></strong><span class=\"fontstyle0\">— Str 18, 1d10 piercing;&nbsp;</span><strong><span class=\"fontstyle0\" style=\"font-size: 11pt;\">Setting 4</span></strong><span class=\"fontstyle0\">—Str 20, 1d12 piercing.<br></span></p>\n<p><span class=\"fontstyle0\">It takes a full minute to adjust to a new setting.</span></p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 70px;\"><span class=\"fontstyle0\">Compound longbow </span></td>\n<td style=\"width: 41px;\"><span class=\"fontstyle0\">500uc </span></td>\n<td style=\"width: 59px;\"><span class=\"fontstyle0\">Special piercing </span></td>\n<td style=\"width: 36px;\"><span class=\"fontstyle0\">4 lb. </span></td>\n<td style=\"width: 181px;\"><span class=\"fontstyle0\">Ammunition (range 200/600), heavy, two-handed</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.N5tzQ0cKBbaU25Qs]{Ammunition}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.aHgsBOaLpXxmywsG]{Heavy}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.C6LUHCPzyZBU7dA5]{Two-Handed}</p>",
       "chat": "",
@@ -14,7 +71,10 @@
     },
     "source": "UM5 p.79",
     "quantity": 1,
-    "weight": 4,
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
     "price": 50,
     "attuned": false,
     "equipped": false,
@@ -30,7 +90,7 @@
       "units": ""
     },
     "target": {
-      "value": 0,
+      "value": null,
       "units": "",
       "type": ""
     },
@@ -40,7 +100,7 @@
       "units": "ft"
     },
     "uses": {
-      "value": 0,
+      "value": null,
       "max": 0,
       "per": ""
     },
@@ -97,53 +157,7 @@
     },
     "proficient": false
   },
-  "flags": {
-    "betterRolls5e": {
-      "quickDamage": {
-        "context": {
-          "0": ""
-        },
-        "value": {
-          "0": true
-        },
-        "altValue": {
-          "0": true
-        }
-      },
-      "quickDesc": {
-        "value": true,
-        "altValue": true
-      },
-      "quickAttack": {
-        "value": true,
-        "altValue": true
-      },
-      "quickProperties": {
-        "value": true,
-        "altValue": true
-      },
-      "quickVersatile": {
-        "value": false,
-        "altValue": false
-      },
-      "quickOther": {
-        "value": true,
-        "altValue": true,
-        "context": ""
-      },
-      "quickFlavor": {
-        "value": true,
-        "altValue": true
-      },
-      "critRange": {
-        "value": ""
-      },
-      "critDamage": {
-        "value": ""
-      }
-    }
-  },
-  "img": "systems/dnd5e/icons/items/weapons/bow-long.jpg",
-  "effects": [],
+  "folder": null,
+  "sort": 0,
   "_key": "!items!WCv4CUmHVFUAZCqY"
 }

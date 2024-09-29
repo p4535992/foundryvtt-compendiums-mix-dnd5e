@@ -1,11 +1,24 @@
 {
   "name": "Ghost",
-  "permission": {
-    "default": 0,
-    "N8RgN1jdDFyXuWNq": 3
-  },
   "type": "weapon",
-  "data": {
+  "flags": {},
+  "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/uncassault.svg",
+  "_id": "FbuU6TWJCHs3y5Z7",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "description": {
       "value": "<ul>\n<li>Range: 30/90m</li>\n<li>Heat: 8</li>\n</ul>\n<p>Whenever you make an attack with this weapon, if your previous action, reaction, or bonus action was an attack with this weapon, you gain a +1 bonus to the attack roll. Possesses recording and sensor functions so it can be left behind as a \"black box\" by doomed explorers.</p>",
       "chat": "",
@@ -13,7 +26,10 @@
     },
     "source": "Me5e",
     "quantity": 1,
-    "weight": 4,
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
     "price": 15000,
     "attuned": false,
     "equipped": false,
@@ -21,7 +37,7 @@
     "identified": true,
     "activation": {
       "type": "",
-      "cost": 0,
+      "cost": null,
       "condition": ""
     },
     "duration": {
@@ -39,7 +55,7 @@
       "units": ""
     },
     "uses": {
-      "value": 0,
+      "value": null,
       "max": 0,
       "per": null
     },
@@ -103,9 +119,7 @@
     },
     "proficient": true
   },
-  "flags": {},
-  "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/uncassault.svg",
-  "_id": "FbuU6TWJCHs3y5Z7",
-  "effects": [],
+  "folder": null,
+  "sort": 0,
   "_key": "!items!FbuU6TWJCHs3y5Z7"
 }

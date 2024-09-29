@@ -1,110 +1,7 @@
 {
   "_id": "Ujt4TALSqKAVYmbI",
   "name": "Machine Pistol",
-  "permission": {
-    "default": 0,
-    "qtb8j5Fh7Hu0wRrz": 3
-  },
   "type": "weapon",
-  "data": {
-    "description": {
-      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HU4lNUAme2XmxfAN]{Weapon Group: Small Arms, One-Handed}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 60px;\"><span class=\"fontstyle0\">Machine pistol </span></td>\n<td style=\"width: 29px;\"><span class=\"fontstyle0\">300 </span></td>\n<td style=\"width: 76px;\"><span class=\"fontstyle0\">1d4 piercing </span></td>\n<td style=\"width: 56px;\"><span class=\"fontstyle0\">50/200 </span></td>\n<td style=\"width: 36px;\"><span class=\"fontstyle0\">3 lb. </span></td>\n<td style=\"width: 133px;\"><span class=\"fontstyle0\">Auto (1d6), reload (20 shots)</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.450g1kbvRQoe1x5P]{Auto 1d6}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HE1gIc0o7bZeLjFT]{Burst Fire}</p>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 20 shots}</p>\n<p>&nbsp;</p>",
-      "chat": "",
-      "unidentified": ""
-    },
-    "source": "PHB pg. 149",
-    "quantity": 1,
-    "weight": 3,
-    "price": 300,
-    "attuned": false,
-    "equipped": true,
-    "rarity": "Common",
-    "identified": true,
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
-    "duration": {
-      "value": 0,
-      "units": ""
-    },
-    "target": {
-      "value": 0,
-      "units": "",
-      "type": ""
-    },
-    "range": {
-      "value": 50,
-      "long": 200,
-      "units": "ft"
-    },
-    "uses": {
-      "value": 20,
-      "max": 20,
-      "per": "charges"
-    },
-    "consume": {
-      "type": "",
-      "target": "",
-      "amount": null
-    },
-    "ability": "",
-    "actionType": "rwak",
-    "attackBonus": 0,
-    "chatFlavor": "",
-    "critical": null,
-    "damage": {
-      "parts": [
-        [
-          "1d4 + @mod",
-          "piercing"
-        ],
-        [
-          "1d6 + @mod",
-          "piercing"
-        ],
-        [
-          "1d4",
-          "piercing"
-        ]
-      ],
-      "versatile": ""
-    },
-    "formula": "",
-    "save": {
-      "ability": "dex",
-      "dc": 15,
-      "scaling": "flat"
-    },
-    "armor": {
-      "value": 10
-    },
-    "hp": {
-      "value": 0,
-      "max": 0,
-      "dt": null,
-      "conditions": ""
-    },
-    "weaponType": "simpleR",
-    "properties": {
-      "amm": false,
-      "lgt": false,
-      "hvy": false,
-      "fin": false,
-      "fir": true,
-      "foc": false,
-      "rch": false,
-      "rel": true,
-      "ret": false,
-      "spc": true,
-      "thr": false,
-      "two": false,
-      "ver": false,
-      "lod": false
-    },
-    "proficient": true
-  },
   "flags": {
     "betterRolls5e": {
       "critRange": {
@@ -183,5 +80,122 @@
   },
   "img": "systems/dnd5e/icons/skills/weapon_37.jpg",
   "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HU4lNUAme2XmxfAN]{Weapon Group: Small Arms, One-Handed}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 60px;\"><span class=\"fontstyle0\">Machine pistol </span></td>\n<td style=\"width: 29px;\"><span class=\"fontstyle0\">300 </span></td>\n<td style=\"width: 76px;\"><span class=\"fontstyle0\">1d4 piercing </span></td>\n<td style=\"width: 56px;\"><span class=\"fontstyle0\">50/200 </span></td>\n<td style=\"width: 36px;\"><span class=\"fontstyle0\">3 lb. </span></td>\n<td style=\"width: 133px;\"><span class=\"fontstyle0\">Auto (1d6), reload (20 shots)</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.450g1kbvRQoe1x5P]{Auto 1d6}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HE1gIc0o7bZeLjFT]{Burst Fire}</p>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.QjoW3JNAsq3eJt4s]{Reload 20 shots}</p>\n<p>&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 149",
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": 300,
+    "attuned": false,
+    "equipped": true,
+    "rarity": "Common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 50,
+      "long": 200,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 20,
+      "max": 20,
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d4 + @mod",
+          "piercing"
+        ],
+        [
+          "1d6 + @mod",
+          "piercing"
+        ],
+        [
+          "1d4",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleR",
+    "properties": {
+      "amm": false,
+      "lgt": false,
+      "hvy": false,
+      "fin": false,
+      "fir": true,
+      "foc": false,
+      "rch": false,
+      "rel": true,
+      "ret": false,
+      "spc": true,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "lod": false
+    },
+    "proficient": true
+  },
+  "folder": null,
+  "sort": 0,
   "_key": "!items!Ujt4TALSqKAVYmbI"
 }

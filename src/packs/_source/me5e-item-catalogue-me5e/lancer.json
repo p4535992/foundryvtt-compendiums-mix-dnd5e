@@ -1,11 +1,24 @@
 {
   "name": "Lancer",
-  "permission": {
-    "default": 0,
-    "N8RgN1jdDFyXuWNq": 3
-  },
   "type": "weapon",
-  "data": {
+  "flags": {},
+  "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/rarassault.svg",
+  "_id": "TuBiIuMDo1PGNQxh",
+  "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
     "description": {
       "value": "<ul>\n<li>Range: 20/60m</li>\n<li>Heat: 8</li>\n</ul>\n<p>Somewhat of a relic and hard to come by, the M-7 does not use thermal clips. Instead, use a d8 to track the \\\"heat\\\". Whenever you make a ranged attack with the weapon, spin down the die 1 face. Every round that you don't fire the weapon, spin the die up 2 faces. This represents the weapon internally cooling off. If you ever spin down the die to 0, the weapon jams and cannot be fired again this combat. If you make a Burst Fire attack, spin down the die by 2.</p>\n<p>&nbsp;</p>",
       "chat": "",
@@ -13,7 +26,10 @@
     },
     "source": "Me5e",
     "quantity": 1,
-    "weight": 2,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
     "price": 37000,
     "attuned": false,
     "equipped": false,
@@ -21,7 +37,7 @@
     "identified": true,
     "activation": {
       "type": "",
-      "cost": 0,
+      "cost": null,
       "condition": ""
     },
     "duration": {
@@ -39,7 +55,7 @@
       "units": ""
     },
     "uses": {
-      "value": 0,
+      "value": null,
       "max": 0,
       "per": null
     },
@@ -103,9 +119,7 @@
     },
     "proficient": true
   },
-  "flags": {},
-  "img": "modules/compendiums-mix-dnd5e/assets/me5e/icons/rarassault.svg",
-  "_id": "TuBiIuMDo1PGNQxh",
-  "effects": [],
+  "folder": null,
+  "sort": 0,
   "_key": "!items!TuBiIuMDo1PGNQxh"
 }

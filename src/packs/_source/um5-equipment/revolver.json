@@ -1,102 +1,7 @@
 {
   "_id": "NGIwkJKqyAdekrFo",
   "name": "Revolver",
-  "permission": {
-    "default": 0,
-    "qtb8j5Fh7Hu0wRrz": 3
-  },
   "type": "weapon",
-  "data": {
-    "description": {
-      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HU4lNUAme2XmxfAN]{Weapon Group: Small Arms, One-Handed}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 57px;\"><span class=\"fontstyle0\">Revolver </span></td>\n<td style=\"width: 29px;\"><span class=\"fontstyle0\">150 </span></td>\n<td style=\"width: 74px;\"><span class=\"fontstyle0\">1d4 piercing </span></td>\n<td style=\"width: 48px;\"><span class=\"fontstyle0\">50/250 </span></td>\n<td style=\"width: 33px;\"><span class=\"fontstyle0\">2 lb. </span></td>\n<td style=\"width: 149px;\"><span class=\"fontstyle0\">Feed (6 shots), light</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.bY9owuVfWrNWp8NV]{Light}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.R1ekSNyjgw3v0svx]{Feed 6 shots}&nbsp;</p>",
-      "chat": "",
-      "unidentified": ""
-    },
-    "source": "UM5 p.76",
-    "quantity": 1,
-    "weight": 1,
-    "price": 200,
-    "attuned": false,
-    "equipped": false,
-    "rarity": "Common",
-    "identified": true,
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
-    "duration": {
-      "value": 0,
-      "units": ""
-    },
-    "target": {
-      "value": 0,
-      "units": "",
-      "type": ""
-    },
-    "range": {
-      "value": 50,
-      "long": 250,
-      "units": "ft"
-    },
-    "uses": {
-      "value": 6,
-      "max": 6,
-      "per": "charges"
-    },
-    "consume": {
-      "type": "",
-      "target": "",
-      "amount": null
-    },
-    "ability": "",
-    "actionType": "rwak",
-    "attackBonus": 0,
-    "chatFlavor": "",
-    "critical": null,
-    "damage": {
-      "parts": [
-        [
-          "1d4 + @mod",
-          "piercing"
-        ]
-      ],
-      "versatile": ""
-    },
-    "formula": "",
-    "save": {
-      "ability": "",
-      "dc": null,
-      "scaling": "spell"
-    },
-    "armor": {
-      "value": 10
-    },
-    "hp": {
-      "value": 0,
-      "max": 0,
-      "dt": null,
-      "conditions": ""
-    },
-    "weaponType": "simpleR",
-    "properties": {
-      "amm": false,
-      "lgt": true,
-      "hvy": false,
-      "fin": false,
-      "fir": true,
-      "foc": false,
-      "rch": false,
-      "rel": false,
-      "ret": false,
-      "spc": true,
-      "thr": false,
-      "two": false,
-      "ver": false,
-      "lod": false
-    },
-    "proficient": false
-  },
   "flags": {
     "betterRolls5e": {
       "critRange": {
@@ -169,5 +74,114 @@
   },
   "img": "systems/dnd5e/icons/skills/weapon_37.jpg",
   "effects": [],
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "system": {
+    "description": {
+      "value": "<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.HU4lNUAme2XmxfAN]{Weapon Group: Small Arms, One-Handed}</p>\n<table class=\"NormalTable\">\n<tbody>\n<tr>\n<td style=\"width: 57px;\"><span class=\"fontstyle0\">Revolver </span></td>\n<td style=\"width: 29px;\"><span class=\"fontstyle0\">150 </span></td>\n<td style=\"width: 74px;\"><span class=\"fontstyle0\">1d4 piercing </span></td>\n<td style=\"width: 48px;\"><span class=\"fontstyle0\">50/250 </span></td>\n<td style=\"width: 33px;\"><span class=\"fontstyle0\">2 lb. </span></td>\n<td style=\"width: 149px;\"><span class=\"fontstyle0\">Feed (6 shots), light</span></td>\n</tr>\n</tbody>\n</table>\n<p>@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.bY9owuVfWrNWp8NV]{Light}&nbsp;@Compendium[compendiums-mix-dnd5e.um5-weaponproperties.R1ekSNyjgw3v0svx]{Feed 6 shots}&nbsp;</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "UM5 p.76",
+    "quantity": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "price": 200,
+    "attuned": false,
+    "equipped": false,
+    "rarity": "Common",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 0,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 50,
+      "long": 250,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 6,
+      "max": 6,
+      "per": "charges"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "1d4 + @mod",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 10
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "weaponType": "simpleR",
+    "properties": {
+      "amm": false,
+      "lgt": true,
+      "hvy": false,
+      "fin": false,
+      "fir": true,
+      "foc": false,
+      "rch": false,
+      "rel": false,
+      "ret": false,
+      "spc": true,
+      "thr": false,
+      "two": false,
+      "ver": false,
+      "lod": false
+    },
+    "proficient": false
+  },
+  "folder": null,
+  "sort": 0,
   "_key": "!items!NGIwkJKqyAdekrFo"
 }
